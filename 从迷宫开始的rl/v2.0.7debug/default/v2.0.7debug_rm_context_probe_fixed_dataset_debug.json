@@ -1,0 +1,826 @@
+{
+  "trajectory_types": {
+    "bfs_success": {
+      "n": 3424,
+      "success_rate": 1.0,
+      "wall_mean": 0.0,
+      "visit2_mean": 0.0,
+      "visit3plus_mean": 0.0,
+      "max_visit_mean": 1.0,
+      "gap_mean": 0.0,
+      "final_dist_mean": 0.0
+    },
+    "success_explore": {
+      "n": 1117,
+      "success_rate": 1.0,
+      "wall_mean": 0.0,
+      "visit2_mean": 0.5040286481647269,
+      "visit3plus_mean": 0.0,
+      "max_visit_mean": 1.3482542524619516,
+      "gap_mean": 2.9221128021486122,
+      "final_dist_mean": 0.0
+    },
+    "recovery_success": {
+      "n": 1200,
+      "success_rate": 1.0,
+      "wall_mean": 0.0,
+      "visit2_mean": 1.56,
+      "visit3plus_mean": 0.0,
+      "max_visit_mean": 2.0,
+      "gap_mean": 2.0,
+      "final_dist_mean": 0.0
+    },
+    "explore_timeout": {
+      "n": 1126,
+      "success_rate": 0.0,
+      "wall_mean": 0.0,
+      "visit2_mean": 20.622557726465363,
+      "visit3plus_mean": 3.1154529307282415,
+      "max_visit_mean": 2.869449378330373,
+      "gap_mean": 0.0,
+      "final_dist_mean": 8.007992895204262
+    },
+    "revisit_timeout": {
+      "n": 1200,
+      "success_rate": 0.0,
+      "wall_mean": 0.0,
+      "visit2_mean": 12.500833333333333,
+      "visit3plus_mean": 34.06666666666667,
+      "max_visit_mean": 11.689166666666667,
+      "gap_mean": 0.0,
+      "final_dist_mean": 7.008333333333334
+    },
+    "loop_timeout": {
+      "n": 1200,
+      "success_rate": 0.0,
+      "wall_mean": 0.0,
+      "visit2_mean": 2.0,
+      "visit3plus_mean": 56.69083333333333,
+      "max_visit_mean": 30.596666666666668,
+      "gap_mean": 0.0,
+      "final_dist_mean": 6.351666666666667
+    },
+    "wall_timeout": {
+      "n": 1146,
+      "success_rate": 0.0,
+      "wall_mean": 29.805410122164048,
+      "visit2_mean": 7.318499127399651,
+      "visit3plus_mean": 44.689354275741714,
+      "max_visit_mean": 34.18062827225131,
+      "gap_mean": 0.0,
+      "final_dist_mean": 6.7364746945898775
+    }
+  },
+  "badness": {
+    "bfs_success": {
+      "B_outcome": 0.0,
+      "B_wallPres": 0.0,
+      "B_wallCount": 0.0,
+      "B_wallExp": 0.0,
+      "B_visit": 0.0,
+      "B_path": 0.0,
+      "B_total": 0.0
+    },
+    "success_explore": {
+      "B_outcome": 0.0,
+      "B_wallPres": 0.0,
+      "B_wallCount": 0.0,
+      "B_wallExp": 0.0,
+      "B_visit": 0.0001968861906893465,
+      "B_path": 0.05481391914321898,
+      "B_total": 0.02760384576229884
+    },
+    "recovery_success": {
+      "B_outcome": 0.0,
+      "B_wallPres": 0.0,
+      "B_wallCount": 0.0,
+      "B_wallExp": 0.0,
+      "B_visit": 0.000609375,
+      "B_path": 0.03785688060389496,
+      "B_total": 0.019537815301947477
+    },
+    "explore_timeout": {
+      "B_outcome": 1.0,
+      "B_wallPres": 0.0,
+      "B_wallCount": 0.0,
+      "B_wallExp": 0.0,
+      "B_visit": 0.011098121114564836,
+      "B_path": 0.7691938314959887,
+      "B_total": 1.3956950368625591
+    },
+    "revisit_timeout": {
+      "B_outcome": 1.0,
+      "B_wallPres": 0.0,
+      "B_wallCount": 0.0,
+      "B_wallExp": 0.0,
+      "B_visit": 0.2017636921875,
+      "B_path": 0.6621881411301689,
+      "B_total": 1.5328577627525843
+    },
+    "loop_timeout": {
+      "B_outcome": 1.0,
+      "B_wallPres": 0.0,
+      "B_wallCount": 0.0,
+      "B_wallExp": 0.0,
+      "B_visit": 0.7738711458333335,
+      "B_path": 0.5801213016859301,
+      "B_total": 2.063931796676298
+    },
+    "wall_timeout": {
+      "B_outcome": 1.0,
+      "B_wallPres": 1.0,
+      "B_wallCount": 0.46570953315881325,
+      "B_wallExp": 0.3576830876120807,
+      "B_visit": 0.4962122521269634,
+      "B_path": 0.624838911995275,
+      "B_total": 3.1663147957366817
+    }
+  },
+  "pair_buckets": {
+    "outcome": {
+      "n": 4590,
+      "mean": 0.7523188311071581,
+      "p10": 0.7523188311071581,
+      "p50": 0.7523188311071581,
+      "p90": 0.7523188311071581,
+      "min": 0.7523188311071581,
+      "max": 0.7523188311071581
+    },
+    "wall_presence": {
+      "n": 3364,
+      "mean": 0.4251666557732318,
+      "p10": 0.4251666557732318,
+      "p50": 0.4251666557732318,
+      "p90": 0.4251666557732318,
+      "min": 0.4251666557732318,
+      "max": 0.4251666557732318
+    },
+    "wall_exp": {
+      "n": 3364,
+      "mean": 0.22145690756603634,
+      "p10": 0.10055007779408248,
+      "p50": 0.10175893637698977,
+      "p90": 0.3647613395596072,
+      "min": 0.10055007779408248,
+      "max": 0.3789661452501435
+    },
+    "revisit_loop": {
+      "n": 4717,
+      "mean": 0.1820566852992418,
+      "p10": 0.08,
+      "p50": 0.21933408538611265,
+      "p90": 0.23327331309860583,
+      "min": 0.08,
+      "max": 0.236477950173759
+    },
+    "path": {
+      "n": 2317,
+      "mean": 0.020247862497841492,
+      "p10": 0.017874549807766992,
+      "p50": 0.018627274505177788,
+      "p90": 0.026185673627673732,
+      "min": 0.017482686960403587,
+      "max": 0.05683829153888427
+    },
+    "cpl_recover_wall": {
+      "n": 1146,
+      "mean": 0.3759478776748044,
+      "p10": 0.2689767927784974,
+      "p50": 0.35062600558374973,
+      "p90": 0.46985988204043144,
+      "min": 0.2550883626971096,
+      "max": 0.47259340462668176
+    },
+    "cpl_explore_wall": {
+      "n": 1063,
+      "mean": 0.2992185012480691,
+      "p10": 0.19770055133450887,
+      "p50": 0.26951990256387204,
+      "p90": 0.39031721084714355,
+      "min": 0.18496256799013647,
+      "max": 0.3929214787516873
+    },
+    "cpl_recover_loop": {
+      "n": 1200,
+      "mean": 0.2543814978019847,
+      "p10": 0.2501318093165482,
+      "p50": 0.2549563311590876,
+      "p90": 0.25798223912239304,
+      "min": 0.23723643258834903,
+      "max": 0.26079605232139136
+    },
+    "cpl_visit_toward": {
+      "n": 1200,
+      "mean": 0.18189467614491006,
+      "p10": 0.13482430104761928,
+      "p50": 0.1885410380345049,
+      "p90": 0.21540007631504737,
+      "min": 0.0941729732512553,
+      "max": 0.23870721567443537
+    }
+  },
+  "maze_summaries": [
+    {
+      "maze_id": 0,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 1,
+      "difficulty": "medium",
+      "n_bfs_paths": 3,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 2,
+      "difficulty": "hard",
+      "n_bfs_paths": 8,
+      "n_family_traj": 20
+    },
+    {
+      "maze_id": 3,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 4,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 5,
+      "difficulty": "medium",
+      "n_bfs_paths": 3,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 6,
+      "difficulty": "easy",
+      "n_bfs_paths": 4,
+      "n_family_traj": 19
+    },
+    {
+      "maze_id": 7,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 8,
+      "difficulty": "hard",
+      "n_bfs_paths": 1,
+      "n_family_traj": 20
+    },
+    {
+      "maze_id": 9,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 10,
+      "difficulty": "easy",
+      "n_bfs_paths": 7,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 11,
+      "difficulty": "easy",
+      "n_bfs_paths": 1,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 12,
+      "difficulty": "hard",
+      "n_bfs_paths": 8,
+      "n_family_traj": 16
+    },
+    {
+      "maze_id": 13,
+      "difficulty": "medium",
+      "n_bfs_paths": 2,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 14,
+      "difficulty": "medium",
+      "n_bfs_paths": 4,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 15,
+      "difficulty": "hard",
+      "n_bfs_paths": 1,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 16,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 20
+    },
+    {
+      "maze_id": 17,
+      "difficulty": "medium",
+      "n_bfs_paths": 4,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 18,
+      "difficulty": "easy",
+      "n_bfs_paths": 8,
+      "n_family_traj": 19
+    },
+    {
+      "maze_id": 19,
+      "difficulty": "hard",
+      "n_bfs_paths": 1,
+      "n_family_traj": 17
+    },
+    {
+      "maze_id": 20,
+      "difficulty": "hard",
+      "n_bfs_paths": 8,
+      "n_family_traj": 19
+    },
+    {
+      "maze_id": 21,
+      "difficulty": "hard",
+      "n_bfs_paths": 8,
+      "n_family_traj": 19
+    },
+    {
+      "maze_id": 22,
+      "difficulty": "medium",
+      "n_bfs_paths": 2,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 23,
+      "difficulty": "hard",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 24,
+      "difficulty": "medium",
+      "n_bfs_paths": 6,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 25,
+      "difficulty": "medium",
+      "n_bfs_paths": 1,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 26,
+      "difficulty": "hard",
+      "n_bfs_paths": 8,
+      "n_family_traj": 18
+    },
+    {
+      "maze_id": 27,
+      "difficulty": "medium",
+      "n_bfs_paths": 5,
+      "n_family_traj": 20
+    },
+    {
+      "maze_id": 28,
+      "difficulty": "easy",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 29,
+      "difficulty": "medium",
+      "n_bfs_paths": 3,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 30,
+      "difficulty": "hard",
+      "n_bfs_paths": 6,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 31,
+      "difficulty": "hard",
+      "n_bfs_paths": 4,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 32,
+      "difficulty": "medium",
+      "n_bfs_paths": 1,
+      "n_family_traj": 18
+    },
+    {
+      "maze_id": 33,
+      "difficulty": "easy",
+      "n_bfs_paths": 1,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 34,
+      "difficulty": "medium",
+      "n_bfs_paths": 7,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 35,
+      "difficulty": "hard",
+      "n_bfs_paths": 2,
+      "n_family_traj": 19
+    },
+    {
+      "maze_id": 36,
+      "difficulty": "medium",
+      "n_bfs_paths": 4,
+      "n_family_traj": 20
+    },
+    {
+      "maze_id": 37,
+      "difficulty": "medium",
+      "n_bfs_paths": 4,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 38,
+      "difficulty": "easy",
+      "n_bfs_paths": 7,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 39,
+      "difficulty": "hard",
+      "n_bfs_paths": 4,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 40,
+      "difficulty": "hard",
+      "n_bfs_paths": 8,
+      "n_family_traj": 20
+    },
+    {
+      "maze_id": 41,
+      "difficulty": "hard",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 42,
+      "difficulty": "easy",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 43,
+      "difficulty": "easy",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 44,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 45,
+      "difficulty": "medium",
+      "n_bfs_paths": 2,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 46,
+      "difficulty": "hard",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 47,
+      "difficulty": "hard",
+      "n_bfs_paths": 8,
+      "n_family_traj": 19
+    },
+    {
+      "maze_id": 48,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 20
+    },
+    {
+      "maze_id": 49,
+      "difficulty": "hard",
+      "n_bfs_paths": 2,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 50,
+      "difficulty": "medium",
+      "n_bfs_paths": 1,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 51,
+      "difficulty": "medium",
+      "n_bfs_paths": 1,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 52,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 53,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 54,
+      "difficulty": "hard",
+      "n_bfs_paths": 2,
+      "n_family_traj": 16
+    },
+    {
+      "maze_id": 55,
+      "difficulty": "medium",
+      "n_bfs_paths": 5,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 56,
+      "difficulty": "medium",
+      "n_bfs_paths": 3,
+      "n_family_traj": 20
+    },
+    {
+      "maze_id": 57,
+      "difficulty": "easy",
+      "n_bfs_paths": 4,
+      "n_family_traj": 19
+    },
+    {
+      "maze_id": 58,
+      "difficulty": "hard",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 59,
+      "difficulty": "easy",
+      "n_bfs_paths": 6,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 60,
+      "difficulty": "hard",
+      "n_bfs_paths": 3,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 61,
+      "difficulty": "hard",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 62,
+      "difficulty": "hard",
+      "n_bfs_paths": 4,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 63,
+      "difficulty": "medium",
+      "n_bfs_paths": 5,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 64,
+      "difficulty": "medium",
+      "n_bfs_paths": 5,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 65,
+      "difficulty": "hard",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 66,
+      "difficulty": "hard",
+      "n_bfs_paths": 2,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 67,
+      "difficulty": "hard",
+      "n_bfs_paths": 6,
+      "n_family_traj": 18
+    },
+    {
+      "maze_id": 68,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 69,
+      "difficulty": "hard",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 70,
+      "difficulty": "hard",
+      "n_bfs_paths": 6,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 71,
+      "difficulty": "easy",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 72,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 73,
+      "difficulty": "medium",
+      "n_bfs_paths": 3,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 74,
+      "difficulty": "medium",
+      "n_bfs_paths": 4,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 75,
+      "difficulty": "medium",
+      "n_bfs_paths": 3,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 76,
+      "difficulty": "medium",
+      "n_bfs_paths": 6,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 77,
+      "difficulty": "hard",
+      "n_bfs_paths": 2,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 78,
+      "difficulty": "hard",
+      "n_bfs_paths": 6,
+      "n_family_traj": 18
+    },
+    {
+      "maze_id": 79,
+      "difficulty": "hard",
+      "n_bfs_paths": 2,
+      "n_family_traj": 18
+    },
+    {
+      "maze_id": 80,
+      "difficulty": "easy",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 81,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 82,
+      "difficulty": "medium",
+      "n_bfs_paths": 6,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 83,
+      "difficulty": "hard",
+      "n_bfs_paths": 1,
+      "n_family_traj": 18
+    },
+    {
+      "maze_id": 84,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 85,
+      "difficulty": "medium",
+      "n_bfs_paths": 2,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 86,
+      "difficulty": "hard",
+      "n_bfs_paths": 4,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 87,
+      "difficulty": "hard",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 88,
+      "difficulty": "hard",
+      "n_bfs_paths": 8,
+      "n_family_traj": 20
+    },
+    {
+      "maze_id": 89,
+      "difficulty": "easy",
+      "n_bfs_paths": 8,
+      "n_family_traj": 20
+    },
+    {
+      "maze_id": 90,
+      "difficulty": "hard",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 91,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 92,
+      "difficulty": "hard",
+      "n_bfs_paths": 8,
+      "n_family_traj": 18
+    },
+    {
+      "maze_id": 93,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 94,
+      "difficulty": "medium",
+      "n_bfs_paths": 1,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 95,
+      "difficulty": "hard",
+      "n_bfs_paths": 1,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 96,
+      "difficulty": "easy",
+      "n_bfs_paths": 4,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 97,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 98,
+      "difficulty": "medium",
+      "n_bfs_paths": 6,
+      "n_family_traj": 21
+    },
+    {
+      "maze_id": 99,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21
+    }
+  ],
+  "total_trajectories": 10413,
+  "total_pairs": 22961
+}

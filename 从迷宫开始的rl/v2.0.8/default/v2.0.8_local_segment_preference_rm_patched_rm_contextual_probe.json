@@ -1,0 +1,110 @@
+{
+  "toward_no_visit": {
+    "n": 2312,
+    "mean": 0.6256097450795597,
+    "std": 0.7607285966880116,
+    "p10": -1.0,
+    "p50": 0.9998560547828674,
+    "p90": 0.9999986290931702,
+    "pct_neg_one": 0.15873702422145328,
+    "pct_pos_one": 0.7703287197231834
+  },
+  "toward_visit2": {
+    "n": 583,
+    "mean": -0.7351342441568448,
+    "std": 0.6604185824008374,
+    "p10": -1.0,
+    "p50": -1.0,
+    "p90": 0.9921847939491276,
+    "pct_neg_one": 0.8421955403087479,
+    "pct_pos_one": 0.10463121783876501
+  },
+  "toward_visit3plus": {
+    "n": 1626,
+    "mean": -0.9999769075257019,
+    "std": 0.0005125340652260337,
+    "p10": -1.0,
+    "p50": -1.0,
+    "p90": -1.0,
+    "pct_neg_one": 1.0,
+    "pct_pos_one": 0.0
+  },
+  "away_no_visit": {
+    "n": 834,
+    "mean": -0.34872259812139766,
+    "std": 0.8883331174395128,
+    "p10": -1.0,
+    "p50": -0.9985902309417725,
+    "p90": 0.9997243165969849,
+    "pct_neg_one": 0.5743405275779376,
+    "pct_pos_one": 0.2158273381294964
+  },
+  "away_visit2": {
+    "n": 625,
+    "mean": -0.8011831148937345,
+    "std": 0.5612749172533584,
+    "p10": -1.0,
+    "p50": -1.0,
+    "p90": -0.2430167704820627,
+    "pct_neg_one": 0.8416,
+    "pct_pos_one": 0.0496
+  },
+  "away_visit3plus": {
+    "n": 1580,
+    "mean": -0.9983677010558829,
+    "std": 0.05155927053781768,
+    "p10": -1.0,
+    "p50": -1.0,
+    "p90": -1.0,
+    "pct_neg_one": 0.9987341772151899,
+    "pct_pos_one": 0.0
+  },
+  "wall_first": {
+    "n": 30,
+    "mean": -0.9997421602408091,
+    "std": 0.0009884276499896052,
+    "p10": -1.0,
+    "p50": -1.0,
+    "p90": -0.9999995410442353,
+    "pct_neg_one": 1.0,
+    "pct_pos_one": 0.0
+  },
+  "wall_repeated": {
+    "n": 1026,
+    "mean": -1.0,
+    "std": 0.0,
+    "p10": -1.0,
+    "p50": -1.0,
+    "p90": -1.0,
+    "pct_neg_one": 1.0,
+    "pct_pos_one": 0.0
+  },
+  "same_dist_visit2": {
+    "n": 0,
+    "mean": NaN,
+    "std": NaN,
+    "p10": NaN,
+    "p50": NaN,
+    "p90": NaN,
+    "pct_neg_one": NaN,
+    "pct_pos_one": NaN
+  },
+  "same_dist_visit3plus": {
+    "n": 0,
+    "mean": NaN,
+    "std": NaN,
+    "p10": NaN,
+    "p50": NaN,
+    "p90": NaN,
+    "pct_neg_one": NaN,
+    "pct_pos_one": NaN
+  },
+  "gaps": {
+    "toward_no_visit_minus_away_no_visit": 0.9743323432009574,
+    "toward_visit2_minus_away_visit2": 0.0660488707368897,
+    "toward_visit3plus_minus_away_visit3plus": -0.0016092064698189912,
+    "same_dist_visit2_minus_same_dist_visit3plus": NaN,
+    "wall_first_minus_wall_repeated": 0.0002578397591909143
+  },
+  "warnings": []
+}

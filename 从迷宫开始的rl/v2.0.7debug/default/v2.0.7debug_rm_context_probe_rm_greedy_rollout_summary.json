@@ -1,0 +1,25 @@
+{
+  "summary": {
+    "n": 100,
+    "success": 1.0,
+    "wall_timeout": 0.0,
+    "loop_timeout": 0.0,
+    "explore_timeout": 0.0,
+    "avg_steps": 11.05,
+    "avg_wall_hits": 0.0,
+    "avg_visit2": 0.0,
+    "avg_visit3plus": 0.0,
+    "avg_visit4plus": 0.0,
+    "avg_max_visit": 1.0,
+    "avg_bfs_gap": 0.0
+  },
+  "action_ranking": {
+    "toward_chosen_rate": 1.0,
+    "away_chosen_rate": 0.0,
+    "wall_chosen_rate": 0.0,
+    "visit2_toward_chosen_rate": 0.0,
+    "visit2_away_chosen_rate": 0.0,
+    "repeat_wall_chosen_rate": 0.0,
+    "all_actions_saturated_rate": 0.25701357466063346
+  }
+}

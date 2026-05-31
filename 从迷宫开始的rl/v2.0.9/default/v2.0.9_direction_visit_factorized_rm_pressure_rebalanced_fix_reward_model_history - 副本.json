@@ -1,0 +1,60 @@
+{
+  "history": {
+    "train_loss": [
+      0.8089966888611133,
+      0.5476144939308336,
+      0.5104227303224202,
+      0.5023457667178656,
+      0.4948920289263923,
+      0.48879595797442826,
+      0.48236370695060526,
+      0.4770506611589849
+    ],
+    "val_loss": [
+      0.7020882387955983,
+      0.510250519712766,
+      0.5090228229761123,
+      0.4976242060462634,
+      0.4969735835989316,
+      0.4911572724580765,
+      0.48389929433663686,
+      0.4798926120003065
+    ],
+    "train_acc": [
+      0.6031619822661552,
+      0.8685835799169258,
+      0.8949704142011834,
+      0.9061575443786982,
+      0.9167899408284024,
+      0.9253420857988166,
+      0.9318602071005917,
+      0.9355676775500619
+    ],
+    "val_acc": [
+      0.7555611550807952,
+      0.887676410873731,
+      0.8991683463255564,
+      0.9085433463255564,
+      0.9215809802214304,
+      0.9231434802214304,
+      0.9335433463255565,
+      0.9332829296588898
+    ]
+  },
+  "best_val_loss": 0.4798926120003065,
+  "best_val_acc": 0.9335433463255565,
+  "selection_metrics": {
+    "contextual_gap": 1.3338071919046344,
+    "pure_argmax_success": 0.3,
+    "low_saturation_score": -0.7579099597585512,
+    "probe_mazes": 20
+  },
+  "paths": {
+    "best_loss": "v2.0.9\\default\\v2.0.9_direction_visit_factorized_rm_pressure_rebalanced_fix_reward_model_best_loss.pt",
+    "best_acc": "v2.0.9\\default\\v2.0.9_direction_visit_factorized_rm_pressure_rebalanced_fix_reward_model_best_acc.pt",
+    "best_contextual_gap": "v2.0.9\\default\\v2.0.9_direction_visit_factorized_rm_pressure_rebalanced_fix_reward_model_best_contextual_gap.pt",
+    "best_pure_argmax": "v2.0.9\\default\\v2.0.9_direction_visit_factorized_rm_pressure_rebalanced_fix_reward_model_best_pure_argmax.pt",
+    "best_low_saturation": "v2.0.9\\default\\v2.0.9_direction_visit_factorized_rm_pressure_rebalanced_fix_reward_model_best_low_saturation.pt",
+    "last": "v2.0.9\\default\\v2.0.9_direction_visit_factorized_rm_pressure_rebalanced_fix_reward_model_last.pt"
+  }
+}

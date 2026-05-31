@@ -1,0 +1,3015 @@
+{
+  "tag": "q_policy_test",
+  "total_reward": -100.1669127783183,
+  "steps": 64,
+  "rows": [
+    {
+      "t": 0,
+      "pos": [
+        0,
+        0
+      ],
+      "action": 3,
+      "q_values": [
+        -72.58336639404297,
+        -72.1881103515625,
+        -71.9443359375,
+        -70.71637725830078
+      ],
+      "chosen_rm_reward": 1.7248999105897762,
+      "chosen_category": "toward_goal",
+      "chosen_delta_d": 1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 15,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "away_goal",
+          "delta_d": -1
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 3,
+          "rm_reward": 1.7248999105897762,
+          "category": "toward_goal",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 1,
+      "pos": [
+        0,
+        1
+      ],
+      "action": 3,
+      "q_values": [
+        -74.54966735839844,
+        -75.06558227539062,
+        -74.21058654785156,
+        -72.95551300048828
+      ],
+      "chosen_rm_reward": 1.6550887055319163,
+      "chosen_category": "toward_goal",
+      "chosen_delta_d": 1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 14,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit2",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": 1.6550887055319163,
+          "category": "toward_goal",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 2,
+      "pos": [
+        0,
+        2
+      ],
+      "action": 3,
+      "q_values": [
+        -75.91825866699219,
+        -76.28166198730469,
+        -75.55964660644531,
+        -74.85997009277344
+      ],
+      "chosen_rm_reward": 1.6782890194660787,
+      "chosen_category": "toward_goal",
+      "chosen_delta_d": 1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 13,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit2",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": 1.6782890194660787,
+          "category": "toward_goal",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 3,
+      "pos": [
+        0,
+        3
+      ],
+      "action": 2,
+      "q_values": [
+        -74.88325500488281,
+        -74.49781799316406,
+        -73.8631820678711,
+        -74.09807586669922
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit2",
+      "chosen_delta_d": -1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 14,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit2",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": 1.7248455197525672,
+          "category": "toward_goal",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 4,
+      "pos": [
+        0,
+        2
+      ],
+      "action": 3,
+      "q_values": [
+        -75.80570983886719,
+        -76.4037857055664,
+        -75.52249908447266,
+        -75.0320053100586
+      ],
+      "chosen_rm_reward": -1.7249835018008364,
+      "chosen_category": "visit2",
+      "chosen_delta_d": 1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 13,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit2",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.7249835018008364,
+          "category": "visit2",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 5,
+      "pos": [
+        0,
+        3
+      ],
+      "action": 2,
+      "q_values": [
+        -75.44049072265625,
+        -75.42221069335938,
+        -74.58747100830078,
+        -75.04271697998047
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit3",
+      "chosen_delta_d": -1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 14,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit3",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.6360063640383113,
+          "category": "toward_goal",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 6,
+      "pos": [
+        0,
+        2
+      ],
+      "action": 3,
+      "q_values": [
+        -74.26005554199219,
+        -75.05986785888672,
+        -74.04839324951172,
+        -73.69258880615234
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit3",
+      "chosen_delta_d": 1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 13,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit2",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "visit3",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 7,
+      "pos": [
+        0,
+        3
+      ],
+      "action": 2,
+      "q_values": [
+        -74.69773864746094,
+        -74.93972778320312,
+        -73.93560028076172,
+        -74.59066772460938
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": -1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 14,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "toward_goal",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 8,
+      "pos": [
+        0,
+        2
+      ],
+      "action": 3,
+      "q_values": [
+        -72.39218139648438,
+        -73.25137329101562,
+        -72.1790771484375,
+        -71.92851257324219
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": 1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 13,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit2",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 9,
+      "pos": [
+        0,
+        3
+      ],
+      "action": 2,
+      "q_values": [
+        -73.17670440673828,
+        -73.61282348632812,
+        -72.50276184082031,
+        -73.20935821533203
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": -1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 14,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "toward_goal",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 10,
+      "pos": [
+        0,
+        2
+      ],
+      "action": 3,
+      "q_values": [
+        -70.75308990478516,
+        -71.6368408203125,
+        -70.55107116699219,
+        -70.34772491455078
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": 1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 13,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit2",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 11,
+      "pos": [
+        0,
+        3
+      ],
+      "action": 2,
+      "q_values": [
+        -71.94647216796875,
+        -72.49661254882812,
+        -71.32259368896484,
+        -72.0592041015625
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": -1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 14,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "toward_goal",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 12,
+      "pos": [
+        0,
+        2
+      ],
+      "action": 3,
+      "q_values": [
+        -69.28311157226562,
+        -70.0842514038086,
+        -69.07089233398438,
+        -68.91703033447266
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": 1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 13,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit2",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 13,
+      "pos": [
+        0,
+        3
+      ],
+      "action": 2,
+      "q_values": [
+        -70.50300598144531,
+        -71.0040283203125,
+        -69.8907470703125,
+        -70.65248107910156
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": -1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 14,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "toward_goal",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 14,
+      "pos": [
+        0,
+        2
+      ],
+      "action": 3,
+      "q_values": [
+        -67.93817901611328,
+        -68.67005157470703,
+        -67.7056884765625,
+        -67.62178802490234
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": 1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 13,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit2",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 15,
+      "pos": [
+        0,
+        3
+      ],
+      "action": 2,
+      "q_values": [
+        -68.888916015625,
+        -69.29364013671875,
+        -68.27130126953125,
+        -68.9896469116211
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": -1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 14,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "toward_goal",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 16,
+      "pos": [
+        0,
+        2
+      ],
+      "action": 3,
+      "q_values": [
+        -66.46420288085938,
+        -67.13652038574219,
+        -66.21514129638672,
+        -66.16002655029297
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": 1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 13,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit2",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 17,
+      "pos": [
+        0,
+        3
+      ],
+      "action": 2,
+      "q_values": [
+        -66.68882751464844,
+        -66.99810028076172,
+        -66.05642700195312,
+        -66.68598937988281
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": -1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 14,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "toward_goal",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 18,
+      "pos": [
+        0,
+        2
+      ],
+      "action": 2,
+      "q_values": [
+        -65.81689453125,
+        -66.42713928222656,
+        -65.53617095947266,
+        -65.54789733886719
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit2",
+      "chosen_delta_d": -1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 15,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit2",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 19,
+      "pos": [
+        0,
+        1
+      ],
+      "action": 3,
+      "q_values": [
+        -66.36576843261719,
+        -66.99368286132812,
+        -66.37466430664062,
+        -65.8889389038086
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": 1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 14,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit2",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 20,
+      "pos": [
+        0,
+        2
+      ],
+      "action": 3,
+      "q_values": [
+        -64.81950378417969,
+        -65.34490203857422,
+        -64.56271362304688,
+        -64.4586410522461
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": 1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 13,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit3",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 21,
+      "pos": [
+        0,
+        3
+      ],
+      "action": 2,
+      "q_values": [
+        -64.68431854248047,
+        -64.872802734375,
+        -64.08667755126953,
+        -64.47278594970703
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": -1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 14,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "toward_goal",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 22,
+      "pos": [
+        0,
+        2
+      ],
+      "action": 3,
+      "q_values": [
+        -64.81950378417969,
+        -65.34490203857422,
+        -64.56271362304688,
+        -64.4586410522461
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": 1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 13,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit3",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 23,
+      "pos": [
+        0,
+        3
+      ],
+      "action": 2,
+      "q_values": [
+        -64.68431854248047,
+        -64.872802734375,
+        -64.08667755126953,
+        -64.47278594970703
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": -1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 14,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "toward_goal",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 24,
+      "pos": [
+        0,
+        2
+      ],
+      "action": 3,
+      "q_values": [
+        -64.81950378417969,
+        -65.34490203857422,
+        -64.56271362304688,
+        -64.4586410522461
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": 1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 13,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit3",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 25,
+      "pos": [
+        0,
+        3
+      ],
+      "action": 2,
+      "q_values": [
+        -64.68431854248047,
+        -64.872802734375,
+        -64.08667755126953,
+        -64.47278594970703
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": -1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 14,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "toward_goal",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 26,
+      "pos": [
+        0,
+        2
+      ],
+      "action": 3,
+      "q_values": [
+        -64.81950378417969,
+        -65.34490203857422,
+        -64.56271362304688,
+        -64.4586410522461
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": 1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 13,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit3",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 27,
+      "pos": [
+        0,
+        3
+      ],
+      "action": 2,
+      "q_values": [
+        -64.68431854248047,
+        -64.872802734375,
+        -64.08667755126953,
+        -64.47278594970703
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": -1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 14,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "toward_goal",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 28,
+      "pos": [
+        0,
+        2
+      ],
+      "action": 3,
+      "q_values": [
+        -64.81950378417969,
+        -65.34490203857422,
+        -64.56271362304688,
+        -64.4586410522461
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": 1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 13,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit3",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 29,
+      "pos": [
+        0,
+        3
+      ],
+      "action": 2,
+      "q_values": [
+        -64.68431854248047,
+        -64.872802734375,
+        -64.08667755126953,
+        -64.47278594970703
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": -1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 14,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "toward_goal",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 30,
+      "pos": [
+        0,
+        2
+      ],
+      "action": 3,
+      "q_values": [
+        -64.81950378417969,
+        -65.34490203857422,
+        -64.56271362304688,
+        -64.4586410522461
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": 1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 13,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit3",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 31,
+      "pos": [
+        0,
+        3
+      ],
+      "action": 2,
+      "q_values": [
+        -64.68431854248047,
+        -64.872802734375,
+        -64.08667755126953,
+        -64.47278594970703
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": -1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 14,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "toward_goal",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 32,
+      "pos": [
+        0,
+        2
+      ],
+      "action": 3,
+      "q_values": [
+        -64.81950378417969,
+        -65.34490203857422,
+        -64.56271362304688,
+        -64.4586410522461
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": 1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 13,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit3",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 33,
+      "pos": [
+        0,
+        3
+      ],
+      "action": 2,
+      "q_values": [
+        -64.68431854248047,
+        -64.872802734375,
+        -64.08667755126953,
+        -64.47278594970703
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": -1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 14,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "toward_goal",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 34,
+      "pos": [
+        0,
+        2
+      ],
+      "action": 3,
+      "q_values": [
+        -64.81950378417969,
+        -65.34490203857422,
+        -64.56271362304688,
+        -64.4586410522461
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": 1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 13,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit3",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 35,
+      "pos": [
+        0,
+        3
+      ],
+      "action": 2,
+      "q_values": [
+        -64.68431854248047,
+        -64.872802734375,
+        -64.08667755126953,
+        -64.47278594970703
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": -1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 14,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "toward_goal",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 36,
+      "pos": [
+        0,
+        2
+      ],
+      "action": 3,
+      "q_values": [
+        -64.81950378417969,
+        -65.34490203857422,
+        -64.56271362304688,
+        -64.4586410522461
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": 1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 13,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit3",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 37,
+      "pos": [
+        0,
+        3
+      ],
+      "action": 2,
+      "q_values": [
+        -64.68431854248047,
+        -64.872802734375,
+        -64.08667755126953,
+        -64.47278594970703
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": -1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 14,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "toward_goal",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 38,
+      "pos": [
+        0,
+        2
+      ],
+      "action": 3,
+      "q_values": [
+        -64.81950378417969,
+        -65.34490203857422,
+        -64.56271362304688,
+        -64.4586410522461
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": 1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 13,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit3",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 39,
+      "pos": [
+        0,
+        3
+      ],
+      "action": 2,
+      "q_values": [
+        -64.68431854248047,
+        -64.872802734375,
+        -64.08667755126953,
+        -64.47278594970703
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": -1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 14,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "toward_goal",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 40,
+      "pos": [
+        0,
+        2
+      ],
+      "action": 3,
+      "q_values": [
+        -64.81950378417969,
+        -65.34490203857422,
+        -64.56271362304688,
+        -64.4586410522461
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": 1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 13,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit3",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 41,
+      "pos": [
+        0,
+        3
+      ],
+      "action": 2,
+      "q_values": [
+        -64.68431854248047,
+        -64.872802734375,
+        -64.08667755126953,
+        -64.47278594970703
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": -1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 14,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "toward_goal",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 42,
+      "pos": [
+        0,
+        2
+      ],
+      "action": 3,
+      "q_values": [
+        -64.81950378417969,
+        -65.34490203857422,
+        -64.56271362304688,
+        -64.4586410522461
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": 1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 13,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit3",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 43,
+      "pos": [
+        0,
+        3
+      ],
+      "action": 2,
+      "q_values": [
+        -64.68431854248047,
+        -64.872802734375,
+        -64.08667755126953,
+        -64.47278594970703
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": -1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 14,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "toward_goal",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 44,
+      "pos": [
+        0,
+        2
+      ],
+      "action": 3,
+      "q_values": [
+        -64.81950378417969,
+        -65.34490203857422,
+        -64.56271362304688,
+        -64.4586410522461
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": 1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 13,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit3",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 45,
+      "pos": [
+        0,
+        3
+      ],
+      "action": 2,
+      "q_values": [
+        -64.68431854248047,
+        -64.872802734375,
+        -64.08667755126953,
+        -64.47278594970703
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": -1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 14,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "toward_goal",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 46,
+      "pos": [
+        0,
+        2
+      ],
+      "action": 3,
+      "q_values": [
+        -64.81950378417969,
+        -65.34490203857422,
+        -64.56271362304688,
+        -64.4586410522461
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": 1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 13,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit3",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 47,
+      "pos": [
+        0,
+        3
+      ],
+      "action": 2,
+      "q_values": [
+        -64.68431854248047,
+        -64.872802734375,
+        -64.08667755126953,
+        -64.47278594970703
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": -1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 14,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "toward_goal",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 48,
+      "pos": [
+        0,
+        2
+      ],
+      "action": 3,
+      "q_values": [
+        -64.81950378417969,
+        -65.34490203857422,
+        -64.56271362304688,
+        -64.4586410522461
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": 1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 13,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit3",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 49,
+      "pos": [
+        0,
+        3
+      ],
+      "action": 2,
+      "q_values": [
+        -64.68431854248047,
+        -64.872802734375,
+        -64.08667755126953,
+        -64.47278594970703
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": -1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 14,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "toward_goal",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 50,
+      "pos": [
+        0,
+        2
+      ],
+      "action": 3,
+      "q_values": [
+        -64.81950378417969,
+        -65.34490203857422,
+        -64.56271362304688,
+        -64.4586410522461
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": 1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 13,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit3",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 51,
+      "pos": [
+        0,
+        3
+      ],
+      "action": 2,
+      "q_values": [
+        -64.68431854248047,
+        -64.872802734375,
+        -64.08667755126953,
+        -64.47278594970703
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": -1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 14,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "toward_goal",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 52,
+      "pos": [
+        0,
+        2
+      ],
+      "action": 3,
+      "q_values": [
+        -64.81950378417969,
+        -65.34490203857422,
+        -64.56271362304688,
+        -64.4586410522461
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": 1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 13,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit3",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 53,
+      "pos": [
+        0,
+        3
+      ],
+      "action": 2,
+      "q_values": [
+        -64.68431854248047,
+        -64.872802734375,
+        -64.08667755126953,
+        -64.47278594970703
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": -1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 14,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "toward_goal",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 54,
+      "pos": [
+        0,
+        2
+      ],
+      "action": 3,
+      "q_values": [
+        -64.81950378417969,
+        -65.34490203857422,
+        -64.56271362304688,
+        -64.4586410522461
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": 1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 13,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit3",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 55,
+      "pos": [
+        0,
+        3
+      ],
+      "action": 2,
+      "q_values": [
+        -64.68431854248047,
+        -64.872802734375,
+        -64.08667755126953,
+        -64.47278594970703
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": -1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 14,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "toward_goal",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 56,
+      "pos": [
+        0,
+        2
+      ],
+      "action": 3,
+      "q_values": [
+        -64.81950378417969,
+        -65.34490203857422,
+        -64.56271362304688,
+        -64.4586410522461
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": 1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 13,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit3",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 57,
+      "pos": [
+        0,
+        3
+      ],
+      "action": 2,
+      "q_values": [
+        -64.68431854248047,
+        -64.872802734375,
+        -64.08667755126953,
+        -64.47278594970703
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": -1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 14,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "toward_goal",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 58,
+      "pos": [
+        0,
+        2
+      ],
+      "action": 3,
+      "q_values": [
+        -64.81950378417969,
+        -65.34490203857422,
+        -64.56271362304688,
+        -64.4586410522461
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": 1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 13,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit3",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 59,
+      "pos": [
+        0,
+        3
+      ],
+      "action": 2,
+      "q_values": [
+        -64.68431854248047,
+        -64.872802734375,
+        -64.08667755126953,
+        -64.47278594970703
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": -1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 14,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "toward_goal",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 60,
+      "pos": [
+        0,
+        2
+      ],
+      "action": 3,
+      "q_values": [
+        -64.81950378417969,
+        -65.34490203857422,
+        -64.56271362304688,
+        -64.4586410522461
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": 1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 13,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit3",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 61,
+      "pos": [
+        0,
+        3
+      ],
+      "action": 2,
+      "q_values": [
+        -64.68431854248047,
+        -64.872802734375,
+        -64.08667755126953,
+        -64.47278594970703
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": -1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 14,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "toward_goal",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 62,
+      "pos": [
+        0,
+        2
+      ],
+      "action": 3,
+      "q_values": [
+        -64.81950378417969,
+        -65.34490203857422,
+        -64.56271362304688,
+        -64.4586410522461
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": 1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": false,
+      "bfs_dist": 13,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit3",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": 1
+        }
+      ]
+    },
+    {
+      "t": 63,
+      "pos": [
+        0,
+        3
+      ],
+      "action": 2,
+      "q_values": [
+        -64.68431854248047,
+        -64.872802734375,
+        -64.08667755126953,
+        -64.47278594970703
+      ],
+      "chosen_rm_reward": -1.725003448535087,
+      "chosen_category": "visit4plus",
+      "chosen_delta_d": -1,
+      "hit_wall": false,
+      "success": false,
+      "timeout": true,
+      "bfs_dist": 14,
+      "action_rewards": [
+        {
+          "a": 0,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 1,
+          "rm_reward": -1.725003448535087,
+          "category": "wall_self_loop",
+          "delta_d": 0
+        },
+        {
+          "a": 2,
+          "rm_reward": -1.725003448535087,
+          "category": "visit4plus",
+          "delta_d": -1
+        },
+        {
+          "a": 3,
+          "rm_reward": -1.725003448535087,
+          "category": "toward_goal",
+          "delta_d": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "explore_timeout|clean_explore": {
+    "sample_type": "explore_timeout",
+    "profile": "clean_explore",
+    "n": 351,
+    "toward_rate": 0.5795781964447143,
+    "away_rate": 0.42042180355528574,
+    "wall_rate": 0.0,
+    "visit_severity": 0.39787982673773997
+  },
+  "explore_timeout|mild_wall_explore": {
+    "sample_type": "explore_timeout",
+    "profile": "mild_wall_explore",
+    "n": 1079,
+    "toward_rate": 0.5463037259594299,
+    "away_rate": 0.4120600598251108,
+    "wall_rate": 0.04163621421545935,
+    "visit_severity": 0.40049198633847416
+  },
+  "stuck_timeout|stuck_timeout": {
+    "sample_type": "stuck_timeout",
+    "profile": "stuck_timeout",
+    "n": 1600,
+    "toward_rate": 0.51587890625,
+    "away_rate": 0.480283203125,
+    "wall_rate": 0.003837890625,
+    "visit_severity": 0.9533593748510377
+  },
+  "success|detour_success": {
+    "sample_type": "success",
+    "profile": "detour_success",
+    "n": 637,
+    "toward_rate": 0.806833513034334,
+    "away_rate": 0.19316648696566605,
+    "wall_rate": 0.0,
+    "visit_severity": 0.37129803084732516
+  },
+  "success|high_visit_recovery_success": {
+    "sample_type": "success",
+    "profile": "high_visit_recovery_success",
+    "n": 787,
+    "toward_rate": 0.6561977519458343,
+    "away_rate": 0.34380224805416576,
+    "wall_rate": 0.0,
+    "visit_severity": 0.6876044959570993
+  },
+  "success|optimal_success": {
+    "sample_type": "success",
+    "profile": "optimal_success",
+    "n": 662,
+    "toward_rate": 1.0,
+    "away_rate": 0.0,
+    "wall_rate": 0.0,
+    "visit_severity": 0.0
+  },
+  "success|visit_recovery_success": {
+    "sample_type": "success",
+    "profile": "visit_recovery_success",
+    "n": 806,
+    "toward_rate": 0.7085383553280744,
+    "away_rate": 0.2914616446719257,
+    "wall_rate": 0.0,
+    "visit_severity": 0.5829232891657985
+  },
+  "success|wall_recovery_success": {
+    "sample_type": "success",
+    "profile": "wall_recovery_success",
+    "n": 695,
+    "toward_rate": 0.6971785074615956,
+    "away_rate": 0.0,
+    "wall_rate": 0.30282149253840435,
+    "visit_severity": 0.30282149237062417
+  },
+  "wall_timeout|mixed_wall_loop": {
+    "sample_type": "wall_timeout",
+    "profile": "mixed_wall_loop",
+    "n": 552,
+    "toward_rate": 0.3606110356280193,
+    "away_rate": 0.3157174667874396,
+    "wall_rate": 0.32367149758454106,
+    "visit_severity": 0.9430538480520563
+  },
+  "wall_timeout|multi_position_wall": {
+    "sample_type": "wall_timeout",
+    "profile": "multi_position_wall",
+    "n": 545,
+    "toward_rate": 0.49206945580131356,
+    "away_rate": 0.0,
+    "wall_rate": 0.5079305441986863,
+    "visit_severity": 0.5079305440070282
+  },
+  "wall_timeout|same_position_repeated_wall": {
+    "sample_type": "wall_timeout",
+    "profile": "same_position_repeated_wall",
+    "n": 558,
+    "toward_rate": 0.10805891577060932,
+    "away_rate": 0.0,
+    "wall_rate": 0.8919410842293907,
+    "visit_severity": 0.8919410840900249
+  },
+  "wall_timeout|wall_after_explore": {
+    "sample_type": "wall_timeout",
+    "profile": "wall_after_explore",
+    "n": 565,
+    "toward_rate": 0.19856194690265486,
+    "away_rate": 0.10063606194690265,
+    "wall_rate": 0.7008019911504425,
+    "visit_severity": 0.8254148228798786
+  },
+  "wall_timeout|wall_after_high_visit": {
+    "sample_type": "wall_timeout",
+    "profile": "wall_after_high_visit",
+    "n": 566,
+    "toward_rate": 0.1954505300353357,
+    "away_rate": 0.0933911219081272,
+    "wall_rate": 0.7111583480565371,
+    "visit_severity": 0.8823155917349298
+  }
+}

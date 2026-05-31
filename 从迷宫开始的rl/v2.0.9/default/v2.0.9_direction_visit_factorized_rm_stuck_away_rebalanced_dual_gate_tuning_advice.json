@@ -1,0 +1,10 @@
+[
+  {
+    "condition": "visit_mean > 0",
+    "suggestion": "increase pairs_visit; increase visit_min/visit_max moderately; keep visit_delta_v_max <= 0.35; keep comparisons adjacent-band only"
+  },
+  {
+    "condition": "all_actions_saturated_rate > 0.20",
+    "suggestion": "add stuck_escape counterfactuals; increase progress context diversity; avoid making wall even more saturated"
+  }
+]

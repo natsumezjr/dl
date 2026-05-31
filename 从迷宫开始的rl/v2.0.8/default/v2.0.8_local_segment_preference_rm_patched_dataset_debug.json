@@ -1,0 +1,2774 @@
+{
+  "trajectory_types": {
+    "bfs_success": {
+      "n": 3425,
+      "success_rate": 1.0,
+      "wall_mean": 0.0,
+      "visit2_mean": 0.0,
+      "visit3plus_mean": 0.0,
+      "max_visit_mean": 1.0,
+      "gap_mean": 0.0,
+      "final_dist_mean": 0.0
+    },
+    "success_explore": {
+      "n": 1108,
+      "success_rate": 1.0,
+      "wall_mean": 0.0,
+      "visit2_mean": 0.44675090252707583,
+      "visit3plus_mean": 0.0,
+      "max_visit_mean": 1.3303249097472925,
+      "gap_mean": 2.796028880866426,
+      "final_dist_mean": 0.0
+    },
+    "recovery_success": {
+      "n": 1200,
+      "success_rate": 1.0,
+      "wall_mean": 0.0,
+      "visit2_mean": 1.5533333333333332,
+      "visit3plus_mean": 0.0,
+      "max_visit_mean": 2.0,
+      "gap_mean": 2.0,
+      "final_dist_mean": 0.0
+    },
+    "explore_timeout": {
+      "n": 1129,
+      "success_rate": 0.0,
+      "wall_mean": 0.0,
+      "visit2_mean": 20.453498671390612,
+      "visit3plus_mean": 3.0389725420726306,
+      "max_visit_mean": 2.8529672276350753,
+      "gap_mean": 0.0,
+      "final_dist_mean": 8.313551815766164
+    },
+    "revisit_timeout": {
+      "n": 1200,
+      "success_rate": 0.0,
+      "wall_mean": 0.0,
+      "visit2_mean": 12.5675,
+      "visit3plus_mean": 33.97416666666667,
+      "max_visit_mean": 11.6975,
+      "gap_mean": 0.0,
+      "final_dist_mean": 7.168333333333333
+    },
+    "loop_timeout": {
+      "n": 1200,
+      "success_rate": 0.0,
+      "wall_mean": 0.0,
+      "visit2_mean": 2.0,
+      "visit3plus_mean": 56.635,
+      "max_visit_mean": 30.569166666666668,
+      "gap_mean": 0.0,
+      "final_dist_mean": 6.241666666666666
+    },
+    "wall_timeout": {
+      "n": 1145,
+      "success_rate": 0.0,
+      "wall_mean": 30.806113537117906,
+      "visit2_mean": 7.216593886462882,
+      "visit3plus_mean": 44.82183406113537,
+      "max_visit_mean": 34.98689956331878,
+      "gap_mean": 0.0,
+      "final_dist_mean": 6.815720524017467
+    }
+  },
+  "badness": {
+    "bfs_success": {
+      "B_outcome": 0.0,
+      "B_wallPres": 0.0,
+      "B_wallCount": 0.0,
+      "B_wallExp": 0.0,
+      "B_visit": 0.0,
+      "B_path": 0.0,
+      "B_total": 0.0
+    },
+    "success_explore": {
+      "B_outcome": 0.0,
+      "B_wallPres": 0.0,
+      "B_wallCount": 0.0,
+      "B_wallExp": 0.0,
+      "B_visit": 0.000174512071299639,
+      "B_path": 0.05249861858710758,
+      "B_total": 0.02642382136485343
+    },
+    "recovery_success": {
+      "B_outcome": 0.0,
+      "B_wallPres": 0.0,
+      "B_wallCount": 0.0,
+      "B_wallExp": 0.0,
+      "B_visit": 0.0006067708333333333,
+      "B_path": 0.03781614998224589,
+      "B_total": 0.019514845824456277
+    },
+    "explore_timeout": {
+      "B_outcome": 1.0,
+      "B_wallPres": 0.0,
+      "B_wallCount": 0.0,
+      "B_wallExp": 0.0,
+      "B_visit": 0.010957394541629764,
+      "B_path": 0.8016700686226582,
+      "B_total": 1.4117924288529589
+    },
+    "revisit_timeout": {
+      "B_outcome": 1.0,
+      "B_wallPres": 0.0,
+      "B_wallCount": 0.0,
+      "B_wallExp": 0.0,
+      "B_visit": 0.20057833697916672,
+      "B_path": 0.6866301467566948,
+      "B_total": 1.5438934103575142
+    },
+    "loop_timeout": {
+      "B_outcome": 1.0,
+      "B_wallPres": 0.0,
+      "B_wallCount": 0.0,
+      "B_wallExp": 0.0,
+      "B_visit": 0.7729987500000002,
+      "B_path": 0.577929260482666,
+      "B_total": 2.061963380241333
+    },
+    "wall_timeout": {
+      "B_outcome": 1.0,
+      "B_wallPres": 1.0,
+      "B_wallCount": 0.4813455240174673,
+      "B_wallExp": 0.3709445437423768,
+      "B_visit": 0.5047217912117903,
+      "B_path": 0.6363664189260401,
+      "B_total": 3.1938495444171875
+    }
+  },
+  "pair_buckets": {
+    "episode_outcome": {
+      "n": 4587,
+      "mean": 0.5784782466607372,
+      "p10": 0.5784782466607372,
+      "p50": 0.5784782466607372,
+      "p90": 0.5784782466607372,
+      "min": 0.5784782466607372,
+      "max": 0.5784782466607372
+    },
+    "episode_wall": {
+      "n": 3364,
+      "mean": 0.30231883110715796,
+      "p10": 0.30231883110715807,
+      "p50": 0.30231883110715807,
+      "p90": 0.30231883110715807,
+      "min": 0.30231883110715807,
+      "max": 0.30231883110715807
+    },
+    "episode_loop": {
+      "n": 4708,
+      "mean": 0.1540894064455873,
+      "p10": 0.08,
+      "p50": 0.1810180885441233,
+      "p90": 0.19375252181428,
+      "min": 0.08,
+      "max": 0.19669567200390867
+    },
+    "episode_path": {
+      "n": 2308,
+      "mean": 0.001791864352408073,
+      "p10": 0.0014029330783374805,
+      "p50": 0.001537703375312464,
+      "p90": 0.0028522936638751117,
+      "min": 0.0013328397242210615,
+      "max": 0.009604668370566768
+    },
+    "wall_exp": {
+      "n": 3364,
+      "mean": 0.2252731425361292,
+      "p10": 0.10055007779408248,
+      "p50": 0.2852351226076242,
+      "p90": 0.3647613395596072,
+      "min": 0.10055007779408248,
+      "max": 0.3789661452501435
+    },
+    "cpl_recover_wall": {
+      "n": 1145,
+      "mean": 0.37817341117402026,
+      "p10": 0.266862938017229,
+      "p50": 0.45030272251230896,
+      "p90": 0.469868486622586,
+      "min": 0.2547660419799961,
+      "max": 0.47259340462668176
+    },
+    "cpl_explore_wall": {
+      "n": 1053,
+      "mean": 0.30205570385154645,
+      "p10": 0.1960514370294057,
+      "p50": 0.37161696593127785,
+      "p90": 0.39031721084714355,
+      "min": 0.1846542670085226,
+      "max": 0.3929214787516873
+    },
+    "cpl_recover_loop": {
+      "n": 1200,
+      "mean": 0.2542789027926994,
+      "p10": 0.2484729887694732,
+      "p50": 0.2549563311590876,
+      "p90": 0.25798223912239304,
+      "min": 0.23718580988817453,
+      "max": 0.26079605232139136
+    },
+    "cpl_visit_toward": {
+      "n": 1200,
+      "mean": 0.18375932895157077,
+      "p10": 0.1384056942335802,
+      "p50": 0.18967460708057304,
+      "p90": 0.2173399582591217,
+      "min": 0.09263364959631062,
+      "max": 0.23819077752879098
+    },
+    "local_toward": {
+      "n": 3898,
+      "mean": 0.14887169280982077,
+      "p10": 0.1264834759144415,
+      "p50": 0.15568330958790277,
+      "p90": 0.15986733312589527,
+      "min": 0.07632516747727332,
+      "max": 0.15999910560655783
+    },
+    "local_safe_wall": {
+      "n": 2718,
+      "mean": 0.32471765705583566,
+      "p10": 0.32452221723101843,
+      "p50": 0.3247095277133799,
+      "p90": 0.3249202471796627,
+      "min": 0.32452221723101843,
+      "max": 0.3249202471796627
+    },
+    "local_visit2_direction": {
+      "n": 3600,
+      "mean": 0.093527095784392,
+      "p10": 0.08044869428342422,
+      "p50": 0.0974819305929433,
+      "p90": 0.09992261099010559,
+      "min": 0.04564071757810905,
+      "max": 0.09999947827049208
+    },
+    "local_recover_loop": {
+      "n": 3200,
+      "mean": 0.08196561549564464,
+      "p10": 0.08074511015112484,
+      "p50": 0.0816774587788702,
+      "p90": 0.08329185407340611,
+      "min": 0.0806767525403454,
+      "max": 0.08424026519338126
+    },
+    "local_visit_penalty": {
+      "n": 4584,
+      "mean": 0.01019726673256031,
+      "p10": 0.010037109368149088,
+      "p50": 0.010121874758509071,
+      "p90": 0.01036396232095285,
+      "min": 0.01,
+      "max": 0.012462396987861736
+    }
+  },
+  "pair_direction_report": {
+    "cpl_explore_wall|success_explore|wall_timeout": {
+      "bucket": "cpl_explore_wall",
+      "pos_label": "success_explore",
+      "neg_label": "wall_timeout",
+      "n": 1053,
+      "margin": {
+        "mean": 0.30205570385154645,
+        "p50": 0.37161696593127785,
+        "p90": 0.39031721084714355,
+        "pct_near_min": 0.13865147198480532,
+        "pct_near_max": 0.4624881291547958
+      },
+      "delta_b": {
+        "mean": 0.8760084220033552,
+        "p50": 1.2034357428755234
+      },
+      "pos_stats": {
+        "success_rate": 1.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 0.4415954415954416,
+        "visit3plus_mean": 0.0,
+        "visit4plus_mean": 0.0,
+        "max_visit_mean": 1.325735992402659,
+        "final_bfs_dist_mean": 0.0,
+        "progress_mean": 0.7892502895160534,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      },
+      "neg_stats": {
+        "success_rate": 0.0,
+        "wall_mean": 30.756885090218425,
+        "visit2_mean": 7.286799620132953,
+        "visit3plus_mean": 44.73599240265907,
+        "visit4plus_mean": 39.34852801519468,
+        "max_visit_mean": 34.914529914529915,
+        "final_bfs_dist_mean": 6.628679962013296,
+        "progress_mean": 0.0647406220322887,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      }
+    },
+    "cpl_recover_loop|recovery_success|loop_timeout": {
+      "bucket": "cpl_recover_loop",
+      "pos_label": "recovery_success",
+      "neg_label": "loop_timeout",
+      "n": 1200,
+      "margin": {
+        "mean": 0.2542789027926994,
+        "p50": 0.2549563311590876,
+        "p90": 0.25798223912239304,
+        "pct_near_min": 0.0,
+        "pct_near_max": 0.0
+      },
+      "delta_b": {
+        "mean": 0.7723919791666667,
+        "p50": 0.777920625
+      },
+      "pos_stats": {
+        "success_rate": 1.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 1.5533333333333332,
+        "visit3plus_mean": 0.0,
+        "visit4plus_mean": 0.0,
+        "max_visit_mean": 2.0,
+        "final_bfs_dist_mean": 0.0,
+        "progress_mean": 0.8314772016199278,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      },
+      "neg_stats": {
+        "success_rate": 0.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 2.0,
+        "visit3plus_mean": 56.635,
+        "visit4plus_mean": 54.635,
+        "max_visit_mean": 30.569166666666668,
+        "final_bfs_dist_mean": 6.241666666666666,
+        "progress_mean": 0.07239583333333334,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      }
+    },
+    "cpl_recover_wall|recovery_success|wall_timeout": {
+      "bucket": "cpl_recover_wall",
+      "pos_label": "recovery_success",
+      "neg_label": "wall_timeout",
+      "n": 1145,
+      "margin": {
+        "mean": 0.37817341117402026,
+        "p50": 0.45030272251230896,
+        "p90": 0.469868486622586,
+        "pct_near_min": 0.12925764192139738,
+        "pct_near_max": 0.4558951965065502
+      },
+      "delta_b": {
+        "mean": 0.8750542989279663,
+        "p50": 1.2030451178755233
+      },
+      "pos_stats": {
+        "success_rate": 1.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 1.5668122270742357,
+        "visit3plus_mean": 0.0,
+        "visit4plus_mean": 0.0,
+        "max_visit_mean": 2.0,
+        "final_bfs_dist_mean": 0.0,
+        "progress_mean": 0.8338072074720733,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      },
+      "neg_stats": {
+        "success_rate": 0.0,
+        "wall_mean": 30.806113537117906,
+        "visit2_mean": 7.216593886462882,
+        "visit3plus_mean": 44.82183406113537,
+        "visit4plus_mean": 39.47336244541485,
+        "max_visit_mean": 34.98689956331878,
+        "final_bfs_dist_mean": 6.815720524017467,
+        "progress_mean": 0.06578875545851529,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      }
+    },
+    "cpl_visit_toward|recovery_success|revisit_timeout": {
+      "bucket": "cpl_visit_toward",
+      "pos_label": "recovery_success",
+      "neg_label": "revisit_timeout",
+      "n": 1200,
+      "margin": {
+        "mean": 0.18375932895157077,
+        "p50": 0.18967460708057304,
+        "p90": 0.2173399582591217,
+        "pct_near_min": 0.0025,
+        "pct_near_max": 0.07416666666666667
+      },
+      "delta_b": {
+        "mean": 0.8487855629202822,
+        "p50": 0.8393531480969895
+      },
+      "pos_stats": {
+        "success_rate": 1.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 1.5533333333333332,
+        "visit3plus_mean": 0.0,
+        "visit4plus_mean": 0.0,
+        "max_visit_mean": 2.0,
+        "final_bfs_dist_mean": 0.0,
+        "progress_mean": 0.8314772016199278,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      },
+      "neg_stats": {
+        "success_rate": 0.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 12.5675,
+        "visit3plus_mean": 33.97416666666667,
+        "visit4plus_mean": 24.815833333333334,
+        "max_visit_mean": 11.6975,
+        "final_bfs_dist_mean": 7.168333333333333,
+        "progress_mean": 0.057916666666666665,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      }
+    },
+    "episode_loop|loop_timeout|revisit_timeout": {
+      "bucket": "episode_loop",
+      "pos_label": "loop_timeout",
+      "neg_label": "revisit_timeout",
+      "n": 576,
+      "margin": {
+        "mean": 0.08,
+        "p50": 0.08,
+        "p90": 0.08,
+        "pct_near_min": 1.0,
+        "pct_near_max": 0.0
+      },
+      "delta_b": {
+        "mean": 0.0,
+        "p50": 0.0
+      },
+      "pos_stats": {
+        "success_rate": 0.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 2.0,
+        "visit3plus_mean": 56.376736111111114,
+        "visit4plus_mean": 54.376736111111114,
+        "max_visit_mean": 30.414930555555557,
+        "final_bfs_dist_mean": 5.774305555555555,
+        "progress_mean": 0.07758246527777778,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      },
+      "neg_stats": {
+        "success_rate": 0.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 12.866319444444445,
+        "visit3plus_mean": 33.861111111111114,
+        "visit4plus_mean": 24.51215277777778,
+        "max_visit_mean": 11.51388888888889,
+        "final_bfs_dist_mean": 9.770833333333334,
+        "progress_mean": 0.01513671875,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      }
+    },
+    "episode_loop|recovery_success|loop_timeout": {
+      "bucket": "episode_loop",
+      "pos_label": "recovery_success",
+      "neg_label": "loop_timeout",
+      "n": 1200,
+      "margin": {
+        "mean": 0.1901253163986472,
+        "p50": 0.1907569682750933,
+        "p90": 0.19378918585914623,
+        "pct_near_min": 0.0,
+        "pct_near_max": 0.0
+      },
+      "delta_b": {
+        "mean": 0.7723919791666667,
+        "p50": 0.777920625
+      },
+      "pos_stats": {
+        "success_rate": 1.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 1.5533333333333332,
+        "visit3plus_mean": 0.0,
+        "visit4plus_mean": 0.0,
+        "max_visit_mean": 2.0,
+        "final_bfs_dist_mean": 0.0,
+        "progress_mean": 0.8314772016199278,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      },
+      "neg_stats": {
+        "success_rate": 0.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 2.0,
+        "visit3plus_mean": 56.635,
+        "visit4plus_mean": 54.635,
+        "max_visit_mean": 30.569166666666668,
+        "final_bfs_dist_mean": 6.241666666666666,
+        "progress_mean": 0.07239583333333334,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      }
+    },
+    "episode_loop|recovery_success|revisit_timeout": {
+      "bucket": "episode_loop",
+      "pos_label": "recovery_success",
+      "neg_label": "revisit_timeout",
+      "n": 1200,
+      "margin": {
+        "mean": 0.11325262666494798,
+        "p50": 0.11174053662319619,
+        "p90": 0.1338102381628433,
+        "pct_near_min": 0.195,
+        "pct_near_max": 0.0
+      },
+      "delta_b": {
+        "mean": 0.19997156614583336,
+        "p50": 0.18892515625000006
+      },
+      "pos_stats": {
+        "success_rate": 1.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 1.5533333333333332,
+        "visit3plus_mean": 0.0,
+        "visit4plus_mean": 0.0,
+        "max_visit_mean": 2.0,
+        "final_bfs_dist_mean": 0.0,
+        "progress_mean": 0.8314772016199278,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      },
+      "neg_stats": {
+        "success_rate": 0.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 12.5675,
+        "visit3plus_mean": 33.97416666666667,
+        "visit4plus_mean": 24.815833333333334,
+        "max_visit_mean": 11.6975,
+        "final_bfs_dist_mean": 7.168333333333333,
+        "progress_mean": 0.057916666666666665,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      }
+    },
+    "episode_loop|revisit_timeout|loop_timeout": {
+      "bucket": "episode_loop",
+      "pos_label": "revisit_timeout",
+      "neg_label": "loop_timeout",
+      "n": 624,
+      "margin": {
+        "mean": 0.16720725749933343,
+        "p50": 0.16998214265908645,
+        "p90": 0.18190594168108037,
+        "pct_near_min": 0.0,
+        "pct_near_max": 0.0
+      },
+      "delta_b": {
+        "mean": 0.5720833899238782,
+        "p50": 0.5891815625
+      },
+      "pos_stats": {
+        "success_rate": 0.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 12.291666666666666,
+        "visit3plus_mean": 34.07852564102564,
+        "visit4plus_mean": 25.096153846153847,
+        "max_visit_mean": 11.866987179487179,
+        "final_bfs_dist_mean": 4.766025641025641,
+        "progress_mean": 0.09740584935897435,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      },
+      "neg_stats": {
+        "success_rate": 0.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 2.0,
+        "visit3plus_mean": 56.87339743589744,
+        "visit4plus_mean": 54.87339743589744,
+        "max_visit_mean": 30.71153846153846,
+        "final_bfs_dist_mean": 6.673076923076923,
+        "progress_mean": 0.06760817307692307,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      }
+    },
+    "episode_loop|success_explore|loop_timeout": {
+      "bucket": "episode_loop",
+      "pos_label": "success_explore",
+      "neg_label": "loop_timeout",
+      "n": 1108,
+      "margin": {
+        "mean": 0.1904170263446993,
+        "p50": 0.19083336730475656,
+        "p90": 0.19382583073636056,
+        "pct_near_min": 0.0,
+        "pct_near_max": 0.0
+      },
+      "delta_b": {
+        "mean": 0.7752980082355595,
+        "p50": 0.778701875
+      },
+      "pos_stats": {
+        "success_rate": 1.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 0.44675090252707583,
+        "visit3plus_mean": 0.0,
+        "visit4plus_mean": 0.0,
+        "max_visit_mean": 1.3303249097472925,
+        "final_bfs_dist_mean": 0.0,
+        "progress_mean": 0.7866215832640465,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      },
+      "neg_stats": {
+        "success_rate": 0.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 2.0,
+        "visit3plus_mean": 56.79332129963899,
+        "visit4plus_mean": 54.79332129963899,
+        "max_visit_mean": 30.6471119133574,
+        "final_bfs_dist_mean": 6.148014440433213,
+        "progress_mean": 0.06988944043321299,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      }
+    },
+    "episode_outcome|recovery_success|explore_timeout": {
+      "bucket": "episode_outcome",
+      "pos_label": "recovery_success",
+      "neg_label": "explore_timeout",
+      "n": 1129,
+      "margin": {
+        "mean": 0.5784782466607371,
+        "p50": 0.5784782466607372,
+        "p90": 0.5784782466607372,
+        "pct_near_min": 0.0,
+        "pct_near_max": 0.0
+      },
+      "delta_b": {
+        "mean": 1.0,
+        "p50": 1.0
+      },
+      "pos_stats": {
+        "success_rate": 1.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 1.5429583702391496,
+        "visit3plus_mean": 0.0,
+        "visit4plus_mean": 0.0,
+        "max_visit_mean": 2.0,
+        "final_bfs_dist_mean": 0.0,
+        "progress_mean": 0.8291974298237428,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      },
+      "neg_stats": {
+        "success_rate": 0.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 20.453498671390612,
+        "visit3plus_mean": 3.0389725420726306,
+        "visit4plus_mean": 0.0,
+        "max_visit_mean": 2.8529672276350753,
+        "final_bfs_dist_mean": 8.313551815766164,
+        "progress_mean": 0.037643932683790966,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      }
+    },
+    "episode_outcome|recovery_success|loop_timeout": {
+      "bucket": "episode_outcome",
+      "pos_label": "recovery_success",
+      "neg_label": "loop_timeout",
+      "n": 1200,
+      "margin": {
+        "mean": 0.5784782466607371,
+        "p50": 0.5784782466607372,
+        "p90": 0.5784782466607372,
+        "pct_near_min": 0.0,
+        "pct_near_max": 0.0
+      },
+      "delta_b": {
+        "mean": 1.0,
+        "p50": 1.0
+      },
+      "pos_stats": {
+        "success_rate": 1.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 1.5533333333333332,
+        "visit3plus_mean": 0.0,
+        "visit4plus_mean": 0.0,
+        "max_visit_mean": 2.0,
+        "final_bfs_dist_mean": 0.0,
+        "progress_mean": 0.8314772016199278,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      },
+      "neg_stats": {
+        "success_rate": 0.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 2.0,
+        "visit3plus_mean": 56.635,
+        "visit4plus_mean": 54.635,
+        "max_visit_mean": 30.569166666666668,
+        "final_bfs_dist_mean": 6.241666666666666,
+        "progress_mean": 0.07239583333333334,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      }
+    },
+    "episode_outcome|recovery_success|revisit_timeout": {
+      "bucket": "episode_outcome",
+      "pos_label": "recovery_success",
+      "neg_label": "revisit_timeout",
+      "n": 1200,
+      "margin": {
+        "mean": 0.5784782466607371,
+        "p50": 0.5784782466607372,
+        "p90": 0.5784782466607372,
+        "pct_near_min": 0.0,
+        "pct_near_max": 0.0
+      },
+      "delta_b": {
+        "mean": 1.0,
+        "p50": 1.0
+      },
+      "pos_stats": {
+        "success_rate": 1.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 1.5533333333333332,
+        "visit3plus_mean": 0.0,
+        "visit4plus_mean": 0.0,
+        "max_visit_mean": 2.0,
+        "final_bfs_dist_mean": 0.0,
+        "progress_mean": 0.8314772016199278,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      },
+      "neg_stats": {
+        "success_rate": 0.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 12.5675,
+        "visit3plus_mean": 33.97416666666667,
+        "visit4plus_mean": 24.815833333333334,
+        "max_visit_mean": 11.6975,
+        "final_bfs_dist_mean": 7.168333333333333,
+        "progress_mean": 0.057916666666666665,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      }
+    },
+    "episode_outcome|success_explore|explore_timeout": {
+      "bucket": "episode_outcome",
+      "pos_label": "success_explore",
+      "neg_label": "explore_timeout",
+      "n": 1058,
+      "margin": {
+        "mean": 0.5784782466607371,
+        "p50": 0.5784782466607372,
+        "p90": 0.5784782466607372,
+        "pct_near_min": 0.0,
+        "pct_near_max": 0.0
+      },
+      "delta_b": {
+        "mean": 1.0,
+        "p50": 1.0
+      },
+      "pos_stats": {
+        "success_rate": 1.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 0.45841209829867674,
+        "visit3plus_mean": 0.0,
+        "visit4plus_mean": 0.0,
+        "max_visit_mean": 1.3383742911153118,
+        "final_bfs_dist_mean": 0.0,
+        "progress_mean": 0.7836054891485176,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      },
+      "neg_stats": {
+        "success_rate": 0.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 20.33648393194707,
+        "visit3plus_mean": 2.9669187145557654,
+        "visit4plus_mean": 0.0,
+        "max_visit_mean": 2.844045368620038,
+        "final_bfs_dist_mean": 8.031190926275993,
+        "progress_mean": 0.038604678638941396,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      }
+    },
+    "episode_path|bfs_success|recovery_success": {
+      "bucket": "episode_path",
+      "pos_label": "bfs_success",
+      "neg_label": "recovery_success",
+      "n": 1200,
+      "margin": {
+        "mean": 0.0015119151527852822,
+        "p50": 0.0015087178935028543,
+        "p90": 0.0016317470116632294,
+        "pct_near_min": 1.0,
+        "pct_near_max": 0.0
+      },
+      "delta_b": {
+        "mean": 0.03781614998224589,
+        "p50": 0.03773584905660377
+      },
+      "pos_stats": {
+        "success_rate": 1.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 0.0,
+        "visit3plus_mean": 0.0,
+        "visit4plus_mean": 0.0,
+        "max_visit_mean": 1.0,
+        "final_bfs_dist_mean": 0.0,
+        "progress_mean": 1.0,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      },
+      "neg_stats": {
+        "success_rate": 1.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 1.5533333333333332,
+        "visit3plus_mean": 0.0,
+        "visit4plus_mean": 0.0,
+        "max_visit_mean": 2.0,
+        "final_bfs_dist_mean": 0.0,
+        "progress_mean": 0.8314772016199278,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      }
+    },
+    "episode_path|bfs_success|success_explore": {
+      "bucket": "episode_path",
+      "pos_label": "bfs_success",
+      "neg_label": "success_explore",
+      "n": 1108,
+      "margin": {
+        "mean": 0.0020950584314219263,
+        "p50": 0.001537703375312464,
+        "p90": 0.0034180980851351793,
+        "pct_near_min": 1.0,
+        "pct_near_max": 0.0
+      },
+      "delta_b": {
+        "mean": 0.05249861858710758,
+        "p50": 0.038461538461538464
+      },
+      "pos_stats": {
+        "success_rate": 1.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 0.0,
+        "visit3plus_mean": 0.0,
+        "visit4plus_mean": 0.0,
+        "max_visit_mean": 1.0,
+        "final_bfs_dist_mean": 0.0,
+        "progress_mean": 1.0,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      },
+      "neg_stats": {
+        "success_rate": 1.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 0.44675090252707583,
+        "visit3plus_mean": 0.0,
+        "visit4plus_mean": 0.0,
+        "max_visit_mean": 1.3303249097472925,
+        "final_bfs_dist_mean": 0.0,
+        "progress_mean": 0.7866215832640465,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      }
+    },
+    "episode_wall|explore_timeout|wall_timeout": {
+      "bucket": "episode_wall",
+      "pos_label": "explore_timeout",
+      "neg_label": "wall_timeout",
+      "n": 1074,
+      "margin": {
+        "mean": 0.30231883110715807,
+        "p50": 0.30231883110715807,
+        "p90": 0.30231883110715807,
+        "pct_near_min": 0.0,
+        "pct_near_max": 0.0
+      },
+      "delta_b": {
+        "mean": 1.0,
+        "p50": 1.0
+      },
+      "pos_stats": {
+        "success_rate": 0.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 20.63873370577281,
+        "visit3plus_mean": 3.11731843575419,
+        "visit4plus_mean": 0.0,
+        "max_visit_mean": 2.8621973929236497,
+        "final_bfs_dist_mean": 8.427374301675977,
+        "progress_mean": 0.03826233705772812,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      },
+      "neg_stats": {
+        "success_rate": 0.0,
+        "wall_mean": 30.509310986964618,
+        "visit2_mean": 7.337988826815643,
+        "visit3plus_mean": 44.55679702048417,
+        "visit4plus_mean": 39.14897579143389,
+        "max_visit_mean": 34.675977653631286,
+        "final_bfs_dist_mean": 6.731843575418995,
+        "progress_mean": 0.06475500465549348,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      }
+    },
+    "episode_wall|loop_timeout|wall_timeout": {
+      "bucket": "episode_wall",
+      "pos_label": "loop_timeout",
+      "neg_label": "wall_timeout",
+      "n": 1145,
+      "margin": {
+        "mean": 0.30231883110715807,
+        "p50": 0.30231883110715807,
+        "p90": 0.30231883110715807,
+        "pct_near_min": 0.0,
+        "pct_near_max": 0.0
+      },
+      "delta_b": {
+        "mean": 1.0,
+        "p50": 1.0
+      },
+      "pos_stats": {
+        "success_rate": 0.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 2.0,
+        "visit3plus_mean": 56.57467248908297,
+        "visit4plus_mean": 54.57467248908297,
+        "max_visit_mean": 30.54061135371179,
+        "final_bfs_dist_mean": 6.339737991266375,
+        "progress_mean": 0.07322598253275109,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      },
+      "neg_stats": {
+        "success_rate": 0.0,
+        "wall_mean": 30.806113537117906,
+        "visit2_mean": 7.216593886462882,
+        "visit3plus_mean": 44.82183406113537,
+        "visit4plus_mean": 39.47336244541485,
+        "max_visit_mean": 34.98689956331878,
+        "final_bfs_dist_mean": 6.815720524017467,
+        "progress_mean": 0.06578875545851529,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      }
+    },
+    "episode_wall|revisit_timeout|wall_timeout": {
+      "bucket": "episode_wall",
+      "pos_label": "revisit_timeout",
+      "neg_label": "wall_timeout",
+      "n": 1145,
+      "margin": {
+        "mean": 0.30231883110715807,
+        "p50": 0.30231883110715807,
+        "p90": 0.30231883110715807,
+        "pct_near_min": 0.0,
+        "pct_near_max": 0.0
+      },
+      "delta_b": {
+        "mean": 1.0,
+        "p50": 1.0
+      },
+      "pos_stats": {
+        "success_rate": 0.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 12.471615720524017,
+        "visit3plus_mean": 34.21921397379913,
+        "visit4plus_mean": 25.107423580786026,
+        "max_visit_mean": 11.777292576419214,
+        "final_bfs_dist_mean": 7.249781659388646,
+        "progress_mean": 0.059006550218340614,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      },
+      "neg_stats": {
+        "success_rate": 0.0,
+        "wall_mean": 30.806113537117906,
+        "visit2_mean": 7.216593886462882,
+        "visit3plus_mean": 44.82183406113537,
+        "visit4plus_mean": 39.47336244541485,
+        "max_visit_mean": 34.98689956331878,
+        "final_bfs_dist_mean": 6.815720524017467,
+        "progress_mean": 0.06578875545851529,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      }
+    },
+    "local_recover_loop|local_recover_loop_pos|local_recover_loop_neg": {
+      "bucket": "local_recover_loop",
+      "pos_label": "local_recover_loop_pos",
+      "neg_label": "local_recover_loop_neg",
+      "n": 3200,
+      "margin": {
+        "mean": 0.08196561549564464,
+        "p50": 0.0816774587788702,
+        "p90": 0.08329185407340611,
+        "pct_near_min": 1.0,
+        "pct_near_max": 0.0
+      },
+      "delta_b": {
+        "mean": 0.011233500488281251,
+        "p50": 0.0095859375
+      },
+      "pos_stats": {
+        "success_rate": 0.561875,
+        "wall_mean": 0.0,
+        "visit2_mean": 0.361875,
+        "visit3plus_mean": 0.0,
+        "visit4plus_mean": 0.0,
+        "max_visit_mean": 2.0,
+        "final_bfs_dist_mean": 1.69375,
+        "progress_mean": 1.0,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      },
+      "neg_stats": {
+        "success_rate": 0.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 0.6990625,
+        "visit3plus_mean": 5.2759375,
+        "visit4plus_mean": 3.2759375,
+        "max_visit_mean": 4.9109375,
+        "final_bfs_dist_mean": 6.4721875,
+        "progress_mean": -0.006928571428571428,
+        "first_toward_rate": 0.456875,
+        "first_away_rate": 0.543125,
+        "first_wall_rate": 0.0
+      }
+    },
+    "local_safe_wall|local_safe_wall_pos|local_safe_wall_neg": {
+      "bucket": "local_safe_wall",
+      "pos_label": "local_safe_wall_pos",
+      "neg_label": "local_safe_wall_neg",
+      "n": 2718,
+      "margin": {
+        "mean": 0.32471765705583566,
+        "p50": 0.3247095277133799,
+        "p90": 0.3249202471796627,
+        "pct_near_min": 0.0,
+        "pct_near_max": 0.0
+      },
+      "delta_b": {
+        "mean": 1.0086341498117426,
+        "p50": 1.0084889387849552
+      },
+      "pos_stats": {
+        "success_rate": 0.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 2.4952170713760116,
+        "visit3plus_mean": 0.5610743193524651,
+        "visit4plus_mean": 0.1534216335540839,
+        "max_visit_mean": 2.3112582781456954,
+        "final_bfs_dist_mean": 10.297645327446652,
+        "progress_mean": -0.5567127439643996,
+        "first_toward_rate": 0.47277409860191316,
+        "first_away_rate": 0.5272259013980868,
+        "first_wall_rate": 0.0
+      },
+      "neg_stats": {
+        "success_rate": 0.0,
+        "wall_mean": 6.021707137601178,
+        "visit2_mean": 1.0,
+        "visit3plus_mean": 5.021707137601178,
+        "visit4plus_mean": 4.021707137601178,
+        "max_visit_mean": 7.021707137601178,
+        "final_bfs_dist_mean": 6.988962472406181,
+        "progress_mean": 0.0,
+        "first_toward_rate": 0.0,
+        "first_away_rate": 1.0,
+        "first_wall_rate": 1.0
+      }
+    },
+    "local_toward|local_toward_pos|local_toward_neg": {
+      "bucket": "local_toward",
+      "pos_label": "local_toward_pos",
+      "neg_label": "local_toward_neg",
+      "n": 3898,
+      "margin": {
+        "mean": 0.14887169280982077,
+        "p50": 0.15568330958790277,
+        "p90": 0.15986733312589527,
+        "pct_near_min": 0.0,
+        "pct_near_max": 0.797331965110313
+      },
+      "delta_b": {
+        "mean": 1.8090808682853383,
+        "p50": 1.6
+      },
+      "pos_stats": {
+        "success_rate": 0.5659312467932273,
+        "wall_mean": 0.0,
+        "visit2_mean": 0.0,
+        "visit3plus_mean": 0.0,
+        "visit4plus_mean": 0.0,
+        "max_visit_mean": 1.0,
+        "final_bfs_dist_mean": 1.6480246280143664,
+        "progress_mean": 1.0,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      },
+      "neg_stats": {
+        "success_rate": 0.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 2.4289379168804515,
+        "visit3plus_mean": 0.5610569522832222,
+        "visit4plus_mean": 0.14366341713699332,
+        "max_visit_mean": 2.2898922524371472,
+        "final_bfs_dist_mean": 10.40225756798358,
+        "progress_mean": -0.7002046226392044,
+        "first_toward_rate": 0.0,
+        "first_away_rate": 1.0,
+        "first_wall_rate": 0.0
+      }
+    },
+    "local_visit2_direction|local_visit2_direction_pos|local_visit2_direction_neg": {
+      "bucket": "local_visit2_direction",
+      "pos_label": "local_visit2_direction_pos",
+      "neg_label": "local_visit2_direction_neg",
+      "n": 3600,
+      "margin": {
+        "mean": 0.093527095784392,
+        "p50": 0.0974819305929433,
+        "p90": 0.09992261099010559,
+        "pct_near_min": 0.0008333333333333334,
+        "pct_near_max": 0.9036111111111111
+      },
+      "delta_b": {
+        "mean": 1.8153938159650234,
+        "p50": 1.6
+      },
+      "pos_stats": {
+        "success_rate": 0.5697222222222222,
+        "wall_mean": 0.0,
+        "visit2_mean": 0.3511111111111111,
+        "visit3plus_mean": 0.0,
+        "visit4plus_mean": 0.0,
+        "max_visit_mean": 2.0,
+        "final_bfs_dist_mean": 1.6216666666666666,
+        "progress_mean": 1.0,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      },
+      "neg_stats": {
+        "success_rate": 0.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 2.2463888888888888,
+        "visit3plus_mean": 0.9177777777777778,
+        "visit4plus_mean": 0.2386111111111111,
+        "max_visit_mean": 2.6719444444444442,
+        "final_bfs_dist_mean": 10.413611111111111,
+        "progress_mean": -0.6952473544973544,
+        "first_toward_rate": 0.0,
+        "first_away_rate": 1.0,
+        "first_wall_rate": 0.0
+      }
+    },
+    "local_visit_penalty|local_visit_penalty_pos|local_visit_penalty_neg": {
+      "bucket": "local_visit_penalty",
+      "pos_label": "local_visit_penalty_pos",
+      "neg_label": "local_visit_penalty_neg",
+      "n": 4584,
+      "margin": {
+        "mean": 0.01019726673256031,
+        "p50": 0.010121874758509071,
+        "p90": 0.01036396232095285,
+        "pct_near_min": 1.0,
+        "pct_near_max": 0.0
+      },
+      "delta_b": {
+        "mean": 0.003945633453315884,
+        "p50": 0.0024375000000000013
+      },
+      "pos_stats": {
+        "success_rate": 0.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 2.2013525305410124,
+        "visit3plus_mean": 1.1273996509598603,
+        "visit4plus_mean": 0.24454624781849912,
+        "max_visit_mean": 2.8784904013961605,
+        "final_bfs_dist_mean": 9.733420593368237,
+        "progress_mean": -0.5962727499376714,
+        "first_toward_rate": 0.44655322862129143,
+        "first_away_rate": 0.5534467713787086,
+        "first_wall_rate": 0.0
+      },
+      "neg_stats": {
+        "success_rate": 0.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 1.4884380453752182,
+        "visit3plus_mean": 1.8760907504363002,
+        "visit4plus_mean": 1.674738219895288,
+        "max_visit_mean": 4.81195462478185,
+        "final_bfs_dist_mean": 9.723385689354275,
+        "progress_mean": -0.5947311559877005,
+        "first_toward_rate": 0.44655322862129143,
+        "first_away_rate": 0.5534467713787086,
+        "first_wall_rate": 0.0
+      }
+    },
+    "wall_exp|explore_timeout|wall_timeout": {
+      "bucket": "wall_exp",
+      "pos_label": "explore_timeout",
+      "neg_label": "wall_timeout",
+      "n": 1074,
+      "margin": {
+        "mean": 0.22447016558516203,
+        "p50": 0.27170354293350085,
+        "p90": 0.3647613395596072,
+        "pct_near_min": 0.49906890130353815,
+        "pct_near_max": 0.0
+      },
+      "delta_b": {
+        "mean": 0.36794898445403396,
+        "p50": 0.41967565371489546
+      },
+      "pos_stats": {
+        "success_rate": 0.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 20.63873370577281,
+        "visit3plus_mean": 3.11731843575419,
+        "visit4plus_mean": 0.0,
+        "max_visit_mean": 2.8621973929236497,
+        "final_bfs_dist_mean": 8.427374301675977,
+        "progress_mean": 0.03826233705772812,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      },
+      "neg_stats": {
+        "success_rate": 0.0,
+        "wall_mean": 30.509310986964618,
+        "visit2_mean": 7.337988826815643,
+        "visit3plus_mean": 44.55679702048417,
+        "visit4plus_mean": 39.14897579143389,
+        "max_visit_mean": 34.675977653631286,
+        "final_bfs_dist_mean": 6.731843575418995,
+        "progress_mean": 0.06475500465549348,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      }
+    },
+    "wall_exp|loop_timeout|wall_timeout": {
+      "bucket": "wall_exp",
+      "pos_label": "loop_timeout",
+      "neg_label": "wall_timeout",
+      "n": 1145,
+      "margin": {
+        "mean": 0.22564973521968323,
+        "p50": 0.2852351226076242,
+        "p90": 0.3647613395596072,
+        "pct_near_min": 0.49344978165938863,
+        "pct_near_max": 0.0
+      },
+      "delta_b": {
+        "mean": 0.3709445437423768,
+        "p50": 0.46252230537552347
+      },
+      "pos_stats": {
+        "success_rate": 0.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 2.0,
+        "visit3plus_mean": 56.57467248908297,
+        "visit4plus_mean": 54.57467248908297,
+        "max_visit_mean": 30.54061135371179,
+        "final_bfs_dist_mean": 6.339737991266375,
+        "progress_mean": 0.07322598253275109,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      },
+      "neg_stats": {
+        "success_rate": 0.0,
+        "wall_mean": 30.806113537117906,
+        "visit2_mean": 7.216593886462882,
+        "visit3plus_mean": 44.82183406113537,
+        "visit4plus_mean": 39.47336244541485,
+        "max_visit_mean": 34.98689956331878,
+        "final_bfs_dist_mean": 6.815720524017467,
+        "progress_mean": 0.06578875545851529,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      }
+    },
+    "wall_exp|revisit_timeout|wall_timeout": {
+      "bucket": "wall_exp",
+      "pos_label": "revisit_timeout",
+      "neg_label": "wall_timeout",
+      "n": 1145,
+      "margin": {
+        "mean": 0.22564973521968323,
+        "p50": 0.2852351226076242,
+        "p90": 0.3647613395596072,
+        "pct_near_min": 0.49344978165938863,
+        "pct_near_max": 0.0
+      },
+      "delta_b": {
+        "mean": 0.3709445437423768,
+        "p50": 0.46252230537552347
+      },
+      "pos_stats": {
+        "success_rate": 0.0,
+        "wall_mean": 0.0,
+        "visit2_mean": 12.471615720524017,
+        "visit3plus_mean": 34.21921397379913,
+        "visit4plus_mean": 25.107423580786026,
+        "max_visit_mean": 11.777292576419214,
+        "final_bfs_dist_mean": 7.249781659388646,
+        "progress_mean": 0.059006550218340614,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      },
+      "neg_stats": {
+        "success_rate": 0.0,
+        "wall_mean": 30.806113537117906,
+        "visit2_mean": 7.216593886462882,
+        "visit3plus_mean": 44.82183406113537,
+        "visit4plus_mean": 39.47336244541485,
+        "max_visit_mean": 34.98689956331878,
+        "final_bfs_dist_mean": 6.815720524017467,
+        "progress_mean": 0.06578875545851529,
+        "first_toward_rate": 1.0,
+        "first_away_rate": 0.0,
+        "first_wall_rate": 0.0
+      }
+    }
+  },
+  "pair_validity_report": {
+    "cpl_explore_wall": {
+      "n": 1053,
+      "valid_rate": 1.0,
+      "invalid_rate": 0.0,
+      "invalid_reasons": {
+        "invalid_no_visit_context": 0,
+        "invalid_pos_not_toward": 0,
+        "invalid_neg_not_away": 0,
+        "invalid_pos_wall": 0,
+        "invalid_neg_no_wall_when_wall_expected": 0,
+        "invalid_progress_order": 0,
+        "invalid_visit_order": 0,
+        "invalid_same_or_better_neg": 0
+      }
+    },
+    "cpl_recover_loop": {
+      "n": 1200,
+      "valid_rate": 1.0,
+      "invalid_rate": 0.0,
+      "invalid_reasons": {
+        "invalid_no_visit_context": 0,
+        "invalid_pos_not_toward": 0,
+        "invalid_neg_not_away": 0,
+        "invalid_pos_wall": 0,
+        "invalid_neg_no_wall_when_wall_expected": 0,
+        "invalid_progress_order": 0,
+        "invalid_visit_order": 0,
+        "invalid_same_or_better_neg": 0
+      }
+    },
+    "cpl_recover_wall": {
+      "n": 1145,
+      "valid_rate": 1.0,
+      "invalid_rate": 0.0,
+      "invalid_reasons": {
+        "invalid_no_visit_context": 0,
+        "invalid_pos_not_toward": 0,
+        "invalid_neg_not_away": 0,
+        "invalid_pos_wall": 0,
+        "invalid_neg_no_wall_when_wall_expected": 0,
+        "invalid_progress_order": 0,
+        "invalid_visit_order": 0,
+        "invalid_same_or_better_neg": 0
+      }
+    },
+    "cpl_visit_toward": {
+      "n": 1200,
+      "valid_rate": 1.0,
+      "invalid_rate": 0.0,
+      "invalid_reasons": {
+        "invalid_no_visit_context": 0,
+        "invalid_pos_not_toward": 0,
+        "invalid_neg_not_away": 0,
+        "invalid_pos_wall": 0,
+        "invalid_neg_no_wall_when_wall_expected": 0,
+        "invalid_progress_order": 0,
+        "invalid_visit_order": 0,
+        "invalid_same_or_better_neg": 0
+      }
+    },
+    "episode_loop": {
+      "n": 4708,
+      "valid_rate": 1.0,
+      "invalid_rate": 0.0,
+      "invalid_reasons": {
+        "invalid_no_visit_context": 0,
+        "invalid_pos_not_toward": 0,
+        "invalid_neg_not_away": 0,
+        "invalid_pos_wall": 0,
+        "invalid_neg_no_wall_when_wall_expected": 0,
+        "invalid_progress_order": 0,
+        "invalid_visit_order": 0,
+        "invalid_same_or_better_neg": 0
+      }
+    },
+    "episode_outcome": {
+      "n": 4587,
+      "valid_rate": 1.0,
+      "invalid_rate": 0.0,
+      "invalid_reasons": {
+        "invalid_no_visit_context": 0,
+        "invalid_pos_not_toward": 0,
+        "invalid_neg_not_away": 0,
+        "invalid_pos_wall": 0,
+        "invalid_neg_no_wall_when_wall_expected": 0,
+        "invalid_progress_order": 0,
+        "invalid_visit_order": 0,
+        "invalid_same_or_better_neg": 0
+      }
+    },
+    "episode_path": {
+      "n": 2308,
+      "valid_rate": 1.0,
+      "invalid_rate": 0.0,
+      "invalid_reasons": {
+        "invalid_no_visit_context": 0,
+        "invalid_pos_not_toward": 0,
+        "invalid_neg_not_away": 0,
+        "invalid_pos_wall": 0,
+        "invalid_neg_no_wall_when_wall_expected": 0,
+        "invalid_progress_order": 0,
+        "invalid_visit_order": 0,
+        "invalid_same_or_better_neg": 0
+      }
+    },
+    "episode_wall": {
+      "n": 3364,
+      "valid_rate": 1.0,
+      "invalid_rate": 0.0,
+      "invalid_reasons": {
+        "invalid_no_visit_context": 0,
+        "invalid_pos_not_toward": 0,
+        "invalid_neg_not_away": 0,
+        "invalid_pos_wall": 0,
+        "invalid_neg_no_wall_when_wall_expected": 0,
+        "invalid_progress_order": 0,
+        "invalid_visit_order": 0,
+        "invalid_same_or_better_neg": 0
+      }
+    },
+    "local_recover_loop": {
+      "n": 3200,
+      "valid_rate": 1.0,
+      "invalid_rate": 0.0,
+      "invalid_reasons": {
+        "invalid_no_visit_context": 0,
+        "invalid_pos_not_toward": 0,
+        "invalid_neg_not_away": 0,
+        "invalid_pos_wall": 0,
+        "invalid_neg_no_wall_when_wall_expected": 0,
+        "invalid_progress_order": 0,
+        "invalid_visit_order": 0,
+        "invalid_same_or_better_neg": 0
+      }
+    },
+    "local_safe_wall": {
+      "n": 2718,
+      "valid_rate": 1.0,
+      "invalid_rate": 0.0,
+      "invalid_reasons": {
+        "invalid_no_visit_context": 0,
+        "invalid_pos_not_toward": 0,
+        "invalid_neg_not_away": 0,
+        "invalid_pos_wall": 0,
+        "invalid_neg_no_wall_when_wall_expected": 0,
+        "invalid_progress_order": 0,
+        "invalid_visit_order": 0,
+        "invalid_same_or_better_neg": 0
+      }
+    },
+    "local_toward": {
+      "n": 3898,
+      "valid_rate": 1.0,
+      "invalid_rate": 0.0,
+      "invalid_reasons": {
+        "invalid_no_visit_context": 0,
+        "invalid_pos_not_toward": 0,
+        "invalid_neg_not_away": 0,
+        "invalid_pos_wall": 0,
+        "invalid_neg_no_wall_when_wall_expected": 0,
+        "invalid_progress_order": 0,
+        "invalid_visit_order": 0,
+        "invalid_same_or_better_neg": 0
+      }
+    },
+    "local_visit2_direction": {
+      "n": 3600,
+      "valid_rate": 0.3186111111111111,
+      "invalid_rate": 0.6813888888888889,
+      "invalid_reasons": {
+        "invalid_no_visit_context": 2453,
+        "invalid_pos_not_toward": 0,
+        "invalid_neg_not_away": 0,
+        "invalid_pos_wall": 0,
+        "invalid_neg_no_wall_when_wall_expected": 0,
+        "invalid_progress_order": 0,
+        "invalid_visit_order": 0,
+        "invalid_same_or_better_neg": 0
+      }
+    },
+    "local_visit_penalty": {
+      "n": 4584,
+      "valid_rate": 0.7905759162303665,
+      "invalid_rate": 0.2094240837696335,
+      "invalid_reasons": {
+        "invalid_no_visit_context": 0,
+        "invalid_pos_not_toward": 0,
+        "invalid_neg_not_away": 0,
+        "invalid_pos_wall": 0,
+        "invalid_neg_no_wall_when_wall_expected": 0,
+        "invalid_progress_order": 861,
+        "invalid_visit_order": 244,
+        "invalid_same_or_better_neg": 0
+      }
+    },
+    "wall_exp": {
+      "n": 3364,
+      "valid_rate": 1.0,
+      "invalid_rate": 0.0,
+      "invalid_reasons": {
+        "invalid_no_visit_context": 0,
+        "invalid_pos_not_toward": 0,
+        "invalid_neg_not_away": 0,
+        "invalid_pos_wall": 0,
+        "invalid_neg_no_wall_when_wall_expected": 0,
+        "invalid_progress_order": 0,
+        "invalid_visit_order": 0,
+        "invalid_same_or_better_neg": 0
+      }
+    }
+  },
+  "pair_warning_summary": [
+    "[PAIR WARNING] bucket=local_visit2_direction valid_rate=0.319 is low. Fix pair generator before tuning margin.",
+    "[PAIR WARNING] local_visit2_direction is not clean enough; toward_visit2 vs away_visit2 will not improve by margin tuning alone.",
+    "[PAIR WARNING] bucket=local_visit_penalty valid_rate=0.791 is low. Fix pair generator before tuning margin."
+  ],
+  "margin_tuning_report": {
+    "episode_outcome": {
+      "n": 4587,
+      "margin_min": 0.35,
+      "margin_max": 0.65,
+      "margin_scale": 1.0,
+      "delta_b": {
+        "mean": 1.0,
+        "p50": 1.0,
+        "p90": 1.0
+      },
+      "margin": {
+        "mean": 0.5784782466607372,
+        "p10": 0.5784782466607372,
+        "p50": 0.5784782466607372,
+        "p90": 0.5784782466607372,
+        "pct_near_min": 0.0,
+        "pct_near_max": 0.0
+      },
+      "recommendation": {
+        "action": "keep",
+        "recommended_min": 0.35,
+        "recommended_max": 0.65,
+        "recommended_scale": 1.0,
+        "reason": "margin distribution looks acceptable."
+      }
+    },
+    "episode_wall": {
+      "n": 3364,
+      "margin_min": 0.15,
+      "margin_max": 0.35,
+      "margin_scale": 1.0,
+      "delta_b": {
+        "mean": 1.0,
+        "p50": 1.0,
+        "p90": 1.0
+      },
+      "margin": {
+        "mean": 0.30231883110715796,
+        "p10": 0.30231883110715807,
+        "p50": 0.30231883110715807,
+        "p90": 0.30231883110715807,
+        "pct_near_min": 0.0,
+        "pct_near_max": 0.0
+      },
+      "recommendation": {
+        "action": "keep",
+        "recommended_min": 0.15,
+        "recommended_max": 0.35,
+        "recommended_scale": 1.0,
+        "reason": "margin distribution looks acceptable."
+      }
+    },
+    "episode_loop": {
+      "n": 4708,
+      "margin_min": 0.08,
+      "margin_max": 0.25,
+      "margin_scale": 1.0,
+      "delta_b": {
+        "mean": 0.5061271203934792,
+        "p50": 0.684170625,
+        "p90": 0.809170625
+      },
+      "margin": {
+        "mean": 0.1540894064455873,
+        "p10": 0.08,
+        "p50": 0.1810180885441233,
+        "p90": 0.19375252181428,
+        "pct_near_min": 0.17204757858963465,
+        "pct_near_max": 0.0
+      },
+      "recommendation": {
+        "action": "keep",
+        "recommended_min": 0.08,
+        "recommended_max": 0.25,
+        "recommended_scale": 1.0,
+        "reason": "margin distribution looks acceptable."
+      }
+    },
+    "episode_path": {
+      "n": 2308,
+      "margin_min": 0.0,
+      "margin_max": 0.04,
+      "margin_scale": 1.0,
+      "delta_b": {
+        "mean": 0.04486475276135627,
+        "p50": 0.038461538461538464,
+        "p90": 0.07142857142857142
+      },
+      "margin": {
+        "mean": 0.001791864352408073,
+        "p10": 0.0014029330783374805,
+        "p50": 0.001537703375312464,
+        "p90": 0.0028522936638751117,
+        "pct_near_min": 1.0,
+        "pct_near_max": 0.0
+      },
+      "recommendation": {
+        "action": "keep",
+        "recommended_min": 0.0,
+        "recommended_max": 0.04,
+        "recommended_scale": 1.0,
+        "reason": "margin distribution looks acceptable."
+      }
+    },
+    "wall_exp": {
+      "n": 3364,
+      "margin_min": 0.1,
+      "margin_max": 0.42,
+      "margin_scale": 0.7,
+      "delta_b": {
+        "mean": 0.3699881731491306,
+        "p50": 0.46252230537552347,
+        "p90": 0.8258392528265799
+      },
+      "margin": {
+        "mean": 0.2252731425361292,
+        "p10": 0.10055007779408248,
+        "p50": 0.2852351226076242,
+        "p90": 0.3647613395596072,
+        "pct_near_min": 0.495243757431629,
+        "pct_near_max": 0.0
+      },
+      "recommendation": {
+        "action": "keep",
+        "recommended_min": 0.1,
+        "recommended_max": 0.42,
+        "recommended_scale": 0.7,
+        "reason": "margin distribution looks acceptable."
+      }
+    },
+    "cpl_recover_wall": {
+      "n": 1145,
+      "margin_min": 0.25,
+      "margin_max": 0.48,
+      "margin_scale": 0.9,
+      "delta_b": {
+        "mean": 0.8750542989279663,
+        "p50": 1.2030451178755233,
+        "p90": 1.7069870653265797
+      },
+      "margin": {
+        "mean": 0.37817341117402026,
+        "p10": 0.266862938017229,
+        "p50": 0.45030272251230896,
+        "p90": 0.469868486622586,
+        "pct_near_min": 0.12925764192139738,
+        "pct_near_max": 0.4558951965065502
+      },
+      "recommendation": {
+        "action": "increase scale or decrease max",
+        "recommended_min": 0.25,
+        "recommended_max": 0.432,
+        "recommended_scale": 1.35,
+        "reason": "margin is saturating; bucket pushes reward too hard and may cause +/-1 reward saturation."
+      }
+    },
+    "cpl_explore_wall": {
+      "n": 1053,
+      "margin_min": 0.18,
+      "margin_max": 0.4,
+      "margin_scale": 0.9,
+      "delta_b": {
+        "mean": 0.8760084220033552,
+        "p50": 1.2034357428755234,
+        "p90": 1.7073776903265798
+      },
+      "margin": {
+        "mean": 0.30205570385154645,
+        "p10": 0.1960514370294057,
+        "p50": 0.37161696593127785,
+        "p90": 0.39031721084714355,
+        "pct_near_min": 0.13865147198480532,
+        "pct_near_max": 0.4624881291547958
+      },
+      "recommendation": {
+        "action": "increase scale or decrease max",
+        "recommended_min": 0.18,
+        "recommended_max": 0.36000000000000004,
+        "recommended_scale": 1.35,
+        "reason": "margin is saturating; bucket pushes reward too hard and may cause +/-1 reward saturation."
+      }
+    },
+    "cpl_recover_loop": {
+      "n": 1200,
+      "margin_min": 0.12,
+      "margin_max": 0.3,
+      "margin_scale": 0.8,
+      "delta_b": {
+        "mean": 0.7723919791666667,
+        "p50": 0.777920625,
+        "p90": 0.80956125
+      },
+      "margin": {
+        "mean": 0.2542789027926994,
+        "p10": 0.2484729887694732,
+        "p50": 0.2549563311590876,
+        "p90": 0.25798223912239304,
+        "pct_near_min": 0.0,
+        "pct_near_max": 0.0
+      },
+      "recommendation": {
+        "action": "keep",
+        "recommended_min": 0.12,
+        "recommended_max": 0.3,
+        "recommended_scale": 0.8,
+        "reason": "margin distribution looks acceptable."
+      }
+    },
+    "cpl_visit_toward": {
+      "n": 1200,
+      "margin_min": 0.08,
+      "margin_max": 0.24,
+      "margin_scale": 1.0,
+      "delta_b": {
+        "mean": 0.8487855629202822,
+        "p50": 0.8393531480969895,
+        "p90": 1.287136520260989
+      },
+      "margin": {
+        "mean": 0.18375932895157077,
+        "p10": 0.1384056942335802,
+        "p50": 0.18967460708057304,
+        "p90": 0.2173399582591217,
+        "pct_near_min": 0.0025,
+        "pct_near_max": 0.07416666666666667
+      },
+      "recommendation": {
+        "action": "keep",
+        "recommended_min": 0.08,
+        "recommended_max": 0.24,
+        "recommended_scale": 1.0,
+        "reason": "margin distribution looks acceptable."
+      }
+    },
+    "local_toward": {
+      "n": 3898,
+      "margin_min": 0.04,
+      "margin_max": 0.16,
+      "margin_scale": 0.8,
+      "delta_b": {
+        "mean": 1.8090808682853383,
+        "p50": 1.6,
+        "p90": 3.0
+      },
+      "margin": {
+        "mean": 0.14887169280982077,
+        "p10": 0.1264834759144415,
+        "p50": 0.15568330958790277,
+        "p90": 0.15986733312589527,
+        "pct_near_min": 0.0,
+        "pct_near_max": 0.797331965110313
+      },
+      "recommendation": {
+        "action": "increase scale or decrease max",
+        "recommended_min": 0.04,
+        "recommended_max": 0.14400000000000002,
+        "recommended_scale": 1.2000000000000002,
+        "reason": "margin is saturating; bucket pushes reward too hard and may cause +/-1 reward saturation."
+      }
+    },
+    "local_safe_wall": {
+      "n": 2718,
+      "margin_min": 0.18,
+      "margin_max": 0.35,
+      "margin_scale": 0.8,
+      "delta_b": {
+        "mean": 1.0086341498117426,
+        "p50": 1.0084889387849552,
+        "p90": 1.0121034265230977
+      },
+      "margin": {
+        "mean": 0.32471765705583566,
+        "p10": 0.32452221723101843,
+        "p50": 0.3247095277133799,
+        "p90": 0.3249202471796627,
+        "pct_near_min": 0.0,
+        "pct_near_max": 0.0
+      },
+      "recommendation": {
+        "action": "keep",
+        "recommended_min": 0.18,
+        "recommended_max": 0.35,
+        "recommended_scale": 0.8,
+        "reason": "margin distribution looks acceptable."
+      }
+    },
+    "local_visit2_direction": {
+      "n": 3600,
+      "margin_min": 0.03,
+      "margin_max": 0.1,
+      "margin_scale": 0.8,
+      "delta_b": {
+        "mean": 1.8153938159650234,
+        "p50": 1.6,
+        "p90": 3.0
+      },
+      "margin": {
+        "mean": 0.093527095784392,
+        "p10": 0.08044869428342422,
+        "p50": 0.0974819305929433,
+        "p90": 0.09992261099010559,
+        "pct_near_min": 0.0008333333333333334,
+        "pct_near_max": 0.9036111111111111
+      },
+      "recommendation": {
+        "action": "fix pair generator / pair direction before tuning margin",
+        "recommended_min": 0.03,
+        "recommended_max": 0.1,
+        "recommended_scale": 0.8,
+        "reason": "margin is saturating, but pair direction validity is low; increasing or decreasing margin may reinforce noisy preferences."
+      }
+    },
+    "local_recover_loop": {
+      "n": 3200,
+      "margin_min": 0.08,
+      "margin_max": 0.22,
+      "margin_scale": 0.8,
+      "delta_b": {
+        "mean": 0.011233500488281251,
+        "p50": 0.0095859375,
+        "p90": 0.018814062500000003
+      },
+      "margin": {
+        "mean": 0.08196561549564464,
+        "p10": 0.08074511015112484,
+        "p50": 0.0816774587788702,
+        "p90": 0.08329185407340611,
+        "pct_near_min": 1.0,
+        "pct_near_max": 0.0
+      },
+      "recommendation": {
+        "action": "decrease scale or increase min",
+        "recommended_min": 0.1,
+        "recommended_max": 0.22,
+        "recommended_scale": 0.6000000000000001,
+        "reason": "margin too weak; pair may not provide enough separation."
+      }
+    },
+    "local_visit_penalty": {
+      "n": 4584,
+      "margin_min": 0.01,
+      "margin_max": 0.06,
+      "margin_scale": 1.0,
+      "delta_b": {
+        "mean": 0.003945633453315884,
+        "p50": 0.0024375000000000013,
+        "p90": 0.007279375000000002
+      },
+      "margin": {
+        "mean": 0.01019726673256031,
+        "p10": 0.010037109368149088,
+        "p50": 0.010121874758509071,
+        "p90": 0.01036396232095285,
+        "pct_near_min": 1.0,
+        "pct_near_max": 0.0
+      },
+      "recommendation": {
+        "action": "keep",
+        "recommended_min": 0.01,
+        "recommended_max": 0.06,
+        "recommended_scale": 1.0,
+        "reason": "margin distribution looks acceptable."
+      }
+    }
+  },
+  "maze_summaries": [
+    {
+      "maze_id": 0,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 1,
+      "difficulty": "medium",
+      "n_bfs_paths": 2,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 2,
+      "difficulty": "hard",
+      "n_bfs_paths": 5,
+      "n_family_traj": 20,
+      "n_episode_pairs": 56,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 3,
+      "difficulty": "hard",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 4,
+      "difficulty": "easy",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 5,
+      "difficulty": "easy",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 6,
+      "difficulty": "easy",
+      "n_bfs_paths": 8,
+      "n_family_traj": 20,
+      "n_episode_pairs": 52,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 7,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 8,
+      "difficulty": "hard",
+      "n_bfs_paths": 1,
+      "n_family_traj": 18,
+      "n_episode_pairs": 48,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 9,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 10,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 11,
+      "difficulty": "hard",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 12,
+      "difficulty": "hard",
+      "n_bfs_paths": 3,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 13,
+      "difficulty": "hard",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 14,
+      "difficulty": "easy",
+      "n_bfs_paths": 5,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 15,
+      "difficulty": "hard",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 16,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 17,
+      "difficulty": "easy",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 18,
+      "difficulty": "easy",
+      "n_bfs_paths": 6,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 19,
+      "difficulty": "hard",
+      "n_bfs_paths": 8,
+      "n_family_traj": 20,
+      "n_episode_pairs": 56,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 20,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 20,
+      "n_episode_pairs": 52,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 21,
+      "difficulty": "easy",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 22,
+      "difficulty": "hard",
+      "n_bfs_paths": 1,
+      "n_family_traj": 20,
+      "n_episode_pairs": 56,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 23,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 24,
+      "difficulty": "hard",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 25,
+      "difficulty": "hard",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 26,
+      "difficulty": "hard",
+      "n_bfs_paths": 3,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 27,
+      "difficulty": "easy",
+      "n_bfs_paths": 6,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 28,
+      "difficulty": "easy",
+      "n_bfs_paths": 2,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 29,
+      "difficulty": "medium",
+      "n_bfs_paths": 1,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 30,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 31,
+      "difficulty": "hard",
+      "n_bfs_paths": 1,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 32,
+      "difficulty": "easy",
+      "n_bfs_paths": 5,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 33,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 34,
+      "difficulty": "hard",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 35,
+      "difficulty": "hard",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 36,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 18,
+      "n_episode_pairs": 48,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 37,
+      "difficulty": "easy",
+      "n_bfs_paths": 7,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 38,
+      "difficulty": "hard",
+      "n_bfs_paths": 1,
+      "n_family_traj": 18,
+      "n_episode_pairs": 48,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 39,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 40,
+      "difficulty": "easy",
+      "n_bfs_paths": 8,
+      "n_family_traj": 19,
+      "n_episode_pairs": 44,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 41,
+      "difficulty": "easy",
+      "n_bfs_paths": 2,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 42,
+      "difficulty": "medium",
+      "n_bfs_paths": 1,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 43,
+      "difficulty": "hard",
+      "n_bfs_paths": 4,
+      "n_family_traj": 20,
+      "n_episode_pairs": 56,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 44,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 45,
+      "difficulty": "medium",
+      "n_bfs_paths": 2,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 46,
+      "difficulty": "hard",
+      "n_bfs_paths": 1,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 47,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 20,
+      "n_episode_pairs": 52,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 48,
+      "difficulty": "hard",
+      "n_bfs_paths": 6,
+      "n_family_traj": 20,
+      "n_episode_pairs": 56,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 49,
+      "difficulty": "medium",
+      "n_bfs_paths": 2,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 50,
+      "difficulty": "medium",
+      "n_bfs_paths": 1,
+      "n_family_traj": 17,
+      "n_episode_pairs": 45,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 51,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 52,
+      "difficulty": "medium",
+      "n_bfs_paths": 6,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 53,
+      "difficulty": "easy",
+      "n_bfs_paths": 8,
+      "n_family_traj": 20,
+      "n_episode_pairs": 52,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 54,
+      "difficulty": "hard",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 55,
+      "difficulty": "hard",
+      "n_bfs_paths": 3,
+      "n_family_traj": 17,
+      "n_episode_pairs": 45,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 56,
+      "difficulty": "medium",
+      "n_bfs_paths": 6,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 57,
+      "difficulty": "easy",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 58,
+      "difficulty": "hard",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 59,
+      "difficulty": "hard",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 60,
+      "difficulty": "hard",
+      "n_bfs_paths": 3,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 61,
+      "difficulty": "medium",
+      "n_bfs_paths": 6,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 62,
+      "difficulty": "easy",
+      "n_bfs_paths": 8,
+      "n_family_traj": 19,
+      "n_episode_pairs": 44,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 63,
+      "difficulty": "easy",
+      "n_bfs_paths": 8,
+      "n_family_traj": 20,
+      "n_episode_pairs": 52,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 64,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 65,
+      "difficulty": "medium",
+      "n_bfs_paths": 1,
+      "n_family_traj": 20,
+      "n_episode_pairs": 56,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 66,
+      "difficulty": "easy",
+      "n_bfs_paths": 1,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 67,
+      "difficulty": "medium",
+      "n_bfs_paths": 1,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 68,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 69,
+      "difficulty": "hard",
+      "n_bfs_paths": 3,
+      "n_family_traj": 18,
+      "n_episode_pairs": 48,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 70,
+      "difficulty": "medium",
+      "n_bfs_paths": 5,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 71,
+      "difficulty": "medium",
+      "n_bfs_paths": 1,
+      "n_family_traj": 20,
+      "n_episode_pairs": 56,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 72,
+      "difficulty": "hard",
+      "n_bfs_paths": 2,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 73,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 74,
+      "difficulty": "hard",
+      "n_bfs_paths": 8,
+      "n_family_traj": 17,
+      "n_episode_pairs": 45,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 75,
+      "difficulty": "hard",
+      "n_bfs_paths": 3,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 76,
+      "difficulty": "easy",
+      "n_bfs_paths": 8,
+      "n_family_traj": 20,
+      "n_episode_pairs": 52,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 77,
+      "difficulty": "hard",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 78,
+      "difficulty": "hard",
+      "n_bfs_paths": 3,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 79,
+      "difficulty": "hard",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 80,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 81,
+      "difficulty": "easy",
+      "n_bfs_paths": 8,
+      "n_family_traj": 19,
+      "n_episode_pairs": 44,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 82,
+      "difficulty": "medium",
+      "n_bfs_paths": 4,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 83,
+      "difficulty": "medium",
+      "n_bfs_paths": 4,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 84,
+      "difficulty": "easy",
+      "n_bfs_paths": 6,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 85,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 86,
+      "difficulty": "hard",
+      "n_bfs_paths": 4,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 87,
+      "difficulty": "medium",
+      "n_bfs_paths": 6,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 88,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 89,
+      "difficulty": "medium",
+      "n_bfs_paths": 6,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 90,
+      "difficulty": "hard",
+      "n_bfs_paths": 6,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 91,
+      "difficulty": "hard",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 92,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 20,
+      "n_episode_pairs": 52,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 93,
+      "difficulty": "hard",
+      "n_bfs_paths": 4,
+      "n_family_traj": 20,
+      "n_episode_pairs": 56,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 94,
+      "difficulty": "hard",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 95,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 96,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 18,
+      "n_episode_pairs": 48,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 97,
+      "difficulty": "medium",
+      "n_bfs_paths": 8,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 98,
+      "difficulty": "easy",
+      "n_bfs_paths": 3,
+      "n_family_traj": 21,
+      "n_episode_pairs": 60,
+      "n_local_pairs": 45
+    },
+    {
+      "maze_id": 99,
+      "difficulty": "hard",
+      "n_bfs_paths": 1,
+      "n_family_traj": 19,
+      "n_episode_pairs": 52,
+      "n_local_pairs": 45
+    }
+  ],
+  "total_trajectories": 46407,
+  "total_pairs": 40929
+}

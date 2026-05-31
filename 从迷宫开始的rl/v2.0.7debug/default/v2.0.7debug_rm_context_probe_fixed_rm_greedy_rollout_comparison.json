@@ -1,0 +1,52 @@
+{
+  "bfs_tiebreak": {
+    "summary": {
+      "n": 100,
+      "success": 1.0,
+      "wall_timeout": 0.0,
+      "loop_timeout": 0.0,
+      "explore_timeout": 0.0,
+      "avg_steps": 11.22,
+      "avg_wall_hits": 0.0,
+      "avg_visit2": 0.0,
+      "avg_visit3plus": 0.0,
+      "avg_visit4plus": 0.0,
+      "avg_max_visit": 1.0,
+      "avg_bfs_gap": 0.0
+    },
+    "action_ranking": {
+      "toward_chosen_rate": 1.0,
+      "away_chosen_rate": 0.0,
+      "wall_chosen_rate": 0.0,
+      "visit2_toward_chosen_rate": 0.0,
+      "visit2_away_chosen_rate": 0.0,
+      "repeat_wall_chosen_rate": 0.0,
+      "all_actions_saturated_rate": 0.25846702317290554
+    }
+  },
+  "pure_argmax": {
+    "summary": {
+      "n": 100,
+      "success": 0.25,
+      "wall_timeout": 0.75,
+      "loop_timeout": 0.0,
+      "explore_timeout": 0.0,
+      "avg_steps": 54.18,
+      "avg_wall_hits": 14.01,
+      "avg_visit2": 10.18,
+      "avg_visit3plus": 28.4,
+      "avg_visit4plus": 21.74,
+      "avg_max_visit": 11.22,
+      "avg_bfs_gap": 50.05
+    },
+    "action_ranking": {
+      "toward_chosen_rate": 0.40882244370616466,
+      "away_chosen_rate": 0.33259505352528607,
+      "wall_chosen_rate": 0.25858250276854927,
+      "visit2_toward_chosen_rate": 0.08637873754152824,
+      "visit2_away_chosen_rate": 0.07622739018087855,
+      "repeat_wall_chosen_rate": 0.20431893687707642,
+      "all_actions_saturated_rate": 0.7216685123661868
+    }
+  }
+}

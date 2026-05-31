@@ -1,0 +1,212 @@
+{
+  "cpl_explore_wall": {
+    "n": 1053,
+    "valid_rate": 1.0,
+    "invalid_rate": 0.0,
+    "invalid_reasons": {
+      "invalid_no_visit_context": 0,
+      "invalid_pos_not_toward": 0,
+      "invalid_neg_not_away": 0,
+      "invalid_pos_wall": 0,
+      "invalid_neg_no_wall_when_wall_expected": 0,
+      "invalid_progress_order": 0,
+      "invalid_visit_order": 0,
+      "invalid_same_or_better_neg": 0
+    }
+  },
+  "cpl_recover_loop": {
+    "n": 1200,
+    "valid_rate": 1.0,
+    "invalid_rate": 0.0,
+    "invalid_reasons": {
+      "invalid_no_visit_context": 0,
+      "invalid_pos_not_toward": 0,
+      "invalid_neg_not_away": 0,
+      "invalid_pos_wall": 0,
+      "invalid_neg_no_wall_when_wall_expected": 0,
+      "invalid_progress_order": 0,
+      "invalid_visit_order": 0,
+      "invalid_same_or_better_neg": 0
+    }
+  },
+  "cpl_recover_wall": {
+    "n": 1145,
+    "valid_rate": 1.0,
+    "invalid_rate": 0.0,
+    "invalid_reasons": {
+      "invalid_no_visit_context": 0,
+      "invalid_pos_not_toward": 0,
+      "invalid_neg_not_away": 0,
+      "invalid_pos_wall": 0,
+      "invalid_neg_no_wall_when_wall_expected": 0,
+      "invalid_progress_order": 0,
+      "invalid_visit_order": 0,
+      "invalid_same_or_better_neg": 0
+    }
+  },
+  "cpl_visit_toward": {
+    "n": 1200,
+    "valid_rate": 1.0,
+    "invalid_rate": 0.0,
+    "invalid_reasons": {
+      "invalid_no_visit_context": 0,
+      "invalid_pos_not_toward": 0,
+      "invalid_neg_not_away": 0,
+      "invalid_pos_wall": 0,
+      "invalid_neg_no_wall_when_wall_expected": 0,
+      "invalid_progress_order": 0,
+      "invalid_visit_order": 0,
+      "invalid_same_or_better_neg": 0
+    }
+  },
+  "episode_loop": {
+    "n": 4708,
+    "valid_rate": 1.0,
+    "invalid_rate": 0.0,
+    "invalid_reasons": {
+      "invalid_no_visit_context": 0,
+      "invalid_pos_not_toward": 0,
+      "invalid_neg_not_away": 0,
+      "invalid_pos_wall": 0,
+      "invalid_neg_no_wall_when_wall_expected": 0,
+      "invalid_progress_order": 0,
+      "invalid_visit_order": 0,
+      "invalid_same_or_better_neg": 0
+    }
+  },
+  "episode_outcome": {
+    "n": 4587,
+    "valid_rate": 1.0,
+    "invalid_rate": 0.0,
+    "invalid_reasons": {
+      "invalid_no_visit_context": 0,
+      "invalid_pos_not_toward": 0,
+      "invalid_neg_not_away": 0,
+      "invalid_pos_wall": 0,
+      "invalid_neg_no_wall_when_wall_expected": 0,
+      "invalid_progress_order": 0,
+      "invalid_visit_order": 0,
+      "invalid_same_or_better_neg": 0
+    }
+  },
+  "episode_path": {
+    "n": 2308,
+    "valid_rate": 1.0,
+    "invalid_rate": 0.0,
+    "invalid_reasons": {
+      "invalid_no_visit_context": 0,
+      "invalid_pos_not_toward": 0,
+      "invalid_neg_not_away": 0,
+      "invalid_pos_wall": 0,
+      "invalid_neg_no_wall_when_wall_expected": 0,
+      "invalid_progress_order": 0,
+      "invalid_visit_order": 0,
+      "invalid_same_or_better_neg": 0
+    }
+  },
+  "episode_wall": {
+    "n": 3364,
+    "valid_rate": 1.0,
+    "invalid_rate": 0.0,
+    "invalid_reasons": {
+      "invalid_no_visit_context": 0,
+      "invalid_pos_not_toward": 0,
+      "invalid_neg_not_away": 0,
+      "invalid_pos_wall": 0,
+      "invalid_neg_no_wall_when_wall_expected": 0,
+      "invalid_progress_order": 0,
+      "invalid_visit_order": 0,
+      "invalid_same_or_better_neg": 0
+    }
+  },
+  "local_recover_loop": {
+    "n": 3200,
+    "valid_rate": 1.0,
+    "invalid_rate": 0.0,
+    "invalid_reasons": {
+      "invalid_no_visit_context": 0,
+      "invalid_pos_not_toward": 0,
+      "invalid_neg_not_away": 0,
+      "invalid_pos_wall": 0,
+      "invalid_neg_no_wall_when_wall_expected": 0,
+      "invalid_progress_order": 0,
+      "invalid_visit_order": 0,
+      "invalid_same_or_better_neg": 0
+    }
+  },
+  "local_safe_wall": {
+    "n": 2718,
+    "valid_rate": 1.0,
+    "invalid_rate": 0.0,
+    "invalid_reasons": {
+      "invalid_no_visit_context": 0,
+      "invalid_pos_not_toward": 0,
+      "invalid_neg_not_away": 0,
+      "invalid_pos_wall": 0,
+      "invalid_neg_no_wall_when_wall_expected": 0,
+      "invalid_progress_order": 0,
+      "invalid_visit_order": 0,
+      "invalid_same_or_better_neg": 0
+    }
+  },
+  "local_toward": {
+    "n": 3898,
+    "valid_rate": 1.0,
+    "invalid_rate": 0.0,
+    "invalid_reasons": {
+      "invalid_no_visit_context": 0,
+      "invalid_pos_not_toward": 0,
+      "invalid_neg_not_away": 0,
+      "invalid_pos_wall": 0,
+      "invalid_neg_no_wall_when_wall_expected": 0,
+      "invalid_progress_order": 0,
+      "invalid_visit_order": 0,
+      "invalid_same_or_better_neg": 0
+    }
+  },
+  "local_visit2_direction": {
+    "n": 3600,
+    "valid_rate": 0.3186111111111111,
+    "invalid_rate": 0.6813888888888889,
+    "invalid_reasons": {
+      "invalid_no_visit_context": 2453,
+      "invalid_pos_not_toward": 0,
+      "invalid_neg_not_away": 0,
+      "invalid_pos_wall": 0,
+      "invalid_neg_no_wall_when_wall_expected": 0,
+      "invalid_progress_order": 0,
+      "invalid_visit_order": 0,
+      "invalid_same_or_better_neg": 0
+    }
+  },
+  "local_visit_penalty": {
+    "n": 4584,
+    "valid_rate": 0.7905759162303665,
+    "invalid_rate": 0.2094240837696335,
+    "invalid_reasons": {
+      "invalid_no_visit_context": 0,
+      "invalid_pos_not_toward": 0,
+      "invalid_neg_not_away": 0,
+      "invalid_pos_wall": 0,
+      "invalid_neg_no_wall_when_wall_expected": 0,
+      "invalid_progress_order": 861,
+      "invalid_visit_order": 244,
+      "invalid_same_or_better_neg": 0
+    }
+  },
+  "wall_exp": {
+    "n": 3364,
+    "valid_rate": 1.0,
+    "invalid_rate": 0.0,
+    "invalid_reasons": {
+      "invalid_no_visit_context": 0,
+      "invalid_pos_not_toward": 0,
+      "invalid_neg_not_away": 0,
+      "invalid_pos_wall": 0,
+      "invalid_neg_no_wall_when_wall_expected": 0,
+      "invalid_progress_order": 0,
+      "invalid_visit_order": 0,
+      "invalid_same_or_better_neg": 0
+    }
+  }
+}

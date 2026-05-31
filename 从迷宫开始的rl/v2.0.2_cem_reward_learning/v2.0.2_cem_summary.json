@@ -1,0 +1,1929 @@
+{
+  "version": "v2.0.2_cem_reward_learning",
+  "base_config": {
+    "output_dir": "./v2.0.2_cem_reward_learning",
+    "output_name": "v2.0.2_cem_reward_learning",
+    "seed": 42,
+    "episodes": 3000,
+    "max_steps": 64,
+    "gamma": 0.99,
+    "lr": 0.0001,
+    "batch_size": 128,
+    "replay_size": 100000,
+    "warmup_steps": 3000,
+    "train_every": 1,
+    "updates_per_episode": 64,
+    "target_mode": "double",
+    "target_update_interval": 500,
+    "epsilon_start": 1.0,
+    "epsilon_end": 0.05,
+    "epsilon_decay_episodes": 2500,
+    "easy_ratio": 0.4,
+    "medium_ratio": 0.3,
+    "hard_ratio": 0.3,
+    "reward_preset": "custom",
+    "goal_reward": 64.0,
+    "wall_penalty": -64.0,
+    "step_penalty": -1.0,
+    "use_demo": false,
+    "demo_ratio": 0.0,
+    "demo_per_episode": 0,
+    "use_margin": false,
+    "margin": 1.0,
+    "margin_lambda": 1.0,
+    "margin_source": "demo",
+    "use_bfs": false,
+    "eval_n": 100,
+    "save_gif": true,
+    "device": "auto"
+  },
+  "cem_config": {
+    "generations": 4,
+    "population": 6,
+    "elite": 2,
+    "candidate_episodes": 3000,
+    "final_episodes": 3000,
+    "init_g": 32.0,
+    "init_w": 16.0,
+    "init_sigma": 0.35,
+    "min_sigma": 0.05,
+    "cem_alpha": 0.7,
+    "step_scale": 2.0,
+    "min_g": 4.0,
+    "max_g": 128.0,
+    "min_w": 2.0,
+    "max_w": 128.0,
+    "timeout_penalty": 0.5,
+    "wall_fail_penalty": 1.0,
+    "candidate_eval_n": 60,
+    "common_eval_seed": 20202,
+    "keep_candidate_models": false
+  },
+  "generations": [
+    {
+      "generation": 0,
+      "old_mu_log": [
+        3.4657359027997265,
+        2.772588722239781
+      ],
+      "old_sigma_log": [
+        0.35,
+        0.35
+      ],
+      "old_center": {
+        "g": 32.0,
+        "w": 15.999999999999998
+      },
+      "new_mu_log": [
+        3.594994016555935,
+        2.7604098469832445
+      ],
+      "new_sigma_log": [
+        0.15960242921637322,
+        0.3476172307723844
+      ],
+      "new_center": {
+        "g": 36.41548209722696,
+        "w": 15.806319793395538
+      },
+      "elite_ids": [
+        0,
+        1
+      ],
+      "candidates": [
+        {
+          "candidate_id": 0,
+          "g": 35.60146827594395,
+          "w": 11.118320964886372,
+          "log_g": 3.5723868807137773,
+          "log_w": 2.408594285055608,
+          "generation": 0,
+          "goal_reward": 71.2029365518879,
+          "wall_penalty": -22.236641929772745,
+          "step_penalty": -2.0,
+          "score": 0.1481006647673314,
+          "candidate_eval": {
+            "score": 0.1481006647673314,
+            "score_std": 0.7411745372470462,
+            "score_by_difficulty": {
+              "easy": 0.831275720164609,
+              "medium": 0.2895927601809955,
+              "hard": -0.44
+            },
+            "success_rate": 0.43333333333333335,
+            "wall_hit_rate": 0.0,
+            "steps": 40.93333333333333,
+            "repeat_count": 33.8,
+            "progress_rate": 0.724094742063492,
+            "bfs_action_agreement": 0.724094742063492
+          },
+          "train_eval": {
+            "easy": {
+              "success_rate": 0.73,
+              "reward": 3.558143682878165,
+              "steps": 24.21,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.8691190476190477,
+              "bfs_action_agreement": 0.8691190476190477,
+              "repeat_count": 15.84
+            },
+            "medium": {
+              "success_rate": 0.34,
+              "reward": -68.87100157235811,
+              "steps": 46.54,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.6850029761904761,
+              "bfs_action_agreement": 0.6850029761904761,
+              "repeat_count": 38.76
+            },
+            "hard": {
+              "success_rate": 0.0,
+              "reward": -128.0,
+              "steps": 64.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.515625,
+              "bfs_action_agreement": 0.515625,
+              "repeat_count": 60.62
+            },
+            "test": {
+              "success_rate": 0.0,
+              "reward": -128.0,
+              "steps": 64.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.484375,
+              "bfs_action_agreement": 0.484375,
+              "repeat_count": 62.0
+            }
+          },
+          "output_name": "v2.0.2_cem_gen00_cand00_g35p6_w11p12",
+          "is_elite": true
+        },
+        {
+          "candidate_id": 1,
+          "g": 41.61221780291033,
+          "w": 22.237640541105044,
+          "log_g": 3.7283938213319865,
+          "log_w": 3.101786372976706,
+          "generation": 0,
+          "goal_reward": 83.22443560582066,
+          "wall_penalty": -44.47528108221009,
+          "step_penalty": -2.0,
+          "score": 0.122376027086172,
+          "candidate_eval": {
+            "score": 0.122376027086172,
+            "score_std": 0.7364644188189416,
+            "score_by_difficulty": {
+              "easy": 0.9958056346945237,
+              "medium": 0.027149321266968333,
+              "hard": -0.44173913043478263
+            },
+            "success_rate": 0.4166666666666667,
+            "wall_hit_rate": 0.0,
+            "steps": 41.8,
+            "repeat_count": 34.85,
+            "progress_rate": 0.7149280753968253,
+            "bfs_action_agreement": 0.7149280753968253
+          },
+          "train_eval": {
+            "easy": {
+              "success_rate": 0.75,
+              "reward": 15.99832670436549,
+              "steps": 23.21,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.8732207167832168,
+              "bfs_action_agreement": 0.8732207167832168,
+              "repeat_count": 14.83
+            },
+            "medium": {
+              "success_rate": 0.53,
+              "reward": -29.251049128915056,
+              "steps": 36.68,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.7747380952380952,
+              "bfs_action_agreement": 0.7747380952380952,
+              "repeat_count": 27.68
+            },
+            "hard": {
+              "success_rate": 0.01,
+              "reward": -126.26775564394178,
+              "steps": 63.55,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.5225,
+              "bfs_action_agreement": 0.5225,
+              "repeat_count": 59.69
+            },
+            "test": {
+              "success_rate": 0.0,
+              "reward": -128.0,
+              "steps": 64.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.5,
+              "bfs_action_agreement": 0.5,
+              "repeat_count": 63.0
+            }
+          },
+          "output_name": "v2.0.2_cem_gen00_cand01_g41p61_w22p24",
+          "is_elite": true
+        },
+        {
+          "candidate_id": 5,
+          "g": 43.53325783908911,
+          "w": 21.006163604593667,
+          "log_g": 3.7735251940017167,
+          "log_w": 3.044815899639913,
+          "generation": 0,
+          "goal_reward": 87.06651567817822,
+          "wall_penalty": -42.01232720918733,
+          "step_penalty": -2.0,
+          "score": 0.04878747795414462,
+          "candidate_eval": {
+            "score": 0.04878747795414462,
+            "score_std": 0.7212758548399536,
+            "score_by_difficulty": {
+              "easy": 0.49595825984714875,
+              "medium": 0.38235294117647056,
+              "hard": -0.5
+            },
+            "success_rate": 0.36666666666666664,
+            "wall_hit_rate": 0.0,
+            "steps": 44.56666666666667,
+            "repeat_count": 37.36666666666667,
+            "progress_rate": 0.6961631944444444,
+            "bfs_action_agreement": 0.6961631944444444
+          },
+          "train_eval": {
+            "easy": {
+              "success_rate": 0.74,
+              "reward": 16.62922160185188,
+              "steps": 23.9,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.8689689997502498,
+              "bfs_action_agreement": 0.8689689997502498,
+              "repeat_count": 15.02
+            },
+            "medium": {
+              "success_rate": 0.48,
+              "reward": -36.828072474474446,
+              "steps": 39.31,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.754875612745098,
+              "bfs_action_agreement": 0.754875612745098,
+              "repeat_count": 30.02
+            },
+            "hard": {
+              "success_rate": 0.01,
+              "reward": -126.22933484321823,
+              "steps": 63.55,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.52265625,
+              "bfs_action_agreement": 0.52265625,
+              "repeat_count": 59.51
+            },
+            "test": {
+              "success_rate": 0.0,
+              "reward": -128.0,
+              "steps": 64.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.515625,
+              "bfs_action_agreement": 0.515625,
+              "repeat_count": 61.0
+            }
+          },
+          "output_name": "v2.0.2_cem_gen00_cand05_g43p53_w21p01",
+          "is_elite": false
+        },
+        {
+          "candidate_id": 2,
+          "g": 16.16540696859154,
+          "w": 10.143426851212027,
+          "log_g": 2.782873586770884,
+          "log_w": 2.3168258948379696,
+          "generation": 0,
+          "goal_reward": 32.33081393718308,
+          "wall_penalty": -20.286853702424054,
+          "step_penalty": -2.0,
+          "score": 0.022459639126305796,
+          "candidate_eval": {
+            "score": 0.022459639126305796,
+            "score_std": 0.7120821437118086,
+            "score_by_difficulty": {
+              "easy": 0.4979423868312757,
+              "medium": 0.1990950226244344,
+              "hard": -0.44
+            },
+            "success_rate": 0.35,
+            "wall_hit_rate": 0.0,
+            "steps": 45.583333333333336,
+            "repeat_count": 39.35,
+            "progress_rate": 0.6794518849206349,
+            "bfs_action_agreement": 0.6794518849206349
+          },
+          "train_eval": {
+            "easy": {
+              "success_rate": 0.64,
+              "reward": -37.54827908020284,
+              "steps": 29.12,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.8160435606060608,
+              "bfs_action_agreement": 0.8160435606060608,
+              "repeat_count": 21.36
+            },
+            "medium": {
+              "success_rate": 0.31,
+              "reward": -86.01744767947322,
+              "steps": 48.02,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.6720758928571429,
+              "bfs_action_agreement": 0.6720758928571429,
+              "repeat_count": 40.5
+            },
+            "hard": {
+              "success_rate": 0.0,
+              "reward": -128.0,
+              "steps": 64.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.51296875,
+              "bfs_action_agreement": 0.51296875,
+              "repeat_count": 60.83
+            },
+            "test": {
+              "success_rate": 0.0,
+              "reward": -128.0,
+              "steps": 64.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.515625,
+              "bfs_action_agreement": 0.515625,
+              "repeat_count": 62.0
+            }
+          },
+          "output_name": "v2.0.2_cem_gen00_cand02_g16p17_w10p14",
+          "is_elite": false
+        },
+        {
+          "candidate_id": 3,
+          "g": 33.46432827569919,
+          "w": 14.323532512137373,
+          "log_g": 3.5104800439082764,
+          "log_w": 2.6619038149195275,
+          "generation": 0,
+          "goal_reward": 66.92865655139838,
+          "wall_penalty": -28.647065024274745,
+          "step_penalty": -2.0,
+          "score": -0.05191098209966135,
+          "candidate_eval": {
+            "score": -0.05191098209966135,
+            "score_std": 0.6845117447065614,
+            "score_by_difficulty": {
+              "easy": 0.41457023060796644,
+              "medium": 0.11312217194570137,
+              "hard": -0.5
+            },
+            "success_rate": 0.3,
+            "wall_hit_rate": 0.0,
+            "steps": 48.11666666666667,
+            "repeat_count": 41.75,
+            "progress_rate": 0.6603994963369964,
+            "bfs_action_agreement": 0.6603994963369964
+          },
+          "train_eval": {
+            "easy": {
+              "success_rate": 0.72,
+              "reward": -1.0913672829931693,
+              "steps": 24.64,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.8677708333333334,
+              "bfs_action_agreement": 0.8677708333333334,
+              "repeat_count": 16.35
+            },
+            "medium": {
+              "success_rate": 0.38,
+              "reward": -63.40711051046862,
+              "steps": 44.42,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.7069002976190477,
+              "bfs_action_agreement": 0.7069002976190477,
+              "repeat_count": 36.31
+            },
+            "hard": {
+              "success_rate": 0.0,
+              "reward": -128.0,
+              "steps": 64.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.515625,
+              "bfs_action_agreement": 0.515625,
+              "repeat_count": 60.44
+            },
+            "test": {
+              "success_rate": 0.0,
+              "reward": -128.0,
+              "steps": 64.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.515625,
+              "bfs_action_agreement": 0.515625,
+              "repeat_count": 61.0
+            }
+          },
+          "output_name": "v2.0.2_cem_gen00_cand03_g33p46_w14p32",
+          "is_elite": false
+        },
+        {
+          "candidate_id": 4,
+          "g": 31.8123792196983,
+          "w": 11.870108480039345,
+          "log_g": 3.4598554976732254,
+          "log_w": 2.474023347589028,
+          "generation": 0,
+          "goal_reward": 63.6247584393966,
+          "wall_penalty": -23.74021696007869,
+          "step_penalty": -2.0,
+          "score": -0.3774833499833499,
+          "candidate_eval": {
+            "score": -0.3774833499833499,
+            "score_std": 0.4064253153027389,
+            "score_by_difficulty": {
+              "easy": -0.17067099567099564,
+              "medium": -0.41628959276018096,
+              "hard": -0.5
+            },
+            "success_rate": 0.08333333333333333,
+            "wall_hit_rate": 0.0,
+            "steps": 59.65,
+            "repeat_count": 54.583333333333336,
+            "progress_rate": 0.5559327651515152,
+            "bfs_action_agreement": 0.5559327651515152
+          },
+          "train_eval": {
+            "easy": {
+              "success_rate": 0.27,
+              "reward": -82.08131522136291,
+              "steps": 49.63,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.6335077508276038,
+              "bfs_action_agreement": 0.6335077508276038,
+              "repeat_count": 43.7
+            },
+            "medium": {
+              "success_rate": 0.18,
+              "reward": -98.1675434809086,
+              "steps": 54.81,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.6048273809523809,
+              "bfs_action_agreement": 0.6048273809523809,
+              "repeat_count": 48.71
+            },
+            "hard": {
+              "success_rate": 0.0,
+              "reward": -128.0,
+              "steps": 64.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.51578125,
+              "bfs_action_agreement": 0.51578125,
+              "repeat_count": 60.65
+            },
+            "test": {
+              "success_rate": 0.0,
+              "reward": -128.0,
+              "steps": 64.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.5,
+              "bfs_action_agreement": 0.5,
+              "repeat_count": 63.0
+            }
+          },
+          "output_name": "v2.0.2_cem_gen00_cand04_g31p81_w11p87",
+          "is_elite": false
+        }
+      ]
+    },
+    {
+      "generation": 1,
+      "old_mu_log": [
+        3.594994016555935,
+        2.7604098469832445
+      ],
+      "old_sigma_log": [
+        0.15960242921637322,
+        0.3476172307723844
+      ],
+      "old_center": {
+        "g": 36.41548209722696,
+        "w": 15.806319793395538
+      },
+      "new_mu_log": [
+        3.6838849474906223,
+        2.6249454182453387
+      ],
+      "new_sigma_log": [
+        0.09557419505909312,
+        0.20214762052900803
+      ],
+      "new_center": {
+        "g": 39.80071780744205,
+        "w": 13.803820728748365
+      },
+      "elite_ids": [
+        2,
+        5
+      ],
+      "candidates": [
+        {
+          "candidate_id": 2,
+          "g": 38.62298391464147,
+          "w": 11.325827449201913,
+          "log_g": 3.653847537470944,
+          "log_w": 2.4270857326472464,
+          "generation": 1,
+          "goal_reward": 77.24596782928295,
+          "wall_penalty": -22.651654898403827,
+          "step_penalty": -2.0,
+          "score": 0.24939393939393942,
+          "candidate_eval": {
+            "score": 0.24939393939393942,
+            "score_std": 0.7494081533776799,
+            "score_by_difficulty": {
+              "easy": 0.6653198653198653,
+              "medium": 0.34375,
+              "hard": -0.5
+            },
+            "success_rate": 0.5,
+            "wall_hit_rate": 0.0,
+            "steps": 37.03333333333333,
+            "repeat_count": 29.666666666666668,
+            "progress_rate": 0.7599431818181818,
+            "bfs_action_agreement": 0.7599431818181818
+          },
+          "train_eval": {
+            "easy": {
+              "success_rate": 0.66,
+              "reward": -5.017661232673254,
+              "steps": 28.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.8364138257575757,
+              "bfs_action_agreement": 0.8364138257575757,
+              "repeat_count": 19.84
+            },
+            "medium": {
+              "success_rate": 0.38,
+              "reward": -59.56653222487249,
+              "steps": 44.46,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.7062529761904763,
+              "bfs_action_agreement": 0.7062529761904763,
+              "repeat_count": 36.18
+            },
+            "hard": {
+              "success_rate": 0.0,
+              "reward": -128.0,
+              "steps": 64.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.52,
+              "bfs_action_agreement": 0.52,
+              "repeat_count": 59.91
+            },
+            "test": {
+              "success_rate": 0.0,
+              "reward": -128.0,
+              "steps": 64.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.515625,
+              "bfs_action_agreement": 0.515625,
+              "repeat_count": 61.0
+            }
+          },
+          "output_name": "v2.0.2_cem_gen01_cand02_g38p62_w11p33",
+          "is_elite": true
+        },
+        {
+          "candidate_id": 5,
+          "g": 44.26147164303535,
+          "w": 14.979651842851462,
+          "log_g": 3.7901145840257473,
+          "log_w": 2.706692736353797,
+          "generation": 1,
+          "goal_reward": 88.5229432860707,
+          "wall_penalty": -29.959303685702924,
+          "step_penalty": -2.0,
+          "score": 0.22252822341057638,
+          "candidate_eval": {
+            "score": 0.22252822341057638,
+            "score_std": 0.7471100726210634,
+            "score_by_difficulty": {
+              "easy": 0.6626262626262626,
+              "medium": 0.15379901960784315,
+              "hard": -0.4117647058823529
+            },
+            "success_rate": 0.48333333333333334,
+            "wall_hit_rate": 0.0,
+            "steps": 38.13333333333333,
+            "repeat_count": 30.2,
+            "progress_rate": 0.7507992181429681,
+            "bfs_action_agreement": 0.7507992181429681
+          },
+          "train_eval": {
+            "easy": {
+              "success_rate": 0.8,
+              "reward": 30.258354628856555,
+              "steps": 20.28,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.9051161858974359,
+              "bfs_action_agreement": 0.9051161858974359,
+              "repeat_count": 11.62
+            },
+            "medium": {
+              "success_rate": 0.38,
+              "reward": -55.16128155129314,
+              "steps": 44.4,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.7084627976190476,
+              "bfs_action_agreement": 0.7084627976190476,
+              "repeat_count": 36.12
+            },
+            "hard": {
+              "success_rate": 0.0,
+              "reward": -128.0,
+              "steps": 64.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.52203125,
+              "bfs_action_agreement": 0.52203125,
+              "repeat_count": 59.73
+            },
+            "test": {
+              "success_rate": 0.0,
+              "reward": -128.0,
+              "steps": 64.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.484375,
+              "bfs_action_agreement": 0.484375,
+              "repeat_count": 61.0
+            }
+          },
+          "output_name": "v2.0.2_cem_gen01_cand05_g44p26_w14p98",
+          "is_elite": true
+        },
+        {
+          "candidate_id": 0,
+          "g": 36.80128180734318,
+          "w": 23.388824288300405,
+          "log_g": 3.605532676289557,
+          "log_w": 3.152258313761992,
+          "generation": 1,
+          "goal_reward": 73.60256361468636,
+          "wall_penalty": -46.77764857660081,
+          "step_penalty": -2.0,
+          "score": 0.17257453238585316,
+          "candidate_eval": {
+            "score": 0.17257453238585316,
+            "score_std": 0.7436382866441247,
+            "score_by_difficulty": {
+              "easy": 0.6057211830796737,
+              "medium": 0.15625,
+              "hard": -0.5
+            },
+            "success_rate": 0.45,
+            "wall_hit_rate": 0.0,
+            "steps": 39.75,
+            "repeat_count": 32.65,
+            "progress_rate": 0.7345291860916862,
+            "bfs_action_agreement": 0.7345291860916862
+          },
+          "train_eval": {
+            "easy": {
+              "success_rate": 0.83,
+              "reward": 23.47012780018968,
+              "steps": 18.81,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.9128365384615384,
+              "bfs_action_agreement": 0.9128365384615384,
+              "repeat_count": 10.03
+            },
+            "medium": {
+              "success_rate": 0.46,
+              "reward": -46.742820737244294,
+              "steps": 40.3,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.7453154761904761,
+              "bfs_action_agreement": 0.7453154761904761,
+              "repeat_count": 31.39
+            },
+            "hard": {
+              "success_rate": 0.01,
+              "reward": -126.34397436385314,
+              "steps": 63.54,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.5196875,
+              "bfs_action_agreement": 0.5196875,
+              "repeat_count": 59.96
+            },
+            "test": {
+              "success_rate": 0.0,
+              "reward": -128.0,
+              "steps": 64.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.5,
+              "bfs_action_agreement": 0.5,
+              "repeat_count": 63.0
+            }
+          },
+          "output_name": "v2.0.2_cem_gen01_cand00_g36p8_w23p39",
+          "is_elite": false
+        },
+        {
+          "candidate_id": 4,
+          "g": 35.35675751270343,
+          "w": 12.474755027946854,
+          "log_g": 3.565489534263431,
+          "log_w": 2.523707004406445,
+          "generation": 1,
+          "goal_reward": 70.71351502540686,
+          "wall_penalty": -24.949510055893708,
+          "step_penalty": -2.0,
+          "score": 0.1719671994671995,
+          "candidate_eval": {
+            "score": 0.1719671994671995,
+            "score_std": 0.7429768954406688,
+            "score_by_difficulty": {
+              "easy": 0.6057960557960558,
+              "medium": 0.15384615384615385,
+              "hard": -0.5
+            },
+            "success_rate": 0.45,
+            "wall_hit_rate": 0.0,
+            "steps": 39.75,
+            "repeat_count": 32.833333333333336,
+            "progress_rate": 0.7293082611832612,
+            "bfs_action_agreement": 0.7293082611832612
+          },
+          "train_eval": {
+            "easy": {
+              "success_rate": 0.72,
+              "reward": 0.9337308182929439,
+              "steps": 24.99,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.8556194326506826,
+              "bfs_action_agreement": 0.8556194326506826,
+              "repeat_count": 16.45
+            },
+            "medium": {
+              "success_rate": 0.38,
+              "reward": -62.04886429034539,
+              "steps": 44.46,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.705921130952381,
+              "bfs_action_agreement": 0.705921130952381,
+              "repeat_count": 35.94
+            },
+            "hard": {
+              "success_rate": 0.0,
+              "reward": -128.0,
+              "steps": 64.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.51296875,
+              "bfs_action_agreement": 0.51296875,
+              "repeat_count": 61.04
+            },
+            "test": {
+              "success_rate": 0.0,
+              "reward": -128.0,
+              "steps": 64.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.484375,
+              "bfs_action_agreement": 0.484375,
+              "repeat_count": 61.0
+            }
+          },
+          "output_name": "v2.0.2_cem_gen01_cand04_g35p36_w12p47",
+          "is_elite": false
+        },
+        {
+          "candidate_id": 3,
+          "g": 41.89627071662311,
+          "w": 15.534366141704052,
+          "log_g": 3.7351968185904307,
+          "log_w": 2.743054740062415,
+          "generation": 1,
+          "goal_reward": 83.79254143324621,
+          "wall_penalty": -31.068732283408103,
+          "step_penalty": -2.0,
+          "score": 0.125,
+          "candidate_eval": {
+            "score": 0.125,
+            "score_std": 0.739509972887452,
+            "score_by_difficulty": {
+              "easy": 0.5,
+              "medium": 0.15625,
+              "hard": -0.5
+            },
+            "success_rate": 0.4166666666666667,
+            "wall_hit_rate": 0.0,
+            "steps": 41.483333333333334,
+            "repeat_count": 34.63333333333333,
+            "progress_rate": 0.7244791666666667,
+            "bfs_action_agreement": 0.7244791666666667
+          },
+          "train_eval": {
+            "easy": {
+              "success_rate": 0.73,
+              "reward": 13.108555246269741,
+              "steps": 24.03,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.8689038461538462,
+              "bfs_action_agreement": 0.8689038461538462,
+              "repeat_count": 15.63
+            },
+            "medium": {
+              "success_rate": 0.42,
+              "reward": -49.62713259803659,
+              "steps": 42.41,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.7273214285714286,
+              "bfs_action_agreement": 0.7273214285714286,
+              "repeat_count": 33.81
+            },
+            "hard": {
+              "success_rate": 0.0,
+              "reward": -128.0,
+              "steps": 64.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.51875,
+              "bfs_action_agreement": 0.51875,
+              "repeat_count": 60.35
+            },
+            "test": {
+              "success_rate": 0.0,
+              "reward": -128.0,
+              "steps": 64.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.5625,
+              "bfs_action_agreement": 0.5625,
+              "repeat_count": 56.0
+            }
+          },
+          "output_name": "v2.0.2_cem_gen01_cand03_g41p9_w15p53",
+          "is_elite": false
+        },
+        {
+          "candidate_id": 1,
+          "g": 39.23658660450386,
+          "w": 11.724785039101747,
+          "log_g": 3.6696096432607104,
+          "log_w": 2.4617049806121916,
+          "generation": 1,
+          "goal_reward": 78.47317320900773,
+          "wall_penalty": -23.449570078203493,
+          "step_penalty": -2.0,
+          "score": -0.0256060606060606,
+          "candidate_eval": {
+            "score": -0.0256060606060606,
+            "score_std": 0.696888977539185,
+            "score_by_difficulty": {
+              "easy": 0.33198653198653205,
+              "medium": -0.125,
+              "hard": -0.5
+            },
+            "success_rate": 0.31666666666666665,
+            "wall_hit_rate": 0.0,
+            "steps": 46.86666666666667,
+            "repeat_count": 40.583333333333336,
+            "progress_rate": 0.6745265151515151,
+            "bfs_action_agreement": 0.6745265151515151
+          },
+          "train_eval": {
+            "easy": {
+              "success_rate": 0.68,
+              "reward": -0.35824221787474714,
+              "steps": 26.86,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.8415375874125874,
+              "bfs_action_agreement": 0.8415375874125874,
+              "repeat_count": 18.53
+            },
+            "medium": {
+              "success_rate": 0.38,
+              "reward": -59.18019418057706,
+              "steps": 44.5,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.7042759103641457,
+              "bfs_action_agreement": 0.7042759103641457,
+              "repeat_count": 36.55
+            },
+            "hard": {
+              "success_rate": 0.0,
+              "reward": -128.0,
+              "steps": 64.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.5165625,
+              "bfs_action_agreement": 0.5165625,
+              "repeat_count": 60.39
+            },
+            "test": {
+              "success_rate": 0.0,
+              "reward": -128.0,
+              "steps": 64.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.5,
+              "bfs_action_agreement": 0.5,
+              "repeat_count": 63.0
+            }
+          },
+          "output_name": "v2.0.2_cem_gen01_cand01_g39p24_w11p72",
+          "is_elite": false
+        }
+      ]
+    },
+    {
+      "generation": 2,
+      "old_mu_log": [
+        3.6838849474906223,
+        2.6249454182453387
+      ],
+      "old_sigma_log": [
+        0.09557419505909312,
+        0.20214762052900803
+      ],
+      "old_center": {
+        "g": 39.80071780744205,
+        "w": 13.803820728748365
+      },
+      "new_mu_log": [
+        3.7761302415542906,
+        2.6760675501828937
+      ],
+      "new_sigma_log": [
+        0.07970733634146304,
+        0.1692754980528427
+      ],
+      "new_center": {
+        "g": 43.64681188851027,
+        "w": 14.527850773856837
+      },
+      "elite_ids": [
+        3,
+        5
+      ],
+      "candidates": [
+        {
+          "candidate_id": 3,
+          "g": 48.84105221060201,
+          "w": 12.715091432137132,
+          "log_g": 3.8885711930440547,
+          "log_w": 2.5427895897359307,
+          "generation": 2,
+          "goal_reward": 97.68210442120402,
+          "wall_penalty": -25.430182864274265,
+          "step_penalty": -2.0,
+          "score": 0.27440476190476193,
+          "candidate_eval": {
+            "score": 0.27440476190476193,
+            "score_std": 0.7490212339826663,
+            "score_by_difficulty": {
+              "easy": 0.8185714285714286,
+              "medium": 0.4,
+              "hard": -0.5
+            },
+            "success_rate": 0.5166666666666667,
+            "wall_hit_rate": 0.0,
+            "steps": 36.083333333333336,
+            "repeat_count": 29.1,
+            "progress_rate": 0.7636979166666666,
+            "bfs_action_agreement": 0.7636979166666666
+          },
+          "train_eval": {
+            "easy": {
+              "success_rate": 0.8,
+              "reward": 37.70568353696321,
+              "steps": 20.22,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.9009103535353534,
+              "bfs_action_agreement": 0.9009103535353534,
+              "repeat_count": 11.48
+            },
+            "medium": {
+              "success_rate": 0.39,
+              "reward": -49.88397927573043,
+              "steps": 43.99,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.7084404761904763,
+              "bfs_action_agreement": 0.7084404761904763,
+              "repeat_count": 35.63
+            },
+            "hard": {
+              "success_rate": 0.01,
+              "reward": -126.12317895578795,
+              "steps": 63.55,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.5184375,
+              "bfs_action_agreement": 0.5184375,
+              "repeat_count": 59.91
+            },
+            "test": {
+              "success_rate": 0.0,
+              "reward": -128.0,
+              "steps": 64.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.515625,
+              "bfs_action_agreement": 0.515625,
+              "repeat_count": 62.0
+            }
+          },
+          "output_name": "v2.0.2_cem_gen02_cand03_g48p84_w12p72",
+          "is_elite": true
+        },
+        {
+          "candidate_id": 5,
+          "g": 42.21420116698265,
+          "w": 17.342575346124292,
+          "log_g": 3.74275668497624,
+          "log_w": 2.8531644808620458,
+          "generation": 2,
+          "goal_reward": 84.4284023339653,
+          "wall_penalty": -34.685150692248584,
+          "step_penalty": -2.0,
+          "score": 0.2731684981684982,
+          "candidate_eval": {
+            "score": 0.2731684981684982,
+            "score_std": 0.7478523515938913,
+            "score_by_difficulty": {
+              "easy": 0.7571428571428572,
+              "medium": 0.49743589743589745,
+              "hard": -0.5
+            },
+            "success_rate": 0.5166666666666667,
+            "wall_hit_rate": 0.0,
+            "steps": 36.25,
+            "repeat_count": 28.783333333333335,
+            "progress_rate": 0.7621428571428571,
+            "bfs_action_agreement": 0.7621428571428571
+          },
+          "train_eval": {
+            "easy": {
+              "success_rate": 0.85,
+              "reward": 36.744141983870506,
+              "steps": 17.51,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.9236178092740593,
+              "bfs_action_agreement": 0.9236178092740593,
+              "repeat_count": 8.71
+            },
+            "medium": {
+              "success_rate": 0.49,
+              "reward": -36.030082856357005,
+              "steps": 38.7,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.7593526785714286,
+              "bfs_action_agreement": 0.7593526785714286,
+              "repeat_count": 29.85
+            },
+            "hard": {
+              "success_rate": 0.0,
+              "reward": -128.0,
+              "steps": 64.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.51578125,
+              "bfs_action_agreement": 0.51578125,
+              "repeat_count": 60.15
+            },
+            "test": {
+              "success_rate": 0.0,
+              "reward": -128.0,
+              "steps": 64.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.515625,
+              "bfs_action_agreement": 0.515625,
+              "repeat_count": 62.0
+            }
+          },
+          "output_name": "v2.0.2_cem_gen02_cand05_g42p21_w17p34",
+          "is_elite": true
+        },
+        {
+          "candidate_id": 0,
+          "g": 38.20429182211937,
+          "w": 12.855380747443421,
+          "log_g": 3.642947860665969,
+          "log_w": 2.5537624589057115,
+          "generation": 2,
+          "goal_reward": 76.40858364423875,
+          "wall_penalty": -25.710761494886842,
+          "step_penalty": -2.0,
+          "score": 0.14876500857632932,
+          "candidate_eval": {
+            "score": 0.14876500857632932,
+            "score_std": 0.7419196460411578,
+            "score_by_difficulty": {
+              "easy": 0.7570360205831903,
+              "medium": 0.0,
+              "hard": -0.5
+            },
+            "success_rate": 0.43333333333333335,
+            "wall_hit_rate": 0.0,
+            "steps": 40.55,
+            "repeat_count": 34.0,
+            "progress_rate": 0.7214215472027973,
+            "bfs_action_agreement": 0.7214215472027973
+          },
+          "train_eval": {
+            "easy": {
+              "success_rate": 0.81,
+              "reward": 22.330952751833383,
+              "steps": 19.78,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.8989155844155843,
+              "bfs_action_agreement": 0.8989155844155843,
+              "repeat_count": 11.19
+            },
+            "medium": {
+              "success_rate": 0.41,
+              "reward": -54.4124807058621,
+              "steps": 42.87,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.7242857142857143,
+              "bfs_action_agreement": 0.7242857142857143,
+              "repeat_count": 34.27
+            },
+            "hard": {
+              "success_rate": 0.0,
+              "reward": -128.0,
+              "steps": 64.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.51671875,
+              "bfs_action_agreement": 0.51671875,
+              "repeat_count": 60.32
+            },
+            "test": {
+              "success_rate": 0.0,
+              "reward": -128.0,
+              "steps": 64.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.484375,
+              "bfs_action_agreement": 0.484375,
+              "repeat_count": 62.0
+            }
+          },
+          "output_name": "v2.0.2_cem_gen02_cand00_g38p2_w12p86",
+          "is_elite": false
+        },
+        {
+          "candidate_id": 2,
+          "g": 41.40209711990637,
+          "w": 15.059889106181943,
+          "log_g": 3.7233315346185463,
+          "log_w": 2.7120348588773027,
+          "generation": 2,
+          "goal_reward": 82.80419423981274,
+          "wall_penalty": -30.119778212363887,
+          "step_penalty": -2.0,
+          "score": 0.09940476190476191,
+          "candidate_eval": {
+            "score": 0.09940476190476191,
+            "score_std": 0.7341317835535952,
+            "score_by_difficulty": {
+              "easy": 0.45857142857142863,
+              "medium": 0.3,
+              "hard": -0.5
+            },
+            "success_rate": 0.4,
+            "wall_hit_rate": 0.0,
+            "steps": 42.45,
+            "repeat_count": 35.43333333333333,
+            "progress_rate": 0.71265625,
+            "bfs_action_agreement": 0.71265625
+          },
+          "train_eval": {
+            "easy": {
+              "success_rate": 0.66,
+              "reward": -1.8692318017235863,
+              "steps": 28.26,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.8298694118381619,
+              "bfs_action_agreement": 0.8298694118381619,
+              "repeat_count": 19.96
+            },
+            "medium": {
+              "success_rate": 0.47,
+              "reward": -40.902028707288,
+              "steps": 39.91,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.7480223214285715,
+              "bfs_action_agreement": 0.7480223214285715,
+              "repeat_count": 30.67
+            },
+            "hard": {
+              "success_rate": 0.02,
+              "reward": -124.60391611520376,
+              "steps": 63.13,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.52875,
+              "bfs_action_agreement": 0.52875,
+              "repeat_count": 58.59
+            },
+            "test": {
+              "success_rate": 0.0,
+              "reward": -128.0,
+              "steps": 64.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.53125,
+              "bfs_action_agreement": 0.53125,
+              "repeat_count": 60.0
+            }
+          },
+          "output_name": "v2.0.2_cem_gen02_cand02_g41p4_w15p06",
+          "is_elite": false
+        },
+        {
+          "candidate_id": 1,
+          "g": 41.877972362720186,
+          "w": 14.86217011971432,
+          "log_g": 3.734759969422445,
+          "log_w": 2.698819066292987,
+          "generation": 2,
+          "goal_reward": 83.75594472544037,
+          "wall_penalty": -29.72434023942864,
+          "step_penalty": -2.0,
+          "score": 0.075,
+          "candidate_eval": {
+            "score": 0.075,
+            "score_std": 0.7292976072907411,
+            "score_by_difficulty": {
+              "easy": 0.58,
+              "medium": 0.0,
+              "hard": -0.5
+            },
+            "success_rate": 0.38333333333333336,
+            "wall_hit_rate": 0.0,
+            "steps": 43.18333333333333,
+            "repeat_count": 36.81666666666667,
+            "progress_rate": 0.7026041666666667,
+            "bfs_action_agreement": 0.7026041666666667
+          },
+          "train_eval": {
+            "easy": {
+              "success_rate": 0.74,
+              "reward": 14.779399096825873,
+              "steps": 23.6,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.8667058566433568,
+              "bfs_action_agreement": 0.8667058566433568,
+              "repeat_count": 15.25
+            },
+            "medium": {
+              "success_rate": 0.32,
+              "reward": -68.41809768785907,
+              "steps": 47.61,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.6758794642857143,
+              "bfs_action_agreement": 0.6758794642857143,
+              "repeat_count": 40.19
+            },
+            "hard": {
+              "success_rate": 0.0,
+              "reward": -128.0,
+              "steps": 64.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.516875,
+              "bfs_action_agreement": 0.516875,
+              "repeat_count": 60.16
+            },
+            "test": {
+              "success_rate": 0.0,
+              "reward": -128.0,
+              "steps": 64.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.5,
+              "bfs_action_agreement": 0.5,
+              "repeat_count": 63.0
+            }
+          },
+          "output_name": "v2.0.2_cem_gen02_cand01_g41p88_w14p86",
+          "is_elite": false
+        },
+        {
+          "candidate_id": 4,
+          "g": 37.899115003504775,
+          "w": 11.71000023383705,
+          "log_g": 3.6349277609847372,
+          "log_w": 2.460443197578631,
+          "generation": 2,
+          "goal_reward": 75.79823000700955,
+          "wall_penalty": -23.4200004676741,
+          "step_penalty": -2.0,
+          "score": -0.026864370197703526,
+          "candidate_eval": {
+            "score": -0.026864370197703526,
+            "score_std": 0.6950677096419136,
+            "score_by_difficulty": {
+              "easy": 0.27706397306397307,
+              "medium": 0.09743589743589745,
+              "hard": -0.5
+            },
+            "success_rate": 0.31666666666666665,
+            "wall_hit_rate": 0.0,
+            "steps": 47.05,
+            "repeat_count": 40.833333333333336,
+            "progress_rate": 0.66725965007215,
+            "bfs_action_agreement": 0.66725965007215
+          },
+          "train_eval": {
+            "easy": {
+              "success_rate": 0.54,
+              "reward": -28.60895579621484,
+              "steps": 34.77,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.7767949134199134,
+              "bfs_action_agreement": 0.7767949134199134,
+              "repeat_count": 27.13
+            },
+            "medium": {
+              "success_rate": 0.33,
+              "reward": -69.14658409768684,
+              "steps": 47.08,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.6804976365546218,
+              "bfs_action_agreement": 0.6804976365546218,
+              "repeat_count": 39.24
+            },
+            "hard": {
+              "success_rate": 0.01,
+              "reward": -126.3620176999299,
+              "steps": 63.56,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.5198125,
+              "bfs_action_agreement": 0.5198125,
+              "repeat_count": 59.92
+            },
+            "test": {
+              "success_rate": 0.0,
+              "reward": -128.0,
+              "steps": 64.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.515625,
+              "bfs_action_agreement": 0.515625,
+              "repeat_count": 62.0
+            }
+          },
+          "output_name": "v2.0.2_cem_gen02_cand04_g37p9_w11p71",
+          "is_elite": false
+        }
+      ]
+    },
+    {
+      "generation": 3,
+      "old_mu_log": [
+        3.7761302415542906,
+        2.6760675501828937
+      ],
+      "old_sigma_log": [
+        0.07970733634146304,
+        0.1692754980528427
+      ],
+      "old_center": {
+        "g": 43.64681188851027,
+        "w": 14.527850773856837
+      },
+      "new_mu_log": [
+        3.7499503640896856,
+        2.6648365794208546
+      ],
+      "new_sigma_log": [
+        0.05891220090243891,
+        0.13910421290992137
+      ],
+      "new_center": {
+        "g": 42.51897147982939,
+        "w": 14.365601719207644
+      },
+      "elite_ids": [
+        1,
+        0
+      ],
+      "candidates": [
+        {
+          "candidate_id": 1,
+          "g": 40.870684268097776,
+          "w": 16.219220156026104,
+          "log_g": 3.7104130399879707,
+          "log_w": 2.7861969683715073,
+          "generation": 3,
+          "goal_reward": 81.74136853619555,
+          "wall_penalty": -32.43844031205221,
+          "step_penalty": -2.0,
+          "score": 0.2456885171665046,
+          "candidate_eval": {
+            "score": 0.2456885171665046,
+            "score_std": 0.7458591173805904,
+            "score_by_difficulty": {
+              "easy": 0.6311909027380725,
+              "medium": 0.3311965811965812,
+              "hard": -0.4117647058823529
+            },
+            "success_rate": 0.5,
+            "wall_hit_rate": 0.0,
+            "steps": 37.36666666666667,
+            "repeat_count": 29.783333333333335,
+            "progress_rate": 0.7527484321234321,
+            "bfs_action_agreement": 0.7527484321234321
+          },
+          "train_eval": {
+            "easy": {
+              "success_rate": 0.8,
+              "reward": 24.273094828956445,
+              "steps": 20.56,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.8988929924242425,
+              "bfs_action_agreement": 0.8988929924242425,
+              "repeat_count": 11.74
+            },
+            "medium": {
+              "success_rate": 0.51,
+              "reward": -34.011902046540264,
+              "steps": 37.85,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.7615173088972432,
+              "bfs_action_agreement": 0.7615173088972432,
+              "repeat_count": 29.01
+            },
+            "hard": {
+              "success_rate": 0.0,
+              "reward": -128.0,
+              "steps": 64.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.51453125,
+              "bfs_action_agreement": 0.51453125,
+              "repeat_count": 60.51
+            },
+            "test": {
+              "success_rate": 0.0,
+              "reward": -128.0,
+              "steps": 64.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.53125,
+              "bfs_action_agreement": 0.53125,
+              "repeat_count": 60.0
+            }
+          },
+          "output_name": "v2.0.2_cem_gen03_cand01_g40p87_w16p22",
+          "is_elite": true
+        },
+        {
+          "candidate_id": 0,
+          "g": 43.2521867685274,
+          "w": 12.60192580698781,
+          "log_g": 3.7670477932217388,
+          "log_w": 2.53384964410274,
+          "generation": 3,
+          "goal_reward": 86.5043735370548,
+          "wall_penalty": -25.20385161397562,
+          "step_penalty": -2.0,
+          "score": 0.2244047619047619,
+          "candidate_eval": {
+            "score": 0.2244047619047619,
+            "score_std": 0.7489814985347717,
+            "score_by_difficulty": {
+              "easy": 0.6385714285714286,
+              "medium": 0.3333333333333333,
+              "hard": -0.5
+            },
+            "success_rate": 0.48333333333333334,
+            "wall_hit_rate": 0.0,
+            "steps": 37.96666666666667,
+            "repeat_count": 31.116666666666667,
+            "progress_rate": 0.7452083333333334,
+            "bfs_action_agreement": 0.7452083333333334
+          },
+          "train_eval": {
+            "easy": {
+              "success_rate": 0.8,
+              "reward": 28.52349882964385,
+              "steps": 20.34,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.9019302884615386,
+              "bfs_action_agreement": 0.9019302884615386,
+              "repeat_count": 11.74
+            },
+            "medium": {
+              "success_rate": 0.4,
+              "reward": -52.418250585178086,
+              "steps": 43.51,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.7113869047619049,
+              "bfs_action_agreement": 0.7113869047619049,
+              "repeat_count": 35.34
+            },
+            "hard": {
+              "success_rate": 0.0,
+              "reward": -128.0,
+              "steps": 64.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.51515625,
+              "bfs_action_agreement": 0.51515625,
+              "repeat_count": 60.36
+            },
+            "test": {
+              "success_rate": 0.0,
+              "reward": -128.0,
+              "steps": 64.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.515625,
+              "bfs_action_agreement": 0.515625,
+              "repeat_count": 62.0
+            }
+          },
+          "output_name": "v2.0.2_cem_gen03_cand00_g43p25_w12p6",
+          "is_elite": true
+        },
+        {
+          "candidate_id": 2,
+          "g": 46.31070073455125,
+          "w": 15.926912038609506,
+          "log_g": 3.8353730517655986,
+          "log_w": 2.768010259469783,
+          "generation": 3,
+          "goal_reward": 92.6214014691025,
+          "wall_penalty": -31.853824077219013,
+          "step_penalty": -2.0,
+          "score": 0.19940476190476192,
+          "candidate_eval": {
+            "score": 0.19940476190476192,
+            "score_std": 0.747708849247239,
+            "score_by_difficulty": {
+              "easy": 0.5785714285714286,
+              "medium": 0.3333333333333333,
+              "hard": -0.5
+            },
+            "success_rate": 0.4666666666666667,
+            "wall_hit_rate": 0.0,
+            "steps": 38.93333333333333,
+            "repeat_count": 31.516666666666666,
+            "progress_rate": 0.7446875,
+            "bfs_action_agreement": 0.7446875
+          },
+          "train_eval": {
+            "easy": {
+              "success_rate": 0.63,
+              "reward": -0.7885170744654343,
+              "steps": 29.57,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.8188548222610723,
+              "bfs_action_agreement": 0.8188548222610723,
+              "repeat_count": 21.56
+            },
+            "medium": {
+              "success_rate": 0.29,
+              "reward": -71.21979357396029,
+              "steps": 49.04,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.669375,
+              "bfs_action_agreement": 0.669375,
+              "repeat_count": 41.04
+            },
+            "hard": {
+              "success_rate": 0.01,
+              "reward": -144.629003950096,
+              "steps": 63.54,
+              "wall_hit_rate": 0.0090625,
+              "progress_rate": 0.51109375,
+              "bfs_action_agreement": 0.51109375,
+              "repeat_count": 60.36
+            },
+            "test": {
+              "success_rate": 0.0,
+              "reward": -128.0,
+              "steps": 64.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.46875,
+              "bfs_action_agreement": 0.46875,
+              "repeat_count": 59.0
+            }
+          },
+          "output_name": "v2.0.2_cem_gen03_cand02_g46p31_w15p93",
+          "is_elite": false
+        },
+        {
+          "candidate_id": 5,
+          "g": 46.78625710775451,
+          "w": 15.08825758714538,
+          "log_g": 3.845589508255837,
+          "log_w": 2.7139167980641266,
+          "generation": 3,
+          "goal_reward": 93.57251421550902,
+          "wall_penalty": -30.17651517429076,
+          "step_penalty": -2.0,
+          "score": 0.17051884861688782,
+          "candidate_eval": {
+            "score": 0.17051884861688782,
+            "score_std": 0.7414740041825273,
+            "score_by_difficulty": {
+              "easy": 0.5155824915824916,
+              "medium": 0.32453159041394336,
+              "hard": -0.5
+            },
+            "success_rate": 0.45,
+            "wall_hit_rate": 0.0,
+            "steps": 40.06666666666667,
+            "repeat_count": 32.6,
+            "progress_rate": 0.7290100099383188,
+            "bfs_action_agreement": 0.7290100099383188
+          },
+          "train_eval": {
+            "easy": {
+              "success_rate": 0.55,
+              "reward": -16.735117181470034,
+              "steps": 34.1,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.7808545308857809,
+              "bfs_action_agreement": 0.7808545308857809,
+              "repeat_count": 26.46
+            },
+            "medium": {
+              "success_rate": 0.31,
+              "reward": -67.29252059319221,
+              "steps": 48.15,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.6730019841269842,
+              "bfs_action_agreement": 0.6730019841269842,
+              "repeat_count": 40.14
+            },
+            "hard": {
+              "success_rate": 0.01,
+              "reward": -126.1442748578449,
+              "steps": 63.54,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.52515625,
+              "bfs_action_agreement": 0.52515625,
+              "repeat_count": 58.89
+            },
+            "test": {
+              "success_rate": 0.0,
+              "reward": -128.0,
+              "steps": 64.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.484375,
+              "bfs_action_agreement": 0.484375,
+              "repeat_count": 58.0
+            }
+          },
+          "output_name": "v2.0.2_cem_gen03_cand05_g46p79_w15p09",
+          "is_elite": false
+        },
+        {
+          "candidate_id": 3,
+          "g": 41.391859682734065,
+          "w": 15.110151062813484,
+          "log_g": 3.723084235476922,
+          "log_w": 2.71536677377362,
+          "generation": 3,
+          "goal_reward": 82.78371936546813,
+          "wall_penalty": -30.22030212562697,
+          "step_penalty": -2.0,
+          "score": 0.14808809563711525,
+          "candidate_eval": {
+            "score": 0.14808809563711525,
+            "score_std": 0.7411607488077006,
+            "score_by_difficulty": {
+              "easy": 0.5185185185185185,
+              "medium": 0.1623512652924418,
+              "hard": -0.4117647058823529
+            },
+            "success_rate": 0.43333333333333335,
+            "wall_hit_rate": 0.0,
+            "steps": 40.8,
+            "repeat_count": 33.45,
+            "progress_rate": 0.7278199404761906,
+            "bfs_action_agreement": 0.7278199404761906
+          },
+          "train_eval": {
+            "easy": {
+              "success_rate": 0.69,
+              "reward": 4.10076636217301,
+              "steps": 26.51,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.8438024475524476,
+              "bfs_action_agreement": 0.8438024475524476,
+              "repeat_count": 18.23
+            },
+            "medium": {
+              "success_rate": 0.55,
+              "reward": -25.948954348992526,
+              "steps": 35.74,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.7813452380952381,
+              "bfs_action_agreement": 0.7813452380952381,
+              "repeat_count": 26.63
+            },
+            "hard": {
+              "success_rate": 0.01,
+              "reward": -126.29216280634532,
+              "steps": 63.56,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.522,
+              "bfs_action_agreement": 0.522,
+              "repeat_count": 59.36
+            },
+            "test": {
+              "success_rate": 0.0,
+              "reward": -128.0,
+              "steps": 64.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.53125,
+              "bfs_action_agreement": 0.53125,
+              "repeat_count": 59.0
+            }
+          },
+          "output_name": "v2.0.2_cem_gen03_cand03_g41p39_w15p11",
+          "is_elite": false
+        },
+        {
+          "candidate_id": 4,
+          "g": 44.054652110979845,
+          "w": 15.075730080322113,
+          "log_g": 3.7854309565897464,
+          "log_w": 2.7130861713126744,
+          "generation": 3,
+          "goal_reward": 88.10930422195969,
+          "wall_penalty": -30.151460160644227,
+          "step_penalty": -2.0,
+          "score": -0.2,
+          "candidate_eval": {
+            "score": -0.2,
+            "score_std": 0.6000000000000001,
+            "score_by_difficulty": {
+              "easy": 0.04,
+              "medium": -0.25,
+              "hard": -0.5
+            },
+            "success_rate": 0.2,
+            "wall_hit_rate": 0.0,
+            "steps": 53.15,
+            "repeat_count": 47.166666666666664,
+            "progress_rate": 0.61875,
+            "bfs_action_agreement": 0.61875
+          },
+          "train_eval": {
+            "easy": {
+              "success_rate": 0.41,
+              "reward": -47.49518526899652,
+              "steps": 41.81,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.710674760900864,
+              "bfs_action_agreement": 0.710674760900864,
+              "repeat_count": 34.71
+            },
+            "medium": {
+              "success_rate": 0.22,
+              "reward": -86.15595307116887,
+              "steps": 52.77,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.6245342261904763,
+              "bfs_action_agreement": 0.6245342261904763,
+              "repeat_count": 46.27
+            },
+            "hard": {
+              "success_rate": 0.0,
+              "reward": -128.0,
+              "steps": 64.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.51578125,
+              "bfs_action_agreement": 0.51578125,
+              "repeat_count": 60.54
+            },
+            "test": {
+              "success_rate": 0.0,
+              "reward": -128.0,
+              "steps": 64.0,
+              "wall_hit_rate": 0.0,
+              "progress_rate": 0.484375,
+              "bfs_action_agreement": 0.484375,
+              "repeat_count": 62.0
+            }
+          },
+          "output_name": "v2.0.2_cem_gen03_cand04_g44p05_w15p08",
+          "is_elite": false
+        }
+      ]
+    }
+  ],
+  "current_best": {
+    "candidate_id": 3,
+    "g": 48.84105221060201,
+    "w": 12.715091432137132,
+    "log_g": 3.8885711930440547,
+    "log_w": 2.5427895897359307,
+    "generation": 2,
+    "goal_reward": 97.68210442120402,
+    "wall_penalty": -25.430182864274265,
+    "step_penalty": -2.0,
+    "score": 0.27440476190476193,
+    "candidate_eval": {
+      "score": 0.27440476190476193,
+      "score_std": 0.7490212339826663,
+      "score_by_difficulty": {
+        "easy": 0.8185714285714286,
+        "medium": 0.4,
+        "hard": -0.5
+      },
+      "success_rate": 0.5166666666666667,
+      "wall_hit_rate": 0.0,
+      "steps": 36.083333333333336,
+      "repeat_count": 29.1,
+      "progress_rate": 0.7636979166666666,
+      "bfs_action_agreement": 0.7636979166666666
+    },
+    "train_eval": {
+      "easy": {
+        "success_rate": 0.8,
+        "reward": 37.70568353696321,
+        "steps": 20.22,
+        "wall_hit_rate": 0.0,
+        "progress_rate": 0.9009103535353534,
+        "bfs_action_agreement": 0.9009103535353534,
+        "repeat_count": 11.48
+      },
+      "medium": {
+        "success_rate": 0.39,
+        "reward": -49.88397927573043,
+        "steps": 43.99,
+        "wall_hit_rate": 0.0,
+        "progress_rate": 0.7084404761904763,
+        "bfs_action_agreement": 0.7084404761904763,
+        "repeat_count": 35.63
+      },
+      "hard": {
+        "success_rate": 0.01,
+        "reward": -126.12317895578795,
+        "steps": 63.55,
+        "wall_hit_rate": 0.0,
+        "progress_rate": 0.5184375,
+        "bfs_action_agreement": 0.5184375,
+        "repeat_count": 59.91
+      },
+      "test": {
+        "success_rate": 0.0,
+        "reward": -128.0,
+        "steps": 64.0,
+        "wall_hit_rate": 0.0,
+        "progress_rate": 0.515625,
+        "bfs_action_agreement": 0.515625,
+        "repeat_count": 62.0
+      }
+    },
+    "output_name": "v2.0.2_cem_gen02_cand03_g48p84_w12p72",
+    "is_elite": true
+  },
+  "current_distribution": {
+    "mu_log": [
+      3.7499503640896856,
+      2.6648365794208546
+    ],
+    "sigma_log": [
+      0.05891220090243891,
+      0.13910421290992137
+    ],
+    "center_g": 42.51897147982939,
+    "center_w": 14.365601719207644
+  },
+  "final": {
+    "learned_g": 42.51897147982939,
+    "learned_w": 14.365601719207644,
+    "actual_goal_reward": 85.03794295965878,
+    "actual_wall_penalty": -28.73120343841529,
+    "actual_step_penalty": -2.0,
+    "output_name": "v2.0.2_cem_final_g42p52_w14p37_scale2",
+    "eval": {
+      "easy": {
+        "success_rate": 0.63,
+        "reward": -5.246095935414972,
+        "steps": 29.41,
+        "wall_hit_rate": 0.0,
+        "progress_rate": 0.8188645833333333,
+        "bfs_action_agreement": 0.8188645833333333,
+        "repeat_count": 21.76
+      },
+      "medium": {
+        "success_rate": 0.42,
+        "reward": -49.164063956943316,
+        "steps": 42.44,
+        "wall_hit_rate": 0.0,
+        "progress_rate": 0.7222380952380953,
+        "bfs_action_agreement": 0.7222380952380953,
+        "repeat_count": 33.94
+      },
+      "hard": {
+        "success_rate": 0.01,
+        "reward": -126.22962057040343,
+        "steps": 63.54,
+        "wall_hit_rate": 0.0,
+        "progress_rate": 0.51859375,
+        "bfs_action_agreement": 0.51859375,
+        "repeat_count": 59.96
+      },
+      "test": {
+        "success_rate": 0.0,
+        "reward": -128.0,
+        "steps": 64.0,
+        "wall_hit_rate": 0.0,
+        "progress_rate": 0.5,
+        "bfs_action_agreement": 0.5,
+        "repeat_count": 63.0
+      }
+    }
+  }
+}

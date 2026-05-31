@@ -1,0 +1,32 @@
+{
+  "easy": {
+    "target_ratio": 0.2,
+    "actual_ratio": 0.205,
+    "n": 82,
+    "bfs_len_mean": 7.5,
+    "bfs_len_min": 6,
+    "bfs_len_p50": 7.0,
+    "bfs_len_max": 10,
+    "retry_mean": 2.3658536585365852
+  },
+  "medium": {
+    "target_ratio": 0.4,
+    "actual_ratio": 0.3925,
+    "n": 157,
+    "bfs_len_mean": 12.159235668789808,
+    "bfs_len_min": 11,
+    "bfs_len_p50": 12.0,
+    "bfs_len_max": 18,
+    "retry_mean": 15.426751592356688
+  },
+  "hard": {
+    "target_ratio": 0.4,
+    "actual_ratio": 0.4025,
+    "n": 161,
+    "bfs_len_mean": 22.801242236024844,
+    "bfs_len_min": 19,
+    "bfs_len_p50": 22.0,
+    "bfs_len_max": 32,
+    "retry_mean": 408.111801242236
+  }
+}

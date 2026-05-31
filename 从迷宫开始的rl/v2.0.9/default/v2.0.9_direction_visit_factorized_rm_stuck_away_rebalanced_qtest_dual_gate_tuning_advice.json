@@ -1,0 +1,6 @@
+[
+  {
+    "condition": "pure_argmax_wall_rate > 0.10 while average wall reward is solved",
+    "suggestion": "wall failure likely comes from tail states / saturation, not average wall reward. Add hard-tail counterfactuals or enlarge data, not wall margin."
+  }
+]

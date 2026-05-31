@@ -1,0 +1,52 @@
+{
+  "history": {
+    "train_loss": [
+      0.471635947277879,
+      0.43302058318958564,
+      0.43334706879438156,
+      0.4313994425114844,
+      0.427876122012923,
+      0.4238443937267145,
+      0.42166128102521566,
+      0.41837689226617863
+    ],
+    "train_acc": [
+      0.9159946653914944,
+      0.940588825268283,
+      0.9372511157708439,
+      0.9368657660343966,
+      0.9421235956677312,
+      0.9481112452387366,
+      0.9507876524566197,
+      0.9527655005578854
+    ],
+    "val_loss": [
+      0.4373197328920166,
+      0.43410135495165986,
+      0.4345003612795655,
+      0.4289456037234287,
+      0.430246644786426,
+      0.4269812481135738,
+      0.4206298352504263,
+      0.42250903406921697
+    ],
+    "val_acc": [
+      0.9364691840277777,
+      0.9392469618055556,
+      0.9285714285714286,
+      0.9341517857142857,
+      0.9414859693877551,
+      0.9483418367346939,
+      0.9518768221574344,
+      0.9520362609329447
+    ]
+  },
+  "best_val_loss": 0.4206298352504263,
+  "best_val_acc": 0.9520362609329447,
+  "best_loss_path": "v2.0.8\\default\\v2.0.8_local_segment_preference_rm_patched_reward_model_best_loss.pt",
+  "best_acc_path": "v2.0.8\\default\\v2.0.8_local_segment_preference_rm_patched_reward_model_best_acc.pt",
+  "best_contextual_gap_path": "v2.0.8\\default\\v2.0.8_local_segment_preference_rm_patched_reward_model_best_contextual_gap.pt",
+  "best_pure_argmax_path": "v2.0.8\\default\\v2.0.8_local_segment_preference_rm_patched_reward_model_best_pure_argmax.pt",
+  "best_low_saturation_path": "v2.0.8\\default\\v2.0.8_local_segment_preference_rm_patched_reward_model_best_low_saturation.pt",
+  "last_path": "v2.0.8\\default\\v2.0.8_local_segment_preference_rm_patched_reward_model_last.pt"
+}

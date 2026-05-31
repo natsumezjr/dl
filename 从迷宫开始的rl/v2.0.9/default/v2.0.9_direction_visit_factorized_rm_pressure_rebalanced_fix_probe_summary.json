@@ -1,0 +1,19 @@
+{
+  "contextual_gaps": {
+    "toward_no_visit_minus_away_no_visit": 0.42045727357268325,
+    "toward_visited_minus_away_visited": 0.540910670608282,
+    "toward_high_visit_minus_away_high_visit": 0.7562006935477257,
+    "wall_first_minus_wall_repeated": 0.0004052019119262784
+  },
+  "primitive_gaps": {
+    "toward_mean_minus_away_mean": 0.4764359696907922,
+    "away_mean_minus_wall_mean": 1.4888230138318612,
+    "toward_p50_minus_away_p50": 0.20444607734680176,
+    "away_p50_minus_wall_p50": 1.7854091227054596,
+    "wall_pct_pos_one": 0.0,
+    "visit_mean": 0.1913644279539585
+  },
+  "pure_argmax_success": 0.46,
+  "pure_argmax_wall_rate": 0.013179966450994488,
+  "all_actions_saturated_rate": 0.26911095135394203
+}

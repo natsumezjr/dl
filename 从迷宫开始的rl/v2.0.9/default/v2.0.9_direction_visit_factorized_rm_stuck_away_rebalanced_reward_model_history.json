@@ -1,0 +1,60 @@
+{
+  "history": {
+    "train_loss": [
+      0.7697247431688579,
+      0.6297606375222632,
+      0.5486137041079453,
+      0.508439401655675,
+      0.49264639453690556,
+      0.4803012651685536,
+      0.46990950207564824,
+      0.459116690039375
+    ],
+    "val_loss": [
+      0.6745791457317494,
+      0.5869906713933121,
+      0.5277727525911213,
+      0.5000265347368923,
+      0.489353679580453,
+      0.485421057836509,
+      0.4689267498475534,
+      0.4616770906212889
+    ],
+    "train_acc": [
+      0.6234477124702437,
+      0.8086760167462633,
+      0.8936070262217054,
+      0.9205700799270913,
+      0.9312295752672848,
+      0.9381059369230582,
+      0.9437613472959315,
+      0.949375907839773
+    ],
+    "val_acc": [
+      0.7206208360047988,
+      0.8691670350086542,
+      0.9054508385834871,
+      0.9235958022835814,
+      0.9307392717879496,
+      0.9411590003672942,
+      0.9457825061715679,
+      0.9515726051212828
+    ]
+  },
+  "best_val_loss": 0.4616770906212889,
+  "best_val_acc": 0.9515726051212828,
+  "selection_metrics": {
+    "contextual_gap": 2.6374310036189854,
+    "pure_argmax_success": 0.8,
+    "low_saturation_score": -0.8820156555772993,
+    "probe_mazes": 20
+  },
+  "paths": {
+    "best_loss": "v2.0.9\\default\\v2.0.9_direction_visit_factorized_rm_stuck_away_rebalanced_reward_model_best_loss.pt",
+    "best_acc": "v2.0.9\\default\\v2.0.9_direction_visit_factorized_rm_stuck_away_rebalanced_reward_model_best_acc.pt",
+    "best_contextual_gap": "v2.0.9\\default\\v2.0.9_direction_visit_factorized_rm_stuck_away_rebalanced_reward_model_best_contextual_gap.pt",
+    "best_pure_argmax": "v2.0.9\\default\\v2.0.9_direction_visit_factorized_rm_stuck_away_rebalanced_reward_model_best_pure_argmax.pt",
+    "best_low_saturation": "v2.0.9\\default\\v2.0.9_direction_visit_factorized_rm_stuck_away_rebalanced_reward_model_best_low_saturation.pt",
+    "last": "v2.0.9\\default\\v2.0.9_direction_visit_factorized_rm_stuck_away_rebalanced_reward_model_last.pt"
+  }
+}

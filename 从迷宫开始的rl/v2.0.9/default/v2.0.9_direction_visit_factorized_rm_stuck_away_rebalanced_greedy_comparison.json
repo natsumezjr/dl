@@ -1,0 +1,38 @@
+{
+  "bfs_tiebreak": {
+    "summary": {
+      "n": 100,
+      "success": 0.79,
+      "wall_timeout": 0.09,
+      "stuck_timeout": 0.12,
+      "explore_timeout": 0.0,
+      "avg_bfs_gap": 18.08,
+      "avg_steps": 26.81,
+      "avg_wall_hits": 0.89
+    },
+    "action_ranking": {
+      "toward_chosen_rate": 0.7168966803431556,
+      "away_chosen_rate": 0.24990675121223424,
+      "wall_chosen_rate": 0.03319656844461022,
+      "all_actions_saturated_rate": 0.15404699738903394
+    }
+  },
+  "pure_argmax": {
+    "summary": {
+      "n": 100,
+      "success": 0.72,
+      "wall_timeout": 0.19,
+      "stuck_timeout": 0.09,
+      "explore_timeout": 0.0,
+      "avg_bfs_gap": 24.93,
+      "avg_steps": 31.22,
+      "avg_wall_hits": 6.52
+    },
+    "action_ranking": {
+      "toward_chosen_rate": 0.57847533632287,
+      "away_chosen_rate": 0.21268417680973734,
+      "wall_chosen_rate": 0.2088404868673927,
+      "all_actions_saturated_rate": 0.3324791800128123
+    }
+  }
+}

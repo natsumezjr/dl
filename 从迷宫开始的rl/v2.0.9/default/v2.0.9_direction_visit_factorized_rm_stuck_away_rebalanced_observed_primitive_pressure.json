@@ -1,0 +1,90 @@
+{
+  "by_scope": {
+    "global": {
+      "toward": 0.01477994438847899,
+      "away": -0.006260218409945581,
+      "wall": -0.008519725978533411,
+      "visit": -0.017678747758513268
+    },
+    "local": {
+      "toward": 0.1771619115815115,
+      "away": -0.11605101865805416,
+      "wall": -0.06111089292345736,
+      "visit": -0.008415916270595554
+    },
+    "total": {
+      "toward": 0.1919418559699905,
+      "away": -0.12231123706799975,
+      "wall": -0.06963061890199077,
+      "visit": -0.026094664029108823
+    }
+  },
+  "rows": {
+    "toward": {
+      "primitive": "toward",
+      "global_value": 0.01477994438847899,
+      "local_value": 0.1771619115815115,
+      "total": 0.1919418559699905,
+      "target_low": 0.24,
+      "target_high": 0.42,
+      "status": "LOW"
+    },
+    "away": {
+      "primitive": "away",
+      "global_value": -0.006260218409945581,
+      "local_value": -0.11605101865805416,
+      "total": -0.12231123706799975,
+      "target_low": -0.09,
+      "target_high": 0.09,
+      "status": "LOW"
+    },
+    "wall": {
+      "primitive": "wall",
+      "global_value": -0.008519725978533411,
+      "local_value": -0.06111089292345736,
+      "total": -0.06963061890199077,
+      "target_low": -0.42,
+      "target_high": -0.24,
+      "status": "HIGH"
+    },
+    "visit": {
+      "primitive": "visit",
+      "global_value": -0.017678747758513268,
+      "local_value": -0.008415916270595554,
+      "total": -0.026094664029108823,
+      "target_low": -0.21,
+      "target_high": -0.09,
+      "status": "HIGH"
+    },
+    "toward-away": {
+      "primitive": "toward-away",
+      "global_value": null,
+      "local_value": null,
+      "total": 0.31425309303799026,
+      "target_low": 0.24,
+      "target_high": null,
+      "status": "OK"
+    },
+    "away-wall": {
+      "primitive": "away-wall",
+      "global_value": null,
+      "local_value": null,
+      "total": -0.05268061816600898,
+      "target_low": 0.24,
+      "target_high": null,
+      "status": "LOW"
+    },
+    "absWall-absVisit": {
+      "primitive": "absWall-absVisit",
+      "global_value": null,
+      "local_value": null,
+      "total": 0.04353595487288194,
+      "target_low": 0.12,
+      "target_high": null,
+      "status": "LOW"
+    }
+  },
+  "warnings": [
+    "away-wall below target."
+  ]
+}

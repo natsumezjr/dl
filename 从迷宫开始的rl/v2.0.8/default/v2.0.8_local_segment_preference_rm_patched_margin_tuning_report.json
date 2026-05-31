@@ -1,0 +1,366 @@
+{
+  "episode_outcome": {
+    "n": 4587,
+    "margin_min": 0.35,
+    "margin_max": 0.65,
+    "margin_scale": 1.0,
+    "delta_b": {
+      "mean": 1.0,
+      "p50": 1.0,
+      "p90": 1.0
+    },
+    "margin": {
+      "mean": 0.5784782466607372,
+      "p10": 0.5784782466607372,
+      "p50": 0.5784782466607372,
+      "p90": 0.5784782466607372,
+      "pct_near_min": 0.0,
+      "pct_near_max": 0.0
+    },
+    "recommendation": {
+      "action": "keep",
+      "recommended_min": 0.35,
+      "recommended_max": 0.65,
+      "recommended_scale": 1.0,
+      "reason": "margin distribution looks acceptable."
+    }
+  },
+  "episode_wall": {
+    "n": 3364,
+    "margin_min": 0.15,
+    "margin_max": 0.35,
+    "margin_scale": 1.0,
+    "delta_b": {
+      "mean": 1.0,
+      "p50": 1.0,
+      "p90": 1.0
+    },
+    "margin": {
+      "mean": 0.30231883110715796,
+      "p10": 0.30231883110715807,
+      "p50": 0.30231883110715807,
+      "p90": 0.30231883110715807,
+      "pct_near_min": 0.0,
+      "pct_near_max": 0.0
+    },
+    "recommendation": {
+      "action": "keep",
+      "recommended_min": 0.15,
+      "recommended_max": 0.35,
+      "recommended_scale": 1.0,
+      "reason": "margin distribution looks acceptable."
+    }
+  },
+  "episode_loop": {
+    "n": 4708,
+    "margin_min": 0.08,
+    "margin_max": 0.25,
+    "margin_scale": 1.0,
+    "delta_b": {
+      "mean": 0.5061271203934792,
+      "p50": 0.684170625,
+      "p90": 0.809170625
+    },
+    "margin": {
+      "mean": 0.1540894064455873,
+      "p10": 0.08,
+      "p50": 0.1810180885441233,
+      "p90": 0.19375252181428,
+      "pct_near_min": 0.17204757858963465,
+      "pct_near_max": 0.0
+    },
+    "recommendation": {
+      "action": "keep",
+      "recommended_min": 0.08,
+      "recommended_max": 0.25,
+      "recommended_scale": 1.0,
+      "reason": "margin distribution looks acceptable."
+    }
+  },
+  "episode_path": {
+    "n": 2308,
+    "margin_min": 0.0,
+    "margin_max": 0.04,
+    "margin_scale": 1.0,
+    "delta_b": {
+      "mean": 0.04486475276135627,
+      "p50": 0.038461538461538464,
+      "p90": 0.07142857142857142
+    },
+    "margin": {
+      "mean": 0.001791864352408073,
+      "p10": 0.0014029330783374805,
+      "p50": 0.001537703375312464,
+      "p90": 0.0028522936638751117,
+      "pct_near_min": 1.0,
+      "pct_near_max": 0.0
+    },
+    "recommendation": {
+      "action": "keep",
+      "recommended_min": 0.0,
+      "recommended_max": 0.04,
+      "recommended_scale": 1.0,
+      "reason": "margin distribution looks acceptable."
+    }
+  },
+  "wall_exp": {
+    "n": 3364,
+    "margin_min": 0.1,
+    "margin_max": 0.42,
+    "margin_scale": 0.7,
+    "delta_b": {
+      "mean": 0.3699881731491306,
+      "p50": 0.46252230537552347,
+      "p90": 0.8258392528265799
+    },
+    "margin": {
+      "mean": 0.2252731425361292,
+      "p10": 0.10055007779408248,
+      "p50": 0.2852351226076242,
+      "p90": 0.3647613395596072,
+      "pct_near_min": 0.495243757431629,
+      "pct_near_max": 0.0
+    },
+    "recommendation": {
+      "action": "keep",
+      "recommended_min": 0.1,
+      "recommended_max": 0.42,
+      "recommended_scale": 0.7,
+      "reason": "margin distribution looks acceptable."
+    }
+  },
+  "cpl_recover_wall": {
+    "n": 1145,
+    "margin_min": 0.25,
+    "margin_max": 0.48,
+    "margin_scale": 0.9,
+    "delta_b": {
+      "mean": 0.8750542989279663,
+      "p50": 1.2030451178755233,
+      "p90": 1.7069870653265797
+    },
+    "margin": {
+      "mean": 0.37817341117402026,
+      "p10": 0.266862938017229,
+      "p50": 0.45030272251230896,
+      "p90": 0.469868486622586,
+      "pct_near_min": 0.12925764192139738,
+      "pct_near_max": 0.4558951965065502
+    },
+    "recommendation": {
+      "action": "increase scale or decrease max",
+      "recommended_min": 0.25,
+      "recommended_max": 0.432,
+      "recommended_scale": 1.35,
+      "reason": "margin is saturating; bucket pushes reward too hard and may cause +/-1 reward saturation."
+    }
+  },
+  "cpl_explore_wall": {
+    "n": 1053,
+    "margin_min": 0.18,
+    "margin_max": 0.4,
+    "margin_scale": 0.9,
+    "delta_b": {
+      "mean": 0.8760084220033552,
+      "p50": 1.2034357428755234,
+      "p90": 1.7073776903265798
+    },
+    "margin": {
+      "mean": 0.30205570385154645,
+      "p10": 0.1960514370294057,
+      "p50": 0.37161696593127785,
+      "p90": 0.39031721084714355,
+      "pct_near_min": 0.13865147198480532,
+      "pct_near_max": 0.4624881291547958
+    },
+    "recommendation": {
+      "action": "increase scale or decrease max",
+      "recommended_min": 0.18,
+      "recommended_max": 0.36000000000000004,
+      "recommended_scale": 1.35,
+      "reason": "margin is saturating; bucket pushes reward too hard and may cause +/-1 reward saturation."
+    }
+  },
+  "cpl_recover_loop": {
+    "n": 1200,
+    "margin_min": 0.12,
+    "margin_max": 0.3,
+    "margin_scale": 0.8,
+    "delta_b": {
+      "mean": 0.7723919791666667,
+      "p50": 0.777920625,
+      "p90": 0.80956125
+    },
+    "margin": {
+      "mean": 0.2542789027926994,
+      "p10": 0.2484729887694732,
+      "p50": 0.2549563311590876,
+      "p90": 0.25798223912239304,
+      "pct_near_min": 0.0,
+      "pct_near_max": 0.0
+    },
+    "recommendation": {
+      "action": "keep",
+      "recommended_min": 0.12,
+      "recommended_max": 0.3,
+      "recommended_scale": 0.8,
+      "reason": "margin distribution looks acceptable."
+    }
+  },
+  "cpl_visit_toward": {
+    "n": 1200,
+    "margin_min": 0.08,
+    "margin_max": 0.24,
+    "margin_scale": 1.0,
+    "delta_b": {
+      "mean": 0.8487855629202822,
+      "p50": 0.8393531480969895,
+      "p90": 1.287136520260989
+    },
+    "margin": {
+      "mean": 0.18375932895157077,
+      "p10": 0.1384056942335802,
+      "p50": 0.18967460708057304,
+      "p90": 0.2173399582591217,
+      "pct_near_min": 0.0025,
+      "pct_near_max": 0.07416666666666667
+    },
+    "recommendation": {
+      "action": "keep",
+      "recommended_min": 0.08,
+      "recommended_max": 0.24,
+      "recommended_scale": 1.0,
+      "reason": "margin distribution looks acceptable."
+    }
+  },
+  "local_toward": {
+    "n": 3898,
+    "margin_min": 0.04,
+    "margin_max": 0.16,
+    "margin_scale": 0.8,
+    "delta_b": {
+      "mean": 1.8090808682853383,
+      "p50": 1.6,
+      "p90": 3.0
+    },
+    "margin": {
+      "mean": 0.14887169280982077,
+      "p10": 0.1264834759144415,
+      "p50": 0.15568330958790277,
+      "p90": 0.15986733312589527,
+      "pct_near_min": 0.0,
+      "pct_near_max": 0.797331965110313
+    },
+    "recommendation": {
+      "action": "increase scale or decrease max",
+      "recommended_min": 0.04,
+      "recommended_max": 0.14400000000000002,
+      "recommended_scale": 1.2000000000000002,
+      "reason": "margin is saturating; bucket pushes reward too hard and may cause +/-1 reward saturation."
+    }
+  },
+  "local_safe_wall": {
+    "n": 2718,
+    "margin_min": 0.18,
+    "margin_max": 0.35,
+    "margin_scale": 0.8,
+    "delta_b": {
+      "mean": 1.0086341498117426,
+      "p50": 1.0084889387849552,
+      "p90": 1.0121034265230977
+    },
+    "margin": {
+      "mean": 0.32471765705583566,
+      "p10": 0.32452221723101843,
+      "p50": 0.3247095277133799,
+      "p90": 0.3249202471796627,
+      "pct_near_min": 0.0,
+      "pct_near_max": 0.0
+    },
+    "recommendation": {
+      "action": "keep",
+      "recommended_min": 0.18,
+      "recommended_max": 0.35,
+      "recommended_scale": 0.8,
+      "reason": "margin distribution looks acceptable."
+    }
+  },
+  "local_visit2_direction": {
+    "n": 3600,
+    "margin_min": 0.03,
+    "margin_max": 0.1,
+    "margin_scale": 0.8,
+    "delta_b": {
+      "mean": 1.8153938159650234,
+      "p50": 1.6,
+      "p90": 3.0
+    },
+    "margin": {
+      "mean": 0.093527095784392,
+      "p10": 0.08044869428342422,
+      "p50": 0.0974819305929433,
+      "p90": 0.09992261099010559,
+      "pct_near_min": 0.0008333333333333334,
+      "pct_near_max": 0.9036111111111111
+    },
+    "recommendation": {
+      "action": "fix pair generator / pair direction before tuning margin",
+      "recommended_min": 0.03,
+      "recommended_max": 0.1,
+      "recommended_scale": 0.8,
+      "reason": "margin is saturating, but pair direction validity is low; increasing or decreasing margin may reinforce noisy preferences."
+    }
+  },
+  "local_recover_loop": {
+    "n": 3200,
+    "margin_min": 0.08,
+    "margin_max": 0.22,
+    "margin_scale": 0.8,
+    "delta_b": {
+      "mean": 0.011233500488281251,
+      "p50": 0.0095859375,
+      "p90": 0.018814062500000003
+    },
+    "margin": {
+      "mean": 0.08196561549564464,
+      "p10": 0.08074511015112484,
+      "p50": 0.0816774587788702,
+      "p90": 0.08329185407340611,
+      "pct_near_min": 1.0,
+      "pct_near_max": 0.0
+    },
+    "recommendation": {
+      "action": "decrease scale or increase min",
+      "recommended_min": 0.1,
+      "recommended_max": 0.22,
+      "recommended_scale": 0.6000000000000001,
+      "reason": "margin too weak; pair may not provide enough separation."
+    }
+  },
+  "local_visit_penalty": {
+    "n": 4584,
+    "margin_min": 0.01,
+    "margin_max": 0.06,
+    "margin_scale": 1.0,
+    "delta_b": {
+      "mean": 0.003945633453315884,
+      "p50": 0.0024375000000000013,
+      "p90": 0.007279375000000002
+    },
+    "margin": {
+      "mean": 0.01019726673256031,
+      "p10": 0.010037109368149088,
+      "p50": 0.010121874758509071,
+      "p90": 0.01036396232095285,
+      "pct_near_min": 1.0,
+      "pct_near_max": 0.0
+    },
+    "recommendation": {
+      "action": "keep",
+      "recommended_min": 0.01,
+      "recommended_max": 0.06,
+      "recommended_scale": 1.0,
+      "reason": "margin distribution looks acceptable."
+    }
+  }
+}

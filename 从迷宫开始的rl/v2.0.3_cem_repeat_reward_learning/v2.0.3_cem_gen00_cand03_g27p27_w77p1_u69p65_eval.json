@@ -1,0 +1,42 @@
+{
+  "easy": {
+    "success_rate": 0.01,
+    "reward": -4629.123915509051,
+    "steps": 63.46,
+    "wall_hit_rate": 0.82875,
+    "repeat_rate": 0.106875,
+    "progress_rate": 0.10015625,
+    "bfs_action_agreement": 0.10015625,
+    "repeat_count": 59.88
+  },
+  "medium": {
+    "success_rate": 0.0,
+    "reward": -4831.47437658828,
+    "steps": 64.0,
+    "wall_hit_rate": 0.92421875,
+    "repeat_rate": 0.04640625,
+    "progress_rate": 0.046875,
+    "bfs_action_agreement": 0.046875,
+    "repeat_count": 62.12
+  },
+  "hard": {
+    "success_rate": 0.0,
+    "reward": -4906.799173311156,
+    "steps": 64.0,
+    "wall_hit_rate": 0.98140625,
+    "repeat_rate": 0.0,
+    "progress_rate": 0.01296875,
+    "bfs_action_agreement": 0.01296875,
+    "repeat_count": 62.81
+  },
+  "test": {
+    "success_rate": 0.0,
+    "reward": -4458.834467102943,
+    "steps": 64.0,
+    "wall_hit_rate": 0.890625,
+    "repeat_rate": 0.0,
+    "progress_rate": 0.109375,
+    "bfs_action_agreement": 0.109375,
+    "repeat_count": 57.0
+  }
+}

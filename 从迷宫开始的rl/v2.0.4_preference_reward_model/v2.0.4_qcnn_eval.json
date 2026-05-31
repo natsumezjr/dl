@@ -1,0 +1,42 @@
+{
+  "easy": {
+    "success": 0.18,
+    "wall": 0.71,
+    "timeout": 0.11,
+    "steps": 55.08,
+    "repeat": 6.58,
+    "bfs_gap": 41.06,
+    "reward": -69.81494728386868,
+    "bfs_agree": 0.2969375
+  },
+  "medium": {
+    "success": 0.07,
+    "wall": 0.78,
+    "timeout": 0.15,
+    "steps": 60.54,
+    "repeat": 8.93,
+    "bfs_gap": 46.5,
+    "reward": -79.45571598582902,
+    "bfs_agree": 0.1982638888888889
+  },
+  "hard": {
+    "success": 0.0,
+    "wall": 0.93,
+    "timeout": 0.07,
+    "steps": 64.0,
+    "repeat": 4.4,
+    "bfs_gap": 45.44,
+    "reward": -87.53057005596813,
+    "bfs_agree": 0.07453125
+  },
+  "test": {
+    "success": 0.0,
+    "wall": 1.0,
+    "timeout": 0.0,
+    "steps": 64.0,
+    "repeat": 0.0,
+    "bfs_gap": 48.0,
+    "reward": -96.7881279066205,
+    "bfs_agree": 0.140625
+  }
+}

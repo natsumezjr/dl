@@ -1,0 +1,44 @@
+{
+  "toward": {
+    "primitive": "toward",
+    "target_low": 0.24,
+    "target_high": 0.42,
+    "expected": 0.33
+  },
+  "away": {
+    "primitive": "away",
+    "target_low": -0.09,
+    "target_high": 0.09,
+    "expected": 0.0
+  },
+  "wall": {
+    "primitive": "wall",
+    "target_low": -0.42,
+    "target_high": -0.24,
+    "expected": -0.33
+  },
+  "visit": {
+    "primitive": "visit",
+    "target_low": -0.21,
+    "target_high": -0.09,
+    "expected": -0.15
+  },
+  "toward-away": {
+    "primitive": "toward-away",
+    "target_low": 0.24,
+    "target_high": null,
+    "expected": 0.33
+  },
+  "away-wall": {
+    "primitive": "away-wall",
+    "target_low": 0.24,
+    "target_high": null,
+    "expected": 0.33
+  },
+  "absWall-absVisit": {
+    "primitive": "absWall-absVisit",
+    "target_low": 0.12,
+    "target_high": null,
+    "expected": 0.18
+  }
+}

@@ -1,0 +1,1023 @@
+{
+  "metrics": {
+    "strategy": "bfs_tiebreak",
+    "success": true,
+    "steps": 16,
+    "wall_hits": 0,
+    "final_pos": [
+      3,
+      4
+    ],
+    "final_bfs_dist": 0
+  },
+  "steps": [
+    {
+      "t": 0,
+      "pos": [
+        3,
+        2
+      ],
+      "bfs_dist": 14,
+      "chosen_action": "UP",
+      "chosen_reward": 0.9948693513870239,
+      "chosen_is_wall": false,
+      "chosen_delta_bfs": -1,
+      "visit_count_after": 1,
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "reward": 0.9948693513870239,
+          "is_wall": false,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "visit_count_after": 1,
+          "rank": 1
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "reward": -0.9999992251396179,
+          "is_wall": true,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "visit_count_after": 2,
+          "rank": 3
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "reward": -1.0,
+          "is_wall": true,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "visit_count_after": 2,
+          "rank": 4
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "reward": -0.9999986290931702,
+          "is_wall": true,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "visit_count_after": 2,
+          "rank": 2
+        }
+      }
+    },
+    {
+      "t": 1,
+      "pos": [
+        2,
+        2
+      ],
+      "bfs_dist": 13,
+      "chosen_action": "UP",
+      "chosen_reward": 0.993026614189148,
+      "chosen_is_wall": false,
+      "chosen_delta_bfs": -1,
+      "visit_count_after": 1,
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "reward": 0.993026614189148,
+          "is_wall": false,
+          "next_pos": [
+            1,
+            2
+          ],
+          "delta_bfs": -1,
+          "visit_count_after": 1,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "reward": 0.9999029040336609,
+          "is_wall": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 1,
+          "visit_count_after": 2,
+          "rank": 1
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "reward": -0.9942700862884521,
+          "is_wall": false,
+          "next_pos": [
+            2,
+            1
+          ],
+          "delta_bfs": 1,
+          "visit_count_after": 1,
+          "rank": 3
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "reward": -0.9999977350234985,
+          "is_wall": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": 0,
+          "visit_count_after": 2,
+          "rank": 4
+        }
+      }
+    },
+    {
+      "t": 2,
+      "pos": [
+        1,
+        2
+      ],
+      "bfs_dist": 12,
+      "chosen_action": "DOWN",
+      "chosen_reward": 0.9999765157699585,
+      "chosen_is_wall": false,
+      "chosen_delta_bfs": 1,
+      "visit_count_after": 2,
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "reward": 0.9617491960525513,
+          "is_wall": false,
+          "next_pos": [
+            0,
+            2
+          ],
+          "delta_bfs": -1,
+          "visit_count_after": 1,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "reward": 0.9999765157699585,
+          "is_wall": false,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": 1,
+          "visit_count_after": 2,
+          "rank": 1
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "reward": -1.0,
+          "is_wall": true,
+          "next_pos": [
+            1,
+            2
+          ],
+          "delta_bfs": 0,
+          "visit_count_after": 2,
+          "rank": 3
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "reward": -1.0,
+          "is_wall": true,
+          "next_pos": [
+            1,
+            2
+          ],
+          "delta_bfs": 0,
+          "visit_count_after": 2,
+          "rank": 4
+        }
+      }
+    },
+    {
+      "t": 3,
+      "pos": [
+        2,
+        2
+      ],
+      "bfs_dist": 13,
+      "chosen_action": "UP",
+      "chosen_reward": 0.9853519797325134,
+      "chosen_is_wall": false,
+      "chosen_delta_bfs": -1,
+      "visit_count_after": 2,
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "reward": 0.9853519797325134,
+          "is_wall": false,
+          "next_pos": [
+            1,
+            2
+          ],
+          "delta_bfs": -1,
+          "visit_count_after": 2,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "reward": 0.9999607801437378,
+          "is_wall": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 1,
+          "visit_count_after": 2,
+          "rank": 1
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "reward": -0.866087794303894,
+          "is_wall": false,
+          "next_pos": [
+            2,
+            1
+          ],
+          "delta_bfs": 1,
+          "visit_count_after": 1,
+          "rank": 3
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "reward": -0.9999997615814209,
+          "is_wall": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": 0,
+          "visit_count_after": 3,
+          "rank": 4
+        }
+      }
+    },
+    {
+      "t": 4,
+      "pos": [
+        1,
+        2
+      ],
+      "bfs_dist": 12,
+      "chosen_action": "UP",
+      "chosen_reward": 0.985527753829956,
+      "chosen_is_wall": false,
+      "chosen_delta_bfs": -1,
+      "visit_count_after": 1,
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "reward": 0.985527753829956,
+          "is_wall": false,
+          "next_pos": [
+            0,
+            2
+          ],
+          "delta_bfs": -1,
+          "visit_count_after": 1,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "reward": 0.999984622001648,
+          "is_wall": false,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": 1,
+          "visit_count_after": 3,
+          "rank": 1
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "reward": -1.0,
+          "is_wall": true,
+          "next_pos": [
+            1,
+            2
+          ],
+          "delta_bfs": 0,
+          "visit_count_after": 3,
+          "rank": 3
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "reward": -1.0,
+          "is_wall": true,
+          "next_pos": [
+            1,
+            2
+          ],
+          "delta_bfs": 0,
+          "visit_count_after": 3,
+          "rank": 4
+        }
+      }
+    },
+    {
+      "t": 5,
+      "pos": [
+        0,
+        2
+      ],
+      "bfs_dist": 11,
+      "chosen_action": "RIGHT",
+      "chosen_reward": 0.9999725222587585,
+      "chosen_is_wall": false,
+      "chosen_delta_bfs": -1,
+      "visit_count_after": 1,
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "reward": -0.9999995827674866,
+          "is_wall": true,
+          "next_pos": [
+            0,
+            2
+          ],
+          "delta_bfs": 0,
+          "visit_count_after": 2,
+          "rank": 4
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "reward": 0.9997733235359192,
+          "is_wall": false,
+          "next_pos": [
+            1,
+            2
+          ],
+          "delta_bfs": 1,
+          "visit_count_after": 3,
+          "rank": 2
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "reward": -0.9997020363807678,
+          "is_wall": false,
+          "next_pos": [
+            0,
+            1
+          ],
+          "delta_bfs": 1,
+          "visit_count_after": 1,
+          "rank": 3
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "reward": 0.9999725222587585,
+          "is_wall": false,
+          "next_pos": [
+            0,
+            3
+          ],
+          "delta_bfs": -1,
+          "visit_count_after": 1,
+          "rank": 1
+        }
+      }
+    },
+    {
+      "t": 6,
+      "pos": [
+        0,
+        3
+      ],
+      "bfs_dist": 10,
+      "chosen_action": "RIGHT",
+      "chosen_reward": 0.9996764063835144,
+      "chosen_is_wall": false,
+      "chosen_delta_bfs": -1,
+      "visit_count_after": 1,
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "reward": -0.9999999403953552,
+          "is_wall": true,
+          "next_pos": [
+            0,
+            3
+          ],
+          "delta_bfs": 0,
+          "visit_count_after": 2,
+          "rank": 4
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "reward": -0.9999976754188538,
+          "is_wall": true,
+          "next_pos": [
+            0,
+            3
+          ],
+          "delta_bfs": 0,
+          "visit_count_after": 2,
+          "rank": 3
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "reward": -0.9759689569473267,
+          "is_wall": false,
+          "next_pos": [
+            0,
+            2
+          ],
+          "delta_bfs": 1,
+          "visit_count_after": 2,
+          "rank": 2
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "reward": 0.9996764063835144,
+          "is_wall": false,
+          "next_pos": [
+            0,
+            4
+          ],
+          "delta_bfs": -1,
+          "visit_count_after": 1,
+          "rank": 1
+        }
+      }
+    },
+    {
+      "t": 7,
+      "pos": [
+        0,
+        4
+      ],
+      "bfs_dist": 9,
+      "chosen_action": "RIGHT",
+      "chosen_reward": 0.9984347224235535,
+      "chosen_is_wall": false,
+      "chosen_delta_bfs": -1,
+      "visit_count_after": 1,
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "reward": -1.0,
+          "is_wall": true,
+          "next_pos": [
+            0,
+            4
+          ],
+          "delta_bfs": 0,
+          "visit_count_after": 2,
+          "rank": 4
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "reward": -0.9999999403953552,
+          "is_wall": true,
+          "next_pos": [
+            0,
+            4
+          ],
+          "delta_bfs": 0,
+          "visit_count_after": 2,
+          "rank": 3
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "reward": -0.9753069877624512,
+          "is_wall": false,
+          "next_pos": [
+            0,
+            3
+          ],
+          "delta_bfs": 1,
+          "visit_count_after": 2,
+          "rank": 2
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "reward": 0.9984347224235535,
+          "is_wall": false,
+          "next_pos": [
+            0,
+            5
+          ],
+          "delta_bfs": -1,
+          "visit_count_after": 1,
+          "rank": 1
+        }
+      }
+    },
+    {
+      "t": 8,
+      "pos": [
+        0,
+        5
+      ],
+      "bfs_dist": 8,
+      "chosen_action": "RIGHT",
+      "chosen_reward": 0.9997895956039429,
+      "chosen_is_wall": false,
+      "chosen_delta_bfs": -1,
+      "visit_count_after": 1,
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "reward": -1.0,
+          "is_wall": true,
+          "next_pos": [
+            0,
+            5
+          ],
+          "delta_bfs": 0,
+          "visit_count_after": 2,
+          "rank": 4
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "reward": -0.9999998807907104,
+          "is_wall": true,
+          "next_pos": [
+            0,
+            5
+          ],
+          "delta_bfs": 0,
+          "visit_count_after": 2,
+          "rank": 3
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "reward": 0.10748247802257538,
+          "is_wall": false,
+          "next_pos": [
+            0,
+            4
+          ],
+          "delta_bfs": 1,
+          "visit_count_after": 2,
+          "rank": 2
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "reward": 0.9997895956039429,
+          "is_wall": false,
+          "next_pos": [
+            0,
+            6
+          ],
+          "delta_bfs": -1,
+          "visit_count_after": 1,
+          "rank": 1
+        }
+      }
+    },
+    {
+      "t": 9,
+      "pos": [
+        0,
+        6
+      ],
+      "bfs_dist": 7,
+      "chosen_action": "RIGHT",
+      "chosen_reward": 0.9998214244842529,
+      "chosen_is_wall": false,
+      "chosen_delta_bfs": -1,
+      "visit_count_after": 1,
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "reward": -1.0,
+          "is_wall": true,
+          "next_pos": [
+            0,
+            6
+          ],
+          "delta_bfs": 0,
+          "visit_count_after": 2,
+          "rank": 4
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "reward": -0.9999999403953552,
+          "is_wall": true,
+          "next_pos": [
+            0,
+            6
+          ],
+          "delta_bfs": 0,
+          "visit_count_after": 2,
+          "rank": 3
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "reward": 0.9568396210670471,
+          "is_wall": false,
+          "next_pos": [
+            0,
+            5
+          ],
+          "delta_bfs": 1,
+          "visit_count_after": 2,
+          "rank": 2
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "reward": 0.9998214244842529,
+          "is_wall": false,
+          "next_pos": [
+            0,
+            7
+          ],
+          "delta_bfs": -1,
+          "visit_count_after": 1,
+          "rank": 1
+        }
+      }
+    },
+    {
+      "t": 10,
+      "pos": [
+        0,
+        7
+      ],
+      "bfs_dist": 6,
+      "chosen_action": "DOWN",
+      "chosen_reward": 0.9999755024909973,
+      "chosen_is_wall": false,
+      "chosen_delta_bfs": -1,
+      "visit_count_after": 1,
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "reward": -1.0,
+          "is_wall": true,
+          "next_pos": [
+            0,
+            7
+          ],
+          "delta_bfs": 0,
+          "visit_count_after": 2,
+          "rank": 4
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "reward": 0.9999755024909973,
+          "is_wall": false,
+          "next_pos": [
+            1,
+            7
+          ],
+          "delta_bfs": -1,
+          "visit_count_after": 1,
+          "rank": 1
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "reward": 0.7056692838668823,
+          "is_wall": false,
+          "next_pos": [
+            0,
+            6
+          ],
+          "delta_bfs": 1,
+          "visit_count_after": 2,
+          "rank": 2
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "reward": -0.9999997615814209,
+          "is_wall": true,
+          "next_pos": [
+            0,
+            7
+          ],
+          "delta_bfs": 0,
+          "visit_count_after": 2,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 11,
+      "pos": [
+        1,
+        7
+      ],
+      "bfs_dist": 5,
+      "chosen_action": "DOWN",
+      "chosen_reward": 0.9999978542327881,
+      "chosen_is_wall": false,
+      "chosen_delta_bfs": -1,
+      "visit_count_after": 1,
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "reward": 0.7602142095565796,
+          "is_wall": false,
+          "next_pos": [
+            0,
+            7
+          ],
+          "delta_bfs": 1,
+          "visit_count_after": 2,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "reward": 0.9999978542327881,
+          "is_wall": false,
+          "next_pos": [
+            2,
+            7
+          ],
+          "delta_bfs": -1,
+          "visit_count_after": 1,
+          "rank": 1
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "reward": -0.9999580383300781,
+          "is_wall": true,
+          "next_pos": [
+            1,
+            7
+          ],
+          "delta_bfs": 0,
+          "visit_count_after": 2,
+          "rank": 3
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "reward": -1.0,
+          "is_wall": true,
+          "next_pos": [
+            1,
+            7
+          ],
+          "delta_bfs": 0,
+          "visit_count_after": 2,
+          "rank": 4
+        }
+      }
+    },
+    {
+      "t": 12,
+      "pos": [
+        2,
+        7
+      ],
+      "bfs_dist": 4,
+      "chosen_action": "LEFT",
+      "chosen_reward": 0.9999715089797974,
+      "chosen_is_wall": false,
+      "chosen_delta_bfs": -1,
+      "visit_count_after": 1,
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "reward": -0.9467832446098328,
+          "is_wall": false,
+          "next_pos": [
+            1,
+            7
+          ],
+          "delta_bfs": 1,
+          "visit_count_after": 2,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "reward": -0.9887731075286865,
+          "is_wall": true,
+          "next_pos": [
+            2,
+            7
+          ],
+          "delta_bfs": 0,
+          "visit_count_after": 2,
+          "rank": 3
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "reward": 0.9999715089797974,
+          "is_wall": false,
+          "next_pos": [
+            2,
+            6
+          ],
+          "delta_bfs": -1,
+          "visit_count_after": 1,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "reward": -1.0,
+          "is_wall": true,
+          "next_pos": [
+            2,
+            7
+          ],
+          "delta_bfs": 0,
+          "visit_count_after": 2,
+          "rank": 4
+        }
+      }
+    },
+    {
+      "t": 13,
+      "pos": [
+        2,
+        6
+      ],
+      "bfs_dist": 3,
+      "chosen_action": "DOWN",
+      "chosen_reward": 0.9998496770858765,
+      "chosen_is_wall": false,
+      "chosen_delta_bfs": -1,
+      "visit_count_after": 1,
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "reward": -1.0,
+          "is_wall": true,
+          "next_pos": [
+            2,
+            6
+          ],
+          "delta_bfs": 0,
+          "visit_count_after": 2,
+          "rank": 4
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "reward": 0.9998496770858765,
+          "is_wall": false,
+          "next_pos": [
+            3,
+            6
+          ],
+          "delta_bfs": -1,
+          "visit_count_after": 1,
+          "rank": 1
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "reward": -0.9602841734886169,
+          "is_wall": true,
+          "next_pos": [
+            2,
+            6
+          ],
+          "delta_bfs": 0,
+          "visit_count_after": 2,
+          "rank": 2
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "reward": -0.9999963641166687,
+          "is_wall": false,
+          "next_pos": [
+            2,
+            7
+          ],
+          "delta_bfs": 1,
+          "visit_count_after": 2,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 14,
+      "pos": [
+        3,
+        6
+      ],
+      "bfs_dist": 2,
+      "chosen_action": "LEFT",
+      "chosen_reward": 0.9999508261680603,
+      "chosen_is_wall": false,
+      "chosen_delta_bfs": -1,
+      "visit_count_after": 1,
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "reward": -0.9995245337486267,
+          "is_wall": false,
+          "next_pos": [
+            2,
+            6
+          ],
+          "delta_bfs": 1,
+          "visit_count_after": 2,
+          "rank": 3
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "reward": 0.3848380744457245,
+          "is_wall": false,
+          "next_pos": [
+            4,
+            6
+          ],
+          "delta_bfs": 1,
+          "visit_count_after": 1,
+          "rank": 2
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "reward": 0.9999508261680603,
+          "is_wall": false,
+          "next_pos": [
+            3,
+            5
+          ],
+          "delta_bfs": -1,
+          "visit_count_after": 1,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "reward": -1.0,
+          "is_wall": true,
+          "next_pos": [
+            3,
+            6
+          ],
+          "delta_bfs": 0,
+          "visit_count_after": 2,
+          "rank": 4
+        }
+      }
+    },
+    {
+      "t": 15,
+      "pos": [
+        3,
+        5
+      ],
+      "bfs_dist": 1,
+      "chosen_action": "LEFT",
+      "chosen_reward": 0.9999140501022339,
+      "chosen_is_wall": false,
+      "chosen_delta_bfs": -1,
+      "visit_count_after": 1,
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "reward": -1.0,
+          "is_wall": true,
+          "next_pos": [
+            3,
+            5
+          ],
+          "delta_bfs": 0,
+          "visit_count_after": 2,
+          "rank": 3
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "reward": -1.0,
+          "is_wall": true,
+          "next_pos": [
+            3,
+            5
+          ],
+          "delta_bfs": 0,
+          "visit_count_after": 2,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "reward": 0.9999140501022339,
+          "is_wall": false,
+          "next_pos": [
+            3,
+            4
+          ],
+          "delta_bfs": -1,
+          "visit_count_after": 1,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "reward": -0.9942108988761902,
+          "is_wall": false,
+          "next_pos": [
+            3,
+            6
+          ],
+          "delta_bfs": 1,
+          "visit_count_after": 2,
+          "rank": 2
+        }
+      }
+    }
+  ]
+}

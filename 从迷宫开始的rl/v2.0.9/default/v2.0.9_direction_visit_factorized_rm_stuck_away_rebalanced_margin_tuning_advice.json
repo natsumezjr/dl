@@ -1,0 +1,10 @@
+[
+  {
+    "condition": "pressure diagnosis: away-wall < 0.24",
+    "suggestion": "inspect wall-vs-away separation, but do not increase wall margin unless reward probe also says wall is weak"
+  },
+  {
+    "condition": "pressure diagnosis: wall pressure weak",
+    "suggestion": "do not tune wall from pressure alone; check wall_mean, wall_pct_pos_one, pure_argmax_wall_rate"
+  }
+]

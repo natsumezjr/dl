@@ -1,0 +1,47 @@
+{
+  "easy": {
+    "success": 0.27,
+    "explore_timeout": 0.04,
+    "wall_timeout": 0.69,
+    "reward": -35.771818834326,
+    "steps": 51.81,
+    "wall_hits": 21.66,
+    "wall_step_rate": 0.34976125642169087,
+    "visit2_steps": 7.42,
+    "visit3plus_steps": 29.28,
+    "visit4plus_steps": 25.27,
+    "max_visit": 23.3,
+    "bfs_agree": 0.3983883608962822,
+    "bfs_gap": 45.41
+  },
+  "medium": {
+    "success": 0.14,
+    "explore_timeout": 0.02,
+    "wall_timeout": 0.84,
+    "reward": -46.82611138626404,
+    "steps": 57.92,
+    "wall_hits": 36.58,
+    "wall_step_rate": 0.5772970085470085,
+    "visit2_steps": 4.87,
+    "visit3plus_steps": 43.47,
+    "visit4plus_steps": 40.32,
+    "max_visit": 38.83,
+    "bfs_agree": 0.2640923224285293,
+    "bfs_gap": 48.06
+  },
+  "hard": {
+    "success": 0.02,
+    "explore_timeout": 0.02,
+    "wall_timeout": 0.96,
+    "reward": -58.270890114502066,
+    "steps": 63.2,
+    "wall_hits": 50.33,
+    "wall_step_rate": 0.7869577205882353,
+    "visit2_steps": 2.85,
+    "visit3plus_steps": 55.49,
+    "visit4plus_steps": 53.19,
+    "max_visit": 52.5,
+    "bfs_agree": 0.12093093487394958,
+    "bfs_gap": 49.17
+  }
+}

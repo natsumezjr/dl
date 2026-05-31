@@ -1,0 +1,32 @@
+{
+  "pure_argmax": {
+    "metrics": {
+      "strategy": "pure_argmax",
+      "success": true,
+      "steps": 26,
+      "wall_hits": 0,
+      "final_pos": [
+        3,
+        4
+      ],
+      "final_bfs_dist": 0
+    },
+    "json": "v2.0.9\\default\\v2.0.9_direction_visit_factorized_rm_stuck_away_rebalanced_qtest_test_rollout_pure_argmax_debug.json",
+    "gif": "v2.0.9\\default\\v2.0.9_direction_visit_factorized_rm_stuck_away_rebalanced_qtest_test_rollout_pure_argmax.gif"
+  },
+  "bfs_tiebreak": {
+    "metrics": {
+      "strategy": "bfs_tiebreak",
+      "success": true,
+      "steps": 16,
+      "wall_hits": 0,
+      "final_pos": [
+        3,
+        4
+      ],
+      "final_bfs_dist": 0
+    },
+    "json": "v2.0.9\\default\\v2.0.9_direction_visit_factorized_rm_stuck_away_rebalanced_qtest_test_rollout_bfs_tiebreak_debug.json",
+    "gif": "v2.0.9\\default\\v2.0.9_direction_visit_factorized_rm_stuck_away_rebalanced_qtest_test_rollout_bfs_tiebreak.gif"
+  }
+}

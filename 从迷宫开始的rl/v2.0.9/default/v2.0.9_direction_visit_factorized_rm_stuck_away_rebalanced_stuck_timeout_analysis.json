@@ -1,0 +1,107 @@
+{
+  "n_stuck": 9,
+  "avg_loop_length": 8.0,
+  "avg_unique_tail": 2.111111111111111,
+  "avg_tail_visit_severity": 23.069444444444443,
+  "avg_tail_away_chosen_rate": 0.5,
+  "avg_tail_toward_available_rate": 1.0,
+  "avg_tail_escape_available_rate": 1.0,
+  "avg_tail_escape_chosen_rate": 0.5,
+  "avg_tail_all_actions_saturated_rate": 0.8055555555555556,
+  "rows": [
+    {
+      "loop_length": 8,
+      "unique_tail": 2,
+      "tail_visit_severity": 19.5,
+      "tail_away_chosen_rate": 0.5,
+      "tail_toward_available_rate": 1.0,
+      "tail_escape_available_rate": 1.0,
+      "tail_escape_chosen_rate": 0.5,
+      "tail_all_actions_saturated_rate": 1.0
+    },
+    {
+      "loop_length": 8,
+      "unique_tail": 2,
+      "tail_visit_severity": 29.0,
+      "tail_away_chosen_rate": 0.5,
+      "tail_toward_available_rate": 1.0,
+      "tail_escape_available_rate": 1.0,
+      "tail_escape_chosen_rate": 0.5,
+      "tail_all_actions_saturated_rate": 1.0
+    },
+    {
+      "loop_length": 8,
+      "unique_tail": 2,
+      "tail_visit_severity": 26.5,
+      "tail_away_chosen_rate": 0.5,
+      "tail_toward_available_rate": 1.0,
+      "tail_escape_available_rate": 1.0,
+      "tail_escape_chosen_rate": 0.5,
+      "tail_all_actions_saturated_rate": 1.0
+    },
+    {
+      "loop_length": 8,
+      "unique_tail": 2,
+      "tail_visit_severity": 22.0,
+      "tail_away_chosen_rate": 0.5,
+      "tail_toward_available_rate": 1.0,
+      "tail_escape_available_rate": 1.0,
+      "tail_escape_chosen_rate": 0.5,
+      "tail_all_actions_saturated_rate": 1.0
+    },
+    {
+      "loop_length": 8,
+      "unique_tail": 2,
+      "tail_visit_severity": 27.0,
+      "tail_away_chosen_rate": 0.5,
+      "tail_toward_available_rate": 1.0,
+      "tail_escape_available_rate": 1.0,
+      "tail_escape_chosen_rate": 0.5,
+      "tail_all_actions_saturated_rate": 0.5
+    },
+    {
+      "loop_length": 8,
+      "unique_tail": 3,
+      "tail_visit_severity": 4.125,
+      "tail_away_chosen_rate": 0.5,
+      "tail_toward_available_rate": 1.0,
+      "tail_escape_available_rate": 1.0,
+      "tail_escape_chosen_rate": 0.5,
+      "tail_all_actions_saturated_rate": 0.25
+    },
+    {
+      "loop_length": 8,
+      "unique_tail": 2,
+      "tail_visit_severity": 28.5,
+      "tail_away_chosen_rate": 0.5,
+      "tail_toward_available_rate": 1.0,
+      "tail_escape_available_rate": 1.0,
+      "tail_escape_chosen_rate": 0.5,
+      "tail_all_actions_saturated_rate": 0.5
+    },
+    {
+      "loop_length": 8,
+      "unique_tail": 2,
+      "tail_visit_severity": 28.0,
+      "tail_away_chosen_rate": 0.5,
+      "tail_toward_available_rate": 1.0,
+      "tail_escape_available_rate": 1.0,
+      "tail_escape_chosen_rate": 0.5,
+      "tail_all_actions_saturated_rate": 1.0
+    },
+    {
+      "loop_length": 8,
+      "unique_tail": 2,
+      "tail_visit_severity": 23.0,
+      "tail_away_chosen_rate": 0.5,
+      "tail_toward_available_rate": 1.0,
+      "tail_escape_available_rate": 1.0,
+      "tail_escape_chosen_rate": 0.5,
+      "tail_all_actions_saturated_rate": 1.0
+    }
+  ],
+  "interpretation": [
+    "tail_all_actions_saturated_rate is high: high-visit action separation is insufficient.",
+    "tail_away_chosen_rate is high: away reward is likely overestimated."
+  ]
+}

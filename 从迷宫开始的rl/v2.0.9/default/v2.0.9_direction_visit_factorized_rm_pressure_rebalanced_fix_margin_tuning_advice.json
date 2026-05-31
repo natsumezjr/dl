@@ -1,0 +1,14 @@
+[
+  {
+    "condition": "toward-away < 0.24",
+    "suggestion": "increase progress pairs; increase progress_max; decrease wall positive away ratio"
+  },
+  {
+    "condition": "away-wall < 0.24",
+    "suggestion": "increase wall pairs; increase wall_min / wall_max; ensure wall bucket includes repeated wall contexts"
+  },
+  {
+    "condition": "wall pressure too weak",
+    "suggestion": "increase wall pairs; increase wall_max; add hard wall counterfactual"
+  }
+]
