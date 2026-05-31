@@ -1,792 +1,248 @@
-# 从迷宫开始的 RL
+# 项目背景与近期技术路线：从迷宫强化学习到二进制漏洞挖掘
 
-simple maze 是 Q 表  
-feature maze 是 DQN
+本项目的近期目标不是直接追求复杂环境下的最终智能体，而是从一个足够小、足够可控的 8×8 迷宫开始，逐步建立强化学习任务中的数据生成、奖励建模、策略学习、模型诊断和泛化评估方法。迷宫在这里不是最终任务，而是一个可解释、可度量、可逐步复杂化的实验载体。
 
----
-
-## 代码版本介绍
-
-本仓库按学习阶段组织：`simple_maze` 使用 Q 表，`feature_maze` 使用 CNN-DQN。下表汇总当前已实现版本与文件路径。
-
-| 版本 | 文件 | 算法 | 状态 |
-|------|------|------|------|
-| Simple Maze | `simple_maze/main.py` | Q 表 | 已实现 |
-| Feature Maze v1 | `feature_maze/v1.py` | CNN-DQN | 已实现 |
-| Feature Maze v1.1 | `feature_maze/v1.1.py` | CNN-DQN | 已实现 |
-| Feature Maze v1_debug | `feature_maze/v1_debug.py` | CNN-DQN（诊断版） | 已实现 |
-| v2.0.0 – v2.13.0 | 待新增 | CNN-DQN 实验系列 | 规划中 |
-
-### simple_maze/main.py
-
-固定 4×4 迷宫上的 **Q 表** 强化学习入门实现。状态为 `(x, y, has_key, got_reward)`，包含钥匙（K）、奖励格（R）、陷阱（T）等元素；动作以 85% 概率按意图执行（可设为 1.0 变为确定性）。使用 ε-greedy 策略训练约 3000 个 episode，训练前后分别展示随机策略与贪心策略路径。
-
-```bash
-python simple_maze/main.py
-```
-
-### feature_maze/v1.py
-
-最早的 **CNN-DQN** 版本。8×8 随机迷宫生成（BFS 验证可达性），CNN 输入 3 通道（墙 / 智能体 / 终点）；支持手画迷宫（`S` 起点、`E` 终点）。训练、评估、可视化集成在同一脚本中，通过顶部常量开关控制。
-
-```bash
-python feature_maze/v1.py
-```
-
-### feature_maze/v1.1.py
-
-在 v1 基础上重构的 **基础 DQN** 版本。提供 `train` / `eval` / `test` / `stats` / `all` 命令行模式；用手绘迷宫集合（`open_shortest`、`multi_open_paths` 等）与随机迷宫混合训练；内置 BFS 最短路径用于诊断。奖励仅含基础项（`goal +100, wall -1, step -0.05`），**不含 BFS shaping、visited 惩罚、action mask**。
-
-```bash
-# 训练
-python feature_maze/v1.1.py --mode train
-
-# 评估
-python feature_maze/v1.1.py --mode eval --load-model cnn_dqn_maze_8x8_basic.pt
-
-# 在手绘测试迷宫上逐步可视化
-python feature_maze/v1.1.py --mode test --load-model cnn_dqn_maze_8x8_basic.pt
-```
-
-### feature_maze/v1_debug.py
-
-面向对照实验的 **诊断版 DQN**，最接近下文 v2.0.0 基线设定。主要特性：
-
-- **Stratified Replay**：按 wall / success / progress 等元数据分层采样
-- **Curriculum**：easy / medium / hard / manual 四档难度，随 episode 渐进
-- **Reward Presets**：`g10_w10_s001`、`g10_w5_s001` 等可切换，支持 `--mode reward_ablate` 批量对比
-- **Epsilon Presets**：含 `two_phase` 两阶段衰减
-- **诊断指标**：wall_hit_rate、repeat_count、progress_rate、path_ratio 等
-- 明确 **无 action mask、无 visited mask、无 BFS reward shaping**
-
-```bash
-# 单次训练 + 评估
-python feature_maze/v1_debug.py --mode single --reward-preset g10_w5_s001 --epsilon-preset two_phase
-
-# 奖励预设消融实验
-python feature_maze/v1_debug.py --mode reward_ablate
-
-# 加载模型评估，首个失败 episode 输出 debug trace
-python feature_maze/v1_debug.py --mode eval --model diagnose_cnn_dqn.pt --debug
-```
-
-### v2.n.0 系列（规划中）
-
-下文 v2.0.0 – v2.13.0 为统一参数下的策略对照实验，每个版本独立可运行，逐个验证单一学习机制的效果。当前代码以 `v1_debug.py` 为实验平台基础，后续将按推荐顺序实现。
+项目的长期迁移方向是二进制漏洞挖掘。二进制程序分析同样具有路径搜索、状态爆炸、局部选择、长期目标、无效动作、高代价反馈和探索收益等问题。因此，迷宫任务承担的是“方法训练场”的角色：先在二维迷宫中学会如何定义状态、动作、奖励、偏好、探索、失败类型和调试指标，再逐步迁移到更复杂、更概率化、更接近真实程序执行状态空间的任务中。
 
 ---
 
-## 统一基础设定：v2.n 系列共同参数
+## 一、2.0.n 阶段的工程经验总结
 
-所有 v2.n.0 模型都使用同一套基础参数，方便对照：
+2.0.n 阶段的核心收获是：强化学习失败时，不能只看 success rate，也不能只调 reward 数字。必须把问题拆成四层：
 
-- reward_preset = goal +10, wall -10, step -0.01
-- epsilon = two_phase
-- episodes = 3000
-- max_steps = 64
-- replay_type = stratified
-- 无 action mask
-- 无 visited mask
-- 无直接禁止重复
-- CNN 结构不改
-- Double DQN target 不改
-- optimizer / loss / target network 不改
+1. 环境是否定义清楚；
+2. reward 是否表达了正确行为；
+3. 模型是否有能力拟合目标函数；
+4. 策略学习是否能把局部 reward 转化成长期规划。
 
-课程难度改成固定三阶段：
+早期版本从 DQN baseline 开始，逐步尝试 reward scale、CEM 搜索、repeat penalty、visited state、trajectory preference RM、normalized margin、trajectory family、local segment preference、direction × visit × wall 因子化语义。每一次失败都暴露了一个新的工程约束。
 
-- Episode 1-1000: easy
-- Episode 1001-2000: medium
-- Episode 2001-3000: hard
+第一类经验是：手写 reward 很难表达“正确过程”。goal reward、wall penalty、step penalty 和 repeat penalty 可以让模型学会某些局部偏好，但不能保证它学到 BFS 最短路径。repeat penalty 尤其容易误伤 recovery 行为，因为 revisit 既可能是循环，也可能是死胡同回撤后的恢复。
 
-epsilon 设计：
+第二类经验是：轨迹偏好 RM 能学粗粒度偏好，但默认不会自动学到局部动作价值。只给 success > timeout 的偏好，RM 很容易成为轨迹排序器，而不是单步 reward model。BTL accuracy 很高并不等价于 greedy rollout 能成功。
 
-- epsilon_start = 1.0
-- epsilon_mid = 0.20
-- epsilon_end = 0.05
-- epsilon 在 episode 2500 收缩到最低值 0.05
-- episode 2500-3000 保持 0.05
+第三类经验是：数据生成比 loss 更重要。RM 的质量主要由 pair 的语义纯度、分布平衡、margin 设计和 debug probe 决定。尤其是 visit、wall、away 这类行为，如果样本分布不平衡，模型会学到错误相关性。例如 visit 可能被学成 failure 信号，away 可能被 safe > wall 间接抬高，wall 可能只在 repeated wall 场景中被学坏，而普通 wall step 没学稳。
 
-也就是说，所有模型只比较"学习策略"的差异，不再混入 wall、epsilon、episode、网络结构等额外变量。
+第四类经验是：必须区分 margin 和 primitive pressure。margin 是 BTL 中 Score(x+) - Score(x-) 的分离阈值；primitive pressure 是按样本占比、平均 margin 和语义差值聚合后得到的方向性诊断向量。二者量纲不同，不能直接比较。primitive pressure 的价值不是告诉我们 loss 有多大，而是告诉我们 toward、away、wall、visit 分别被数据往哪个方向推。
+
+第五类经验是：RM 训练必须有独立诊断链路。最终我们形成了比较完整的 RM-only debug 流程，包括 sample profile distribution、primitive distribution、local bucket context distribution、observed primitive pressure、RM primitive reward score report、contextual probe、pure argmax greedy、BFS tie-break greedy、stuck timeout analysis。这套报告比单纯训练曲线更重要。
+
+第六类经验是：当前瓶颈已经从 RM 转向策略模型。最后的 v2.0.9 系列中，RM 已经能够较好地区分 toward、away、wall、stuck_escape、stuck_loop，但纯 CNN/QCNN 策略仍然容易出现 wall chosen、away choice、stuck timeout 和 action saturation。这说明 CNN 更像在识别局部纹理，而不是执行 BFS 式规划。后续必须先验证模型本身是否具备拟合 BFS 的能力，再继续强化学习。
 
 ---
 
-## v2.0.0：Baseline Curriculum DQN（基线课程 DQN）
+## 二、近期总路线
 
-这是新的基础对照组。
+近期路线分三步：
 
-### 思路
+第一步，进入 1.x.y 系列，暂时不做 DQN，不做 RM，不做 exploration，只研究“模型能否拟合 BFS”。目标是找到一个能够学习 BFS 本质的模型结构。验收指标是：只用 BFS 监督训练，模型在随机迷宫上达到 95% 以上 success，并达到 80% 以上最短路径规划成功率。
 
-只做你要求的统一基础设定：
+第二步，回到 2.0.10，把 2.0.9 已经整理好的 RM 数据工程和 probe 体系保留，但把 RM / Q 模型替换为 1.x.y 中表现最好的模型结构。2.0.10 的目标不是引入新环境，而是验收：优秀模型结构是否能同时提升 RM 局部 reward、Q model 策略执行和 greedy rollout。
 
-- wall = -10
-- two-phase epsilon
-- 3000 episodes
-- 每 1000 episode 进入 easy / medium / hard
-
-不加入任何额外引导。
-
-### 目的
-
-用它回答：
-
-单靠更清晰的课程难度 + 强撞墙惩罚，DQN 能不能自己学会走迷宫？
-
-### 预计现象
-
-它可能会继续学成：
-
-- 少撞墙
-- 少亏损
-- 安全循环
-
-但 success 不一定高。
-
-这个模型是所有后续 v2.n.0 的对照基准。
+第三步，进入 2.1.x、2.2.x，逐步把迷宫复杂化、概率化、可探索化。每个版本只学习一个新的方法，不急于加入 demo，不急于堆功能。目标是让 DQN 在逐步复杂化的环境中真的学会，而不是靠人工规则硬推。
 
 ---
 
-## v2.1.0：BFS Demonstration Replay（BFS 专家示范回放）
+## 三、1.x.y：BFS 拟合能力评估路线
 
-这是我建议第一个实现的增强策略。
+1.x.y 的定位是模型能力评估，不是强化学习。它的任务是回答一个更基础的问题：给定迷宫、当前位置和目标点，模型能不能学出 BFS 的本质？
 
-### 思路
+统一数据来源是 BFS。输入可以包含 wall map、agent position、goal position、BFS distance map、reachable mask、visit map 的不同组合；输出可以是最优动作分类、BFS distance 回归、next-distance delta 分类、policy + value 多任务。所有 1.x.y 版本都不训练 DQN，只做监督学习或简单回归。
 
-每次生成一个迷宫后，用 BFS 找一条成功路径，然后把这条路径对应的 transition 放进 replay buffer。
+版本组织原则是：每一个 x 对应一种模型结构，每一个 y 只做参数调整、输入通道调整、loss 权重调整或数据规模调整。
 
-例如：
+### 1.0.y：CNN Policy Classifier Baseline
 
-```
-s0 -> s1 -> s2 -> ... -> goal
-```
+任务：输入 wall / agent / goal，输出 BFS 最优动作分类。
 
-转换成：
+目标：确认普通 CNN 的上限。
 
-```
-(s0, a0, r0, s1)
-(s1, a1, r1, s2)
-...
-(sk, ak, +10, goal)
-```
+预期问题：CNN 可能学到局部方向偏好，但难以表达全局路径绕行。它在简单迷宫上成功率可能高，在复杂障碍上最短路径率不足。
 
-这些 transition 进入一个单独的：
+验收指标：action accuracy、rollout success、shortest path success、BFS gap、按 easy / medium / hard 分布统计。
 
-demo_buffer
+### 1.1.y：CNN + BFS Distance Regression
 
-训练 batch 中固定抽一部分 demo 样本。
+任务：输入状态，回归当前位置到 goal 的 BFS distance，或者预测四个动作后的 distance delta。
 
-### 直觉解释
+目标：测试 value-like supervision 是否比 policy classification 更稳定。
 
-现在模型最大问题是：
+关键思想：BFS 本质上是一个全局距离场。如果模型能拟合 distance field，再从 distance field 中选择下降最快的动作，就更接近规划。
 
-它很少见过成功路径
+验收指标：distance MAE、distance rank accuracy、greedy success、shortest path success。
 
-所以 v2.1.0 的目标是：
+### 1.2.y：U-Net Distance Field Predictor
 
-- 先让模型知道终点确实可达
-- 并且给它看一些真正能到终点的路径
+任务：输入 wall / goal，输出整张图每个 cell 到 goal 的 BFS distance field。
 
-不是替它走，也不是 mask 掉错误动作，而是让 replay buffer 里有"正确经验"。
+目标：让模型学习全局结构，而不是只对当前位置做分类。
 
-### 专业术语
+关键思想：BFS 的本质不是“当前位置该往哪走”，而是“整张可达空间的距离传播”。U-Net 比普通 CNN 更适合 dense prediction。
 
-- demonstration replay（专家示范回放）
-- learning from demonstrations，从示范中学习
-- DQfD，Deep Q-learning from Demonstrations，基于专家示范的深度 Q 学习
+验收指标：全图 distance MAE、reachable cell MAE、argmin neighbor action accuracy、rollout success、shortest path success。
 
-### 验证问题
+### 1.3.y：ResNet / Deep CNN Policy-Value Model
 
-如果 v2.1.0 比 v2.0.0 明显提升 success，说明：
+任务：输入 wall / agent / goal，联合输出 action logits 和 value / distance。
 
-当前失败确实主要来自成功经验太少。
+目标：测试加深 CNN 是否足够。
 
----
+预期：如果普通 CNN 的问题只是容量不足，ResNet 应显著提升；如果仍然失败，说明需要显式图结构或迭代推理。
 
-## v2.2.0：N-step DQN（n 步 DQN）
+### 1.4.y：Value Iteration Network / Differentiable Planning
 
-### 思路
+任务：引入可微分 value iteration 或类似迭代规划结构。
 
-普通 DQN 只用一步 target：
+目标：测试“带规划归纳偏置”的模型是否能逼近 BFS。
 
-当前奖励 + 下一状态 Q
+关键判断：如果 VIN 类模型显著超过 CNN/U-Net，说明迷宫任务确实需要迭代规划归纳偏置，而不是单纯视觉模式识别。
 
-n-step DQN（n 步 DQN）会把后面 n 步真实奖励一起放进 target。
+### 1.5.y：Graph Neural Network BFS Model
 
-比如 5-step：
+任务：把 free cell 当作 graph node，用 GNN message passing 学 BFS distance 或最优动作。
 
-```
-r0 + gamma*r1 + gamma^2*r2 + gamma^3*r3 + gamma^4*r4 + gamma^5*Q(s5)
-```
+目标：直接测试图搜索归纳偏置。
 
-### 直觉解释
+关键判断：BFS 本质是图上的最短路传播。如果 GNN 成功，说明后续二进制漏洞挖掘中的 CFG / state graph 建模也应优先考虑图网络。
 
-原来终点 +10 要一格一格慢慢传回来：
+### 1.6.y：Transformer / Attention Planner
 
-goal -> 前一步 -> 再前一步 -> 再再前一步
+任务：把网格 cell token 化，使用 attention 学全局可达关系和动作策略。
 
-n-step 相当于一次往前传多几格。
+目标：测试全局注意力是否能替代显式图搜索。
 
-它不是凭空加奖励，而是：
+适合后续迁移：二进制程序状态、basic block、函数调用、路径约束都可以 token 化，因此这个方向与二进制漏洞挖掘更接近。
 
-把真实发生的后面几步结果一起拿来训练当前动作
+### 1.7.y：Hybrid Planner
 
-### 专业术语
+任务：CNN / U-Net 提取空间特征，GNN / Transformer 做全局传播，最后输出 policy + distance。
 
-- n-step return（n 步回报）
-- multi-step return（多步回报）
-- n-step DQN（n 步 DQN）
-- temporal-difference learning，TD learning（时序差分学习）
+目标：找到最适合后续 2.0.10 的模型结构。
 
-### 推荐参数
+最终 1.x.y 选择标准不是训练集 accuracy，而是 rollout 指标：
 
-先做：
-
-- n = 3
-
-再做：
-
-- n = 5
-
-不建议一开始 n=10，因为失败轨迹太多时，太长的 n-step 会把很多乱走结果也强行打包进 target。
-
-### 验证问题
-
-如果 v2.2.0 比 v2.0.0 更好，说明：
-
-当前主要问题之一是终点奖励通过 1-step TD 传播太慢。
+* success >= 95%；
+* shortest path success >= 80%；
+* hard maze success 稳定；
+* BFS gap 小；
+* 对随机 start / goal 泛化；
+* 对 obstacle density 泛化；
+* 不依赖手绘迷宫模板。
 
 ---
 
-## v2.3.0：BFS Progress Reward Shaping（BFS 进度奖励塑形）
+## 四、2.0.10：用优秀 BFS 模型替换 RM / Q 模型
 
-### 思路
+2.0.10 不急着改任务。它的目标是把 2.0.9 中已经成熟的数据工程、RM probe、primitive reward report、greedy probe、stuck analysis 保留下来，只替换模型结构。
 
-在原 reward 基础上加入一点短期引导：
+如果 1.x.y 证明 U-Net / VIN / GNN / Transformer 明显优于 CNN，那么 2.0.10 应该做两件事：
 
-- 如果 BFS 距离变小：+ small_reward
-- 如果 BFS 距离变大：- small_penalty
-- 如果距离不变：0
+第一，把 Reward Model 从普通 transition CNN 换成更强结构。例如输入 transition，但内部用 distance-field-like encoder 或 graph encoder 处理全局结构。
 
-例如：
+第二，把 Q model 从普通 QCNN 换成同类优秀结构，验证同一个模型是否既能拟合 BFS，也能从 RM reward 中学策略。
 
-- progress_reward = +0.03
-- regress_penalty = -0.03
+2.0.10 的验收指标包括：
 
-### 直觉解释
-
-现在模型只在终点拿 +10。
-
-但很多动作离终点还很远，它不知道：
-
-这一步到底有没有让事情变好
-
-BFS progress shaping（BFS 进度奖励塑形）就是告诉它：
-
-- 你离目标更近了一点，这一步稍微值得鼓励
-- 你离目标更远了一点，这一步稍微应该扣分
-
-### 重要边界
-
-这不是 action mask。
-
-它没有说：
-
-你只能走 BFS 动作
-
-它只是给短期反馈：
-
-你这一步让离目标的最短路径距离变短了
-
-### 专业术语
-
-- reward shaping（奖励塑形）
-- BFS progress reward（BFS 进度奖励）
-- 更规范版本叫 potential-based reward shaping（基于势函数的奖励塑形）
-
-### 验证问题
-
-如果 v2.3.0 成功率上升、repeat 下降，说明：
-
-当前模型确实缺少中间过程反馈。
+* RM primitive reward 顺序正确；
+* toward > away > wall；
+* stuck_escape > stuck_loop；
+* pure argmax success 提升；
+* BFS tie-break greedy 与 pure argmax 差距缩小；
+* Q model success 提升；
+* Q model shortest path ratio 提升；
+* hard maze 不崩；
+* action saturation 下降。
 
 ---
 
-## v2.4.0：Potential-Based Reward Shaping（基于势函数的奖励塑形）
+## 五、2.1.x：复杂化迷宫，但不急于 demo
 
-这是 v2.3.0 的更规范版本。
+2.1.x 的目标是环境复杂化，而不是加 demonstration。
 
-### 思路
+建议按“每个版本只学习一个新方法”的原则推进。
 
-不用简单的：
+### 2.1.0：随机 start / goal + BFS 难度控制
 
-- 距离变小 +0.03
-- 距离变大 -0.03
+不再固定角落，不再让 difficulty 由 wall probability 决定，而是由 BFS length、reachable ratio、branching factor、dead-end density 控制。
 
-而是定义一个势函数：
+学习目标：环境分布工程。
 
-```
-Phi(s) = - BFS_distance(s, goal)
-```
+### 2.1.1：多 profile maze generation
 
-然后 shaping reward 为：
+显式生成 open、corridor、dead-end、rooms、bottleneck、loop-rich 等 profile。
 
-```
-F(s, s') = eta * (gamma * Phi(s') - Phi(s))
-```
+学习目标：训练分布覆盖与泛化评估。
 
-### 直觉解释
+### 2.1.2：局部可观测迷宫
 
-你可以把它想成：
+agent 只能看到局部窗口，或全局地图不完整。
 
-- 状态本身有一个势能
-- 越接近 goal，势能越高
-- 这一步的奖励来自势能变化
+学习目标：partial observability 与 memory。
 
-这样比普通 progress reward 更稳定，因为它不是粗暴判断"近了/远了"，而是用一个连续的状态势能差。
+### 2.1.3：动态障碍 / 概率墙
 
-### 专业术语
+墙或通道有概率变化，动作结果不再完全确定。
 
-- potential-based reward shaping（基于势函数的奖励塑形）
-- potential function（势函数）
-- policy invariance（策略不变性）
+学习目标：stochastic transition 与 risk-aware policy。
 
-### 验证问题
+### 2.1.4：奖励延迟与探索任务
 
-和 v2.3.0 对照：
+goal 不再总是可见，或需要先探索才能知道 goal / key / door。
 
-简单 BFS 进度奖励和更规范的势函数奖励，哪个更稳定？
+学习目标：exploration、uncertainty、information gain。
 
 ---
 
-## v2.5.0：BFS Demonstration Replay + N-step DQN（专家示范回放 + n 步 DQN）
+## 六、2.2.x：从确定性迷宫到概率化可探索环境
 
-这是一个组合策略。
+2.2.x 开始接近真实漏洞挖掘的抽象：
 
-### 思路
+* 路径不是完全确定的；
+* 某些状态只有探索后才知道；
+* 某些动作有失败概率；
+* 局部选择可能影响长期可达性；
+* 有些路径高风险但高收益；
+* 有些路径短期无效但能打开新区域。
 
-v2.1.0 解决：
+对应到二进制漏洞挖掘，这些概念可以映射为：
 
-有没有成功路径经验？
-
-v2.2.0 解决：
-
-成功路径里的 +10 能不能更快往前传？
-
-所以 v2.5.0 把两者合起来：
-
-- BFS 成功路径进入 demo_buffer
-- 同时训练 target 使用 n-step return
-
-### 直觉解释
-
-如果只放 BFS 成功路径，但仍然用 1-step DQN，+10 还是要慢慢往前传。
-
-如果只用 n-step，但成功轨迹太少，n-step 也没有多少 +10 可以传。
-
-组合后：
-
-- 有成功路径
-- 并且成功路径的价值能更快传到前面状态
-
-### 专业术语
-
-- demonstration replay（专家示范回放）
-- n-step return（n 步回报）
-- multi-step bootstrapping（多步自举）
-
-### 验证问题
-
-如果这个模型明显超过 v2.1.0 和 v2.2.0，说明：
-
-成功经验数量和奖励传播速度都重要。
+* maze cell -> 程序状态 / basic block / symbolic state；
+* wall -> 不可行路径 / crash / 约束不可满足；
+* revisit -> 状态重复 / 路径爆炸；
+* goal -> 漏洞触发点 / sanitizer target / crash target；
+* stochastic transition -> 输入变异的不确定效果；
+* exploration reward -> 新路径覆盖率 / 新状态发现；
+* stuck timeout -> fuzzer 卡在局部路径簇；
+* wall recovery -> 错误输入后仍能恢复到有效路径搜索。
 
 ---
 
-## v2.6.0：Behavior Cloning Pretraining + DQN（行为克隆预训练 + DQN）
+## 七、近期执行顺序
 
-### 思路
+近期不要同时推进太多方向。建议顺序是：
 
-先不用强化学习。
+1. 冻结 2.0.9 作为 RM 工程总结版本；
+2. 开始 1.0.0，做 CNN BFS policy classifier；
+3. 做 1.1.0，distance / delta regression；
+4. 做 1.2.0，U-Net distance field；
+5. 做 1.3.0，ResNet policy-value；
+6. 做 1.4.0，VIN / differentiable planning；
+7. 做 1.5.0，GNN BFS；
+8. 做 1.6.0，Transformer planner；
+9. 选择最优模型进入 2.0.10；
+10. 在 2.0.10 验收 RM 和 Q model；
+11. 再进入 2.1.x 的复杂迷宫与概率化环境。
 
-先生成很多 BFS 状态-动作对：
-
-```
-state -> BFS 下一步动作
-```
-
-用监督学习训练 CNN，让它先模仿 BFS。
-
-然后再接 DQN 训练。
-
-### 直觉解释
-
-这相当于先让模型学会：
-
-像老师一样走几步
-
-再让它用 DQN 自己调整价值判断。
-
-### 专业术语
-
-- behavior cloning（行为克隆）
-- supervised pretraining（监督预训练）
-- imitation learning（模仿学习）
-
-### 优点
-
-模型不再从纯随机开始。
-
-### 风险
-
-它可能变成"模仿 BFS"，而不是纯粹通过 reward 学出 Q 函数。
-
-但这对诊断很有价值：
-
-- 如果行为克隆都学不好，说明 CNN 表达能力或输入状态有问题
-- 如果行为克隆学得好，DQN 学不好，说明问题在强化学习训练信号
+这一阶段的核心目标是建立“模型能力基准”。只有当模型在纯 BFS 监督下已经能达到 95% success 和 80% shortest path success，继续讨论 DQN、RM、exploration 才有意义。
 
 ---
 
-## v2.7.0：Prioritized Experience Replay（优先经验回放）
+## 八、近期项目结论
 
-### 思路
+2.0.n 已经证明：RM 数据工程可以把局部 reward 学到比较合理，但普通 CNN/QCNN 不是天然规划器。下一阶段必须先找到能拟合 BFS 本质的模型，再把它放回 RM 和 Q learning 框架中。
 
-普通 replay 是随机抽样。
+所以近期路线不是“继续调 DQN”，而是：
 
-PER（优先经验回放）根据 TD error 决定样本优先级：
+先做 BFS 模型能力评估，再做 RM/Q model 替换，最后再复杂化迷宫和概率化环境。
 
-TD error 越大，越容易被抽到
-
-TD error 是：
-
-```
-target - 当前 Q
-```
-
-直觉上就是：
-
-错得越离谱的题，多复习几遍
-
-### 专业术语
-
-- Prioritized Experience Replay，PER（优先经验回放）
-- TD error（时序差分误差）
-- importance sampling（重要性采样）
-
-### 在你项目中的简化版
-
-可以不一开始做完整 PER，而是先做：
-
-- demo samples
-- success samples
-- wall samples
-- progress samples
-- high TD-error samples
-
-组合采样。
-
-### 验证问题
-
-如果 PER 有帮助，说明：
-
-纯 stratified replay 还不够，模型需要更频繁复盘当前学不好的关键样本。
-
----
-
-## v2.8.0：Hindsight Experience Replay（事后经验回放）
-
-### 思路
-
-如果 agent 没到真正 goal，但它到达了某个位置 p。
-
-原任务失败：
-
-目标是 G，没到
-
-HER（事后经验回放）会重新解释这条轨迹：
-
-假设目标本来是 p，那么这条轨迹成功了
-
-因为你的状态里 goal 是一个通道，所以理论上可以把失败轨迹中的某个已访问位置改成新的 goal，重新生成状态和 reward。
-
-### 直觉解释
-
-就像：
-
-你本来想去北京，结果只走到天津  
-那我们至少把这段路当成"如何到天津"的成功经验复盘
-
-### 专业术语
-
-- Hindsight Experience Replay，HER（事后经验回放）
-- goal relabeling（目标重标记）
-- goal-conditioned RL（目标条件强化学习）
-
-### 适用性
-
-你的迷宫任务很适合 HER，因为 goal 是状态输入的一部分。
-
-### 风险
-
-实现复杂度比 demonstration replay 高，因为要重写状态里的 goal channel 和 reward。
-
-建议放后面。
-
----
-
-## v2.9.0：Monte Carlo Return DQN Variant（蒙特卡洛回报 DQN 变体）
-
-### 思路
-
-一条 episode 结束后，从每一步开始计算完整未来回报：
-
-```
-G_t = r_t + gamma*r_{t+1} + gamma^2*r_{t+2} + ...
-```
-
-然后用 G_t 训练 Q(s_t, a_t)。
-
-### 直觉解释
-
-不是只看下一步，也不是只看 n 步，而是完整复盘：
-
-从这一步开始，后来整局到底过得怎么样？
-
-### 专业术语
-
-- Monte Carlo return（蒙特卡洛回报）
-- episodic return（整局回报）
-- return-to-go（从当前步到结束的回报）
-
-### 优点
-
-终点奖励可以直接影响整条成功轨迹。
-
-### 缺点
-
-方差大。失败轨迹多时，会让很多动作都被标成低价值。
-
-建议作为理解实验，不一定作为主力方案。
-
----
-
-## v2.10.0：AlphaGo-lite BFS Policy Target（简化 AlphaGo：BFS 策略目标）
-
-这是 AlphaGo 思想的最简化版本。
-
-### 思路
-
-AlphaGo 的核心不是给每步人工 reward，而是用搜索产生更强的动作目标。
-
-在迷宫里，BFS 就是一个搜索老师。
-
-对每个状态：
-
-BFS 找出能让最短路径变短的动作
-
-然后训练一个 policy head 或者用辅助 loss，让网络更倾向这些动作。
-
-如果保持 DQN 网络不改，可以加一个辅助损失：
-
-```
-Q(s, BFS_action) 应该高于其他动作
-```
-
-### 直觉解释
-
-不是直接让 BFS 代替模型走。
-
-而是：
-
-BFS 搜索告诉模型：  
-在这个状态下，哪些动作更有希望通向终点
-
-这就类似 AlphaGo 里 MCTS 搜索给 policy network 提供更强动作分布。
-
-### 专业术语
-
-- search policy target（搜索策略目标）
-- policy distillation（策略蒸馏）
-- auxiliary loss（辅助损失）
-- AlphaGo-style search supervision（AlphaGo 风格搜索监督）
-
-### 注意
-
-这个已经不再是纯 DQN，而是：
-
-DQN + 搜索监督
-
-所以建议放在后面。
-
----
-
-## v2.11.0：AlphaGo-lite Value Target（简化 AlphaGo：状态价值目标）
-
-### 思路
-
-AlphaGo 有 value network（价值网络），预测当前局面最终输赢。
-
-你的迷宫可以训练一个辅助 value：
-
-从当前状态出发，最终是否能到 goal / 预计离 goal 多远
-
-如果不改网络结构，也可以暂时不做。
-
-如果改网络结构，可以让 CNN 输出：
-
-4 个 Q 值 + 1 个 V(s)
-
-### 直觉解释
-
-DQN 的 Q 是：
-
-这个动作之后长期好不好
-
-Value 是：
-
-这个状态本身有没有希望
-
-对迷宫来说，value 可以帮助模型建立：
-
-- 哪些区域更接近可达终点
-- 哪些区域是死胡同
-
-### 专业术语
-
-- value network（价值网络）
-- state value function，V(s)（状态价值函数）
-- auxiliary value loss（辅助价值损失）
-
-### 注意
-
-这会改网络结构，所以不应放在最前。
-
----
-
-## v2.12.0：AlphaGo-lite Search Replay（简化 AlphaGo：搜索生成经验）
-
-### 思路
-
-每次训练时，不只是用 agent 自己探索，还用 BFS / A* 生成一些搜索轨迹。
-
-这和 v2.1.0 的 demonstration replay 很像，但更进一步：
-
-- 不仅存一条最短路径
-- 还可以存多个候选路径、绕路路径、失败路径的对比
-
-### 直觉解释
-
-AlphaGo 用 MCTS 生成比当前网络更强的训练目标。
-
-迷宫里可以用 BFS/A* 生成比当前随机探索更强的经验。
-
-### 专业术语
-
-- planning-guided replay（规划引导回放）
-- search-generated experience（搜索生成经验）
-- model-based guidance（基于模型的引导）
-
-### 注意
-
-这已经比较接近"用规划帮助学习"，不再是纯 trial-and-error DQN。
-
----
-
-## v2.13.0：Combined Strong Agent（综合强模型）
-
-最后做一个组合模型，不用于理解单因素，而用于验证上限。
-
-可能组合：
-
-BFS demonstration replay  
-+ n-step return  
-+ potential-based reward shaping  
-+ prioritized replay
-
-### 目的
-
-不是分析单个机制，而是验证：
-
-如果把成功经验、奖励传播、中间反馈、样本优先级都处理好，当前 CNN-DQN 是否能学会泛化迷宫？
-
-如果这个模型仍然失败，才更应该怀疑：
-
-- CNN 表达能力不足
-- 状态输入不足
-- DQN 框架本身不适合这个泛化任务
-
----
-
-## 推荐实现顺序
-
-我建议不要一次实现所有，而是逐个 v2.n.0 写代码，每个都能独立运行。
-
-顺序如下：
-
-| 版本 | 名称 |
-|------|------|
-| v2.0.0 | Baseline Curriculum DQN（基线课程 DQN） |
-| v2.1.0 | BFS Demonstration Replay（BFS 专家示范回放） |
-| v2.2.0 | N-step DQN（n 步 DQN） |
-| v2.3.0 | BFS Progress Reward Shaping（BFS 进度奖励塑形） |
-| v2.5.0 | Demonstration + N-step（专家示范 + n 步） |
-| v2.6.0 | Behavior Cloning + DQN（行为克隆 + DQN） |
-| v2.7.0 | Prioritized Replay（优先经验回放） |
-| v2.8.0 | HER（事后经验回放） |
-| v2.10.0 | AlphaGo-lite BFS Policy Target（简化 AlphaGo：BFS 策略目标） |
-| v2.13.0 | Combined Strong Agent（综合强模型） |
-
-其中我最建议你马上实现的前四个是：
-
-- v2.0.0 baseline
-- v2.1.0 demonstration replay
-- v2.2.0 n-step DQN
-- v2.3.0 reward shaping
-
-因为它们分别对应当前失败的四个核心问题：
-
-- 成功经验太少
-- 终点奖励传太慢
-- 短期反馈缺失
-- 局部安全循环
-
----
-
-## 当前清单的核心逻辑
-
-你可以把所有策略分成四大类：
-
-**第一类：让模型看到成功**
-
-- BFS demonstration replay（BFS 专家示范回放）
-- behavior cloning（行为克隆）
-- AlphaGo-lite search replay（简化 AlphaGo 搜索经验）
-
-**第二类：让成功奖励传得更远**
-
-- n-step return（n 步回报）
-- Monte Carlo return（蒙特卡洛回报）
-
-**第三类：给中间过程一点方向感**
-
-- reward shaping（奖励塑形）
-- potential-based shaping（基于势函数的奖励塑形）
-- BFS progress reward（BFS 进度奖励）
-
-**第四类：让模型更频繁复盘关键样本**
-
-- prioritized replay（优先经验回放）
-- stratified replay（分层经验回放）
-- hindsight experience replay（事后经验回放）
-
-AlphaGo 的思想可以归入第五类：
-
-**第五类：用搜索把未来价值提前变成当前训练目标**
-
-- MCTS / BFS search target（搜索目标）
-- policy target（策略目标）
-- value target（价值目标）
-- planning-guided learning（规划引导学习）
-
----
-
-下一步我建议从 v2.0.0 Baseline Curriculum DQN（基线课程 DQN） 开始，给你完整代码，然后再逐个增加 v2.1.0、v2.2.0、v2.3.0。
+这条路线能够避免继续在 reward 和 DQN 超参数里盲目搜索，也能让项目从迷宫任务自然过渡到二进制漏洞挖掘中的路径搜索、状态探索和概率决策问题。
