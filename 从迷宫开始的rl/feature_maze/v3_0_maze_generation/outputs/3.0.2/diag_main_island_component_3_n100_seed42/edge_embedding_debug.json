@@ -1,0 +1,9 @@
+{
+  "main_path_fail_reason_counts": {
+    "main_path_no_goal_candidate": 17
+  },
+  "edge_reject_reason_counts": {},
+  "anchor_reject_reason_counts": {},
+  "dead_edge_attempt_count": 100,
+  "alternative_edge_attempt_count": 100
+}

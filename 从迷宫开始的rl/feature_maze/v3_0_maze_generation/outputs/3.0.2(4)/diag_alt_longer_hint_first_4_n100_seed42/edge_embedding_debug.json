@@ -1,0 +1,13 @@
+{
+  "main_path_fail_reason_counts": {
+    "main_path_no_goal_candidate": 18
+  },
+  "edge_reject_reason_counts": {
+    "alternative_coplanned_shortest_path_changed_goal": 976,
+    "alternative_coplanned_hits_unrelated_free_cell": 2074,
+    "alternative_coplanned_edge_self_intersection": 622
+  },
+  "anchor_reject_reason_counts": {},
+  "dead_edge_attempt_count": 100,
+  "alternative_edge_attempt_count": 100
+}

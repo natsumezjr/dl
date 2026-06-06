@@ -1,0 +1,9 @@
+{
+  "free_ratio_fail": 9864,
+  "reachable_free_ratio_fail": 42178,
+  "zero_target_quota": 20948,
+  "duplicate_hash": 17,
+  "bfs_len_fail": 1664,
+  "unsolvable": 3132,
+  "target_bin_full": 77125
+}

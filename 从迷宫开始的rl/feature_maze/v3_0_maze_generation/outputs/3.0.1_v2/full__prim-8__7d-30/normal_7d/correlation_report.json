@@ -1,0 +1,37 @@
+[
+  {
+    "dimension": "L_BFS",
+    "target_final_correlation": 0.7391494153924578,
+    "r2_like_score": 0.22908179254152294
+  },
+  {
+    "dimension": "detour_ratio",
+    "target_final_correlation": 0.7826093081983647,
+    "r2_like_score": 0.2771755354393137
+  },
+  {
+    "dimension": "wall_ratio",
+    "target_final_correlation": 0.5372223596077715,
+    "r2_like_score": -4.453347386635939
+  },
+  {
+    "dimension": "dead_end_ratio",
+    "target_final_correlation": 0.5065553941596701,
+    "r2_like_score": -0.17213849525675262
+  },
+  {
+    "dimension": "dead_end_depth_mean",
+    "target_final_correlation": 0.5776611397304902,
+    "r2_like_score": 0.03970528518438898
+  },
+  {
+    "dimension": "junction_ratio",
+    "target_final_correlation": 0.7295833684384857,
+    "r2_like_score": 0.5314879036754767
+  },
+  {
+    "dimension": "island_free_ratio",
+    "target_final_correlation": 0.23479780216223844,
+    "r2_like_score": -2.4405892854803892
+  }
+]

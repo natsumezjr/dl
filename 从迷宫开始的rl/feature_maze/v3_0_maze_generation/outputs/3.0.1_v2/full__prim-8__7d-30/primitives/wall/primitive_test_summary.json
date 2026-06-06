@@ -1,0 +1,133 @@
+[
+  {
+    "primitive_test_name": "wall",
+    "primitive_role": "secondary_final_adjustment",
+    "primary_metrics": [
+      "wall_ratio"
+    ],
+    "target_value": 0.2,
+    "n": 2,
+    "success_rate": 0.0,
+    "primary_hit_rate": 0.0,
+    "all_7d_hit_rate": 0.0,
+    "target_hit_rate": 0.0,
+    "mean_primary_abs_error": 0.284375,
+    "p50_primary_abs_error": 0.284375,
+    "hard_failure_count": 0,
+    "side_effect_failed_metric_counts": {
+      "reachable_free_ratio": 2,
+      "bfs_len_norm": 1,
+      "detour_ratio": 1,
+      "island_free_ratio": 2
+    },
+    "main_failure_reason": [
+      "reachable_free_ratio",
+      "wall_ratio",
+      "bfs_len_norm",
+      "detour_ratio",
+      "island_free_ratio"
+    ]
+  },
+  {
+    "primitive_test_name": "wall",
+    "primitive_role": "secondary_final_adjustment",
+    "primary_metrics": [
+      "wall_ratio"
+    ],
+    "target_value": 0.25,
+    "n": 2,
+    "success_rate": 0.0,
+    "primary_hit_rate": 0.0,
+    "all_7d_hit_rate": 0.0,
+    "target_hit_rate": 0.0,
+    "mean_primary_abs_error": 0.2421875,
+    "p50_primary_abs_error": 0.2421875,
+    "hard_failure_count": 0,
+    "side_effect_failed_metric_counts": {
+      "junction_ratio": 2,
+      "reachable_free_ratio": 1,
+      "island_free_ratio": 1
+    },
+    "main_failure_reason": [
+      "wall_ratio",
+      "junction_ratio"
+    ]
+  },
+  {
+    "primitive_test_name": "wall",
+    "primitive_role": "secondary_final_adjustment",
+    "primary_metrics": [
+      "wall_ratio"
+    ],
+    "target_value": 0.3,
+    "n": 2,
+    "success_rate": 0.0,
+    "primary_hit_rate": 0.0,
+    "all_7d_hit_rate": 0.0,
+    "target_hit_rate": 0.0,
+    "mean_primary_abs_error": 0.2234375,
+    "p50_primary_abs_error": 0.2234375,
+    "hard_failure_count": 0,
+    "side_effect_failed_metric_counts": {
+      "reachable_free_ratio": 1,
+      "junction_ratio": 1,
+      "island_free_ratio": 1
+    },
+    "main_failure_reason": [
+      "reachable_free_ratio",
+      "wall_ratio",
+      "junction_ratio",
+      "island_free_ratio"
+    ]
+  },
+  {
+    "primitive_test_name": "wall",
+    "primitive_role": "secondary_final_adjustment",
+    "primary_metrics": [
+      "wall_ratio"
+    ],
+    "target_value": 0.35,
+    "n": 1,
+    "success_rate": 0.0,
+    "primary_hit_rate": 0.0,
+    "all_7d_hit_rate": 0.0,
+    "target_hit_rate": 0.0,
+    "mean_primary_abs_error": 0.13437500000000002,
+    "p50_primary_abs_error": 0.13437500000000002,
+    "hard_failure_count": 0,
+    "side_effect_failed_metric_counts": {
+      "reachable_free_ratio": 1,
+      "island_free_ratio": 1
+    },
+    "main_failure_reason": [
+      "reachable_free_ratio",
+      "wall_ratio",
+      "island_free_ratio"
+    ]
+  },
+  {
+    "primitive_test_name": "wall",
+    "primitive_role": "secondary_final_adjustment",
+    "primary_metrics": [
+      "wall_ratio"
+    ],
+    "target_value": 0.4,
+    "n": 1,
+    "success_rate": 0.0,
+    "primary_hit_rate": 0.0,
+    "all_7d_hit_rate": 0.0,
+    "target_hit_rate": 0.0,
+    "mean_primary_abs_error": 0.06874999999999998,
+    "p50_primary_abs_error": 0.06874999999999998,
+    "hard_failure_count": 0,
+    "side_effect_failed_metric_counts": {
+      "reachable_free_ratio": 1,
+      "island_free_ratio": 1
+    },
+    "main_failure_reason": [
+      "reachable_free_ratio",
+      "wall_ratio",
+      "island_free_ratio"
+    ]
+  }
+]

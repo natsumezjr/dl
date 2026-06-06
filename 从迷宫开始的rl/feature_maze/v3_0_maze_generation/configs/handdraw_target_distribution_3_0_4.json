@@ -1,0 +1,1256 @@
+{
+  "schema_version": "handdraw_target_distribution.v1",
+  "created_by": "analyze_handdraw_distribution.py",
+  "source_input": "feature_maze\\handdraw_mazes_ascii.jsonl",
+  "n_handdraw_samples": 64,
+  "n_valid_samples": 64,
+  "n_extraction_success": 64,
+  "target_total": 1000,
+  "observed_mass": 0.95,
+  "explore_mass": 0.05,
+  "structural_mass": 0.0,
+  "effective_observed_mass": 0.95,
+  "effective_explore_mass": 0.05,
+  "effective_structural_mass": 0.0,
+  "min_quota_observed": 1,
+  "min_quota_explore": 0,
+  "n_bins_total": 81,
+  "n_handdraw_observed_bins": 19,
+  "n_unobserved_possible_bins": 41,
+  "n_structural_constrained_bins": 21,
+  "quota_sum": 1000,
+  "warnings": [],
+  "top_target_quotas": [
+    {
+      "bin_key": "multi_loop|medium|high_choice|mid_endpoint",
+      "status": "handdraw_observed",
+      "handdraw_count": 8,
+      "handdraw_prob": 0.125,
+      "target_prob": 0.11875,
+      "raw_quota": 118.75,
+      "target_quota": 119,
+      "reason": "observed in handdraw distribution",
+      "maze_ids": [
+        "000023",
+        "000039",
+        "000040",
+        "000054",
+        "000056",
+        "000057",
+        "000062",
+        "000063"
+      ],
+      "observed_structural_conflict": false
+    },
+    {
+      "bin_key": "multi_loop|long|high_choice|high_endpoint",
+      "status": "handdraw_observed",
+      "handdraw_count": 6,
+      "handdraw_prob": 0.09375,
+      "target_prob": 0.08906249999999999,
+      "raw_quota": 89.06249999999999,
+      "target_quota": 89,
+      "reason": "observed in handdraw distribution",
+      "maze_ids": [
+        "000025",
+        "000030",
+        "000036",
+        "000037",
+        "000045",
+        "000059"
+      ],
+      "observed_structural_conflict": false
+    },
+    {
+      "bin_key": "multi_loop|medium|high_choice|high_endpoint",
+      "status": "handdraw_observed",
+      "handdraw_count": 6,
+      "handdraw_prob": 0.09375,
+      "target_prob": 0.08906249999999999,
+      "raw_quota": 89.06249999999999,
+      "target_quota": 89,
+      "reason": "observed in handdraw distribution",
+      "maze_ids": [
+        "000032",
+        "000034",
+        "000035",
+        "000050",
+        "000053",
+        "000060"
+      ],
+      "observed_structural_conflict": false
+    },
+    {
+      "bin_key": "single_loop|long|high_choice|high_endpoint",
+      "status": "handdraw_observed",
+      "handdraw_count": 6,
+      "handdraw_prob": 0.09375,
+      "target_prob": 0.08906249999999999,
+      "raw_quota": 89.06249999999999,
+      "target_quota": 89,
+      "reason": "observed in handdraw distribution",
+      "maze_ids": [
+        "000005",
+        "000010",
+        "000014",
+        "000015",
+        "000019",
+        "000026"
+      ],
+      "observed_structural_conflict": false
+    },
+    {
+      "bin_key": "tree|long|mid_choice|high_endpoint",
+      "status": "handdraw_observed",
+      "handdraw_count": 6,
+      "handdraw_prob": 0.09375,
+      "target_prob": 0.08906249999999999,
+      "raw_quota": 89.06249999999999,
+      "target_quota": 89,
+      "reason": "observed in handdraw distribution",
+      "maze_ids": [
+        "000001",
+        "000004",
+        "000011",
+        "000012",
+        "000038",
+        "000044"
+      ],
+      "observed_structural_conflict": false
+    },
+    {
+      "bin_key": "single_loop|medium|high_choice|high_endpoint",
+      "status": "handdraw_observed",
+      "handdraw_count": 5,
+      "handdraw_prob": 0.078125,
+      "target_prob": 0.07421875,
+      "raw_quota": 74.21875,
+      "target_quota": 74,
+      "reason": "observed in handdraw distribution",
+      "maze_ids": [
+        "000002",
+        "000017",
+        "000047",
+        "000058",
+        "000064"
+      ],
+      "observed_structural_conflict": false
+    },
+    {
+      "bin_key": "tree|long|high_choice|high_endpoint",
+      "status": "handdraw_observed",
+      "handdraw_count": 5,
+      "handdraw_prob": 0.078125,
+      "target_prob": 0.07421875,
+      "raw_quota": 74.21875,
+      "target_quota": 74,
+      "reason": "observed in handdraw distribution",
+      "maze_ids": [
+        "000020",
+        "000028",
+        "000042",
+        "000048",
+        "000061"
+      ],
+      "observed_structural_conflict": false
+    },
+    {
+      "bin_key": "multi_loop|long|high_choice|mid_endpoint",
+      "status": "handdraw_observed",
+      "handdraw_count": 4,
+      "handdraw_prob": 0.0625,
+      "target_prob": 0.059375,
+      "raw_quota": 59.375,
+      "target_quota": 60,
+      "reason": "observed in handdraw distribution",
+      "maze_ids": [
+        "000008",
+        "000033",
+        "000046",
+        "000055"
+      ],
+      "observed_structural_conflict": false
+    },
+    {
+      "bin_key": "single_loop|long|mid_choice|mid_endpoint",
+      "status": "handdraw_observed",
+      "handdraw_count": 4,
+      "handdraw_prob": 0.0625,
+      "target_prob": 0.059375,
+      "raw_quota": 59.375,
+      "target_quota": 60,
+      "reason": "observed in handdraw distribution",
+      "maze_ids": [
+        "000009",
+        "000021",
+        "000027",
+        "000029"
+      ],
+      "observed_structural_conflict": false
+    },
+    {
+      "bin_key": "tree|long|low_choice|mid_endpoint",
+      "status": "handdraw_observed",
+      "handdraw_count": 4,
+      "handdraw_prob": 0.0625,
+      "target_prob": 0.059375,
+      "raw_quota": 59.375,
+      "target_quota": 60,
+      "reason": "observed in handdraw distribution",
+      "maze_ids": [
+        "000006",
+        "000031",
+        "000041",
+        "000051"
+      ],
+      "observed_structural_conflict": false
+    },
+    {
+      "bin_key": "tree|long|mid_choice|mid_endpoint",
+      "status": "handdraw_observed",
+      "handdraw_count": 2,
+      "handdraw_prob": 0.03125,
+      "target_prob": 0.0296875,
+      "raw_quota": 29.6875,
+      "target_quota": 30,
+      "reason": "observed in handdraw distribution",
+      "maze_ids": [
+        "000016",
+        "000018"
+      ],
+      "observed_structural_conflict": false
+    },
+    {
+      "bin_key": "multi_loop|long|high_choice|low_endpoint",
+      "status": "handdraw_observed",
+      "handdraw_count": 1,
+      "handdraw_prob": 0.015625,
+      "target_prob": 0.01484375,
+      "raw_quota": 14.84375,
+      "target_quota": 15,
+      "reason": "observed in handdraw distribution",
+      "maze_ids": [
+        "000022"
+      ],
+      "observed_structural_conflict": false
+    },
+    {
+      "bin_key": "multi_loop|long|mid_choice|mid_endpoint",
+      "status": "handdraw_observed",
+      "handdraw_count": 1,
+      "handdraw_prob": 0.015625,
+      "target_prob": 0.01484375,
+      "raw_quota": 14.84375,
+      "target_quota": 15,
+      "reason": "observed in handdraw distribution",
+      "maze_ids": [
+        "000052"
+      ],
+      "observed_structural_conflict": false
+    },
+    {
+      "bin_key": "multi_loop|medium|high_choice|low_endpoint",
+      "status": "handdraw_observed",
+      "handdraw_count": 1,
+      "handdraw_prob": 0.015625,
+      "target_prob": 0.01484375,
+      "raw_quota": 14.84375,
+      "target_quota": 15,
+      "reason": "observed in handdraw distribution",
+      "maze_ids": [
+        "000013"
+      ],
+      "observed_structural_conflict": false
+    },
+    {
+      "bin_key": "multi_loop|medium|mid_choice|mid_endpoint",
+      "status": "handdraw_observed",
+      "handdraw_count": 1,
+      "handdraw_prob": 0.015625,
+      "target_prob": 0.01484375,
+      "raw_quota": 14.84375,
+      "target_quota": 15,
+      "reason": "observed in handdraw distribution",
+      "maze_ids": [
+        "000007"
+      ],
+      "observed_structural_conflict": false
+    }
+  ],
+  "bins": {
+    "multi_loop|long|high_choice|high_endpoint": {
+      "status": "handdraw_observed",
+      "handdraw_count": 6,
+      "handdraw_prob": 0.09375,
+      "target_prob": 0.08906249999999999,
+      "raw_quota": 89.06249999999999,
+      "target_quota": 89,
+      "reason": "observed in handdraw distribution",
+      "maze_ids": [
+        "000025",
+        "000030",
+        "000036",
+        "000037",
+        "000045",
+        "000059"
+      ],
+      "observed_structural_conflict": false
+    },
+    "multi_loop|long|high_choice|low_endpoint": {
+      "status": "handdraw_observed",
+      "handdraw_count": 1,
+      "handdraw_prob": 0.015625,
+      "target_prob": 0.01484375,
+      "raw_quota": 14.84375,
+      "target_quota": 15,
+      "reason": "observed in handdraw distribution",
+      "maze_ids": [
+        "000022"
+      ],
+      "observed_structural_conflict": false
+    },
+    "multi_loop|long|high_choice|mid_endpoint": {
+      "status": "handdraw_observed",
+      "handdraw_count": 4,
+      "handdraw_prob": 0.0625,
+      "target_prob": 0.059375,
+      "raw_quota": 59.375,
+      "target_quota": 60,
+      "reason": "observed in handdraw distribution",
+      "maze_ids": [
+        "000008",
+        "000033",
+        "000046",
+        "000055"
+      ],
+      "observed_structural_conflict": false
+    },
+    "multi_loop|long|low_choice|high_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 1,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "multi_loop|long|low_choice|low_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 1,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "multi_loop|long|low_choice|mid_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 1,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "multi_loop|long|mid_choice|high_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 1,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "multi_loop|long|mid_choice|low_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 1,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "multi_loop|long|mid_choice|mid_endpoint": {
+      "status": "handdraw_observed",
+      "handdraw_count": 1,
+      "handdraw_prob": 0.015625,
+      "target_prob": 0.01484375,
+      "raw_quota": 14.84375,
+      "target_quota": 15,
+      "reason": "observed in handdraw distribution",
+      "maze_ids": [
+        "000052"
+      ],
+      "observed_structural_conflict": false
+    },
+    "multi_loop|medium|high_choice|high_endpoint": {
+      "status": "handdraw_observed",
+      "handdraw_count": 6,
+      "handdraw_prob": 0.09375,
+      "target_prob": 0.08906249999999999,
+      "raw_quota": 89.06249999999999,
+      "target_quota": 89,
+      "reason": "observed in handdraw distribution",
+      "maze_ids": [
+        "000032",
+        "000034",
+        "000035",
+        "000050",
+        "000053",
+        "000060"
+      ],
+      "observed_structural_conflict": false
+    },
+    "multi_loop|medium|high_choice|low_endpoint": {
+      "status": "handdraw_observed",
+      "handdraw_count": 1,
+      "handdraw_prob": 0.015625,
+      "target_prob": 0.01484375,
+      "raw_quota": 14.84375,
+      "target_quota": 15,
+      "reason": "observed in handdraw distribution",
+      "maze_ids": [
+        "000013"
+      ],
+      "observed_structural_conflict": false
+    },
+    "multi_loop|medium|high_choice|mid_endpoint": {
+      "status": "handdraw_observed",
+      "handdraw_count": 8,
+      "handdraw_prob": 0.125,
+      "target_prob": 0.11875,
+      "raw_quota": 118.75,
+      "target_quota": 119,
+      "reason": "observed in handdraw distribution",
+      "maze_ids": [
+        "000023",
+        "000039",
+        "000040",
+        "000054",
+        "000056",
+        "000057",
+        "000062",
+        "000063"
+      ],
+      "observed_structural_conflict": false
+    },
+    "multi_loop|medium|low_choice|high_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 1,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "multi_loop|medium|low_choice|low_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 1,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "multi_loop|medium|low_choice|mid_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 1,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "multi_loop|medium|mid_choice|high_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 1,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "multi_loop|medium|mid_choice|low_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 1,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "multi_loop|medium|mid_choice|mid_endpoint": {
+      "status": "handdraw_observed",
+      "handdraw_count": 1,
+      "handdraw_prob": 0.015625,
+      "target_prob": 0.01484375,
+      "raw_quota": 14.84375,
+      "target_quota": 15,
+      "reason": "observed in handdraw distribution",
+      "maze_ids": [
+        "000007"
+      ],
+      "observed_structural_conflict": false
+    },
+    "multi_loop|short|high_choice|high_endpoint": {
+      "status": "handdraw_observed",
+      "handdraw_count": 1,
+      "handdraw_prob": 0.015625,
+      "target_prob": 0.01484375,
+      "raw_quota": 14.84375,
+      "target_quota": 15,
+      "reason": "observed in handdraw distribution",
+      "maze_ids": [
+        "000049"
+      ],
+      "observed_structural_conflict": false
+    },
+    "multi_loop|short|high_choice|low_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 1,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "multi_loop|short|high_choice|mid_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 1,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "multi_loop|short|low_choice|high_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 1,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "multi_loop|short|low_choice|low_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 1,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "multi_loop|short|low_choice|mid_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 1,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "multi_loop|short|mid_choice|high_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 1,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "multi_loop|short|mid_choice|low_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 1,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "multi_loop|short|mid_choice|mid_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 1,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "single_loop|long|high_choice|high_endpoint": {
+      "status": "handdraw_observed",
+      "handdraw_count": 6,
+      "handdraw_prob": 0.09375,
+      "target_prob": 0.08906249999999999,
+      "raw_quota": 89.06249999999999,
+      "target_quota": 89,
+      "reason": "observed in handdraw distribution",
+      "maze_ids": [
+        "000005",
+        "000010",
+        "000014",
+        "000015",
+        "000019",
+        "000026"
+      ],
+      "observed_structural_conflict": false
+    },
+    "single_loop|long|high_choice|low_endpoint": {
+      "status": "structural_infeasible_or_constrained",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0,
+      "raw_quota": 0.0,
+      "target_quota": 0,
+      "reason": "endpoint_bin_max=1 < conservative_L_min=5 for C_min=5, mu_max=1",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "single_loop|long|high_choice|mid_endpoint": {
+      "status": "structural_infeasible_or_constrained",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0,
+      "raw_quota": 0.0,
+      "target_quota": 0,
+      "reason": "endpoint_bin_max=4 < conservative_L_min=5 for C_min=5, mu_max=1",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "single_loop|long|low_choice|high_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 1,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "single_loop|long|low_choice|low_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 1,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "single_loop|long|low_choice|mid_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 1,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "single_loop|long|mid_choice|high_endpoint": {
+      "status": "handdraw_observed",
+      "handdraw_count": 1,
+      "handdraw_prob": 0.015625,
+      "target_prob": 0.01484375,
+      "raw_quota": 14.84375,
+      "target_quota": 15,
+      "reason": "observed in handdraw distribution",
+      "maze_ids": [
+        "000043"
+      ],
+      "observed_structural_conflict": false
+    },
+    "single_loop|long|mid_choice|low_endpoint": {
+      "status": "structural_infeasible_or_constrained",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0,
+      "raw_quota": 0.0,
+      "target_quota": 0,
+      "reason": "endpoint_bin_max=1 < conservative_L_min=2 for C_min=2, mu_max=1",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "single_loop|long|mid_choice|mid_endpoint": {
+      "status": "handdraw_observed",
+      "handdraw_count": 4,
+      "handdraw_prob": 0.0625,
+      "target_prob": 0.059375,
+      "raw_quota": 59.375,
+      "target_quota": 60,
+      "reason": "observed in handdraw distribution",
+      "maze_ids": [
+        "000009",
+        "000021",
+        "000027",
+        "000029"
+      ],
+      "observed_structural_conflict": false
+    },
+    "single_loop|medium|high_choice|high_endpoint": {
+      "status": "handdraw_observed",
+      "handdraw_count": 5,
+      "handdraw_prob": 0.078125,
+      "target_prob": 0.07421875,
+      "raw_quota": 74.21875,
+      "target_quota": 74,
+      "reason": "observed in handdraw distribution",
+      "maze_ids": [
+        "000002",
+        "000017",
+        "000047",
+        "000058",
+        "000064"
+      ],
+      "observed_structural_conflict": false
+    },
+    "single_loop|medium|high_choice|low_endpoint": {
+      "status": "structural_infeasible_or_constrained",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0,
+      "raw_quota": 0.0,
+      "target_quota": 0,
+      "reason": "endpoint_bin_max=1 < conservative_L_min=5 for C_min=5, mu_max=1",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "single_loop|medium|high_choice|mid_endpoint": {
+      "status": "structural_infeasible_or_constrained",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0,
+      "raw_quota": 0.0,
+      "target_quota": 0,
+      "reason": "endpoint_bin_max=4 < conservative_L_min=5 for C_min=5, mu_max=1",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "single_loop|medium|low_choice|high_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 1,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "single_loop|medium|low_choice|low_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 1,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "single_loop|medium|low_choice|mid_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 1,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "single_loop|medium|mid_choice|high_endpoint": {
+      "status": "handdraw_observed",
+      "handdraw_count": 1,
+      "handdraw_prob": 0.015625,
+      "target_prob": 0.01484375,
+      "raw_quota": 14.84375,
+      "target_quota": 15,
+      "reason": "observed in handdraw distribution",
+      "maze_ids": [
+        "000024"
+      ],
+      "observed_structural_conflict": false
+    },
+    "single_loop|medium|mid_choice|low_endpoint": {
+      "status": "structural_infeasible_or_constrained",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0,
+      "raw_quota": 0.0,
+      "target_quota": 0,
+      "reason": "endpoint_bin_max=1 < conservative_L_min=2 for C_min=2, mu_max=1",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "single_loop|medium|mid_choice|mid_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 1,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "single_loop|short|high_choice|high_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 1,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "single_loop|short|high_choice|low_endpoint": {
+      "status": "structural_infeasible_or_constrained",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0,
+      "raw_quota": 0.0,
+      "target_quota": 0,
+      "reason": "endpoint_bin_max=1 < conservative_L_min=5 for C_min=5, mu_max=1",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "single_loop|short|high_choice|mid_endpoint": {
+      "status": "structural_infeasible_or_constrained",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0,
+      "raw_quota": 0.0,
+      "target_quota": 0,
+      "reason": "endpoint_bin_max=4 < conservative_L_min=5 for C_min=5, mu_max=1",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "single_loop|short|low_choice|high_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 1,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "single_loop|short|low_choice|low_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 1,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "single_loop|short|low_choice|mid_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 1,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "single_loop|short|mid_choice|high_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 1,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "single_loop|short|mid_choice|low_endpoint": {
+      "status": "structural_infeasible_or_constrained",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0,
+      "raw_quota": 0.0,
+      "target_quota": 0,
+      "reason": "endpoint_bin_max=1 < conservative_L_min=2 for C_min=2, mu_max=1",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "single_loop|short|mid_choice|mid_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 1,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "tree|long|high_choice|high_endpoint": {
+      "status": "handdraw_observed",
+      "handdraw_count": 5,
+      "handdraw_prob": 0.078125,
+      "target_prob": 0.07421875,
+      "raw_quota": 74.21875,
+      "target_quota": 74,
+      "reason": "observed in handdraw distribution",
+      "maze_ids": [
+        "000020",
+        "000028",
+        "000042",
+        "000048",
+        "000061"
+      ],
+      "observed_structural_conflict": false
+    },
+    "tree|long|high_choice|low_endpoint": {
+      "status": "structural_infeasible_or_constrained",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0,
+      "raw_quota": 0.0,
+      "target_quota": 0,
+      "reason": "endpoint_bin_max=1 < conservative_L_min=7 for C_min=5, mu_max=0",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "tree|long|high_choice|mid_endpoint": {
+      "status": "structural_infeasible_or_constrained",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0,
+      "raw_quota": 0.0,
+      "target_quota": 0,
+      "reason": "endpoint_bin_max=4 < conservative_L_min=7 for C_min=5, mu_max=0",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "tree|long|low_choice|high_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 1,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "tree|long|low_choice|low_endpoint": {
+      "status": "structural_infeasible_or_constrained",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0,
+      "raw_quota": 0.0,
+      "target_quota": 0,
+      "reason": "endpoint_bin_max=1 < conservative_L_min=2 for C_min=0, mu_max=0",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "tree|long|low_choice|mid_endpoint": {
+      "status": "handdraw_observed",
+      "handdraw_count": 4,
+      "handdraw_prob": 0.0625,
+      "target_prob": 0.059375,
+      "raw_quota": 59.375,
+      "target_quota": 60,
+      "reason": "observed in handdraw distribution",
+      "maze_ids": [
+        "000006",
+        "000031",
+        "000041",
+        "000051"
+      ],
+      "observed_structural_conflict": false
+    },
+    "tree|long|mid_choice|high_endpoint": {
+      "status": "handdraw_observed",
+      "handdraw_count": 6,
+      "handdraw_prob": 0.09375,
+      "target_prob": 0.08906249999999999,
+      "raw_quota": 89.06249999999999,
+      "target_quota": 89,
+      "reason": "observed in handdraw distribution",
+      "maze_ids": [
+        "000001",
+        "000004",
+        "000011",
+        "000012",
+        "000038",
+        "000044"
+      ],
+      "observed_structural_conflict": false
+    },
+    "tree|long|mid_choice|low_endpoint": {
+      "status": "structural_infeasible_or_constrained",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0,
+      "raw_quota": 0.0,
+      "target_quota": 0,
+      "reason": "endpoint_bin_max=1 < conservative_L_min=4 for C_min=2, mu_max=0",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "tree|long|mid_choice|mid_endpoint": {
+      "status": "handdraw_observed",
+      "handdraw_count": 2,
+      "handdraw_prob": 0.03125,
+      "target_prob": 0.0296875,
+      "raw_quota": 29.6875,
+      "target_quota": 30,
+      "reason": "observed in handdraw distribution",
+      "maze_ids": [
+        "000016",
+        "000018"
+      ],
+      "observed_structural_conflict": false
+    },
+    "tree|medium|high_choice|high_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 1,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "tree|medium|high_choice|low_endpoint": {
+      "status": "structural_infeasible_or_constrained",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0,
+      "raw_quota": 0.0,
+      "target_quota": 0,
+      "reason": "endpoint_bin_max=1 < conservative_L_min=7 for C_min=5, mu_max=0",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "tree|medium|high_choice|mid_endpoint": {
+      "status": "structural_infeasible_or_constrained",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0,
+      "raw_quota": 0.0,
+      "target_quota": 0,
+      "reason": "endpoint_bin_max=4 < conservative_L_min=7 for C_min=5, mu_max=0",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "tree|medium|low_choice|high_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 1,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "tree|medium|low_choice|low_endpoint": {
+      "status": "structural_infeasible_or_constrained",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0,
+      "raw_quota": 0.0,
+      "target_quota": 0,
+      "reason": "endpoint_bin_max=1 < conservative_L_min=2 for C_min=0, mu_max=0",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "tree|medium|low_choice|mid_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 1,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "tree|medium|mid_choice|high_endpoint": {
+      "status": "handdraw_observed",
+      "handdraw_count": 1,
+      "handdraw_prob": 0.015625,
+      "target_prob": 0.01484375,
+      "raw_quota": 14.84375,
+      "target_quota": 15,
+      "reason": "observed in handdraw distribution",
+      "maze_ids": [
+        "000003"
+      ],
+      "observed_structural_conflict": false
+    },
+    "tree|medium|mid_choice|low_endpoint": {
+      "status": "structural_infeasible_or_constrained",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0,
+      "raw_quota": 0.0,
+      "target_quota": 0,
+      "reason": "endpoint_bin_max=1 < conservative_L_min=4 for C_min=2, mu_max=0",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "tree|medium|mid_choice|mid_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 2,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "tree|short|high_choice|high_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 2,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "tree|short|high_choice|low_endpoint": {
+      "status": "structural_infeasible_or_constrained",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0,
+      "raw_quota": 0.0,
+      "target_quota": 0,
+      "reason": "endpoint_bin_max=1 < conservative_L_min=7 for C_min=5, mu_max=0",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "tree|short|high_choice|mid_endpoint": {
+      "status": "structural_infeasible_or_constrained",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0,
+      "raw_quota": 0.0,
+      "target_quota": 0,
+      "reason": "endpoint_bin_max=4 < conservative_L_min=7 for C_min=5, mu_max=0",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "tree|short|low_choice|high_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 2,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "tree|short|low_choice|low_endpoint": {
+      "status": "structural_infeasible_or_constrained",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0,
+      "raw_quota": 0.0,
+      "target_quota": 0,
+      "reason": "endpoint_bin_max=1 < conservative_L_min=2 for C_min=0, mu_max=0",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "tree|short|low_choice|mid_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 2,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "tree|short|mid_choice|high_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 2,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "tree|short|mid_choice|low_endpoint": {
+      "status": "structural_infeasible_or_constrained",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0,
+      "raw_quota": 0.0,
+      "target_quota": 0,
+      "reason": "endpoint_bin_max=1 < conservative_L_min=4 for C_min=2, mu_max=0",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    },
+    "tree|short|mid_choice|mid_endpoint": {
+      "status": "unobserved_possible",
+      "handdraw_count": 0,
+      "handdraw_prob": 0.0,
+      "target_prob": 0.0012195121951219512,
+      "raw_quota": 1.2195121951219512,
+      "target_quota": 2,
+      "reason": "unobserved in handdraw dataset but not ruled out by conservative feasibility rule",
+      "maze_ids": [],
+      "observed_structural_conflict": false
+    }
+  }
+}

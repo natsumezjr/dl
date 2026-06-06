@@ -1,0 +1,73 @@
+{
+  "quota_scope": "unobserved_possible",
+  "requested_quota_scope": "unobserved_possible",
+  "quota_sum_required": 246,
+  "confirmed_in_scope": 213,
+  "hard_quota_fill_ratio": 0.8658536585365854,
+  "remaining_quota_total": 33,
+  "remaining_bin_count": 6,
+  "hard_quota_met": false,
+  "quota_met": false,
+  "remaining_bins": [
+    {
+      "bin_key": "multi_loop|long|low_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "quota": 6,
+      "count": 0,
+      "remaining": 6,
+      "fill_ratio": 0.0,
+      "full_evaluated_count": 0,
+      "is_critical": false
+    },
+    {
+      "bin_key": "multi_loop|medium|low_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "quota": 6,
+      "count": 0,
+      "remaining": 6,
+      "fill_ratio": 0.0,
+      "full_evaluated_count": 0,
+      "is_critical": false
+    },
+    {
+      "bin_key": "multi_loop|short|low_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "quota": 6,
+      "count": 0,
+      "remaining": 6,
+      "fill_ratio": 0.0,
+      "full_evaluated_count": 0,
+      "is_critical": false
+    },
+    {
+      "bin_key": "single_loop|long|low_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "quota": 6,
+      "count": 0,
+      "remaining": 6,
+      "fill_ratio": 0.0,
+      "full_evaluated_count": 0,
+      "is_critical": false
+    },
+    {
+      "bin_key": "tree|long|low_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "quota": 6,
+      "count": 0,
+      "remaining": 6,
+      "fill_ratio": 0.0,
+      "full_evaluated_count": 0,
+      "is_critical": false
+    },
+    {
+      "bin_key": "single_loop|medium|low_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "quota": 6,
+      "count": 3,
+      "remaining": 3,
+      "fill_ratio": 0.5,
+      "full_evaluated_count": 3,
+      "is_critical": false
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "selected_samples": [
+    {
+      "rank": 1,
+      "category": "pure_topology",
+      "maze_id": "maze_00001",
+      "status": "PASS",
+      "why_selected": "representative success/failure category",
+      "files": {
+        "maze_overlay": "feature_maze\\v3_0_maze_generation\\outputs\\3.0.3\\diag_3_0_3_2_B_corridor_only_pure_topology_n100_seed42\\visualization_samples\\01_pure_topology__maze_00001_maze_overlay.png",
+        "decision_graph": "feature_maze\\v3_0_maze_generation\\outputs\\3.0.3\\diag_3_0_3_2_B_corridor_only_pure_topology_n100_seed42\\visualization_samples\\01_pure_topology__maze_00001_decision_graph.png"
+      },
+      "failure_code": null
+    },
+    {
+      "rank": 2,
+      "category": "terminal_choice",
+      "maze_id": "maze_00032",
+      "status": "PASS",
+      "why_selected": "representative success/failure category",
+      "files": {
+        "maze_overlay": "feature_maze\\v3_0_maze_generation\\outputs\\3.0.3\\diag_3_0_3_2_B_corridor_only_pure_topology_n100_seed42\\visualization_samples\\02_terminal_choice__maze_00032_maze_overlay.png",
+        "decision_graph": "feature_maze\\v3_0_maze_generation\\outputs\\3.0.3\\diag_3_0_3_2_B_corridor_only_pure_topology_n100_seed42\\visualization_samples\\02_terminal_choice__maze_00032_decision_graph.png"
+      },
+      "failure_code": null
+    },
+    {
+      "rank": 3,
+      "category": "failure_restricted_dfs_failed",
+      "maze_id": "maze_00000",
+      "status": "FAILED",
+      "why_selected": "representative success/failure category",
+      "files": {},
+      "failure_code": "restricted_dfs_failed"
+    },
+    {
+      "rank": 4,
+      "category": "failure_corridor_reservation_failed",
+      "maze_id": "maze_00002",
+      "status": "FAILED",
+      "why_selected": "representative success/failure category",
+      "files": {},
+      "failure_code": "corridor_reservation_failed"
+    },
+    {
+      "rank": 5,
+      "category": "failure_strict_topology_mismatch",
+      "maze_id": "maze_00004",
+      "status": "FAILED",
+      "why_selected": "representative success/failure category",
+      "files": {},
+      "failure_code": "strict_topology_mismatch"
+    }
+  ],
+  "success_sample_shortage": true,
+  "available_success_categories": [
+    "pure_topology",
+    "terminal_choice"
+  ],
+  "missing_success_categories": [
+    "pure_topology",
+    "loop_substitute",
+    "terminal_choice",
+    "D-range binding",
+    "island",
+    "room_neutral",
+    "full_mvp"
+  ]
+}

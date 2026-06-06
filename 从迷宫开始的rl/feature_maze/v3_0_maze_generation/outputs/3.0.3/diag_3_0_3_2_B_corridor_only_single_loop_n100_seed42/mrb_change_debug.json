@@ -1,0 +1,1720 @@
+[
+  {
+    "maze_id": "maze_00002",
+    "main_route_bundle": {
+      "preliminary_shortest_path_count": 1,
+      "preliminary_main_bundle_edges": [
+        "e1",
+        "e4",
+        "e5"
+      ],
+      "preliminary_main_bundle_edge_count": 3,
+      "weighted_shortest_path_count": 2,
+      "weighted_main_bundle_edges": [
+        "e0",
+        "e1",
+        "e2",
+        "e4",
+        "e5"
+      ],
+      "weighted_main_bundle_edge_count": 5,
+      "changed_edges_added": [
+        "e0",
+        "e2"
+      ],
+      "changed_edges_removed": [],
+      "main_bundle_changed_after_L_assignment": true,
+      "edge_table": {
+        "e0": {
+          "role": "substitute_level1",
+          "D_actual": 3,
+          "excess": 0,
+          "L_target": 3,
+          "u": "C0",
+          "v": "C1"
+        },
+        "e1": {
+          "role": "main",
+          "D_actual": 3,
+          "excess": 2,
+          "L_target": 5,
+          "u": "C2",
+          "v": "C1"
+        },
+        "e2": {
+          "role": "substitute_level1",
+          "D_actual": 2,
+          "excess": 0,
+          "L_target": 2,
+          "u": "C0",
+          "v": "C2"
+        },
+        "e3": {
+          "role": "endpoint_branch",
+          "D_actual": 2,
+          "excess": 0,
+          "L_target": 2,
+          "u": "C0",
+          "v": "P0"
+        },
+        "e4": {
+          "role": "main",
+          "D_actual": 4,
+          "excess": 0,
+          "L_target": 4,
+          "u": "C1",
+          "v": "P1"
+        },
+        "e5": {
+          "role": "main",
+          "D_actual": 3,
+          "excess": 0,
+          "L_target": 3,
+          "u": "C2",
+          "v": "P2"
+        }
+      },
+      "mrb_guard": {
+        "mrb_guard_enabled": false,
+        "mrb_guard_mode": "strict_mrb_preserve",
+        "preliminary_main_bundle_edges": [
+          "e1",
+          "e4",
+          "e5"
+        ],
+        "weighted_main_bundle_edges_before_guard": [
+          "e0",
+          "e1",
+          "e2",
+          "e4",
+          "e5"
+        ],
+        "weighted_MRB_edges_added": [
+          "e0",
+          "e2"
+        ],
+        "weighted_MRB_edges_removed": [],
+        "change_reasons": [
+          {
+            "edge_id": "e0",
+            "reason": "substitute_entered_weighted_MRB"
+          },
+          {
+            "edge_id": "e2",
+            "reason": "substitute_entered_weighted_MRB"
+          }
+        ],
+        "guard_adjustments": [],
+        "main_path_length_imbalance": {
+          "weighted_lengths": [
+            12
+          ],
+          "gap": 0,
+          "warning": false
+        },
+        "C_path_before_guard": 6.8706847696697535,
+        "target_C_path": 7.0,
+        "guard_invoked": false,
+        "guard_failed": false,
+        "weighted_main_bundle_edges_after_guard": [
+          "e0",
+          "e1",
+          "e2",
+          "e4",
+          "e5"
+        ]
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00014",
+    "main_route_bundle": {
+      "preliminary_shortest_path_count": 1,
+      "preliminary_main_bundle_edges": [
+        "e2",
+        "e3"
+      ],
+      "preliminary_main_bundle_edge_count": 2,
+      "weighted_shortest_path_count": 2,
+      "weighted_main_bundle_edges": [
+        "e0",
+        "e1",
+        "e2",
+        "e3"
+      ],
+      "weighted_main_bundle_edge_count": 4,
+      "changed_edges_added": [
+        "e0",
+        "e1"
+      ],
+      "changed_edges_removed": [],
+      "main_bundle_changed_after_L_assignment": true,
+      "edge_table": {
+        "e0": {
+          "role": "substitute_level1",
+          "D_actual": 2,
+          "excess": 0,
+          "L_target": 2,
+          "u": "C1",
+          "v": "C2"
+        },
+        "e1": {
+          "role": "substitute_level1",
+          "D_actual": 2,
+          "excess": 0,
+          "L_target": 2,
+          "u": "C0",
+          "v": "C2"
+        },
+        "e2": {
+          "role": "main",
+          "D_actual": 4,
+          "excess": 0,
+          "L_target": 4,
+          "u": "C0",
+          "v": "C1"
+        },
+        "e3": {
+          "role": "main",
+          "D_actual": 3,
+          "excess": 0,
+          "L_target": 3,
+          "u": "C0",
+          "v": "P0"
+        },
+        "e4": {
+          "role": "endpoint_branch",
+          "D_actual": 3,
+          "excess": 2,
+          "L_target": 5,
+          "u": "C1",
+          "v": "P1"
+        },
+        "e5": {
+          "role": "endpoint_branch",
+          "D_actual": 2,
+          "excess": 4,
+          "L_target": 6,
+          "u": "C2",
+          "v": "P2"
+        }
+      },
+      "mrb_guard": {
+        "mrb_guard_enabled": false,
+        "mrb_guard_mode": "strict_mrb_preserve",
+        "preliminary_main_bundle_edges": [
+          "e2",
+          "e3"
+        ],
+        "weighted_main_bundle_edges_before_guard": [
+          "e0",
+          "e1",
+          "e2",
+          "e3"
+        ],
+        "weighted_MRB_edges_added": [
+          "e0",
+          "e1"
+        ],
+        "weighted_MRB_edges_removed": [],
+        "change_reasons": [
+          {
+            "edge_id": "e0",
+            "reason": "substitute_entered_weighted_MRB"
+          },
+          {
+            "edge_id": "e1",
+            "reason": "substitute_entered_weighted_MRB"
+          }
+        ],
+        "guard_adjustments": [],
+        "main_path_length_imbalance": {
+          "weighted_lengths": [
+            7
+          ],
+          "gap": 0,
+          "warning": false
+        },
+        "C_path_before_guard": 7.569088017338061,
+        "target_C_path": 7.0,
+        "guard_invoked": false,
+        "guard_failed": false,
+        "weighted_main_bundle_edges_after_guard": [
+          "e0",
+          "e1",
+          "e2",
+          "e3"
+        ]
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00020",
+    "main_route_bundle": {
+      "preliminary_shortest_path_count": 1,
+      "preliminary_main_bundle_edges": [
+        "e2",
+        "e4"
+      ],
+      "preliminary_main_bundle_edge_count": 2,
+      "weighted_shortest_path_count": 2,
+      "weighted_main_bundle_edges": [
+        "e0",
+        "e1",
+        "e2",
+        "e4"
+      ],
+      "weighted_main_bundle_edge_count": 4,
+      "changed_edges_added": [
+        "e0",
+        "e1"
+      ],
+      "changed_edges_removed": [],
+      "main_bundle_changed_after_L_assignment": true,
+      "edge_table": {
+        "e0": {
+          "role": "substitute_level1",
+          "D_actual": 4,
+          "excess": 0,
+          "L_target": 4,
+          "u": "C2",
+          "v": "C0"
+        },
+        "e1": {
+          "role": "substitute_level1",
+          "D_actual": 2,
+          "excess": 0,
+          "L_target": 2,
+          "u": "C1",
+          "v": "C2"
+        },
+        "e2": {
+          "role": "main",
+          "D_actual": 4,
+          "excess": 2,
+          "L_target": 6,
+          "u": "C0",
+          "v": "C1"
+        },
+        "e3": {
+          "role": "endpoint_branch",
+          "D_actual": 3,
+          "excess": 0,
+          "L_target": 3,
+          "u": "C0",
+          "v": "P0"
+        },
+        "e4": {
+          "role": "main",
+          "D_actual": 4,
+          "excess": 0,
+          "L_target": 4,
+          "u": "C1",
+          "v": "P1"
+        },
+        "e5": {
+          "role": "endpoint_branch",
+          "D_actual": 2,
+          "excess": 0,
+          "L_target": 2,
+          "u": "C2",
+          "v": "P2"
+        }
+      },
+      "mrb_guard": {
+        "mrb_guard_enabled": false,
+        "mrb_guard_mode": "strict_mrb_preserve",
+        "preliminary_main_bundle_edges": [
+          "e2",
+          "e4"
+        ],
+        "weighted_main_bundle_edges_before_guard": [
+          "e0",
+          "e1",
+          "e2",
+          "e4"
+        ],
+        "weighted_MRB_edges_added": [
+          "e0",
+          "e1"
+        ],
+        "weighted_MRB_edges_removed": [],
+        "change_reasons": [
+          {
+            "edge_id": "e0",
+            "reason": "substitute_entered_weighted_MRB"
+          },
+          {
+            "edge_id": "e1",
+            "reason": "substitute_entered_weighted_MRB"
+          }
+        ],
+        "guard_adjustments": [],
+        "main_path_length_imbalance": {
+          "weighted_lengths": [
+            10
+          ],
+          "gap": 0,
+          "warning": false
+        },
+        "C_path_before_guard": 6.9539332094810415,
+        "target_C_path": 7.0,
+        "guard_invoked": false,
+        "guard_failed": false,
+        "weighted_main_bundle_edges_after_guard": [
+          "e0",
+          "e1",
+          "e2",
+          "e4"
+        ]
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00022",
+    "main_route_bundle": {
+      "preliminary_shortest_path_count": 1,
+      "preliminary_main_bundle_edges": [
+        "e1",
+        "e4"
+      ],
+      "preliminary_main_bundle_edge_count": 2,
+      "weighted_shortest_path_count": 2,
+      "weighted_main_bundle_edges": [
+        "e0",
+        "e1",
+        "e2",
+        "e4"
+      ],
+      "weighted_main_bundle_edge_count": 4,
+      "changed_edges_added": [
+        "e0",
+        "e2"
+      ],
+      "changed_edges_removed": [],
+      "main_bundle_changed_after_L_assignment": true,
+      "edge_table": {
+        "e0": {
+          "role": "substitute_level1",
+          "D_actual": 2,
+          "excess": 0,
+          "L_target": 2,
+          "u": "C2",
+          "v": "C1"
+        },
+        "e1": {
+          "role": "main",
+          "D_actual": 4,
+          "excess": 2,
+          "L_target": 6,
+          "u": "C0",
+          "v": "C1"
+        },
+        "e2": {
+          "role": "substitute_level1",
+          "D_actual": 2,
+          "excess": 2,
+          "L_target": 4,
+          "u": "C0",
+          "v": "C2"
+        },
+        "e3": {
+          "role": "endpoint_branch",
+          "D_actual": 2,
+          "excess": 0,
+          "L_target": 2,
+          "u": "C0",
+          "v": "P0"
+        },
+        "e4": {
+          "role": "main",
+          "D_actual": 3,
+          "excess": 0,
+          "L_target": 3,
+          "u": "C1",
+          "v": "P1"
+        },
+        "e5": {
+          "role": "endpoint_branch",
+          "D_actual": 2,
+          "excess": 2,
+          "L_target": 4,
+          "u": "C2",
+          "v": "P2"
+        }
+      },
+      "mrb_guard": {
+        "mrb_guard_enabled": false,
+        "mrb_guard_mode": "strict_mrb_preserve",
+        "preliminary_main_bundle_edges": [
+          "e1",
+          "e4"
+        ],
+        "weighted_main_bundle_edges_before_guard": [
+          "e0",
+          "e1",
+          "e2",
+          "e4"
+        ],
+        "weighted_MRB_edges_added": [
+          "e0",
+          "e2"
+        ],
+        "weighted_MRB_edges_removed": [],
+        "change_reasons": [
+          {
+            "edge_id": "e0",
+            "reason": "substitute_entered_weighted_MRB"
+          },
+          {
+            "edge_id": "e2",
+            "reason": "substitute_entered_weighted_MRB"
+          }
+        ],
+        "guard_adjustments": [],
+        "main_path_length_imbalance": {
+          "weighted_lengths": [
+            9
+          ],
+          "gap": 0,
+          "warning": false
+        },
+        "C_path_before_guard": 8.254349564797685,
+        "target_C_path": 7.0,
+        "guard_invoked": false,
+        "guard_failed": false,
+        "weighted_main_bundle_edges_after_guard": [
+          "e0",
+          "e1",
+          "e2",
+          "e4"
+        ]
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00024",
+    "main_route_bundle": {
+      "preliminary_shortest_path_count": 1,
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e5"
+      ],
+      "preliminary_main_bundle_edge_count": 2,
+      "weighted_shortest_path_count": 2,
+      "weighted_main_bundle_edges": [
+        "e0",
+        "e1",
+        "e2",
+        "e5"
+      ],
+      "weighted_main_bundle_edge_count": 4,
+      "changed_edges_added": [
+        "e1",
+        "e2"
+      ],
+      "changed_edges_removed": [],
+      "main_bundle_changed_after_L_assignment": true,
+      "edge_table": {
+        "e0": {
+          "role": "main",
+          "D_actual": 4,
+          "excess": 2,
+          "L_target": 6,
+          "u": "C2",
+          "v": "C0"
+        },
+        "e1": {
+          "role": "substitute_level1",
+          "D_actual": 3,
+          "excess": 0,
+          "L_target": 3,
+          "u": "C1",
+          "v": "C2"
+        },
+        "e2": {
+          "role": "substitute_level1",
+          "D_actual": 3,
+          "excess": 0,
+          "L_target": 3,
+          "u": "C0",
+          "v": "C1"
+        },
+        "e3": {
+          "role": "endpoint_branch",
+          "D_actual": 3,
+          "excess": 0,
+          "L_target": 3,
+          "u": "C0",
+          "v": "P0"
+        },
+        "e4": {
+          "role": "endpoint_branch",
+          "D_actual": 2,
+          "excess": 0,
+          "L_target": 2,
+          "u": "C1",
+          "v": "P1"
+        },
+        "e5": {
+          "role": "main",
+          "D_actual": 4,
+          "excess": 0,
+          "L_target": 4,
+          "u": "C2",
+          "v": "P2"
+        }
+      },
+      "mrb_guard": {
+        "mrb_guard_enabled": false,
+        "mrb_guard_mode": "strict_mrb_preserve",
+        "preliminary_main_bundle_edges": [
+          "e0",
+          "e5"
+        ],
+        "weighted_main_bundle_edges_before_guard": [
+          "e0",
+          "e1",
+          "e2",
+          "e5"
+        ],
+        "weighted_MRB_edges_added": [
+          "e1",
+          "e2"
+        ],
+        "weighted_MRB_edges_removed": [],
+        "change_reasons": [
+          {
+            "edge_id": "e1",
+            "reason": "substitute_entered_weighted_MRB"
+          },
+          {
+            "edge_id": "e2",
+            "reason": "substitute_entered_weighted_MRB"
+          }
+        ],
+        "guard_adjustments": [],
+        "main_path_length_imbalance": {
+          "weighted_lengths": [
+            10
+          ],
+          "gap": 0,
+          "warning": false
+        },
+        "C_path_before_guard": 6.9539332094810415,
+        "target_C_path": 7.0,
+        "guard_invoked": false,
+        "guard_failed": false,
+        "weighted_main_bundle_edges_after_guard": [
+          "e0",
+          "e1",
+          "e2",
+          "e5"
+        ]
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00036",
+    "main_route_bundle": {
+      "preliminary_shortest_path_count": 1,
+      "preliminary_main_bundle_edges": [
+        "e1",
+        "e4",
+        "e5"
+      ],
+      "preliminary_main_bundle_edge_count": 3,
+      "weighted_shortest_path_count": 2,
+      "weighted_main_bundle_edges": [
+        "e0",
+        "e1",
+        "e2",
+        "e4",
+        "e5"
+      ],
+      "weighted_main_bundle_edge_count": 5,
+      "changed_edges_added": [
+        "e0",
+        "e2"
+      ],
+      "changed_edges_removed": [],
+      "main_bundle_changed_after_L_assignment": true,
+      "edge_table": {
+        "e0": {
+          "role": "substitute_level1",
+          "D_actual": 2,
+          "excess": 0,
+          "L_target": 2,
+          "u": "C1",
+          "v": "C0"
+        },
+        "e1": {
+          "role": "main",
+          "D_actual": 4,
+          "excess": 2,
+          "L_target": 6,
+          "u": "C2",
+          "v": "C1"
+        },
+        "e2": {
+          "role": "substitute_level1",
+          "D_actual": 2,
+          "excess": 2,
+          "L_target": 4,
+          "u": "C0",
+          "v": "C2"
+        },
+        "e3": {
+          "role": "endpoint_branch",
+          "D_actual": 2,
+          "excess": 0,
+          "L_target": 2,
+          "u": "C0",
+          "v": "P0"
+        },
+        "e4": {
+          "role": "main",
+          "D_actual": 3,
+          "excess": 0,
+          "L_target": 3,
+          "u": "C1",
+          "v": "P1"
+        },
+        "e5": {
+          "role": "main",
+          "D_actual": 2,
+          "excess": 0,
+          "L_target": 2,
+          "u": "C2",
+          "v": "P2"
+        }
+      },
+      "mrb_guard": {
+        "mrb_guard_enabled": false,
+        "mrb_guard_mode": "strict_mrb_preserve",
+        "preliminary_main_bundle_edges": [
+          "e1",
+          "e4",
+          "e5"
+        ],
+        "weighted_main_bundle_edges_before_guard": [
+          "e0",
+          "e1",
+          "e2",
+          "e4",
+          "e5"
+        ],
+        "weighted_MRB_edges_added": [
+          "e0",
+          "e2"
+        ],
+        "weighted_MRB_edges_removed": [],
+        "change_reasons": [
+          {
+            "edge_id": "e0",
+            "reason": "substitute_entered_weighted_MRB"
+          },
+          {
+            "edge_id": "e2",
+            "reason": "substitute_entered_weighted_MRB"
+          }
+        ],
+        "guard_adjustments": [],
+        "main_path_length_imbalance": {
+          "weighted_lengths": [
+            11
+          ],
+          "gap": 0,
+          "warning": false
+        },
+        "C_path_before_guard": 7.443799002304486,
+        "target_C_path": 7.0,
+        "guard_invoked": false,
+        "guard_failed": false,
+        "weighted_main_bundle_edges_after_guard": [
+          "e0",
+          "e1",
+          "e2",
+          "e4",
+          "e5"
+        ]
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00047",
+    "main_route_bundle": {
+      "preliminary_shortest_path_count": 1,
+      "preliminary_main_bundle_edges": [
+        "e2",
+        "e4"
+      ],
+      "preliminary_main_bundle_edge_count": 2,
+      "weighted_shortest_path_count": 2,
+      "weighted_main_bundle_edges": [
+        "e0",
+        "e1",
+        "e2",
+        "e4"
+      ],
+      "weighted_main_bundle_edge_count": 4,
+      "changed_edges_added": [
+        "e0",
+        "e1"
+      ],
+      "changed_edges_removed": [],
+      "main_bundle_changed_after_L_assignment": true,
+      "edge_table": {
+        "e0": {
+          "role": "substitute_level1",
+          "D_actual": 3,
+          "excess": 0,
+          "L_target": 3,
+          "u": "C1",
+          "v": "C0"
+        },
+        "e1": {
+          "role": "substitute_level1",
+          "D_actual": 2,
+          "excess": 0,
+          "L_target": 2,
+          "u": "C2",
+          "v": "C0"
+        },
+        "e2": {
+          "role": "main",
+          "D_actual": 3,
+          "excess": 2,
+          "L_target": 5,
+          "u": "C1",
+          "v": "C2"
+        },
+        "e3": {
+          "role": "endpoint_branch",
+          "D_actual": 2,
+          "excess": 0,
+          "L_target": 2,
+          "u": "C0",
+          "v": "P0"
+        },
+        "e4": {
+          "role": "main",
+          "D_actual": 3,
+          "excess": 2,
+          "L_target": 5,
+          "u": "C1",
+          "v": "P1"
+        },
+        "e5": {
+          "role": "endpoint_branch",
+          "D_actual": 2,
+          "excess": 0,
+          "L_target": 2,
+          "u": "C2",
+          "v": "P2"
+        }
+      },
+      "mrb_guard": {
+        "mrb_guard_enabled": false,
+        "mrb_guard_mode": "strict_mrb_preserve",
+        "preliminary_main_bundle_edges": [
+          "e2",
+          "e4"
+        ],
+        "weighted_main_bundle_edges_before_guard": [
+          "e0",
+          "e1",
+          "e2",
+          "e4"
+        ],
+        "weighted_MRB_edges_added": [
+          "e0",
+          "e1"
+        ],
+        "weighted_MRB_edges_removed": [],
+        "change_reasons": [
+          {
+            "edge_id": "e0",
+            "reason": "substitute_entered_weighted_MRB"
+          },
+          {
+            "edge_id": "e1",
+            "reason": "substitute_entered_weighted_MRB"
+          }
+        ],
+        "guard_adjustments": [],
+        "main_path_length_imbalance": {
+          "weighted_lengths": [
+            10
+          ],
+          "gap": 0,
+          "warning": false
+        },
+        "C_path_before_guard": 7.862308989575398,
+        "target_C_path": 7.0,
+        "guard_invoked": false,
+        "guard_failed": false,
+        "weighted_main_bundle_edges_after_guard": [
+          "e0",
+          "e1",
+          "e2",
+          "e4"
+        ]
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00053",
+    "main_route_bundle": {
+      "preliminary_shortest_path_count": 1,
+      "preliminary_main_bundle_edges": [
+        "e0"
+      ],
+      "preliminary_main_bundle_edge_count": 1,
+      "weighted_shortest_path_count": 2,
+      "weighted_main_bundle_edges": [
+        "e0",
+        "e1",
+        "e2"
+      ],
+      "weighted_main_bundle_edge_count": 3,
+      "changed_edges_added": [
+        "e1",
+        "e2"
+      ],
+      "changed_edges_removed": [],
+      "main_bundle_changed_after_L_assignment": true,
+      "edge_table": {
+        "e0": {
+          "role": "main",
+          "D_actual": 3,
+          "excess": 2,
+          "L_target": 5,
+          "u": "C2",
+          "v": "C1"
+        },
+        "e1": {
+          "role": "substitute_level1",
+          "D_actual": 2,
+          "excess": 0,
+          "L_target": 2,
+          "u": "C0",
+          "v": "C2"
+        },
+        "e2": {
+          "role": "substitute_level1",
+          "D_actual": 3,
+          "excess": 0,
+          "L_target": 3,
+          "u": "C0",
+          "v": "C1"
+        },
+        "e3": {
+          "role": "endpoint_branch",
+          "D_actual": 2,
+          "excess": 0,
+          "L_target": 2,
+          "u": "C0",
+          "v": "P0"
+        },
+        "e4": {
+          "role": "endpoint_branch",
+          "D_actual": 3,
+          "excess": 2,
+          "L_target": 5,
+          "u": "C1",
+          "v": "P1"
+        },
+        "e5": {
+          "role": "endpoint_branch",
+          "D_actual": 2,
+          "excess": 2,
+          "L_target": 4,
+          "u": "C2",
+          "v": "P2"
+        }
+      },
+      "mrb_guard": {
+        "mrb_guard_enabled": false,
+        "mrb_guard_mode": "strict_mrb_preserve",
+        "preliminary_main_bundle_edges": [
+          "e0"
+        ],
+        "weighted_main_bundle_edges_before_guard": [
+          "e0",
+          "e1",
+          "e2"
+        ],
+        "weighted_MRB_edges_added": [
+          "e1",
+          "e2"
+        ],
+        "weighted_MRB_edges_removed": [],
+        "change_reasons": [
+          {
+            "edge_id": "e1",
+            "reason": "substitute_entered_weighted_MRB"
+          },
+          {
+            "edge_id": "e2",
+            "reason": "substitute_entered_weighted_MRB"
+          }
+        ],
+        "guard_adjustments": [],
+        "main_path_length_imbalance": {
+          "weighted_lengths": [
+            5
+          ],
+          "gap": 0,
+          "warning": false
+        },
+        "C_path_before_guard": 7.637598004608973,
+        "target_C_path": 7.0,
+        "guard_invoked": false,
+        "guard_failed": false,
+        "weighted_main_bundle_edges_after_guard": [
+          "e0",
+          "e1",
+          "e2"
+        ]
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00054",
+    "main_route_bundle": {
+      "preliminary_shortest_path_count": 1,
+      "preliminary_main_bundle_edges": [
+        "e2",
+        "e4"
+      ],
+      "preliminary_main_bundle_edge_count": 2,
+      "weighted_shortest_path_count": 2,
+      "weighted_main_bundle_edges": [
+        "e0",
+        "e1",
+        "e2",
+        "e4"
+      ],
+      "weighted_main_bundle_edge_count": 4,
+      "changed_edges_added": [
+        "e0",
+        "e1"
+      ],
+      "changed_edges_removed": [],
+      "main_bundle_changed_after_L_assignment": true,
+      "edge_table": {
+        "e0": {
+          "role": "substitute_level1",
+          "D_actual": 3,
+          "excess": 0,
+          "L_target": 3,
+          "u": "C0",
+          "v": "C2"
+        },
+        "e1": {
+          "role": "substitute_level1",
+          "D_actual": 3,
+          "excess": 0,
+          "L_target": 3,
+          "u": "C1",
+          "v": "C2"
+        },
+        "e2": {
+          "role": "main",
+          "D_actual": 4,
+          "excess": 2,
+          "L_target": 6,
+          "u": "C0",
+          "v": "C1"
+        },
+        "e3": {
+          "role": "endpoint_branch",
+          "D_actual": 3,
+          "excess": 0,
+          "L_target": 3,
+          "u": "C0",
+          "v": "P0"
+        },
+        "e4": {
+          "role": "main",
+          "D_actual": 4,
+          "excess": 0,
+          "L_target": 4,
+          "u": "C1",
+          "v": "P1"
+        },
+        "e5": {
+          "role": "endpoint_branch",
+          "D_actual": 3,
+          "excess": 2,
+          "L_target": 5,
+          "u": "C2",
+          "v": "P2"
+        }
+      },
+      "mrb_guard": {
+        "mrb_guard_enabled": false,
+        "mrb_guard_mode": "strict_mrb_preserve",
+        "preliminary_main_bundle_edges": [
+          "e2",
+          "e4"
+        ],
+        "weighted_main_bundle_edges_before_guard": [
+          "e0",
+          "e1",
+          "e2",
+          "e4"
+        ],
+        "weighted_MRB_edges_added": [
+          "e0",
+          "e1"
+        ],
+        "weighted_MRB_edges_removed": [],
+        "change_reasons": [
+          {
+            "edge_id": "e0",
+            "reason": "substitute_entered_weighted_MRB"
+          },
+          {
+            "edge_id": "e1",
+            "reason": "substitute_entered_weighted_MRB"
+          }
+        ],
+        "guard_adjustments": [],
+        "main_path_length_imbalance": {
+          "weighted_lengths": [
+            10
+          ],
+          "gap": 0,
+          "warning": false
+        },
+        "C_path_before_guard": 8.268671662021418,
+        "target_C_path": 7.0,
+        "guard_invoked": false,
+        "guard_failed": false,
+        "weighted_main_bundle_edges_after_guard": [
+          "e0",
+          "e1",
+          "e2",
+          "e4"
+        ]
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00059",
+    "main_route_bundle": {
+      "preliminary_shortest_path_count": 1,
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e4"
+      ],
+      "preliminary_main_bundle_edge_count": 2,
+      "weighted_shortest_path_count": 1,
+      "weighted_main_bundle_edges": [
+        "e1",
+        "e2",
+        "e4"
+      ],
+      "weighted_main_bundle_edge_count": 3,
+      "changed_edges_added": [
+        "e1",
+        "e2"
+      ],
+      "changed_edges_removed": [
+        "e0"
+      ],
+      "main_bundle_changed_after_L_assignment": true,
+      "edge_table": {
+        "e0": {
+          "role": "main",
+          "D_actual": 4,
+          "excess": 2,
+          "L_target": 6,
+          "u": "C0",
+          "v": "C1"
+        },
+        "e1": {
+          "role": "substitute_level1",
+          "D_actual": 2,
+          "excess": 0,
+          "L_target": 2,
+          "u": "C2",
+          "v": "C0"
+        },
+        "e2": {
+          "role": "substitute_level1",
+          "D_actual": 2,
+          "excess": 0,
+          "L_target": 2,
+          "u": "C1",
+          "v": "C2"
+        },
+        "e3": {
+          "role": "endpoint_branch",
+          "D_actual": 3,
+          "excess": 0,
+          "L_target": 3,
+          "u": "C0",
+          "v": "P0"
+        },
+        "e4": {
+          "role": "main",
+          "D_actual": 2,
+          "excess": 2,
+          "L_target": 4,
+          "u": "C1",
+          "v": "P1"
+        },
+        "e5": {
+          "role": "endpoint_branch",
+          "D_actual": 3,
+          "excess": 0,
+          "L_target": 3,
+          "u": "C2",
+          "v": "P2"
+        }
+      },
+      "mrb_guard": {
+        "mrb_guard_enabled": false,
+        "mrb_guard_mode": "strict_mrb_preserve",
+        "preliminary_main_bundle_edges": [
+          "e0",
+          "e4"
+        ],
+        "weighted_main_bundle_edges_before_guard": [
+          "e1",
+          "e2",
+          "e4"
+        ],
+        "weighted_MRB_edges_added": [
+          "e1",
+          "e2"
+        ],
+        "weighted_MRB_edges_removed": [
+          "e0"
+        ],
+        "change_reasons": [
+          {
+            "edge_id": "e1",
+            "reason": "substitute_entered_weighted_MRB"
+          },
+          {
+            "edge_id": "e2",
+            "reason": "substitute_entered_weighted_MRB"
+          },
+          {
+            "edge_id": "e0",
+            "reason": "main_edge_dropped_from_weighted_MRB"
+          }
+        ],
+        "guard_adjustments": [],
+        "main_path_length_imbalance": {
+          "weighted_lengths": [
+            10
+          ],
+          "gap": 0,
+          "warning": false
+        },
+        "C_path_before_guard": 8.05812109952822,
+        "target_C_path": 7.0,
+        "guard_invoked": false,
+        "guard_failed": false,
+        "weighted_main_bundle_edges_after_guard": [
+          "e1",
+          "e2",
+          "e4"
+        ]
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00060",
+    "main_route_bundle": {
+      "preliminary_shortest_path_count": 1,
+      "preliminary_main_bundle_edges": [
+        "e1"
+      ],
+      "preliminary_main_bundle_edge_count": 1,
+      "weighted_shortest_path_count": 2,
+      "weighted_main_bundle_edges": [
+        "e0",
+        "e1",
+        "e2"
+      ],
+      "weighted_main_bundle_edge_count": 3,
+      "changed_edges_added": [
+        "e0",
+        "e2"
+      ],
+      "changed_edges_removed": [],
+      "main_bundle_changed_after_L_assignment": true,
+      "edge_table": {
+        "e0": {
+          "role": "substitute_level1",
+          "D_actual": 2,
+          "excess": 0,
+          "L_target": 2,
+          "u": "C0",
+          "v": "C2"
+        },
+        "e1": {
+          "role": "main",
+          "D_actual": 4,
+          "excess": 0,
+          "L_target": 4,
+          "u": "C1",
+          "v": "C2"
+        },
+        "e2": {
+          "role": "substitute_level1",
+          "D_actual": 2,
+          "excess": 0,
+          "L_target": 2,
+          "u": "C0",
+          "v": "C1"
+        },
+        "e3": {
+          "role": "endpoint_branch",
+          "D_actual": 3,
+          "excess": 0,
+          "L_target": 3,
+          "u": "C0",
+          "v": "P0"
+        },
+        "e4": {
+          "role": "endpoint_branch",
+          "D_actual": 3,
+          "excess": 4,
+          "L_target": 7,
+          "u": "C1",
+          "v": "P1"
+        },
+        "e5": {
+          "role": "endpoint_branch",
+          "D_actual": 2,
+          "excess": 2,
+          "L_target": 4,
+          "u": "C2",
+          "v": "P2"
+        }
+      },
+      "mrb_guard": {
+        "mrb_guard_enabled": false,
+        "mrb_guard_mode": "strict_mrb_preserve",
+        "preliminary_main_bundle_edges": [
+          "e1"
+        ],
+        "weighted_main_bundle_edges_before_guard": [
+          "e0",
+          "e1",
+          "e2"
+        ],
+        "weighted_MRB_edges_added": [
+          "e0",
+          "e2"
+        ],
+        "weighted_MRB_edges_removed": [],
+        "change_reasons": [
+          {
+            "edge_id": "e0",
+            "reason": "substitute_entered_weighted_MRB"
+          },
+          {
+            "edge_id": "e2",
+            "reason": "substitute_entered_weighted_MRB"
+          }
+        ],
+        "guard_adjustments": [],
+        "main_path_length_imbalance": {
+          "weighted_lengths": [
+            4
+          ],
+          "gap": 0,
+          "warning": false
+        },
+        "C_path_before_guard": 7.106524347196528,
+        "target_C_path": 7.0,
+        "guard_invoked": false,
+        "guard_failed": false,
+        "weighted_main_bundle_edges_after_guard": [
+          "e0",
+          "e1",
+          "e2"
+        ]
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00069",
+    "main_route_bundle": {
+      "preliminary_shortest_path_count": 1,
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e4"
+      ],
+      "preliminary_main_bundle_edge_count": 2,
+      "weighted_shortest_path_count": 1,
+      "weighted_main_bundle_edges": [
+        "e1",
+        "e2",
+        "e4"
+      ],
+      "weighted_main_bundle_edge_count": 3,
+      "changed_edges_added": [
+        "e1",
+        "e2"
+      ],
+      "changed_edges_removed": [
+        "e0"
+      ],
+      "main_bundle_changed_after_L_assignment": true,
+      "edge_table": {
+        "e0": {
+          "role": "main",
+          "D_actual": 4,
+          "excess": 2,
+          "L_target": 6,
+          "u": "C1",
+          "v": "C0"
+        },
+        "e1": {
+          "role": "substitute_level1",
+          "D_actual": 2,
+          "excess": 0,
+          "L_target": 2,
+          "u": "C2",
+          "v": "C1"
+        },
+        "e2": {
+          "role": "substitute_level1",
+          "D_actual": 2,
+          "excess": 0,
+          "L_target": 2,
+          "u": "C0",
+          "v": "C2"
+        },
+        "e3": {
+          "role": "endpoint_branch",
+          "D_actual": 3,
+          "excess": 2,
+          "L_target": 5,
+          "u": "C0",
+          "v": "P0"
+        },
+        "e4": {
+          "role": "main",
+          "D_actual": 2,
+          "excess": 0,
+          "L_target": 2,
+          "u": "C1",
+          "v": "P1"
+        },
+        "e5": {
+          "role": "endpoint_branch",
+          "D_actual": 2,
+          "excess": 0,
+          "L_target": 2,
+          "u": "C2",
+          "v": "P2"
+        }
+      },
+      "mrb_guard": {
+        "mrb_guard_enabled": false,
+        "mrb_guard_mode": "strict_mrb_preserve",
+        "preliminary_main_bundle_edges": [
+          "e0",
+          "e4"
+        ],
+        "weighted_main_bundle_edges_before_guard": [
+          "e1",
+          "e2",
+          "e4"
+        ],
+        "weighted_MRB_edges_added": [
+          "e1",
+          "e2"
+        ],
+        "weighted_MRB_edges_removed": [
+          "e0"
+        ],
+        "change_reasons": [
+          {
+            "edge_id": "e1",
+            "reason": "substitute_entered_weighted_MRB"
+          },
+          {
+            "edge_id": "e2",
+            "reason": "substitute_entered_weighted_MRB"
+          },
+          {
+            "edge_id": "e0",
+            "reason": "main_edge_dropped_from_weighted_MRB"
+          }
+        ],
+        "guard_adjustments": [],
+        "main_path_length_imbalance": {
+          "weighted_lengths": [
+            8
+          ],
+          "gap": 0,
+          "warning": false
+        },
+        "C_path_before_guard": 6.981235332162953,
+        "target_C_path": 7.0,
+        "guard_invoked": false,
+        "guard_failed": false,
+        "weighted_main_bundle_edges_after_guard": [
+          "e1",
+          "e2",
+          "e4"
+        ]
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00083",
+    "main_route_bundle": {
+      "preliminary_shortest_path_count": 1,
+      "preliminary_main_bundle_edges": [
+        "e1"
+      ],
+      "preliminary_main_bundle_edge_count": 1,
+      "weighted_shortest_path_count": 2,
+      "weighted_main_bundle_edges": [
+        "e0",
+        "e1",
+        "e2"
+      ],
+      "weighted_main_bundle_edge_count": 3,
+      "changed_edges_added": [
+        "e0",
+        "e2"
+      ],
+      "changed_edges_removed": [],
+      "main_bundle_changed_after_L_assignment": true,
+      "edge_table": {
+        "e0": {
+          "role": "substitute_level1",
+          "D_actual": 2,
+          "excess": 0,
+          "L_target": 2,
+          "u": "C0",
+          "v": "C1"
+        },
+        "e1": {
+          "role": "main",
+          "D_actual": 2,
+          "excess": 2,
+          "L_target": 4,
+          "u": "C2",
+          "v": "C0"
+        },
+        "e2": {
+          "role": "substitute_level1",
+          "D_actual": 2,
+          "excess": 0,
+          "L_target": 2,
+          "u": "C1",
+          "v": "C2"
+        },
+        "e3": {
+          "role": "endpoint_branch",
+          "D_actual": 3,
+          "excess": 4,
+          "L_target": 7,
+          "u": "C0",
+          "v": "P0"
+        },
+        "e4": {
+          "role": "endpoint_branch",
+          "D_actual": 3,
+          "excess": 0,
+          "L_target": 3,
+          "u": "C1",
+          "v": "P1"
+        },
+        "e5": {
+          "role": "endpoint_branch",
+          "D_actual": 2,
+          "excess": 0,
+          "L_target": 2,
+          "u": "C2",
+          "v": "P2"
+        }
+      },
+      "mrb_guard": {
+        "mrb_guard_enabled": false,
+        "mrb_guard_mode": "strict_mrb_preserve",
+        "preliminary_main_bundle_edges": [
+          "e1"
+        ],
+        "weighted_main_bundle_edges_before_guard": [
+          "e0",
+          "e1",
+          "e2"
+        ],
+        "weighted_MRB_edges_added": [
+          "e0",
+          "e2"
+        ],
+        "weighted_MRB_edges_removed": [],
+        "change_reasons": [
+          {
+            "edge_id": "e0",
+            "reason": "substitute_entered_weighted_MRB"
+          },
+          {
+            "edge_id": "e2",
+            "reason": "substitute_entered_weighted_MRB"
+          }
+        ],
+        "guard_adjustments": [],
+        "main_path_length_imbalance": {
+          "weighted_lengths": [
+            4
+          ],
+          "gap": 0,
+          "warning": false
+        },
+        "C_path_before_guard": 7.287598004608973,
+        "target_C_path": 7.0,
+        "guard_invoked": false,
+        "guard_failed": false,
+        "weighted_main_bundle_edges_after_guard": [
+          "e0",
+          "e1",
+          "e2"
+        ]
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00094",
+    "main_route_bundle": {
+      "preliminary_shortest_path_count": 1,
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e4",
+        "e5"
+      ],
+      "preliminary_main_bundle_edge_count": 3,
+      "weighted_shortest_path_count": 2,
+      "weighted_main_bundle_edges": [
+        "e0",
+        "e1",
+        "e2",
+        "e4",
+        "e5"
+      ],
+      "weighted_main_bundle_edge_count": 5,
+      "changed_edges_added": [
+        "e1",
+        "e2"
+      ],
+      "changed_edges_removed": [],
+      "main_bundle_changed_after_L_assignment": true,
+      "edge_table": {
+        "e0": {
+          "role": "main",
+          "D_actual": 4,
+          "excess": 0,
+          "L_target": 4,
+          "u": "C2",
+          "v": "C1"
+        },
+        "e1": {
+          "role": "substitute_level1",
+          "D_actual": 2,
+          "excess": 0,
+          "L_target": 2,
+          "u": "C0",
+          "v": "C2"
+        },
+        "e2": {
+          "role": "substitute_level1",
+          "D_actual": 2,
+          "excess": 0,
+          "L_target": 2,
+          "u": "C0",
+          "v": "C1"
+        },
+        "e3": {
+          "role": "endpoint_branch",
+          "D_actual": 2,
+          "excess": 0,
+          "L_target": 2,
+          "u": "C0",
+          "v": "P0"
+        },
+        "e4": {
+          "role": "main",
+          "D_actual": 4,
+          "excess": 0,
+          "L_target": 4,
+          "u": "C1",
+          "v": "P1"
+        },
+        "e5": {
+          "role": "main",
+          "D_actual": 2,
+          "excess": 2,
+          "L_target": 4,
+          "u": "C2",
+          "v": "P2"
+        }
+      },
+      "mrb_guard": {
+        "mrb_guard_enabled": false,
+        "mrb_guard_mode": "strict_mrb_preserve",
+        "preliminary_main_bundle_edges": [
+          "e0",
+          "e4",
+          "e5"
+        ],
+        "weighted_main_bundle_edges_before_guard": [
+          "e0",
+          "e1",
+          "e2",
+          "e4",
+          "e5"
+        ],
+        "weighted_MRB_edges_added": [
+          "e1",
+          "e2"
+        ],
+        "weighted_MRB_edges_removed": [],
+        "change_reasons": [
+          {
+            "edge_id": "e1",
+            "reason": "substitute_entered_weighted_MRB"
+          },
+          {
+            "edge_id": "e2",
+            "reason": "substitute_entered_weighted_MRB"
+          }
+        ],
+        "guard_adjustments": [],
+        "main_path_length_imbalance": {
+          "weighted_lengths": [
+            12
+          ],
+          "gap": 0,
+          "warning": false
+        },
+        "C_path_before_guard": 6.674872659716932,
+        "target_C_path": 7.0,
+        "guard_invoked": false,
+        "guard_failed": false,
+        "weighted_main_bundle_edges_after_guard": [
+          "e0",
+          "e1",
+          "e2",
+          "e4",
+          "e5"
+        ]
+      }
+    }
+  }
+]

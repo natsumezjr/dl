@@ -1,0 +1,11 @@
+{
+  "version": "3.0.3_2_corridor_reservation_mrb_guard",
+  "experiment_name": "corridor_reservation_mrb_guard",
+  "script": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v3_0_maze_generation\\experiments\\run_3_0_3_plan_preserving_decision_graph_embedding.py",
+  "mode": "diagnostic",
+  "profile": "pure_topology",
+  "experiment": "corridor_mrb_guard",
+  "seed": 42,
+  "n_mazes": 100,
+  "note": "Diagnostic profile provider is not a full Sampler."
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "hint": "Effective plan matches, but sampled plan does not.",
+    "likely_direction": [
+      "Generation is best-effort.",
+      "Planned edges are too hard to embed, especially alternative edges."
+    ],
+    "suggested_next_json": [
+      "planned_edge_paths.json",
+      "edge_embedding_debug.json"
+    ],
+    "suggested_config_fields": [
+      "graph_plan_distribution.graph_budget.max",
+      "alternative_edge.extra_L.min/max",
+      "alternative_edge.anchor_main_interval_min/max"
+    ]
+  }
+]

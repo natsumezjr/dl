@@ -1,0 +1,732 @@
+[
+  {
+    "maze_id": "maze_00001",
+    "failure_code": null,
+    "strict_validation": {
+      "planned": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "extracted": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "choice_match": true,
+      "endpoint_match": true,
+      "E_match": true,
+      "mu_match": true,
+      "strict_topology_match": true,
+      "mismatch_reasons": []
+    },
+    "failure_detail": null
+  },
+  {
+    "maze_id": "maze_00004",
+    "failure_code": "strict_topology_mismatch",
+    "strict_validation": {
+      "planned": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "extracted": {
+        "choice": 3,
+        "endpoint": 3,
+        "E": 6,
+        "mu": 1
+      },
+      "choice_match": false,
+      "endpoint_match": false,
+      "E_match": false,
+      "mu_match": false,
+      "strict_topology_match": false,
+      "mismatch_reasons": [
+        "choice_count_mismatch",
+        "endpoint_count_mismatch",
+        "edge_count_mismatch",
+        "cycle_rank_mismatch"
+      ]
+    },
+    "failure_detail": {
+      "strict_topology": {
+        "planned": {
+          "choice": 2,
+          "endpoint": 4,
+          "E": 5,
+          "mu": 0
+        },
+        "extracted": {
+          "choice": 3,
+          "endpoint": 3,
+          "E": 6,
+          "mu": 1
+        },
+        "choice_match": false,
+        "endpoint_match": false,
+        "E_match": false,
+        "mu_match": false,
+        "strict_topology_match": false,
+        "mismatch_reasons": [
+          "choice_count_mismatch",
+          "endpoint_count_mismatch",
+          "edge_count_mismatch",
+          "cycle_rank_mismatch"
+        ]
+      },
+      "room_component_count": 0,
+      "cell_degree_histogram": {
+        "3": 3,
+        "2": 13,
+        "1": 3
+      },
+      "edge_compression_debug": {
+        "traced_edge_count": 6,
+        "invalid_or_room_internal_edge_count": 0,
+        "dangling_trace_count": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00008",
+    "failure_code": null,
+    "strict_validation": {
+      "planned": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "extracted": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "choice_match": true,
+      "endpoint_match": true,
+      "E_match": true,
+      "mu_match": true,
+      "strict_topology_match": true,
+      "mismatch_reasons": []
+    },
+    "failure_detail": null
+  },
+  {
+    "maze_id": "maze_00021",
+    "failure_code": null,
+    "strict_validation": {
+      "planned": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "extracted": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "choice_match": true,
+      "endpoint_match": true,
+      "E_match": true,
+      "mu_match": true,
+      "strict_topology_match": true,
+      "mismatch_reasons": []
+    },
+    "failure_detail": null
+  },
+  {
+    "maze_id": "maze_00029",
+    "failure_code": null,
+    "strict_validation": {
+      "planned": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "extracted": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "choice_match": true,
+      "endpoint_match": true,
+      "E_match": true,
+      "mu_match": true,
+      "strict_topology_match": true,
+      "mismatch_reasons": []
+    },
+    "failure_detail": null
+  },
+  {
+    "maze_id": "maze_00030",
+    "failure_code": null,
+    "strict_validation": {
+      "planned": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "extracted": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "choice_match": true,
+      "endpoint_match": true,
+      "E_match": true,
+      "mu_match": true,
+      "strict_topology_match": true,
+      "mismatch_reasons": []
+    },
+    "failure_detail": null
+  },
+  {
+    "maze_id": "maze_00032",
+    "failure_code": null,
+    "strict_validation": {
+      "planned": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "extracted": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "choice_match": true,
+      "endpoint_match": true,
+      "E_match": true,
+      "mu_match": true,
+      "strict_topology_match": true,
+      "mismatch_reasons": []
+    },
+    "failure_detail": null
+  },
+  {
+    "maze_id": "maze_00033",
+    "failure_code": null,
+    "strict_validation": {
+      "planned": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "extracted": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "choice_match": true,
+      "endpoint_match": true,
+      "E_match": true,
+      "mu_match": true,
+      "strict_topology_match": true,
+      "mismatch_reasons": []
+    },
+    "failure_detail": null
+  },
+  {
+    "maze_id": "maze_00034",
+    "failure_code": null,
+    "strict_validation": {
+      "planned": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "extracted": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "choice_match": true,
+      "endpoint_match": true,
+      "E_match": true,
+      "mu_match": true,
+      "strict_topology_match": true,
+      "mismatch_reasons": []
+    },
+    "failure_detail": null
+  },
+  {
+    "maze_id": "maze_00035",
+    "failure_code": null,
+    "strict_validation": {
+      "planned": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "extracted": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "choice_match": true,
+      "endpoint_match": true,
+      "E_match": true,
+      "mu_match": true,
+      "strict_topology_match": true,
+      "mismatch_reasons": []
+    },
+    "failure_detail": null
+  },
+  {
+    "maze_id": "maze_00039",
+    "failure_code": null,
+    "strict_validation": {
+      "planned": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "extracted": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "choice_match": true,
+      "endpoint_match": true,
+      "E_match": true,
+      "mu_match": true,
+      "strict_topology_match": true,
+      "mismatch_reasons": []
+    },
+    "failure_detail": null
+  },
+  {
+    "maze_id": "maze_00045",
+    "failure_code": null,
+    "strict_validation": {
+      "planned": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "extracted": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "choice_match": true,
+      "endpoint_match": true,
+      "E_match": true,
+      "mu_match": true,
+      "strict_topology_match": true,
+      "mismatch_reasons": []
+    },
+    "failure_detail": null
+  },
+  {
+    "maze_id": "maze_00051",
+    "failure_code": null,
+    "strict_validation": {
+      "planned": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "extracted": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "choice_match": true,
+      "endpoint_match": true,
+      "E_match": true,
+      "mu_match": true,
+      "strict_topology_match": true,
+      "mismatch_reasons": []
+    },
+    "failure_detail": null
+  },
+  {
+    "maze_id": "maze_00053",
+    "failure_code": "strict_topology_mismatch",
+    "strict_validation": {
+      "planned": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "extracted": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 6,
+        "mu": 1
+      },
+      "choice_match": true,
+      "endpoint_match": true,
+      "E_match": false,
+      "mu_match": false,
+      "strict_topology_match": false,
+      "mismatch_reasons": [
+        "edge_count_mismatch",
+        "cycle_rank_mismatch"
+      ]
+    },
+    "failure_detail": {
+      "strict_topology": {
+        "planned": {
+          "choice": 2,
+          "endpoint": 4,
+          "E": 5,
+          "mu": 0
+        },
+        "extracted": {
+          "choice": 2,
+          "endpoint": 4,
+          "E": 6,
+          "mu": 1
+        },
+        "choice_match": true,
+        "endpoint_match": true,
+        "E_match": false,
+        "mu_match": false,
+        "strict_topology_match": false,
+        "mismatch_reasons": [
+          "edge_count_mismatch",
+          "cycle_rank_mismatch"
+        ]
+      },
+      "room_component_count": 0,
+      "cell_degree_histogram": {
+        "2": 11,
+        "3": 2,
+        "1": 4
+      },
+      "edge_compression_debug": {
+        "traced_edge_count": 6,
+        "invalid_or_room_internal_edge_count": 0,
+        "dangling_trace_count": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00060",
+    "failure_code": null,
+    "strict_validation": {
+      "planned": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "extracted": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "choice_match": true,
+      "endpoint_match": true,
+      "E_match": true,
+      "mu_match": true,
+      "strict_topology_match": true,
+      "mismatch_reasons": []
+    },
+    "failure_detail": null
+  },
+  {
+    "maze_id": "maze_00061",
+    "failure_code": null,
+    "strict_validation": {
+      "planned": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "extracted": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "choice_match": true,
+      "endpoint_match": true,
+      "E_match": true,
+      "mu_match": true,
+      "strict_topology_match": true,
+      "mismatch_reasons": []
+    },
+    "failure_detail": null
+  },
+  {
+    "maze_id": "maze_00070",
+    "failure_code": null,
+    "strict_validation": {
+      "planned": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "extracted": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "choice_match": true,
+      "endpoint_match": true,
+      "E_match": true,
+      "mu_match": true,
+      "strict_topology_match": true,
+      "mismatch_reasons": []
+    },
+    "failure_detail": null
+  },
+  {
+    "maze_id": "maze_00072",
+    "failure_code": null,
+    "strict_validation": {
+      "planned": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "extracted": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "choice_match": true,
+      "endpoint_match": true,
+      "E_match": true,
+      "mu_match": true,
+      "strict_topology_match": true,
+      "mismatch_reasons": []
+    },
+    "failure_detail": null
+  },
+  {
+    "maze_id": "maze_00073",
+    "failure_code": null,
+    "strict_validation": {
+      "planned": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "extracted": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "choice_match": true,
+      "endpoint_match": true,
+      "E_match": true,
+      "mu_match": true,
+      "strict_topology_match": true,
+      "mismatch_reasons": []
+    },
+    "failure_detail": null
+  },
+  {
+    "maze_id": "maze_00074",
+    "failure_code": null,
+    "strict_validation": {
+      "planned": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "extracted": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "choice_match": true,
+      "endpoint_match": true,
+      "E_match": true,
+      "mu_match": true,
+      "strict_topology_match": true,
+      "mismatch_reasons": []
+    },
+    "failure_detail": null
+  },
+  {
+    "maze_id": "maze_00075",
+    "failure_code": null,
+    "strict_validation": {
+      "planned": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "extracted": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "choice_match": true,
+      "endpoint_match": true,
+      "E_match": true,
+      "mu_match": true,
+      "strict_topology_match": true,
+      "mismatch_reasons": []
+    },
+    "failure_detail": null
+  },
+  {
+    "maze_id": "maze_00081",
+    "failure_code": null,
+    "strict_validation": {
+      "planned": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "extracted": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "choice_match": true,
+      "endpoint_match": true,
+      "E_match": true,
+      "mu_match": true,
+      "strict_topology_match": true,
+      "mismatch_reasons": []
+    },
+    "failure_detail": null
+  },
+  {
+    "maze_id": "maze_00083",
+    "failure_code": null,
+    "strict_validation": {
+      "planned": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "extracted": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "choice_match": true,
+      "endpoint_match": true,
+      "E_match": true,
+      "mu_match": true,
+      "strict_topology_match": true,
+      "mismatch_reasons": []
+    },
+    "failure_detail": null
+  },
+  {
+    "maze_id": "maze_00086",
+    "failure_code": null,
+    "strict_validation": {
+      "planned": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "extracted": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "choice_match": true,
+      "endpoint_match": true,
+      "E_match": true,
+      "mu_match": true,
+      "strict_topology_match": true,
+      "mismatch_reasons": []
+    },
+    "failure_detail": null
+  },
+  {
+    "maze_id": "maze_00087",
+    "failure_code": null,
+    "strict_validation": {
+      "planned": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "extracted": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "choice_match": true,
+      "endpoint_match": true,
+      "E_match": true,
+      "mu_match": true,
+      "strict_topology_match": true,
+      "mismatch_reasons": []
+    },
+    "failure_detail": null
+  },
+  {
+    "maze_id": "maze_00094",
+    "failure_code": null,
+    "strict_validation": {
+      "planned": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "extracted": {
+        "choice": 2,
+        "endpoint": 4,
+        "E": 5,
+        "mu": 0
+      },
+      "choice_match": true,
+      "endpoint_match": true,
+      "E_match": true,
+      "mu_match": true,
+      "strict_topology_match": true,
+      "mismatch_reasons": []
+    },
+    "failure_detail": null
+  }
+]

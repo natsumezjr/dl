@@ -1,0 +1,4002 @@
+[
+  {
+    "maze_id": "maze_00000",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 22,
+    "main_D": 8,
+    "main_detour": 2.75,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 22,
+        "D": 8,
+        "detour": 2.75
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 1.4,
+        "alternative_edge_count": 0.4,
+        "island_component_count": 0.2
+      },
+      "normalized_counts": {
+        "dead_edge_count": 1,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00001",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 26,
+    "main_D": 8,
+    "main_detour": 3.25,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 26,
+        "D": 8,
+        "detour": 3.25
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 2.8,
+        "alternative_edge_count": 0.8,
+        "island_component_count": 0.4
+      },
+      "normalized_counts": {
+        "dead_edge_count": 3,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00002",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 16,
+    "main_D": 8,
+    "main_detour": 2.0,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 16,
+        "D": 8,
+        "detour": 2.0
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 0.7,
+        "alternative_edge_count": 1.1,
+        "island_component_count": 0.2
+      },
+      "normalized_counts": {
+        "dead_edge_count": 1,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00003",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 19,
+    "main_D": 9,
+    "main_detour": 2.111111111111111,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 19,
+        "D": 9,
+        "detour": 2.111111111111111
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 2.0,
+        "alternative_edge_count": 1.0,
+        "island_component_count": 1.0
+      },
+      "normalized_counts": {
+        "dead_edge_count": 2,
+        "alternative_edge_count": 1,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00004",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 26,
+    "main_D": 10,
+    "main_detour": 2.6,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 26,
+        "D": 10,
+        "detour": 2.6
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 1.0499999999999998,
+        "alternative_edge_count": 1.6500000000000001,
+        "island_component_count": 0.30000000000000004
+      },
+      "normalized_counts": {
+        "dead_edge_count": 1,
+        "alternative_edge_count": 2,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00005",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 22,
+    "main_D": 8,
+    "main_detour": 2.75,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 22,
+        "D": 8,
+        "detour": 2.75
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 1.0,
+        "alternative_edge_count": 0.5,
+        "island_component_count": 0.5
+      },
+      "normalized_counts": {
+        "dead_edge_count": 1,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00006",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 23,
+    "main_D": 11,
+    "main_detour": 2.090909090909091,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 23,
+        "D": 11,
+        "detour": 2.090909090909091
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 2.0999999999999996,
+        "alternative_edge_count": 0.6000000000000001,
+        "island_component_count": 0.30000000000000004
+      },
+      "normalized_counts": {
+        "dead_edge_count": 2,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00007",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 17,
+    "main_D": 9,
+    "main_detour": 1.8888888888888888,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 17,
+        "D": 9,
+        "detour": 1.8888888888888888
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 1.4,
+        "alternative_edge_count": 0.4,
+        "island_component_count": 0.2
+      },
+      "normalized_counts": {
+        "dead_edge_count": 1,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00008",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 26,
+    "main_D": 6,
+    "main_detour": 4.333333333333333,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 26,
+        "D": 6,
+        "detour": 4.333333333333333
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 4.199999999999999,
+        "alternative_edge_count": 1.2000000000000002,
+        "island_component_count": 0.6000000000000001
+      },
+      "normalized_counts": {
+        "dead_edge_count": 4,
+        "alternative_edge_count": 1,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00009",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 13,
+    "main_D": 9,
+    "main_detour": 1.4444444444444444,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 13,
+        "D": 9,
+        "detour": 1.4444444444444444
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 1.5,
+        "alternative_edge_count": 0.75,
+        "island_component_count": 0.75
+      },
+      "normalized_counts": {
+        "dead_edge_count": 1,
+        "alternative_edge_count": 1,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00010",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 23,
+    "main_D": 9,
+    "main_detour": 2.5555555555555554,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 23,
+        "D": 9,
+        "detour": 2.5555555555555554
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 3.5,
+        "alternative_edge_count": 1.0,
+        "island_component_count": 0.5
+      },
+      "normalized_counts": {
+        "dead_edge_count": 4,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00011",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 13,
+    "main_D": 9,
+    "main_detour": 1.4444444444444444,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 13,
+        "D": 9,
+        "detour": 1.4444444444444444
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 1.0,
+        "alternative_edge_count": 0.5,
+        "island_component_count": 0.5
+      },
+      "normalized_counts": {
+        "dead_edge_count": 1,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00012",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 14,
+    "main_D": 10,
+    "main_detour": 1.4,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 14,
+        "D": 10,
+        "detour": 1.4
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 1.5,
+        "alternative_edge_count": 0.75,
+        "island_component_count": 0.75
+      },
+      "normalized_counts": {
+        "dead_edge_count": 1,
+        "alternative_edge_count": 1,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00013",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 19,
+    "main_D": 7,
+    "main_detour": 2.7142857142857144,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 19,
+        "D": 7,
+        "detour": 2.7142857142857144
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 1.4,
+        "alternative_edge_count": 2.2,
+        "island_component_count": 0.4
+      },
+      "normalized_counts": {
+        "dead_edge_count": 1,
+        "alternative_edge_count": 2,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00014",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 16,
+    "main_D": 12,
+    "main_detour": 1.3333333333333333,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 16,
+        "D": 12,
+        "detour": 1.3333333333333333
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 3.5,
+        "alternative_edge_count": 1.0,
+        "island_component_count": 0.5
+      },
+      "normalized_counts": {
+        "dead_edge_count": 4,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00015",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 19,
+    "main_D": 9,
+    "main_detour": 2.111111111111111,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 19,
+        "D": 9,
+        "detour": 2.111111111111111
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 0.7,
+        "alternative_edge_count": 1.1,
+        "island_component_count": 0.2
+      },
+      "normalized_counts": {
+        "dead_edge_count": 1,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00016",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 16,
+    "main_D": 8,
+    "main_detour": 2.0,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 16,
+        "D": 8,
+        "detour": 2.0
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 1.4,
+        "alternative_edge_count": 0.4,
+        "island_component_count": 0.2
+      },
+      "normalized_counts": {
+        "dead_edge_count": 1,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00017",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 14,
+    "main_D": 6,
+    "main_detour": 2.3333333333333335,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 14,
+        "D": 6,
+        "detour": 2.3333333333333335
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 1.5,
+        "alternative_edge_count": 0.75,
+        "island_component_count": 0.75
+      },
+      "normalized_counts": {
+        "dead_edge_count": 1,
+        "alternative_edge_count": 1,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00018",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 22,
+    "main_D": 6,
+    "main_detour": 3.6666666666666665,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 22,
+        "D": 6,
+        "detour": 3.6666666666666665
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 2.0999999999999996,
+        "alternative_edge_count": 3.3000000000000003,
+        "island_component_count": 0.6000000000000001
+      },
+      "normalized_counts": {
+        "dead_edge_count": 2,
+        "alternative_edge_count": 3,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00019",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 20,
+    "main_D": 8,
+    "main_detour": 2.5,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 20,
+        "D": 8,
+        "detour": 2.5
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 4.199999999999999,
+        "alternative_edge_count": 1.2000000000000002,
+        "island_component_count": 0.6000000000000001
+      },
+      "normalized_counts": {
+        "dead_edge_count": 4,
+        "alternative_edge_count": 1,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00020",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 18,
+    "main_D": 10,
+    "main_detour": 1.8,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 18,
+        "D": 10,
+        "detour": 1.8
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 1.75,
+        "alternative_edge_count": 2.75,
+        "island_component_count": 0.5
+      },
+      "normalized_counts": {
+        "dead_edge_count": 2,
+        "alternative_edge_count": 3,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00021",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 18,
+    "main_D": 10,
+    "main_detour": 1.8,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 18,
+        "D": 10,
+        "detour": 1.8
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 1.4,
+        "alternative_edge_count": 0.4,
+        "island_component_count": 0.2
+      },
+      "normalized_counts": {
+        "dead_edge_count": 1,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00022",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 20,
+    "main_D": 10,
+    "main_detour": 2.0,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 20,
+        "D": 10,
+        "detour": 2.0
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 1.5,
+        "alternative_edge_count": 0.75,
+        "island_component_count": 0.75
+      },
+      "normalized_counts": {
+        "dead_edge_count": 1,
+        "alternative_edge_count": 1,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00023",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 24,
+    "main_D": 8,
+    "main_detour": 3.0,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 24,
+        "D": 8,
+        "detour": 3.0
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 2.0999999999999996,
+        "alternative_edge_count": 3.3000000000000003,
+        "island_component_count": 0.6000000000000001
+      },
+      "normalized_counts": {
+        "dead_edge_count": 2,
+        "alternative_edge_count": 3,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00024",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 18,
+    "main_D": 8,
+    "main_detour": 2.25,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 18,
+        "D": 8,
+        "detour": 2.25
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 1.4,
+        "alternative_edge_count": 0.4,
+        "island_component_count": 0.2
+      },
+      "normalized_counts": {
+        "dead_edge_count": 1,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00025",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 14,
+    "main_D": 10,
+    "main_detour": 1.4,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 14,
+        "D": 10,
+        "detour": 1.4
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 2.0999999999999996,
+        "alternative_edge_count": 3.3000000000000003,
+        "island_component_count": 0.6000000000000001
+      },
+      "normalized_counts": {
+        "dead_edge_count": 2,
+        "alternative_edge_count": 3,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00026",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 22,
+    "main_D": 8,
+    "main_detour": 2.75,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 22,
+        "D": 8,
+        "detour": 2.75
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 2.8,
+        "alternative_edge_count": 0.8,
+        "island_component_count": 0.4
+      },
+      "normalized_counts": {
+        "dead_edge_count": 3,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00027",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 27,
+    "main_D": 7,
+    "main_detour": 3.857142857142857,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 27,
+        "D": 7,
+        "detour": 3.857142857142857
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 2.8,
+        "alternative_edge_count": 0.8,
+        "island_component_count": 0.4
+      },
+      "normalized_counts": {
+        "dead_edge_count": 3,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00028",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 22,
+    "main_D": 6,
+    "main_detour": 3.6666666666666665,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 22,
+        "D": 6,
+        "detour": 3.6666666666666665
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 3.0,
+        "alternative_edge_count": 1.5,
+        "island_component_count": 1.5
+      },
+      "normalized_counts": {
+        "dead_edge_count": 2,
+        "alternative_edge_count": 2,
+        "island_component_count": 2
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00029",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 25,
+    "main_D": 9,
+    "main_detour": 2.7777777777777777,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 25,
+        "D": 9,
+        "detour": 2.7777777777777777
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 2.0,
+        "alternative_edge_count": 1.0,
+        "island_component_count": 1.0
+      },
+      "normalized_counts": {
+        "dead_edge_count": 2,
+        "alternative_edge_count": 1,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00030",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 18,
+    "main_D": 8,
+    "main_detour": 2.25,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 18,
+        "D": 8,
+        "detour": 2.25
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 3.5,
+        "alternative_edge_count": 1.0,
+        "island_component_count": 0.5
+      },
+      "normalized_counts": {
+        "dead_edge_count": 4,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00031",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 15,
+    "main_D": 7,
+    "main_detour": 2.142857142857143,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 15,
+        "D": 7,
+        "detour": 2.142857142857143
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 1.5,
+        "alternative_edge_count": 0.75,
+        "island_component_count": 0.75
+      },
+      "normalized_counts": {
+        "dead_edge_count": 1,
+        "alternative_edge_count": 1,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00032",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 19,
+    "main_D": 7,
+    "main_detour": 2.7142857142857144,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 19,
+        "D": 7,
+        "detour": 2.7142857142857144
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 4.199999999999999,
+        "alternative_edge_count": 1.2000000000000002,
+        "island_component_count": 0.6000000000000001
+      },
+      "normalized_counts": {
+        "dead_edge_count": 4,
+        "alternative_edge_count": 1,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00033",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 18,
+    "main_D": 8,
+    "main_detour": 2.25,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 18,
+        "D": 8,
+        "detour": 2.25
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 2.0999999999999996,
+        "alternative_edge_count": 0.6000000000000001,
+        "island_component_count": 0.30000000000000004
+      },
+      "normalized_counts": {
+        "dead_edge_count": 2,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00034",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 20,
+    "main_D": 6,
+    "main_detour": 3.3333333333333335,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 20,
+        "D": 6,
+        "detour": 3.3333333333333335
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 0.7,
+        "alternative_edge_count": 1.1,
+        "island_component_count": 0.2
+      },
+      "normalized_counts": {
+        "dead_edge_count": 1,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00035",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 17,
+    "main_D": 9,
+    "main_detour": 1.8888888888888888,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 17,
+        "D": 9,
+        "detour": 1.8888888888888888
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 2.8,
+        "alternative_edge_count": 0.8,
+        "island_component_count": 0.4
+      },
+      "normalized_counts": {
+        "dead_edge_count": 3,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00036",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 13,
+    "main_D": 11,
+    "main_detour": 1.1818181818181819,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 13,
+        "D": 11,
+        "detour": 1.1818181818181819
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 2.5,
+        "alternative_edge_count": 1.25,
+        "island_component_count": 1.25
+      },
+      "normalized_counts": {
+        "dead_edge_count": 3,
+        "alternative_edge_count": 1,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00037",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 19,
+    "main_D": 9,
+    "main_detour": 2.111111111111111,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 19,
+        "D": 9,
+        "detour": 2.111111111111111
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 2.8,
+        "alternative_edge_count": 0.8,
+        "island_component_count": 0.4
+      },
+      "normalized_counts": {
+        "dead_edge_count": 3,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00038",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 13,
+    "main_D": 11,
+    "main_detour": 1.1818181818181819,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 13,
+        "D": 11,
+        "detour": 1.1818181818181819
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 2.5,
+        "alternative_edge_count": 1.25,
+        "island_component_count": 1.25
+      },
+      "normalized_counts": {
+        "dead_edge_count": 3,
+        "alternative_edge_count": 1,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00039",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 21,
+    "main_D": 9,
+    "main_detour": 2.3333333333333335,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 21,
+        "D": 9,
+        "detour": 2.3333333333333335
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 3.5,
+        "alternative_edge_count": 1.0,
+        "island_component_count": 0.5
+      },
+      "normalized_counts": {
+        "dead_edge_count": 4,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00040",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 15,
+    "main_D": 7,
+    "main_detour": 2.142857142857143,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 15,
+        "D": 7,
+        "detour": 2.142857142857143
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 2.0,
+        "alternative_edge_count": 1.0,
+        "island_component_count": 1.0
+      },
+      "normalized_counts": {
+        "dead_edge_count": 2,
+        "alternative_edge_count": 1,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00041",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 26,
+    "main_D": 8,
+    "main_detour": 3.25,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 26,
+        "D": 8,
+        "detour": 3.25
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 2.0999999999999996,
+        "alternative_edge_count": 0.6000000000000001,
+        "island_component_count": 0.30000000000000004
+      },
+      "normalized_counts": {
+        "dead_edge_count": 2,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00042",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 20,
+    "main_D": 10,
+    "main_detour": 2.0,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 20,
+        "D": 10,
+        "detour": 2.0
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 3.0,
+        "alternative_edge_count": 1.5,
+        "island_component_count": 1.5
+      },
+      "normalized_counts": {
+        "dead_edge_count": 2,
+        "alternative_edge_count": 2,
+        "island_component_count": 2
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00043",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 13,
+    "main_D": 9,
+    "main_detour": 1.4444444444444444,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 13,
+        "D": 9,
+        "detour": 1.4444444444444444
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 2.0,
+        "alternative_edge_count": 1.0,
+        "island_component_count": 1.0
+      },
+      "normalized_counts": {
+        "dead_edge_count": 2,
+        "alternative_edge_count": 1,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00044",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 21,
+    "main_D": 9,
+    "main_detour": 2.3333333333333335,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 21,
+        "D": 9,
+        "detour": 2.3333333333333335
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 1.75,
+        "alternative_edge_count": 2.75,
+        "island_component_count": 0.5
+      },
+      "normalized_counts": {
+        "dead_edge_count": 2,
+        "alternative_edge_count": 3,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00045",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 25,
+    "main_D": 7,
+    "main_detour": 3.5714285714285716,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 25,
+        "D": 7,
+        "detour": 3.5714285714285716
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 3.5,
+        "alternative_edge_count": 1.0,
+        "island_component_count": 0.5
+      },
+      "normalized_counts": {
+        "dead_edge_count": 4,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00046",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 27,
+    "main_D": 9,
+    "main_detour": 3.0,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 27,
+        "D": 9,
+        "detour": 3.0
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 1.5,
+        "alternative_edge_count": 0.75,
+        "island_component_count": 0.75
+      },
+      "normalized_counts": {
+        "dead_edge_count": 1,
+        "alternative_edge_count": 1,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00047",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 22,
+    "main_D": 10,
+    "main_detour": 2.2,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 22,
+        "D": 10,
+        "detour": 2.2
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 1.0,
+        "alternative_edge_count": 0.5,
+        "island_component_count": 0.5
+      },
+      "normalized_counts": {
+        "dead_edge_count": 1,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00048",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 16,
+    "main_D": 8,
+    "main_detour": 2.0,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 16,
+        "D": 8,
+        "detour": 2.0
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 1.0499999999999998,
+        "alternative_edge_count": 1.6500000000000001,
+        "island_component_count": 0.30000000000000004
+      },
+      "normalized_counts": {
+        "dead_edge_count": 1,
+        "alternative_edge_count": 2,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00049",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 24,
+    "main_D": 10,
+    "main_detour": 2.4,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 24,
+        "D": 10,
+        "detour": 2.4
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 4.199999999999999,
+        "alternative_edge_count": 1.2000000000000002,
+        "island_component_count": 0.6000000000000001
+      },
+      "normalized_counts": {
+        "dead_edge_count": 4,
+        "alternative_edge_count": 1,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00050",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 14,
+    "main_D": 12,
+    "main_detour": 1.1666666666666667,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 14,
+        "D": 12,
+        "detour": 1.1666666666666667
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 1.0499999999999998,
+        "alternative_edge_count": 1.6500000000000001,
+        "island_component_count": 0.30000000000000004
+      },
+      "normalized_counts": {
+        "dead_edge_count": 1,
+        "alternative_edge_count": 2,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00051",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 17,
+    "main_D": 11,
+    "main_detour": 1.5454545454545454,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 17,
+        "D": 11,
+        "detour": 1.5454545454545454
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 4.199999999999999,
+        "alternative_edge_count": 1.2000000000000002,
+        "island_component_count": 0.6000000000000001
+      },
+      "normalized_counts": {
+        "dead_edge_count": 4,
+        "alternative_edge_count": 1,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00052",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 24,
+    "main_D": 10,
+    "main_detour": 2.4,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 24,
+        "D": 10,
+        "detour": 2.4
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 1.4,
+        "alternative_edge_count": 2.2,
+        "island_component_count": 0.4
+      },
+      "normalized_counts": {
+        "dead_edge_count": 1,
+        "alternative_edge_count": 2,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00053",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 14,
+    "main_D": 10,
+    "main_detour": 1.4,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 14,
+        "D": 10,
+        "detour": 1.4
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 0.7,
+        "alternative_edge_count": 1.1,
+        "island_component_count": 0.2
+      },
+      "normalized_counts": {
+        "dead_edge_count": 1,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00054",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 19,
+    "main_D": 9,
+    "main_detour": 2.111111111111111,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 19,
+        "D": 9,
+        "detour": 2.111111111111111
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 1.4,
+        "alternative_edge_count": 2.2,
+        "island_component_count": 0.4
+      },
+      "normalized_counts": {
+        "dead_edge_count": 1,
+        "alternative_edge_count": 2,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00055",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 12,
+    "main_D": 6,
+    "main_detour": 2.0,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 12,
+        "D": 6,
+        "detour": 2.0
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 1.4,
+        "alternative_edge_count": 0.4,
+        "island_component_count": 0.2
+      },
+      "normalized_counts": {
+        "dead_edge_count": 1,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00056",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 21,
+    "main_D": 9,
+    "main_detour": 2.3333333333333335,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 21,
+        "D": 9,
+        "detour": 2.3333333333333335
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 1.4,
+        "alternative_edge_count": 2.2,
+        "island_component_count": 0.4
+      },
+      "normalized_counts": {
+        "dead_edge_count": 1,
+        "alternative_edge_count": 2,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00057",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 15,
+    "main_D": 11,
+    "main_detour": 1.3636363636363635,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 15,
+        "D": 11,
+        "detour": 1.3636363636363635
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 3.0,
+        "alternative_edge_count": 1.5,
+        "island_component_count": 1.5
+      },
+      "normalized_counts": {
+        "dead_edge_count": 2,
+        "alternative_edge_count": 2,
+        "island_component_count": 2
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00058",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 21,
+    "main_D": 7,
+    "main_detour": 3.0,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 21,
+        "D": 7,
+        "detour": 3.0
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 2.0,
+        "alternative_edge_count": 1.0,
+        "island_component_count": 1.0
+      },
+      "normalized_counts": {
+        "dead_edge_count": 2,
+        "alternative_edge_count": 1,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00059",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 30,
+    "main_D": 10,
+    "main_detour": 3.0,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 30,
+        "D": 10,
+        "detour": 3.0
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 4.199999999999999,
+        "alternative_edge_count": 1.2000000000000002,
+        "island_component_count": 0.6000000000000001
+      },
+      "normalized_counts": {
+        "dead_edge_count": 4,
+        "alternative_edge_count": 1,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00060",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 26,
+    "main_D": 8,
+    "main_detour": 3.25,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 26,
+        "D": 8,
+        "detour": 3.25
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 1.4,
+        "alternative_edge_count": 0.4,
+        "island_component_count": 0.2
+      },
+      "normalized_counts": {
+        "dead_edge_count": 1,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00061",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 22,
+    "main_D": 10,
+    "main_detour": 2.2,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 22,
+        "D": 10,
+        "detour": 2.2
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 2.8,
+        "alternative_edge_count": 0.8,
+        "island_component_count": 0.4
+      },
+      "normalized_counts": {
+        "dead_edge_count": 3,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00062",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 18,
+    "main_D": 8,
+    "main_detour": 2.25,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 18,
+        "D": 8,
+        "detour": 2.25
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 2.8,
+        "alternative_edge_count": 0.8,
+        "island_component_count": 0.4
+      },
+      "normalized_counts": {
+        "dead_edge_count": 3,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00063",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 15,
+    "main_D": 11,
+    "main_detour": 1.3636363636363635,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 15,
+        "D": 11,
+        "detour": 1.3636363636363635
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 2.0999999999999996,
+        "alternative_edge_count": 0.6000000000000001,
+        "island_component_count": 0.30000000000000004
+      },
+      "normalized_counts": {
+        "dead_edge_count": 2,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00064",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 21,
+    "main_D": 9,
+    "main_detour": 2.3333333333333335,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 21,
+        "D": 9,
+        "detour": 2.3333333333333335
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 3.5,
+        "alternative_edge_count": 1.0,
+        "island_component_count": 0.5
+      },
+      "normalized_counts": {
+        "dead_edge_count": 4,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00065",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 25,
+    "main_D": 7,
+    "main_detour": 3.5714285714285716,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 25,
+        "D": 7,
+        "detour": 3.5714285714285716
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 2.0999999999999996,
+        "alternative_edge_count": 0.6000000000000001,
+        "island_component_count": 0.30000000000000004
+      },
+      "normalized_counts": {
+        "dead_edge_count": 2,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00066",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 13,
+    "main_D": 7,
+    "main_detour": 1.8571428571428572,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 13,
+        "D": 7,
+        "detour": 1.8571428571428572
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 1.4,
+        "alternative_edge_count": 0.4,
+        "island_component_count": 0.2
+      },
+      "normalized_counts": {
+        "dead_edge_count": 1,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00067",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 21,
+    "main_D": 9,
+    "main_detour": 2.3333333333333335,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 21,
+        "D": 9,
+        "detour": 2.3333333333333335
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 1.5,
+        "alternative_edge_count": 0.75,
+        "island_component_count": 0.75
+      },
+      "normalized_counts": {
+        "dead_edge_count": 1,
+        "alternative_edge_count": 1,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00068",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 21,
+    "main_D": 11,
+    "main_detour": 1.9090909090909092,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 21,
+        "D": 11,
+        "detour": 1.9090909090909092
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 2.0,
+        "alternative_edge_count": 1.0,
+        "island_component_count": 1.0
+      },
+      "normalized_counts": {
+        "dead_edge_count": 2,
+        "alternative_edge_count": 1,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00069",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 22,
+    "main_D": 10,
+    "main_detour": 2.2,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 22,
+        "D": 10,
+        "detour": 2.2
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 1.75,
+        "alternative_edge_count": 2.75,
+        "island_component_count": 0.5
+      },
+      "normalized_counts": {
+        "dead_edge_count": 2,
+        "alternative_edge_count": 3,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00070",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 28,
+    "main_D": 8,
+    "main_detour": 3.5,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 28,
+        "D": 8,
+        "detour": 3.5
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 3.5,
+        "alternative_edge_count": 1.0,
+        "island_component_count": 0.5
+      },
+      "normalized_counts": {
+        "dead_edge_count": 4,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00071",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 13,
+    "main_D": 11,
+    "main_detour": 1.1818181818181819,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 13,
+        "D": 11,
+        "detour": 1.1818181818181819
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 3.0,
+        "alternative_edge_count": 1.5,
+        "island_component_count": 1.5
+      },
+      "normalized_counts": {
+        "dead_edge_count": 2,
+        "alternative_edge_count": 2,
+        "island_component_count": 2
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00072",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 25,
+    "main_D": 7,
+    "main_detour": 3.5714285714285716,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 25,
+        "D": 7,
+        "detour": 3.5714285714285716
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 1.5,
+        "alternative_edge_count": 0.75,
+        "island_component_count": 0.75
+      },
+      "normalized_counts": {
+        "dead_edge_count": 1,
+        "alternative_edge_count": 1,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00073",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 22,
+    "main_D": 10,
+    "main_detour": 2.2,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 22,
+        "D": 10,
+        "detour": 2.2
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 4.199999999999999,
+        "alternative_edge_count": 1.2000000000000002,
+        "island_component_count": 0.6000000000000001
+      },
+      "normalized_counts": {
+        "dead_edge_count": 4,
+        "alternative_edge_count": 1,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00074",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 17,
+    "main_D": 11,
+    "main_detour": 1.5454545454545454,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 17,
+        "D": 11,
+        "detour": 1.5454545454545454
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 2.0999999999999996,
+        "alternative_edge_count": 3.3000000000000003,
+        "island_component_count": 0.6000000000000001
+      },
+      "normalized_counts": {
+        "dead_edge_count": 2,
+        "alternative_edge_count": 3,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00075",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 16,
+    "main_D": 10,
+    "main_detour": 1.6,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 16,
+        "D": 10,
+        "detour": 1.6
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 0.7,
+        "alternative_edge_count": 1.1,
+        "island_component_count": 0.2
+      },
+      "normalized_counts": {
+        "dead_edge_count": 1,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00076",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 22,
+    "main_D": 8,
+    "main_detour": 2.75,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 22,
+        "D": 8,
+        "detour": 2.75
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 1.4,
+        "alternative_edge_count": 2.2,
+        "island_component_count": 0.4
+      },
+      "normalized_counts": {
+        "dead_edge_count": 1,
+        "alternative_edge_count": 2,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00077",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 13,
+    "main_D": 11,
+    "main_detour": 1.1818181818181819,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 13,
+        "D": 11,
+        "detour": 1.1818181818181819
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 1.75,
+        "alternative_edge_count": 2.75,
+        "island_component_count": 0.5
+      },
+      "normalized_counts": {
+        "dead_edge_count": 2,
+        "alternative_edge_count": 3,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00078",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 13,
+    "main_D": 7,
+    "main_detour": 1.8571428571428572,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 13,
+        "D": 7,
+        "detour": 1.8571428571428572
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 4.199999999999999,
+        "alternative_edge_count": 1.2000000000000002,
+        "island_component_count": 0.6000000000000001
+      },
+      "normalized_counts": {
+        "dead_edge_count": 4,
+        "alternative_edge_count": 1,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00079",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 17,
+    "main_D": 9,
+    "main_detour": 1.8888888888888888,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 17,
+        "D": 9,
+        "detour": 1.8888888888888888
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 2.0999999999999996,
+        "alternative_edge_count": 3.3000000000000003,
+        "island_component_count": 0.6000000000000001
+      },
+      "normalized_counts": {
+        "dead_edge_count": 2,
+        "alternative_edge_count": 3,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00080",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 16,
+    "main_D": 6,
+    "main_detour": 2.6666666666666665,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 16,
+        "D": 6,
+        "detour": 2.6666666666666665
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 1.4,
+        "alternative_edge_count": 0.4,
+        "island_component_count": 0.2
+      },
+      "normalized_counts": {
+        "dead_edge_count": 1,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00081",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 27,
+    "main_D": 9,
+    "main_detour": 3.0,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 27,
+        "D": 9,
+        "detour": 3.0
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 2.0999999999999996,
+        "alternative_edge_count": 0.6000000000000001,
+        "island_component_count": 0.30000000000000004
+      },
+      "normalized_counts": {
+        "dead_edge_count": 2,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00082",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 20,
+    "main_D": 8,
+    "main_detour": 2.5,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 20,
+        "D": 8,
+        "detour": 2.5
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 2.5,
+        "alternative_edge_count": 1.25,
+        "island_component_count": 1.25
+      },
+      "normalized_counts": {
+        "dead_edge_count": 3,
+        "alternative_edge_count": 1,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00083",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 19,
+    "main_D": 7,
+    "main_detour": 2.7142857142857144,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 19,
+        "D": 7,
+        "detour": 2.7142857142857144
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 1.75,
+        "alternative_edge_count": 2.75,
+        "island_component_count": 0.5
+      },
+      "normalized_counts": {
+        "dead_edge_count": 2,
+        "alternative_edge_count": 3,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00084",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 18,
+    "main_D": 12,
+    "main_detour": 1.5,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 18,
+        "D": 12,
+        "detour": 1.5
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 2.5,
+        "alternative_edge_count": 1.25,
+        "island_component_count": 1.25
+      },
+      "normalized_counts": {
+        "dead_edge_count": 3,
+        "alternative_edge_count": 1,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00085",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 27,
+    "main_D": 11,
+    "main_detour": 2.4545454545454546,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 27,
+        "D": 11,
+        "detour": 2.4545454545454546
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 2.0999999999999996,
+        "alternative_edge_count": 3.3000000000000003,
+        "island_component_count": 0.6000000000000001
+      },
+      "normalized_counts": {
+        "dead_edge_count": 2,
+        "alternative_edge_count": 3,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00086",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 27,
+    "main_D": 9,
+    "main_detour": 3.0,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 27,
+        "D": 9,
+        "detour": 3.0
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 2.5,
+        "alternative_edge_count": 1.25,
+        "island_component_count": 1.25
+      },
+      "normalized_counts": {
+        "dead_edge_count": 3,
+        "alternative_edge_count": 1,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00087",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 23,
+    "main_D": 7,
+    "main_detour": 3.2857142857142856,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 23,
+        "D": 7,
+        "detour": 3.2857142857142856
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 1.4,
+        "alternative_edge_count": 2.2,
+        "island_component_count": 0.4
+      },
+      "normalized_counts": {
+        "dead_edge_count": 1,
+        "alternative_edge_count": 2,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00088",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 21,
+    "main_D": 11,
+    "main_detour": 1.9090909090909092,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 21,
+        "D": 11,
+        "detour": 1.9090909090909092
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 3.0,
+        "alternative_edge_count": 1.5,
+        "island_component_count": 1.5
+      },
+      "normalized_counts": {
+        "dead_edge_count": 2,
+        "alternative_edge_count": 2,
+        "island_component_count": 2
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00089",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 26,
+    "main_D": 10,
+    "main_detour": 2.6,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 26,
+        "D": 10,
+        "detour": 2.6
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 2.0999999999999996,
+        "alternative_edge_count": 3.3000000000000003,
+        "island_component_count": 0.6000000000000001
+      },
+      "normalized_counts": {
+        "dead_edge_count": 2,
+        "alternative_edge_count": 3,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00090",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 18,
+    "main_D": 10,
+    "main_detour": 1.8,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 18,
+        "D": 10,
+        "detour": 1.8
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 2.8,
+        "alternative_edge_count": 0.8,
+        "island_component_count": 0.4
+      },
+      "normalized_counts": {
+        "dead_edge_count": 3,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00091",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 26,
+    "main_D": 10,
+    "main_detour": 2.6,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 26,
+        "D": 10,
+        "detour": 2.6
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 1.5,
+        "alternative_edge_count": 0.75,
+        "island_component_count": 0.75
+      },
+      "normalized_counts": {
+        "dead_edge_count": 1,
+        "alternative_edge_count": 1,
+        "island_component_count": 1
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00092",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 16,
+    "main_D": 10,
+    "main_detour": 1.6,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 16,
+        "D": 10,
+        "detour": 1.6
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 1.75,
+        "alternative_edge_count": 2.75,
+        "island_component_count": 0.5
+      },
+      "normalized_counts": {
+        "dead_edge_count": 2,
+        "alternative_edge_count": 3,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00093",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 19,
+    "main_D": 11,
+    "main_detour": 1.7272727272727273,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 19,
+        "D": 11,
+        "detour": 1.7272727272727273
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 3.5,
+        "alternative_edge_count": 1.0,
+        "island_component_count": 0.5
+      },
+      "normalized_counts": {
+        "dead_edge_count": 4,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00094",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 16,
+    "main_D": 8,
+    "main_detour": 2.0,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 16,
+        "D": 8,
+        "detour": 2.0
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 3.5,
+        "alternative_edge_count": 1.0,
+        "island_component_count": 0.5
+      },
+      "normalized_counts": {
+        "dead_edge_count": 4,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00095",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 20,
+    "main_D": 10,
+    "main_detour": 2.0,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 20,
+        "D": 10,
+        "detour": 2.0
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 2.0999999999999996,
+        "alternative_edge_count": 0.6000000000000001,
+        "island_component_count": 0.30000000000000004
+      },
+      "normalized_counts": {
+        "dead_edge_count": 2,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00096",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 30,
+    "main_D": 8,
+    "main_detour": 3.75,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 30,
+        "D": 8,
+        "detour": 3.75
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 1.0,
+        "alternative_edge_count": 0.5,
+        "island_component_count": 0.5
+      },
+      "normalized_counts": {
+        "dead_edge_count": 1,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00097",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 23,
+    "main_D": 11,
+    "main_detour": 2.090909090909091,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 23,
+        "D": 11,
+        "detour": 2.090909090909091
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 1.0499999999999998,
+        "alternative_edge_count": 1.6500000000000001,
+        "island_component_count": 0.30000000000000004
+      },
+      "normalized_counts": {
+        "dead_edge_count": 1,
+        "alternative_edge_count": 2,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00098",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 24,
+    "main_D": 10,
+    "main_detour": 2.4,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 24,
+        "D": 10,
+        "detour": 2.4
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 2.0999999999999996,
+        "alternative_edge_count": 0.6000000000000001,
+        "island_component_count": 0.30000000000000004
+      },
+      "normalized_counts": {
+        "dead_edge_count": 2,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  },
+  {
+    "maze_id": "maze_00099",
+    "profile": "diagnostic_main_island_only",
+    "graph_budget": 1,
+    "main_L": 12,
+    "main_D": 8,
+    "main_detour": 1.5,
+    "dead_edge_count": 0,
+    "alternative_edge_count": 0,
+    "island_component_count": 1,
+    "planned_edges": [
+      {
+        "edge_id": "planned_main",
+        "edge_type": "main_edge",
+        "L": 12,
+        "D": 8,
+        "detour": 1.5
+      }
+    ],
+    "planned_islands": [
+      {
+        "component_id": "planned_island_0",
+        "edge_type": "island_edge",
+        "free_budget": 4
+      }
+    ],
+    "sampling_debug": {
+      "raw_count_budget": {
+        "dead_edge_count": 2.0999999999999996,
+        "alternative_edge_count": 0.6000000000000001,
+        "island_component_count": 0.30000000000000004
+      },
+      "normalized_counts": {
+        "dead_edge_count": 2,
+        "alternative_edge_count": 1,
+        "island_component_count": 0
+      }
+    },
+    "alternative_planning_mode": "co_planned_with_main"
+  }
+]

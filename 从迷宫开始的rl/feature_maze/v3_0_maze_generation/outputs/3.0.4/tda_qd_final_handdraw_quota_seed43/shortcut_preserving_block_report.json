@@ -1,0 +1,9 @@
+{
+  "SPB_attempts": 268179,
+  "SPB_commit_count": 56917,
+  "SPB_rollback_count": 191143,
+  "avg_delta_bfs": 0.9735534721913933,
+  "avg_delta_endpoint": 0.2571968214122841,
+  "avg_delta_choice": -0.2826868671377778,
+  "avg_delta_cycle": -0.4167921124532353
+}

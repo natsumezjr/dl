@@ -1,0 +1,52 @@
+[
+  {
+    "maze_id": "maze_00028",
+    "failure_code": null,
+    "strict_validation": {
+      "planned": {
+        "choice": 3,
+        "endpoint": 3,
+        "E": 6,
+        "mu": 1
+      },
+      "extracted": {
+        "choice": 3,
+        "endpoint": 3,
+        "E": 6,
+        "mu": 1
+      },
+      "choice_match": true,
+      "endpoint_match": true,
+      "E_match": true,
+      "mu_match": true,
+      "strict_topology_match": true,
+      "mismatch_reasons": []
+    },
+    "failure_detail": null
+  },
+  {
+    "maze_id": "maze_00046",
+    "failure_code": null,
+    "strict_validation": {
+      "planned": {
+        "choice": 3,
+        "endpoint": 3,
+        "E": 6,
+        "mu": 1
+      },
+      "extracted": {
+        "choice": 3,
+        "endpoint": 3,
+        "E": 6,
+        "mu": 1
+      },
+      "choice_match": true,
+      "endpoint_match": true,
+      "E_match": true,
+      "mu_match": true,
+      "strict_topology_match": true,
+      "mismatch_reasons": []
+    },
+    "failure_detail": null
+  }
+]

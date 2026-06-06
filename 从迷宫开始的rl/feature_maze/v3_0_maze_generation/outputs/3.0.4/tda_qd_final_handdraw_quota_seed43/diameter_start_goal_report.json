@@ -1,0 +1,21 @@
+{
+  "diameter_pair_attempts": 1572064,
+  "diameter_pair_success": 52770,
+  "diameter_pair_fallback_count": 0,
+  "sfg_seed_bfs_before_diameter": {
+    "n": 52770,
+    "min": 3.0,
+    "p50": 6.0,
+    "mean": 6.149175667993178,
+    "max": 27.0
+  },
+  "sfg_seed_bfs_after_diameter": {
+    "n": 52770,
+    "min": 6.0,
+    "p50": 21.0,
+    "mean": 20.025696418419557,
+    "max": 36.0
+  },
+  "sfg_long_bfs_rate_before": 0.00034110289937464467,
+  "sfg_long_bfs_rate_after": 0.9507106310403638
+}

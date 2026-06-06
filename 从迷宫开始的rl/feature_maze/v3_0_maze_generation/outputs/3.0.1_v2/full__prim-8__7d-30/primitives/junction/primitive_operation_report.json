@@ -1,0 +1,100 @@
+[
+  {
+    "selected_count": 0,
+    "attempt_count": 0,
+    "success_count": 0,
+    "accept_count": 0,
+    "reject_count": 0,
+    "reject_reason_counts": {},
+    "operation_type": "dead_end_inject"
+  },
+  {
+    "selected_count": 320,
+    "attempt_count": 320,
+    "success_count": 320,
+    "accept_count": 68,
+    "reject_count": 252,
+    "reject_reason_counts": {
+      "metric_not_improved": 252
+    },
+    "operation_type": "branch_inject",
+    "mean_delta_detour_ratio": -0.022058823529411766,
+    "mean_delta_wall_ratio": -0.0390625,
+    "mean_delta_dead_end_ratio": -0.015121916383062732,
+    "mean_delta_dead_end_depth_mean": 0.025980392156862743,
+    "mean_delta_junction_ratio": 0.06806341633900506,
+    "mean_delta_island_free_ratio": -0.0005728832807940297,
+    "mean_delta_degree_3_ratio": 0.03098537455400435,
+    "mean_delta_degree_4_ratio": 0.03707804178500072,
+    "mean_delta_bfs_len": -0.17647058823529413
+  },
+  {
+    "selected_count": 0,
+    "attempt_count": 0,
+    "success_count": 0,
+    "accept_count": 0,
+    "reject_count": 0,
+    "reject_reason_counts": {},
+    "operation_type": "island_inject"
+  },
+  {
+    "selected_count": 56,
+    "attempt_count": 56,
+    "success_count": 56,
+    "accept_count": 24,
+    "reject_count": 32,
+    "reject_reason_counts": {
+      "metric_not_improved": 32
+    },
+    "operation_type": "safe_wall_add",
+    "mean_delta_detour_ratio": 0.03125,
+    "mean_delta_wall_ratio": 0.015625,
+    "mean_delta_dead_end_ratio": 0.00972710248590305,
+    "mean_delta_dead_end_depth_mean": 0.09236111111111112,
+    "mean_delta_junction_ratio": -0.034026182022490026,
+    "mean_delta_island_free_ratio": 0.0071032083960480595,
+    "mean_delta_degree_3_ratio": -0.015383803836169102,
+    "mean_delta_degree_4_ratio": -0.01864237818632091,
+    "mean_delta_bfs_len": 0.25
+  },
+  {
+    "selected_count": 216,
+    "attempt_count": 216,
+    "success_count": 216,
+    "accept_count": 99,
+    "reject_count": 117,
+    "reject_reason_counts": {
+      "metric_not_improved": 117
+    },
+    "operation_type": "safe_wall_remove",
+    "mean_delta_detour_ratio": 0.0,
+    "mean_delta_wall_ratio": -0.015625,
+    "mean_delta_dead_end_ratio": 0.0024095803333202583,
+    "mean_delta_dead_end_depth_mean": 0.028114478114478116,
+    "mean_delta_junction_ratio": 0.006416274686934925,
+    "mean_delta_island_free_ratio": 9.506633905931989e-05,
+    "mean_delta_degree_3_ratio": 0.002415144389861866,
+    "mean_delta_degree_4_ratio": 0.0040011302970730574,
+    "mean_delta_bfs_len": 0.0
+  },
+  {
+    "selected_count": 48,
+    "attempt_count": 48,
+    "success_count": 48,
+    "accept_count": 27,
+    "reject_count": 21,
+    "reject_reason_counts": {
+      "metric_not_improved": 21
+    },
+    "operation_type": "path_block_optional",
+    "mean_delta_detour_ratio": 0.10185185185185185,
+    "mean_delta_wall_ratio": 0.015625,
+    "mean_delta_dead_end_ratio": 0.014101926531332699,
+    "mean_delta_dead_end_depth_mean": 0.007407407407407406,
+    "mean_delta_junction_ratio": -0.052732269196111466,
+    "mean_delta_island_free_ratio": 0.0022642473142407476,
+    "mean_delta_degree_3_ratio": -0.011272087912653791,
+    "mean_delta_degree_4_ratio": -0.04146018128345767,
+    "mean_delta_bfs_len": 0.8148148148148148
+  }
+]

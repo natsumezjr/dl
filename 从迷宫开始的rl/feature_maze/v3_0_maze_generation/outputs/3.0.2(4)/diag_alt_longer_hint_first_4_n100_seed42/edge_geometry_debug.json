@@ -1,0 +1,4102 @@
+[
+  {
+    "maze_id": "maze_00000",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 16,
+        "D_path": 4,
+        "detour_path": 4.0,
+        "D_anchor": 8,
+        "detour_anchor": 2.0,
+        "anchor_geometry_mismatch": true,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_1",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 8,
+        "D_path": 6,
+        "detour_path": 1.3333333333333333,
+        "D_anchor": 6,
+        "detour_anchor": 1.3333333333333333,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00001",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 5,
+        "D_path": 5,
+        "detour_path": 1.0,
+        "D_anchor": 5,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 4,
+        "D_path": 4,
+        "detour_path": 1.0,
+        "D_anchor": 4,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_2",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 4,
+        "D_path": 4,
+        "detour_path": 1.0,
+        "D_anchor": 4,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_3",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint",
+        "L": 2,
+        "D_path": 2,
+        "detour_path": 1.0,
+        "D_anchor": 2,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_4",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00002",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 18,
+        "D_path": 4,
+        "detour_path": 4.5,
+        "D_anchor": 4,
+        "detour_anchor": 4.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 1,
+        "D_path": 1,
+        "detour_path": 1.0,
+        "D_anchor": 1,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 7,
+        "D_path": 5,
+        "detour_path": 1.4,
+        "D_anchor": 5,
+        "detour_anchor": 1.4,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00003",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 15,
+        "D_path": 5,
+        "detour_path": 3.0,
+        "D_anchor": 9,
+        "detour_anchor": 1.6666666666666667,
+        "anchor_geometry_mismatch": true,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_1",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00004",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 18,
+        "D_path": 4,
+        "detour_path": 4.5,
+        "D_anchor": 6,
+        "detour_anchor": 3.0,
+        "anchor_geometry_mismatch": true,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_1",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00005",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 6,
+        "D_path": 6,
+        "detour_path": 1.0,
+        "D_anchor": 6,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 3,
+        "D_path": 3,
+        "detour_path": 1.0,
+        "D_anchor": 3,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 11,
+        "D_path": 9,
+        "detour_path": 1.2222222222222223,
+        "D_anchor": 9,
+        "detour_anchor": 1.2222222222222223,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00006",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 10,
+        "D_path": 4,
+        "detour_path": 2.5,
+        "D_anchor": 9,
+        "detour_anchor": 1.1111111111111112,
+        "anchor_geometry_mismatch": true,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_1",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 7,
+        "D_path": 5,
+        "detour_path": 1.4,
+        "D_anchor": 5,
+        "detour_anchor": 1.4,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00007",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 4,
+        "D_path": 4,
+        "detour_path": 1.0,
+        "D_anchor": 4,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 15,
+        "D_path": 3,
+        "detour_path": 5.0,
+        "D_anchor": 3,
+        "detour_anchor": 5.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00008",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 5,
+        "D_path": 5,
+        "detour_path": 1.0,
+        "D_anchor": 5,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 9,
+        "D_path": 5,
+        "detour_path": 1.8,
+        "D_anchor": 5,
+        "detour_anchor": 1.8,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 8,
+        "D_path": 6,
+        "detour_path": 1.3333333333333333,
+        "D_anchor": 6,
+        "detour_anchor": 1.3333333333333333,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00009",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 17,
+        "D_path": 3,
+        "detour_path": 5.666666666666667,
+        "D_anchor": 3,
+        "detour_anchor": 5.666666666666667,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 4,
+        "D_path": 4,
+        "detour_path": 1.0,
+        "D_anchor": 4,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00010",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 13,
+        "D_path": 5,
+        "detour_path": 2.6,
+        "D_anchor": 5,
+        "detour_anchor": 2.6,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 3,
+        "D_path": 3,
+        "detour_path": 1.0,
+        "D_anchor": 3,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 7,
+        "D_path": 5,
+        "detour_path": 1.4,
+        "D_anchor": 5,
+        "detour_anchor": 1.4,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00011",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 9,
+        "D_path": 9,
+        "detour_path": 1.0,
+        "D_anchor": 9,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 13,
+        "D_path": 3,
+        "detour_path": 4.333333333333333,
+        "D_anchor": 3,
+        "detour_anchor": 4.333333333333333,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00012",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 13,
+        "D_path": 3,
+        "detour_path": 4.333333333333333,
+        "D_anchor": 7,
+        "detour_anchor": 1.8571428571428572,
+        "anchor_geometry_mismatch": true,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_1",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00013",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 13,
+        "D_path": 5,
+        "detour_path": 2.6,
+        "D_anchor": 11,
+        "detour_anchor": 1.1818181818181819,
+        "anchor_geometry_mismatch": true,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_1",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 8,
+        "D_path": 6,
+        "detour_path": 1.3333333333333333,
+        "D_anchor": 6,
+        "detour_anchor": 1.3333333333333333,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00014",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 18,
+        "D_path": 4,
+        "detour_path": 4.5,
+        "D_anchor": 8,
+        "detour_anchor": 2.25,
+        "anchor_geometry_mismatch": true,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_1",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00015",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 5,
+        "D_path": 3,
+        "detour_path": 1.6666666666666667,
+        "D_anchor": 4,
+        "detour_anchor": 1.25,
+        "anchor_geometry_mismatch": true,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "dead_edge",
+        "identity_source": null,
+        "L": 3,
+        "D_path": 3,
+        "detour_path": 1.0,
+        "D_anchor": 5,
+        "detour_anchor": 0.6,
+        "anchor_geometry_mismatch": true,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_2",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 16,
+        "D_path": 4,
+        "detour_path": 4.0,
+        "D_anchor": 4,
+        "detour_anchor": 4.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_3",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 10,
+        "D_path": 6,
+        "detour_path": 1.6666666666666667,
+        "D_anchor": 6,
+        "detour_anchor": 1.6666666666666667,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00016",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 1,
+        "D_path": 1,
+        "detour_path": 1.0,
+        "D_anchor": 1,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint",
+        "L": 2,
+        "D_path": 2,
+        "detour_path": 1.0,
+        "D_anchor": 2,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_2",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 4,
+        "D_path": 4,
+        "detour_path": 1.0,
+        "D_anchor": 4,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_3",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 10,
+        "D_path": 2,
+        "detour_path": 5.0,
+        "D_anchor": 2,
+        "detour_anchor": 5.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_4",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00017",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 1,
+        "D_path": 1,
+        "detour_path": 1.0,
+        "D_anchor": 1,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 9,
+        "D_path": 7,
+        "detour_path": 1.2857142857142858,
+        "D_anchor": 7,
+        "detour_anchor": 1.2857142857142858,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00018",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 1,
+        "D_path": 1,
+        "detour_path": 1.0,
+        "D_anchor": 1,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 15,
+        "D_path": 3,
+        "detour_path": 5.0,
+        "D_anchor": 3,
+        "detour_anchor": 5.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00019",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 5,
+        "D_path": 3,
+        "detour_path": 1.6666666666666667,
+        "D_anchor": 3,
+        "detour_anchor": 1.6666666666666667,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 9,
+        "D_path": 5,
+        "detour_path": 1.8,
+        "D_anchor": 5,
+        "detour_anchor": 1.8,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 7,
+        "D_path": 5,
+        "detour_path": 1.4,
+        "D_anchor": 5,
+        "detour_anchor": 1.4,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00020",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 14,
+        "D_path": 4,
+        "detour_path": 3.5,
+        "D_anchor": 4,
+        "detour_anchor": 3.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 1,
+        "D_path": 1,
+        "detour_path": 1.0,
+        "D_anchor": 1,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 7,
+        "D_path": 5,
+        "detour_path": 1.4,
+        "D_anchor": 5,
+        "detour_anchor": 1.4,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00021",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 1,
+        "D_path": 1,
+        "detour_path": 1.0,
+        "D_anchor": 1,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 17,
+        "D_path": 3,
+        "detour_path": 5.666666666666667,
+        "D_anchor": 3,
+        "detour_anchor": 5.666666666666667,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 8,
+        "D_path": 6,
+        "detour_path": 1.3333333333333333,
+        "D_anchor": 6,
+        "detour_anchor": 1.3333333333333333,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00022",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 16,
+        "D_path": 10,
+        "detour_path": 1.6,
+        "D_anchor": 10,
+        "detour_anchor": 1.6,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_1",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00023",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 5,
+        "D_path": 5,
+        "detour_path": 1.0,
+        "D_anchor": 5,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 8,
+        "D_path": 4,
+        "detour_path": 2.0,
+        "D_anchor": 4,
+        "detour_anchor": 2.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00024",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 12,
+        "D_path": 2,
+        "detour_path": 6.0,
+        "D_anchor": 2,
+        "detour_anchor": 6.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 2,
+        "D_path": 2,
+        "detour_path": 1.0,
+        "D_anchor": 2,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00025",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 1,
+        "D_path": 1,
+        "detour_path": 1.0,
+        "D_anchor": 1,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 13,
+        "D_path": 3,
+        "detour_path": 4.333333333333333,
+        "D_anchor": 3,
+        "detour_anchor": 4.333333333333333,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 7,
+        "D_path": 5,
+        "detour_path": 1.4,
+        "D_anchor": 5,
+        "detour_anchor": 1.4,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00026",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 5,
+        "D_path": 5,
+        "detour_path": 1.0,
+        "D_anchor": 5,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 6,
+        "D_path": 6,
+        "detour_path": 1.0,
+        "D_anchor": 6,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 9,
+        "D_path": 7,
+        "detour_path": 1.2857142857142858,
+        "D_anchor": 7,
+        "detour_anchor": 1.2857142857142858,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00027",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 13,
+        "D_path": 3,
+        "detour_path": 4.333333333333333,
+        "D_anchor": 6,
+        "detour_anchor": 2.1666666666666665,
+        "anchor_geometry_mismatch": true,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_1",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 9,
+        "D_path": 7,
+        "detour_path": 1.2857142857142858,
+        "D_anchor": 7,
+        "detour_anchor": 1.2857142857142858,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00028",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 12,
+        "D_path": 4,
+        "detour_path": 3.0,
+        "D_anchor": 8,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": true,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_1",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00029",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 16,
+        "D_path": 4,
+        "detour_path": 4.0,
+        "D_anchor": 4,
+        "detour_anchor": 4.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 4,
+        "D_path": 4,
+        "detour_path": 1.0,
+        "D_anchor": 4,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_2",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 3,
+        "D_path": 3,
+        "detour_path": 1.0,
+        "D_anchor": 3,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_3",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint",
+        "L": 3,
+        "D_path": 3,
+        "detour_path": 1.0,
+        "D_anchor": 3,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_4",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00030",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 7,
+        "D_path": 7,
+        "detour_path": 1.0,
+        "D_anchor": 7,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 10,
+        "D_path": 4,
+        "detour_path": 2.5,
+        "D_anchor": 4,
+        "detour_anchor": 2.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00031",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 6,
+        "D_path": 6,
+        "detour_path": 1.0,
+        "D_anchor": 6,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint",
+        "L": 3,
+        "D_path": 3,
+        "detour_path": 1.0,
+        "D_anchor": 3,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_2",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 4,
+        "D_path": 4,
+        "detour_path": 1.0,
+        "D_anchor": 4,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_3",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_4",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00032",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 5,
+        "D_path": 5,
+        "detour_path": 1.0,
+        "D_anchor": 5,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 4,
+        "D_path": 4,
+        "detour_path": 1.0,
+        "D_anchor": 4,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00033",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 14,
+        "D_path": 4,
+        "detour_path": 3.5,
+        "D_anchor": 4,
+        "detour_anchor": 3.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 1,
+        "D_path": 1,
+        "detour_path": 1.0,
+        "D_anchor": 1,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00034",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 8,
+        "D_path": 4,
+        "detour_path": 2.0,
+        "D_anchor": 4,
+        "detour_anchor": 2.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 11,
+        "D_path": 9,
+        "detour_path": 1.2222222222222223,
+        "D_anchor": 9,
+        "detour_anchor": 1.2222222222222223,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00035",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 17,
+        "D_path": 5,
+        "detour_path": 3.4,
+        "D_anchor": 9,
+        "detour_anchor": 1.8888888888888888,
+        "anchor_geometry_mismatch": true,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_1",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00036",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 12,
+        "D_path": 2,
+        "detour_path": 6.0,
+        "D_anchor": 2,
+        "detour_anchor": 6.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 2,
+        "D_path": 2,
+        "detour_path": 1.0,
+        "D_anchor": 8,
+        "detour_anchor": 0.25,
+        "anchor_geometry_mismatch": true,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 7,
+        "D_path": 5,
+        "detour_path": 1.4,
+        "D_anchor": 5,
+        "detour_anchor": 1.4,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00037",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 5,
+        "D_path": 5,
+        "detour_path": 1.0,
+        "D_anchor": 5,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 5,
+        "D_path": 5,
+        "detour_path": 1.0,
+        "D_anchor": 5,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 7,
+        "D_path": 5,
+        "detour_path": 1.4,
+        "D_anchor": 5,
+        "detour_anchor": 1.4,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00038",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 8,
+        "D_path": 8,
+        "detour_path": 1.0,
+        "D_anchor": 8,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 7,
+        "D_path": 5,
+        "detour_path": 1.4,
+        "D_anchor": 5,
+        "detour_anchor": 1.4,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00039",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 15,
+        "D_path": 3,
+        "detour_path": 5.0,
+        "D_anchor": 3,
+        "detour_anchor": 5.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 1,
+        "D_path": 1,
+        "detour_path": 1.0,
+        "D_anchor": 1,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 7,
+        "D_path": 5,
+        "detour_path": 1.4,
+        "D_anchor": 5,
+        "detour_anchor": 1.4,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00040",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 16,
+        "D_path": 2,
+        "detour_path": 8.0,
+        "D_anchor": 2,
+        "detour_anchor": 8.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 3,
+        "D_path": 3,
+        "detour_path": 1.0,
+        "D_anchor": 3,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00041",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 13,
+        "D_path": 3,
+        "detour_path": 4.333333333333333,
+        "D_anchor": 3,
+        "detour_anchor": 4.333333333333333,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 2,
+        "D_path": 2,
+        "detour_path": 1.0,
+        "D_anchor": 2,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 8,
+        "D_path": 6,
+        "detour_path": 1.3333333333333333,
+        "D_anchor": 6,
+        "detour_anchor": 1.3333333333333333,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00042",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 11,
+        "D_path": 7,
+        "detour_path": 1.5714285714285714,
+        "D_anchor": 7,
+        "detour_anchor": 1.5714285714285714,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 7,
+        "D_path": 5,
+        "detour_path": 1.4,
+        "D_anchor": 5,
+        "detour_anchor": 1.4,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00043",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 7,
+        "D_path": 7,
+        "detour_path": 1.0,
+        "D_anchor": 7,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 10,
+        "D_path": 4,
+        "detour_path": 2.5,
+        "D_anchor": 4,
+        "detour_anchor": 2.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 7,
+        "D_path": 5,
+        "detour_path": 1.4,
+        "D_anchor": 5,
+        "detour_anchor": 1.4,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00044",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 18,
+        "D_path": 4,
+        "detour_path": 4.5,
+        "D_anchor": 9,
+        "detour_anchor": 2.0,
+        "anchor_geometry_mismatch": true,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_1",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 7,
+        "D_path": 5,
+        "detour_path": 1.4,
+        "D_anchor": 5,
+        "detour_anchor": 1.4,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00045",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 7,
+        "D_path": 7,
+        "detour_path": 1.0,
+        "D_anchor": 7,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 17,
+        "D_path": 3,
+        "detour_path": 5.666666666666667,
+        "D_anchor": 3,
+        "detour_anchor": 5.666666666666667,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 7,
+        "D_path": 5,
+        "detour_path": 1.4,
+        "D_anchor": 5,
+        "detour_anchor": 1.4,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00046",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 13,
+        "D_path": 3,
+        "detour_path": 4.333333333333333,
+        "D_anchor": 3,
+        "detour_anchor": 4.333333333333333,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint",
+        "L": 4,
+        "D_path": 4,
+        "detour_path": 1.0,
+        "D_anchor": 4,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_2",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 2,
+        "D_path": 2,
+        "detour_path": 1.0,
+        "D_anchor": 2,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_3",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 8,
+        "D_path": 6,
+        "detour_path": 1.3333333333333333,
+        "D_anchor": 6,
+        "detour_anchor": 1.3333333333333333,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00047",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 14,
+        "D_path": 4,
+        "detour_path": 3.5,
+        "D_anchor": 4,
+        "detour_anchor": 3.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 2,
+        "D_path": 2,
+        "detour_path": 1.0,
+        "D_anchor": 2,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 7,
+        "D_path": 5,
+        "detour_path": 1.4,
+        "D_anchor": 5,
+        "detour_anchor": 1.4,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00048",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 2,
+        "D_path": 2,
+        "detour_path": 1.0,
+        "D_anchor": 2,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 7,
+        "D_path": 7,
+        "detour_path": 1.0,
+        "D_anchor": 7,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 10,
+        "D_path": 6,
+        "detour_path": 1.6666666666666667,
+        "D_anchor": 6,
+        "detour_anchor": 1.6666666666666667,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00049",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 1,
+        "D_path": 1,
+        "detour_path": 1.0,
+        "D_anchor": 1,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 4,
+        "D_path": 4,
+        "detour_path": 1.0,
+        "D_anchor": 4,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint",
+        "L": 3,
+        "D_path": 3,
+        "detour_path": 1.0,
+        "D_anchor": 3,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_3",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 13,
+        "D_path": 3,
+        "detour_path": 4.333333333333333,
+        "D_anchor": 3,
+        "detour_anchor": 4.333333333333333,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_4",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 9,
+        "D_path": 7,
+        "detour_path": 1.2857142857142858,
+        "D_anchor": 7,
+        "detour_anchor": 1.2857142857142858,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00050",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 12,
+        "D_path": 4,
+        "detour_path": 3.0,
+        "D_anchor": 4,
+        "detour_anchor": 3.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint",
+        "L": 4,
+        "D_path": 4,
+        "detour_path": 1.0,
+        "D_anchor": 4,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_2",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 1,
+        "D_path": 1,
+        "detour_path": 1.0,
+        "D_anchor": 1,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_3",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 5,
+        "D_path": 5,
+        "detour_path": 1.0,
+        "D_anchor": 5,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_4",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 7,
+        "D_path": 5,
+        "detour_path": 1.4,
+        "D_anchor": 5,
+        "detour_anchor": 1.4,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00051",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 11,
+        "D_path": 5,
+        "detour_path": 2.2,
+        "D_anchor": 10,
+        "detour_anchor": 1.1,
+        "anchor_geometry_mismatch": true,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_1",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00052",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 17,
+        "D_path": 3,
+        "detour_path": 5.666666666666667,
+        "D_anchor": 3,
+        "detour_anchor": 5.666666666666667,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 1,
+        "D_path": 1,
+        "detour_path": 1.0,
+        "D_anchor": 1,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00053",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 8,
+        "D_path": 4,
+        "detour_path": 2.0,
+        "D_anchor": 4,
+        "detour_anchor": 2.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 1,
+        "D_path": 1,
+        "detour_path": 1.0,
+        "D_anchor": 1,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00054",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 4,
+        "D_path": 4,
+        "detour_path": 1.0,
+        "D_anchor": 4,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 10,
+        "D_path": 6,
+        "detour_path": 1.6666666666666667,
+        "D_anchor": 6,
+        "detour_anchor": 1.6666666666666667,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 9,
+        "D_path": 7,
+        "detour_path": 1.2857142857142858,
+        "D_anchor": 7,
+        "detour_anchor": 1.2857142857142858,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00055",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 23,
+        "D_path": 3,
+        "detour_path": 7.666666666666667,
+        "D_anchor": 7,
+        "detour_anchor": 3.2857142857142856,
+        "anchor_geometry_mismatch": true,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_1",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00056",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 1,
+        "D_path": 1,
+        "detour_path": 1.0,
+        "D_anchor": 1,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 22,
+        "D_path": 4,
+        "detour_path": 5.5,
+        "D_anchor": 4,
+        "detour_anchor": 5.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00057",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 9,
+        "D_path": 5,
+        "detour_path": 1.8,
+        "D_anchor": 5,
+        "detour_anchor": 1.8,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 5,
+        "D_path": 3,
+        "detour_path": 1.6666666666666667,
+        "D_anchor": 3,
+        "detour_anchor": 1.6666666666666667,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00058",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 19,
+        "D_path": 5,
+        "detour_path": 3.8,
+        "D_anchor": 12,
+        "detour_anchor": 1.5833333333333333,
+        "anchor_geometry_mismatch": true,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_1",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 7,
+        "D_path": 5,
+        "detour_path": 1.4,
+        "D_anchor": 5,
+        "detour_anchor": 1.4,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00059",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 2,
+        "D_path": 2,
+        "detour_path": 1.0,
+        "D_anchor": 2,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint",
+        "L": 3,
+        "D_path": 3,
+        "detour_path": 1.0,
+        "D_anchor": 3,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_3",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 4,
+        "D_path": 4,
+        "detour_path": 1.0,
+        "D_anchor": 4,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_4",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00060",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 17,
+        "D_path": 5,
+        "detour_path": 3.4,
+        "D_anchor": 8,
+        "detour_anchor": 2.125,
+        "anchor_geometry_mismatch": true,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_1",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 9,
+        "D_path": 7,
+        "detour_path": 1.2857142857142858,
+        "D_anchor": 7,
+        "detour_anchor": 1.2857142857142858,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00061",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 20,
+        "D_path": 6,
+        "detour_path": 3.3333333333333335,
+        "D_anchor": 6,
+        "detour_anchor": 3.3333333333333335,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_1",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00062",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 3,
+        "D_path": 3,
+        "detour_path": 1.0,
+        "D_anchor": 3,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 9,
+        "D_path": 3,
+        "detour_path": 3.0,
+        "D_anchor": 3,
+        "detour_anchor": 3.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 7,
+        "D_path": 5,
+        "detour_path": 1.4,
+        "D_anchor": 5,
+        "detour_anchor": 1.4,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00063",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 6,
+        "D_path": 6,
+        "detour_path": 1.0,
+        "D_anchor": 6,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 6,
+        "D_path": 6,
+        "detour_path": 1.0,
+        "D_anchor": 6,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 8,
+        "D_path": 6,
+        "detour_path": 1.3333333333333333,
+        "D_anchor": 6,
+        "detour_anchor": 1.3333333333333333,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00064",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 1,
+        "D_path": 1,
+        "detour_path": 1.0,
+        "D_anchor": 1,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 6,
+        "D_path": 6,
+        "detour_path": 1.0,
+        "D_anchor": 6,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint",
+        "L": 5,
+        "D_path": 5,
+        "detour_path": 1.0,
+        "D_anchor": 5,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_3",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 4,
+        "D_path": 4,
+        "detour_path": 1.0,
+        "D_anchor": 4,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_4",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 9,
+        "D_path": 7,
+        "detour_path": 1.2857142857142858,
+        "D_anchor": 7,
+        "detour_anchor": 1.2857142857142858,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00065",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint",
+        "L": 5,
+        "D_path": 5,
+        "detour_path": 1.0,
+        "D_anchor": 4,
+        "detour_anchor": 1.25,
+        "anchor_geometry_mismatch": true,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 5,
+        "D_path": 5,
+        "detour_path": 1.0,
+        "D_anchor": 4,
+        "detour_anchor": 1.25,
+        "anchor_geometry_mismatch": true,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_2",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 8,
+        "D_path": 6,
+        "detour_path": 1.3333333333333333,
+        "D_anchor": 6,
+        "detour_anchor": 1.3333333333333333,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_3",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 7,
+        "D_path": 5,
+        "detour_path": 1.4,
+        "D_anchor": 5,
+        "detour_anchor": 1.4,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00066",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 5,
+        "D_path": 5,
+        "detour_path": 1.0,
+        "D_anchor": 5,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 13,
+        "D_path": 9,
+        "detour_path": 1.4444444444444444,
+        "D_anchor": 9,
+        "detour_anchor": 1.4444444444444444,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00067",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 21,
+        "D_path": 11,
+        "detour_path": 1.9090909090909092,
+        "D_anchor": 9,
+        "detour_anchor": 2.3333333333333335,
+        "anchor_geometry_mismatch": true,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_1",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00068",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 11,
+        "D_path": 9,
+        "detour_path": 1.2222222222222223,
+        "D_anchor": 9,
+        "detour_anchor": 1.2222222222222223,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 8,
+        "D_path": 6,
+        "detour_path": 1.3333333333333333,
+        "D_anchor": 6,
+        "detour_anchor": 1.3333333333333333,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00069",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 15,
+        "D_path": 5,
+        "detour_path": 3.0,
+        "D_anchor": 9,
+        "detour_anchor": 1.6666666666666667,
+        "anchor_geometry_mismatch": true,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_1",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00070",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 3,
+        "D_path": 3,
+        "detour_path": 1.0,
+        "D_anchor": 3,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint",
+        "L": 5,
+        "D_path": 5,
+        "detour_path": 1.0,
+        "D_anchor": 5,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_2",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 6,
+        "D_path": 6,
+        "detour_path": 1.0,
+        "D_anchor": 6,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_3",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 4,
+        "D_path": 4,
+        "detour_path": 1.0,
+        "D_anchor": 4,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_4",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 10,
+        "D_path": 8,
+        "detour_path": 1.25,
+        "D_anchor": 8,
+        "detour_anchor": 1.25,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00071",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 12,
+        "D_path": 8,
+        "detour_path": 1.5,
+        "D_anchor": 8,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 6,
+        "D_path": 6,
+        "detour_path": 1.0,
+        "D_anchor": 6,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00072",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 11,
+        "D_path": 5,
+        "detour_path": 2.2,
+        "D_anchor": 5,
+        "detour_anchor": 2.2,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 4,
+        "D_path": 4,
+        "detour_path": 1.0,
+        "D_anchor": 4,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint",
+        "L": 5,
+        "D_path": 5,
+        "detour_path": 1.0,
+        "D_anchor": 5,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_3",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 8,
+        "D_path": 6,
+        "detour_path": 1.3333333333333333,
+        "D_anchor": 6,
+        "detour_anchor": 1.3333333333333333,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00073",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 12,
+        "D_path": 2,
+        "detour_path": 6.0,
+        "D_anchor": 2,
+        "detour_anchor": 6.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 6,
+        "D_path": 6,
+        "detour_path": 1.0,
+        "D_anchor": 6,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00074",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 13,
+        "D_path": 5,
+        "detour_path": 2.6,
+        "D_anchor": 10,
+        "detour_anchor": 1.3,
+        "anchor_geometry_mismatch": true,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_1",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 7,
+        "D_path": 5,
+        "detour_path": 1.4,
+        "D_anchor": 5,
+        "detour_anchor": 1.4,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00075",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 12,
+        "D_path": 4,
+        "detour_path": 3.0,
+        "D_anchor": 8,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": true,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_1",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00076",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 11,
+        "D_path": 5,
+        "detour_path": 2.2,
+        "D_anchor": 5,
+        "detour_anchor": 2.2,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 5,
+        "D_path": 5,
+        "detour_path": 1.0,
+        "D_anchor": 5,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00077",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 18,
+        "D_path": 6,
+        "detour_path": 3.0,
+        "D_anchor": 10,
+        "detour_anchor": 1.8,
+        "anchor_geometry_mismatch": true,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_1",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00078",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 1,
+        "D_path": 1,
+        "detour_path": 1.0,
+        "D_anchor": 1,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 9,
+        "D_path": 3,
+        "detour_path": 3.0,
+        "D_anchor": 3,
+        "detour_anchor": 3.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 7,
+        "D_path": 5,
+        "detour_path": 1.4,
+        "D_anchor": 5,
+        "detour_anchor": 1.4,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00079",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 14,
+        "D_path": 4,
+        "detour_path": 3.5,
+        "D_anchor": 4,
+        "detour_anchor": 3.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 1,
+        "D_path": 1,
+        "detour_path": 1.0,
+        "D_anchor": 1,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 7,
+        "D_path": 5,
+        "detour_path": 1.4,
+        "D_anchor": 5,
+        "detour_anchor": 1.4,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00080",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 1,
+        "D_path": 1,
+        "detour_path": 1.0,
+        "D_anchor": 1,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 20,
+        "D_path": 2,
+        "detour_path": 10.0,
+        "D_anchor": 2,
+        "detour_anchor": 10.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 9,
+        "D_path": 7,
+        "detour_path": 1.2857142857142858,
+        "D_anchor": 7,
+        "detour_anchor": 1.2857142857142858,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00081",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 8,
+        "D_path": 6,
+        "detour_path": 1.3333333333333333,
+        "D_anchor": 6,
+        "detour_anchor": 1.3333333333333333,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 14,
+        "D_path": 10,
+        "detour_path": 1.4,
+        "D_anchor": 10,
+        "detour_anchor": 1.4,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00082",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 3,
+        "D_path": 3,
+        "detour_path": 1.0,
+        "D_anchor": 4,
+        "detour_anchor": 0.75,
+        "anchor_geometry_mismatch": true,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint",
+        "L": 4,
+        "D_path": 4,
+        "detour_path": 1.0,
+        "D_anchor": 4,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_2",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 17,
+        "D_path": 3,
+        "detour_path": 5.666666666666667,
+        "D_anchor": 3,
+        "detour_anchor": 5.666666666666667,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_3",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00083",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 1,
+        "D_path": 1,
+        "detour_path": 1.0,
+        "D_anchor": 1,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 15,
+        "D_path": 5,
+        "detour_path": 3.0,
+        "D_anchor": 5,
+        "detour_anchor": 3.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00084",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 13,
+        "D_path": 3,
+        "detour_path": 4.333333333333333,
+        "D_anchor": 3,
+        "detour_anchor": 4.333333333333333,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 1,
+        "D_path": 1,
+        "detour_path": 1.0,
+        "D_anchor": 1,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 7,
+        "D_path": 5,
+        "detour_path": 1.4,
+        "D_anchor": 5,
+        "detour_anchor": 1.4,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00085",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 16,
+        "D_path": 4,
+        "detour_path": 4.0,
+        "D_anchor": 8,
+        "detour_anchor": 2.0,
+        "anchor_geometry_mismatch": true,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_1",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00086",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 10,
+        "D_path": 6,
+        "detour_path": 1.6666666666666667,
+        "D_anchor": 6,
+        "detour_anchor": 1.6666666666666667,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 7,
+        "D_path": 5,
+        "detour_path": 1.4,
+        "D_anchor": 5,
+        "detour_anchor": 1.4,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 7,
+        "D_path": 5,
+        "detour_path": 1.4,
+        "D_anchor": 5,
+        "detour_anchor": 1.4,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00087",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 5,
+        "D_path": 3,
+        "detour_path": 1.6666666666666667,
+        "D_anchor": 3,
+        "detour_anchor": 1.6666666666666667,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 7,
+        "D_path": 5,
+        "detour_path": 1.4,
+        "D_anchor": 5,
+        "detour_anchor": 1.4,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 8,
+        "D_path": 6,
+        "detour_path": 1.3333333333333333,
+        "D_anchor": 6,
+        "detour_anchor": 1.3333333333333333,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00088",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 8,
+        "D_path": 6,
+        "detour_path": 1.3333333333333333,
+        "D_anchor": 6,
+        "detour_anchor": 1.3333333333333333,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 9,
+        "D_path": 3,
+        "detour_path": 3.0,
+        "D_anchor": 3,
+        "detour_anchor": 3.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00089",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 6,
+        "D_path": 6,
+        "detour_path": 1.0,
+        "D_anchor": 6,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 6,
+        "D_path": 6,
+        "detour_path": 1.0,
+        "D_anchor": 6,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 7,
+        "D_path": 5,
+        "detour_path": 1.4,
+        "D_anchor": 5,
+        "detour_anchor": 1.4,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00090",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 2,
+        "D_path": 2,
+        "detour_path": 1.0,
+        "D_anchor": 2,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 13,
+        "D_path": 3,
+        "detour_path": 4.333333333333333,
+        "D_anchor": 3,
+        "detour_anchor": 4.333333333333333,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00091",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 16,
+        "D_path": 4,
+        "detour_path": 4.0,
+        "D_anchor": 4,
+        "detour_anchor": 4.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 1,
+        "D_path": 1,
+        "detour_path": 1.0,
+        "D_anchor": 1,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 8,
+        "D_path": 6,
+        "detour_path": 1.3333333333333333,
+        "D_anchor": 6,
+        "detour_anchor": 1.3333333333333333,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00092",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "dead_edge",
+        "identity_source": null,
+        "L": 5,
+        "D_path": 5,
+        "detour_path": 1.0,
+        "D_anchor": 8,
+        "detour_anchor": 0.625,
+        "anchor_geometry_mismatch": true,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 3,
+        "D_path": 3,
+        "detour_path": 1.0,
+        "D_anchor": 7,
+        "detour_anchor": 0.42857142857142855,
+        "anchor_geometry_mismatch": true,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_2",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 5,
+        "D_path": 3,
+        "detour_path": 1.6666666666666667,
+        "D_anchor": 3,
+        "detour_anchor": 1.6666666666666667,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_3",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 11,
+        "D_path": 9,
+        "detour_path": 1.2222222222222223,
+        "D_anchor": 9,
+        "detour_anchor": 1.2222222222222223,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00093",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 7,
+        "D_path": 5,
+        "detour_path": 1.4,
+        "D_anchor": 5,
+        "detour_anchor": 1.4,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 8,
+        "D_path": 6,
+        "detour_path": 1.3333333333333333,
+        "D_anchor": 6,
+        "detour_anchor": 1.3333333333333333,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 8,
+        "D_path": 6,
+        "detour_path": 1.3333333333333333,
+        "D_anchor": 6,
+        "detour_anchor": 1.3333333333333333,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00094",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 21,
+        "D_path": 3,
+        "detour_path": 7.0,
+        "D_anchor": 9,
+        "detour_anchor": 2.3333333333333335,
+        "anchor_geometry_mismatch": true,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_1",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00095",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint",
+        "L": 4,
+        "D_path": 4,
+        "detour_path": 1.0,
+        "D_anchor": 5,
+        "detour_anchor": 0.8,
+        "anchor_geometry_mismatch": true,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 3,
+        "D_path": 3,
+        "detour_path": 1.0,
+        "D_anchor": 5,
+        "detour_anchor": 0.6,
+        "anchor_geometry_mismatch": true,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_2",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 16,
+        "D_path": 6,
+        "detour_path": 2.6666666666666665,
+        "D_anchor": 6,
+        "detour_anchor": 2.6666666666666665,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_3",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 7,
+        "D_path": 5,
+        "detour_path": 1.4,
+        "D_anchor": 5,
+        "detour_anchor": 1.4,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00096",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 15,
+        "D_path": 7,
+        "detour_path": 2.142857142857143,
+        "D_anchor": 6,
+        "detour_anchor": 2.5,
+        "anchor_geometry_mismatch": true,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_1",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 7,
+        "D_path": 5,
+        "detour_path": 1.4,
+        "D_anchor": 5,
+        "detour_anchor": 1.4,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00097",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 2,
+        "D_path": 2,
+        "detour_path": 1.0,
+        "D_anchor": 2,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 14,
+        "D_path": 4,
+        "detour_path": 3.5,
+        "D_anchor": 4,
+        "detour_anchor": 3.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00098",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 10,
+        "D_path": 2,
+        "detour_path": 5.0,
+        "D_anchor": 2,
+        "detour_anchor": 5.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 2,
+        "D_path": 2,
+        "detour_path": 1.0,
+        "D_anchor": 2,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 6,
+        "D_path": 4,
+        "detour_path": 1.5,
+        "D_anchor": 4,
+        "detour_anchor": 1.5,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  },
+  {
+    "maze_id": "maze_00099",
+    "edges": [
+      {
+        "edge_id": "e_0",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 5,
+        "D_path": 5,
+        "detour_path": 1.0,
+        "D_anchor": 5,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_1",
+        "edge_type": "main_edge",
+        "identity_source": "main_path_hint",
+        "L": 2,
+        "D_path": 2,
+        "detour_path": 1.0,
+        "D_anchor": 2,
+        "detour_anchor": 1.0,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      },
+      {
+        "edge_id": "e_hint_alt_2",
+        "edge_type": "alternative_edge",
+        "identity_source": "planned_alternative_hint_synthetic_after_room_folding",
+        "L": 7,
+        "D_path": 5,
+        "detour_path": 1.4,
+        "D_anchor": 5,
+        "detour_anchor": 1.4,
+        "anchor_geometry_mismatch": false,
+        "extraction_geometry_bug": false
+      }
+    ]
+  }
+]

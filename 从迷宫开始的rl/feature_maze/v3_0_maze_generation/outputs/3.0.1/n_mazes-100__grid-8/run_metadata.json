@@ -1,0 +1,18 @@
+{
+  "version": "3.0.1",
+  "experiment_name": "path_first_metric_generator",
+  "generator_name": "pf_mcg",
+  "started_at_utc": "2026-06-01T13:08:05.373976+00:00",
+  "script_path": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v3_0_maze_generation\\experiments\\run_3_0_1_path_first_metric_generator.py",
+  "output_dir": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v3_0_maze_generation\\outputs\\3.0.1\\n_mazes-100__grid-8",
+  "assumptions": [
+    "Path-First: all cells start as wall; main_path carved first.",
+    "Final BFS metrics from MazeQuantizer override main_path skeleton.",
+    "island_inject enabled when target_island_free_ratio_max > 0.",
+    "reachable_free_ratio range derived from island_free_ratio range.",
+    "No DP / incremental BFS — full BFS each quantize step.",
+    "Operation acceptance: greedy error reduction (allow_worse_prob default 0)."
+  ],
+  "finished_at_utc": "2026-06-01T13:08:32.805203+00:00",
+  "n_maze_records": 100
+}

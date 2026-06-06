@@ -1,0 +1,17 @@
+[
+  {
+    "hint": "anchor geometry mismatch detected.",
+    "likely_direction": [
+      "Room representative anchor differs from actual edge exit cell.",
+      "This is acceptable only if core metrics use D_path."
+    ],
+    "suggested_next_json": [
+      "edge_geometry_debug.json",
+      "debug_extraction_report.json"
+    ],
+    "suggested_config_fields": [
+      "room_detection.use_2x2_free_block",
+      "room_detection.room_min_component_size"
+    ]
+  }
+]

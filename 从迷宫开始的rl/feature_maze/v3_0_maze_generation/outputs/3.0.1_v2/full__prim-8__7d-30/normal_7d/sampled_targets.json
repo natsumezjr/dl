@@ -1,0 +1,1808 @@
+[
+  {
+    "maze_id": "n7d_00000",
+    "target_L_BFS": 18.0,
+    "target_detour_ratio": 2.204682489381228,
+    "target_wall_ratio": 0.21673142364122108,
+    "target_dead_end_ratio": 0.0662387925934852,
+    "target_dead_end_depth_mean": 1.4746881788729378,
+    "target_junction_ratio": 0.6697215901586298,
+    "target_island_free_ratio": 0.039832909770067884,
+    "derived_D": 8,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.935167090229932,
+        0.9851670902299321
+      ],
+      "wall_ratio": [
+        0.18548142364122108,
+        0.24798142364122108
+      ],
+      "bfs_len_norm": [
+        0.2698412698412698,
+        0.30158730158730157
+      ],
+      "detour_ratio": [
+        2.004682489381228,
+        2.404682489381228
+      ],
+      "dead_end_ratio": [
+        0.041238792593485195,
+        0.09123879259348519
+      ],
+      "dead_end_depth_mean": [
+        1.1246881788729377,
+        1.8246881788729379
+      ],
+      "junction_ratio": [
+        0.6197215901586297,
+        0.7197215901586298
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.014832909770067883,
+        0.06483290977006789
+      ]
+    },
+    "sampling_metadata": {
+      "sampling_fallback_used": false,
+      "sampling_fallback_reason": null,
+      "reject_reasons": []
+    }
+  },
+  {
+    "maze_id": "n7d_00001",
+    "target_L_BFS": 14.0,
+    "target_detour_ratio": 2.1099815619262707,
+    "target_wall_ratio": 0.3792308229788006,
+    "target_dead_end_ratio": 0.08244631042152953,
+    "target_dead_end_depth_mean": 2.6143599761275067,
+    "target_junction_ratio": 0.5139755372770725,
+    "target_island_free_ratio": 0.04822920320722643,
+    "derived_D": 6,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9267707967927736,
+        0.9767707967927736
+      ],
+      "wall_ratio": [
+        0.3479808229788006,
+        0.4104808229788006
+      ],
+      "bfs_len_norm": [
+        0.20634920634920634,
+        0.23809523809523808
+      ],
+      "detour_ratio": [
+        1.9099815619262708,
+        2.309981561926271
+      ],
+      "dead_end_ratio": [
+        0.05744631042152953,
+        0.10744631042152952
+      ],
+      "dead_end_depth_mean": [
+        2.2643599761275066,
+        2.964359976127507
+      ],
+      "junction_ratio": [
+        0.46397553727707247,
+        0.5639755372770725
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.023229203207226427,
+        0.07322920320722642
+      ]
+    },
+    "sampling_metadata": {
+      "sampling_fallback_used": true,
+      "sampling_fallback_reason": ";adjusted_D_for_feasibility",
+      "reject_reasons": [],
+      "D_adjustment": {
+        "raw_D": 7,
+        "adjusted_D": 6,
+        "D_adjusted": true,
+        "infeasible_path_target": false,
+        "feasible_D_values": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ],
+        "path_feasibility_rule": "L>=D, (L-D)%2==0, D within manhattan/grid bounds"
+      }
+    }
+  },
+  {
+    "maze_id": "n7d_00002",
+    "target_L_BFS": 17.0,
+    "target_detour_ratio": 2.633606393049982,
+    "target_wall_ratio": 0.2757891497006704,
+    "target_dead_end_ratio": 0.07954197487300434,
+    "target_dead_end_depth_mean": 3.9360840049913772,
+    "target_junction_ratio": 0.5579223192723416,
+    "target_island_free_ratio": 0.013956615453864275,
+    "derived_D": 5,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9610433845461357,
+        1.0
+      ],
+      "wall_ratio": [
+        0.24453914970067042,
+        0.3070391497006704
+      ],
+      "bfs_len_norm": [
+        0.25396825396825395,
+        0.2857142857142857
+      ],
+      "detour_ratio": [
+        2.4336063930499816,
+        2.833606393049982
+      ],
+      "dead_end_ratio": [
+        0.054541974873004336,
+        0.10454197487300435
+      ],
+      "dead_end_depth_mean": [
+        3.586084004991377,
+        4.286084004991377
+      ],
+      "junction_ratio": [
+        0.5079223192723415,
+        0.6079223192723416
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.0,
+        0.03895661545386428
+      ]
+    },
+    "sampling_metadata": {
+      "sampling_fallback_used": true,
+      "sampling_fallback_reason": ";adjusted_D_for_feasibility",
+      "reject_reasons": [],
+      "D_adjustment": {
+        "raw_D": 6,
+        "adjusted_D": 5,
+        "D_adjusted": true,
+        "infeasible_path_target": false,
+        "feasible_D_values": [
+          3,
+          5,
+          7,
+          9,
+          11,
+          13
+        ],
+        "path_feasibility_rule": "L>=D, (L-D)%2==0, D within manhattan/grid bounds"
+      }
+    }
+  },
+  {
+    "maze_id": "n7d_00003",
+    "target_L_BFS": 10.0,
+    "target_detour_ratio": 1.8237085701385225,
+    "target_wall_ratio": 0.2892713853675615,
+    "target_dead_end_ratio": 0.13268870557491902,
+    "target_dead_end_depth_mean": 3.7537509667282283,
+    "target_junction_ratio": 0.5104213889651669,
+    "target_island_free_ratio": 0.05581448160793252,
+    "derived_D": 4,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9191855183920674,
+        0.9691855183920675
+      ],
+      "wall_ratio": [
+        0.2580213853675615,
+        0.3205213853675615
+      ],
+      "bfs_len_norm": [
+        0.14285714285714285,
+        0.1746031746031746
+      ],
+      "detour_ratio": [
+        1.6237085701385225,
+        2.0237085701385227
+      ],
+      "dead_end_ratio": [
+        0.10768870557491902,
+        0.157688705574919
+      ],
+      "dead_end_depth_mean": [
+        3.403750966728228,
+        4.103750966728228
+      ],
+      "junction_ratio": [
+        0.4604213889651669,
+        0.5604213889651669
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.03081448160793252,
+        0.08081448160793253
+      ]
+    },
+    "sampling_metadata": {
+      "sampling_fallback_used": true,
+      "sampling_fallback_reason": ";adjusted_D_for_feasibility",
+      "reject_reasons": [],
+      "D_adjustment": {
+        "raw_D": 5,
+        "adjusted_D": 4,
+        "D_adjusted": true,
+        "infeasible_path_target": false,
+        "feasible_D_values": [
+          4,
+          6,
+          8,
+          10
+        ],
+        "path_feasibility_rule": "L>=D, (L-D)%2==0, D within manhattan/grid bounds"
+      }
+    }
+  },
+  {
+    "maze_id": "n7d_00004",
+    "target_L_BFS": 12.0,
+    "target_detour_ratio": 1.9766036798180524,
+    "target_wall_ratio": 0.24002187563078975,
+    "target_dead_end_ratio": 0.10221725714222162,
+    "target_dead_end_depth_mean": 2.8080052033311076,
+    "target_junction_ratio": 0.5972023116288715,
+    "target_island_free_ratio": 0.012272695212025175,
+    "derived_D": 6,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9627273047879749,
+        1.0
+      ],
+      "wall_ratio": [
+        0.20877187563078975,
+        0.27127187563078975
+      ],
+      "bfs_len_norm": [
+        0.1746031746031746,
+        0.20634920634920634
+      ],
+      "detour_ratio": [
+        1.7766036798180525,
+        2.1766036798180526
+      ],
+      "dead_end_ratio": [
+        0.07721725714222161,
+        0.12721725714222162
+      ],
+      "dead_end_depth_mean": [
+        2.4580052033311075,
+        3.1580052033311077
+      ],
+      "junction_ratio": [
+        0.5472023116288715,
+        0.6472023116288715
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.0,
+        0.03727269521202518
+      ]
+    },
+    "sampling_metadata": {
+      "sampling_fallback_used": false,
+      "sampling_fallback_reason": null,
+      "reject_reasons": []
+    }
+  },
+  {
+    "maze_id": "n7d_00005",
+    "target_L_BFS": 15.0,
+    "target_detour_ratio": 1.7101810450362225,
+    "target_wall_ratio": 0.2661382125093809,
+    "target_dead_end_ratio": 0.1003417802951403,
+    "target_dead_end_depth_mean": 2.499444318605157,
+    "target_junction_ratio": 0.4696745123822006,
+    "target_island_free_ratio": 0.02418562047400633,
+    "derived_D": 9,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9508143795259937,
+        1.0
+      ],
+      "wall_ratio": [
+        0.2348882125093809,
+        0.2973882125093809
+      ],
+      "bfs_len_norm": [
+        0.2222222222222222,
+        0.25396825396825395
+      ],
+      "detour_ratio": [
+        1.5101810450362225,
+        1.9101810450362224
+      ],
+      "dead_end_ratio": [
+        0.0753417802951403,
+        0.12534178029514031
+      ],
+      "dead_end_depth_mean": [
+        2.149444318605157,
+        2.849444318605157
+      ],
+      "junction_ratio": [
+        0.4196745123822006,
+        0.5196745123822006
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.0,
+        0.049185620474006334
+      ]
+    },
+    "sampling_metadata": {
+      "sampling_fallback_used": false,
+      "sampling_fallback_reason": null,
+      "reject_reasons": []
+    }
+  },
+  {
+    "maze_id": "n7d_00006",
+    "target_L_BFS": 16.0,
+    "target_detour_ratio": 1.6838831125713905,
+    "target_wall_ratio": 0.2419920187169417,
+    "target_dead_end_ratio": 0.11681776293411042,
+    "target_dead_end_depth_mean": 1.8686605304835102,
+    "target_junction_ratio": 0.32934103198063774,
+    "target_island_free_ratio": 0.03924481641806532,
+    "derived_D": 10,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9357551835819347,
+        0.9857551835819347
+      ],
+      "wall_ratio": [
+        0.2107420187169417,
+        0.2732420187169417
+      ],
+      "bfs_len_norm": [
+        0.23809523809523808,
+        0.2698412698412698
+      ],
+      "detour_ratio": [
+        1.4838831125713905,
+        1.8838831125713904
+      ],
+      "dead_end_ratio": [
+        0.09181776293411043,
+        0.14181776293411041
+      ],
+      "dead_end_depth_mean": [
+        1.5186605304835101,
+        2.2186605304835103
+      ],
+      "junction_ratio": [
+        0.27934103198063776,
+        0.37934103198063773
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.014244816418065319,
+        0.06424481641806531
+      ]
+    },
+    "sampling_metadata": {
+      "sampling_fallback_used": false,
+      "sampling_fallback_reason": null,
+      "reject_reasons": []
+    }
+  },
+  {
+    "maze_id": "n7d_00007",
+    "target_L_BFS": 10.0,
+    "target_detour_ratio": 1.9505066624479603,
+    "target_wall_ratio": 0.25304432607233673,
+    "target_dead_end_ratio": 0.1938517970638132,
+    "target_dead_end_depth_mean": 2.085673664104379,
+    "target_junction_ratio": 0.6139834921305051,
+    "target_island_free_ratio": 0.011663028778825104,
+    "derived_D": 4,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9633369712211749,
+        1.0
+      ],
+      "wall_ratio": [
+        0.22179432607233673,
+        0.28429432607233673
+      ],
+      "bfs_len_norm": [
+        0.14285714285714285,
+        0.1746031746031746
+      ],
+      "detour_ratio": [
+        1.7505066624479604,
+        2.1505066624479605
+      ],
+      "dead_end_ratio": [
+        0.1688517970638132,
+        0.2188517970638132
+      ],
+      "dead_end_depth_mean": [
+        1.7356736641043788,
+        2.435673664104379
+      ],
+      "junction_ratio": [
+        0.563983492130505,
+        0.6639834921305051
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.0,
+        0.0366630287788251
+      ]
+    },
+    "sampling_metadata": {
+      "sampling_fallback_used": true,
+      "sampling_fallback_reason": ";adjusted_D_for_feasibility",
+      "reject_reasons": [],
+      "D_adjustment": {
+        "raw_D": 5,
+        "adjusted_D": 4,
+        "D_adjusted": true,
+        "infeasible_path_target": false,
+        "feasible_D_values": [
+          4,
+          6,
+          8,
+          10
+        ],
+        "path_feasibility_rule": "L>=D, (L-D)%2==0, D within manhattan/grid bounds"
+      }
+    }
+  },
+  {
+    "maze_id": "n7d_00008",
+    "target_L_BFS": 12.0,
+    "target_detour_ratio": 2.015188952549249,
+    "target_wall_ratio": 0.33475106863853993,
+    "target_dead_end_ratio": 0.11437815831244677,
+    "target_dead_end_depth_mean": 1.3833010572325803,
+    "target_junction_ratio": 0.5411419322981503,
+    "target_island_free_ratio": 0.05745956932331163,
+    "derived_D": 6,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9175404306766883,
+        0.9675404306766884
+      ],
+      "wall_ratio": [
+        0.30350106863853993,
+        0.36600106863853993
+      ],
+      "bfs_len_norm": [
+        0.1746031746031746,
+        0.20634920634920634
+      ],
+      "detour_ratio": [
+        1.815188952549249,
+        2.215188952549249
+      ],
+      "dead_end_ratio": [
+        0.08937815831244678,
+        0.13937815831244676
+      ],
+      "dead_end_depth_mean": [
+        1.0333010572325803,
+        1.7333010572325804
+      ],
+      "junction_ratio": [
+        0.49114193229815034,
+        0.5911419322981504
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.03245956932331163,
+        0.08245956932331164
+      ]
+    },
+    "sampling_metadata": {
+      "sampling_fallback_used": false,
+      "sampling_fallback_reason": null,
+      "reject_reasons": []
+    }
+  },
+  {
+    "maze_id": "n7d_00009",
+    "target_L_BFS": 10.0,
+    "target_detour_ratio": 1.808442340293789,
+    "target_wall_ratio": 0.2789285399104719,
+    "target_dead_end_ratio": 0.08719703736832456,
+    "target_dead_end_depth_mean": 3.726361441579461,
+    "target_junction_ratio": 0.607432739282542,
+    "target_island_free_ratio": 0.02381912588047931,
+    "derived_D": 6,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9511808741195207,
+        1.0
+      ],
+      "wall_ratio": [
+        0.2476785399104719,
+        0.3101785399104719
+      ],
+      "bfs_len_norm": [
+        0.14285714285714285,
+        0.1746031746031746
+      ],
+      "detour_ratio": [
+        1.608442340293789,
+        2.008442340293789
+      ],
+      "dead_end_ratio": [
+        0.062197037368324555,
+        0.11219703736832456
+      ],
+      "dead_end_depth_mean": [
+        3.3763614415794607,
+        4.0763614415794605
+      ],
+      "junction_ratio": [
+        0.557432739282542,
+        0.6574327392825421
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.0,
+        0.04881912588047931
+      ]
+    },
+    "sampling_metadata": {
+      "sampling_fallback_used": false,
+      "sampling_fallback_reason": null,
+      "reject_reasons": []
+    }
+  },
+  {
+    "maze_id": "n7d_00010",
+    "target_L_BFS": 17.0,
+    "target_detour_ratio": 2.185805952957393,
+    "target_wall_ratio": 0.3068736202059289,
+    "target_dead_end_ratio": 0.1413589068439479,
+    "target_dead_end_depth_mean": 1.465032778239808,
+    "target_junction_ratio": 0.4401820505889167,
+    "target_island_free_ratio": 0.00447334510150002,
+    "derived_D": 7,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9705266548985,
+        1.0
+      ],
+      "wall_ratio": [
+        0.2756236202059289,
+        0.3381236202059289
+      ],
+      "bfs_len_norm": [
+        0.25396825396825395,
+        0.2857142857142857
+      ],
+      "detour_ratio": [
+        1.9858059529573933,
+        2.3858059529573934
+      ],
+      "dead_end_ratio": [
+        0.1163589068439479,
+        0.16635890684394788
+      ],
+      "dead_end_depth_mean": [
+        1.115032778239808,
+        1.8150327782398081
+      ],
+      "junction_ratio": [
+        0.3901820505889167,
+        0.4901820505889167
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.0,
+        0.02947334510150002
+      ]
+    },
+    "sampling_metadata": {
+      "sampling_fallback_used": true,
+      "sampling_fallback_reason": ";adjusted_D_for_feasibility",
+      "reject_reasons": [],
+      "D_adjustment": {
+        "raw_D": 8,
+        "adjusted_D": 7,
+        "D_adjusted": true,
+        "infeasible_path_target": false,
+        "feasible_D_values": [
+          3,
+          5,
+          7,
+          9,
+          11,
+          13
+        ],
+        "path_feasibility_rule": "L>=D, (L-D)%2==0, D within manhattan/grid bounds"
+      }
+    }
+  },
+  {
+    "maze_id": "n7d_00011",
+    "target_L_BFS": 14.0,
+    "target_detour_ratio": 2.4019888878026614,
+    "target_wall_ratio": 0.2914732578508602,
+    "target_dead_end_ratio": 0.11279546073103663,
+    "target_dead_end_depth_mean": 2.03896938656675,
+    "target_junction_ratio": 0.39241620679437117,
+    "target_island_free_ratio": 0.013814139417297297,
+    "derived_D": 6,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9611858605827027,
+        1.0
+      ],
+      "wall_ratio": [
+        0.2602232578508602,
+        0.3227232578508602
+      ],
+      "bfs_len_norm": [
+        0.20634920634920634,
+        0.23809523809523808
+      ],
+      "detour_ratio": [
+        2.201988887802661,
+        2.6019888878026616
+      ],
+      "dead_end_ratio": [
+        0.08779546073103664,
+        0.13779546073103663
+      ],
+      "dead_end_depth_mean": [
+        1.6889693865667499,
+        2.38896938656675
+      ],
+      "junction_ratio": [
+        0.3424162067943712,
+        0.44241620679437116
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.0,
+        0.0388141394172973
+      ]
+    },
+    "sampling_metadata": {
+      "sampling_fallback_used": false,
+      "sampling_fallback_reason": null,
+      "reject_reasons": []
+    }
+  },
+  {
+    "maze_id": "n7d_00012",
+    "target_L_BFS": 17.0,
+    "target_detour_ratio": 2.5575728252782737,
+    "target_wall_ratio": 0.29022604258535883,
+    "target_dead_end_ratio": 0.13512423440316562,
+    "target_dead_end_depth_mean": 2.0917507316600688,
+    "target_junction_ratio": 0.3997403394753538,
+    "target_island_free_ratio": 0.013331668712747848,
+    "derived_D": 7,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9616683312872522,
+        1.0
+      ],
+      "wall_ratio": [
+        0.25897604258535883,
+        0.32147604258535883
+      ],
+      "bfs_len_norm": [
+        0.25396825396825395,
+        0.2857142857142857
+      ],
+      "detour_ratio": [
+        2.3575728252782735,
+        2.757572825278274
+      ],
+      "dead_end_ratio": [
+        0.11012423440316563,
+        0.16012423440316562
+      ],
+      "dead_end_depth_mean": [
+        1.7417507316600687,
+        2.441750731660069
+      ],
+      "junction_ratio": [
+        0.3497403394753538,
+        0.4497403394753538
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.0,
+        0.038331668712747846
+      ]
+    },
+    "sampling_metadata": {
+      "sampling_fallback_used": false,
+      "sampling_fallback_reason": null,
+      "reject_reasons": []
+    }
+  },
+  {
+    "maze_id": "n7d_00013",
+    "target_L_BFS": 16.0,
+    "target_detour_ratio": 1.914334371207222,
+    "target_wall_ratio": 0.386786577889237,
+    "target_dead_end_ratio": 0.10488557039154049,
+    "target_dead_end_depth_mean": 2.2242156626089717,
+    "target_junction_ratio": 0.5687403381635846,
+    "target_island_free_ratio": 0.069610620599169,
+    "derived_D": 8,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.905389379400831,
+        0.955389379400831
+      ],
+      "wall_ratio": [
+        0.355536577889237,
+        0.418036577889237
+      ],
+      "bfs_len_norm": [
+        0.23809523809523808,
+        0.2698412698412698
+      ],
+      "detour_ratio": [
+        1.714334371207222,
+        2.1143343712072222
+      ],
+      "dead_end_ratio": [
+        0.07988557039154048,
+        0.1298855703915405
+      ],
+      "dead_end_depth_mean": [
+        1.8742156626089717,
+        2.574215662608972
+      ],
+      "junction_ratio": [
+        0.5187403381635846,
+        0.6187403381635846
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.044610620599169,
+        0.094610620599169
+      ]
+    },
+    "sampling_metadata": {
+      "sampling_fallback_used": false,
+      "sampling_fallback_reason": null,
+      "reject_reasons": []
+    }
+  },
+  {
+    "maze_id": "n7d_00014",
+    "target_L_BFS": 15.0,
+    "target_detour_ratio": 2.3731044317282373,
+    "target_wall_ratio": 0.25206781265119843,
+    "target_dead_end_ratio": 0.10874268956479553,
+    "target_dead_end_depth_mean": 2.285523936037359,
+    "target_junction_ratio": 0.3916152168528176,
+    "target_island_free_ratio": 0.00809985353405494,
+    "derived_D": 5,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.966900146465945,
+        1.0
+      ],
+      "wall_ratio": [
+        0.22081781265119843,
+        0.28331781265119843
+      ],
+      "bfs_len_norm": [
+        0.2222222222222222,
+        0.25396825396825395
+      ],
+      "detour_ratio": [
+        2.173104431728237,
+        2.5731044317282374
+      ],
+      "dead_end_ratio": [
+        0.08374268956479552,
+        0.13374268956479554
+      ],
+      "dead_end_depth_mean": [
+        1.935523936037359,
+        2.6355239360373592
+      ],
+      "junction_ratio": [
+        0.3416152168528176,
+        0.44161521685281757
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.0,
+        0.03309985353405494
+      ]
+    },
+    "sampling_metadata": {
+      "sampling_fallback_used": true,
+      "sampling_fallback_reason": ";adjusted_D_for_feasibility",
+      "reject_reasons": [],
+      "D_adjustment": {
+        "raw_D": 6,
+        "adjusted_D": 5,
+        "D_adjusted": true,
+        "infeasible_path_target": false,
+        "feasible_D_values": [
+          3,
+          5,
+          7,
+          9,
+          11,
+          13
+        ],
+        "path_feasibility_rule": "L>=D, (L-D)%2==0, D within manhattan/grid bounds"
+      }
+    }
+  },
+  {
+    "maze_id": "n7d_00015",
+    "target_L_BFS": 20.0,
+    "target_detour_ratio": 1.567121498361651,
+    "target_wall_ratio": 0.24204550351108484,
+    "target_dead_end_ratio": 0.1058040726560521,
+    "target_dead_end_depth_mean": 1.5683437004499658,
+    "target_junction_ratio": 0.44207111745820704,
+    "target_island_free_ratio": 0.010373747948192333,
+    "derived_D": 12,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9646262520518076,
+        1.0
+      ],
+      "wall_ratio": [
+        0.21079550351108484,
+        0.27329550351108484
+      ],
+      "bfs_len_norm": [
+        0.30158730158730157,
+        0.3333333333333333
+      ],
+      "detour_ratio": [
+        1.367121498361651,
+        1.767121498361651
+      ],
+      "dead_end_ratio": [
+        0.0808040726560521,
+        0.1308040726560521
+      ],
+      "dead_end_depth_mean": [
+        1.218343700449966,
+        1.9183437004499657
+      ],
+      "junction_ratio": [
+        0.39207111745820705,
+        0.49207111745820703
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.0,
+        0.035373747948192334
+      ]
+    },
+    "sampling_metadata": {
+      "sampling_fallback_used": true,
+      "sampling_fallback_reason": ";adjusted_D_for_feasibility",
+      "reject_reasons": [],
+      "D_adjustment": {
+        "raw_D": 13,
+        "adjusted_D": 12,
+        "D_adjusted": true,
+        "infeasible_path_target": false,
+        "feasible_D_values": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ],
+        "path_feasibility_rule": "L>=D, (L-D)%2==0, D within manhattan/grid bounds"
+      }
+    }
+  },
+  {
+    "maze_id": "n7d_00016",
+    "target_L_BFS": 20.0,
+    "target_detour_ratio": 1.6945604978005298,
+    "target_wall_ratio": 0.21113362808618175,
+    "target_dead_end_ratio": 0.12703236413232263,
+    "target_dead_end_depth_mean": 2.1517762859778435,
+    "target_junction_ratio": 0.3882843883926377,
+    "target_island_free_ratio": 0.04497631068534888,
+    "derived_D": 12,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9300236893146512,
+        0.9800236893146511
+      ],
+      "wall_ratio": [
+        0.17988362808618175,
+        0.24238362808618175
+      ],
+      "bfs_len_norm": [
+        0.30158730158730157,
+        0.3333333333333333
+      ],
+      "detour_ratio": [
+        1.4945604978005298,
+        1.8945604978005297
+      ],
+      "dead_end_ratio": [
+        0.10203236413232264,
+        0.15203236413232263
+      ],
+      "dead_end_depth_mean": [
+        1.8017762859778435,
+        2.5017762859778436
+      ],
+      "junction_ratio": [
+        0.3382843883926377,
+        0.43828438839263767
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.01997631068534888,
+        0.06997631068534887
+      ]
+    },
+    "sampling_metadata": {
+      "sampling_fallback_used": false,
+      "sampling_fallback_reason": null,
+      "reject_reasons": []
+    }
+  },
+  {
+    "maze_id": "n7d_00017",
+    "target_L_BFS": 25.0,
+    "target_detour_ratio": 2.1959377347261544,
+    "target_wall_ratio": 0.32109428989512767,
+    "target_dead_end_ratio": 0.07850890898345614,
+    "target_dead_end_depth_mean": 2.8760949893885286,
+    "target_junction_ratio": 0.704891192577455,
+    "target_island_free_ratio": 0.0018889684850682473,
+    "derived_D": 11,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9731110315149317,
+        1.0
+      ],
+      "wall_ratio": [
+        0.28984428989512767,
+        0.35234428989512767
+      ],
+      "bfs_len_norm": [
+        0.38095238095238093,
+        0.4126984126984127
+      ],
+      "detour_ratio": [
+        1.9959377347261544,
+        2.3959377347261546
+      ],
+      "dead_end_ratio": [
+        0.05350890898345614,
+        0.10350890898345613
+      ],
+      "dead_end_depth_mean": [
+        2.5260949893885285,
+        3.2260949893885287
+      ],
+      "junction_ratio": [
+        0.654891192577455,
+        0.7548911925774551
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.0,
+        0.02688896848506825
+      ]
+    },
+    "sampling_metadata": {
+      "sampling_fallback_used": false,
+      "sampling_fallback_reason": null,
+      "reject_reasons": []
+    }
+  },
+  {
+    "maze_id": "n7d_00018",
+    "target_L_BFS": 12.0,
+    "target_detour_ratio": 2.6103560100765915,
+    "target_wall_ratio": 0.1830008451154343,
+    "target_dead_end_ratio": 0.037482079168530164,
+    "target_dead_end_depth_mean": 2.637686038404892,
+    "target_junction_ratio": 0.4510542464639904,
+    "target_island_free_ratio": 0.0393431477011521,
+    "derived_D": 4,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9356568522988479,
+        0.9856568522988479
+      ],
+      "wall_ratio": [
+        0.1517508451154343,
+        0.2142508451154343
+      ],
+      "bfs_len_norm": [
+        0.1746031746031746,
+        0.20634920634920634
+      ],
+      "detour_ratio": [
+        2.4103560100765913,
+        2.8103560100765916
+      ],
+      "dead_end_ratio": [
+        0.012482079168530162,
+        0.062482079168530165
+      ],
+      "dead_end_depth_mean": [
+        2.287686038404892,
+        2.987686038404892
+      ],
+      "junction_ratio": [
+        0.4010542464639904,
+        0.5010542464639904
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.014343147701152095,
+        0.0643431477011521
+      ]
+    },
+    "sampling_metadata": {
+      "sampling_fallback_used": true,
+      "sampling_fallback_reason": ";adjusted_D_for_feasibility",
+      "reject_reasons": [],
+      "D_adjustment": {
+        "raw_D": 5,
+        "adjusted_D": 4,
+        "D_adjusted": true,
+        "infeasible_path_target": false,
+        "feasible_D_values": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ],
+        "path_feasibility_rule": "L>=D, (L-D)%2==0, D within manhattan/grid bounds"
+      }
+    }
+  },
+  {
+    "maze_id": "n7d_00019",
+    "target_L_BFS": 10.0,
+    "target_detour_ratio": 2.4739339223664105,
+    "target_wall_ratio": 0.32193829173164495,
+    "target_dead_end_ratio": 0.09478901817939885,
+    "target_dead_end_depth_mean": 2.411199340172737,
+    "target_junction_ratio": 0.58175384108113,
+    "target_island_free_ratio": 0.05700955650651278,
+    "derived_D": 4,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9179904434934872,
+        0.9679904434934872
+      ],
+      "wall_ratio": [
+        0.29068829173164495,
+        0.35318829173164495
+      ],
+      "bfs_len_norm": [
+        0.14285714285714285,
+        0.1746031746031746
+      ],
+      "detour_ratio": [
+        2.2739339223664103,
+        2.6739339223664107
+      ],
+      "dead_end_ratio": [
+        0.06978901817939884,
+        0.11978901817939885
+      ],
+      "dead_end_depth_mean": [
+        2.061199340172737,
+        2.761199340172737
+      ],
+      "junction_ratio": [
+        0.53175384108113,
+        0.6317538410811301
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.03200955650651278,
+        0.08200955650651279
+      ]
+    },
+    "sampling_metadata": {
+      "sampling_fallback_used": false,
+      "sampling_fallback_reason": null,
+      "reject_reasons": []
+    }
+  },
+  {
+    "maze_id": "n7d_00020",
+    "target_L_BFS": 14.0,
+    "target_detour_ratio": 2.286278675675964,
+    "target_wall_ratio": 0.2849469850706762,
+    "target_dead_end_ratio": 0.11778197525535061,
+    "target_dead_end_depth_mean": 1.6322669332544646,
+    "target_junction_ratio": 0.7646899111163957,
+    "target_island_free_ratio": 0.04281288979968466,
+    "derived_D": 6,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9321871102003153,
+        0.9821871102003153
+      ],
+      "wall_ratio": [
+        0.2536969850706762,
+        0.3161969850706762
+      ],
+      "bfs_len_norm": [
+        0.20634920634920634,
+        0.23809523809523808
+      ],
+      "detour_ratio": [
+        2.0862786756759637,
+        2.486278675675964
+      ],
+      "dead_end_ratio": [
+        0.09278197525535062,
+        0.1427819752553506
+      ],
+      "dead_end_depth_mean": [
+        1.2822669332544647,
+        1.9822669332544645
+      ],
+      "junction_ratio": [
+        0.7146899111163957,
+        0.8146899111163958
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.017812889799684657,
+        0.06781288979968467
+      ]
+    },
+    "sampling_metadata": {
+      "sampling_fallback_used": false,
+      "sampling_fallback_reason": null,
+      "reject_reasons": []
+    }
+  },
+  {
+    "maze_id": "n7d_00021",
+    "target_L_BFS": 13.0,
+    "target_detour_ratio": 2.2960343340476683,
+    "target_wall_ratio": 0.2514113240778502,
+    "target_dead_end_ratio": 0.13185812991186976,
+    "target_dead_end_depth_mean": 2.123970612918978,
+    "target_junction_ratio": 0.48796991462731293,
+    "target_island_free_ratio": 0.008555242305527792,
+    "derived_D": 5,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9664447576944722,
+        1.0
+      ],
+      "wall_ratio": [
+        0.22016132407785022,
+        0.2826613240778502
+      ],
+      "bfs_len_norm": [
+        0.19047619047619047,
+        0.2222222222222222
+      ],
+      "detour_ratio": [
+        2.096034334047668,
+        2.4960343340476685
+      ],
+      "dead_end_ratio": [
+        0.10685812991186977,
+        0.15685812991186976
+      ],
+      "dead_end_depth_mean": [
+        1.773970612918978,
+        2.4739706129189782
+      ],
+      "junction_ratio": [
+        0.43796991462731294,
+        0.5379699146273129
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.0,
+        0.033555242305527797
+      ]
+    },
+    "sampling_metadata": {
+      "sampling_fallback_used": true,
+      "sampling_fallback_reason": ";adjusted_D_for_feasibility",
+      "reject_reasons": [],
+      "D_adjustment": {
+        "raw_D": 6,
+        "adjusted_D": 5,
+        "D_adjusted": true,
+        "infeasible_path_target": false,
+        "feasible_D_values": [
+          3,
+          5,
+          7,
+          9,
+          11,
+          13
+        ],
+        "path_feasibility_rule": "L>=D, (L-D)%2==0, D within manhattan/grid bounds"
+      }
+    }
+  },
+  {
+    "maze_id": "n7d_00022",
+    "target_L_BFS": 13.0,
+    "target_detour_ratio": 1.7089548579622955,
+    "target_wall_ratio": 0.25541489742678336,
+    "target_dead_end_ratio": 0.0837688899920354,
+    "target_dead_end_depth_mean": 1.742450209113464,
+    "target_junction_ratio": 0.48275685383927835,
+    "target_island_free_ratio": 0.007360553655633716,
+    "derived_D": 7,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9676394463443663,
+        1.0
+      ],
+      "wall_ratio": [
+        0.22416489742678336,
+        0.28666489742678336
+      ],
+      "bfs_len_norm": [
+        0.19047619047619047,
+        0.2222222222222222
+      ],
+      "detour_ratio": [
+        1.5089548579622956,
+        1.9089548579622955
+      ],
+      "dead_end_ratio": [
+        0.058768889992035396,
+        0.1087688899920354
+      ],
+      "dead_end_depth_mean": [
+        1.392450209113464,
+        2.092450209113464
+      ],
+      "junction_ratio": [
+        0.43275685383927837,
+        0.5327568538392784
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.0,
+        0.032360553655633714
+      ]
+    },
+    "sampling_metadata": {
+      "sampling_fallback_used": true,
+      "sampling_fallback_reason": ";adjusted_D_for_feasibility",
+      "reject_reasons": [],
+      "D_adjustment": {
+        "raw_D": 8,
+        "adjusted_D": 7,
+        "D_adjusted": true,
+        "infeasible_path_target": false,
+        "feasible_D_values": [
+          3,
+          5,
+          7,
+          9,
+          11,
+          13
+        ],
+        "path_feasibility_rule": "L>=D, (L-D)%2==0, D within manhattan/grid bounds"
+      }
+    }
+  },
+  {
+    "maze_id": "n7d_00023",
+    "target_L_BFS": 17.0,
+    "target_detour_ratio": 2.298729863163253,
+    "target_wall_ratio": 0.1999438209205219,
+    "target_dead_end_ratio": 0.09677885223329233,
+    "target_dead_end_depth_mean": 1.7006014799992377,
+    "target_junction_ratio": 0.48668467746800304,
+    "target_island_free_ratio": 0.04731654664561895,
+    "derived_D": 7,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9276834533543811,
+        0.977683453354381
+      ],
+      "wall_ratio": [
+        0.1686938209205219,
+        0.2311938209205219
+      ],
+      "bfs_len_norm": [
+        0.25396825396825395,
+        0.2857142857142857
+      ],
+      "detour_ratio": [
+        2.098729863163253,
+        2.4987298631632533
+      ],
+      "dead_end_ratio": [
+        0.07177885223329233,
+        0.12177885223329232
+      ],
+      "dead_end_depth_mean": [
+        1.3506014799992379,
+        2.0506014799992376
+      ],
+      "junction_ratio": [
+        0.43668467746800305,
+        0.5366846774680031
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.022316546645618947,
+        0.07231654664561896
+      ]
+    },
+    "sampling_metadata": {
+      "sampling_fallback_used": false,
+      "sampling_fallback_reason": null,
+      "reject_reasons": []
+    }
+  },
+  {
+    "maze_id": "n7d_00024",
+    "target_L_BFS": 18.0,
+    "target_detour_ratio": 2.7607471282464635,
+    "target_wall_ratio": 0.37415707143235205,
+    "target_dead_end_ratio": 0.1393701936367453,
+    "target_dead_end_depth_mean": 2.0158110554267936,
+    "target_junction_ratio": 0.40334179262239245,
+    "target_island_free_ratio": 0.055056399582855305,
+    "derived_D": 6,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9199436004171447,
+        0.9699436004171447
+      ],
+      "wall_ratio": [
+        0.34290707143235205,
+        0.40540707143235205
+      ],
+      "bfs_len_norm": [
+        0.2698412698412698,
+        0.30158730158730157
+      ],
+      "detour_ratio": [
+        2.5607471282464633,
+        2.9607471282464637
+      ],
+      "dead_end_ratio": [
+        0.1143701936367453,
+        0.1643701936367453
+      ],
+      "dead_end_depth_mean": [
+        1.6658110554267935,
+        2.3658110554267937
+      ],
+      "junction_ratio": [
+        0.35334179262239246,
+        0.45334179262239244
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.030056399582855303,
+        0.0800563995828553
+      ]
+    },
+    "sampling_metadata": {
+      "sampling_fallback_used": true,
+      "sampling_fallback_reason": ";adjusted_D_for_feasibility",
+      "reject_reasons": [],
+      "D_adjustment": {
+        "raw_D": 7,
+        "adjusted_D": 6,
+        "D_adjusted": true,
+        "infeasible_path_target": false,
+        "feasible_D_values": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ],
+        "path_feasibility_rule": "L>=D, (L-D)%2==0, D within manhattan/grid bounds"
+      }
+    }
+  },
+  {
+    "maze_id": "n7d_00025",
+    "target_L_BFS": 21.0,
+    "target_detour_ratio": 2.6070260074178235,
+    "target_wall_ratio": 0.1895113139270763,
+    "target_dead_end_ratio": 0.03910298016536013,
+    "target_dead_end_depth_mean": 1.6493340143895916,
+    "target_junction_ratio": 0.681386979832034,
+    "target_island_free_ratio": 0.04406965034561558,
+    "derived_D": 7,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9309303496543844,
+        0.9809303496543844
+      ],
+      "wall_ratio": [
+        0.1582613139270763,
+        0.2207613139270763
+      ],
+      "bfs_len_norm": [
+        0.31746031746031744,
+        0.3492063492063492
+      ],
+      "detour_ratio": [
+        2.4070260074178234,
+        2.8070260074178237
+      ],
+      "dead_end_ratio": [
+        0.01410298016536013,
+        0.06410298016536013
+      ],
+      "dead_end_depth_mean": [
+        1.2993340143895917,
+        1.9993340143895915
+      ],
+      "junction_ratio": [
+        0.631386979832034,
+        0.731386979832034
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.01906965034561558,
+        0.06906965034561557
+      ]
+    },
+    "sampling_metadata": {
+      "sampling_fallback_used": true,
+      "sampling_fallback_reason": ";adjusted_D_for_feasibility",
+      "reject_reasons": [],
+      "D_adjustment": {
+        "raw_D": 8,
+        "adjusted_D": 7,
+        "D_adjusted": true,
+        "infeasible_path_target": false,
+        "feasible_D_values": [
+          3,
+          5,
+          7,
+          9,
+          11,
+          13
+        ],
+        "path_feasibility_rule": "L>=D, (L-D)%2==0, D within manhattan/grid bounds"
+      }
+    }
+  },
+  {
+    "maze_id": "n7d_00026",
+    "target_L_BFS": 14.0,
+    "target_detour_ratio": 2.870245819847857,
+    "target_wall_ratio": 0.36638716108247,
+    "target_dead_end_ratio": 0.09721993966361374,
+    "target_dead_end_depth_mean": 1.039377910748633,
+    "target_junction_ratio": 0.2605439926784126,
+    "target_island_free_ratio": 0.04567127894157366,
+    "derived_D": 4,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9293287210584263,
+        0.9793287210584264
+      ],
+      "wall_ratio": [
+        0.33513716108247,
+        0.39763716108247
+      ],
+      "bfs_len_norm": [
+        0.20634920634920634,
+        0.23809523809523808
+      ],
+      "detour_ratio": [
+        2.6702458198478567,
+        3.070245819847857
+      ],
+      "dead_end_ratio": [
+        0.07221993966361373,
+        0.12221993966361375
+      ],
+      "dead_end_depth_mean": [
+        0.689377910748633,
+        1.389377910748633
+      ],
+      "junction_ratio": [
+        0.21054399267841262,
+        0.3105439926784126
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.02067127894157366,
+        0.07067127894157366
+      ]
+    },
+    "sampling_metadata": {
+      "sampling_fallback_used": true,
+      "sampling_fallback_reason": ";adjusted_D_for_feasibility",
+      "reject_reasons": [],
+      "D_adjustment": {
+        "raw_D": 5,
+        "adjusted_D": 4,
+        "D_adjusted": true,
+        "infeasible_path_target": false,
+        "feasible_D_values": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ],
+        "path_feasibility_rule": "L>=D, (L-D)%2==0, D within manhattan/grid bounds"
+      }
+    }
+  },
+  {
+    "maze_id": "n7d_00027",
+    "target_L_BFS": 14.0,
+    "target_detour_ratio": 2.341189545709242,
+    "target_wall_ratio": 0.30804337992489234,
+    "target_dead_end_ratio": 0.12180661813254019,
+    "target_dead_end_depth_mean": 3.1644297732023734,
+    "target_junction_ratio": 0.42047944496699396,
+    "target_island_free_ratio": 0.030882664672666007,
+    "derived_D": 6,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.944117335327334,
+        0.994117335327334
+      ],
+      "wall_ratio": [
+        0.27679337992489234,
+        0.33929337992489234
+      ],
+      "bfs_len_norm": [
+        0.20634920634920634,
+        0.23809523809523808
+      ],
+      "detour_ratio": [
+        2.141189545709242,
+        2.5411895457092424
+      ],
+      "dead_end_ratio": [
+        0.09680661813254018,
+        0.1468066181325402
+      ],
+      "dead_end_depth_mean": [
+        2.8144297732023733,
+        3.5144297732023735
+      ],
+      "junction_ratio": [
+        0.370479444966994,
+        0.47047944496699395
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.0058826646726660055,
+        0.055882664672666005
+      ]
+    },
+    "sampling_metadata": {
+      "sampling_fallback_used": false,
+      "sampling_fallback_reason": null,
+      "reject_reasons": []
+    }
+  },
+  {
+    "maze_id": "n7d_00028",
+    "target_L_BFS": 21.0,
+    "target_detour_ratio": 3.009968519691074,
+    "target_wall_ratio": 0.3355772131602696,
+    "target_dead_end_ratio": 0.10798520583338812,
+    "target_dead_end_depth_mean": 2.153607304612888,
+    "target_junction_ratio": 0.40446527571564295,
+    "target_island_free_ratio": 0.051646387897734555,
+    "derived_D": 7,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9233536121022654,
+        0.9733536121022655
+      ],
+      "wall_ratio": [
+        0.3043272131602696,
+        0.3668272131602696
+      ],
+      "bfs_len_norm": [
+        0.31746031746031744,
+        0.3492063492063492
+      ],
+      "detour_ratio": [
+        2.8099685196910738,
+        3.209968519691074
+      ],
+      "dead_end_ratio": [
+        0.08298520583338811,
+        0.13298520583338813
+      ],
+      "dead_end_depth_mean": [
+        1.8036073046128878,
+        2.503607304612888
+      ],
+      "junction_ratio": [
+        0.35446527571564296,
+        0.45446527571564294
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.026646387897734554,
+        0.07664638789773456
+      ]
+    },
+    "sampling_metadata": {
+      "sampling_fallback_used": false,
+      "sampling_fallback_reason": null,
+      "reject_reasons": []
+    }
+  },
+  {
+    "maze_id": "n7d_00029",
+    "target_L_BFS": 21.0,
+    "target_detour_ratio": 2.2431232512250046,
+    "target_wall_ratio": 0.34787820863432317,
+    "target_dead_end_ratio": 0.1020820194608213,
+    "target_dead_end_depth_mean": 1.64406096255854,
+    "target_junction_ratio": 0.701515652250349,
+    "target_island_free_ratio": 0.052717130649118704,
+    "derived_D": 9,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9222828693508813,
+        0.9722828693508813
+      ],
+      "wall_ratio": [
+        0.31662820863432317,
+        0.37912820863432317
+      ],
+      "bfs_len_norm": [
+        0.31746031746031744,
+        0.3492063492063492
+      ],
+      "detour_ratio": [
+        2.0431232512250044,
+        2.4431232512250047
+      ],
+      "dead_end_ratio": [
+        0.0770820194608213,
+        0.1270820194608213
+      ],
+      "dead_end_depth_mean": [
+        1.29406096255854,
+        1.9940609625585402
+      ],
+      "junction_ratio": [
+        0.6515156522503489,
+        0.751515652250349
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.027717130649118703,
+        0.0777171306491187
+      ]
+    },
+    "sampling_metadata": {
+      "sampling_fallback_used": false,
+      "sampling_fallback_reason": null,
+      "reject_reasons": []
+    }
+  }
+]

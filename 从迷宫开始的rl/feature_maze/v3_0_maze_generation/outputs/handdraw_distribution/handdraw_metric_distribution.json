@@ -1,0 +1,93 @@
+{
+  "bfs_len": {
+    "n": 64,
+    "min": 4.0,
+    "p50": 14.0,
+    "mean": 16.484375,
+    "max": 37.0
+  },
+  "rect_room_count": {
+    "n": 64,
+    "min": 0.0,
+    "p50": 2.0,
+    "mean": 2.28125,
+    "max": 5.0
+  },
+  "rect_room_compressed_cycle_rank": {
+    "n": 64,
+    "min": 0.0,
+    "p50": 1.0,
+    "mean": 1.6875,
+    "max": 7.0
+  },
+  "rect_room_macro_choice_count": {
+    "n": 64,
+    "min": 0.0,
+    "p50": 6.0,
+    "mean": 5.625,
+    "max": 11.0
+  },
+  "rect_room_macro_endpoint_count": {
+    "n": 64,
+    "min": 0.0,
+    "p50": 5.0,
+    "mean": 5.078125,
+    "max": 12.0
+  },
+  "rect_room_macro_vertex_count": {
+    "n": 64,
+    "min": 2.0,
+    "p50": 11.0,
+    "mean": 11.484375,
+    "max": 24.0
+  },
+  "rect_room_macro_edge_count": {
+    "n": 64,
+    "min": 1.0,
+    "p50": 12.0,
+    "mean": 12.171875,
+    "max": 26.0
+  },
+  "parallel_macro_edge_count": {
+    "n": 64,
+    "min": 0.0,
+    "p50": 0.0,
+    "mean": 0.78125,
+    "max": 7.0
+  },
+  "terminal_inside_room_count": {
+    "n": 64,
+    "min": 0.0,
+    "p50": 0.0,
+    "mean": 0.5,
+    "max": 2.0
+  },
+  "raw_cycle_rank": {
+    "n": 64,
+    "min": 0.0,
+    "p50": 5.0,
+    "mean": 5.40625,
+    "max": 22.0
+  },
+  "raw_choice_cell_count": {
+    "n": 64,
+    "min": 0.0,
+    "p50": 12.0,
+    "mean": 12.390625,
+    "max": 35.0
+  },
+  "raw_endpoint_cell_count": {
+    "n": 64,
+    "min": 0.0,
+    "p50": 5.0,
+    "mean": 5.03125,
+    "max": 12.0
+  },
+  "reachable_free_ratio": {
+    "n": 64,
+    "min": 0.725,
+    "p50": 1.0,
+    "mean": 0.9781773707414236,
+    "max": 1.0
+  }
+}

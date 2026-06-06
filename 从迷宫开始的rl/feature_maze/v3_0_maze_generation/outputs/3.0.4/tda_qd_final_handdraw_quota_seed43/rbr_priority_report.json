@@ -1,0 +1,54 @@
+{
+  "priority_distribution": {
+    "n": 28648,
+    "min": 0.0003493283600231422,
+    "p50": 0.03419393070997072,
+    "mean": 0.06729583610033543,
+    "max": 1.9620535714285712
+  },
+  "critical_route_replay_count": 23399,
+  "noncritical_route_replay_count": 5249,
+  "top_priority_route_ids": [
+    [
+      "multi_loop_long_high_choice_high_endpoint",
+      1031
+    ],
+    [
+      "generic_multi_loop_long",
+      202
+    ],
+    [
+      "tree_long_high_choice_high_endpoint",
+      175
+    ],
+    [
+      "generic_multi_loop_medium",
+      170
+    ],
+    [
+      "single_loop_long_high_choice_high_endpoint",
+      135
+    ],
+    [
+      "generic_single_loop_long",
+      84
+    ],
+    [
+      "generic_multi_loop_short",
+      80
+    ],
+    [
+      "generic_single_loop_medium",
+      60
+    ],
+    [
+      "generic_tree_long",
+      39
+    ],
+    [
+      "tree_long_mid_choice_high_endpoint",
+      20
+    ]
+  ],
+  "low_priority_evicted_count": 0
+}

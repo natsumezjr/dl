@@ -1,0 +1,12 @@
+{
+  "version": "3.0.1_v2",
+  "experiment_name": "primitive_control_7d_v2",
+  "mode": "primitive_test",
+  "primitive_test_name": "dead_end",
+  "n_mazes": 8,
+  "started_at_utc": "2026-06-02T04:02:07.950012+00:00",
+  "script_path": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v3_0_maze_generation\\experiments\\run_3_0_1_primitive_control_7d.py",
+  "output_dir": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v3_0_maze_generation\\outputs\\3.0.1_v2\\full__prim-8__7d-30\\primitives\\dead_end",
+  "finished_at_utc": "2026-06-02T04:02:53.674897+00:00",
+  "n_generated": 8
+}

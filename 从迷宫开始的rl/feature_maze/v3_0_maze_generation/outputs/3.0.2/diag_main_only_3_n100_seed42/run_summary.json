@@ -1,0 +1,284 @@
+{
+  "summary": {
+    "n_requested": 100,
+    "n_success": 100,
+    "hard_generation_success_rate": 1.0,
+    "edge_embedding_success_rate": 1.0,
+    "strict_consistency_success_rate": 1.0,
+    "hard_failure_count": 0,
+    "success_rate": 1.0,
+    "canonical_consistency_rate": 1.0
+  },
+  "graph_plan_sampling": {
+    "main_L": {
+      "mean": 20.24,
+      "p50": 20.0,
+      "p95": 28.0,
+      "min": 12.0,
+      "max": 30.0
+    },
+    "main_D": {
+      "mean": 8.98,
+      "p50": 9.0,
+      "p95": 12.0,
+      "min": 6.0,
+      "max": 12.0
+    },
+    "graph_budget": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "sampled_dead_edge_count": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "sampled_alternative_edge_count": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "sampled_island_component_count": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    }
+  },
+  "plan_embedding": {
+    "sampled_dead_edge_count": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "accepted_dead_edge_count": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "sampled_alternative_edge_count": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "accepted_alternative_edge_count": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "sampled_island_count": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "accepted_island_count": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    }
+  },
+  "main_route_lengths": {
+    "planned_main_L": {
+      "mean": 20.24,
+      "p50": 20.0,
+      "p95": 28.0,
+      "min": 12.0,
+      "max": 30.0
+    },
+    "generated_main_L_error": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "final_bfs_L_error": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "hinted_main_route_L_error": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "extracted_main_edge_sum_L_error": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    }
+  },
+  "extraction_summary": {
+    "choice_node_count": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "endpoint_node_count": {
+      "mean": 2.0,
+      "p50": 2.0,
+      "p95": 2.0,
+      "min": 2.0,
+      "max": 2.0
+    },
+    "island_node_count": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "main_edge_count": {
+      "mean": 1.0,
+      "p50": 1.0,
+      "p95": 1.0,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "dead_edge_count": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "alternative_edge_count": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "extracted_main_edge_sum_L_error": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "geometry_bug_count": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "detour_path_lt_1_count": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "detour_anchor_lt_1_count": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    }
+  },
+  "consistency_summary": {
+    "sampled_plan_match_rate": 1.0,
+    "effective_plan_match_rate": 1.0,
+    "strict_consistency_success_rate": 1.0,
+    "generated_main_L_error_mean": 0.0,
+    "final_bfs_L_error_mean": 0.0,
+    "hinted_main_route_L_error_mean": 0.0,
+    "extracted_main_edge_sum_L_error_mean": 0.0,
+    "dead_edge_count_effective_match_rate": 1.0,
+    "alternative_edge_count_effective_match_rate": 1.0,
+    "island_component_match_rate": 1.0,
+    "geometry_bug_count": 0,
+    "detour_path_lt_1_count": 0,
+    "detour_anchor_lt_1_count": 0,
+    "extra_node_mean": 0.0,
+    "extra_edge_mean": 0.0,
+    "missing_edge_mean": 0.0,
+    "edge_type_mismatch_count": 0
+  },
+  "alternative_planning": {
+    "sampled_alternative_count": 0,
+    "accepted_alternative_count": 0,
+    "extracted_alternative_count": 0,
+    "alternative_equal_length_count": 0,
+    "alternative_shortcut_violation_count": 0,
+    "alternative_extracted_match_rate": 0.0,
+    "alternative_reject_top_reasons": []
+  },
+  "island_planning": {
+    "sampled_island_component_count": 0,
+    "accepted_island_component_count": 0,
+    "extracted_island_component_count": 0,
+    "island_component_match_rate": 1.0,
+    "island_node_count_mean": 0.0,
+    "island_edge_count_mean": 0.0,
+    "island_no_cells_generated_count": 0,
+    "island_reject_top_reasons": []
+  },
+  "performance": {
+    "runtime_ms": {
+      "mean": 17.963601998635568,
+      "p50": 2.0112999773118645,
+      "p95": 61.50622996792663,
+      "min": 0.33929996425285935,
+      "max": 736.0684999730438
+    },
+    "main_path_attempt_count": {
+      "mean": 1.29,
+      "p50": 1.0,
+      "p95": 3.0,
+      "min": 1.0,
+      "max": 5.0
+    },
+    "edge_attempt_count": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "extract_graph_call_count": {
+      "mean": 1.0,
+      "p50": 1.0,
+      "p95": 1.0,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "bfs_call_count": {
+      "mean": 2.0,
+      "p50": 2.0,
+      "p95": 2.0,
+      "min": 2.0,
+      "max": 2.0
+    }
+  }
+}

@@ -1,0 +1,124 @@
+[
+  {
+    "maze_id": "prim_wall_00010",
+    "target_value": 0.2,
+    "sampled_target_error": 1.913824884792627,
+    "range_error": 0.30485887096774195,
+    "failed_metrics": [
+      "reachable_free_ratio",
+      "wall_ratio",
+      "dead_end_ratio",
+      "island_free_ratio"
+    ],
+    "generation_failed_target": true
+  },
+  {
+    "maze_id": "prim_wall_00011",
+    "target_value": 0.25,
+    "sampled_target_error": 1.807482993197279,
+    "range_error": 0.29125,
+    "failed_metrics": [
+      "reachable_free_ratio",
+      "wall_ratio",
+      "junction_ratio",
+      "island_free_ratio"
+    ],
+    "generation_failed_target": true
+  },
+  {
+    "maze_id": "prim_wall_00000",
+    "target_value": 0.2,
+    "sampled_target_error": 1.7787724180581321,
+    "range_error": 0.284375,
+    "failed_metrics": [
+      "wall_ratio",
+      "junction_ratio"
+    ],
+    "generation_failed_target": true
+  },
+  {
+    "maze_id": "prim_wall_00007",
+    "target_value": 0.3,
+    "sampled_target_error": 1.736635944700461,
+    "range_error": 0.26024801587301594,
+    "failed_metrics": [
+      "reachable_free_ratio",
+      "wall_ratio",
+      "bfs_len_norm",
+      "detour_ratio",
+      "island_free_ratio"
+    ],
+    "generation_failed_target": true
+  },
+  {
+    "maze_id": "prim_wall_00001",
+    "target_value": 0.25,
+    "sampled_target_error": 1.7291419793723943,
+    "range_error": 0.2605040322580645,
+    "failed_metrics": [
+      "reachable_free_ratio",
+      "wall_ratio",
+      "junction_ratio",
+      "island_free_ratio"
+    ],
+    "generation_failed_target": true
+  },
+  {
+    "maze_id": "prim_wall_00015",
+    "target_value": 0.2,
+    "sampled_target_error": 1.5132343846629563,
+    "range_error": 0.22616071428571427,
+    "failed_metrics": [
+      "reachable_free_ratio",
+      "wall_ratio",
+      "island_free_ratio"
+    ],
+    "generation_failed_target": true
+  },
+  {
+    "maze_id": "prim_wall_00016",
+    "target_value": 0.25,
+    "sampled_target_error": 1.3665066026410564,
+    "range_error": 0.20128676470588236,
+    "failed_metrics": [
+      "wall_ratio",
+      "junction_ratio"
+    ],
+    "generation_failed_target": true
+  },
+  {
+    "maze_id": "prim_wall_00006",
+    "target_value": 0.25,
+    "sampled_target_error": 1.3573732718894012,
+    "range_error": 0.2348790322580645,
+    "failed_metrics": [
+      "wall_ratio",
+      "junction_ratio"
+    ],
+    "generation_failed_target": true
+  },
+  {
+    "maze_id": "prim_wall_00005",
+    "target_value": 0.2,
+    "sampled_target_error": 1.3022556390977444,
+    "range_error": 0.185,
+    "failed_metrics": [
+      "reachable_free_ratio",
+      "wall_ratio",
+      "island_free_ratio"
+    ],
+    "generation_failed_target": true
+  },
+  {
+    "maze_id": "prim_wall_00013",
+    "target_value": 0.35,
+    "sampled_target_error": 1.0604241696678673,
+    "range_error": 0.09750000000000003,
+    "failed_metrics": [
+      "reachable_free_ratio",
+      "wall_ratio",
+      "island_free_ratio"
+    ],
+    "generation_failed_target": true
+  }
+]

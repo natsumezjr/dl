@@ -1,0 +1,24 @@
+{
+  "commit_reasons": {
+    "accepted_as_commit": 4812,
+    "EndpointProgress": 141622,
+    "TargetDistanceProgress": 117748,
+    "ChoiceProgress": 114962,
+    "BFSProgress": 24813,
+    "CycleProgress_tree_preserved": 20462,
+    "CycleProgress_multi_loop": 11255,
+    "CycleProgress_single_loop": 647
+  },
+  "rollback_reasons": {
+    "hard_transform_failed:unknown": 190201,
+    "no_progress": 76173,
+    "route_choice_regression": 37557,
+    "route_over_cycle_single_loop": 51429,
+    "route_cycle_violation_tree": 74074,
+    "route_endpoint_regression": 30811,
+    "route_bfs_dropped_out_of_long": 9154,
+    "route_bfs_drop_after_loop_or_spb": 7333,
+    "hard_transform_failed:disconnects_start_goal": 277
+  },
+  "note": "Progress events are route-specific in target_class_sfg_rbr mode."
+}

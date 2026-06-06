@@ -1,0 +1,94 @@
+{
+  "cycle_rank_bins": [
+    {
+      "name": "tree",
+      "range": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "single_loop",
+      "range": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "multi_loop",
+      "range": [
+        2,
+        1000000000
+      ]
+    }
+  ],
+  "bfs_len_bins": [
+    {
+      "name": "short",
+      "range": [
+        1,
+        6
+      ]
+    },
+    {
+      "name": "medium",
+      "range": [
+        7,
+        12
+      ]
+    },
+    {
+      "name": "long",
+      "range": [
+        13,
+        1000000000
+      ]
+    }
+  ],
+  "macro_choice_bins": [
+    {
+      "name": "low_choice",
+      "range": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "mid_choice",
+      "range": [
+        2,
+        4
+      ]
+    },
+    {
+      "name": "high_choice",
+      "range": [
+        5,
+        1000000000
+      ]
+    }
+  ],
+  "macro_endpoint_bins": [
+    {
+      "name": "low_endpoint",
+      "range": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "mid_endpoint",
+      "range": [
+        2,
+        4
+      ]
+    },
+    {
+      "name": "high_endpoint",
+      "range": [
+        5,
+        1000000000
+      ]
+    }
+  ]
+}

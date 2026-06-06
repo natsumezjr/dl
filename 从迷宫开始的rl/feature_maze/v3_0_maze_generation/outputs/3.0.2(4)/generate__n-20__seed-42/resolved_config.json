@@ -1,0 +1,283 @@
+{
+  "version": "3.0.2(4)",
+  "experiment_name": "edge_plan_decision_graph_hint_first_alt_room_island",
+  "grid": {
+    "size": 8,
+    "free": 0,
+    "wall": 1
+  },
+  "room_detection": {
+    "use_2x2_free_block": true,
+    "use_high_degree_cells": true,
+    "room_high_degree_threshold": 3,
+    "room_min_component_size": 3,
+    "exit_definition": "distinct_outside_component",
+    "first_version_ignore_room_internals": true
+  },
+  "node_classification": {
+    "node_types": [
+      "choice_node",
+      "endpoint_node",
+      "island_node"
+    ],
+    "choice_effective_degree_min": 3,
+    "endpoint_effective_degree_max": 1,
+    "pass_through_degree": 2,
+    "start_goal_as_attributes": true
+  },
+  "edge_classification": {
+    "edge_types": [
+      "main_edge",
+      "dead_edge",
+      "alternative_edge",
+      "island_edge"
+    ],
+    "main_edge_rule": "on_canonical_start_goal_route",
+    "dead_edge_rule": "connects_to_endpoint_node",
+    "alternative_edge_rule": "connects_existing_main_structure_nodes",
+    "island_edge_rule": "belongs_to_island_component"
+  },
+  "graph_plan_distribution": {
+    "graph_budget": {
+      "min": 2,
+      "max": 6,
+      "sampling": "uniform_int"
+    },
+    "profile_probs": {
+      "dead_end_focused": 0.34,
+      "choice_focused": 0.33,
+      "mixed_playable": 0.33
+    },
+    "profiles": {
+      "dead_end_focused": {
+        "dead_edge_count_weight": 0.7,
+        "alternative_edge_count_weight": 0.2,
+        "island_component_count_weight": 0.1
+      },
+      "choice_focused": {
+        "dead_edge_count_weight": 0.35,
+        "alternative_edge_count_weight": 0.55,
+        "island_component_count_weight": 0.1
+      },
+      "mixed_playable": {
+        "dead_edge_count_weight": 0.5,
+        "alternative_edge_count_weight": 0.25,
+        "island_component_count_weight": 0.25
+      }
+    }
+  },
+  "main_path": {
+    "main_L": {
+      "min": 12,
+      "max": 30,
+      "sampling": "truncated_normal",
+      "mean": 20,
+      "std": 5
+    },
+    "main_D": {
+      "min": 6,
+      "max": 12,
+      "sampling": "truncated_normal",
+      "mean": 9,
+      "std": 2
+    },
+    "require_parity": true,
+    "require_L_ge_D": true,
+    "require_induced_path": true,
+    "max_sampling_attempts": 200,
+    "max_path_attempts": 1000
+  },
+  "dead_edge": {
+    "L": {
+      "min": 2,
+      "max": 7,
+      "sampling": "truncated_normal",
+      "mean": 4,
+      "std": 1.5
+    },
+    "D": {
+      "min": 1,
+      "max": 7,
+      "derive_from_L": true
+    }
+  },
+  "alternative_edge": {
+    "extra_L": {
+      "min": 0,
+      "max": 6,
+      "sampling": "truncated_normal",
+      "mean": 2,
+      "std": 1.5
+    },
+    "anchor_main_interval_min": 4,
+    "anchor_main_interval_max": 12,
+    "require_strictly_longer_than_main_interval": false,
+    "min_extra_L": 0,
+    "planning_mode": "co_planned_with_main",
+    "baseline_mode_enabled": false,
+    "max_coplanned_main_attempts": 100,
+    "coplanned_retry_main_on_failure": true,
+    "target_L_tolerance": 0,
+    "max_coplanned_interval_attempts": 80
+  },
+  "island": {
+    "component_count_min": 0,
+    "component_count_max": 2,
+    "free_budget_min": 0,
+    "free_budget_max": 8,
+    "internal_structure": "ignore",
+    "max_island_attempts": 50,
+    "candidate_strategy": "wall_component_search",
+    "allow_single_cell_island": true,
+    "min_component_cells": 1
+  },
+  "anchor_selection": {
+    "strategy": "random_with_optional_soft_score",
+    "exclude_start_goal": true,
+    "soft_score_enabled": true,
+    "weights": {
+      "available_dirs": 1.0,
+      "crowding_penalty": 0.5,
+      "boundary_penalty": 0.25
+    },
+    "fallback_to_pure_random": true
+  },
+  "edge_embedding": {
+    "forbid_touching_unrelated_free_cells": true,
+    "allow_room_merge": false,
+    "allow_unplanned_contact": false,
+    "max_edge_attempts": 80,
+    "max_edge_path_search_steps": 500
+  },
+  "shortcut_constraints": {
+    "require_goal_shortest_path_equal_main_L": true,
+    "check_main_prefix_distance": true,
+    "allow_alternative_equal_length": true
+  },
+  "visualization": {
+    "enabled": true,
+    "sample_limit": 6,
+    "save_png": true,
+    "save_svg": false,
+    "dpi": 150
+  },
+  "debug": {
+    "level": "detailed",
+    "save_operation_trace": true,
+    "hint_thresholds": {
+      "main_path_generation_failed_rate": 0.3,
+      "alternative_edge_reject_rate": 0.5,
+      "dead_edge_no_candidate_rate": 0.5,
+      "extra_node_mean": 0.5,
+      "island_generation_failed_rate": 0.3,
+      "edge_embedding_success_rate_low": 0.8,
+      "effective_plan_match_rate_high": 0.8,
+      "effective_plan_match_rate_low": 0.8,
+      "coplanned_alternative_zero_accept": 0.0,
+      "alternative_extracted_match_rate_low": 0.8,
+      "island_extracted_match_rate_low": 0.8,
+      "success_category_count_min": 5
+    }
+  },
+  "runtime_limits": {
+    "n_mazes_default": 20,
+    "seed": 42,
+    "max_total_attempts_per_maze": 2000
+  },
+  "compare": {
+    "main_route_L_tolerance": 0,
+    "alternative_cell_coverage_threshold": 0.8
+  },
+  "diagnostic_profiles": {
+    "main_only": {
+      "dead_edge_count": 0,
+      "alternative_edge_count": 0,
+      "island_component_count": 0,
+      "alternative_planning_mode": "co_planned_with_main"
+    },
+    "main_dead_only": {
+      "dead_edge_count": 1,
+      "alternative_edge_count": 0,
+      "island_component_count": 0,
+      "alternative_planning_mode": "co_planned_with_main"
+    },
+    "main_alternative_only": {
+      "dead_edge_count": 0,
+      "alternative_edge_count": 1,
+      "island_component_count": 0,
+      "alternative_planning_mode": "co_planned_with_main",
+      "alternative_extra_L": 0
+    },
+    "main_alternative_coplanned_only": {
+      "dead_edge_count": 0,
+      "alternative_edge_count": 1,
+      "island_component_count": 0,
+      "alternative_planning_mode": "co_planned_with_main",
+      "alternative_extra_L": 0
+    },
+    "main_island_only": {
+      "dead_edge_count": 0,
+      "alternative_edge_count": 0,
+      "island_component_count": 1,
+      "alternative_planning_mode": "co_planned_with_main",
+      "island_free_budget": 4
+    },
+    "main_alternative_equal_length_only": {
+      "dead_edge_count": 0,
+      "alternative_edge_count": 1,
+      "island_component_count": 0,
+      "alternative_planning_mode": "co_planned_with_main",
+      "alternative_extra_L": 0
+    },
+    "main_alternative_longer_only": {
+      "dead_edge_count": 0,
+      "alternative_edge_count": 1,
+      "island_component_count": 0,
+      "alternative_planning_mode": "co_planned_with_main",
+      "alternative_extra_L": 2
+    },
+    "roundtrip_layered_main_dead_alt": {
+      "dead_edge_count": 1,
+      "alternative_edge_count": 1,
+      "island_component_count": 0,
+      "alternative_planning_mode": "co_planned_with_main",
+      "alternative_extra_L": 2
+    },
+    "roundtrip_layered_main_alt_island": {
+      "dead_edge_count": 0,
+      "alternative_edge_count": 1,
+      "island_component_count": 1,
+      "alternative_planning_mode": "co_planned_with_main",
+      "alternative_extra_L": 2,
+      "island_free_budget": 4
+    }
+  },
+  "sample_selection": {
+    "enabled": true,
+    "max_samples": 16,
+    "categories": [
+      "success_main_only",
+      "success_main_dead",
+      "success_alt_equal_length",
+      "success_alt_longer",
+      "success_island_component",
+      "success_main_dead_alt",
+      "success_main_alt_island",
+      "success_room_pass_through",
+      "success_room_choice_node",
+      "success_mixed_effective_match",
+      "failure_alt_identity_mismatch",
+      "failure_island_candidate",
+      "failure_effective_mismatch",
+      "failure_extract_representation"
+    ],
+    "success_min_categories": 5
+  },
+  "_resolved": {
+    "config_path": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v3_0_maze_generation\\configs\\edge_plan_3_0_2_default.json",
+    "version": "3.0.2(4)",
+    "experiment_name": "edge_plan_decision_graph_hint_first_alt_room_island",
+    "mode": "generate",
+    "output_dir": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v3_0_maze_generation\\outputs\\3.0.2(4)\\generate__n-20__seed-42"
+  }
+}

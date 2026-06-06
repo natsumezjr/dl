@@ -1,0 +1,1789 @@
+[
+  {
+    "runtime_ms": 12.895599997136742,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 14,
+    "extract_graph_call_count": 5,
+    "bfs_call_count": 13,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 8,
+        "alternative_coplanned_hits_unrelated_free_cell": 3,
+        "alternative_coplanned_edge_self_intersection": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 15130.827499961015,
+    "main_path_attempt_count": 70,
+    "edge_attempt_count": 7250,
+    "extract_graph_call_count": 169,
+    "bfs_call_count": 1239,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_edge_self_intersection": 894,
+        "alternative_coplanned_hits_unrelated_free_cell": 5121,
+        "alternative_coplanned_shortest_path_changed_goal": 980,
+        "dead_edge_hits_unrelated_free_cell": 127,
+        "dead_edge_touches_unrelated_free_cell": 33,
+        "dead_edge_no_candidate": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 1097.2292000078596,
+    "main_path_attempt_count": 8,
+    "edge_attempt_count": 725,
+    "extract_graph_call_count": 16,
+    "bfs_call_count": 157,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_edge_self_intersection": 98,
+        "alternative_coplanned_hits_unrelated_free_cell": 427,
+        "alternative_coplanned_shortest_path_changed_goal": 137,
+        "dead_edge_touches_unrelated_free_cell": 19,
+        "dead_edge_hits_unrelated_free_cell": 37,
+        "dead_edge_edge_self_intersection": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 2293.0627999594435,
+    "main_path_attempt_count": 97,
+    "edge_attempt_count": 4205,
+    "extract_graph_call_count": 84,
+    "bfs_call_count": 744,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 58
+      },
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 3026,
+        "alternative_coplanned_shortest_path_changed_goal": 620,
+        "alternative_coplanned_edge_self_intersection": 357,
+        "dead_edge_hits_unrelated_free_cell": 104,
+        "dead_edge_touches_unrelated_free_cell": 55,
+        "dead_edge_edge_self_intersection": 1,
+        "dead_edge_no_candidate": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 13.14920000731945,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 177,
+    "extract_graph_call_count": 9,
+    "bfs_call_count": 6,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 1
+      },
+      "edge": {
+        "alternative_coplanned_edge_self_intersection": 1,
+        "dead_edge_touches_unrelated_free_cell": 67,
+        "dead_edge_hits_unrelated_free_cell": 103,
+        "dead_edge_edge_self_intersection": 3,
+        "dead_edge_no_candidate": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 43.65230002440512,
+    "main_path_attempt_count": 3,
+    "edge_attempt_count": 170,
+    "extract_graph_call_count": 7,
+    "bfs_call_count": 4,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 2
+      },
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 6,
+        "alternative_coplanned_edge_self_intersection": 3,
+        "dead_edge_touches_unrelated_free_cell": 61,
+        "dead_edge_hits_unrelated_free_cell": 93,
+        "dead_edge_edge_self_intersection": 6,
+        "dead_edge_no_candidate": 2,
+        "skipped_zero_budget_island": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 3713.115800055675,
+    "main_path_attempt_count": 20,
+    "edge_attempt_count": 1614,
+    "extract_graph_call_count": 34,
+    "bfs_call_count": 204,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 5
+      },
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 1137,
+        "alternative_coplanned_shortest_path_changed_goal": 164,
+        "alternative_coplanned_edge_self_intersection": 140,
+        "dead_edge_touches_unrelated_free_cell": 45,
+        "dead_edge_hits_unrelated_free_cell": 115,
+        "dead_edge_no_candidate": 2,
+        "skipped_zero_budget_island": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 1621.774600003846,
+    "main_path_attempt_count": 57,
+    "edge_attempt_count": 3637,
+    "extract_graph_call_count": 75,
+    "bfs_call_count": 736,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 23
+      },
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 2469,
+        "alternative_coplanned_shortest_path_changed_goal": 625,
+        "alternative_coplanned_edge_self_intersection": 345,
+        "dead_edge_hits_unrelated_free_cell": 114,
+        "dead_edge_touches_unrelated_free_cell": 45,
+        "dead_edge_edge_self_intersection": 1,
+        "dead_edge_no_candidate": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 44.95750000933185,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 249,
+    "extract_graph_call_count": 11,
+    "bfs_call_count": 7,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_edge_self_intersection": 11,
+        "alternative_coplanned_hits_unrelated_free_cell": 32,
+        "alternative_coplanned_shortest_path_changed_goal": 1,
+        "dead_edge_touches_unrelated_free_cell": 78,
+        "dead_edge_hits_unrelated_free_cell": 118,
+        "dead_edge_edge_self_intersection": 5,
+        "dead_edge_no_candidate": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 1612.8081000060774,
+    "main_path_attempt_count": 11,
+    "edge_attempt_count": 1389,
+    "extract_graph_call_count": 28,
+    "bfs_call_count": 321,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_edge_self_intersection": 170,
+        "alternative_coplanned_hits_unrelated_free_cell": 761,
+        "alternative_coplanned_shortest_path_changed_goal": 285,
+        "dead_edge_touches_unrelated_free_cell": 54,
+        "dead_edge_hits_unrelated_free_cell": 106,
+        "dead_edge_no_candidate": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 123.34150000242516,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 129,
+    "extract_graph_call_count": 4,
+    "bfs_call_count": 14,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 1
+      },
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 10,
+        "alternative_coplanned_hits_unrelated_free_cell": 34,
+        "alternative_coplanned_edge_self_intersection": 4,
+        "dead_edge_hits_unrelated_free_cell": 55,
+        "dead_edge_touches_unrelated_free_cell": 22,
+        "dead_edge_edge_self_intersection": 3,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 5.4361000075004995,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 11,
+    "extract_graph_call_count": 9,
+    "bfs_call_count": 6,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 1
+      },
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 2,
+        "dead_edge_touches_unrelated_free_cell": 1,
+        "dead_edge_hits_unrelated_free_cell": 4
+      }
+    }
+  },
+  {
+    "runtime_ms": 9049.826900009066,
+    "main_path_attempt_count": 35,
+    "edge_attempt_count": 3507,
+    "extract_graph_call_count": 70,
+    "bfs_call_count": 494,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 398,
+        "alternative_coplanned_hits_unrelated_free_cell": 2462,
+        "alternative_coplanned_edge_self_intersection": 456,
+        "dead_edge_touches_unrelated_free_cell": 40,
+        "dead_edge_hits_unrelated_free_cell": 116,
+        "dead_edge_no_candidate": 2,
+        "dead_edge_edge_self_intersection": 4
+      }
+    }
+  },
+  {
+    "runtime_ms": 206.6367999650538,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 202,
+    "extract_graph_call_count": 10,
+    "bfs_call_count": 101,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 69,
+        "alternative_coplanned_shortest_path_changed_goal": 91,
+        "alternative_coplanned_edge_self_intersection": 23,
+        "dead_edge_touches_unrelated_free_cell": 4,
+        "dead_edge_hits_unrelated_free_cell": 11,
+        "skipped_zero_budget_island": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 38.159299991093576,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 198,
+    "extract_graph_call_count": 9,
+    "bfs_call_count": 5,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_edge_self_intersection": 8,
+        "alternative_coplanned_hits_unrelated_free_cell": 26,
+        "dead_edge_touches_unrelated_free_cell": 60,
+        "dead_edge_hits_unrelated_free_cell": 98,
+        "dead_edge_no_candidate": 2,
+        "dead_edge_edge_self_intersection": 3
+      }
+    }
+  },
+  {
+    "runtime_ms": 232.15520003577694,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 150,
+    "extract_graph_call_count": 6,
+    "bfs_call_count": 33,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 27,
+        "alternative_coplanned_hits_unrelated_free_cell": 100,
+        "alternative_coplanned_edge_self_intersection": 20,
+        "dead_edge_hits_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 1325.4486999940127,
+    "main_path_attempt_count": 4,
+    "edge_attempt_count": 338,
+    "extract_graph_call_count": 11,
+    "bfs_call_count": 116,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 182,
+        "alternative_coplanned_shortest_path_changed_goal": 102,
+        "alternative_coplanned_edge_self_intersection": 36,
+        "dead_edge_hits_unrelated_free_cell": 10,
+        "dead_edge_touches_unrelated_free_cell": 3
+      }
+    }
+  },
+  {
+    "runtime_ms": 611.3363999756984,
+    "main_path_attempt_count": 12,
+    "edge_attempt_count": 1238,
+    "extract_graph_call_count": 35,
+    "bfs_call_count": 320,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 268,
+        "alternative_coplanned_hits_unrelated_free_cell": 752,
+        "alternative_coplanned_edge_self_intersection": 107,
+        "dead_edge_touches_unrelated_free_cell": 11,
+        "dead_edge_hits_unrelated_free_cell": 78,
+        "dead_edge_edge_self_intersection": 2,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 246.891200018581,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 167,
+    "extract_graph_call_count": 10,
+    "bfs_call_count": 62,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 85,
+        "alternative_coplanned_shortest_path_changed_goal": 52,
+        "alternative_coplanned_edge_self_intersection": 23,
+        "dead_edge_hits_unrelated_free_cell": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 26.686299999710172,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 9,
+    "extract_graph_call_count": 5,
+    "bfs_call_count": 6,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 1,
+        "alternative_coplanned_hits_unrelated_free_cell": 5,
+        "alternative_coplanned_edge_self_intersection": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 50.431500014383346,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 119,
+    "extract_graph_call_count": 10,
+    "bfs_call_count": 7,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_edge_self_intersection": 12,
+        "alternative_coplanned_shortest_path_changed_goal": 1,
+        "alternative_coplanned_hits_unrelated_free_cell": 8,
+        "dead_edge_hits_unrelated_free_cell": 63,
+        "dead_edge_touches_unrelated_free_cell": 31,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 16.56600000569597,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 172,
+    "extract_graph_call_count": 11,
+    "bfs_call_count": 6,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_edge_self_intersection": 1,
+        "dead_edge_hits_unrelated_free_cell": 114,
+        "dead_edge_touches_unrelated_free_cell": 53,
+        "dead_edge_no_candidate": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 15.91840002220124,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 175,
+    "extract_graph_call_count": 11,
+    "bfs_call_count": 9,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 1
+      },
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 3,
+        "alternative_coplanned_edge_self_intersection": 1,
+        "dead_edge_hits_unrelated_free_cell": 114,
+        "dead_edge_touches_unrelated_free_cell": 52,
+        "dead_edge_no_candidate": 2,
+        "dead_edge_edge_self_intersection": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 16.032100014854223,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 36,
+    "extract_graph_call_count": 9,
+    "bfs_call_count": 8,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_edge_self_intersection": 1,
+        "alternative_coplanned_shortest_path_changed_goal": 1,
+        "alternative_coplanned_hits_unrelated_free_cell": 1,
+        "dead_edge_edge_self_intersection": 1,
+        "dead_edge_hits_unrelated_free_cell": 19,
+        "dead_edge_touches_unrelated_free_cell": 9
+      }
+    }
+  },
+  {
+    "runtime_ms": 10.124000022187829,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 17,
+    "extract_graph_call_count": 5,
+    "bfs_call_count": 9,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 11,
+        "alternative_coplanned_shortest_path_changed_goal": 4
+      }
+    }
+  },
+  {
+    "runtime_ms": 25.663800013717264,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 252,
+    "extract_graph_call_count": 8,
+    "bfs_call_count": 5,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 2,
+        "dead_edge_hits_unrelated_free_cell": 182,
+        "dead_edge_touches_unrelated_free_cell": 59,
+        "dead_edge_edge_self_intersection": 7,
+        "dead_edge_no_candidate": 3
+      }
+    }
+  },
+  {
+    "runtime_ms": 6441.226100025233,
+    "main_path_attempt_count": 61,
+    "edge_attempt_count": 4927,
+    "extract_graph_call_count": 100,
+    "bfs_call_count": 958,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 13
+      },
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 3274,
+        "alternative_coplanned_shortest_path_changed_goal": 815,
+        "alternative_coplanned_edge_self_intersection": 630,
+        "dead_edge_hits_unrelated_free_cell": 120,
+        "dead_edge_touches_unrelated_free_cell": 40,
+        "dead_edge_no_candidate": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 29.439899954013526,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 46,
+    "extract_graph_call_count": 7,
+    "bfs_call_count": 15,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_edge_self_intersection": 9,
+        "alternative_coplanned_hits_unrelated_free_cell": 19,
+        "alternative_coplanned_shortest_path_changed_goal": 10,
+        "dead_edge_hits_unrelated_free_cell": 3,
+        "dead_edge_touches_unrelated_free_cell": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 14.660799992270768,
+    "main_path_attempt_count": 4,
+    "edge_attempt_count": 24,
+    "extract_graph_call_count": 6,
+    "bfs_call_count": 9,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 3
+      },
+      "edge": {
+        "alternative_coplanned_edge_self_intersection": 2,
+        "alternative_coplanned_shortest_path_changed_goal": 2,
+        "alternative_coplanned_hits_unrelated_free_cell": 8,
+        "dead_edge_hits_unrelated_free_cell": 6,
+        "dead_edge_touches_unrelated_free_cell": 3
+      }
+    }
+  },
+  {
+    "runtime_ms": 3.1710999901406467,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 4,
+    "extract_graph_call_count": 7,
+    "bfs_call_count": 5,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_hits_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 805.0234999973327,
+    "main_path_attempt_count": 17,
+    "edge_attempt_count": 1122,
+    "extract_graph_call_count": 29,
+    "bfs_call_count": 279,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 7
+      },
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 766,
+        "alternative_coplanned_shortest_path_changed_goal": 238,
+        "alternative_coplanned_edge_self_intersection": 94,
+        "dead_edge_hits_unrelated_free_cell": 7,
+        "dead_edge_touches_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 7.770399970468134,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 30,
+    "extract_graph_call_count": 5,
+    "bfs_call_count": 15,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 10,
+        "alternative_coplanned_edge_self_intersection": 2,
+        "alternative_coplanned_hits_unrelated_free_cell": 16
+      }
+    }
+  },
+  {
+    "runtime_ms": 314.1159000224434,
+    "main_path_attempt_count": 5,
+    "edge_attempt_count": 448,
+    "extract_graph_call_count": 12,
+    "bfs_call_count": 74,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 303,
+        "alternative_coplanned_edge_self_intersection": 79,
+        "alternative_coplanned_shortest_path_changed_goal": 59,
+        "dead_edge_hits_unrelated_free_cell": 1,
+        "dead_edge_touches_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 83.97320000221953,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 83,
+    "extract_graph_call_count": 6,
+    "bfs_call_count": 53,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 46,
+        "alternative_coplanned_edge_self_intersection": 1,
+        "alternative_coplanned_hits_unrelated_free_cell": 23,
+        "dead_edge_hits_unrelated_free_cell": 8,
+        "dead_edge_tip_not_endpoint": 1,
+        "dead_edge_touches_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 380.2546000224538,
+    "main_path_attempt_count": 4,
+    "edge_attempt_count": 411,
+    "extract_graph_call_count": 10,
+    "bfs_call_count": 53,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_edge_self_intersection": 40,
+        "alternative_coplanned_hits_unrelated_free_cell": 247,
+        "alternative_coplanned_shortest_path_changed_goal": 40,
+        "dead_edge_touches_unrelated_free_cell": 27,
+        "dead_edge_hits_unrelated_free_cell": 52,
+        "dead_edge_edge_self_intersection": 1,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 151.96190000278875,
+    "main_path_attempt_count": 3,
+    "edge_attempt_count": 422,
+    "extract_graph_call_count": 12,
+    "bfs_call_count": 54,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 96,
+        "alternative_coplanned_shortest_path_changed_goal": 47,
+        "alternative_coplanned_edge_self_intersection": 17,
+        "dead_edge_hits_unrelated_free_cell": 176,
+        "dead_edge_touches_unrelated_free_cell": 71,
+        "dead_edge_edge_self_intersection": 12,
+        "dead_edge_no_candidate": 3
+      }
+    }
+  },
+  {
+    "runtime_ms": 86.93099999800324,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 174,
+    "extract_graph_call_count": 9,
+    "bfs_call_count": 14,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 63,
+        "alternative_coplanned_edge_self_intersection": 13,
+        "alternative_coplanned_shortest_path_changed_goal": 8,
+        "dead_edge_touches_unrelated_free_cell": 32,
+        "dead_edge_hits_unrelated_free_cell": 55,
+        "dead_edge_edge_self_intersection": 1,
+        "dead_edge_no_candidate": 1,
+        "skipped_zero_budget_island": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 20.897499984130263,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 31,
+    "extract_graph_call_count": 5,
+    "bfs_call_count": 17,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 16,
+        "alternative_coplanned_shortest_path_changed_goal": 12,
+        "dead_edge_hits_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 424.67300000134856,
+    "main_path_attempt_count": 5,
+    "edge_attempt_count": 661,
+    "extract_graph_call_count": 17,
+    "bfs_call_count": 107,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 346,
+        "alternative_coplanned_edge_self_intersection": 60,
+        "alternative_coplanned_shortest_path_changed_goal": 87,
+        "dead_edge_hits_unrelated_free_cell": 129,
+        "dead_edge_touches_unrelated_free_cell": 31,
+        "dead_edge_no_candidate": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 151.78539999760687,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 168,
+    "extract_graph_call_count": 11,
+    "bfs_call_count": 22,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 15,
+        "alternative_coplanned_hits_unrelated_free_cell": 22,
+        "alternative_coplanned_edge_self_intersection": 11,
+        "dead_edge_hits_unrelated_free_cell": 82,
+        "dead_edge_touches_unrelated_free_cell": 33,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 369.68100001104176,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 301,
+    "extract_graph_call_count": 10,
+    "bfs_call_count": 18,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 32,
+        "alternative_coplanned_shortest_path_changed_goal": 13,
+        "alternative_coplanned_edge_self_intersection": 12,
+        "dead_edge_touches_unrelated_free_cell": 69,
+        "dead_edge_hits_unrelated_free_cell": 171,
+        "dead_edge_no_candidate": 3,
+        "dead_edge_edge_self_intersection": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 60.48489996464923,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 160,
+    "extract_graph_call_count": 8,
+    "bfs_call_count": 6,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 8,
+        "alternative_coplanned_shortest_path_changed_goal": 1,
+        "alternative_coplanned_edge_self_intersection": 2,
+        "dead_edge_hits_unrelated_free_cell": 92,
+        "dead_edge_touches_unrelated_free_cell": 54,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 3.7201999803073704,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 14,
+    "extract_graph_call_count": 6,
+    "bfs_call_count": 7,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_edge_self_intersection": 1,
+        "alternative_coplanned_hits_unrelated_free_cell": 1,
+        "dead_edge_hits_unrelated_free_cell": 8,
+        "dead_edge_touches_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 361.08660005265847,
+    "main_path_attempt_count": 3,
+    "edge_attempt_count": 48,
+    "extract_graph_call_count": 7,
+    "bfs_call_count": 14,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 2
+      },
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 28,
+        "alternative_coplanned_edge_self_intersection": 7,
+        "alternative_coplanned_shortest_path_changed_goal": 8,
+        "dead_edge_touches_unrelated_free_cell": 1,
+        "dead_edge_hits_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 102.88239998044446,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 184,
+    "extract_graph_call_count": 9,
+    "bfs_call_count": 41,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 48,
+        "alternative_coplanned_shortest_path_changed_goal": 35,
+        "alternative_coplanned_edge_self_intersection": 17,
+        "dead_edge_edge_self_intersection": 7,
+        "dead_edge_hits_unrelated_free_cell": 42,
+        "dead_edge_touches_unrelated_free_cell": 32,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 862.0115999947302,
+    "main_path_attempt_count": 23,
+    "edge_attempt_count": 2238,
+    "extract_graph_call_count": 42,
+    "bfs_call_count": 583,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_edge_self_intersection": 197,
+        "alternative_coplanned_hits_unrelated_free_cell": 1338,
+        "alternative_coplanned_shortest_path_changed_goal": 527,
+        "dead_edge_hits_unrelated_free_cell": 125,
+        "dead_edge_touches_unrelated_free_cell": 35,
+        "dead_edge_no_candidate": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 83.58370000496507,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 39,
+    "extract_graph_call_count": 7,
+    "bfs_call_count": 24,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 19,
+        "alternative_coplanned_edge_self_intersection": 7,
+        "alternative_coplanned_hits_unrelated_free_cell": 8,
+        "dead_edge_hits_unrelated_free_cell": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 28.118599962908775,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 106,
+    "extract_graph_call_count": 6,
+    "bfs_call_count": 9,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 10,
+        "alternative_coplanned_shortest_path_changed_goal": 4,
+        "alternative_coplanned_edge_self_intersection": 3,
+        "dead_edge_hits_unrelated_free_cell": 50,
+        "dead_edge_touches_unrelated_free_cell": 37,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 9.949599974788725,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 112,
+    "extract_graph_call_count": 8,
+    "bfs_call_count": 6,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_hits_unrelated_free_cell": 82,
+        "dead_edge_touches_unrelated_free_cell": 25,
+        "dead_edge_edge_self_intersection": 2,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 2.857399987988174,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 2,
+    "extract_graph_call_count": 5,
+    "bfs_call_count": 5,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 93.18950003944337,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 98,
+    "extract_graph_call_count": 10,
+    "bfs_call_count": 16,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 59,
+        "alternative_coplanned_edge_self_intersection": 18,
+        "alternative_coplanned_shortest_path_changed_goal": 9,
+        "dead_edge_touches_unrelated_free_cell": 4,
+        "dead_edge_hits_unrelated_free_cell": 4
+      }
+    }
+  },
+  {
+    "runtime_ms": 9.651400032453239,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 166,
+    "extract_graph_call_count": 9,
+    "bfs_call_count": 6,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 1
+      },
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 50,
+        "dead_edge_hits_unrelated_free_cell": 113,
+        "dead_edge_no_candidate": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 1277.6110999984667,
+    "main_path_attempt_count": 20,
+    "edge_attempt_count": 1648,
+    "extract_graph_call_count": 33,
+    "bfs_call_count": 404,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 4
+      },
+      "edge": {
+        "alternative_coplanned_edge_self_intersection": 218,
+        "alternative_coplanned_hits_unrelated_free_cell": 1053,
+        "alternative_coplanned_shortest_path_changed_goal": 358,
+        "dead_edge_hits_unrelated_free_cell": 2,
+        "dead_edge_touches_unrelated_free_cell": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 61.148000007960945,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 137,
+    "extract_graph_call_count": 8,
+    "bfs_call_count": 13,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 39,
+        "alternative_coplanned_edge_self_intersection": 4,
+        "alternative_coplanned_shortest_path_changed_goal": 7,
+        "dead_edge_hits_unrelated_free_cell": 56,
+        "dead_edge_touches_unrelated_free_cell": 27,
+        "dead_edge_edge_self_intersection": 1,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 95.04139999626204,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 174,
+    "extract_graph_call_count": 7,
+    "bfs_call_count": 12,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 7,
+        "alternative_coplanned_hits_unrelated_free_cell": 4,
+        "alternative_coplanned_edge_self_intersection": 1,
+        "dead_edge_hits_unrelated_free_cell": 101,
+        "dead_edge_touches_unrelated_free_cell": 59,
+        "dead_edge_no_candidate": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 13.690799998585135,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 44,
+    "extract_graph_call_count": 8,
+    "bfs_call_count": 15,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 20,
+        "alternative_coplanned_edge_self_intersection": 6,
+        "alternative_coplanned_shortest_path_changed_goal": 8,
+        "dead_edge_hits_unrelated_free_cell": 6
+      }
+    }
+  },
+  {
+    "runtime_ms": 15.645199979189783,
+    "main_path_attempt_count": 11,
+    "edge_attempt_count": 40,
+    "extract_graph_call_count": 5,
+    "bfs_call_count": 20,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 10
+      },
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 19,
+        "alternative_coplanned_shortest_path_changed_goal": 15,
+        "alternative_coplanned_edge_self_intersection": 4
+      }
+    }
+  },
+  {
+    "runtime_ms": 19.094399991445243,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 109,
+    "extract_graph_call_count": 10,
+    "bfs_call_count": 23,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 16,
+        "alternative_coplanned_hits_unrelated_free_cell": 64,
+        "alternative_coplanned_edge_self_intersection": 8,
+        "dead_edge_hits_unrelated_free_cell": 10,
+        "dead_edge_touches_unrelated_free_cell": 7
+      }
+    }
+  },
+  {
+    "runtime_ms": 99.7812999994494,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 199,
+    "extract_graph_call_count": 5,
+    "bfs_call_count": 44,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 71,
+        "alternative_coplanned_shortest_path_changed_goal": 38,
+        "alternative_coplanned_edge_self_intersection": 8,
+        "dead_edge_hits_unrelated_free_cell": 56,
+        "dead_edge_touches_unrelated_free_cell": 22,
+        "dead_edge_edge_self_intersection": 2,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 11.957099952269346,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 90,
+    "extract_graph_call_count": 10,
+    "bfs_call_count": 7,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 1,
+        "alternative_coplanned_shortest_path_changed_goal": 1,
+        "dead_edge_touches_unrelated_free_cell": 25,
+        "dead_edge_hits_unrelated_free_cell": 58,
+        "dead_edge_edge_self_intersection": 2,
+        "dead_edge_no_candidate": 1,
+        "skipped_zero_budget_island": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 1921.349799958989,
+    "main_path_attempt_count": 20,
+    "edge_attempt_count": 1498,
+    "extract_graph_call_count": 38,
+    "bfs_call_count": 415,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 5
+      },
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 360,
+        "alternative_coplanned_edge_self_intersection": 116,
+        "alternative_coplanned_hits_unrelated_free_cell": 921,
+        "dead_edge_hits_unrelated_free_cell": 65,
+        "dead_edge_touches_unrelated_free_cell": 15,
+        "dead_edge_edge_self_intersection": 1,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 42.08609997294843,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 12,
+    "extract_graph_call_count": 5,
+    "bfs_call_count": 6,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_edge_self_intersection": 1,
+        "alternative_coplanned_shortest_path_changed_goal": 1,
+        "alternative_coplanned_hits_unrelated_free_cell": 1,
+        "dead_edge_touches_unrelated_free_cell": 3,
+        "dead_edge_edge_self_intersection": 1,
+        "dead_edge_hits_unrelated_free_cell": 3
+      }
+    }
+  },
+  {
+    "runtime_ms": 1627.5617000064813,
+    "main_path_attempt_count": 17,
+    "edge_attempt_count": 1959,
+    "extract_graph_call_count": 42,
+    "bfs_call_count": 450,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 388,
+        "alternative_coplanned_hits_unrelated_free_cell": 1180,
+        "alternative_coplanned_edge_self_intersection": 209,
+        "dead_edge_hits_unrelated_free_cell": 119,
+        "dead_edge_touches_unrelated_free_cell": 41,
+        "dead_edge_no_candidate": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 7.30719999410212,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 6,
+    "extract_graph_call_count": 7,
+    "bfs_call_count": 5,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 1,
+        "dead_edge_edge_self_intersection": 1,
+        "dead_edge_hits_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 29.428199981339276,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 262,
+    "extract_graph_call_count": 8,
+    "bfs_call_count": 6,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 1
+      },
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 17,
+        "alternative_coplanned_edge_self_intersection": 2,
+        "alternative_coplanned_shortest_path_changed_goal": 1,
+        "dead_edge_touches_unrelated_free_cell": 104,
+        "dead_edge_hits_unrelated_free_cell": 132,
+        "dead_edge_no_candidate": 3,
+        "dead_edge_edge_self_intersection": 4
+      }
+    }
+  },
+  {
+    "runtime_ms": 65.08640001993626,
+    "main_path_attempt_count": 3,
+    "edge_attempt_count": 250,
+    "extract_graph_call_count": 8,
+    "bfs_call_count": 23,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 1
+      },
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 54,
+        "alternative_coplanned_shortest_path_changed_goal": 17,
+        "alternative_coplanned_edge_self_intersection": 12,
+        "dead_edge_hits_unrelated_free_cell": 96,
+        "dead_edge_touches_unrelated_free_cell": 65,
+        "dead_edge_edge_self_intersection": 4,
+        "dead_edge_no_candidate": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 119.98300004051998,
+    "main_path_attempt_count": 3,
+    "edge_attempt_count": 386,
+    "extract_graph_call_count": 14,
+    "bfs_call_count": 59,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 123,
+        "alternative_coplanned_shortest_path_changed_goal": 50,
+        "alternative_coplanned_edge_self_intersection": 23,
+        "dead_edge_hits_unrelated_free_cell": 79,
+        "dead_edge_edge_self_intersection": 1,
+        "dead_edge_touches_unrelated_free_cell": 56,
+        "dead_edge_no_candidate": 1,
+        "island_cells_touch_main_component": 50,
+        "island_no_cells_generated": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 39.56569998990744,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 8,
+    "extract_graph_call_count": 5,
+    "bfs_call_count": 7,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 2,
+        "alternative_coplanned_shortest_path_changed_goal": 2,
+        "alternative_coplanned_edge_self_intersection": 1,
+        "dead_edge_hits_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 2.8055000002495944,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 20,
+    "extract_graph_call_count": 5,
+    "bfs_call_count": 7,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 2,
+        "dead_edge_touches_unrelated_free_cell": 4,
+        "dead_edge_hits_unrelated_free_cell": 12
+      }
+    }
+  },
+  {
+    "runtime_ms": 798.0618999572471,
+    "main_path_attempt_count": 3,
+    "edge_attempt_count": 378,
+    "extract_graph_call_count": 13,
+    "bfs_call_count": 91,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 77,
+        "alternative_coplanned_hits_unrelated_free_cell": 112,
+        "alternative_coplanned_edge_self_intersection": 24,
+        "dead_edge_hits_unrelated_free_cell": 129,
+        "dead_edge_touches_unrelated_free_cell": 31,
+        "dead_edge_no_candidate": 2,
+        "skipped_zero_budget_island": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 240.2886999770999,
+    "main_path_attempt_count": 3,
+    "edge_attempt_count": 392,
+    "extract_graph_call_count": 9,
+    "bfs_call_count": 69,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_edge_self_intersection": 32,
+        "alternative_coplanned_hits_unrelated_free_cell": 131,
+        "alternative_coplanned_shortest_path_changed_goal": 62,
+        "dead_edge_touches_unrelated_free_cell": 57,
+        "dead_edge_hits_unrelated_free_cell": 108,
+        "dead_edge_no_candidate": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 30.14919999986887,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 16,
+    "extract_graph_call_count": 5,
+    "bfs_call_count": 11,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 5,
+        "alternative_coplanned_shortest_path_changed_goal": 6,
+        "alternative_coplanned_edge_self_intersection": 1,
+        "dead_edge_hits_unrelated_free_cell": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 14.797399984672666,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 60,
+    "extract_graph_call_count": 7,
+    "bfs_call_count": 6,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 10,
+        "alternative_coplanned_edge_self_intersection": 3,
+        "dead_edge_hits_unrelated_free_cell": 29,
+        "dead_edge_touches_unrelated_free_cell": 14,
+        "dead_edge_edge_self_intersection": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 67.09460000274703,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 113,
+    "extract_graph_call_count": 6,
+    "bfs_call_count": 48,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 42,
+        "alternative_coplanned_hits_unrelated_free_cell": 52,
+        "alternative_coplanned_edge_self_intersection": 16,
+        "dead_edge_hits_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 85.0984999560751,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 154,
+    "extract_graph_call_count": 10,
+    "bfs_call_count": 28,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_edge_self_intersection": 12,
+        "alternative_coplanned_hits_unrelated_free_cell": 35,
+        "alternative_coplanned_shortest_path_changed_goal": 21,
+        "dead_edge_hits_unrelated_free_cell": 58,
+        "dead_edge_touches_unrelated_free_cell": 23,
+        "dead_edge_edge_self_intersection": 1,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 6.68360001873225,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 5,
+    "extract_graph_call_count": 7,
+    "bfs_call_count": 5,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 1,
+        "dead_edge_hits_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 1095.5451999907382,
+    "main_path_attempt_count": 15,
+    "edge_attempt_count": 1372,
+    "extract_graph_call_count": 32,
+    "bfs_call_count": 331,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 4
+      },
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 760,
+        "alternative_coplanned_edge_self_intersection": 151,
+        "alternative_coplanned_shortest_path_changed_goal": 283,
+        "dead_edge_touches_unrelated_free_cell": 33,
+        "dead_edge_hits_unrelated_free_cell": 127,
+        "dead_edge_no_candidate": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 41.76689998712391,
+    "main_path_attempt_count": 3,
+    "edge_attempt_count": 249,
+    "extract_graph_call_count": 8,
+    "bfs_call_count": 5,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 2
+      },
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 2,
+        "dead_edge_hits_unrelated_free_cell": 167,
+        "dead_edge_touches_unrelated_free_cell": 69,
+        "dead_edge_edge_self_intersection": 9,
+        "dead_edge_no_candidate": 3
+      }
+    }
+  },
+  {
+    "runtime_ms": 48.22269995929673,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 55,
+    "extract_graph_call_count": 5,
+    "bfs_call_count": 18,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 13,
+        "alternative_coplanned_hits_unrelated_free_cell": 32,
+        "alternative_coplanned_edge_self_intersection": 7,
+        "dead_edge_hits_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 18.711899989284575,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 123,
+    "extract_graph_call_count": 6,
+    "bfs_call_count": 10,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 17,
+        "alternative_coplanned_shortest_path_changed_goal": 5,
+        "dead_edge_touches_unrelated_free_cell": 45,
+        "dead_edge_hits_unrelated_free_cell": 53,
+        "dead_edge_edge_self_intersection": 1,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 2.931299968622625,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 18,
+    "extract_graph_call_count": 5,
+    "bfs_call_count": 6,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 1
+      },
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 1,
+        "dead_edge_hits_unrelated_free_cell": 12,
+        "dead_edge_touches_unrelated_free_cell": 3
+      }
+    }
+  },
+  {
+    "runtime_ms": 13.014499971177429,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 76,
+    "extract_graph_call_count": 9,
+    "bfs_call_count": 7,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_edge_self_intersection": 1,
+        "alternative_coplanned_shortest_path_changed_goal": 1,
+        "dead_edge_hits_unrelated_free_cell": 43,
+        "dead_edge_touches_unrelated_free_cell": 27
+      }
+    }
+  },
+  {
+    "runtime_ms": 20.136000006459653,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 174,
+    "extract_graph_call_count": 11,
+    "bfs_call_count": 7,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 1
+      },
+      "edge": {
+        "alternative_coplanned_edge_self_intersection": 2,
+        "alternative_coplanned_hits_unrelated_free_cell": 2,
+        "alternative_coplanned_shortest_path_changed_goal": 1,
+        "dead_edge_touches_unrelated_free_cell": 45,
+        "dead_edge_edge_self_intersection": 7,
+        "dead_edge_hits_unrelated_free_cell": 110,
+        "dead_edge_no_candidate": 2,
+        "dead_edge_tip_not_endpoint": 3
+      }
+    }
+  },
+  {
+    "runtime_ms": 16.532100038602948,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 38,
+    "extract_graph_call_count": 8,
+    "bfs_call_count": 11,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_edge_self_intersection": 7,
+        "alternative_coplanned_hits_unrelated_free_cell": 20,
+        "alternative_coplanned_shortest_path_changed_goal": 4,
+        "dead_edge_hits_unrelated_free_cell": 3
+      }
+    }
+  },
+  {
+    "runtime_ms": 19.103099999483675,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 247,
+    "extract_graph_call_count": 8,
+    "bfs_call_count": 7,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 3,
+        "alternative_coplanned_edge_self_intersection": 1,
+        "alternative_coplanned_hits_unrelated_free_cell": 1,
+        "dead_edge_hits_unrelated_free_cell": 148,
+        "dead_edge_touches_unrelated_free_cell": 64,
+        "dead_edge_edge_self_intersection": 12,
+        "dead_edge_no_candidate": 3,
+        "dead_edge_tip_not_endpoint": 16
+      }
+    }
+  },
+  {
+    "runtime_ms": 97.75459999218583,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 285,
+    "extract_graph_call_count": 8,
+    "bfs_call_count": 5,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 9,
+        "alternative_coplanned_edge_self_intersection": 6,
+        "dead_edge_touches_unrelated_free_cell": 90,
+        "dead_edge_hits_unrelated_free_cell": 172,
+        "dead_edge_edge_self_intersection": 6,
+        "dead_edge_no_candidate": 3
+      }
+    }
+  },
+  {
+    "runtime_ms": 718.7006999738514,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 227,
+    "extract_graph_call_count": 7,
+    "bfs_call_count": 15,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 42,
+        "alternative_coplanned_edge_self_intersection": 15,
+        "alternative_coplanned_shortest_path_changed_goal": 7,
+        "dead_edge_hits_unrelated_free_cell": 140,
+        "dead_edge_touches_unrelated_free_cell": 20,
+        "dead_edge_no_candidate": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 1472.5746999611147,
+    "main_path_attempt_count": 5,
+    "edge_attempt_count": 629,
+    "extract_graph_call_count": 20,
+    "bfs_call_count": 133,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 347,
+        "alternative_coplanned_shortest_path_changed_goal": 108,
+        "alternative_coplanned_edge_self_intersection": 74,
+        "dead_edge_hits_unrelated_free_cell": 66,
+        "dead_edge_touches_unrelated_free_cell": 23,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 3.0327000422403216,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 19,
+    "extract_graph_call_count": 5,
+    "bfs_call_count": 5,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_hits_unrelated_free_cell": 12,
+        "dead_edge_touches_unrelated_free_cell": 5
+      }
+    }
+  },
+  {
+    "runtime_ms": 499.16560004930943,
+    "main_path_attempt_count": 3,
+    "edge_attempt_count": 305,
+    "extract_graph_call_count": 9,
+    "bfs_call_count": 74,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_edge_self_intersection": 26,
+        "alternative_coplanned_shortest_path_changed_goal": 62,
+        "alternative_coplanned_hits_unrelated_free_cell": 133,
+        "dead_edge_hits_unrelated_free_cell": 67,
+        "dead_edge_touches_unrelated_free_cell": 13,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 15076.233400031924,
+    "main_path_attempt_count": 49,
+    "edge_attempt_count": 5027,
+    "extract_graph_call_count": 101,
+    "bfs_call_count": 1031,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 887,
+        "alternative_coplanned_hits_unrelated_free_cell": 3344,
+        "alternative_coplanned_edge_self_intersection": 588,
+        "dead_edge_hits_unrelated_free_cell": 125,
+        "dead_edge_touches_unrelated_free_cell": 33,
+        "dead_edge_no_candidate": 2,
+        "dead_edge_edge_self_intersection": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 6090.167499962263,
+    "main_path_attempt_count": 61,
+    "edge_attempt_count": 5578,
+    "extract_graph_call_count": 119,
+    "bfs_call_count": 1157,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 9
+      },
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 3738,
+        "alternative_coplanned_shortest_path_changed_goal": 976,
+        "alternative_coplanned_edge_self_intersection": 640,
+        "dead_edge_hits_unrelated_free_cell": 129,
+        "dead_edge_touches_unrelated_free_cell": 31,
+        "dead_edge_no_candidate": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 219.54309998545796,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 262,
+    "extract_graph_call_count": 10,
+    "bfs_call_count": 5,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_edge_self_intersection": 1,
+        "alternative_coplanned_hits_unrelated_free_cell": 4,
+        "dead_edge_hits_unrelated_free_cell": 167,
+        "dead_edge_touches_unrelated_free_cell": 84,
+        "dead_edge_edge_self_intersection": 3,
+        "dead_edge_no_candidate": 3
+      }
+    }
+  },
+  {
+    "runtime_ms": 284.55390001181513,
+    "main_path_attempt_count": 3,
+    "edge_attempt_count": 210,
+    "extract_graph_call_count": 15,
+    "bfs_call_count": 59,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 47,
+        "alternative_coplanned_hits_unrelated_free_cell": 120,
+        "alternative_coplanned_edge_self_intersection": 18,
+        "dead_edge_hits_unrelated_free_cell": 11,
+        "dead_edge_touches_unrelated_free_cell": 7
+      }
+    }
+  },
+  {
+    "runtime_ms": 18493.04829997709,
+    "main_path_attempt_count": 109,
+    "edge_attempt_count": 9727,
+    "extract_graph_call_count": 166,
+    "bfs_call_count": 1248,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 9
+      },
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 7424,
+        "alternative_coplanned_shortest_path_changed_goal": 1016,
+        "alternative_coplanned_edge_self_intersection": 1221
+      }
+    }
+  },
+  {
+    "runtime_ms": 618.809700012207,
+    "main_path_attempt_count": 7,
+    "edge_attempt_count": 616,
+    "extract_graph_call_count": 16,
+    "bfs_call_count": 103,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 338,
+        "alternative_coplanned_edge_self_intersection": 107,
+        "alternative_coplanned_shortest_path_changed_goal": 85,
+        "dead_edge_hits_unrelated_free_cell": 50,
+        "dead_edge_touches_unrelated_free_cell": 29,
+        "dead_edge_edge_self_intersection": 1,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 958.3956000278704,
+    "main_path_attempt_count": 12,
+    "edge_attempt_count": 1026,
+    "extract_graph_call_count": 28,
+    "bfs_call_count": 190,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 3
+      },
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 152,
+        "alternative_coplanned_hits_unrelated_free_cell": 596,
+        "alternative_coplanned_edge_self_intersection": 103,
+        "dead_edge_hits_unrelated_free_cell": 131,
+        "dead_edge_touches_unrelated_free_cell": 29,
+        "dead_edge_no_candidate": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 581.2447000062093,
+    "main_path_attempt_count": 3,
+    "edge_attempt_count": 328,
+    "extract_graph_call_count": 8,
+    "bfs_call_count": 65,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 165,
+        "alternative_coplanned_edge_self_intersection": 25,
+        "alternative_coplanned_shortest_path_changed_goal": 55,
+        "dead_edge_hits_unrelated_free_cell": 53,
+        "dead_edge_touches_unrelated_free_cell": 21,
+        "dead_edge_edge_self_intersection": 6,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 267.9449000279419,
+    "main_path_attempt_count": 3,
+    "edge_attempt_count": 256,
+    "extract_graph_call_count": 11,
+    "bfs_call_count": 38,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 144,
+        "alternative_coplanned_shortest_path_changed_goal": 27,
+        "alternative_coplanned_edge_self_intersection": 28,
+        "dead_edge_hits_unrelated_free_cell": 2,
+        "dead_edge_touches_unrelated_free_cell": 1,
+        "island_cells_touch_main_component": 50,
+        "island_no_cells_generated": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 42.800000053830445,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 132,
+    "extract_graph_call_count": 8,
+    "bfs_call_count": 13,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 29,
+        "alternative_coplanned_shortest_path_changed_goal": 8,
+        "alternative_coplanned_edge_self_intersection": 9,
+        "dead_edge_touches_unrelated_free_cell": 31,
+        "dead_edge_hits_unrelated_free_cell": 51,
+        "dead_edge_edge_self_intersection": 1,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  }
+]

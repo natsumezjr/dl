@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "required_reports": [
+    "resolved_config.json",
+    "run_metadata.json",
+    "training_history.json",
+    "evaluation_summary.json",
+    "rollout_debug.json",
+    "protocol_compliance_audit.json"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "main_path_fail_reason_counts": {
+    "main_path_no_goal_candidate": 146
+  },
+  "edge_reject_reason_counts": {
+    "alternative_coplanned_shortest_path_changed_goal": 5557,
+    "alternative_coplanned_hits_unrelated_free_cell": 30850,
+    "alternative_coplanned_edge_self_intersection": 5508,
+    "dead_edge_hits_unrelated_free_cell": 5999,
+    "dead_edge_touches_unrelated_free_cell": 2861,
+    "dead_edge_no_candidate": 100,
+    "dead_edge_edge_self_intersection": 107,
+    "skipped_zero_budget_island": 12,
+    "dead_edge_tip_not_endpoint": 28
+  },
+  "anchor_reject_reason_counts": {},
+  "dead_edge_attempt_count": 9195,
+  "alternative_edge_attempt_count": 100
+}

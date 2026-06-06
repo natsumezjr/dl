@@ -1,0 +1,8 @@
+{
+  "main_path_sampling_reject_reason_counts": {
+    "main_path_parity_invalid": 90
+  },
+  "graph_budget_normalization_count": 46,
+  "graph_budget_normalization_failed_count": 0,
+  "main_path_sampling_failed_count": 0
+}

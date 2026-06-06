@@ -1,0 +1,8 @@
+{
+  "n_requested": 30,
+  "n_generated": 30,
+  "range_hit_rate": 0.06666666666666667,
+  "mean_sampled_target_error": 1.4912800004072677,
+  "mean_range_error": 0.46694323340654437,
+  "generation_failed_count": 28
+}

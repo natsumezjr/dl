@@ -1,0 +1,1330 @@
+[
+  {
+    "runtime_ms": 9.386400051880628,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 2,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 1.871699991170317,
+    "main_path_attempt_count": 4,
+    "edge_attempt_count": 3,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 3
+      },
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 1,
+        "dead_edge_tip_not_endpoint": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 4.330499970819801,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 2,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 6.444500002544373,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 2,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 2.625599969178438,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 3,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 1
+      },
+      "edge": {
+        "dead_edge_hits_unrelated_free_cell": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 2.4363999837078154,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 2,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_hits_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 3.408100048545748,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 3,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 3.9207999943755567,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 2,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 1
+      },
+      "edge": {
+        "dead_edge_hits_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 2.027300011832267,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 149.55200004624203,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 15,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 9,
+        "dead_edge_tip_not_endpoint": 1,
+        "dead_edge_hits_unrelated_free_cell": 4
+      }
+    }
+  },
+  {
+    "runtime_ms": 16.085300012491643,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 2.6659000432118773,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 2.211000013630837,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 1.215500000398606,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 1.4791999710723758,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 6,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_tip_not_endpoint": 2,
+        "dead_edge_hits_unrelated_free_cell": 2,
+        "dead_edge_touches_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 196.1627999553457,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 4.106600012164563,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 3,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_hits_unrelated_free_cell": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 3.4205999691039324,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 5,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 1,
+        "dead_edge_hits_unrelated_free_cell": 3
+      }
+    }
+  },
+  {
+    "runtime_ms": 4.308000032324344,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 5,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 1,
+        "dead_edge_tip_not_endpoint": 2,
+        "dead_edge_hits_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 6.169800006318837,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 2,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_tip_not_endpoint": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 6.061499996576458,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 2,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_hits_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 4.2505000019446015,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 5,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_hits_unrelated_free_cell": 2,
+        "dead_edge_tip_not_endpoint": 1,
+        "dead_edge_touches_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 5.759400024544448,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 17,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_hits_unrelated_free_cell": 8,
+        "dead_edge_touches_unrelated_free_cell": 7,
+        "dead_edge_edge_self_intersection": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 317.736099998001,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 6,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 1,
+        "dead_edge_hits_unrelated_free_cell": 3,
+        "dead_edge_tip_not_endpoint": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 1.0091000003740191,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 3,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_hits_unrelated_free_cell": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 1.1318999459035695,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 1
+      },
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 80.49730001948774,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 8,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_hits_unrelated_free_cell": 4,
+        "dead_edge_tip_not_endpoint": 1,
+        "dead_edge_touches_unrelated_free_cell": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 5.421700014267117,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 2.0391999860294163,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 2,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 1.3410999672487378,
+    "main_path_attempt_count": 3,
+    "edge_attempt_count": 7,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 2
+      },
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 3,
+        "dead_edge_edge_self_intersection": 1,
+        "dead_edge_hits_unrelated_free_cell": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 3.0855999793857336,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 5,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 2,
+        "dead_edge_hits_unrelated_free_cell": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 40.78530002152547,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 3,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_hits_unrelated_free_cell": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 26.238100021146238,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 2,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 2.129900036379695,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 2,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_hits_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 13.49159999517724,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 17,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 6,
+        "dead_edge_hits_unrelated_free_cell": 10
+      }
+    }
+  },
+  {
+    "runtime_ms": 1.722700020764023,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 1.1106999590992928,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 0.7235000375658274,
+    "main_path_attempt_count": 6,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 5
+      },
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 1.3640999677591026,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 66.751700011082,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 9,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_hits_unrelated_free_cell": 5,
+        "dead_edge_touches_unrelated_free_cell": 3
+      }
+    }
+  },
+  {
+    "runtime_ms": 4.969400004483759,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 2.1034000092186034,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 11,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_hits_unrelated_free_cell": 7,
+        "dead_edge_tip_not_endpoint": 1,
+        "dead_edge_touches_unrelated_free_cell": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 50.012399966362864,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 25,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 10,
+        "dead_edge_hits_unrelated_free_cell": 13,
+        "dead_edge_tip_not_endpoint": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 27.753899979870766,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 9,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_hits_unrelated_free_cell": 5,
+        "dead_edge_touches_unrelated_free_cell": 2,
+        "dead_edge_tip_not_endpoint": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 3.3964000176638365,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 1.1765999952331185,
+    "main_path_attempt_count": 4,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 3
+      },
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 2.1299999789334834,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 3,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 1,
+        "dead_edge_hits_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 1.311899977736175,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 4,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_hits_unrelated_free_cell": 2,
+        "dead_edge_touches_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 40.43110000202432,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 3,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 1,
+        "dead_edge_hits_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 10.39650000166148,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 15.522399975452572,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 4,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 1,
+        "dead_edge_hits_unrelated_free_cell": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 1.0999999940395355,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 2,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 6.986099993810058,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 12.839699978940189,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 2,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_hits_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 24.878000025637448,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 4.642699961550534,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 8,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_hits_unrelated_free_cell": 4,
+        "dead_edge_touches_unrelated_free_cell": 3
+      }
+    }
+  },
+  {
+    "runtime_ms": 1.7716000438667834,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 6,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_hits_unrelated_free_cell": 4,
+        "dead_edge_touches_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 13.63810000475496,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 19,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 6,
+        "dead_edge_hits_unrelated_free_cell": 12
+      }
+    }
+  },
+  {
+    "runtime_ms": 1.0858000023290515,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 2,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_hits_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 1.144200039561838,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 7.918899995274842,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 4,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_tip_not_endpoint": 1,
+        "dead_edge_touches_unrelated_free_cell": 1,
+        "dead_edge_hits_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 3.543600032571703,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 2,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 2.5578999775461853,
+    "main_path_attempt_count": 3,
+    "edge_attempt_count": 7,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 2
+      },
+      "edge": {
+        "dead_edge_hits_unrelated_free_cell": 3,
+        "dead_edge_tip_not_endpoint": 1,
+        "dead_edge_touches_unrelated_free_cell": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 3.9964999887160957,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 3,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 1,
+        "dead_edge_hits_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 32.8631000011228,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 4,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 2,
+        "dead_edge_hits_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 1.5163000207394361,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 4,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 2,
+        "dead_edge_hits_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 2.59129999903962,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 5,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 2,
+        "dead_edge_hits_unrelated_free_cell": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 2.1933999960310757,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 1.388800039421767,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 1
+      },
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 3.682600043248385,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 2,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_hits_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 2.777599962428212,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 1.5140000032261014,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 6,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_hits_unrelated_free_cell": 3,
+        "dead_edge_touches_unrelated_free_cell": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 5.564299994148314,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 6,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_tip_not_endpoint": 1,
+        "dead_edge_touches_unrelated_free_cell": 2,
+        "dead_edge_hits_unrelated_free_cell": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 1.58840004587546,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 3,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_hits_unrelated_free_cell": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 5.881999968551099,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 3,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 1,
+        "dead_edge_hits_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 37.7293000346981,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 6,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_hits_unrelated_free_cell": 3,
+        "dead_edge_touches_unrelated_free_cell": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 1.421900000423193,
+    "main_path_attempt_count": 10,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 9
+      },
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 1.2464000028558075,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 5,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 3,
+        "dead_edge_tip_not_endpoint": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 1.1262999614700675,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 13.132599997334182,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 159.50109995901585,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 8,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_hits_unrelated_free_cell": 4,
+        "dead_edge_touches_unrelated_free_cell": 2,
+        "dead_edge_tip_not_endpoint": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 5.301799974404275,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 1
+      },
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 43.3867999818176,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 6,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 2,
+        "dead_edge_hits_unrelated_free_cell": 3
+      }
+    }
+  },
+  {
+    "runtime_ms": 1.1509000323712826,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 3,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_hits_unrelated_free_cell": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 2.2138000349514186,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 7.326000020839274,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 3,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 1,
+        "dead_edge_hits_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 11.450699996203184,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 2,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 1.754899974912405,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 6,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 3,
+        "dead_edge_hits_unrelated_free_cell": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 3.3271999564021826,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 6,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 2,
+        "dead_edge_hits_unrelated_free_cell": 3
+      }
+    }
+  },
+  {
+    "runtime_ms": 2.7000000118277967,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 5,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 2,
+        "dead_edge_hits_unrelated_free_cell": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 2.947599976323545,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 4,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_hits_unrelated_free_cell": 1,
+        "dead_edge_touches_unrelated_free_cell": 1,
+        "dead_edge_edge_self_intersection": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 13.010399998165667,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 2,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 9.908500011079013,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 5,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_tip_not_endpoint": 1,
+        "dead_edge_hits_unrelated_free_cell": 2,
+        "dead_edge_touches_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 104.03119999682531,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 2,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_hits_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 3.2582999556325376,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 4,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_hits_unrelated_free_cell": 1,
+        "dead_edge_touches_unrelated_free_cell": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 63.444800034631044,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 12,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 7,
+        "dead_edge_hits_unrelated_free_cell": 4
+      }
+    }
+  },
+  {
+    "runtime_ms": 2.1250999998301268,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 5,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 2,
+        "dead_edge_hits_unrelated_free_cell": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 2.562899957410991,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 2,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_hits_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 1.4515999937430024,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 1.4616000116802752,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 3,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 3,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_hits_unrelated_free_cell": 2
+      }
+    }
+  }
+]

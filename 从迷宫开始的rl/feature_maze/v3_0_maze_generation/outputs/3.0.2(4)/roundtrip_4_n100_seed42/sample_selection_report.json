@@ -1,0 +1,212 @@
+{
+  "success_sample_count": 4,
+  "success_category_count": 4,
+  "success_categories_available": [
+    "success_alt_equal_length",
+    "success_alt_longer",
+    "success_island_component",
+    "success_main_alt_island",
+    "success_main_dead",
+    "success_main_dead_alt",
+    "success_mixed_effective_match",
+    "success_room_choice_node",
+    "success_room_pass_through"
+  ],
+  "success_categories_selected": [
+    "success_main_dead",
+    "success_alt_equal_length",
+    "success_island_component",
+    "success_room_choice_node"
+  ],
+  "success_sample_shortage": true,
+  "missing_success_categories": [
+    "success_main_only"
+  ],
+  "selected_samples": [
+    {
+      "rank": 1,
+      "category": "success_main_dead",
+      "maze_id": "maze_00000",
+      "why_selected": "accepted dead edge matched extracted dead edge",
+      "key_metrics": {
+        "dead_edge_count": 1
+      },
+      "files": {
+        "maze_overlay": "maze_overlay_samples/01_success_main_dead__maze_00000.png",
+        "decision_graph": "decision_graph_samples/01_success_main_dead__maze_00000.png"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "success_alt_equal_length",
+      "maze_id": "maze_00003",
+      "why_selected": "accepted alternative matched with equal length and no shortcut",
+      "key_metrics": {
+        "alternative_cell_coverage": 1.0,
+        "alternative_equal_length": true
+      },
+      "files": {
+        "maze_overlay": "maze_overlay_samples/02_success_alt_equal_length__maze_00003.png",
+        "decision_graph": "decision_graph_samples/02_success_alt_equal_length__maze_00003.png"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "success_island_component",
+      "maze_id": "maze_00001",
+      "why_selected": "accepted island component matched extracted island component",
+      "key_metrics": {
+        "island_count": 1
+      },
+      "files": {
+        "maze_overlay": "maze_overlay_samples/03_success_island_component__maze_00001.png",
+        "decision_graph": "decision_graph_samples/03_success_island_component__maze_00001.png"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "success_room_choice_node",
+      "maze_id": "maze_00004",
+      "why_selected": "choice-like room detected/projected",
+      "key_metrics": {
+        "choice_room_count": 1
+      },
+      "files": {
+        "maze_overlay": "maze_overlay_samples/04_success_room_choice_node__maze_00004.png",
+        "decision_graph": "decision_graph_samples/04_success_room_choice_node__maze_00004.png"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "failure_island_candidate",
+      "maze_id": "maze_00005",
+      "why_selected": "selected failure/mismatch category failure_island_candidate",
+      "key_metrics": {},
+      "files": {
+        "maze_overlay": "maze_overlay_samples/05_failure_island_candidate__maze_00005.png",
+        "decision_graph": "decision_graph_samples/05_failure_island_candidate__maze_00005.png"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "failure_effective_mismatch",
+      "maze_id": "maze_00008",
+      "why_selected": "selected failure/mismatch category failure_effective_mismatch",
+      "key_metrics": {},
+      "files": {
+        "maze_overlay": "maze_overlay_samples/06_failure_effective_mismatch__maze_00008.png",
+        "decision_graph": "decision_graph_samples/06_failure_effective_mismatch__maze_00008.png"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "failure_extract_representation",
+      "maze_id": "maze_00002",
+      "why_selected": "selected failure/mismatch category failure_extract_representation",
+      "key_metrics": {},
+      "files": {
+        "maze_overlay": "maze_overlay_samples/07_failure_extract_representation__maze_00002.png",
+        "decision_graph": "decision_graph_samples/07_failure_extract_representation__maze_00002.png"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "fallback_mismatch",
+      "maze_id": "maze_00006",
+      "why_selected": "fallback fallback_mismatch",
+      "key_metrics": {},
+      "files": {
+        "maze_overlay": "maze_overlay_samples/08_fallback_mismatch__maze_00006.png",
+        "decision_graph": "decision_graph_samples/08_fallback_mismatch__maze_00006.png"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "fallback_mismatch",
+      "maze_id": "maze_00007",
+      "why_selected": "fallback fallback_mismatch",
+      "key_metrics": {},
+      "files": {
+        "maze_overlay": "maze_overlay_samples/09_fallback_mismatch__maze_00007.png",
+        "decision_graph": "decision_graph_samples/09_fallback_mismatch__maze_00007.png"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "fallback_mismatch",
+      "maze_id": "maze_00009",
+      "why_selected": "fallback fallback_mismatch",
+      "key_metrics": {},
+      "files": {
+        "maze_overlay": "maze_overlay_samples/10_fallback_mismatch__maze_00009.png",
+        "decision_graph": "decision_graph_samples/10_fallback_mismatch__maze_00009.png"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "fallback_mismatch",
+      "maze_id": "maze_00010",
+      "why_selected": "fallback fallback_mismatch",
+      "key_metrics": {},
+      "files": {
+        "maze_overlay": "maze_overlay_samples/11_fallback_mismatch__maze_00010.png",
+        "decision_graph": "decision_graph_samples/11_fallback_mismatch__maze_00010.png"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "fallback_success",
+      "maze_id": "maze_00011",
+      "why_selected": "fallback fallback_success",
+      "key_metrics": {},
+      "files": {
+        "maze_overlay": "maze_overlay_samples/12_fallback_success__maze_00011.png",
+        "decision_graph": "decision_graph_samples/12_fallback_success__maze_00011.png"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "fallback_mismatch",
+      "maze_id": "maze_00012",
+      "why_selected": "fallback fallback_mismatch",
+      "key_metrics": {},
+      "files": {
+        "maze_overlay": "maze_overlay_samples/13_fallback_mismatch__maze_00012.png",
+        "decision_graph": "decision_graph_samples/13_fallback_mismatch__maze_00012.png"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "fallback_mismatch",
+      "maze_id": "maze_00013",
+      "why_selected": "fallback fallback_mismatch",
+      "key_metrics": {},
+      "files": {
+        "maze_overlay": "maze_overlay_samples/14_fallback_mismatch__maze_00013.png",
+        "decision_graph": "decision_graph_samples/14_fallback_mismatch__maze_00013.png"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "fallback_mismatch",
+      "maze_id": "maze_00014",
+      "why_selected": "fallback fallback_mismatch",
+      "key_metrics": {},
+      "files": {
+        "maze_overlay": "maze_overlay_samples/15_fallback_mismatch__maze_00014.png",
+        "decision_graph": "decision_graph_samples/15_fallback_mismatch__maze_00014.png"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "fallback_success",
+      "maze_id": "maze_00015",
+      "why_selected": "fallback fallback_success",
+      "key_metrics": {},
+      "files": {
+        "maze_overlay": "maze_overlay_samples/16_fallback_success__maze_00015.png",
+        "decision_graph": "decision_graph_samples/16_fallback_success__maze_00015.png"
+      }
+    }
+  ]
+}

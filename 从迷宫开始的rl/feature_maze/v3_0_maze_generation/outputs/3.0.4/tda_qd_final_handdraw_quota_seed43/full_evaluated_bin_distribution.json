@@ -1,0 +1,491 @@
+{
+  "total_full_evaluated": 555775,
+  "bins": {
+    "multi_loop|long|high_choice|high_endpoint": {
+      "full_evaluated_count": 551,
+      "accepted_count": 446,
+      "target_quota": 446,
+      "target_status": "handdraw_observed"
+    },
+    "multi_loop|long|high_choice|low_endpoint": {
+      "full_evaluated_count": 100,
+      "accepted_count": 74,
+      "target_quota": 74,
+      "target_status": "handdraw_observed"
+    },
+    "multi_loop|long|high_choice|mid_endpoint": {
+      "full_evaluated_count": 2612,
+      "accepted_count": 297,
+      "target_quota": 297,
+      "target_status": "handdraw_observed"
+    },
+    "multi_loop|long|low_choice|high_endpoint": {
+      "full_evaluated_count": 0,
+      "accepted_count": 0,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "multi_loop|long|low_choice|low_endpoint": {
+      "full_evaluated_count": 476,
+      "accepted_count": 6,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "multi_loop|long|low_choice|mid_endpoint": {
+      "full_evaluated_count": 17,
+      "accepted_count": 6,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "multi_loop|long|mid_choice|high_endpoint": {
+      "full_evaluated_count": 18,
+      "accepted_count": 6,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "multi_loop|long|mid_choice|low_endpoint": {
+      "full_evaluated_count": 2902,
+      "accepted_count": 6,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "multi_loop|long|mid_choice|mid_endpoint": {
+      "full_evaluated_count": 3566,
+      "accepted_count": 74,
+      "target_quota": 74,
+      "target_status": "handdraw_observed"
+    },
+    "multi_loop|medium|high_choice|high_endpoint": {
+      "full_evaluated_count": 5406,
+      "accepted_count": 446,
+      "target_quota": 446,
+      "target_status": "handdraw_observed"
+    },
+    "multi_loop|medium|high_choice|low_endpoint": {
+      "full_evaluated_count": 4354,
+      "accepted_count": 74,
+      "target_quota": 74,
+      "target_status": "handdraw_observed"
+    },
+    "multi_loop|medium|high_choice|mid_endpoint": {
+      "full_evaluated_count": 20666,
+      "accepted_count": 594,
+      "target_quota": 594,
+      "target_status": "handdraw_observed"
+    },
+    "multi_loop|medium|low_choice|high_endpoint": {
+      "full_evaluated_count": 0,
+      "accepted_count": 0,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "multi_loop|medium|low_choice|low_endpoint": {
+      "full_evaluated_count": 4417,
+      "accepted_count": 6,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "multi_loop|medium|low_choice|mid_endpoint": {
+      "full_evaluated_count": 267,
+      "accepted_count": 6,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "multi_loop|medium|mid_choice|high_endpoint": {
+      "full_evaluated_count": 362,
+      "accepted_count": 6,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "multi_loop|medium|mid_choice|low_endpoint": {
+      "full_evaluated_count": 22184,
+      "accepted_count": 6,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "multi_loop|medium|mid_choice|mid_endpoint": {
+      "full_evaluated_count": 18001,
+      "accepted_count": 74,
+      "target_quota": 74,
+      "target_status": "handdraw_observed"
+    },
+    "multi_loop|short|high_choice|high_endpoint": {
+      "full_evaluated_count": 7397,
+      "accepted_count": 74,
+      "target_quota": 74,
+      "target_status": "handdraw_observed"
+    },
+    "multi_loop|short|high_choice|low_endpoint": {
+      "full_evaluated_count": 39447,
+      "accepted_count": 6,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "multi_loop|short|high_choice|mid_endpoint": {
+      "full_evaluated_count": 42299,
+      "accepted_count": 6,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "multi_loop|short|low_choice|high_endpoint": {
+      "full_evaluated_count": 0,
+      "accepted_count": 0,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "multi_loop|short|low_choice|low_endpoint": {
+      "full_evaluated_count": 8835,
+      "accepted_count": 6,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "multi_loop|short|low_choice|mid_endpoint": {
+      "full_evaluated_count": 1004,
+      "accepted_count": 6,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "multi_loop|short|mid_choice|high_endpoint": {
+      "full_evaluated_count": 901,
+      "accepted_count": 6,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "multi_loop|short|mid_choice|low_endpoint": {
+      "full_evaluated_count": 51576,
+      "accepted_count": 6,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "multi_loop|short|mid_choice|mid_endpoint": {
+      "full_evaluated_count": 26750,
+      "accepted_count": 6,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "single_loop|long|high_choice|high_endpoint": {
+      "full_evaluated_count": 756,
+      "accepted_count": 446,
+      "target_quota": 446,
+      "target_status": "handdraw_observed"
+    },
+    "single_loop|long|high_choice|low_endpoint": {
+      "full_evaluated_count": 0,
+      "accepted_count": 0,
+      "target_quota": 0,
+      "target_status": "structural_infeasible_or_constrained"
+    },
+    "single_loop|long|high_choice|mid_endpoint": {
+      "full_evaluated_count": 663,
+      "accepted_count": 0,
+      "target_quota": 0,
+      "target_status": "structural_infeasible_or_constrained"
+    },
+    "single_loop|long|low_choice|high_endpoint": {
+      "full_evaluated_count": 0,
+      "accepted_count": 0,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "single_loop|long|low_choice|low_endpoint": {
+      "full_evaluated_count": 8529,
+      "accepted_count": 6,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "single_loop|long|low_choice|mid_endpoint": {
+      "full_evaluated_count": 1383,
+      "accepted_count": 6,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "single_loop|long|mid_choice|high_endpoint": {
+      "full_evaluated_count": 170,
+      "accepted_count": 74,
+      "target_quota": 74,
+      "target_status": "handdraw_observed"
+    },
+    "single_loop|long|mid_choice|low_endpoint": {
+      "full_evaluated_count": 0,
+      "accepted_count": 0,
+      "target_quota": 0,
+      "target_status": "structural_infeasible_or_constrained"
+    },
+    "single_loop|long|mid_choice|mid_endpoint": {
+      "full_evaluated_count": 16601,
+      "accepted_count": 297,
+      "target_quota": 297,
+      "target_status": "handdraw_observed"
+    },
+    "single_loop|medium|high_choice|high_endpoint": {
+      "full_evaluated_count": 2810,
+      "accepted_count": 371,
+      "target_quota": 371,
+      "target_status": "handdraw_observed"
+    },
+    "single_loop|medium|high_choice|low_endpoint": {
+      "full_evaluated_count": 0,
+      "accepted_count": 0,
+      "target_quota": 0,
+      "target_status": "structural_infeasible_or_constrained"
+    },
+    "single_loop|medium|high_choice|mid_endpoint": {
+      "full_evaluated_count": 917,
+      "accepted_count": 0,
+      "target_quota": 0,
+      "target_status": "structural_infeasible_or_constrained"
+    },
+    "single_loop|medium|low_choice|high_endpoint": {
+      "full_evaluated_count": 3,
+      "accepted_count": 3,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "single_loop|medium|low_choice|low_endpoint": {
+      "full_evaluated_count": 18335,
+      "accepted_count": 6,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "single_loop|medium|low_choice|mid_endpoint": {
+      "full_evaluated_count": 2938,
+      "accepted_count": 6,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "single_loop|medium|mid_choice|high_endpoint": {
+      "full_evaluated_count": 1107,
+      "accepted_count": 75,
+      "target_quota": 75,
+      "target_status": "handdraw_observed"
+    },
+    "single_loop|medium|mid_choice|low_endpoint": {
+      "full_evaluated_count": 0,
+      "accepted_count": 0,
+      "target_quota": 0,
+      "target_status": "structural_infeasible_or_constrained"
+    },
+    "single_loop|medium|mid_choice|mid_endpoint": {
+      "full_evaluated_count": 22593,
+      "accepted_count": 6,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "single_loop|short|high_choice|high_endpoint": {
+      "full_evaluated_count": 3650,
+      "accepted_count": 6,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "single_loop|short|high_choice|low_endpoint": {
+      "full_evaluated_count": 0,
+      "accepted_count": 0,
+      "target_quota": 0,
+      "target_status": "structural_infeasible_or_constrained"
+    },
+    "single_loop|short|high_choice|mid_endpoint": {
+      "full_evaluated_count": 831,
+      "accepted_count": 0,
+      "target_quota": 0,
+      "target_status": "structural_infeasible_or_constrained"
+    },
+    "single_loop|short|low_choice|high_endpoint": {
+      "full_evaluated_count": 12,
+      "accepted_count": 6,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "single_loop|short|low_choice|low_endpoint": {
+      "full_evaluated_count": 9444,
+      "accepted_count": 6,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "single_loop|short|low_choice|mid_endpoint": {
+      "full_evaluated_count": 4219,
+      "accepted_count": 6,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "single_loop|short|mid_choice|high_endpoint": {
+      "full_evaluated_count": 1789,
+      "accepted_count": 6,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "single_loop|short|mid_choice|low_endpoint": {
+      "full_evaluated_count": 0,
+      "accepted_count": 0,
+      "target_quota": 0,
+      "target_status": "structural_infeasible_or_constrained"
+    },
+    "single_loop|short|mid_choice|mid_endpoint": {
+      "full_evaluated_count": 13025,
+      "accepted_count": 6,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "tree|long|high_choice|high_endpoint": {
+      "full_evaluated_count": 457,
+      "accepted_count": 371,
+      "target_quota": 371,
+      "target_status": "handdraw_observed"
+    },
+    "tree|long|high_choice|low_endpoint": {
+      "full_evaluated_count": 0,
+      "accepted_count": 0,
+      "target_quota": 0,
+      "target_status": "structural_infeasible_or_constrained"
+    },
+    "tree|long|high_choice|mid_endpoint": {
+      "full_evaluated_count": 0,
+      "accepted_count": 0,
+      "target_quota": 0,
+      "target_status": "structural_infeasible_or_constrained"
+    },
+    "tree|long|low_choice|high_endpoint": {
+      "full_evaluated_count": 0,
+      "accepted_count": 0,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "tree|long|low_choice|low_endpoint": {
+      "full_evaluated_count": 20935,
+      "accepted_count": 0,
+      "target_quota": 0,
+      "target_status": "structural_infeasible_or_constrained"
+    },
+    "tree|long|low_choice|mid_endpoint": {
+      "full_evaluated_count": 50445,
+      "accepted_count": 297,
+      "target_quota": 297,
+      "target_status": "handdraw_observed"
+    },
+    "tree|long|mid_choice|high_endpoint": {
+      "full_evaluated_count": 3619,
+      "accepted_count": 446,
+      "target_quota": 446,
+      "target_status": "handdraw_observed"
+    },
+    "tree|long|mid_choice|low_endpoint": {
+      "full_evaluated_count": 0,
+      "accepted_count": 0,
+      "target_quota": 0,
+      "target_status": "structural_infeasible_or_constrained"
+    },
+    "tree|long|mid_choice|mid_endpoint": {
+      "full_evaluated_count": 23450,
+      "accepted_count": 149,
+      "target_quota": 149,
+      "target_status": "handdraw_observed"
+    },
+    "tree|medium|high_choice|high_endpoint": {
+      "full_evaluated_count": 2445,
+      "accepted_count": 6,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "tree|medium|high_choice|low_endpoint": {
+      "full_evaluated_count": 0,
+      "accepted_count": 0,
+      "target_quota": 0,
+      "target_status": "structural_infeasible_or_constrained"
+    },
+    "tree|medium|high_choice|mid_endpoint": {
+      "full_evaluated_count": 0,
+      "accepted_count": 0,
+      "target_quota": 0,
+      "target_status": "structural_infeasible_or_constrained"
+    },
+    "tree|medium|low_choice|high_endpoint": {
+      "full_evaluated_count": 10,
+      "accepted_count": 6,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "tree|medium|low_choice|low_endpoint": {
+      "full_evaluated_count": 4646,
+      "accepted_count": 0,
+      "target_quota": 0,
+      "target_status": "structural_infeasible_or_constrained"
+    },
+    "tree|medium|low_choice|mid_endpoint": {
+      "full_evaluated_count": 15370,
+      "accepted_count": 6,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "tree|medium|mid_choice|high_endpoint": {
+      "full_evaluated_count": 3992,
+      "accepted_count": 75,
+      "target_quota": 75,
+      "target_status": "handdraw_observed"
+    },
+    "tree|medium|mid_choice|low_endpoint": {
+      "full_evaluated_count": 0,
+      "accepted_count": 0,
+      "target_quota": 0,
+      "target_status": "structural_infeasible_or_constrained"
+    },
+    "tree|medium|mid_choice|mid_endpoint": {
+      "full_evaluated_count": 9199,
+      "accepted_count": 6,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "tree|short|high_choice|high_endpoint": {
+      "full_evaluated_count": 5159,
+      "accepted_count": 6,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "tree|short|high_choice|low_endpoint": {
+      "full_evaluated_count": 0,
+      "accepted_count": 0,
+      "target_quota": 0,
+      "target_status": "structural_infeasible_or_constrained"
+    },
+    "tree|short|high_choice|mid_endpoint": {
+      "full_evaluated_count": 0,
+      "accepted_count": 0,
+      "target_quota": 0,
+      "target_status": "structural_infeasible_or_constrained"
+    },
+    "tree|short|low_choice|high_endpoint": {
+      "full_evaluated_count": 159,
+      "accepted_count": 6,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "tree|short|low_choice|low_endpoint": {
+      "full_evaluated_count": 4755,
+      "accepted_count": 0,
+      "target_quota": 0,
+      "target_status": "structural_infeasible_or_constrained"
+    },
+    "tree|short|low_choice|mid_endpoint": {
+      "full_evaluated_count": 20580,
+      "accepted_count": 6,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "tree|short|mid_choice|high_endpoint": {
+      "full_evaluated_count": 6889,
+      "accepted_count": 6,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    },
+    "tree|short|mid_choice|low_endpoint": {
+      "full_evaluated_count": 0,
+      "accepted_count": 0,
+      "target_quota": 0,
+      "target_status": "structural_infeasible_or_constrained"
+    },
+    "tree|short|mid_choice|mid_endpoint": {
+      "full_evaluated_count": 9782,
+      "accepted_count": 6,
+      "target_quota": 6,
+      "target_status": "unobserved_possible"
+    }
+  }
+}

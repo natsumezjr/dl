@@ -1,0 +1,178 @@
+{
+  "highest_wall_ratio": [
+    {
+      "maze_id": "pf_00000",
+      "value": 0.34375
+    },
+    {
+      "maze_id": "pf_00001",
+      "value": 0.34375
+    },
+    {
+      "maze_id": "pf_00002",
+      "value": 0.34375
+    },
+    {
+      "maze_id": "pf_00003",
+      "value": 0.34375
+    },
+    {
+      "maze_id": "pf_00004",
+      "value": 0.34375
+    }
+  ],
+  "lowest_wall_ratio": [
+    {
+      "maze_id": "pf_00000",
+      "value": 0.34375
+    },
+    {
+      "maze_id": "pf_00001",
+      "value": 0.34375
+    },
+    {
+      "maze_id": "pf_00002",
+      "value": 0.34375
+    },
+    {
+      "maze_id": "pf_00003",
+      "value": 0.34375
+    },
+    {
+      "maze_id": "pf_00004",
+      "value": 0.34375
+    }
+  ],
+  "highest_detour_ratio": [
+    {
+      "maze_id": "pf_00017",
+      "value": 3.5
+    },
+    {
+      "maze_id": "pf_00015",
+      "value": 3.0
+    },
+    {
+      "maze_id": "pf_00042",
+      "value": 3.0
+    },
+    {
+      "maze_id": "pf_00031",
+      "value": 2.6666666666666665
+    },
+    {
+      "maze_id": "pf_00079",
+      "value": 2.6666666666666665
+    }
+  ],
+  "highest_dead_end_depth_mean": [
+    {
+      "maze_id": "pf_00030",
+      "value": 2.75
+    },
+    {
+      "maze_id": "pf_00024",
+      "value": 2.0
+    },
+    {
+      "maze_id": "pf_00025",
+      "value": 2.0
+    },
+    {
+      "maze_id": "pf_00038",
+      "value": 2.0
+    },
+    {
+      "maze_id": "pf_00066",
+      "value": 2.0
+    }
+  ],
+  "highest_junction_ratio": [
+    {
+      "maze_id": "pf_00071",
+      "value": 0.7380952380952381
+    },
+    {
+      "maze_id": "pf_00072",
+      "value": 0.7380952380952381
+    },
+    {
+      "maze_id": "pf_00001",
+      "value": 0.7142857142857143
+    },
+    {
+      "maze_id": "pf_00005",
+      "value": 0.7142857142857143
+    },
+    {
+      "maze_id": "pf_00043",
+      "value": 0.7142857142857143
+    }
+  ],
+  "lowest_reachable_free_ratio": [
+    {
+      "maze_id": "pf_00000",
+      "value": 1.0
+    },
+    {
+      "maze_id": "pf_00001",
+      "value": 1.0
+    },
+    {
+      "maze_id": "pf_00002",
+      "value": 1.0
+    },
+    {
+      "maze_id": "pf_00003",
+      "value": 1.0
+    },
+    {
+      "maze_id": "pf_00004",
+      "value": 1.0
+    }
+  ],
+  "highest_final_error": [
+    {
+      "maze_id": "pf_00000",
+      "value": 0.0
+    },
+    {
+      "maze_id": "pf_00001",
+      "value": 0.0
+    },
+    {
+      "maze_id": "pf_00002",
+      "value": 0.0
+    },
+    {
+      "maze_id": "pf_00003",
+      "value": 0.0
+    },
+    {
+      "maze_id": "pf_00004",
+      "value": 0.0
+    }
+  ],
+  "lowest_final_error": [
+    {
+      "maze_id": "pf_00000",
+      "value": 0.0
+    },
+    {
+      "maze_id": "pf_00001",
+      "value": 0.0
+    },
+    {
+      "maze_id": "pf_00002",
+      "value": 0.0
+    },
+    {
+      "maze_id": "pf_00003",
+      "value": 0.0
+    },
+    {
+      "maze_id": "pf_00004",
+      "value": 0.0
+    }
+  ]
+}

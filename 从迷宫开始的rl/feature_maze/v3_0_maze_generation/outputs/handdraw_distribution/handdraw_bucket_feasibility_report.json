@@ -1,0 +1,1713 @@
+{
+  "all_bins": 81,
+  "covered_by_handdraw": [
+    {
+      "bin_key": "tree|medium|mid_choice|high_endpoint",
+      "status": "covered_by_handdraw",
+      "reason": "observed in handdraw dataset",
+      "handdraw_count": 1,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        0,
+        0
+      ],
+      "choice_interval": [
+        2,
+        4
+      ],
+      "endpoint_interval": [
+        5,
+        "inf"
+      ],
+      "conservative_L_min": 4,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "tree|long|low_choice|mid_endpoint",
+      "status": "covered_by_handdraw",
+      "reason": "observed in handdraw dataset",
+      "handdraw_count": 4,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        0,
+        0
+      ],
+      "choice_interval": [
+        0,
+        1
+      ],
+      "endpoint_interval": [
+        2,
+        4
+      ],
+      "conservative_L_min": 2,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "tree|long|mid_choice|mid_endpoint",
+      "status": "covered_by_handdraw",
+      "reason": "observed in handdraw dataset",
+      "handdraw_count": 2,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        0,
+        0
+      ],
+      "choice_interval": [
+        2,
+        4
+      ],
+      "endpoint_interval": [
+        2,
+        4
+      ],
+      "conservative_L_min": 4,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "tree|long|mid_choice|high_endpoint",
+      "status": "covered_by_handdraw",
+      "reason": "observed in handdraw dataset",
+      "handdraw_count": 6,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        0,
+        0
+      ],
+      "choice_interval": [
+        2,
+        4
+      ],
+      "endpoint_interval": [
+        5,
+        "inf"
+      ],
+      "conservative_L_min": 4,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "tree|long|high_choice|high_endpoint",
+      "status": "covered_by_handdraw",
+      "reason": "observed in handdraw dataset",
+      "handdraw_count": 5,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        0,
+        0
+      ],
+      "choice_interval": [
+        5,
+        "inf"
+      ],
+      "endpoint_interval": [
+        5,
+        "inf"
+      ],
+      "conservative_L_min": 7,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "single_loop|medium|mid_choice|high_endpoint",
+      "status": "covered_by_handdraw",
+      "reason": "observed in handdraw dataset",
+      "handdraw_count": 1,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        1,
+        1
+      ],
+      "choice_interval": [
+        2,
+        4
+      ],
+      "endpoint_interval": [
+        5,
+        "inf"
+      ],
+      "conservative_L_min": 2,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "single_loop|medium|high_choice|high_endpoint",
+      "status": "covered_by_handdraw",
+      "reason": "observed in handdraw dataset",
+      "handdraw_count": 5,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        1,
+        1
+      ],
+      "choice_interval": [
+        5,
+        "inf"
+      ],
+      "endpoint_interval": [
+        5,
+        "inf"
+      ],
+      "conservative_L_min": 5,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "single_loop|long|mid_choice|mid_endpoint",
+      "status": "covered_by_handdraw",
+      "reason": "observed in handdraw dataset",
+      "handdraw_count": 4,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        1,
+        1
+      ],
+      "choice_interval": [
+        2,
+        4
+      ],
+      "endpoint_interval": [
+        2,
+        4
+      ],
+      "conservative_L_min": 2,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "single_loop|long|mid_choice|high_endpoint",
+      "status": "covered_by_handdraw",
+      "reason": "observed in handdraw dataset",
+      "handdraw_count": 1,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        1,
+        1
+      ],
+      "choice_interval": [
+        2,
+        4
+      ],
+      "endpoint_interval": [
+        5,
+        "inf"
+      ],
+      "conservative_L_min": 2,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "single_loop|long|high_choice|high_endpoint",
+      "status": "covered_by_handdraw",
+      "reason": "observed in handdraw dataset",
+      "handdraw_count": 6,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        1,
+        1
+      ],
+      "choice_interval": [
+        5,
+        "inf"
+      ],
+      "endpoint_interval": [
+        5,
+        "inf"
+      ],
+      "conservative_L_min": 5,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "multi_loop|short|high_choice|high_endpoint",
+      "status": "covered_by_handdraw",
+      "reason": "observed in handdraw dataset",
+      "handdraw_count": 1,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        2,
+        "inf"
+      ],
+      "choice_interval": [
+        5,
+        "inf"
+      ],
+      "endpoint_interval": [
+        5,
+        "inf"
+      ],
+      "conservative_L_min": null,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "multi_loop|medium|mid_choice|mid_endpoint",
+      "status": "covered_by_handdraw",
+      "reason": "observed in handdraw dataset",
+      "handdraw_count": 1,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        2,
+        "inf"
+      ],
+      "choice_interval": [
+        2,
+        4
+      ],
+      "endpoint_interval": [
+        2,
+        4
+      ],
+      "conservative_L_min": null,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "multi_loop|medium|high_choice|low_endpoint",
+      "status": "covered_by_handdraw",
+      "reason": "observed in handdraw dataset",
+      "handdraw_count": 1,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        2,
+        "inf"
+      ],
+      "choice_interval": [
+        5,
+        "inf"
+      ],
+      "endpoint_interval": [
+        0,
+        1
+      ],
+      "conservative_L_min": null,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "multi_loop|medium|high_choice|mid_endpoint",
+      "status": "covered_by_handdraw",
+      "reason": "observed in handdraw dataset",
+      "handdraw_count": 8,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        2,
+        "inf"
+      ],
+      "choice_interval": [
+        5,
+        "inf"
+      ],
+      "endpoint_interval": [
+        2,
+        4
+      ],
+      "conservative_L_min": null,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "multi_loop|medium|high_choice|high_endpoint",
+      "status": "covered_by_handdraw",
+      "reason": "observed in handdraw dataset",
+      "handdraw_count": 6,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        2,
+        "inf"
+      ],
+      "choice_interval": [
+        5,
+        "inf"
+      ],
+      "endpoint_interval": [
+        5,
+        "inf"
+      ],
+      "conservative_L_min": null,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "multi_loop|long|mid_choice|mid_endpoint",
+      "status": "covered_by_handdraw",
+      "reason": "observed in handdraw dataset",
+      "handdraw_count": 1,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        2,
+        "inf"
+      ],
+      "choice_interval": [
+        2,
+        4
+      ],
+      "endpoint_interval": [
+        2,
+        4
+      ],
+      "conservative_L_min": null,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "multi_loop|long|high_choice|low_endpoint",
+      "status": "covered_by_handdraw",
+      "reason": "observed in handdraw dataset",
+      "handdraw_count": 1,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        2,
+        "inf"
+      ],
+      "choice_interval": [
+        5,
+        "inf"
+      ],
+      "endpoint_interval": [
+        0,
+        1
+      ],
+      "conservative_L_min": null,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "multi_loop|long|high_choice|mid_endpoint",
+      "status": "covered_by_handdraw",
+      "reason": "observed in handdraw dataset",
+      "handdraw_count": 4,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        2,
+        "inf"
+      ],
+      "choice_interval": [
+        5,
+        "inf"
+      ],
+      "endpoint_interval": [
+        2,
+        4
+      ],
+      "conservative_L_min": null,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "multi_loop|long|high_choice|high_endpoint",
+      "status": "covered_by_handdraw",
+      "reason": "observed in handdraw dataset",
+      "handdraw_count": 6,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        2,
+        "inf"
+      ],
+      "choice_interval": [
+        5,
+        "inf"
+      ],
+      "endpoint_interval": [
+        5,
+        "inf"
+      ],
+      "conservative_L_min": null,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    }
+  ],
+  "structural_infeasible_or_constrained": [
+    {
+      "bin_key": "tree|short|low_choice|low_endpoint",
+      "status": "structural_infeasible_or_constrained",
+      "reason": "endpoint_bin_max=1 < conservative_L_min=2 for C_min=0, mu_max=0",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        0,
+        0
+      ],
+      "choice_interval": [
+        0,
+        1
+      ],
+      "endpoint_interval": [
+        0,
+        1
+      ],
+      "conservative_L_min": 2,
+      "theoretical_note": "choice / endpoint / cycle dimensions are coupled; uniform 81-bin target includes structurally constrained regions"
+    },
+    {
+      "bin_key": "tree|short|mid_choice|low_endpoint",
+      "status": "structural_infeasible_or_constrained",
+      "reason": "endpoint_bin_max=1 < conservative_L_min=4 for C_min=2, mu_max=0",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        0,
+        0
+      ],
+      "choice_interval": [
+        2,
+        4
+      ],
+      "endpoint_interval": [
+        0,
+        1
+      ],
+      "conservative_L_min": 4,
+      "theoretical_note": "choice / endpoint / cycle dimensions are coupled; uniform 81-bin target includes structurally constrained regions"
+    },
+    {
+      "bin_key": "tree|short|high_choice|low_endpoint",
+      "status": "structural_infeasible_or_constrained",
+      "reason": "endpoint_bin_max=1 < conservative_L_min=7 for C_min=5, mu_max=0",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        0,
+        0
+      ],
+      "choice_interval": [
+        5,
+        "inf"
+      ],
+      "endpoint_interval": [
+        0,
+        1
+      ],
+      "conservative_L_min": 7,
+      "theoretical_note": "choice / endpoint / cycle dimensions are coupled; uniform 81-bin target includes structurally constrained regions"
+    },
+    {
+      "bin_key": "tree|short|high_choice|mid_endpoint",
+      "status": "structural_infeasible_or_constrained",
+      "reason": "endpoint_bin_max=4 < conservative_L_min=7 for C_min=5, mu_max=0",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        0,
+        0
+      ],
+      "choice_interval": [
+        5,
+        "inf"
+      ],
+      "endpoint_interval": [
+        2,
+        4
+      ],
+      "conservative_L_min": 7,
+      "theoretical_note": "choice / endpoint / cycle dimensions are coupled; uniform 81-bin target includes structurally constrained regions"
+    },
+    {
+      "bin_key": "tree|medium|low_choice|low_endpoint",
+      "status": "structural_infeasible_or_constrained",
+      "reason": "endpoint_bin_max=1 < conservative_L_min=2 for C_min=0, mu_max=0",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        0,
+        0
+      ],
+      "choice_interval": [
+        0,
+        1
+      ],
+      "endpoint_interval": [
+        0,
+        1
+      ],
+      "conservative_L_min": 2,
+      "theoretical_note": "choice / endpoint / cycle dimensions are coupled; uniform 81-bin target includes structurally constrained regions"
+    },
+    {
+      "bin_key": "tree|medium|mid_choice|low_endpoint",
+      "status": "structural_infeasible_or_constrained",
+      "reason": "endpoint_bin_max=1 < conservative_L_min=4 for C_min=2, mu_max=0",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        0,
+        0
+      ],
+      "choice_interval": [
+        2,
+        4
+      ],
+      "endpoint_interval": [
+        0,
+        1
+      ],
+      "conservative_L_min": 4,
+      "theoretical_note": "choice / endpoint / cycle dimensions are coupled; uniform 81-bin target includes structurally constrained regions"
+    },
+    {
+      "bin_key": "tree|medium|high_choice|low_endpoint",
+      "status": "structural_infeasible_or_constrained",
+      "reason": "endpoint_bin_max=1 < conservative_L_min=7 for C_min=5, mu_max=0",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        0,
+        0
+      ],
+      "choice_interval": [
+        5,
+        "inf"
+      ],
+      "endpoint_interval": [
+        0,
+        1
+      ],
+      "conservative_L_min": 7,
+      "theoretical_note": "choice / endpoint / cycle dimensions are coupled; uniform 81-bin target includes structurally constrained regions"
+    },
+    {
+      "bin_key": "tree|medium|high_choice|mid_endpoint",
+      "status": "structural_infeasible_or_constrained",
+      "reason": "endpoint_bin_max=4 < conservative_L_min=7 for C_min=5, mu_max=0",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        0,
+        0
+      ],
+      "choice_interval": [
+        5,
+        "inf"
+      ],
+      "endpoint_interval": [
+        2,
+        4
+      ],
+      "conservative_L_min": 7,
+      "theoretical_note": "choice / endpoint / cycle dimensions are coupled; uniform 81-bin target includes structurally constrained regions"
+    },
+    {
+      "bin_key": "tree|long|low_choice|low_endpoint",
+      "status": "structural_infeasible_or_constrained",
+      "reason": "endpoint_bin_max=1 < conservative_L_min=2 for C_min=0, mu_max=0",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        0,
+        0
+      ],
+      "choice_interval": [
+        0,
+        1
+      ],
+      "endpoint_interval": [
+        0,
+        1
+      ],
+      "conservative_L_min": 2,
+      "theoretical_note": "choice / endpoint / cycle dimensions are coupled; uniform 81-bin target includes structurally constrained regions"
+    },
+    {
+      "bin_key": "tree|long|mid_choice|low_endpoint",
+      "status": "structural_infeasible_or_constrained",
+      "reason": "endpoint_bin_max=1 < conservative_L_min=4 for C_min=2, mu_max=0",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        0,
+        0
+      ],
+      "choice_interval": [
+        2,
+        4
+      ],
+      "endpoint_interval": [
+        0,
+        1
+      ],
+      "conservative_L_min": 4,
+      "theoretical_note": "choice / endpoint / cycle dimensions are coupled; uniform 81-bin target includes structurally constrained regions"
+    },
+    {
+      "bin_key": "tree|long|high_choice|low_endpoint",
+      "status": "structural_infeasible_or_constrained",
+      "reason": "endpoint_bin_max=1 < conservative_L_min=7 for C_min=5, mu_max=0",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        0,
+        0
+      ],
+      "choice_interval": [
+        5,
+        "inf"
+      ],
+      "endpoint_interval": [
+        0,
+        1
+      ],
+      "conservative_L_min": 7,
+      "theoretical_note": "choice / endpoint / cycle dimensions are coupled; uniform 81-bin target includes structurally constrained regions"
+    },
+    {
+      "bin_key": "tree|long|high_choice|mid_endpoint",
+      "status": "structural_infeasible_or_constrained",
+      "reason": "endpoint_bin_max=4 < conservative_L_min=7 for C_min=5, mu_max=0",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        0,
+        0
+      ],
+      "choice_interval": [
+        5,
+        "inf"
+      ],
+      "endpoint_interval": [
+        2,
+        4
+      ],
+      "conservative_L_min": 7,
+      "theoretical_note": "choice / endpoint / cycle dimensions are coupled; uniform 81-bin target includes structurally constrained regions"
+    },
+    {
+      "bin_key": "single_loop|short|mid_choice|low_endpoint",
+      "status": "structural_infeasible_or_constrained",
+      "reason": "endpoint_bin_max=1 < conservative_L_min=2 for C_min=2, mu_max=1",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        1,
+        1
+      ],
+      "choice_interval": [
+        2,
+        4
+      ],
+      "endpoint_interval": [
+        0,
+        1
+      ],
+      "conservative_L_min": 2,
+      "theoretical_note": "choice / endpoint / cycle dimensions are coupled; uniform 81-bin target includes structurally constrained regions"
+    },
+    {
+      "bin_key": "single_loop|short|high_choice|low_endpoint",
+      "status": "structural_infeasible_or_constrained",
+      "reason": "endpoint_bin_max=1 < conservative_L_min=5 for C_min=5, mu_max=1",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        1,
+        1
+      ],
+      "choice_interval": [
+        5,
+        "inf"
+      ],
+      "endpoint_interval": [
+        0,
+        1
+      ],
+      "conservative_L_min": 5,
+      "theoretical_note": "choice / endpoint / cycle dimensions are coupled; uniform 81-bin target includes structurally constrained regions"
+    },
+    {
+      "bin_key": "single_loop|short|high_choice|mid_endpoint",
+      "status": "structural_infeasible_or_constrained",
+      "reason": "endpoint_bin_max=4 < conservative_L_min=5 for C_min=5, mu_max=1",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        1,
+        1
+      ],
+      "choice_interval": [
+        5,
+        "inf"
+      ],
+      "endpoint_interval": [
+        2,
+        4
+      ],
+      "conservative_L_min": 5,
+      "theoretical_note": "choice / endpoint / cycle dimensions are coupled; uniform 81-bin target includes structurally constrained regions"
+    },
+    {
+      "bin_key": "single_loop|medium|mid_choice|low_endpoint",
+      "status": "structural_infeasible_or_constrained",
+      "reason": "endpoint_bin_max=1 < conservative_L_min=2 for C_min=2, mu_max=1",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        1,
+        1
+      ],
+      "choice_interval": [
+        2,
+        4
+      ],
+      "endpoint_interval": [
+        0,
+        1
+      ],
+      "conservative_L_min": 2,
+      "theoretical_note": "choice / endpoint / cycle dimensions are coupled; uniform 81-bin target includes structurally constrained regions"
+    },
+    {
+      "bin_key": "single_loop|medium|high_choice|low_endpoint",
+      "status": "structural_infeasible_or_constrained",
+      "reason": "endpoint_bin_max=1 < conservative_L_min=5 for C_min=5, mu_max=1",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        1,
+        1
+      ],
+      "choice_interval": [
+        5,
+        "inf"
+      ],
+      "endpoint_interval": [
+        0,
+        1
+      ],
+      "conservative_L_min": 5,
+      "theoretical_note": "choice / endpoint / cycle dimensions are coupled; uniform 81-bin target includes structurally constrained regions"
+    },
+    {
+      "bin_key": "single_loop|medium|high_choice|mid_endpoint",
+      "status": "structural_infeasible_or_constrained",
+      "reason": "endpoint_bin_max=4 < conservative_L_min=5 for C_min=5, mu_max=1",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        1,
+        1
+      ],
+      "choice_interval": [
+        5,
+        "inf"
+      ],
+      "endpoint_interval": [
+        2,
+        4
+      ],
+      "conservative_L_min": 5,
+      "theoretical_note": "choice / endpoint / cycle dimensions are coupled; uniform 81-bin target includes structurally constrained regions"
+    },
+    {
+      "bin_key": "single_loop|long|mid_choice|low_endpoint",
+      "status": "structural_infeasible_or_constrained",
+      "reason": "endpoint_bin_max=1 < conservative_L_min=2 for C_min=2, mu_max=1",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        1,
+        1
+      ],
+      "choice_interval": [
+        2,
+        4
+      ],
+      "endpoint_interval": [
+        0,
+        1
+      ],
+      "conservative_L_min": 2,
+      "theoretical_note": "choice / endpoint / cycle dimensions are coupled; uniform 81-bin target includes structurally constrained regions"
+    },
+    {
+      "bin_key": "single_loop|long|high_choice|low_endpoint",
+      "status": "structural_infeasible_or_constrained",
+      "reason": "endpoint_bin_max=1 < conservative_L_min=5 for C_min=5, mu_max=1",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        1,
+        1
+      ],
+      "choice_interval": [
+        5,
+        "inf"
+      ],
+      "endpoint_interval": [
+        0,
+        1
+      ],
+      "conservative_L_min": 5,
+      "theoretical_note": "choice / endpoint / cycle dimensions are coupled; uniform 81-bin target includes structurally constrained regions"
+    },
+    {
+      "bin_key": "single_loop|long|high_choice|mid_endpoint",
+      "status": "structural_infeasible_or_constrained",
+      "reason": "endpoint_bin_max=4 < conservative_L_min=5 for C_min=5, mu_max=1",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        1,
+        1
+      ],
+      "choice_interval": [
+        5,
+        "inf"
+      ],
+      "endpoint_interval": [
+        2,
+        4
+      ],
+      "conservative_L_min": 5,
+      "theoretical_note": "choice / endpoint / cycle dimensions are coupled; uniform 81-bin target includes structurally constrained regions"
+    }
+  ],
+  "unobserved_possible": [
+    {
+      "bin_key": "tree|short|low_choice|mid_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        0,
+        0
+      ],
+      "choice_interval": [
+        0,
+        1
+      ],
+      "endpoint_interval": [
+        2,
+        4
+      ],
+      "conservative_L_min": 2,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "tree|short|low_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        0,
+        0
+      ],
+      "choice_interval": [
+        0,
+        1
+      ],
+      "endpoint_interval": [
+        5,
+        "inf"
+      ],
+      "conservative_L_min": 2,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "tree|short|mid_choice|mid_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        0,
+        0
+      ],
+      "choice_interval": [
+        2,
+        4
+      ],
+      "endpoint_interval": [
+        2,
+        4
+      ],
+      "conservative_L_min": 4,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "tree|short|mid_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        0,
+        0
+      ],
+      "choice_interval": [
+        2,
+        4
+      ],
+      "endpoint_interval": [
+        5,
+        "inf"
+      ],
+      "conservative_L_min": 4,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "tree|short|high_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        0,
+        0
+      ],
+      "choice_interval": [
+        5,
+        "inf"
+      ],
+      "endpoint_interval": [
+        5,
+        "inf"
+      ],
+      "conservative_L_min": 7,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "tree|medium|low_choice|mid_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        0,
+        0
+      ],
+      "choice_interval": [
+        0,
+        1
+      ],
+      "endpoint_interval": [
+        2,
+        4
+      ],
+      "conservative_L_min": 2,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "tree|medium|low_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        0,
+        0
+      ],
+      "choice_interval": [
+        0,
+        1
+      ],
+      "endpoint_interval": [
+        5,
+        "inf"
+      ],
+      "conservative_L_min": 2,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "tree|medium|mid_choice|mid_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        0,
+        0
+      ],
+      "choice_interval": [
+        2,
+        4
+      ],
+      "endpoint_interval": [
+        2,
+        4
+      ],
+      "conservative_L_min": 4,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "tree|medium|high_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        0,
+        0
+      ],
+      "choice_interval": [
+        5,
+        "inf"
+      ],
+      "endpoint_interval": [
+        5,
+        "inf"
+      ],
+      "conservative_L_min": 7,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "tree|long|low_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        0,
+        0
+      ],
+      "choice_interval": [
+        0,
+        1
+      ],
+      "endpoint_interval": [
+        5,
+        "inf"
+      ],
+      "conservative_L_min": 2,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "single_loop|short|low_choice|low_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        1,
+        1
+      ],
+      "choice_interval": [
+        0,
+        1
+      ],
+      "endpoint_interval": [
+        0,
+        1
+      ],
+      "conservative_L_min": 0,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "single_loop|short|low_choice|mid_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        1,
+        1
+      ],
+      "choice_interval": [
+        0,
+        1
+      ],
+      "endpoint_interval": [
+        2,
+        4
+      ],
+      "conservative_L_min": 0,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "single_loop|short|low_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        1,
+        1
+      ],
+      "choice_interval": [
+        0,
+        1
+      ],
+      "endpoint_interval": [
+        5,
+        "inf"
+      ],
+      "conservative_L_min": 0,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "single_loop|short|mid_choice|mid_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        1,
+        1
+      ],
+      "choice_interval": [
+        2,
+        4
+      ],
+      "endpoint_interval": [
+        2,
+        4
+      ],
+      "conservative_L_min": 2,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "single_loop|short|mid_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        1,
+        1
+      ],
+      "choice_interval": [
+        2,
+        4
+      ],
+      "endpoint_interval": [
+        5,
+        "inf"
+      ],
+      "conservative_L_min": 2,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "single_loop|short|high_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        1,
+        1
+      ],
+      "choice_interval": [
+        5,
+        "inf"
+      ],
+      "endpoint_interval": [
+        5,
+        "inf"
+      ],
+      "conservative_L_min": 5,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "single_loop|medium|low_choice|low_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        1,
+        1
+      ],
+      "choice_interval": [
+        0,
+        1
+      ],
+      "endpoint_interval": [
+        0,
+        1
+      ],
+      "conservative_L_min": 0,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "single_loop|medium|low_choice|mid_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        1,
+        1
+      ],
+      "choice_interval": [
+        0,
+        1
+      ],
+      "endpoint_interval": [
+        2,
+        4
+      ],
+      "conservative_L_min": 0,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "single_loop|medium|low_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        1,
+        1
+      ],
+      "choice_interval": [
+        0,
+        1
+      ],
+      "endpoint_interval": [
+        5,
+        "inf"
+      ],
+      "conservative_L_min": 0,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "single_loop|medium|mid_choice|mid_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        1,
+        1
+      ],
+      "choice_interval": [
+        2,
+        4
+      ],
+      "endpoint_interval": [
+        2,
+        4
+      ],
+      "conservative_L_min": 2,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "single_loop|long|low_choice|low_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        1,
+        1
+      ],
+      "choice_interval": [
+        0,
+        1
+      ],
+      "endpoint_interval": [
+        0,
+        1
+      ],
+      "conservative_L_min": 0,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "single_loop|long|low_choice|mid_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        1,
+        1
+      ],
+      "choice_interval": [
+        0,
+        1
+      ],
+      "endpoint_interval": [
+        2,
+        4
+      ],
+      "conservative_L_min": 0,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "single_loop|long|low_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        1,
+        1
+      ],
+      "choice_interval": [
+        0,
+        1
+      ],
+      "endpoint_interval": [
+        5,
+        "inf"
+      ],
+      "conservative_L_min": 0,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "multi_loop|short|low_choice|low_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        2,
+        "inf"
+      ],
+      "choice_interval": [
+        0,
+        1
+      ],
+      "endpoint_interval": [
+        0,
+        1
+      ],
+      "conservative_L_min": null,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "multi_loop|short|low_choice|mid_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        2,
+        "inf"
+      ],
+      "choice_interval": [
+        0,
+        1
+      ],
+      "endpoint_interval": [
+        2,
+        4
+      ],
+      "conservative_L_min": null,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "multi_loop|short|low_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        2,
+        "inf"
+      ],
+      "choice_interval": [
+        0,
+        1
+      ],
+      "endpoint_interval": [
+        5,
+        "inf"
+      ],
+      "conservative_L_min": null,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "multi_loop|short|mid_choice|low_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        2,
+        "inf"
+      ],
+      "choice_interval": [
+        2,
+        4
+      ],
+      "endpoint_interval": [
+        0,
+        1
+      ],
+      "conservative_L_min": null,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "multi_loop|short|mid_choice|mid_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        2,
+        "inf"
+      ],
+      "choice_interval": [
+        2,
+        4
+      ],
+      "endpoint_interval": [
+        2,
+        4
+      ],
+      "conservative_L_min": null,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "multi_loop|short|mid_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        2,
+        "inf"
+      ],
+      "choice_interval": [
+        2,
+        4
+      ],
+      "endpoint_interval": [
+        5,
+        "inf"
+      ],
+      "conservative_L_min": null,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "multi_loop|short|high_choice|low_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        2,
+        "inf"
+      ],
+      "choice_interval": [
+        5,
+        "inf"
+      ],
+      "endpoint_interval": [
+        0,
+        1
+      ],
+      "conservative_L_min": null,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "multi_loop|short|high_choice|mid_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        2,
+        "inf"
+      ],
+      "choice_interval": [
+        5,
+        "inf"
+      ],
+      "endpoint_interval": [
+        2,
+        4
+      ],
+      "conservative_L_min": null,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "multi_loop|medium|low_choice|low_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        2,
+        "inf"
+      ],
+      "choice_interval": [
+        0,
+        1
+      ],
+      "endpoint_interval": [
+        0,
+        1
+      ],
+      "conservative_L_min": null,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "multi_loop|medium|low_choice|mid_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        2,
+        "inf"
+      ],
+      "choice_interval": [
+        0,
+        1
+      ],
+      "endpoint_interval": [
+        2,
+        4
+      ],
+      "conservative_L_min": null,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "multi_loop|medium|low_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        2,
+        "inf"
+      ],
+      "choice_interval": [
+        0,
+        1
+      ],
+      "endpoint_interval": [
+        5,
+        "inf"
+      ],
+      "conservative_L_min": null,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "multi_loop|medium|mid_choice|low_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        2,
+        "inf"
+      ],
+      "choice_interval": [
+        2,
+        4
+      ],
+      "endpoint_interval": [
+        0,
+        1
+      ],
+      "conservative_L_min": null,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "multi_loop|medium|mid_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        2,
+        "inf"
+      ],
+      "choice_interval": [
+        2,
+        4
+      ],
+      "endpoint_interval": [
+        5,
+        "inf"
+      ],
+      "conservative_L_min": null,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "multi_loop|long|low_choice|low_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        2,
+        "inf"
+      ],
+      "choice_interval": [
+        0,
+        1
+      ],
+      "endpoint_interval": [
+        0,
+        1
+      ],
+      "conservative_L_min": null,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "multi_loop|long|low_choice|mid_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        2,
+        "inf"
+      ],
+      "choice_interval": [
+        0,
+        1
+      ],
+      "endpoint_interval": [
+        2,
+        4
+      ],
+      "conservative_L_min": null,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "multi_loop|long|low_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        2,
+        "inf"
+      ],
+      "choice_interval": [
+        0,
+        1
+      ],
+      "endpoint_interval": [
+        5,
+        "inf"
+      ],
+      "conservative_L_min": null,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "multi_loop|long|mid_choice|low_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        2,
+        "inf"
+      ],
+      "choice_interval": [
+        2,
+        4
+      ],
+      "endpoint_interval": [
+        0,
+        1
+      ],
+      "conservative_L_min": null,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    },
+    {
+      "bin_key": "multi_loop|long|mid_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "reason": "not observed, but not ruled out by conservative bucket rule",
+      "handdraw_count": 0,
+      "observed_structural_conflict": false,
+      "cycle_interval": [
+        2,
+        "inf"
+      ],
+      "choice_interval": [
+        2,
+        4
+      ],
+      "endpoint_interval": [
+        5,
+        "inf"
+      ],
+      "conservative_L_min": null,
+      "theoretical_note": "conservative bucket-level rule; not a proof for individual mazes"
+    }
+  ],
+  "coverage_raw": 0.2345679012345679,
+  "coverage_excluding_structural": 0.31666666666666665,
+  "rule_note": "Conservative bucket-level check: for tree/single_loop, endpoint_bin_max must be >= max(0, C_min - 2*mu_max + 2). Multi-loop buckets are not ruled out by this simple rule."
+}

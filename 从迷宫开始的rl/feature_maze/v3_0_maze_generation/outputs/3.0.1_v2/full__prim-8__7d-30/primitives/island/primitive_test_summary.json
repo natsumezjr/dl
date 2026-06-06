@@ -1,0 +1,92 @@
+[
+  {
+    "primitive_test_name": "island",
+    "primitive_role": "primary_structure",
+    "primary_metrics": [
+      "island_free_ratio"
+    ],
+    "target_value": 0.0,
+    "n": 2,
+    "success_rate": 1.0,
+    "primary_hit_rate": 1.0,
+    "all_7d_hit_rate": 1.0,
+    "target_hit_rate": 1.0,
+    "mean_primary_abs_error": 0.011363636363636354,
+    "p50_primary_abs_error": 0.011363636363636354,
+    "hard_failure_count": 0,
+    "side_effect_failed_metric_counts": {},
+    "main_failure_reason": []
+  },
+  {
+    "primitive_test_name": "island",
+    "primitive_role": "primary_structure",
+    "primary_metrics": [
+      "island_free_ratio"
+    ],
+    "target_value": 0.03,
+    "n": 2,
+    "success_rate": 1.0,
+    "primary_hit_rate": 1.0,
+    "all_7d_hit_rate": 1.0,
+    "target_hit_rate": 1.0,
+    "mean_primary_abs_error": 0.010628019323671467,
+    "p50_primary_abs_error": 0.010628019323671467,
+    "hard_failure_count": 0,
+    "side_effect_failed_metric_counts": {},
+    "main_failure_reason": []
+  },
+  {
+    "primitive_test_name": "island",
+    "primitive_role": "primary_structure",
+    "primary_metrics": [
+      "island_free_ratio"
+    ],
+    "target_value": 0.06,
+    "n": 2,
+    "success_rate": 0.0,
+    "primary_hit_rate": 1.0,
+    "all_7d_hit_rate": 0.0,
+    "target_hit_rate": 1.0,
+    "mean_primary_abs_error": 0.0008912655971479166,
+    "p50_primary_abs_error": 0.0008912655971479166,
+    "hard_failure_count": 0,
+    "side_effect_failed_metric_counts": {
+      "wall_ratio": 2,
+      "dead_end_ratio": 1,
+      "junction_ratio": 1
+    },
+    "main_failure_reason": [
+      "wall_ratio"
+    ]
+  },
+  {
+    "primitive_test_name": "island",
+    "primitive_role": "primary_structure",
+    "primary_metrics": [
+      "island_free_ratio"
+    ],
+    "target_value": 0.1,
+    "n": 2,
+    "success_rate": 0.0,
+    "primary_hit_rate": 0.5,
+    "all_7d_hit_rate": 0.0,
+    "target_hit_rate": 0.5,
+    "mean_primary_abs_error": 0.026054590570719627,
+    "p50_primary_abs_error": 0.026054590570719627,
+    "hard_failure_count": 0,
+    "side_effect_failed_metric_counts": {
+      "wall_ratio": 2,
+      "bfs_len_norm": 1,
+      "detour_ratio": 1,
+      "junction_ratio": 2,
+      "reachable_free_ratio": 1,
+      "dead_end_depth_mean": 1
+    },
+    "main_failure_reason": [
+      "wall_ratio",
+      "bfs_len_norm",
+      "detour_ratio",
+      "junction_ratio"
+    ]
+  }
+]

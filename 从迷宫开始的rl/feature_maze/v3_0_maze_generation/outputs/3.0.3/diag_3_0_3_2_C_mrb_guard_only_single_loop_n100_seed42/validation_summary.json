@@ -1,0 +1,141 @@
+{
+  "version": "3.0.3_2_corridor_reservation_mrb_guard",
+  "profile": "single_loop",
+  "n_requested": 100,
+  "n_success": 2,
+  "success_rate": 0.02,
+  "hard_failure_count": 98,
+  "top_failure_codes": [
+    [
+      "edge_routing_failed",
+      98
+    ]
+  ],
+  "failure_by_layer": {
+    "Grid Embedding": 98
+  },
+  "failure_by_code": {
+    "edge_routing_failed": 98
+  },
+  "layered_success": {
+    "generation_success_count": 100,
+    "embedding_success_count": 2,
+    "extraction_success_count": 2,
+    "strict_plan_match_success_count": 2,
+    "strict_plan_match_success_rate": 0.02
+  },
+  "attempted_summary": {
+    "attempted_plan_contract_count": 100,
+    "attempted_topology_generated_count": 100,
+    "attempted_D_range_bound_count": 100,
+    "attempted_layout_count": 100,
+    "attempted_routing_count": 100,
+    "attempted_extraction_count": 2,
+    "choice_node_count_mean": 3.0,
+    "endpoint_node_count_mean": 3.0,
+    "cycle_rank_mean": 1.0,
+    "derived_E_mean": 6.0
+  },
+  "success_summary": {
+    "strict_success_count": 2,
+    "choice_node_count_mean": 3.0,
+    "endpoint_node_count_mean": 3.0,
+    "cycle_rank_mean": 1.0,
+    "derived_E_mean": 6.0
+  },
+  "topology": {
+    "choice_node_count_mean": 3.0,
+    "choice_node_count_p50": 3.0,
+    "endpoint_node_count_mean": 3.0,
+    "endpoint_node_count_p50": 3.0,
+    "cycle_rank_mean": 1.0,
+    "cycle_rank_p50": 1.0,
+    "derived_E_mean": 6.0,
+    "parallel_edge_count_mean": 0.0
+  },
+  "terminal_semantics": {
+    "terminal_choice_count": 3.0,
+    "terminal_endpoint_count": 1.0,
+    "effective_choice_count_mean": 4.5
+  },
+  "main_route_bundle": {
+    "preliminary_main_bundle_edge_count_mean": 1.5,
+    "weighted_main_bundle_edge_count_mean": 1.5,
+    "main_bundle_changed_after_L_assignment_count": 0
+  },
+  "edge_roles": {
+    "main_edge_count_mean": 1.5,
+    "substitute_level1_count_mean": 2.0,
+    "substitute_level2plus_count_mean": 0.0,
+    "endpoint_branch_count_mean": 2.5
+  },
+  "D_range_binding": {
+    "queue_insufficient_count": 0,
+    "unused_warning_count": 2,
+    "D_actual_out_of_range_count": 0
+  },
+  "path_complexity": {
+    "C_length_mean": 3.9455574293866857,
+    "C_length_p50": 3.9871816492923298,
+    "C_excess_mean": 3.1189263425875544,
+    "C_excess_p50": 3.1189263425875544,
+    "C_path_mean": 7.06448377197424,
+    "C_path_p50": 7.106107991879885,
+    "target_hit_rate": 1.0,
+    "base_exceeds_target_count": 0,
+    "target_unreachable_count": 0
+  },
+  "embedding": {
+    "relative_layout_success_rate": 1.0,
+    "routing_success_rate": 0.020000000000000018,
+    "non_planned_intersection_count": 0,
+    "non_edge_touch_count": 0
+  },
+  "room": {
+    "room_policy": "room_suppressed",
+    "room_component_count_mean": 0.0,
+    "room_component_count_p50": 0.0,
+    "room_policy_failure_count": 0
+  },
+  "island": {
+    "target_k_mean": 0.0,
+    "target_k_p50": 0.0,
+    "actual_k_mean": 0.0,
+    "actual_k_p50": 0.0,
+    "island_match_rate": 1.0
+  },
+  "strict_validation": {
+    "strict_topology_mismatch_count": 0,
+    "choice_count_mismatch_count": 0,
+    "endpoint_count_mismatch_count": 0,
+    "edge_count_mismatch_count": 0,
+    "cycle_rank_mismatch_count": 0,
+    "room_changed_structural_topology_count": 0
+  },
+  "corridor_reservation": {
+    "attempted": 0,
+    "success": 0,
+    "failed": 0,
+    "avg_candidate_count": 0.0,
+    "avg_global_conflict_score": 0.0
+  },
+  "routing": {
+    "skeleton_exact_success": 0,
+    "restricted_dfs_attempted": 0,
+    "restricted_dfs_success": 0,
+    "restricted_dfs_failed": 0
+  },
+  "mrb_guard": {
+    "enabled": true,
+    "mode": "strict_mrb_preserve",
+    "guard_invoked": 15,
+    "guard_adjusted_edges": 30,
+    "guard_failed": 0,
+    "weighted_MRB_added_edges": 30,
+    "weighted_MRB_removed_edges": 2,
+    "forced_above_target": 14
+  },
+  "profile_adjustments": {
+    "pure_topology": "Spec example c=3,t=3,mu=0 is infeasible under 2*mu+t>=c+2; MVP smoke uses smaller feasible c=2,t=4,mu=0 to test plan-preserving embedding."
+  }
+}

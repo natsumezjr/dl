@@ -1,0 +1,26 @@
+{
+  "version": "3.0.0",
+  "experiment_name": "maze_distribution_test",
+  "seed": 42,
+  "grid_size": 8,
+  "n_mazes": 1000,
+  "generators": [
+    "rrg",
+    "pbg"
+  ],
+  "easy_bfs_min": 6,
+  "easy_bfs_max": 10,
+  "medium_bfs_min": 11,
+  "medium_bfs_max": 18,
+  "hard_bfs_min": 19,
+  "hard_bfs_max": 48,
+  "difficulty": "mixed",
+  "difficulty_easy": 0.2,
+  "difficulty_medium": 0.4,
+  "difficulty_hard": 0.4,
+  "max_retries": 500,
+  "max_pbg_steps": 200,
+  "pbg_initial_wall_p": 0.05,
+  "no_tqdm": false,
+  "no_viz": false
+}

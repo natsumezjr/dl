@@ -1,0 +1,8273 @@
+[
+  {
+    "maze_id": "maze_00000",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 14,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 0,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            7,
+            7
+          ]
+        ],
+        "cell_count": 14,
+        "exit_count": 1,
+        "outside_component_count": 1,
+        "classification": "endpoint_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_0",
+        "projected_node_ids": [
+          "n_0"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_hint_alt_1"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00001",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 5,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            5,
+            4
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            7,
+            5
+          ]
+        ],
+        "cell_count": 5,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_3",
+        "projected_node_ids": [
+          "n_3",
+          "n_4"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_2",
+          "e_3",
+          "e_hint_alt_4"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00002",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 12,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "cell_count": 12,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00003",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 0,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            5
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 1,
+        "outside_component_count": 1,
+        "classification": "endpoint_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_0",
+        "projected_node_ids": [
+          "n_0"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_hint_alt_1"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00004",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 0,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 1,
+        "outside_component_count": 1,
+        "classification": "endpoint_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_0",
+        "projected_node_ids": [
+          "n_0"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_hint_alt_1"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00005",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 20,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            7,
+            0
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            7,
+            3
+          ]
+        ],
+        "cell_count": 20,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00006",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 12,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 0,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            5,
+            6
+          ]
+        ],
+        "cell_count": 12,
+        "exit_count": 1,
+        "outside_component_count": 1,
+        "classification": "endpoint_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_0",
+        "projected_node_ids": [
+          "n_0"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_hint_alt_1"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00007",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            5,
+            1
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00008",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 14,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            5
+          ]
+        ],
+        "cell_count": 14,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00009",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 11,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ]
+        ],
+        "cell_count": 11,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00010",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 12,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "cell_count": 12,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00011",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            6,
+            2
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00012",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 0,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 1,
+        "outside_component_count": 1,
+        "classification": "endpoint_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_0",
+        "projected_node_ids": [
+          "n_0"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_hint_alt_1"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00013",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 14,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 0,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            6,
+            1
+          ]
+        ],
+        "cell_count": 14,
+        "exit_count": 1,
+        "outside_component_count": 1,
+        "classification": "endpoint_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_0",
+        "projected_node_ids": [
+          "n_0"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_hint_alt_1"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00014",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 12,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 0,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            6
+          ]
+        ],
+        "cell_count": 12,
+        "exit_count": 1,
+        "outside_component_count": 1,
+        "classification": "endpoint_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_0",
+        "projected_node_ids": [
+          "n_0"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_hint_alt_1"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00015",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 12,
+    "room_component_count": 2,
+    "room_projected_node_count": 2,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 2,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            7,
+            6
+          ]
+        ],
+        "cell_count": 4,
+        "exit_count": 1,
+        "outside_component_count": 1,
+        "classification": "endpoint_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_0",
+        "projected_node_ids": [
+          "n_0"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_3"
+        ]
+      },
+      {
+        "room_component_id": "room_1",
+        "cells": [
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        "cell_count": 8,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3",
+          "n_4"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_2",
+          "e_hint_alt_3"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00016",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 6,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "cell_count": 6,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_3",
+        "projected_node_ids": [
+          "n_3",
+          "n_4",
+          "n_5"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_1",
+          "e_2",
+          "e_3",
+          "e_hint_alt_4"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00017",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00018",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00019",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 12,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            6,
+            7
+          ]
+        ],
+        "cell_count": 12,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00020",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 12,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            6
+          ]
+        ],
+        "cell_count": 12,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00021",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 14,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            3
+          ]
+        ],
+        "cell_count": 14,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00022",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 0,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            7,
+            7
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 1,
+        "outside_component_count": 1,
+        "classification": "endpoint_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_0",
+        "projected_node_ids": [
+          "n_0"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_hint_alt_1"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00023",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            6,
+            1
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00024",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00025",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 12,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            7
+          ]
+        ],
+        "cell_count": 12,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00026",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 16,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        "cell_count": 16,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00027",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 18,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 0,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "cell_count": 18,
+        "exit_count": 1,
+        "outside_component_count": 1,
+        "classification": "endpoint_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_0",
+        "projected_node_ids": [
+          "n_0"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_hint_alt_1"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00028",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 0,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 1,
+        "outside_component_count": 1,
+        "classification": "endpoint_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_0",
+        "projected_node_ids": [
+          "n_0"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_hint_alt_1"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00029",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 4,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            5
+          ]
+        ],
+        "cell_count": 4,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_3",
+        "projected_node_ids": [
+          "n_3",
+          "n_4"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_3",
+          "e_hint_alt_4"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00030",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00031",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 4,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ]
+        ],
+        "cell_count": 4,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_3",
+        "projected_node_ids": [
+          "n_3",
+          "n_4"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_1",
+          "e_2",
+          "e_3",
+          "e_hint_alt_4"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00032",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            3
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00033",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            5,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            7,
+            4
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00034",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00035",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 0,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 1,
+        "outside_component_count": 1,
+        "classification": "endpoint_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_0",
+        "projected_node_ids": [
+          "n_0"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_hint_alt_1"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00036",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 0,
+    "choice_room_count": 1,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            7,
+            5
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 3,
+        "outside_component_count": 3,
+        "classification": "choice_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_0",
+        "projected_node_ids": [
+          "n_0"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00037",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 12,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ]
+        ],
+        "cell_count": 12,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00038",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 8,
+    "room_component_count": 2,
+    "room_projected_node_count": 2,
+    "pass_through_room_count": 2,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 2,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            3
+          ]
+        ],
+        "cell_count": 4,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_3",
+        "projected_node_ids": [
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      },
+      {
+        "room_component_id": "room_1",
+        "cells": [
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ]
+        ],
+        "cell_count": 4,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00039",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 12,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            7,
+            3
+          ]
+        ],
+        "cell_count": 12,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00040",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            6
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00041",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 14,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "cell_count": 14,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00042",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 12,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "cell_count": 12,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00043",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 12,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            7
+          ]
+        ],
+        "cell_count": 12,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00044",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 12,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 0,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            6,
+            2
+          ]
+        ],
+        "cell_count": 12,
+        "exit_count": 1,
+        "outside_component_count": 1,
+        "classification": "endpoint_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_0",
+        "projected_node_ids": [
+          "n_0"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_hint_alt_1"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00045",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 12,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            6,
+            1
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            7,
+            6
+          ]
+        ],
+        "cell_count": 12,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00046",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 9,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "cell_count": 9,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3",
+          "n_4"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_2",
+          "e_hint_alt_3"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00047",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 12,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            5,
+            6
+          ]
+        ],
+        "cell_count": 12,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00048",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 2,
+    "room_projected_node_count": 2,
+    "pass_through_room_count": 2,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 2,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "cell_count": 4,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_hint_alt_2"
+        ]
+      },
+      {
+        "room_component_id": "room_1",
+        "cells": [
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            7
+          ]
+        ],
+        "cell_count": 6,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_3",
+        "projected_node_ids": [
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00049",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_3",
+        "projected_node_ids": [
+          "n_3",
+          "n_4",
+          "n_5"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_1",
+          "e_2",
+          "e_3",
+          "e_hint_alt_4"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00050",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 4,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "cell_count": 4,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_3",
+        "projected_node_ids": [
+          "n_3",
+          "n_4"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_3",
+          "e_hint_alt_4"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00051",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 11,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 0,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "cell_count": 11,
+        "exit_count": 1,
+        "outside_component_count": 1,
+        "classification": "endpoint_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_0",
+        "projected_node_ids": [
+          "n_0"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_hint_alt_1"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00052",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00053",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            7,
+            5
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00054",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 12,
+    "room_component_count": 2,
+    "room_projected_node_count": 2,
+    "pass_through_room_count": 2,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 2,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "cell_count": 8,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_3",
+        "projected_node_ids": [
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      },
+      {
+        "room_component_id": "room_1",
+        "cells": [
+          [
+            5,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            6,
+            4
+          ]
+        ],
+        "cell_count": 4,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00055",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 0,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 1,
+        "outside_component_count": 1,
+        "classification": "endpoint_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_0",
+        "projected_node_ids": [
+          "n_0"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_hint_alt_1"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00056",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 11,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        "cell_count": 11,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00057",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            6
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00058",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 14,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 0,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            7,
+            7
+          ]
+        ],
+        "cell_count": 14,
+        "exit_count": 1,
+        "outside_component_count": 1,
+        "classification": "endpoint_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_0",
+        "projected_node_ids": [
+          "n_0"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_hint_alt_1"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00059",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 4,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "cell_count": 4,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_3",
+        "projected_node_ids": [
+          "n_3",
+          "n_4"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_2",
+          "e_3",
+          "e_hint_alt_4"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00060",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 16,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 0,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            6,
+            1
+          ]
+        ],
+        "cell_count": 16,
+        "exit_count": 1,
+        "outside_component_count": 1,
+        "classification": "endpoint_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_0",
+        "projected_node_ids": [
+          "n_0"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_hint_alt_1"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00061",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 0,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 1,
+        "outside_component_count": 1,
+        "classification": "endpoint_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_0",
+        "projected_node_ids": [
+          "n_0"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_hint_alt_1"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00062",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 12,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "cell_count": 12,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00063",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 14,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            3
+          ]
+        ],
+        "cell_count": 14,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00064",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 6,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "cell_count": 6,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_3",
+        "projected_node_ids": [
+          "n_3",
+          "n_4",
+          "n_5"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_1",
+          "e_2",
+          "e_3",
+          "e_hint_alt_4"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00065",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 4,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 0,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "cell_count": 4,
+        "exit_count": 1,
+        "outside_component_count": 1,
+        "classification": "endpoint_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_0",
+        "projected_node_ids": [
+          "n_0"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_3"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00066",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            7
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00067",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 0,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            7,
+            7
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 1,
+        "outside_component_count": 1,
+        "classification": "endpoint_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_0",
+        "projected_node_ids": [
+          "n_0"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_hint_alt_1"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00068",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            6
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00069",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 0,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            3
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 1,
+        "outside_component_count": 1,
+        "classification": "endpoint_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_0",
+        "projected_node_ids": [
+          "n_0"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_hint_alt_1"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00070",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 8,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            5,
+            0
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            3
+          ]
+        ],
+        "cell_count": 8,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_3",
+        "projected_node_ids": [
+          "n_3",
+          "n_4",
+          "n_5"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_2",
+          "e_hint_alt_4"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00071",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00072",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 6,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            5
+          ]
+        ],
+        "cell_count": 6,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3",
+          "n_4"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_2",
+          "e_hint_alt_3"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00073",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00074",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 12,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 0,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            5,
+            2
+          ]
+        ],
+        "cell_count": 12,
+        "exit_count": 1,
+        "outside_component_count": 1,
+        "classification": "endpoint_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_0",
+        "projected_node_ids": [
+          "n_0"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_hint_alt_1"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00075",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 0,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            3
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 1,
+        "outside_component_count": 1,
+        "classification": "endpoint_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_0",
+        "projected_node_ids": [
+          "n_0"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_hint_alt_1"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00076",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00077",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 0,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 1,
+        "outside_component_count": 1,
+        "classification": "endpoint_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_0",
+        "projected_node_ids": [
+          "n_0"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_hint_alt_1"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00078",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 12,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            5,
+            6
+          ]
+        ],
+        "cell_count": 12,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00079",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 12,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            7,
+            6
+          ]
+        ],
+        "cell_count": 12,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00080",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 16,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            3,
+            6
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            7,
+            7
+          ]
+        ],
+        "cell_count": 16,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00081",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00082",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 4,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 0,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            7,
+            5
+          ]
+        ],
+        "cell_count": 4,
+        "exit_count": 1,
+        "outside_component_count": 1,
+        "classification": "endpoint_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_0",
+        "projected_node_ids": [
+          "n_0"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_3"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00083",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00084",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 12,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            7,
+            5
+          ]
+        ],
+        "cell_count": 12,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00085",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 12,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 0,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            5,
+            1
+          ]
+        ],
+        "cell_count": 12,
+        "exit_count": 1,
+        "outside_component_count": 1,
+        "classification": "endpoint_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_0",
+        "projected_node_ids": [
+          "n_0"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_hint_alt_1"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00086",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 12,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            3
+          ]
+        ],
+        "cell_count": 12,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00087",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 14,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            7,
+            3
+          ]
+        ],
+        "cell_count": 14,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00088",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            7
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00089",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 12,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "cell_count": 12,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00090",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            5
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00091",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 14,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            5,
+            2
+          ]
+        ],
+        "cell_count": 14,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00092",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 14,
+    "room_component_count": 2,
+    "room_projected_node_count": 2,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 2,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            6,
+            2
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 1,
+        "outside_component_count": 1,
+        "classification": "endpoint_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_0",
+        "projected_node_ids": [
+          "n_0"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_3"
+        ]
+      },
+      {
+        "room_component_id": "room_1",
+        "cells": [
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ]
+        ],
+        "cell_count": 4,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3",
+          "n_4"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_2",
+          "e_hint_alt_3"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00093",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 2,
+    "room_projected_node_count": 2,
+    "pass_through_room_count": 2,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 2,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "cell_count": 6,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_3",
+        "projected_node_ids": [
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      },
+      {
+        "room_component_id": "room_1",
+        "cells": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "cell_count": 4,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00094",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 12,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 0,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        "cell_count": 12,
+        "exit_count": 1,
+        "outside_component_count": 1,
+        "classification": "endpoint_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_0",
+        "projected_node_ids": [
+          "n_0"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_hint_alt_1"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00095",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 6,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 0,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "cell_count": 6,
+        "exit_count": 1,
+        "outside_component_count": 1,
+        "classification": "endpoint_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_0",
+        "projected_node_ids": [
+          "n_0"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_3"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00096",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 12,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 0,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            7,
+            3
+          ]
+        ],
+        "cell_count": 12,
+        "exit_count": 1,
+        "outside_component_count": 1,
+        "classification": "endpoint_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_0",
+        "projected_node_ids": [
+          "n_0"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_hint_alt_1"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00097",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            5,
+            6
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00098",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 10,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "cell_count": 10,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  },
+  {
+    "maze_id": "maze_00099",
+    "room_detection_enabled": true,
+    "room_candidate_cell_count": 12,
+    "room_component_count": 1,
+    "room_projected_node_count": 1,
+    "pass_through_room_count": 1,
+    "choice_room_count": 0,
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 1,
+    "large_open_area_detected_by_free_blocks": 0,
+    "room_components": [
+      {
+        "room_component_id": "room_0",
+        "cells": [
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            7,
+            3
+          ]
+        ],
+        "cell_count": 12,
+        "exit_count": 2,
+        "outside_component_count": 2,
+        "classification": "pass_through_room",
+        "projected_as_node": true,
+        "projected_node_id": "n_2",
+        "projected_node_ids": [
+          "n_2",
+          "n_3"
+        ],
+        "suppression_reason": null,
+        "overlaps_main_hint": true,
+        "overlaps_planned_alternative": true,
+        "edge_ids_passing_through": [
+          "e_0",
+          "e_1",
+          "e_hint_alt_2"
+        ]
+      }
+    ],
+    "no_room_reason_top": []
+  }
+]

@@ -1,0 +1,99 @@
+{
+  "SFG_attempts": 52770,
+  "SFG_hard_quality_pass": 50714,
+  "SFG_full_evaluated": 50714,
+  "SFG_long_bfs_count": 26920,
+  "SFG_accepted_count": 118,
+  "SFG_top_bins": [
+    [
+      "tree|long|low_choice|low_endpoint",
+      15361
+    ],
+    [
+      "single_loop|medium|low_choice|low_endpoint",
+      8492
+    ],
+    [
+      "multi_loop|medium|mid_choice|low_endpoint",
+      6770
+    ],
+    [
+      "single_loop|long|low_choice|low_endpoint",
+      5005
+    ],
+    [
+      "tree|long|low_choice|mid_endpoint",
+      3991
+    ],
+    [
+      "multi_loop|medium|low_choice|low_endpoint",
+      2497
+    ],
+    [
+      "tree|medium|low_choice|low_endpoint",
+      2331
+    ],
+    [
+      "multi_loop|long|mid_choice|low_endpoint",
+      1085
+    ],
+    [
+      "tree|medium|low_choice|mid_endpoint",
+      930
+    ],
+    [
+      "single_loop|medium|mid_choice|mid_endpoint",
+      918
+    ],
+    [
+      "single_loop|long|mid_choice|mid_endpoint",
+      764
+    ],
+    [
+      "multi_loop|medium|mid_choice|mid_endpoint",
+      684
+    ],
+    [
+      "multi_loop|medium|high_choice|low_endpoint",
+      591
+    ],
+    [
+      "multi_loop|long|low_choice|low_endpoint",
+      308
+    ],
+    [
+      "single_loop|medium|low_choice|mid_endpoint",
+      254
+    ],
+    [
+      "single_loop|long|low_choice|mid_endpoint",
+      188
+    ],
+    [
+      "multi_loop|long|mid_choice|mid_endpoint",
+      137
+    ],
+    [
+      "multi_loop|medium|high_choice|mid_endpoint",
+      108
+    ],
+    [
+      "multi_loop|short|mid_choice|low_endpoint",
+      105
+    ],
+    [
+      "tree|long|mid_choice|mid_endpoint",
+      48
+    ]
+  ],
+  "SFG_avg_bfs_len": 20.223606893559964,
+  "SFG_bfs_bin_distribution": {
+    "long": 26920,
+    "medium": 23607,
+    "short": 187
+  },
+  "SFG_endpoint_distribution": null,
+  "SFG_choice_distribution": null,
+  "SFG_cycle_distribution": null,
+  "SFG_hash_unique_count": null
+}

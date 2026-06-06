@@ -1,0 +1,7 @@
+{
+  "strict_success_count": 4,
+  "choice_node_count_mean": 3.0,
+  "endpoint_node_count_mean": 3.0,
+  "cycle_rank_mean": 1.0,
+  "derived_E_mean": 6.0
+}

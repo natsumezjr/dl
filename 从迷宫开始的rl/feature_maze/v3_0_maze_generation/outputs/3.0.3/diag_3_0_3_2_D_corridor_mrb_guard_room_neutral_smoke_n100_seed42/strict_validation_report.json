@@ -1,0 +1,788 @@
+[
+  {
+    "maze_id": "maze_00008",
+    "failure_code": null,
+    "strict_validation": {
+      "planned": {
+        "choice": 3,
+        "endpoint": 3,
+        "E": 6,
+        "mu": 1
+      },
+      "extracted": {
+        "choice": 3,
+        "endpoint": 3,
+        "E": 6,
+        "mu": 1
+      },
+      "choice_match": true,
+      "endpoint_match": true,
+      "E_match": true,
+      "mu_match": true,
+      "strict_topology_match": true,
+      "mismatch_reasons": []
+    },
+    "failure_detail": null
+  },
+  {
+    "maze_id": "maze_00009",
+    "failure_code": "room_changed_structural_topology",
+    "strict_validation": {
+      "planned": {
+        "choice": 3,
+        "endpoint": 3,
+        "E": 6,
+        "mu": 1
+      },
+      "extracted": {
+        "choice": 6,
+        "endpoint": 2,
+        "E": 12,
+        "mu": 5
+      },
+      "choice_match": false,
+      "endpoint_match": false,
+      "E_match": false,
+      "mu_match": false,
+      "strict_topology_match": false,
+      "mismatch_reasons": [
+        "choice_count_mismatch",
+        "endpoint_count_mismatch",
+        "edge_count_mismatch",
+        "cycle_rank_mismatch"
+      ]
+    },
+    "failure_detail": {
+      "strict_topology": {
+        "planned": {
+          "choice": 3,
+          "endpoint": 3,
+          "E": 6,
+          "mu": 1
+        },
+        "extracted": {
+          "choice": 6,
+          "endpoint": 2,
+          "E": 12,
+          "mu": 5
+        },
+        "choice_match": false,
+        "endpoint_match": false,
+        "E_match": false,
+        "mu_match": false,
+        "strict_topology_match": false,
+        "mismatch_reasons": [
+          "choice_count_mismatch",
+          "endpoint_count_mismatch",
+          "edge_count_mismatch",
+          "cycle_rank_mismatch"
+        ]
+      },
+      "room_component_count": 1,
+      "cell_degree_histogram": {
+        "2": 8,
+        "3": 4,
+        "1": 2,
+        "4": 2
+      },
+      "edge_compression_debug": {
+        "traced_edge_count": 12,
+        "invalid_or_room_internal_edge_count": 0,
+        "dangling_trace_count": 0
+      },
+      "room_policy": "room_neutral"
+    }
+  },
+  {
+    "maze_id": "maze_00012",
+    "failure_code": "room_changed_structural_topology",
+    "strict_validation": {
+      "planned": {
+        "choice": 3,
+        "endpoint": 3,
+        "E": 6,
+        "mu": 1
+      },
+      "extracted": {
+        "choice": 7,
+        "endpoint": 2,
+        "E": 14,
+        "mu": 6
+      },
+      "choice_match": false,
+      "endpoint_match": false,
+      "E_match": false,
+      "mu_match": false,
+      "strict_topology_match": false,
+      "mismatch_reasons": [
+        "choice_count_mismatch",
+        "endpoint_count_mismatch",
+        "edge_count_mismatch",
+        "cycle_rank_mismatch"
+      ]
+    },
+    "failure_detail": {
+      "strict_topology": {
+        "planned": {
+          "choice": 3,
+          "endpoint": 3,
+          "E": 6,
+          "mu": 1
+        },
+        "extracted": {
+          "choice": 7,
+          "endpoint": 2,
+          "E": 14,
+          "mu": 6
+        },
+        "choice_match": false,
+        "endpoint_match": false,
+        "E_match": false,
+        "mu_match": false,
+        "strict_topology_match": false,
+        "mismatch_reasons": [
+          "choice_count_mismatch",
+          "endpoint_count_mismatch",
+          "edge_count_mismatch",
+          "cycle_rank_mismatch"
+        ]
+      },
+      "room_component_count": 2,
+      "cell_degree_histogram": {
+        "1": 2,
+        "3": 6,
+        "2": 9,
+        "4": 1
+      },
+      "edge_compression_debug": {
+        "traced_edge_count": 14,
+        "invalid_or_room_internal_edge_count": 0,
+        "dangling_trace_count": 0
+      },
+      "room_policy": "room_neutral"
+    }
+  },
+  {
+    "maze_id": "maze_00028",
+    "failure_code": null,
+    "strict_validation": {
+      "planned": {
+        "choice": 3,
+        "endpoint": 3,
+        "E": 6,
+        "mu": 1
+      },
+      "extracted": {
+        "choice": 3,
+        "endpoint": 3,
+        "E": 6,
+        "mu": 1
+      },
+      "choice_match": true,
+      "endpoint_match": true,
+      "E_match": true,
+      "mu_match": true,
+      "strict_topology_match": true,
+      "mismatch_reasons": []
+    },
+    "failure_detail": null
+  },
+  {
+    "maze_id": "maze_00044",
+    "failure_code": null,
+    "strict_validation": {
+      "planned": {
+        "choice": 3,
+        "endpoint": 3,
+        "E": 6,
+        "mu": 1
+      },
+      "extracted": {
+        "choice": 3,
+        "endpoint": 3,
+        "E": 6,
+        "mu": 1
+      },
+      "choice_match": true,
+      "endpoint_match": true,
+      "E_match": true,
+      "mu_match": true,
+      "strict_topology_match": true,
+      "mismatch_reasons": []
+    },
+    "failure_detail": null
+  },
+  {
+    "maze_id": "maze_00046",
+    "failure_code": "room_changed_structural_topology",
+    "strict_validation": {
+      "planned": {
+        "choice": 3,
+        "endpoint": 3,
+        "E": 6,
+        "mu": 1
+      },
+      "extracted": {
+        "choice": 8,
+        "endpoint": 2,
+        "E": 16,
+        "mu": 7
+      },
+      "choice_match": false,
+      "endpoint_match": false,
+      "E_match": false,
+      "mu_match": false,
+      "strict_topology_match": false,
+      "mismatch_reasons": [
+        "choice_count_mismatch",
+        "endpoint_count_mismatch",
+        "edge_count_mismatch",
+        "cycle_rank_mismatch"
+      ]
+    },
+    "failure_detail": {
+      "strict_topology": {
+        "planned": {
+          "choice": 3,
+          "endpoint": 3,
+          "E": 6,
+          "mu": 1
+        },
+        "extracted": {
+          "choice": 8,
+          "endpoint": 2,
+          "E": 16,
+          "mu": 7
+        },
+        "choice_match": false,
+        "endpoint_match": false,
+        "E_match": false,
+        "mu_match": false,
+        "strict_topology_match": false,
+        "mismatch_reasons": [
+          "choice_count_mismatch",
+          "endpoint_count_mismatch",
+          "edge_count_mismatch",
+          "cycle_rank_mismatch"
+        ]
+      },
+      "room_component_count": 1,
+      "cell_degree_histogram": {
+        "2": 10,
+        "3": 6,
+        "4": 2,
+        "1": 2
+      },
+      "edge_compression_debug": {
+        "traced_edge_count": 16,
+        "invalid_or_room_internal_edge_count": 0,
+        "dangling_trace_count": 0
+      },
+      "room_policy": "room_neutral"
+    }
+  },
+  {
+    "maze_id": "maze_00062",
+    "failure_code": "room_changed_structural_topology",
+    "strict_validation": {
+      "planned": {
+        "choice": 3,
+        "endpoint": 3,
+        "E": 6,
+        "mu": 1
+      },
+      "extracted": {
+        "choice": 6,
+        "endpoint": 1,
+        "E": 12,
+        "mu": 6
+      },
+      "choice_match": false,
+      "endpoint_match": false,
+      "E_match": false,
+      "mu_match": false,
+      "strict_topology_match": false,
+      "mismatch_reasons": [
+        "choice_count_mismatch",
+        "endpoint_count_mismatch",
+        "edge_count_mismatch",
+        "cycle_rank_mismatch"
+      ]
+    },
+    "failure_detail": {
+      "strict_topology": {
+        "planned": {
+          "choice": 3,
+          "endpoint": 3,
+          "E": 6,
+          "mu": 1
+        },
+        "extracted": {
+          "choice": 6,
+          "endpoint": 1,
+          "E": 12,
+          "mu": 6
+        },
+        "choice_match": false,
+        "endpoint_match": false,
+        "E_match": false,
+        "mu_match": false,
+        "strict_topology_match": false,
+        "mismatch_reasons": [
+          "choice_count_mismatch",
+          "endpoint_count_mismatch",
+          "edge_count_mismatch",
+          "cycle_rank_mismatch"
+        ]
+      },
+      "room_component_count": 2,
+      "cell_degree_histogram": {
+        "3": 5,
+        "2": 12,
+        "4": 1,
+        "1": 1
+      },
+      "edge_compression_debug": {
+        "traced_edge_count": 12,
+        "invalid_or_room_internal_edge_count": 0,
+        "dangling_trace_count": 0
+      },
+      "room_policy": "room_neutral"
+    }
+  },
+  {
+    "maze_id": "maze_00067",
+    "failure_code": "room_changed_structural_topology",
+    "strict_validation": {
+      "planned": {
+        "choice": 3,
+        "endpoint": 3,
+        "E": 6,
+        "mu": 1
+      },
+      "extracted": {
+        "choice": 7,
+        "endpoint": 2,
+        "E": 13,
+        "mu": 5
+      },
+      "choice_match": false,
+      "endpoint_match": false,
+      "E_match": false,
+      "mu_match": false,
+      "strict_topology_match": false,
+      "mismatch_reasons": [
+        "choice_count_mismatch",
+        "endpoint_count_mismatch",
+        "edge_count_mismatch",
+        "cycle_rank_mismatch"
+      ]
+    },
+    "failure_detail": {
+      "strict_topology": {
+        "planned": {
+          "choice": 3,
+          "endpoint": 3,
+          "E": 6,
+          "mu": 1
+        },
+        "extracted": {
+          "choice": 7,
+          "endpoint": 2,
+          "E": 13,
+          "mu": 5
+        },
+        "choice_match": false,
+        "endpoint_match": false,
+        "E_match": false,
+        "mu_match": false,
+        "strict_topology_match": false,
+        "mismatch_reasons": [
+          "choice_count_mismatch",
+          "endpoint_count_mismatch",
+          "edge_count_mismatch",
+          "cycle_rank_mismatch"
+        ]
+      },
+      "room_component_count": 1,
+      "cell_degree_histogram": {
+        "3": 6,
+        "1": 2,
+        "2": 6,
+        "4": 1
+      },
+      "edge_compression_debug": {
+        "traced_edge_count": 13,
+        "invalid_or_room_internal_edge_count": 0,
+        "dangling_trace_count": 0
+      },
+      "room_policy": "room_neutral"
+    }
+  },
+  {
+    "maze_id": "maze_00068",
+    "failure_code": null,
+    "strict_validation": {
+      "planned": {
+        "choice": 3,
+        "endpoint": 3,
+        "E": 6,
+        "mu": 1
+      },
+      "extracted": {
+        "choice": 3,
+        "endpoint": 3,
+        "E": 6,
+        "mu": 1
+      },
+      "choice_match": true,
+      "endpoint_match": true,
+      "E_match": true,
+      "mu_match": true,
+      "strict_topology_match": true,
+      "mismatch_reasons": []
+    },
+    "failure_detail": null
+  },
+  {
+    "maze_id": "maze_00073",
+    "failure_code": "room_changed_structural_topology",
+    "strict_validation": {
+      "planned": {
+        "choice": 3,
+        "endpoint": 3,
+        "E": 6,
+        "mu": 1
+      },
+      "extracted": {
+        "choice": 7,
+        "endpoint": 2,
+        "E": 13,
+        "mu": 5
+      },
+      "choice_match": false,
+      "endpoint_match": false,
+      "E_match": false,
+      "mu_match": false,
+      "strict_topology_match": false,
+      "mismatch_reasons": [
+        "choice_count_mismatch",
+        "endpoint_count_mismatch",
+        "edge_count_mismatch",
+        "cycle_rank_mismatch"
+      ]
+    },
+    "failure_detail": {
+      "strict_topology": {
+        "planned": {
+          "choice": 3,
+          "endpoint": 3,
+          "E": 6,
+          "mu": 1
+        },
+        "extracted": {
+          "choice": 7,
+          "endpoint": 2,
+          "E": 13,
+          "mu": 5
+        },
+        "choice_match": false,
+        "endpoint_match": false,
+        "E_match": false,
+        "mu_match": false,
+        "strict_topology_match": false,
+        "mismatch_reasons": [
+          "choice_count_mismatch",
+          "endpoint_count_mismatch",
+          "edge_count_mismatch",
+          "cycle_rank_mismatch"
+        ]
+      },
+      "room_component_count": 1,
+      "cell_degree_histogram": {
+        "2": 11,
+        "3": 6,
+        "1": 2,
+        "4": 1
+      },
+      "edge_compression_debug": {
+        "traced_edge_count": 13,
+        "invalid_or_room_internal_edge_count": 0,
+        "dangling_trace_count": 0
+      },
+      "room_policy": "room_neutral"
+    }
+  },
+  {
+    "maze_id": "maze_00084",
+    "failure_code": "room_changed_structural_topology",
+    "strict_validation": {
+      "planned": {
+        "choice": 3,
+        "endpoint": 3,
+        "E": 6,
+        "mu": 1
+      },
+      "extracted": {
+        "choice": 13,
+        "endpoint": 2,
+        "E": 23,
+        "mu": 9
+      },
+      "choice_match": false,
+      "endpoint_match": false,
+      "E_match": false,
+      "mu_match": false,
+      "strict_topology_match": false,
+      "mismatch_reasons": [
+        "choice_count_mismatch",
+        "endpoint_count_mismatch",
+        "edge_count_mismatch",
+        "cycle_rank_mismatch"
+      ]
+    },
+    "failure_detail": {
+      "strict_topology": {
+        "planned": {
+          "choice": 3,
+          "endpoint": 3,
+          "E": 6,
+          "mu": 1
+        },
+        "extracted": {
+          "choice": 13,
+          "endpoint": 2,
+          "E": 23,
+          "mu": 9
+        },
+        "choice_match": false,
+        "endpoint_match": false,
+        "E_match": false,
+        "mu_match": false,
+        "strict_topology_match": false,
+        "mismatch_reasons": [
+          "choice_count_mismatch",
+          "endpoint_count_mismatch",
+          "edge_count_mismatch",
+          "cycle_rank_mismatch"
+        ]
+      },
+      "room_component_count": 1,
+      "cell_degree_histogram": {
+        "1": 2,
+        "3": 10,
+        "2": 4,
+        "4": 3
+      },
+      "edge_compression_debug": {
+        "traced_edge_count": 23,
+        "invalid_or_room_internal_edge_count": 0,
+        "dangling_trace_count": 0
+      },
+      "room_policy": "room_neutral"
+    }
+  },
+  {
+    "maze_id": "maze_00089",
+    "failure_code": "room_changed_structural_topology",
+    "strict_validation": {
+      "planned": {
+        "choice": 3,
+        "endpoint": 3,
+        "E": 6,
+        "mu": 1
+      },
+      "extracted": {
+        "choice": 5,
+        "endpoint": 3,
+        "E": 9,
+        "mu": 2
+      },
+      "choice_match": false,
+      "endpoint_match": true,
+      "E_match": false,
+      "mu_match": false,
+      "strict_topology_match": false,
+      "mismatch_reasons": [
+        "choice_count_mismatch",
+        "edge_count_mismatch",
+        "cycle_rank_mismatch"
+      ]
+    },
+    "failure_detail": {
+      "strict_topology": {
+        "planned": {
+          "choice": 3,
+          "endpoint": 3,
+          "E": 6,
+          "mu": 1
+        },
+        "extracted": {
+          "choice": 5,
+          "endpoint": 3,
+          "E": 9,
+          "mu": 2
+        },
+        "choice_match": false,
+        "endpoint_match": true,
+        "E_match": false,
+        "mu_match": false,
+        "strict_topology_match": false,
+        "mismatch_reasons": [
+          "choice_count_mismatch",
+          "edge_count_mismatch",
+          "cycle_rank_mismatch"
+        ]
+      },
+      "room_component_count": 1,
+      "cell_degree_histogram": {
+        "2": 10,
+        "3": 5,
+        "1": 3
+      },
+      "edge_compression_debug": {
+        "traced_edge_count": 9,
+        "invalid_or_room_internal_edge_count": 0,
+        "dangling_trace_count": 0
+      },
+      "room_policy": "room_neutral"
+    }
+  },
+  {
+    "maze_id": "maze_00090",
+    "failure_code": "room_changed_structural_topology",
+    "strict_validation": {
+      "planned": {
+        "choice": 3,
+        "endpoint": 3,
+        "E": 6,
+        "mu": 1
+      },
+      "extracted": {
+        "choice": 11,
+        "endpoint": 1,
+        "E": 19,
+        "mu": 8
+      },
+      "choice_match": false,
+      "endpoint_match": false,
+      "E_match": false,
+      "mu_match": false,
+      "strict_topology_match": false,
+      "mismatch_reasons": [
+        "choice_count_mismatch",
+        "endpoint_count_mismatch",
+        "edge_count_mismatch",
+        "cycle_rank_mismatch"
+      ]
+    },
+    "failure_detail": {
+      "strict_topology": {
+        "planned": {
+          "choice": 3,
+          "endpoint": 3,
+          "E": 6,
+          "mu": 1
+        },
+        "extracted": {
+          "choice": 11,
+          "endpoint": 1,
+          "E": 19,
+          "mu": 8
+        },
+        "choice_match": false,
+        "endpoint_match": false,
+        "E_match": false,
+        "mu_match": false,
+        "strict_topology_match": false,
+        "mismatch_reasons": [
+          "choice_count_mismatch",
+          "endpoint_count_mismatch",
+          "edge_count_mismatch",
+          "cycle_rank_mismatch"
+        ]
+      },
+      "room_component_count": 2,
+      "cell_degree_histogram": {
+        "2": 7,
+        "3": 9,
+        "4": 2,
+        "1": 1
+      },
+      "edge_compression_debug": {
+        "traced_edge_count": 19,
+        "invalid_or_room_internal_edge_count": 0,
+        "dangling_trace_count": 0
+      },
+      "room_policy": "room_neutral"
+    }
+  },
+  {
+    "maze_id": "maze_00098",
+    "failure_code": "room_changed_structural_topology",
+    "strict_validation": {
+      "planned": {
+        "choice": 3,
+        "endpoint": 3,
+        "E": 6,
+        "mu": 1
+      },
+      "extracted": {
+        "choice": 4,
+        "endpoint": 2,
+        "E": 7,
+        "mu": 2
+      },
+      "choice_match": false,
+      "endpoint_match": false,
+      "E_match": false,
+      "mu_match": false,
+      "strict_topology_match": false,
+      "mismatch_reasons": [
+        "choice_count_mismatch",
+        "endpoint_count_mismatch",
+        "edge_count_mismatch",
+        "cycle_rank_mismatch"
+      ]
+    },
+    "failure_detail": {
+      "strict_topology": {
+        "planned": {
+          "choice": 3,
+          "endpoint": 3,
+          "E": 6,
+          "mu": 1
+        },
+        "extracted": {
+          "choice": 4,
+          "endpoint": 2,
+          "E": 7,
+          "mu": 2
+        },
+        "choice_match": false,
+        "endpoint_match": false,
+        "E_match": false,
+        "mu_match": false,
+        "strict_topology_match": false,
+        "mismatch_reasons": [
+          "choice_count_mismatch",
+          "endpoint_count_mismatch",
+          "edge_count_mismatch",
+          "cycle_rank_mismatch"
+        ]
+      },
+      "room_component_count": 1,
+      "cell_degree_histogram": {
+        "2": 12,
+        "1": 2,
+        "3": 4
+      },
+      "edge_compression_debug": {
+        "traced_edge_count": 7,
+        "invalid_or_room_internal_edge_count": 0,
+        "dangling_trace_count": 0
+      },
+      "room_policy": "room_neutral"
+    }
+  }
+]

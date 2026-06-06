@@ -1,0 +1,5 @@
+{
+  "restricted_dfs_failed": 28,
+  "corridor_reservation_failed": 46,
+  "strict_topology_mismatch": 2
+}

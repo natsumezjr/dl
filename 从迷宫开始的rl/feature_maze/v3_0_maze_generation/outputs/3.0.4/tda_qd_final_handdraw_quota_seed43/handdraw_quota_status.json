@@ -1,0 +1,12 @@
+{
+  "quota_scope": "handdraw_observed",
+  "requested_quota_scope": "handdraw_observed",
+  "quota_sum_required": 4754,
+  "confirmed_in_scope": 4754,
+  "hard_quota_fill_ratio": 1.0,
+  "remaining_quota_total": 0,
+  "remaining_bin_count": 0,
+  "hard_quota_met": true,
+  "quota_met": true,
+  "remaining_bins": []
+}

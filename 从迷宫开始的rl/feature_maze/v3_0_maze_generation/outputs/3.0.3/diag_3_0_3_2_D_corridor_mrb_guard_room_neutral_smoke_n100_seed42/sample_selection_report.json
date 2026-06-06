@@ -1,0 +1,56 @@
+{
+  "selected_samples": [
+    {
+      "rank": 1,
+      "category": "loop_substitute",
+      "maze_id": "maze_00008",
+      "status": "PASS",
+      "why_selected": "representative success/failure category",
+      "files": {
+        "maze_overlay": "feature_maze\\v3_0_maze_generation\\outputs\\3.0.3\\diag_3_0_3_2_D_corridor_mrb_guard_room_neutral_smoke_n100_seed42\\visualization_samples\\01_loop_substitute__maze_00008_maze_overlay.png",
+        "decision_graph": "feature_maze\\v3_0_maze_generation\\outputs\\3.0.3\\diag_3_0_3_2_D_corridor_mrb_guard_room_neutral_smoke_n100_seed42\\visualization_samples\\01_loop_substitute__maze_00008_decision_graph.png"
+      },
+      "failure_code": null
+    },
+    {
+      "rank": 2,
+      "category": "failure_corridor_reservation_failed",
+      "maze_id": "maze_00000",
+      "status": "FAILED",
+      "why_selected": "representative success/failure category",
+      "files": {},
+      "failure_code": "corridor_reservation_failed"
+    },
+    {
+      "rank": 3,
+      "category": "failure_restricted_dfs_failed",
+      "maze_id": "maze_00001",
+      "status": "FAILED",
+      "why_selected": "representative success/failure category",
+      "files": {},
+      "failure_code": "restricted_dfs_failed"
+    },
+    {
+      "rank": 4,
+      "category": "failure_room_changed_structural_topology",
+      "maze_id": "maze_00009",
+      "status": "FAILED",
+      "why_selected": "representative success/failure category",
+      "files": {},
+      "failure_code": "room_changed_structural_topology"
+    }
+  ],
+  "success_sample_shortage": true,
+  "available_success_categories": [
+    "loop_substitute"
+  ],
+  "missing_success_categories": [
+    "pure_topology",
+    "loop_substitute",
+    "terminal_choice",
+    "D-range binding",
+    "island",
+    "room_neutral",
+    "full_mvp"
+  ]
+}

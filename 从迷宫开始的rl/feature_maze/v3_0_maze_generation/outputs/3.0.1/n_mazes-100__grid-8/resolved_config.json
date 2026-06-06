@@ -1,0 +1,80 @@
+{
+  "seed": 42,
+  "grid_size": 8,
+  "n_mazes": 100,
+  "run_name": null,
+  "output_dir": null,
+  "no_tqdm": false,
+  "no_viz": false,
+  "n_trace_samples": 20,
+  "n_top_k": 5,
+  "n_sample_images": 6,
+  "target_wall_ratio_min": 0.18,
+  "target_wall_ratio_max": 0.35,
+  "target_bfs_len_norm_min": 0.15,
+  "target_bfs_len_norm_max": 0.45,
+  "target_detour_ratio_min": 1.3,
+  "target_detour_ratio_max": 4.5,
+  "target_dead_end_ratio_min": 0.04,
+  "target_dead_end_ratio_max": 0.18,
+  "target_junction_ratio_min": 0.3,
+  "target_junction_ratio_max": 0.75,
+  "target_dead_end_depth_mean_min": 1.0,
+  "target_dead_end_depth_mean_max": 4.0,
+  "target_junction_on_solution_ratio_min": 0.35,
+  "target_junction_on_solution_ratio_max": 0.85,
+  "target_island_free_ratio_min": 0.0,
+  "target_island_free_ratio_max": 0.08,
+  "target_manhattan_min": 4,
+  "target_manhattan_max": 12,
+  "target_main_path_len_min": 8,
+  "target_main_path_len_max": 30,
+  "target_main_path_turn_ratio_min": 0.15,
+  "target_main_path_turn_ratio_max": 0.75,
+  "max_restarts": 100,
+  "max_edit_steps": 80,
+  "max_main_path_attempts": 500,
+  "max_operation_attempts": 30,
+  "allow_worse_prob": 0.0,
+  "version": "3.0.1",
+  "experiment_name": "path_first_metric_generator",
+  "generator_name": "pf_mcg",
+  "target_ranges": {
+    "reachable_free_ratio": [
+      0.92,
+      1.0
+    ],
+    "wall_ratio": [
+      0.18,
+      0.35
+    ],
+    "bfs_len_norm": [
+      0.15,
+      0.45
+    ],
+    "detour_ratio": [
+      1.3,
+      4.5
+    ],
+    "dead_end_ratio": [
+      0.04,
+      0.18
+    ],
+    "junction_ratio": [
+      0.3,
+      0.75
+    ],
+    "dead_end_depth_mean": [
+      1.0,
+      4.0
+    ],
+    "junction_on_solution_ratio": [
+      0.35,
+      0.85
+    ],
+    "island_free_ratio": [
+      0.0,
+      0.08
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "CLO_attempts": 31186,
+  "CLO_commit_count": 2718,
+  "CLO_rollback_count": 28229,
+  "avg_delta_cycle": 1.4655913630927369,
+  "avg_delta_bfs": -4.781588389307302,
+  "avg_delta_endpoint": -1.1721563176778615,
+  "over_cycle_rollback_count": 51429,
+  "bfs_regression_rollback_count": 9154
+}

@@ -1,0 +1,1124 @@
+[
+  {
+    "runtime_ms": 9.000899968668818,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 3.3457999816164374,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 1.3140999944880605,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 1.5899999998509884,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 18.902999989222735,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 6.666600005701184,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 3.5543999983929098,
+    "main_path_attempt_count": 3,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 2
+      },
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 1.213699986692518,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 185.09549996815622,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 0.7643999997526407,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 4.618800012394786,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 0.8100999984890223,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 0.8858999935910106,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 2.2742999717593193,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 0.8715000003576279,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 1.6293000080622733,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 1.1636000126600266,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 2.4160000029951334,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 12.412699987180531,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 3.6496000248007476,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 1.3028999674133956,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 1.514500007033348,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 1.701700035482645,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 8.565599971916527,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 1.4002000098116696,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 0.9677999769337475,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 1
+      },
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 7.012600020971149,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 60.014499991666526,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 92.80080004828051,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 23.285400005988777,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 3.4309999900870025,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 0.985399994533509,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 2.541799971368164,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 2.3082999978214502,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 3.526400018017739,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 1.7047000001184642,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 0.7752999663352966,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 1
+      },
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 1.5717999776825309,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 0.728700018953532,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 1
+      },
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 4.1185999871231616,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 1.5601000050082803,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 8.244799973908812,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 3.2183000002987683,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 0.7886000094003975,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 2.926899993326515,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 13.312900031451136,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 42.79750003479421,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 2.139299991540611,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 1.3143999967724085,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 22.63429999584332,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 0.786100048571825,
+    "main_path_attempt_count": 5,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 4
+      },
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 1.449099974706769,
+    "main_path_attempt_count": 4,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 3
+      },
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 3.969699959270656,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 1.1924999998882413,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 2.2010999964550138,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 1.0447000386193395,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 3.266700019594282,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 0.8529999759048223,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 3.216699988115579,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 32.65489998739213,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 75.95420000143349,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 6.527599995024502,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 1.6425999929197133,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 0.7608000305481255,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 2.2686999873258173,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 24.737400002777576,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 0.9680999792180955,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 2.285800001118332,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 2.502600022125989,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 1
+      },
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 2.3527000448666513,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 1
+      },
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 311.0021000029519,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 0.7931000436656177,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 3.1446999637410045,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 2.2640000097453594,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 0.9180000051856041,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 0.9593999711796641,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 3.588499967008829,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 0.6900000153109431,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 1.021199976094067,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 1.6533000161871314,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 2.9817000031471252,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 30.916300020180643,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 16.176800010725856,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 2.1572000114247203,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 1.7500999965704978,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 79.68069997150451,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 1
+      },
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 36.42169997328892,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 13.166199962142855,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 1.6131000011228025,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 20.72919998317957,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 1
+      },
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 2.097400021739304,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 4.927499976474792,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 1.0586000280454755,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 2.9506999999284744,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 1.2340999674052,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 2.210900012869388,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 1300.5427000462078,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 4.744399979244918,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 1
+      },
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 8.293799997773021,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  },
+  {
+    "runtime_ms": 0.7691000355407596,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 1,
+    "extract_graph_call_count": 3,
+    "bfs_call_count": 1,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {}
+    }
+  }
+]

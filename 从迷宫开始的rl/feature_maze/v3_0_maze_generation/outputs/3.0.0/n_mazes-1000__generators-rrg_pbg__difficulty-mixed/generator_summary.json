@@ -1,0 +1,28 @@
+{
+  "rrg": {
+    "n_generated": 1000,
+    "n_solvable": 1000,
+    "solvable_rate": 1.0,
+    "retry_mean": 169.691,
+    "retry_p50": 22.0,
+    "retry_max": 500,
+    "fallback_rate": 0.252,
+    "pbg_insert_attempts_mean": null,
+    "pbg_accepted_wall_inserts_mean": null,
+    "pbg_rejected_unreachable_mean": null,
+    "pbg_restart_mean": null
+  },
+  "pbg": {
+    "n_generated": 1000,
+    "n_solvable": 1000,
+    "solvable_rate": 1.0,
+    "retry_mean": null,
+    "retry_p50": null,
+    "retry_max": null,
+    "fallback_rate": null,
+    "pbg_insert_attempts_mean": 7.261,
+    "pbg_accepted_wall_inserts_mean": 3.323,
+    "pbg_rejected_unreachable_mean": 1.374,
+    "pbg_restart_mean": 5.212
+  }
+}

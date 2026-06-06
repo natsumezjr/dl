@@ -1,0 +1,598 @@
+{
+  "tree|long|mid_choice|high_endpoint": {
+    "count": 6,
+    "maze_ids": [
+      "000001",
+      "000004",
+      "000011",
+      "000012",
+      "000038",
+      "000044"
+    ],
+    "examples": [
+      {
+        "maze_id": "000001",
+        "bfs_len": 28,
+        "cycle": 0,
+        "choice": 3,
+        "endpoint": 5
+      },
+      {
+        "maze_id": "000004",
+        "bfs_len": 17,
+        "cycle": 0,
+        "choice": 3,
+        "endpoint": 5
+      },
+      {
+        "maze_id": "000011",
+        "bfs_len": 23,
+        "cycle": 0,
+        "choice": 4,
+        "endpoint": 6
+      },
+      {
+        "maze_id": "000012",
+        "bfs_len": 24,
+        "cycle": 0,
+        "choice": 3,
+        "endpoint": 6
+      },
+      {
+        "maze_id": "000038",
+        "bfs_len": 30,
+        "cycle": 0,
+        "choice": 3,
+        "endpoint": 6
+      }
+    ]
+  },
+  "single_loop|medium|high_choice|high_endpoint": {
+    "count": 5,
+    "maze_ids": [
+      "000002",
+      "000017",
+      "000047",
+      "000058",
+      "000064"
+    ],
+    "examples": [
+      {
+        "maze_id": "000002",
+        "bfs_len": 10,
+        "cycle": 1,
+        "choice": 5,
+        "endpoint": 5
+      },
+      {
+        "maze_id": "000017",
+        "bfs_len": 12,
+        "cycle": 1,
+        "choice": 9,
+        "endpoint": 10
+      },
+      {
+        "maze_id": "000047",
+        "bfs_len": 9,
+        "cycle": 1,
+        "choice": 5,
+        "endpoint": 7
+      },
+      {
+        "maze_id": "000058",
+        "bfs_len": 12,
+        "cycle": 1,
+        "choice": 8,
+        "endpoint": 9
+      },
+      {
+        "maze_id": "000064",
+        "bfs_len": 10,
+        "cycle": 1,
+        "choice": 5,
+        "endpoint": 5
+      }
+    ]
+  },
+  "tree|medium|mid_choice|high_endpoint": {
+    "count": 1,
+    "maze_ids": [
+      "000003"
+    ],
+    "examples": [
+      {
+        "maze_id": "000003",
+        "bfs_len": 10,
+        "cycle": 0,
+        "choice": 4,
+        "endpoint": 6
+      }
+    ]
+  },
+  "single_loop|long|high_choice|high_endpoint": {
+    "count": 6,
+    "maze_ids": [
+      "000005",
+      "000010",
+      "000014",
+      "000015",
+      "000019",
+      "000026"
+    ],
+    "examples": [
+      {
+        "maze_id": "000005",
+        "bfs_len": 17,
+        "cycle": 1,
+        "choice": 5,
+        "endpoint": 5
+      },
+      {
+        "maze_id": "000010",
+        "bfs_len": 20,
+        "cycle": 1,
+        "choice": 5,
+        "endpoint": 6
+      },
+      {
+        "maze_id": "000014",
+        "bfs_len": 13,
+        "cycle": 1,
+        "choice": 6,
+        "endpoint": 6
+      },
+      {
+        "maze_id": "000015",
+        "bfs_len": 28,
+        "cycle": 1,
+        "choice": 6,
+        "endpoint": 6
+      },
+      {
+        "maze_id": "000019",
+        "bfs_len": 14,
+        "cycle": 1,
+        "choice": 5,
+        "endpoint": 5
+      }
+    ]
+  },
+  "tree|long|low_choice|mid_endpoint": {
+    "count": 4,
+    "maze_ids": [
+      "000006",
+      "000031",
+      "000041",
+      "000051"
+    ],
+    "examples": [
+      {
+        "maze_id": "000006",
+        "bfs_len": 30,
+        "cycle": 0,
+        "choice": 1,
+        "endpoint": 3
+      },
+      {
+        "maze_id": "000031",
+        "bfs_len": 28,
+        "cycle": 0,
+        "choice": 1,
+        "endpoint": 3
+      },
+      {
+        "maze_id": "000041",
+        "bfs_len": 37,
+        "cycle": 0,
+        "choice": 1,
+        "endpoint": 3
+      },
+      {
+        "maze_id": "000051",
+        "bfs_len": 35,
+        "cycle": 0,
+        "choice": 0,
+        "endpoint": 2
+      }
+    ]
+  },
+  "multi_loop|medium|mid_choice|mid_endpoint": {
+    "count": 1,
+    "maze_ids": [
+      "000007"
+    ],
+    "examples": [
+      {
+        "maze_id": "000007",
+        "bfs_len": 12,
+        "cycle": 3,
+        "choice": 4,
+        "endpoint": 3
+      }
+    ]
+  },
+  "multi_loop|long|high_choice|mid_endpoint": {
+    "count": 4,
+    "maze_ids": [
+      "000008",
+      "000033",
+      "000046",
+      "000055"
+    ],
+    "examples": [
+      {
+        "maze_id": "000008",
+        "bfs_len": 17,
+        "cycle": 3,
+        "choice": 7,
+        "endpoint": 4
+      },
+      {
+        "maze_id": "000033",
+        "bfs_len": 15,
+        "cycle": 3,
+        "choice": 7,
+        "endpoint": 3
+      },
+      {
+        "maze_id": "000046",
+        "bfs_len": 13,
+        "cycle": 2,
+        "choice": 5,
+        "endpoint": 3
+      },
+      {
+        "maze_id": "000055",
+        "bfs_len": 24,
+        "cycle": 3,
+        "choice": 7,
+        "endpoint": 3
+      }
+    ]
+  },
+  "single_loop|long|mid_choice|mid_endpoint": {
+    "count": 4,
+    "maze_ids": [
+      "000009",
+      "000021",
+      "000027",
+      "000029"
+    ],
+    "examples": [
+      {
+        "maze_id": "000009",
+        "bfs_len": 29,
+        "cycle": 1,
+        "choice": 4,
+        "endpoint": 4
+      },
+      {
+        "maze_id": "000021",
+        "bfs_len": 23,
+        "cycle": 1,
+        "choice": 4,
+        "endpoint": 4
+      },
+      {
+        "maze_id": "000027",
+        "bfs_len": 20,
+        "cycle": 1,
+        "choice": 3,
+        "endpoint": 4
+      },
+      {
+        "maze_id": "000029",
+        "bfs_len": 13,
+        "cycle": 1,
+        "choice": 4,
+        "endpoint": 4
+      }
+    ]
+  },
+  "multi_loop|medium|high_choice|low_endpoint": {
+    "count": 1,
+    "maze_ids": [
+      "000013"
+    ],
+    "examples": [
+      {
+        "maze_id": "000013",
+        "bfs_len": 8,
+        "cycle": 4,
+        "choice": 6,
+        "endpoint": 0
+      }
+    ]
+  },
+  "tree|long|mid_choice|mid_endpoint": {
+    "count": 2,
+    "maze_ids": [
+      "000016",
+      "000018"
+    ],
+    "examples": [
+      {
+        "maze_id": "000016",
+        "bfs_len": 16,
+        "cycle": 0,
+        "choice": 2,
+        "endpoint": 4
+      },
+      {
+        "maze_id": "000018",
+        "bfs_len": 24,
+        "cycle": 0,
+        "choice": 2,
+        "endpoint": 4
+      }
+    ]
+  },
+  "tree|long|high_choice|high_endpoint": {
+    "count": 5,
+    "maze_ids": [
+      "000020",
+      "000028",
+      "000042",
+      "000048",
+      "000061"
+    ],
+    "examples": [
+      {
+        "maze_id": "000020",
+        "bfs_len": 21,
+        "cycle": 0,
+        "choice": 5,
+        "endpoint": 7
+      },
+      {
+        "maze_id": "000028",
+        "bfs_len": 15,
+        "cycle": 0,
+        "choice": 6,
+        "endpoint": 10
+      },
+      {
+        "maze_id": "000042",
+        "bfs_len": 32,
+        "cycle": 0,
+        "choice": 5,
+        "endpoint": 8
+      },
+      {
+        "maze_id": "000048",
+        "bfs_len": 18,
+        "cycle": 0,
+        "choice": 8,
+        "endpoint": 10
+      },
+      {
+        "maze_id": "000061",
+        "bfs_len": 25,
+        "cycle": 0,
+        "choice": 8,
+        "endpoint": 12
+      }
+    ]
+  },
+  "multi_loop|long|high_choice|low_endpoint": {
+    "count": 1,
+    "maze_ids": [
+      "000022"
+    ],
+    "examples": [
+      {
+        "maze_id": "000022",
+        "bfs_len": 18,
+        "cycle": 6,
+        "choice": 6,
+        "endpoint": 0
+      }
+    ]
+  },
+  "multi_loop|medium|high_choice|mid_endpoint": {
+    "count": 8,
+    "maze_ids": [
+      "000023",
+      "000039",
+      "000040",
+      "000054",
+      "000056",
+      "000057",
+      "000062",
+      "000063"
+    ],
+    "examples": [
+      {
+        "maze_id": "000023",
+        "bfs_len": 12,
+        "cycle": 4,
+        "choice": 6,
+        "endpoint": 3
+      },
+      {
+        "maze_id": "000039",
+        "bfs_len": 8,
+        "cycle": 7,
+        "choice": 10,
+        "endpoint": 2
+      },
+      {
+        "maze_id": "000040",
+        "bfs_len": 12,
+        "cycle": 5,
+        "choice": 7,
+        "endpoint": 2
+      },
+      {
+        "maze_id": "000054",
+        "bfs_len": 12,
+        "cycle": 4,
+        "choice": 8,
+        "endpoint": 2
+      },
+      {
+        "maze_id": "000056",
+        "bfs_len": 11,
+        "cycle": 3,
+        "choice": 8,
+        "endpoint": 4
+      }
+    ]
+  },
+  "single_loop|medium|mid_choice|high_endpoint": {
+    "count": 1,
+    "maze_ids": [
+      "000024"
+    ],
+    "examples": [
+      {
+        "maze_id": "000024",
+        "bfs_len": 10,
+        "cycle": 1,
+        "choice": 4,
+        "endpoint": 5
+      }
+    ]
+  },
+  "multi_loop|long|high_choice|high_endpoint": {
+    "count": 6,
+    "maze_ids": [
+      "000025",
+      "000030",
+      "000036",
+      "000037",
+      "000045",
+      "000059"
+    ],
+    "examples": [
+      {
+        "maze_id": "000025",
+        "bfs_len": 14,
+        "cycle": 2,
+        "choice": 8,
+        "endpoint": 6
+      },
+      {
+        "maze_id": "000030",
+        "bfs_len": 13,
+        "cycle": 2,
+        "choice": 6,
+        "endpoint": 5
+      },
+      {
+        "maze_id": "000036",
+        "bfs_len": 14,
+        "cycle": 2,
+        "choice": 8,
+        "endpoint": 10
+      },
+      {
+        "maze_id": "000037",
+        "bfs_len": 14,
+        "cycle": 3,
+        "choice": 10,
+        "endpoint": 12
+      },
+      {
+        "maze_id": "000045",
+        "bfs_len": 13,
+        "cycle": 3,
+        "choice": 9,
+        "endpoint": 5
+      }
+    ]
+  },
+  "multi_loop|medium|high_choice|high_endpoint": {
+    "count": 6,
+    "maze_ids": [
+      "000032",
+      "000034",
+      "000035",
+      "000050",
+      "000053",
+      "000060"
+    ],
+    "examples": [
+      {
+        "maze_id": "000032",
+        "bfs_len": 12,
+        "cycle": 2,
+        "choice": 9,
+        "endpoint": 7
+      },
+      {
+        "maze_id": "000034",
+        "bfs_len": 10,
+        "cycle": 3,
+        "choice": 7,
+        "endpoint": 5
+      },
+      {
+        "maze_id": "000035",
+        "bfs_len": 12,
+        "cycle": 2,
+        "choice": 6,
+        "endpoint": 5
+      },
+      {
+        "maze_id": "000050",
+        "bfs_len": 7,
+        "cycle": 2,
+        "choice": 7,
+        "endpoint": 6
+      },
+      {
+        "maze_id": "000053",
+        "bfs_len": 9,
+        "cycle": 3,
+        "choice": 7,
+        "endpoint": 5
+      }
+    ]
+  },
+  "single_loop|long|mid_choice|high_endpoint": {
+    "count": 1,
+    "maze_ids": [
+      "000043"
+    ],
+    "examples": [
+      {
+        "maze_id": "000043",
+        "bfs_len": 16,
+        "cycle": 1,
+        "choice": 4,
+        "endpoint": 5
+      }
+    ]
+  },
+  "multi_loop|short|high_choice|high_endpoint": {
+    "count": 1,
+    "maze_ids": [
+      "000049"
+    ],
+    "examples": [
+      {
+        "maze_id": "000049",
+        "bfs_len": 4,
+        "cycle": 2,
+        "choice": 6,
+        "endpoint": 5
+      }
+    ]
+  },
+  "multi_loop|long|mid_choice|mid_endpoint": {
+    "count": 1,
+    "maze_ids": [
+      "000052"
+    ],
+    "examples": [
+      {
+        "maze_id": "000052",
+        "bfs_len": 15,
+        "cycle": 2,
+        "choice": 3,
+        "endpoint": 2
+      }
+    ]
+  }
+}

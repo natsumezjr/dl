@@ -1,0 +1,313 @@
+{
+  "base_config": {
+    "grid": {
+      "size": 8,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        7,
+        7
+      ],
+      "start_goal_policy": "sample_by_bfs_bin"
+    },
+    "start_goal": {
+      "pair_sampling_mode": "all_pairs",
+      "max_pair_count": 4096,
+      "pair_sample_count": 64,
+      "target_bfs_bin_policy": "prefer_sparse_bins",
+      "fallback_policy": "random_free_pair",
+      "min_bfs_len": 3
+    },
+    "seed_generators": {
+      "weights": {
+        "random_wall_generator": 1.0,
+        "dfs_tree_generator": 1.0,
+        "loose_path_first_generator": 1.0,
+        "room_biased_generator": 1.0,
+        "template_mutation_generator": 0.25
+      },
+      "random_wall_generator": {
+        "wall_prob_min": 0.18,
+        "wall_prob_max": 0.48
+      },
+      "dfs_tree_generator": {
+        "branch_open_prob": 0.25,
+        "extra_open_prob": 0.08
+      },
+      "loose_path_first_generator": {
+        "max_path_attempts": 160,
+        "extra_open_prob": 0.16
+      },
+      "room_biased_generator": {
+        "room_count_min": 1,
+        "room_count_max": 3,
+        "room_size_min": 2,
+        "room_size_max": 4,
+        "connector_open_prob": 0.08
+      },
+      "template_mutation_generator": {
+        "base": "loose_path_first_generator",
+        "initial_mutations": 4
+      }
+    },
+    "transform": {
+      "max_transform_steps": 6,
+      "max_consecutive_transform_failures": 3,
+      "continue_after_reject": true,
+      "operator_weights": {
+        "loop_flip": 1.0,
+        "branch_grow": 1.0,
+        "shortcut_block": 1.0,
+        "cell_flip_random": 0.35
+      },
+      "adaptive_weights": {
+        "cycle_low_loop_flip_multiplier": 2.0,
+        "endpoint_low_branch_grow_multiplier": 2.0,
+        "bfs_short_shortcut_block_multiplier": 2.0,
+        "failure_cell_flip_multiplier": 2.0
+      },
+      "branch_grow": {
+        "max_new_cells": 3
+      },
+      "cell_flip_random": {
+        "max_flips": 2
+      }
+    },
+    "archive": {
+      "cycle_rank_bins": [
+        {
+          "name": "tree",
+          "range": [
+            0,
+            0
+          ]
+        },
+        {
+          "name": "single_loop",
+          "range": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "multi_loop",
+          "range": [
+            2,
+            999
+          ]
+        }
+      ],
+      "bfs_len_bins": [
+        {
+          "name": "short",
+          "range": [
+            1,
+            10
+          ]
+        },
+        {
+          "name": "medium",
+          "range": [
+            11,
+            20
+          ]
+        },
+        {
+          "name": "long",
+          "range": [
+            21,
+            999
+          ]
+        }
+      ],
+      "macro_choice_bins": [
+        {
+          "name": "low_choice",
+          "range": [
+            0,
+            2
+          ]
+        },
+        {
+          "name": "mid_choice",
+          "range": [
+            3,
+            5
+          ]
+        },
+        {
+          "name": "high_choice",
+          "range": [
+            6,
+            999
+          ]
+        }
+      ],
+      "macro_endpoint_bins": [
+        {
+          "name": "low_endpoint",
+          "range": [
+            0,
+            2
+          ]
+        },
+        {
+          "name": "mid_endpoint",
+          "range": [
+            3,
+            6
+          ]
+        },
+        {
+          "name": "high_endpoint",
+          "range": [
+            7,
+            999
+          ]
+        }
+      ],
+      "bin_quota_default": 30,
+      "bin_quotas": {}
+    },
+    "acceptance": {
+      "epsilon": 1.0,
+      "alpha": 1.0,
+      "hard_bin_cap_ratio": 2.0
+    },
+    "quality_gate": {
+      "min_reachable_free_ratio": 0.9,
+      "min_bfs_len": 3,
+      "min_start_free_degree": 1,
+      "min_free_ratio": 0.2,
+      "max_free_ratio": 0.85
+    },
+    "diversity": {
+      "reject_exact_duplicate": true,
+      "max_same_origin_seed_per_bin": 2,
+      "enable_near_duplicate_hamming_check": false,
+      "near_duplicate_hamming_threshold": 2
+    },
+    "room_detection": {
+      "room_min_component_size": 3,
+      "room_high_degree_threshold": 3
+    },
+    "macro_extraction": {
+      "enable_room_aware_compression": true,
+      "open_area_by_2x2": true,
+      "open_area_by_degree_density": true,
+      "degree_density_min_degree": 3,
+      "degree_density_min_local_free_count": 4,
+      "degree_density_neighborhood": "8"
+    },
+    "rect_room_extraction": {
+      "enabled": true,
+      "min_w": 2,
+      "min_h": 2,
+      "selection": "max_non_overlapping_greedy",
+      "bbox_convention": "inclusive",
+      "elongated_aspect_ratio": 3.0,
+      "cheap_metrics_only": false
+    },
+    "debug": {
+      "cycle_rank_close_threshold": 2.0,
+      "overcompression_residual_threshold": 2.0,
+      "high_choice_sparse_threshold": 0.05,
+      "generator_dominance_threshold": 0.6,
+      "parallel_edge_loss_raw_cycle_threshold": 5.0
+    },
+    "visualization": {
+      "enabled": false,
+      "sampling_policy": "stratified_by_bin",
+      "max_samples": 48,
+      "max_per_bin": 2,
+      "max_per_origin_seed": 1,
+      "include_sparse_bins": true,
+      "include_overfull_bins": true
+    },
+    "runtime": {
+      "visual_sample_count": 48,
+      "candidate_debug_limit": 5000,
+      "decision_debug_limit": 500,
+      "rejected_example_limit": 200,
+      "target_total_accepted": null,
+      "stop_when_all_bins_reach_quota": false,
+      "skip_expensive_extractors_on_quality_fail": true
+    },
+    "output": {
+      "save_accepted_grid": true
+    }
+  },
+  "mvp_args": {
+    "mode": "generate",
+    "seed": 43,
+    "seeds": null,
+    "run_name": "tda_qd_final_handdraw_quota_seed43",
+    "output_root": null,
+    "output_dir": null,
+    "target_distribution_json": ".\\feature_maze\\v3_0_maze_generation\\configs\\handdraw_target_distribution_3_0_4.json",
+    "target_total_samples": 5000,
+    "save_visualizations": true,
+    "input_run_dirs": null,
+    "handdraw_jsonl": "feature_maze/handdraw_mazes_ascii.jsonl",
+    "target_fill_ratio_threshold": 0.85,
+    "coverage_nonzero_target_bins_threshold": 0.9,
+    "observed_handdraw_bin_fill_rate_threshold": 1.0,
+    "l1_distance_threshold": 0.3,
+    "require_critical_bins_nonzero": true,
+    "require_full_extraction_error_zero": true,
+    "max_seeds": 0,
+    "max_wall_clock_seconds": 0.0,
+    "max_full_evaluations": 0,
+    "stop_policy": "hard_quota",
+    "quota_scope": "handdraw_observed",
+    "progress_snapshot_interval": 100,
+    "resume": false,
+    "overwrite": false,
+    "per_bin_visualization_limit": 5,
+    "visualization_cell_size": 32,
+    "closure_l1_threshold": 0.05,
+    "export_samples_csv": true,
+    "samples_csv_name": "samples.csv",
+    "max_phase_attempts_per_item": 100,
+    "max_lifetime_attempts_per_item": 300,
+    "max_accepts_per_item": 3,
+    "max_no_progress_streak": 20,
+    "max_hard_collapse_count": 10,
+    "max_route_collapse_count": 30,
+    "max_route_reassignments": 2,
+    "max_buffer_size": 2000,
+    "max_trace_examples_per_bin": 20,
+    "target_route_top_k": 8,
+    "critical_route_priority": 2.0,
+    "diameter_start_goal_sample_count": 64,
+    "pure_tbi_max_branch_len": 4,
+    "pure_tbi_min_branch_len": 1,
+    "pure_tbi_max_roots_per_item": 12,
+    "clo_max_added_path_len": 4,
+    "clo_min_cycle_gain": 1,
+    "spb_max_bfs_drop": 0,
+    "mvp_policy": "target_class_sfg_rbr",
+    "enable_sfg": true,
+    "enable_tbi": true,
+    "enable_clo": true,
+    "enable_spb": true,
+    "enable_rbr": true,
+    "enable_pure_tbi": true,
+    "enable_stage_clo": true,
+    "enable_lbs": false,
+    "enable_tai": false,
+    "enable_sbr": false,
+    "max_total_full_extractions": 0,
+    "n_seeds": 0,
+    "_stop_checker": "<function make_stop_checker.<locals>._checker at 0x000002243A1B6B60>"
+  },
+  "critical_long_bins": [
+    "tree|long|high_choice|high_endpoint",
+    "tree|long|mid_choice|high_endpoint",
+    "single_loop|long|high_choice|high_endpoint",
+    "multi_loop|long|high_choice|high_endpoint",
+    "tree|long|low_choice|mid_endpoint"
+  ]
+}

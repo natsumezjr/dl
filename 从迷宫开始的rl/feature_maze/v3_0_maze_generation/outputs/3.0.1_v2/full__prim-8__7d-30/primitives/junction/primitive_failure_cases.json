@@ -1,0 +1,78 @@
+[
+  {
+    "maze_id": "prim_junction_00004",
+    "target_value": 0.3,
+    "sampled_target_error": 0.5990033222591363,
+    "range_error": 0.03209302325581397,
+    "failed_metrics": [
+      "reachable_free_ratio",
+      "junction_ratio",
+      "island_free_ratio"
+    ],
+    "generation_failed_target": true
+  },
+  {
+    "maze_id": "prim_junction_00000",
+    "target_value": 0.3,
+    "sampled_target_error": 0.5458471760797343,
+    "range_error": 0.03209302325581397,
+    "failed_metrics": [
+      "reachable_free_ratio",
+      "junction_ratio",
+      "island_free_ratio"
+    ],
+    "generation_failed_target": true
+  },
+  {
+    "maze_id": "prim_junction_00003",
+    "target_value": 0.75,
+    "sampled_target_error": 0.5064728921871776,
+    "range_error": 0.006818181818181834,
+    "failed_metrics": [
+      "dead_end_ratio"
+    ],
+    "generation_failed_target": true
+  },
+  {
+    "maze_id": "prim_junction_00007",
+    "target_value": 0.75,
+    "sampled_target_error": 0.47245928674500093,
+    "range_error": 0.040909090909090895,
+    "failed_metrics": [
+      "junction_ratio"
+    ],
+    "generation_failed_target": true
+  },
+  {
+    "maze_id": "prim_junction_00001",
+    "target_value": 0.45,
+    "sampled_target_error": 0.4469156238785927,
+    "range_error": 0.0,
+    "failed_metrics": [],
+    "generation_failed_target": false
+  },
+  {
+    "maze_id": "prim_junction_00005",
+    "target_value": 0.45,
+    "sampled_target_error": 0.3611420325706037,
+    "range_error": 0.0,
+    "failed_metrics": [],
+    "generation_failed_target": false
+  },
+  {
+    "maze_id": "prim_junction_00006",
+    "target_value": 0.6,
+    "sampled_target_error": 0.2562938353636025,
+    "range_error": 0.0,
+    "failed_metrics": [],
+    "generation_failed_target": false
+  },
+  {
+    "maze_id": "prim_junction_00002",
+    "target_value": 0.6,
+    "sampled_target_error": 0.14998154300479852,
+    "range_error": 0.0,
+    "failed_metrics": [],
+    "generation_failed_target": false
+  }
+]

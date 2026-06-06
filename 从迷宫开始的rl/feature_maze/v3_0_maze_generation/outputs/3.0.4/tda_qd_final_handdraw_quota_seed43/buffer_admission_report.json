@@ -1,0 +1,14 @@
+{
+  "admit_count_by_reason": {
+    "initial_stable_skeleton": 86170,
+    "current_long_potential": 26920,
+    "adjacent_to_sparse_target": 85930,
+    "long_with_injection_space": 26915
+  },
+  "reject_count_by_reason": {
+    "not_near_target_or_disabled": 12058
+  },
+  "critical_route_admit_count": 1361,
+  "easy_bucket_admit_count": 639,
+  "tree_low_mid_over_admit_count": 0
+}

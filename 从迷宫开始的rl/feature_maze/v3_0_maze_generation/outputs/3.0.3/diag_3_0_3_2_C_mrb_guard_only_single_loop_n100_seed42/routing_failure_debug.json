@@ -1,0 +1,6212 @@
+[
+  {
+    "maze_id": "maze_00000",
+    "routing_debug": {
+      "failed_edge_id": "e5",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          1000
+        ],
+        [
+          "room_suppressed_2x2",
+          500
+        ],
+        [
+          "occupied_overlap",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e5",
+      "role": "main",
+      "route_order_index": 2,
+      "u": "C2",
+      "v": "P2",
+      "u_coord": [
+        6,
+        3
+      ],
+      "v_coord": [
+        6,
+        7
+      ],
+      "D_actual": 4,
+      "L_target": 6,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 8,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "room_suppressed_2x2": 500,
+        "occupied_overlap": 500,
+        "non_edge_touch": 1000
+      },
+      "dfs_stats": {
+        "expanded_states": 500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1000,
+        "pruned_by_occupied": 500,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00001",
+    "routing_debug": {
+      "failed_edge_id": "e0",
+      "failed_edge_role": "substitute_level1",
+      "blocked_reason_top": [
+        [
+          "distance_pruned",
+          2000
+        ],
+        [
+          "room_suppressed_2x2",
+          1000
+        ],
+        [
+          "used_in_current_path",
+          1000
+        ],
+        [
+          "occupied_overlap",
+          500
+        ],
+        [
+          "out_of_grid",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e0",
+      "role": "substitute_level1",
+      "route_order_index": 1,
+      "u": "C0",
+      "v": "C2",
+      "u_coord": [
+        6,
+        6
+      ],
+      "v_coord": [
+        3,
+        6
+      ],
+      "D_actual": 3,
+      "L_target": 5,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 8,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "occupied_overlap": 500,
+        "room_suppressed_2x2": 1000,
+        "used_in_current_path": 1000,
+        "distance_pruned": 2000,
+        "out_of_grid": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 3500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 0,
+        "pruned_by_occupied": 500,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00002",
+    "routing_debug": {
+      "failed_edge_id": "e1",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          3000
+        ],
+        [
+          "used_in_current_path",
+          1000
+        ],
+        [
+          "distance_pruned",
+          1000
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e1",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C2",
+      "v": "C1",
+      "u_coord": [
+        1,
+        4
+      ],
+      "v_coord": [
+        2,
+        6
+      ],
+      "D_actual": 3,
+      "L_target": 5,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 3000,
+        "used_in_current_path": 1000,
+        "distance_pruned": 1000
+      },
+      "dfs_stats": {
+        "expanded_states": 2500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 3000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00003",
+    "routing_debug": {
+      "failed_edge_id": "e0",
+      "failed_edge_role": "substitute_level1",
+      "blocked_reason_top": [
+        [
+          "occupied_overlap",
+          500
+        ],
+        [
+          "distance_pruned",
+          500
+        ],
+        [
+          "room_suppressed_2x2",
+          500
+        ],
+        [
+          "out_of_grid",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e0",
+      "role": "substitute_level1",
+      "route_order_index": 1,
+      "u": "C1",
+      "v": "C0",
+      "u_coord": [
+        0,
+        4
+      ],
+      "v_coord": [
+        0,
+        7
+      ],
+      "D_actual": 3,
+      "L_target": 3,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 7,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "occupied_overlap": 500,
+        "distance_pruned": 500,
+        "room_suppressed_2x2": 500,
+        "out_of_grid": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 1000,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 0,
+        "pruned_by_occupied": 500,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00004",
+    "routing_debug": {
+      "failed_edge_id": "e2",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          2500
+        ],
+        [
+          "distance_pruned",
+          2000
+        ],
+        [
+          "used_in_current_path",
+          1500
+        ],
+        [
+          "room_suppressed_2x2",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e2",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C1",
+      "v": "C2",
+      "u_coord": [
+        6,
+        1
+      ],
+      "v_coord": [
+        4,
+        3
+      ],
+      "D_actual": 4,
+      "L_target": 4,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 2500,
+        "used_in_current_path": 1500,
+        "room_suppressed_2x2": 500,
+        "distance_pruned": 2000
+      },
+      "dfs_stats": {
+        "expanded_states": 4000,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 2500,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00005",
+    "routing_debug": {
+      "failed_edge_id": "e2",
+      "failed_edge_role": "substitute_level1",
+      "blocked_reason_top": [
+        [
+          "out_of_grid",
+          1000
+        ],
+        [
+          "room_suppressed_2x2",
+          1000
+        ],
+        [
+          "occupied_overlap",
+          500
+        ],
+        [
+          "used_in_current_path",
+          500
+        ],
+        [
+          "non_edge_touch",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e2",
+      "role": "substitute_level1",
+      "route_order_index": 2,
+      "u": "C0",
+      "v": "C2",
+      "u_coord": [
+        2,
+        7
+      ],
+      "v_coord": [
+        2,
+        3
+      ],
+      "D_actual": 4,
+      "L_target": 6,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 10,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "occupied_overlap": 500,
+        "out_of_grid": 1000,
+        "room_suppressed_2x2": 1000,
+        "used_in_current_path": 500,
+        "non_edge_touch": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 1000,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 500,
+        "pruned_by_occupied": 500,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00006",
+    "routing_debug": {
+      "failed_edge_id": "e4",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          1500
+        ],
+        [
+          "room_suppressed_2x2",
+          1000
+        ],
+        [
+          "used_in_current_path",
+          1000
+        ],
+        [
+          "out_of_grid",
+          1000
+        ],
+        [
+          "occupied_overlap",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e4",
+      "role": "main",
+      "route_order_index": 1,
+      "u": "C1",
+      "v": "P1",
+      "u_coord": [
+        3,
+        0
+      ],
+      "v_coord": [
+        2,
+        3
+      ],
+      "D_actual": 4,
+      "L_target": 6,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 9,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 1500,
+        "room_suppressed_2x2": 1000,
+        "used_in_current_path": 1000,
+        "out_of_grid": 1000,
+        "occupied_overlap": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 1500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1500,
+        "pruned_by_occupied": 500,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00007",
+    "routing_debug": {
+      "failed_edge_id": "e1",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          1000
+        ],
+        [
+          "out_of_grid",
+          1000
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e1",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C0",
+      "v": "C1",
+      "u_coord": [
+        0,
+        0
+      ],
+      "v_coord": [
+        0,
+        2
+      ],
+      "D_actual": 2,
+      "L_target": 2,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 1000,
+        "out_of_grid": 1000
+      },
+      "dfs_stats": {
+        "expanded_states": 500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00008",
+    "routing_debug": {
+      "failed_edge_id": "e4",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          1000
+        ],
+        [
+          "distance_pruned",
+          1000
+        ],
+        [
+          "used_in_current_path",
+          500
+        ],
+        [
+          "occupied_overlap",
+          500
+        ],
+        [
+          "room_suppressed_2x2",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e4",
+      "role": "main",
+      "route_order_index": 1,
+      "u": "C1",
+      "v": "P1",
+      "u_coord": [
+        6,
+        2
+      ],
+      "v_coord": [
+        6,
+        6
+      ],
+      "D_actual": 4,
+      "L_target": 4,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 11,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 1000,
+        "distance_pruned": 1000,
+        "used_in_current_path": 500,
+        "occupied_overlap": 500,
+        "room_suppressed_2x2": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 2000,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1000,
+        "pruned_by_occupied": 500,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00009",
+    "routing_debug": {
+      "failed_edge_id": "e5",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "used_in_current_path",
+          5000
+        ],
+        [
+          "room_suppressed_2x2",
+          4000
+        ],
+        [
+          "distance_pruned",
+          3000
+        ],
+        [
+          "out_of_grid",
+          2500
+        ],
+        [
+          "occupied_overlap",
+          500
+        ],
+        [
+          "non_edge_touch",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e5",
+      "role": "main",
+      "route_order_index": 2,
+      "u": "C2",
+      "v": "P2",
+      "u_coord": [
+        6,
+        3
+      ],
+      "v_coord": [
+        7,
+        4
+      ],
+      "D_actual": 2,
+      "L_target": 4,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 9,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "room_suppressed_2x2": 4000,
+        "out_of_grid": 2500,
+        "used_in_current_path": 5000,
+        "distance_pruned": 3000,
+        "occupied_overlap": 500,
+        "non_edge_touch": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 10000,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 500,
+        "pruned_by_occupied": 500,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00010",
+    "routing_debug": {
+      "failed_edge_id": "e2",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          2000
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e2",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C0",
+      "v": "C1",
+      "u_coord": [
+        5,
+        4
+      ],
+      "v_coord": [
+        5,
+        2
+      ],
+      "D_actual": 2,
+      "L_target": 2,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 2000
+      },
+      "dfs_stats": {
+        "expanded_states": 500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 2000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00011",
+    "routing_debug": {
+      "failed_edge_id": "e2",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          1500
+        ],
+        [
+          "out_of_grid",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e2",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C0",
+      "v": "C1",
+      "u_coord": [
+        7,
+        4
+      ],
+      "v_coord": [
+        6,
+        7
+      ],
+      "D_actual": 4,
+      "L_target": 4,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 1500,
+        "out_of_grid": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1500,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00012",
+    "routing_debug": {
+      "failed_edge_id": "e1",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          4500
+        ],
+        [
+          "used_in_current_path",
+          2500
+        ],
+        [
+          "out_of_grid",
+          1500
+        ],
+        [
+          "room_suppressed_2x2",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e1",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C0",
+      "v": "C2",
+      "u_coord": [
+        7,
+        3
+      ],
+      "v_coord": [
+        5,
+        3
+      ],
+      "D_actual": 2,
+      "L_target": 4,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 4500,
+        "used_in_current_path": 2500,
+        "room_suppressed_2x2": 500,
+        "out_of_grid": 1500
+      },
+      "dfs_stats": {
+        "expanded_states": 3500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 4500,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00013",
+    "routing_debug": {
+      "failed_edge_id": "e5",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          2500
+        ],
+        [
+          "used_in_current_path",
+          1500
+        ],
+        [
+          "out_of_grid",
+          1500
+        ],
+        [
+          "room_suppressed_2x2",
+          500
+        ],
+        [
+          "distance_pruned",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e5",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C2",
+      "v": "P2",
+      "u_coord": [
+        0,
+        5
+      ],
+      "v_coord": [
+        2,
+        7
+      ],
+      "D_actual": 4,
+      "L_target": 8,
+      "slack": 4,
+      "excess": 4,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 2500,
+        "used_in_current_path": 1500,
+        "room_suppressed_2x2": 500,
+        "out_of_grid": 1500,
+        "distance_pruned": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 2500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 2500,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00014",
+    "routing_debug": {
+      "failed_edge_id": "e2",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          1000
+        ],
+        [
+          "distance_pruned",
+          1000
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e2",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C0",
+      "v": "C1",
+      "u_coord": [
+        4,
+        1
+      ],
+      "v_coord": [
+        7,
+        0
+      ],
+      "D_actual": 4,
+      "L_target": 4,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 1000,
+        "distance_pruned": 1000
+      },
+      "dfs_stats": {
+        "expanded_states": 1500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00015",
+    "routing_debug": {
+      "failed_edge_id": "e0",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          2500
+        ],
+        [
+          "used_in_current_path",
+          500
+        ],
+        [
+          "distance_pruned",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e0",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C2",
+      "v": "C1",
+      "u_coord": [
+        3,
+        6
+      ],
+      "v_coord": [
+        4,
+        4
+      ],
+      "D_actual": 3,
+      "L_target": 3,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 2500,
+        "used_in_current_path": 500,
+        "distance_pruned": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 1500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 2500,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00016",
+    "routing_debug": {
+      "failed_edge_id": "e1",
+      "failed_edge_role": "substitute_level1",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          1500
+        ],
+        [
+          "out_of_grid",
+          1500
+        ],
+        [
+          "used_in_current_path",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e1",
+      "role": "substitute_level1",
+      "route_order_index": 1,
+      "u": "C0",
+      "v": "C1",
+      "u_coord": [
+        7,
+        0
+      ],
+      "v_coord": [
+        3,
+        0
+      ],
+      "D_actual": 4,
+      "L_target": 8,
+      "slack": 4,
+      "excess": 4,
+      "occupied_cell_count_before_edge": 7,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 1500,
+        "out_of_grid": 1500,
+        "used_in_current_path": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 1000,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1500,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00017",
+    "routing_debug": {
+      "failed_edge_id": "e0",
+      "failed_edge_role": "substitute_level1",
+      "blocked_reason_top": [
+        [
+          "out_of_grid",
+          1000
+        ],
+        [
+          "occupied_overlap",
+          500
+        ],
+        [
+          "distance_pruned",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e0",
+      "role": "substitute_level1",
+      "route_order_index": 1,
+      "u": "C0",
+      "v": "C1",
+      "u_coord": [
+        0,
+        0
+      ],
+      "v_coord": [
+        4,
+        0
+      ],
+      "D_actual": 4,
+      "L_target": 4,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 7,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "occupied_overlap": 500,
+        "out_of_grid": 1000,
+        "distance_pruned": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 1000,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 0,
+        "pruned_by_occupied": 500,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00018",
+    "routing_debug": {
+      "failed_edge_id": "e0",
+      "failed_edge_role": "substitute_level1",
+      "blocked_reason_top": [
+        [
+          "used_in_current_path",
+          4500
+        ],
+        [
+          "room_suppressed_2x2",
+          3500
+        ],
+        [
+          "non_edge_touch",
+          2500
+        ],
+        [
+          "distance_pruned",
+          2500
+        ],
+        [
+          "occupied_overlap",
+          1000
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e0",
+      "role": "substitute_level1",
+      "route_order_index": 1,
+      "u": "C0",
+      "v": "C2",
+      "u_coord": [
+        5,
+        4
+      ],
+      "v_coord": [
+        4,
+        5
+      ],
+      "D_actual": 2,
+      "L_target": 4,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 8,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "used_in_current_path": 4500,
+        "room_suppressed_2x2": 3500,
+        "occupied_overlap": 1000,
+        "non_edge_touch": 2500,
+        "distance_pruned": 2500
+      },
+      "dfs_stats": {
+        "expanded_states": 9000,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 2500,
+        "pruned_by_occupied": 1000,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00019",
+    "routing_debug": {
+      "failed_edge_id": "e2",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "used_in_current_path",
+          5000
+        ],
+        [
+          "non_edge_touch",
+          3500
+        ],
+        [
+          "out_of_grid",
+          3500
+        ],
+        [
+          "room_suppressed_2x2",
+          2500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e2",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C0",
+      "v": "C2",
+      "u_coord": [
+        7,
+        5
+      ],
+      "v_coord": [
+        6,
+        6
+      ],
+      "D_actual": 2,
+      "L_target": 4,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "used_in_current_path": 5000,
+        "room_suppressed_2x2": 2500,
+        "non_edge_touch": 3500,
+        "out_of_grid": 3500
+      },
+      "dfs_stats": {
+        "expanded_states": 8000,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 3500,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00020",
+    "routing_debug": {
+      "failed_edge_id": "e2",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          7500
+        ],
+        [
+          "used_in_current_path",
+          7000
+        ],
+        [
+          "room_suppressed_2x2",
+          4500
+        ],
+        [
+          "out_of_grid",
+          2500
+        ],
+        [
+          "distance_pruned",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e2",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C0",
+      "v": "C1",
+      "u_coord": [
+        4,
+        7
+      ],
+      "v_coord": [
+        6,
+        5
+      ],
+      "D_actual": 4,
+      "L_target": 6,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 7500,
+        "room_suppressed_2x2": 4500,
+        "used_in_current_path": 7000,
+        "out_of_grid": 2500,
+        "distance_pruned": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 9000,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 7500,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00021",
+    "routing_debug": {
+      "failed_edge_id": "e0",
+      "failed_edge_role": "substitute_level1",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          2500
+        ],
+        [
+          "used_in_current_path",
+          500
+        ],
+        [
+          "distance_pruned",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e0",
+      "role": "substitute_level1",
+      "route_order_index": 1,
+      "u": "C0",
+      "v": "C1",
+      "u_coord": [
+        6,
+        6
+      ],
+      "v_coord": [
+        3,
+        6
+      ],
+      "D_actual": 3,
+      "L_target": 5,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 7,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 2500,
+        "used_in_current_path": 500,
+        "distance_pruned": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 1500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 2500,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00022",
+    "routing_debug": {
+      "failed_edge_id": "e1",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          2000
+        ],
+        [
+          "used_in_current_path",
+          2000
+        ],
+        [
+          "distance_pruned",
+          1500
+        ],
+        [
+          "out_of_grid",
+          1500
+        ],
+        [
+          "room_suppressed_2x2",
+          1000
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e1",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C0",
+      "v": "C1",
+      "u_coord": [
+        6,
+        1
+      ],
+      "v_coord": [
+        3,
+        0
+      ],
+      "D_actual": 4,
+      "L_target": 6,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 2000,
+        "used_in_current_path": 2000,
+        "room_suppressed_2x2": 1000,
+        "distance_pruned": 1500,
+        "out_of_grid": 1500
+      },
+      "dfs_stats": {
+        "expanded_states": 4000,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 2000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00023",
+    "routing_debug": {
+      "failed_edge_id": "e4",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "distance_pruned",
+          1500
+        ],
+        [
+          "non_edge_touch",
+          1000
+        ],
+        [
+          "used_in_current_path",
+          500
+        ],
+        [
+          "out_of_grid",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e4",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C1",
+      "v": "P1",
+      "u_coord": [
+        0,
+        2
+      ],
+      "v_coord": [
+        4,
+        2
+      ],
+      "D_actual": 4,
+      "L_target": 4,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 1000,
+        "used_in_current_path": 500,
+        "distance_pruned": 1500,
+        "out_of_grid": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 2500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00024",
+    "routing_debug": {
+      "failed_edge_id": "e0",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "distance_pruned",
+          4000
+        ],
+        [
+          "non_edge_touch",
+          3000
+        ],
+        [
+          "used_in_current_path",
+          3000
+        ],
+        [
+          "room_suppressed_2x2",
+          1000
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e0",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C2",
+      "v": "C0",
+      "u_coord": [
+        2,
+        3
+      ],
+      "v_coord": [
+        1,
+        0
+      ],
+      "D_actual": 4,
+      "L_target": 6,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 3000,
+        "used_in_current_path": 3000,
+        "distance_pruned": 4000,
+        "room_suppressed_2x2": 1000
+      },
+      "dfs_stats": {
+        "expanded_states": 7500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 3000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00025",
+    "routing_debug": {
+      "failed_edge_id": "e1",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "distance_pruned",
+          2000
+        ],
+        [
+          "non_edge_touch",
+          1000
+        ],
+        [
+          "used_in_current_path",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e1",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C2",
+      "v": "C0",
+      "u_coord": [
+        6,
+        6
+      ],
+      "v_coord": [
+        2,
+        6
+      ],
+      "D_actual": 4,
+      "L_target": 4,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 1000,
+        "used_in_current_path": 500,
+        "distance_pruned": 2000
+      },
+      "dfs_stats": {
+        "expanded_states": 3000,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00026",
+    "routing_debug": {
+      "failed_edge_id": "e0",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "out_of_grid",
+          1500
+        ],
+        [
+          "non_edge_touch",
+          1000
+        ],
+        [
+          "used_in_current_path",
+          500
+        ],
+        [
+          "distance_pruned",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e0",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C0",
+      "v": "C1",
+      "u_coord": [
+        1,
+        0
+      ],
+      "v_coord": [
+        3,
+        0
+      ],
+      "D_actual": 2,
+      "L_target": 4,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 1000,
+        "out_of_grid": 1500,
+        "used_in_current_path": 500,
+        "distance_pruned": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 1500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00027",
+    "routing_debug": {
+      "failed_edge_id": "e0",
+      "failed_edge_role": "substitute_level1",
+      "blocked_reason_top": [
+        [
+          "used_in_current_path",
+          4500
+        ],
+        [
+          "room_suppressed_2x2",
+          4000
+        ],
+        [
+          "out_of_grid",
+          2500
+        ],
+        [
+          "distance_pruned",
+          2000
+        ],
+        [
+          "non_edge_touch",
+          2000
+        ],
+        [
+          "occupied_overlap",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e0",
+      "role": "substitute_level1",
+      "route_order_index": 2,
+      "u": "C2",
+      "v": "C0",
+      "u_coord": [
+        2,
+        6
+      ],
+      "v_coord": [
+        1,
+        5
+      ],
+      "D_actual": 2,
+      "L_target": 4,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 11,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "room_suppressed_2x2": 4000,
+        "used_in_current_path": 4500,
+        "out_of_grid": 2500,
+        "occupied_overlap": 500,
+        "distance_pruned": 2000,
+        "non_edge_touch": 2000
+      },
+      "dfs_stats": {
+        "expanded_states": 7000,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 2000,
+        "pruned_by_occupied": 500,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00029",
+    "routing_debug": {
+      "failed_edge_id": "e0",
+      "failed_edge_role": "substitute_level1",
+      "blocked_reason_top": [
+        [
+          "room_suppressed_2x2",
+          1500
+        ],
+        [
+          "non_edge_touch",
+          1000
+        ],
+        [
+          "used_in_current_path",
+          1000
+        ],
+        [
+          "out_of_grid",
+          1000
+        ],
+        [
+          "occupied_overlap",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e0",
+      "role": "substitute_level1",
+      "route_order_index": 1,
+      "u": "C2",
+      "v": "C0",
+      "u_coord": [
+        1,
+        0
+      ],
+      "v_coord": [
+        2,
+        1
+      ],
+      "D_actual": 2,
+      "L_target": 4,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 7,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 1000,
+        "room_suppressed_2x2": 1500,
+        "used_in_current_path": 1000,
+        "occupied_overlap": 500,
+        "out_of_grid": 1000
+      },
+      "dfs_stats": {
+        "expanded_states": 1500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1000,
+        "pruned_by_occupied": 500,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00030",
+    "routing_debug": {
+      "failed_edge_id": "e2",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "used_in_current_path",
+          4500
+        ],
+        [
+          "non_edge_touch",
+          4000
+        ],
+        [
+          "room_suppressed_2x2",
+          2500
+        ],
+        [
+          "out_of_grid",
+          1500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e2",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C0",
+      "v": "C1",
+      "u_coord": [
+        7,
+        3
+      ],
+      "v_coord": [
+        6,
+        5
+      ],
+      "D_actual": 3,
+      "L_target": 5,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "room_suppressed_2x2": 2500,
+        "used_in_current_path": 4500,
+        "non_edge_touch": 4000,
+        "out_of_grid": 1500
+      },
+      "dfs_stats": {
+        "expanded_states": 8000,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 4000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00031",
+    "routing_debug": {
+      "failed_edge_id": "e5",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "distance_pruned",
+          1000
+        ],
+        [
+          "occupied_overlap",
+          500
+        ],
+        [
+          "room_suppressed_2x2",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e5",
+      "role": "main",
+      "route_order_index": 1,
+      "u": "C2",
+      "v": "P2",
+      "u_coord": [
+        4,
+        3
+      ],
+      "v_coord": [
+        1,
+        3
+      ],
+      "D_actual": 3,
+      "L_target": 3,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 8,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "occupied_overlap": 500,
+        "distance_pruned": 1000,
+        "room_suppressed_2x2": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 1500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 0,
+        "pruned_by_occupied": 500,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00032",
+    "routing_debug": {
+      "failed_edge_id": "e5",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          1000
+        ],
+        [
+          "occupied_overlap",
+          500
+        ],
+        [
+          "room_suppressed_2x2",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e5",
+      "role": "main",
+      "route_order_index": 1,
+      "u": "C2",
+      "v": "P2",
+      "u_coord": [
+        2,
+        6
+      ],
+      "v_coord": [
+        3,
+        3
+      ],
+      "D_actual": 4,
+      "L_target": 6,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 7,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 1000,
+        "occupied_overlap": 500,
+        "room_suppressed_2x2": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1000,
+        "pruned_by_occupied": 500,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00033",
+    "routing_debug": {
+      "failed_edge_id": "e2",
+      "failed_edge_role": "substitute_level1",
+      "blocked_reason_top": [
+        [
+          "out_of_grid",
+          1000
+        ],
+        [
+          "occupied_overlap",
+          500
+        ],
+        [
+          "room_suppressed_2x2",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e2",
+      "role": "substitute_level1",
+      "route_order_index": 3,
+      "u": "C0",
+      "v": "C2",
+      "u_coord": [
+        0,
+        7
+      ],
+      "v_coord": [
+        3,
+        6
+      ],
+      "D_actual": 4,
+      "L_target": 6,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 9,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "occupied_overlap": 500,
+        "room_suppressed_2x2": 500,
+        "out_of_grid": 1000
+      },
+      "dfs_stats": {
+        "expanded_states": 500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 0,
+        "pruned_by_occupied": 500,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00034",
+    "routing_debug": {
+      "failed_edge_id": "e2",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          1500
+        ],
+        [
+          "out_of_grid",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e2",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C1",
+      "v": "C2",
+      "u_coord": [
+        0,
+        6
+      ],
+      "v_coord": [
+        3,
+        6
+      ],
+      "D_actual": 3,
+      "L_target": 5,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 1500,
+        "out_of_grid": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1500,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00035",
+    "routing_debug": {
+      "failed_edge_id": "e1",
+      "failed_edge_role": "substitute_level1",
+      "blocked_reason_top": [
+        [
+          "occupied_overlap",
+          1000
+        ],
+        [
+          "non_edge_touch",
+          1000
+        ],
+        [
+          "room_suppressed_2x2",
+          500
+        ],
+        [
+          "used_in_current_path",
+          500
+        ],
+        [
+          "distance_pruned",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e1",
+      "role": "substitute_level1",
+      "route_order_index": 3,
+      "u": "C2",
+      "v": "C1",
+      "u_coord": [
+        3,
+        4
+      ],
+      "v_coord": [
+        1,
+        6
+      ],
+      "D_actual": 4,
+      "L_target": 4,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 15,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "occupied_overlap": 1000,
+        "non_edge_touch": 1000,
+        "room_suppressed_2x2": 500,
+        "used_in_current_path": 500,
+        "distance_pruned": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 1500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1000,
+        "pruned_by_occupied": 1000,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00036",
+    "routing_debug": {
+      "failed_edge_id": "e1",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          1500
+        ],
+        [
+          "out_of_grid",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e1",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C2",
+      "v": "C1",
+      "u_coord": [
+        1,
+        7
+      ],
+      "v_coord": [
+        0,
+        4
+      ],
+      "D_actual": 4,
+      "L_target": 6,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 1500,
+        "out_of_grid": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1500,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00037",
+    "routing_debug": {
+      "failed_edge_id": "e0",
+      "failed_edge_role": "substitute_level1",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          1000
+        ],
+        [
+          "out_of_grid",
+          1000
+        ],
+        [
+          "used_in_current_path",
+          500
+        ],
+        [
+          "distance_pruned",
+          500
+        ],
+        [
+          "occupied_overlap",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e0",
+      "role": "substitute_level1",
+      "route_order_index": 1,
+      "u": "C1",
+      "v": "C0",
+      "u_coord": [
+        7,
+        4
+      ],
+      "v_coord": [
+        7,
+        1
+      ],
+      "D_actual": 3,
+      "L_target": 3,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 10,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 1000,
+        "out_of_grid": 1000,
+        "used_in_current_path": 500,
+        "distance_pruned": 500,
+        "occupied_overlap": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 1500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1000,
+        "pruned_by_occupied": 500,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00038",
+    "routing_debug": {
+      "failed_edge_id": "e2",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          4500
+        ],
+        [
+          "used_in_current_path",
+          4000
+        ],
+        [
+          "room_suppressed_2x2",
+          2500
+        ],
+        [
+          "out_of_grid",
+          1500
+        ],
+        [
+          "distance_pruned",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e2",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C0",
+      "v": "C1",
+      "u_coord": [
+        4,
+        0
+      ],
+      "v_coord": [
+        5,
+        1
+      ],
+      "D_actual": 2,
+      "L_target": 4,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "used_in_current_path": 4000,
+        "non_edge_touch": 4500,
+        "room_suppressed_2x2": 2500,
+        "distance_pruned": 500,
+        "out_of_grid": 1500
+      },
+      "dfs_stats": {
+        "expanded_states": 6000,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 4500,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00039",
+    "routing_debug": {
+      "failed_edge_id": "e0",
+      "failed_edge_role": "substitute_level1",
+      "blocked_reason_top": [
+        [
+          "distance_pruned",
+          1000
+        ],
+        [
+          "non_edge_touch",
+          500
+        ],
+        [
+          "room_suppressed_2x2",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e0",
+      "role": "substitute_level1",
+      "route_order_index": 1,
+      "u": "C1",
+      "v": "C2",
+      "u_coord": [
+        1,
+        2
+      ],
+      "v_coord": [
+        3,
+        1
+      ],
+      "D_actual": 3,
+      "L_target": 3,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 8,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 500,
+        "room_suppressed_2x2": 500,
+        "distance_pruned": 1000
+      },
+      "dfs_stats": {
+        "expanded_states": 1500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 500,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00040",
+    "routing_debug": {
+      "failed_edge_id": "e0",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          1500
+        ],
+        [
+          "out_of_grid",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e0",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C1",
+      "v": "C0",
+      "u_coord": [
+        0,
+        3
+      ],
+      "v_coord": [
+        2,
+        2
+      ],
+      "D_actual": 3,
+      "L_target": 5,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 1500,
+        "out_of_grid": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1500,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00041",
+    "routing_debug": {
+      "failed_edge_id": "e1",
+      "failed_edge_role": "substitute_level1",
+      "blocked_reason_top": [
+        [
+          "occupied_overlap",
+          500
+        ],
+        [
+          "distance_pruned",
+          500
+        ],
+        [
+          "out_of_grid",
+          500
+        ],
+        [
+          "room_suppressed_2x2",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e1",
+      "role": "substitute_level1",
+      "route_order_index": 2,
+      "u": "C2",
+      "v": "C0",
+      "u_coord": [
+        6,
+        7
+      ],
+      "v_coord": [
+        6,
+        4
+      ],
+      "D_actual": 3,
+      "L_target": 3,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 9,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "occupied_overlap": 500,
+        "distance_pruned": 500,
+        "out_of_grid": 500,
+        "room_suppressed_2x2": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 1000,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 0,
+        "pruned_by_occupied": 500,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00042",
+    "routing_debug": {
+      "failed_edge_id": "e0",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          1000
+        ],
+        [
+          "distance_pruned",
+          500
+        ],
+        [
+          "out_of_grid",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e0",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C1",
+      "v": "C2",
+      "u_coord": [
+        3,
+        7
+      ],
+      "v_coord": [
+        5,
+        5
+      ],
+      "D_actual": 4,
+      "L_target": 4,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 1000,
+        "distance_pruned": 500,
+        "out_of_grid": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 1000,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00043",
+    "routing_debug": {
+      "failed_edge_id": "e2",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          1000
+        ],
+        [
+          "out_of_grid",
+          1000
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e2",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C1",
+      "v": "C2",
+      "u_coord": [
+        7,
+        0
+      ],
+      "v_coord": [
+        7,
+        2
+      ],
+      "D_actual": 2,
+      "L_target": 2,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 1000,
+        "out_of_grid": 1000
+      },
+      "dfs_stats": {
+        "expanded_states": 500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00044",
+    "routing_debug": {
+      "failed_edge_id": "e5",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          1000
+        ],
+        [
+          "distance_pruned",
+          1000
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e5",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C2",
+      "v": "P2",
+      "u_coord": [
+        4,
+        5
+      ],
+      "v_coord": [
+        4,
+        2
+      ],
+      "D_actual": 3,
+      "L_target": 3,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 1000,
+        "distance_pruned": 1000
+      },
+      "dfs_stats": {
+        "expanded_states": 1500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00045",
+    "routing_debug": {
+      "failed_edge_id": "e2",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          8000
+        ],
+        [
+          "used_in_current_path",
+          7000
+        ],
+        [
+          "room_suppressed_2x2",
+          4500
+        ],
+        [
+          "out_of_grid",
+          2500
+        ],
+        [
+          "distance_pruned",
+          1000
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e2",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C0",
+      "v": "C2",
+      "u_coord": [
+        4,
+        6
+      ],
+      "v_coord": [
+        2,
+        5
+      ],
+      "D_actual": 3,
+      "L_target": 5,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 8000,
+        "used_in_current_path": 7000,
+        "room_suppressed_2x2": 4500,
+        "out_of_grid": 2500,
+        "distance_pruned": 1000
+      },
+      "dfs_stats": {
+        "expanded_states": 8500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 8000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00047",
+    "routing_debug": {
+      "failed_edge_id": "e2",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          4500
+        ],
+        [
+          "used_in_current_path",
+          2000
+        ],
+        [
+          "distance_pruned",
+          1500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e2",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C1",
+      "v": "C2",
+      "u_coord": [
+        2,
+        4
+      ],
+      "v_coord": [
+        3,
+        6
+      ],
+      "D_actual": 3,
+      "L_target": 5,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 4500,
+        "used_in_current_path": 2000,
+        "distance_pruned": 1500
+      },
+      "dfs_stats": {
+        "expanded_states": 4000,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 4500,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00048",
+    "routing_debug": {
+      "failed_edge_id": "e1",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          2000
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e1",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C1",
+      "v": "C0",
+      "u_coord": [
+        1,
+        2
+      ],
+      "v_coord": [
+        1,
+        0
+      ],
+      "D_actual": 2,
+      "L_target": 2,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 2000
+      },
+      "dfs_stats": {
+        "expanded_states": 500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 2000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00049",
+    "routing_debug": {
+      "failed_edge_id": "e1",
+      "failed_edge_role": "substitute_level1",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          1500
+        ],
+        [
+          "out_of_grid",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e1",
+      "role": "substitute_level1",
+      "route_order_index": 2,
+      "u": "C1",
+      "v": "C2",
+      "u_coord": [
+        2,
+        7
+      ],
+      "v_coord": [
+        3,
+        5
+      ],
+      "D_actual": 3,
+      "L_target": 3,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 13,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 1500,
+        "out_of_grid": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1500,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00050",
+    "routing_debug": {
+      "failed_edge_id": "e1",
+      "failed_edge_role": "substitute_level1",
+      "blocked_reason_top": [
+        [
+          "out_of_grid",
+          1500
+        ],
+        [
+          "non_edge_touch",
+          1000
+        ],
+        [
+          "room_suppressed_2x2",
+          500
+        ],
+        [
+          "used_in_current_path",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e1",
+      "role": "substitute_level1",
+      "route_order_index": 2,
+      "u": "C2",
+      "v": "C0",
+      "u_coord": [
+        6,
+        0
+      ],
+      "v_coord": [
+        3,
+        0
+      ],
+      "D_actual": 3,
+      "L_target": 7,
+      "slack": 4,
+      "excess": 4,
+      "occupied_cell_count_before_edge": 11,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "room_suppressed_2x2": 500,
+        "out_of_grid": 1500,
+        "non_edge_touch": 1000,
+        "used_in_current_path": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 1000,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00051",
+    "routing_debug": {
+      "failed_edge_id": "e0",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          2000
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e0",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C1",
+      "v": "C0",
+      "u_coord": [
+        1,
+        6
+      ],
+      "v_coord": [
+        3,
+        6
+      ],
+      "D_actual": 2,
+      "L_target": 4,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 2000
+      },
+      "dfs_stats": {
+        "expanded_states": 500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 2000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00052",
+    "routing_debug": {
+      "failed_edge_id": "e3",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "used_in_current_path",
+          5000
+        ],
+        [
+          "room_suppressed_2x2",
+          4000
+        ],
+        [
+          "out_of_grid",
+          1500
+        ],
+        [
+          "distance_pruned",
+          1500
+        ],
+        [
+          "non_edge_touch",
+          1000
+        ],
+        [
+          "occupied_overlap",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e3",
+      "role": "main",
+      "route_order_index": 1,
+      "u": "C0",
+      "v": "P0",
+      "u_coord": [
+        4,
+        2
+      ],
+      "v_coord": [
+        5,
+        1
+      ],
+      "D_actual": 2,
+      "L_target": 4,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 8,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "room_suppressed_2x2": 4000,
+        "used_in_current_path": 5000,
+        "out_of_grid": 1500,
+        "non_edge_touch": 1000,
+        "distance_pruned": 1500,
+        "occupied_overlap": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 10500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1000,
+        "pruned_by_occupied": 500,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00053",
+    "routing_debug": {
+      "failed_edge_id": "e0",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          2000
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e0",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C2",
+      "v": "C1",
+      "u_coord": [
+        2,
+        5
+      ],
+      "v_coord": [
+        1,
+        3
+      ],
+      "D_actual": 3,
+      "L_target": 5,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 2000
+      },
+      "dfs_stats": {
+        "expanded_states": 500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 2000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00054",
+    "routing_debug": {
+      "failed_edge_id": "e2",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          3000
+        ],
+        [
+          "used_in_current_path",
+          2500
+        ],
+        [
+          "out_of_grid",
+          2500
+        ],
+        [
+          "room_suppressed_2x2",
+          1500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e2",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C0",
+      "v": "C1",
+      "u_coord": [
+        6,
+        4
+      ],
+      "v_coord": [
+        7,
+        7
+      ],
+      "D_actual": 4,
+      "L_target": 6,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 3000,
+        "used_in_current_path": 2500,
+        "out_of_grid": 2500,
+        "room_suppressed_2x2": 1500
+      },
+      "dfs_stats": {
+        "expanded_states": 3000,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 3000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00055",
+    "routing_debug": {
+      "failed_edge_id": "e0",
+      "failed_edge_role": "substitute_level1",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          2000
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e0",
+      "role": "substitute_level1",
+      "route_order_index": 1,
+      "u": "C1",
+      "v": "C2",
+      "u_coord": [
+        2,
+        6
+      ],
+      "v_coord": [
+        3,
+        3
+      ],
+      "D_actual": 4,
+      "L_target": 4,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 8,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 2000
+      },
+      "dfs_stats": {
+        "expanded_states": 500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 2000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00056",
+    "routing_debug": {
+      "failed_edge_id": "e5",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "out_of_grid",
+          1000
+        ],
+        [
+          "distance_pruned",
+          1000
+        ],
+        [
+          "occupied_overlap",
+          500
+        ],
+        [
+          "used_in_current_path",
+          500
+        ],
+        [
+          "room_suppressed_2x2",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e5",
+      "role": "main",
+      "route_order_index": 1,
+      "u": "C2",
+      "v": "P2",
+      "u_coord": [
+        3,
+        7
+      ],
+      "v_coord": [
+        0,
+        7
+      ],
+      "D_actual": 3,
+      "L_target": 5,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 8,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "occupied_overlap": 500,
+        "out_of_grid": 1000,
+        "used_in_current_path": 500,
+        "distance_pruned": 1000,
+        "room_suppressed_2x2": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 2000,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 0,
+        "pruned_by_occupied": 500,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00057",
+    "routing_debug": {
+      "failed_edge_id": "e3",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "out_of_grid",
+          1500
+        ],
+        [
+          "occupied_overlap",
+          500
+        ],
+        [
+          "room_suppressed_2x2",
+          500
+        ],
+        [
+          "used_in_current_path",
+          500
+        ],
+        [
+          "non_edge_touch",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e3",
+      "role": "main",
+      "route_order_index": 1,
+      "u": "C0",
+      "v": "P0",
+      "u_coord": [
+        7,
+        7
+      ],
+      "v_coord": [
+        3,
+        7
+      ],
+      "D_actual": 4,
+      "L_target": 6,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 8,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "occupied_overlap": 500,
+        "out_of_grid": 1500,
+        "room_suppressed_2x2": 500,
+        "used_in_current_path": 500,
+        "non_edge_touch": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 1000,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 500,
+        "pruned_by_occupied": 500,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00058",
+    "routing_debug": {
+      "failed_edge_id": "e2",
+      "failed_edge_role": "substitute_level1",
+      "blocked_reason_top": [
+        [
+          "distance_pruned",
+          1500
+        ],
+        [
+          "room_suppressed_2x2",
+          1000
+        ],
+        [
+          "non_edge_touch",
+          1000
+        ],
+        [
+          "used_in_current_path",
+          1000
+        ],
+        [
+          "occupied_overlap",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e2",
+      "role": "substitute_level1",
+      "route_order_index": 3,
+      "u": "C1",
+      "v": "C2",
+      "u_coord": [
+        3,
+        4
+      ],
+      "v_coord": [
+        0,
+        3
+      ],
+      "D_actual": 4,
+      "L_target": 6,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 13,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "occupied_overlap": 500,
+        "room_suppressed_2x2": 1000,
+        "non_edge_touch": 1000,
+        "used_in_current_path": 1000,
+        "distance_pruned": 1500
+      },
+      "dfs_stats": {
+        "expanded_states": 3000,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1000,
+        "pruned_by_occupied": 500,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00059",
+    "routing_debug": {
+      "failed_edge_id": "e0",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "used_in_current_path",
+          4500
+        ],
+        [
+          "non_edge_touch",
+          3000
+        ],
+        [
+          "room_suppressed_2x2",
+          3000
+        ],
+        [
+          "distance_pruned",
+          2500
+        ],
+        [
+          "out_of_grid",
+          2500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e0",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C0",
+      "v": "C1",
+      "u_coord": [
+        6,
+        1
+      ],
+      "v_coord": [
+        3,
+        2
+      ],
+      "D_actual": 4,
+      "L_target": 6,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 3000,
+        "room_suppressed_2x2": 3000,
+        "used_in_current_path": 4500,
+        "distance_pruned": 2500,
+        "out_of_grid": 2500
+      },
+      "dfs_stats": {
+        "expanded_states": 7500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 3000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00060",
+    "routing_debug": {
+      "failed_edge_id": "e1",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          1000
+        ],
+        [
+          "distance_pruned",
+          1000
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e1",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C1",
+      "v": "C2",
+      "u_coord": [
+        6,
+        3
+      ],
+      "v_coord": [
+        5,
+        6
+      ],
+      "D_actual": 4,
+      "L_target": 4,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 1000,
+        "distance_pruned": 1000
+      },
+      "dfs_stats": {
+        "expanded_states": 1500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00061",
+    "routing_debug": {
+      "failed_edge_id": "e3",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "used_in_current_path",
+          4500
+        ],
+        [
+          "non_edge_touch",
+          3000
+        ],
+        [
+          "out_of_grid",
+          3000
+        ],
+        [
+          "distance_pruned",
+          2000
+        ],
+        [
+          "room_suppressed_2x2",
+          1500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e3",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C0",
+      "v": "P0",
+      "u_coord": [
+        2,
+        0
+      ],
+      "v_coord": [
+        5,
+        0
+      ],
+      "D_actual": 3,
+      "L_target": 5,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "used_in_current_path": 4500,
+        "non_edge_touch": 3000,
+        "room_suppressed_2x2": 1500,
+        "out_of_grid": 3000,
+        "distance_pruned": 2000
+      },
+      "dfs_stats": {
+        "expanded_states": 8500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 3000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00062",
+    "routing_debug": {
+      "failed_edge_id": "e0",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          1500
+        ],
+        [
+          "distance_pruned",
+          1500
+        ],
+        [
+          "used_in_current_path",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e0",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C2",
+      "v": "C1",
+      "u_coord": [
+        5,
+        6
+      ],
+      "v_coord": [
+        5,
+        3
+      ],
+      "D_actual": 3,
+      "L_target": 3,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 1500,
+        "distance_pruned": 1500,
+        "used_in_current_path": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 2500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1500,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00063",
+    "routing_debug": {
+      "failed_edge_id": "e2",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "out_of_grid",
+          1500
+        ],
+        [
+          "non_edge_touch",
+          1000
+        ],
+        [
+          "used_in_current_path",
+          500
+        ],
+        [
+          "distance_pruned",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e2",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C1",
+      "v": "C2",
+      "u_coord": [
+        7,
+        1
+      ],
+      "v_coord": [
+        7,
+        5
+      ],
+      "D_actual": 4,
+      "L_target": 6,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 1000,
+        "out_of_grid": 1500,
+        "used_in_current_path": 500,
+        "distance_pruned": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 1500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00064",
+    "routing_debug": {
+      "failed_edge_id": "e3",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "out_of_grid",
+          2000
+        ],
+        [
+          "used_in_current_path",
+          1000
+        ],
+        [
+          "non_edge_touch",
+          1000
+        ],
+        [
+          "room_suppressed_2x2",
+          500
+        ],
+        [
+          "occupied_overlap",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e3",
+      "role": "main",
+      "route_order_index": 1,
+      "u": "C0",
+      "v": "P0",
+      "u_coord": [
+        0,
+        7
+      ],
+      "v_coord": [
+        2,
+        7
+      ],
+      "D_actual": 2,
+      "L_target": 4,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 8,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "out_of_grid": 2000,
+        "used_in_current_path": 1000,
+        "non_edge_touch": 1000,
+        "room_suppressed_2x2": 500,
+        "occupied_overlap": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 1500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1000,
+        "pruned_by_occupied": 500,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00065",
+    "routing_debug": {
+      "failed_edge_id": "e2",
+      "failed_edge_role": "substitute_level1",
+      "blocked_reason_top": [
+        [
+          "room_suppressed_2x2",
+          500
+        ],
+        [
+          "distance_pruned",
+          500
+        ],
+        [
+          "occupied_overlap",
+          500
+        ],
+        [
+          "out_of_grid",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e2",
+      "role": "substitute_level1",
+      "route_order_index": 3,
+      "u": "C0",
+      "v": "C1",
+      "u_coord": [
+        7,
+        5
+      ],
+      "v_coord": [
+        3,
+        5
+      ],
+      "D_actual": 4,
+      "L_target": 4,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 15,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "room_suppressed_2x2": 500,
+        "distance_pruned": 500,
+        "occupied_overlap": 500,
+        "out_of_grid": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 1000,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 0,
+        "pruned_by_occupied": 500,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00066",
+    "routing_debug": {
+      "failed_edge_id": "e2",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          1500
+        ],
+        [
+          "distance_pruned",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e2",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C1",
+      "v": "C2",
+      "u_coord": [
+        2,
+        6
+      ],
+      "v_coord": [
+        0,
+        6
+      ],
+      "D_actual": 2,
+      "L_target": 2,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 1500,
+        "distance_pruned": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 1000,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1500,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00067",
+    "routing_debug": {
+      "failed_edge_id": "e2",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          1000
+        ],
+        [
+          "out_of_grid",
+          500
+        ],
+        [
+          "distance_pruned",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e2",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C0",
+      "v": "C1",
+      "u_coord": [
+        7,
+        6
+      ],
+      "v_coord": [
+        4,
+        6
+      ],
+      "D_actual": 3,
+      "L_target": 3,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 1000,
+        "out_of_grid": 500,
+        "distance_pruned": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 1000,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00068",
+    "routing_debug": {
+      "failed_edge_id": "e0",
+      "failed_edge_role": "substitute_level1",
+      "blocked_reason_top": [
+        [
+          "distance_pruned",
+          3000
+        ],
+        [
+          "non_edge_touch",
+          1500
+        ],
+        [
+          "used_in_current_path",
+          1500
+        ],
+        [
+          "room_suppressed_2x2",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e0",
+      "role": "substitute_level1",
+      "route_order_index": 2,
+      "u": "C0",
+      "v": "C1",
+      "u_coord": [
+        3,
+        5
+      ],
+      "v_coord": [
+        6,
+        4
+      ],
+      "D_actual": 4,
+      "L_target": 6,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 10,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 1500,
+        "room_suppressed_2x2": 500,
+        "distance_pruned": 3000,
+        "used_in_current_path": 1500
+      },
+      "dfs_stats": {
+        "expanded_states": 5000,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1500,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00069",
+    "routing_debug": {
+      "failed_edge_id": "e0",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          2000
+        ],
+        [
+          "used_in_current_path",
+          2000
+        ],
+        [
+          "distance_pruned",
+          2000
+        ],
+        [
+          "room_suppressed_2x2",
+          1000
+        ],
+        [
+          "out_of_grid",
+          1000
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e0",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C1",
+      "v": "C0",
+      "u_coord": [
+        1,
+        3
+      ],
+      "v_coord": [
+        4,
+        4
+      ],
+      "D_actual": 4,
+      "L_target": 6,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 2000,
+        "room_suppressed_2x2": 1000,
+        "used_in_current_path": 2000,
+        "out_of_grid": 1000,
+        "distance_pruned": 2000
+      },
+      "dfs_stats": {
+        "expanded_states": 4500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 2000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00070",
+    "routing_debug": {
+      "failed_edge_id": "e0",
+      "failed_edge_role": "substitute_level1",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          2000
+        ],
+        [
+          "distance_pruned",
+          1000
+        ],
+        [
+          "used_in_current_path",
+          1000
+        ],
+        [
+          "room_suppressed_2x2",
+          1000
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e0",
+      "role": "substitute_level1",
+      "route_order_index": 3,
+      "u": "C1",
+      "v": "C0",
+      "u_coord": [
+        3,
+        4
+      ],
+      "v_coord": [
+        4,
+        7
+      ],
+      "D_actual": 4,
+      "L_target": 4,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 13,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 2000,
+        "distance_pruned": 1000,
+        "used_in_current_path": 1000,
+        "room_suppressed_2x2": 1000
+      },
+      "dfs_stats": {
+        "expanded_states": 2500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 2000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00071",
+    "routing_debug": {
+      "failed_edge_id": "e0",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "used_in_current_path",
+          5000
+        ],
+        [
+          "out_of_grid",
+          4000
+        ],
+        [
+          "non_edge_touch",
+          3500
+        ],
+        [
+          "room_suppressed_2x2",
+          3000
+        ],
+        [
+          "distance_pruned",
+          1000
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e0",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C1",
+      "v": "C2",
+      "u_coord": [
+        7,
+        6
+      ],
+      "v_coord": [
+        6,
+        7
+      ],
+      "D_actual": 2,
+      "L_target": 4,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "room_suppressed_2x2": 3000,
+        "used_in_current_path": 5000,
+        "out_of_grid": 4000,
+        "non_edge_touch": 3500,
+        "distance_pruned": 1000
+      },
+      "dfs_stats": {
+        "expanded_states": 7000,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 3500,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00072",
+    "routing_debug": {
+      "failed_edge_id": "e2",
+      "failed_edge_role": "substitute_level1",
+      "blocked_reason_top": [
+        [
+          "out_of_grid",
+          1000
+        ],
+        [
+          "occupied_overlap",
+          500
+        ],
+        [
+          "non_edge_touch",
+          500
+        ],
+        [
+          "used_in_current_path",
+          500
+        ],
+        [
+          "room_suppressed_2x2",
+          500
+        ],
+        [
+          "distance_pruned",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e2",
+      "role": "substitute_level1",
+      "route_order_index": 4,
+      "u": "C1",
+      "v": "C2",
+      "u_coord": [
+        3,
+        0
+      ],
+      "v_coord": [
+        3,
+        4
+      ],
+      "D_actual": 4,
+      "L_target": 6,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 13,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "occupied_overlap": 500,
+        "non_edge_touch": 500,
+        "out_of_grid": 1000,
+        "used_in_current_path": 500,
+        "room_suppressed_2x2": 500,
+        "distance_pruned": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 1500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 500,
+        "pruned_by_occupied": 500,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00073",
+    "routing_debug": {
+      "failed_edge_id": "e4",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "distance_pruned",
+          1500
+        ],
+        [
+          "non_edge_touch",
+          500
+        ],
+        [
+          "used_in_current_path",
+          500
+        ],
+        [
+          "room_suppressed_2x2",
+          500
+        ],
+        [
+          "occupied_overlap",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e4",
+      "role": "main",
+      "route_order_index": 1,
+      "u": "C1",
+      "v": "P1",
+      "u_coord": [
+        5,
+        6
+      ],
+      "v_coord": [
+        2,
+        6
+      ],
+      "D_actual": 3,
+      "L_target": 3,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 8,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 500,
+        "distance_pruned": 1500,
+        "used_in_current_path": 500,
+        "room_suppressed_2x2": 500,
+        "occupied_overlap": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 2500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 500,
+        "pruned_by_occupied": 500,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00074",
+    "routing_debug": {
+      "failed_edge_id": "e1",
+      "failed_edge_role": "substitute_level1",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          1000
+        ],
+        [
+          "out_of_grid",
+          1000
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e1",
+      "role": "substitute_level1",
+      "route_order_index": 2,
+      "u": "C0",
+      "v": "C2",
+      "u_coord": [
+        0,
+        0
+      ],
+      "v_coord": [
+        1,
+        3
+      ],
+      "D_actual": 4,
+      "L_target": 4,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 12,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 1000,
+        "out_of_grid": 1000
+      },
+      "dfs_stats": {
+        "expanded_states": 500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00075",
+    "routing_debug": {
+      "failed_edge_id": "e3",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "used_in_current_path",
+          3000
+        ],
+        [
+          "out_of_grid",
+          3000
+        ],
+        [
+          "room_suppressed_2x2",
+          2000
+        ],
+        [
+          "non_edge_touch",
+          1000
+        ],
+        [
+          "occupied_overlap",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e3",
+      "role": "main",
+      "route_order_index": 1,
+      "u": "C0",
+      "v": "P0",
+      "u_coord": [
+        3,
+        7
+      ],
+      "v_coord": [
+        1,
+        6
+      ],
+      "D_actual": 3,
+      "L_target": 5,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 9,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "occupied_overlap": 500,
+        "room_suppressed_2x2": 2000,
+        "used_in_current_path": 3000,
+        "non_edge_touch": 1000,
+        "out_of_grid": 3000
+      },
+      "dfs_stats": {
+        "expanded_states": 5000,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1000,
+        "pruned_by_occupied": 500,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00076",
+    "routing_debug": {
+      "failed_edge_id": "e2",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          1500
+        ],
+        [
+          "out_of_grid",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e2",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C1",
+      "v": "C2",
+      "u_coord": [
+        0,
+        2
+      ],
+      "v_coord": [
+        2,
+        2
+      ],
+      "D_actual": 2,
+      "L_target": 2,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 1500,
+        "out_of_grid": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1500,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00077",
+    "routing_debug": {
+      "failed_edge_id": "e3",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "used_in_current_path",
+          3000
+        ],
+        [
+          "out_of_grid",
+          2500
+        ],
+        [
+          "room_suppressed_2x2",
+          1500
+        ],
+        [
+          "non_edge_touch",
+          1000
+        ],
+        [
+          "distance_pruned",
+          1000
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e3",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C0",
+      "v": "P0",
+      "u_coord": [
+        0,
+        5
+      ],
+      "v_coord": [
+        0,
+        3
+      ],
+      "D_actual": 2,
+      "L_target": 4,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "out_of_grid": 2500,
+        "used_in_current_path": 3000,
+        "room_suppressed_2x2": 1500,
+        "non_edge_touch": 1000,
+        "distance_pruned": 1000
+      },
+      "dfs_stats": {
+        "expanded_states": 6500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00078",
+    "routing_debug": {
+      "failed_edge_id": "e1",
+      "failed_edge_role": "substitute_level1",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          2000
+        ],
+        [
+          "out_of_grid",
+          1000
+        ],
+        [
+          "used_in_current_path",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e1",
+      "role": "substitute_level1",
+      "route_order_index": 2,
+      "u": "C1",
+      "v": "C0",
+      "u_coord": [
+        0,
+        4
+      ],
+      "v_coord": [
+        0,
+        7
+      ],
+      "D_actual": 3,
+      "L_target": 5,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 12,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 2000,
+        "out_of_grid": 1000,
+        "used_in_current_path": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 1000,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 2000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00079",
+    "routing_debug": {
+      "failed_edge_id": "e1",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          3000
+        ],
+        [
+          "used_in_current_path",
+          1500
+        ],
+        [
+          "distance_pruned",
+          1500
+        ],
+        [
+          "room_suppressed_2x2",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e1",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C2",
+      "v": "C0",
+      "u_coord": [
+        5,
+        5
+      ],
+      "v_coord": [
+        7,
+        7
+      ],
+      "D_actual": 4,
+      "L_target": 6,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 3000,
+        "used_in_current_path": 1500,
+        "room_suppressed_2x2": 500,
+        "distance_pruned": 1500
+      },
+      "dfs_stats": {
+        "expanded_states": 3500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 3000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00080",
+    "routing_debug": {
+      "failed_edge_id": "e4",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "room_suppressed_2x2",
+          1000
+        ],
+        [
+          "non_edge_touch",
+          500
+        ],
+        [
+          "used_in_current_path",
+          500
+        ],
+        [
+          "distance_pruned",
+          500
+        ],
+        [
+          "out_of_grid",
+          500
+        ],
+        [
+          "occupied_overlap",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e4",
+      "role": "main",
+      "route_order_index": 1,
+      "u": "C1",
+      "v": "P1",
+      "u_coord": [
+        6,
+        5
+      ],
+      "v_coord": [
+        3,
+        5
+      ],
+      "D_actual": 3,
+      "L_target": 5,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 8,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "room_suppressed_2x2": 1000,
+        "non_edge_touch": 500,
+        "used_in_current_path": 500,
+        "distance_pruned": 500,
+        "out_of_grid": 500,
+        "occupied_overlap": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 1500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 500,
+        "pruned_by_occupied": 500,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00081",
+    "routing_debug": {
+      "failed_edge_id": "e1",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          1500
+        ],
+        [
+          "distance_pruned",
+          1000
+        ],
+        [
+          "used_in_current_path",
+          500
+        ],
+        [
+          "out_of_grid",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e1",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C2",
+      "v": "C0",
+      "u_coord": [
+        2,
+        0
+      ],
+      "v_coord": [
+        2,
+        3
+      ],
+      "D_actual": 3,
+      "L_target": 3,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 1500,
+        "used_in_current_path": 500,
+        "distance_pruned": 1000,
+        "out_of_grid": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 2000,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1500,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00082",
+    "routing_debug": {
+      "failed_edge_id": "e2",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          2000
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e2",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C0",
+      "v": "C1",
+      "u_coord": [
+        1,
+        5
+      ],
+      "v_coord": [
+        2,
+        3
+      ],
+      "D_actual": 3,
+      "L_target": 3,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 2000
+      },
+      "dfs_stats": {
+        "expanded_states": 500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 2000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00083",
+    "routing_debug": {
+      "failed_edge_id": "e1",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          2000
+        ],
+        [
+          "used_in_current_path",
+          2000
+        ],
+        [
+          "distance_pruned",
+          2000
+        ],
+        [
+          "room_suppressed_2x2",
+          1000
+        ],
+        [
+          "out_of_grid",
+          1000
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e1",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C2",
+      "v": "C0",
+      "u_coord": [
+        4,
+        1
+      ],
+      "v_coord": [
+        5,
+        2
+      ],
+      "D_actual": 2,
+      "L_target": 4,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 2000,
+        "used_in_current_path": 2000,
+        "room_suppressed_2x2": 1000,
+        "distance_pruned": 2000,
+        "out_of_grid": 1000
+      },
+      "dfs_stats": {
+        "expanded_states": 4500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 2000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00084",
+    "routing_debug": {
+      "failed_edge_id": "e3",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "out_of_grid",
+          3000
+        ],
+        [
+          "used_in_current_path",
+          3000
+        ],
+        [
+          "room_suppressed_2x2",
+          2500
+        ],
+        [
+          "distance_pruned",
+          1500
+        ],
+        [
+          "occupied_overlap",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e3",
+      "role": "main",
+      "route_order_index": 1,
+      "u": "C0",
+      "v": "P0",
+      "u_coord": [
+        1,
+        2
+      ],
+      "v_coord": [
+        0,
+        1
+      ],
+      "D_actual": 2,
+      "L_target": 4,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 8,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "room_suppressed_2x2": 2500,
+        "out_of_grid": 3000,
+        "used_in_current_path": 3000,
+        "distance_pruned": 1500,
+        "occupied_overlap": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 5500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 0,
+        "pruned_by_occupied": 500,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00085",
+    "routing_debug": {
+      "failed_edge_id": "e0",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "distance_pruned",
+          2000
+        ],
+        [
+          "non_edge_touch",
+          1000
+        ],
+        [
+          "used_in_current_path",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e0",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C0",
+      "v": "C1",
+      "u_coord": [
+        6,
+        1
+      ],
+      "v_coord": [
+        3,
+        1
+      ],
+      "D_actual": 3,
+      "L_target": 3,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 1000,
+        "used_in_current_path": 500,
+        "distance_pruned": 2000
+      },
+      "dfs_stats": {
+        "expanded_states": 3000,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00086",
+    "routing_debug": {
+      "failed_edge_id": "e5",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "distance_pruned",
+          1000
+        ],
+        [
+          "room_suppressed_2x2",
+          500
+        ],
+        [
+          "occupied_overlap",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e5",
+      "role": "main",
+      "route_order_index": 2,
+      "u": "C2",
+      "v": "P2",
+      "u_coord": [
+        2,
+        5
+      ],
+      "v_coord": [
+        2,
+        7
+      ],
+      "D_actual": 2,
+      "L_target": 2,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 12,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "room_suppressed_2x2": 500,
+        "distance_pruned": 1000,
+        "occupied_overlap": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 1500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 0,
+        "pruned_by_occupied": 500,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00087",
+    "routing_debug": {
+      "failed_edge_id": "e3",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          1000
+        ],
+        [
+          "occupied_overlap",
+          500
+        ],
+        [
+          "distance_pruned",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e3",
+      "role": "main",
+      "route_order_index": 1,
+      "u": "C0",
+      "v": "P0",
+      "u_coord": [
+        2,
+        6
+      ],
+      "v_coord": [
+        2,
+        2
+      ],
+      "D_actual": 4,
+      "L_target": 4,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 9,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "occupied_overlap": 500,
+        "distance_pruned": 500,
+        "non_edge_touch": 1000
+      },
+      "dfs_stats": {
+        "expanded_states": 1000,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1000,
+        "pruned_by_occupied": 500,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00088",
+    "routing_debug": {
+      "failed_edge_id": "e0",
+      "failed_edge_role": "substitute_level1",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          3000
+        ],
+        [
+          "used_in_current_path",
+          2000
+        ],
+        [
+          "out_of_grid",
+          2000
+        ],
+        [
+          "room_suppressed_2x2",
+          1000
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e0",
+      "role": "substitute_level1",
+      "route_order_index": 1,
+      "u": "C2",
+      "v": "C0",
+      "u_coord": [
+        6,
+        0
+      ],
+      "v_coord": [
+        4,
+        1
+      ],
+      "D_actual": 3,
+      "L_target": 5,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 8,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 3000,
+        "room_suppressed_2x2": 1000,
+        "used_in_current_path": 2000,
+        "out_of_grid": 2000
+      },
+      "dfs_stats": {
+        "expanded_states": 2500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 3000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00089",
+    "routing_debug": {
+      "failed_edge_id": "e2",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          1000
+        ],
+        [
+          "out_of_grid",
+          1000
+        ],
+        [
+          "distance_pruned",
+          1000
+        ],
+        [
+          "used_in_current_path",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e2",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C0",
+      "v": "C1",
+      "u_coord": [
+        3,
+        0
+      ],
+      "v_coord": [
+        6,
+        0
+      ],
+      "D_actual": 3,
+      "L_target": 3,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 1000,
+        "out_of_grid": 1000,
+        "used_in_current_path": 500,
+        "distance_pruned": 1000
+      },
+      "dfs_stats": {
+        "expanded_states": 2000,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00090",
+    "routing_debug": {
+      "failed_edge_id": "e0",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          1000
+        ],
+        [
+          "out_of_grid",
+          500
+        ],
+        [
+          "distance_pruned",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e0",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C2",
+      "v": "C0",
+      "u_coord": [
+        2,
+        7
+      ],
+      "v_coord": [
+        0,
+        7
+      ],
+      "D_actual": 2,
+      "L_target": 2,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 1000,
+        "out_of_grid": 500,
+        "distance_pruned": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 1000,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00091",
+    "routing_debug": {
+      "failed_edge_id": "e5",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "distance_pruned",
+          1000
+        ],
+        [
+          "room_suppressed_2x2",
+          500
+        ],
+        [
+          "occupied_overlap",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e5",
+      "role": "main",
+      "route_order_index": 1,
+      "u": "C2",
+      "v": "P2",
+      "u_coord": [
+        1,
+        4
+      ],
+      "v_coord": [
+        0,
+        7
+      ],
+      "D_actual": 4,
+      "L_target": 4,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 7,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "room_suppressed_2x2": 500,
+        "occupied_overlap": 500,
+        "distance_pruned": 1000
+      },
+      "dfs_stats": {
+        "expanded_states": 1500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 0,
+        "pruned_by_occupied": 500,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00092",
+    "routing_debug": {
+      "failed_edge_id": "e2",
+      "failed_edge_role": "substitute_level1",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          1000
+        ],
+        [
+          "distance_pruned",
+          1000
+        ],
+        [
+          "room_suppressed_2x2",
+          500
+        ],
+        [
+          "used_in_current_path",
+          500
+        ],
+        [
+          "occupied_overlap",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e2",
+      "role": "substitute_level1",
+      "route_order_index": 2,
+      "u": "C1",
+      "v": "C2",
+      "u_coord": [
+        1,
+        1
+      ],
+      "v_coord": [
+        4,
+        2
+      ],
+      "D_actual": 4,
+      "L_target": 4,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 8,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "room_suppressed_2x2": 500,
+        "non_edge_touch": 1000,
+        "used_in_current_path": 500,
+        "occupied_overlap": 500,
+        "distance_pruned": 1000
+      },
+      "dfs_stats": {
+        "expanded_states": 2000,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1000,
+        "pruned_by_occupied": 500,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00093",
+    "routing_debug": {
+      "failed_edge_id": "e1",
+      "failed_edge_role": "substitute_level1",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          2000
+        ],
+        [
+          "room_suppressed_2x2",
+          500
+        ],
+        [
+          "used_in_current_path",
+          500
+        ],
+        [
+          "distance_pruned",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e1",
+      "role": "substitute_level1",
+      "route_order_index": 2,
+      "u": "C2",
+      "v": "C1",
+      "u_coord": [
+        1,
+        6
+      ],
+      "v_coord": [
+        2,
+        3
+      ],
+      "D_actual": 4,
+      "L_target": 4,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 11,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "room_suppressed_2x2": 500,
+        "non_edge_touch": 2000,
+        "used_in_current_path": 500,
+        "distance_pruned": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 1500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 2000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00094",
+    "routing_debug": {
+      "failed_edge_id": "e0",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          1000
+        ],
+        [
+          "distance_pruned",
+          1000
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e0",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C2",
+      "v": "C1",
+      "u_coord": [
+        5,
+        4
+      ],
+      "v_coord": [
+        1,
+        4
+      ],
+      "D_actual": 4,
+      "L_target": 4,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 1000,
+        "distance_pruned": 1000
+      },
+      "dfs_stats": {
+        "expanded_states": 1500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00095",
+    "routing_debug": {
+      "failed_edge_id": "e1",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          1500
+        ],
+        [
+          "distance_pruned",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e1",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C0",
+      "v": "C1",
+      "u_coord": [
+        1,
+        6
+      ],
+      "v_coord": [
+        1,
+        2
+      ],
+      "D_actual": 4,
+      "L_target": 4,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 1500,
+        "distance_pruned": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 1000,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1500,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00096",
+    "routing_debug": {
+      "failed_edge_id": "e5",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "used_in_current_path",
+          4000
+        ],
+        [
+          "room_suppressed_2x2",
+          3500
+        ],
+        [
+          "distance_pruned",
+          2500
+        ],
+        [
+          "out_of_grid",
+          1000
+        ],
+        [
+          "non_edge_touch",
+          1000
+        ],
+        [
+          "occupied_overlap",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e5",
+      "role": "main",
+      "route_order_index": 2,
+      "u": "C2",
+      "v": "P2",
+      "u_coord": [
+        2,
+        2
+      ],
+      "v_coord": [
+        1,
+        3
+      ],
+      "D_actual": 2,
+      "L_target": 4,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 11,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "room_suppressed_2x2": 3500,
+        "used_in_current_path": 4000,
+        "out_of_grid": 1000,
+        "non_edge_touch": 1000,
+        "distance_pruned": 2500,
+        "occupied_overlap": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 8500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1000,
+        "pruned_by_occupied": 500,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00097",
+    "routing_debug": {
+      "failed_edge_id": "e5",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "non_edge_touch",
+          2000
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e5",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C2",
+      "v": "P2",
+      "u_coord": [
+        6,
+        2
+      ],
+      "v_coord": [
+        5,
+        5
+      ],
+      "D_actual": 4,
+      "L_target": 4,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 2000
+      },
+      "dfs_stats": {
+        "expanded_states": 500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 2000,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00098",
+    "routing_debug": {
+      "failed_edge_id": "e3",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "used_in_current_path",
+          3000
+        ],
+        [
+          "room_suppressed_2x2",
+          2500
+        ],
+        [
+          "non_edge_touch",
+          1500
+        ],
+        [
+          "distance_pruned",
+          1000
+        ],
+        [
+          "out_of_grid",
+          500
+        ],
+        [
+          "occupied_overlap",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e3",
+      "role": "main",
+      "route_order_index": 1,
+      "u": "C0",
+      "v": "P0",
+      "u_coord": [
+        3,
+        3
+      ],
+      "v_coord": [
+        1,
+        2
+      ],
+      "D_actual": 3,
+      "L_target": 5,
+      "slack": 2,
+      "excess": 2,
+      "occupied_cell_count_before_edge": 7,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 1500,
+        "used_in_current_path": 3000,
+        "out_of_grid": 500,
+        "room_suppressed_2x2": 2500,
+        "distance_pruned": 1000,
+        "occupied_overlap": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 6500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 1500,
+        "pruned_by_occupied": 500,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  },
+  {
+    "maze_id": "maze_00099",
+    "routing_debug": {
+      "failed_edge_id": "e0",
+      "failed_edge_role": "main",
+      "blocked_reason_top": [
+        [
+          "distance_pruned",
+          1000
+        ],
+        [
+          "non_edge_touch",
+          500
+        ],
+        [
+          "out_of_grid",
+          500
+        ]
+      ]
+    },
+    "failure_detail": {
+      "edge_id": "e0",
+      "role": "main",
+      "route_order_index": 0,
+      "u": "C2",
+      "v": "C1",
+      "u_coord": [
+        6,
+        0
+      ],
+      "v_coord": [
+        6,
+        4
+      ],
+      "D_actual": 4,
+      "L_target": 4,
+      "slack": 0,
+      "excess": 0,
+      "occupied_cell_count_before_edge": 6,
+      "node_cell_count": 6,
+      "room_policy": "room_suppressed",
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "routing_mode": "plain_dfs",
+      "allowed_cells_count": null,
+      "corridor_id": null,
+      "blocked_reason_counts": {
+        "non_edge_touch": 500,
+        "distance_pruned": 1000,
+        "out_of_grid": 500
+      },
+      "dfs_stats": {
+        "expanded_states": 1500,
+        "pruned_by_parity": 0,
+        "pruned_by_touch": 500,
+        "pruned_by_occupied": 0,
+        "pruned_by_outside_corridor": 0
+      }
+    }
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "category": "main_only_clean",
+    "maze_id": null,
+    "selected": false,
+    "reason": "category_not_found"
+  },
+  {
+    "category": "main_dead_clean",
+    "maze_id": null,
+    "selected": false,
+    "reason": "category_not_found"
+  },
+  {
+    "category": "main_dead_anchor_mismatch",
+    "maze_id": null,
+    "selected": false,
+    "reason": "category_not_found"
+  },
+  {
+    "category": "main_alternative_coplanned_success",
+    "maze_id": "maze_00000",
+    "selected": true,
+    "filename_prefix": "01_main_alternative_coplanned_success__maze_00000"
+  },
+  {
+    "category": "main_alternative_coplanned_failed",
+    "maze_id": null,
+    "selected": false,
+    "reason": "category_not_found"
+  },
+  {
+    "category": "main_island_success",
+    "maze_id": null,
+    "selected": false,
+    "reason": "category_not_found"
+  },
+  {
+    "category": "main_island_mismatch",
+    "maze_id": null,
+    "selected": false,
+    "reason": "category_not_found"
+  },
+  {
+    "category": "mixed_effective_match_true",
+    "maze_id": null,
+    "selected": false,
+    "reason": "category_not_found"
+  },
+  {
+    "category": "mixed_effective_match_false_or_main_route_error",
+    "maze_id": null,
+    "selected": false,
+    "reason": "category_not_found"
+  },
+  {
+    "category": "fallback_clean",
+    "maze_id": "maze_00001",
+    "selected": true,
+    "filename_prefix": "02_fallback_clean__maze_00001"
+  },
+  {
+    "category": "fallback_error",
+    "maze_id": "maze_00002",
+    "selected": true,
+    "filename_prefix": "03_fallback_error__maze_00002"
+  },
+  {
+    "category": "fallback_error",
+    "maze_id": "maze_00003",
+    "selected": true,
+    "filename_prefix": "04_fallback_error__maze_00003"
+  },
+  {
+    "category": "fallback_error",
+    "maze_id": "maze_00004",
+    "selected": true,
+    "filename_prefix": "05_fallback_error__maze_00004"
+  },
+  {
+    "category": "fallback_error",
+    "maze_id": "maze_00005",
+    "selected": true,
+    "filename_prefix": "06_fallback_error__maze_00005"
+  },
+  {
+    "category": "fallback_error",
+    "maze_id": "maze_00006",
+    "selected": true,
+    "filename_prefix": "07_fallback_error__maze_00006"
+  },
+  {
+    "category": "fallback_error",
+    "maze_id": "maze_00007",
+    "selected": true,
+    "filename_prefix": "08_fallback_error__maze_00007"
+  },
+  {
+    "category": "fallback_error",
+    "maze_id": "maze_00008",
+    "selected": true,
+    "filename_prefix": "09_fallback_error__maze_00008"
+  },
+  {
+    "category": "fallback_clean",
+    "maze_id": "maze_00009",
+    "selected": true,
+    "filename_prefix": "10_fallback_clean__maze_00009"
+  }
+]

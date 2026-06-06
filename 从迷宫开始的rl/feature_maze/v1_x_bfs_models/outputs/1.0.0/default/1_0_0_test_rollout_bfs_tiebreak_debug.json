@@ -1,0 +1,5104 @@
+{
+  "maze_text": "\n........\n##.####.\n...#.#..\n.#S#G#.#\n..#..#..\n.##.###.\n.#...#..\n.#.#....\n",
+  "maze": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "start": [
+    3,
+    2
+  ],
+  "goal": [
+    3,
+    4
+  ],
+  "input_mode": "compact_2ch",
+  "strategy": "bfs_tiebreak",
+  "tie_eps": 0.03,
+  "metrics": {
+    "strategy": "bfs_tiebreak",
+    "success": false,
+    "steps": 64,
+    "wall_hits": 64,
+    "bfs_len": 26,
+    "bfs_gap": null,
+    "final_pos": [
+      3,
+      2
+    ],
+    "final_bfs_dist": 26,
+    "shortest_path_success": false
+  },
+  "steps": [
+    {
+      "t": 0,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 1,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 2,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 3,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 4,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 5,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 6,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 7,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 8,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 9,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 10,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 11,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 12,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 13,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 14,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 15,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 16,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 17,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 18,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 19,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 20,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 21,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 22,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 23,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 24,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 25,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 26,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 27,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 28,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 29,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 30,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 31,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 32,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 33,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 34,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 35,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 36,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 37,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 38,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 39,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 40,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 41,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 42,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 43,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 44,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 45,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 46,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 47,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 48,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 49,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 50,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 51,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 52,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 53,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 54,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 55,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 56,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 57,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 58,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 59,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 60,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 61,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 62,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "t": 63,
+      "pos_before": [
+        3,
+        2
+      ],
+      "pos_after": [
+        3,
+        2
+      ],
+      "bfs_dist_before": 26,
+      "bfs_dist_after": 26,
+      "chosen_action": "LEFT",
+      "chosen_logit": 1.0738716125488281,
+      "chosen_prob": 0.5503167510032654,
+      "chosen_is_wall": true,
+      "chosen_delta_bfs": 0,
+      "chosen_is_bfs_best": false,
+      "strategy": "bfs_tiebreak",
+      "actions": {
+        "UP": {
+          "action": "UP",
+          "logit": 0.5525431632995605,
+          "prob": 0.3267402946949005,
+          "is_wall": false,
+          "is_valid": true,
+          "next_pos": [
+            2,
+            2
+          ],
+          "delta_bfs": -1,
+          "is_bfs_best": true,
+          "rank": 2
+        },
+        "DOWN": {
+          "action": "DOWN",
+          "logit": -2.8458786010742188,
+          "prob": 0.010921614244580269,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 4
+        },
+        "LEFT": {
+          "action": "LEFT",
+          "logit": 1.0738716125488281,
+          "prob": 0.5503167510032654,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 1
+        },
+        "RIGHT": {
+          "action": "RIGHT",
+          "logit": -0.5179334878921509,
+          "prob": 0.11202128976583481,
+          "is_wall": true,
+          "is_valid": false,
+          "next_pos": [
+            3,
+            2
+          ],
+          "delta_bfs": 0,
+          "is_bfs_best": false,
+          "rank": 3
+        }
+      }
+    }
+  ]
+}

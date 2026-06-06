@@ -1,0 +1,14 @@
+{
+  "main_path_fail_reason_counts": {
+    "main_path_no_goal_candidate": 29
+  },
+  "edge_reject_reason_counts": {
+    "dead_edge_touches_unrelated_free_cell": 122,
+    "dead_edge_tip_not_endpoint": 19,
+    "dead_edge_hits_unrelated_free_cell": 163,
+    "dead_edge_edge_self_intersection": 3
+  },
+  "anchor_reject_reason_counts": {},
+  "dead_edge_attempt_count": 407,
+  "alternative_edge_attempt_count": 100
+}

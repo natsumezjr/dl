@@ -1,0 +1,695 @@
+{
+  "transitions": [
+    {
+      "route_reassigned_from": "single_loop_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "single_loop_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_single_loop_medium",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "single_loop_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_multi_loop_long",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "single_loop_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "single_loop_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "single_loop_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "single_loop_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "single_loop_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_single_loop_long",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "single_loop_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_single_loop_medium",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "single_loop_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "single_loop_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "single_loop_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_single_loop_long",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_multi_loop_medium",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "single_loop_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "single_loop_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_low_choice_mid_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_multi_loop_short",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_multi_loop_long",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_multi_loop_medium",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_multi_loop_long",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "single_loop_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "single_loop_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "single_loop_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "single_loop_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "single_loop_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_multi_loop_long",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "single_loop_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "single_loop_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "single_loop_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "single_loop_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_single_loop_long",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "single_loop_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "single_loop_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_multi_loop_long",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "single_loop_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "single_loop_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_multi_loop_long",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "single_loop_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_multi_loop_long",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "single_loop_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "single_loop_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_multi_loop_long",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_multi_loop_long",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_tree_long",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_multi_loop_medium",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "single_loop_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "single_loop_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_mid_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_multi_loop_long",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "single_loop_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "single_loop_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "single_loop_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "single_loop_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_multi_loop_long",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_multi_loop_long",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_multi_loop_medium",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "single_loop_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_multi_loop_long",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_multi_loop_long",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_multi_loop_long",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_multi_loop_medium",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "single_loop_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_multi_loop_medium",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_multi_loop_short",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_single_loop_medium",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_multi_loop_short",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_multi_loop_long",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_multi_loop_medium",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_single_loop_long",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_multi_loop_long",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_multi_loop_medium",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_multi_loop_long",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_multi_loop_medium",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "single_loop_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "tree_long_high_choice_high_endpoint",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_multi_loop_medium",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_multi_loop_long",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_tree_long",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_tree_long",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_multi_loop_medium",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_multi_loop_long",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_multi_loop_long",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    },
+    {
+      "route_reassigned_from": "generic_multi_loop_medium",
+      "route_reassigned_to": "multi_loop_long_high_choice_high_endpoint",
+      "reason": "route_gap_probability_dominant"
+    }
+  ],
+  "route_reassignment_count": 138
+}

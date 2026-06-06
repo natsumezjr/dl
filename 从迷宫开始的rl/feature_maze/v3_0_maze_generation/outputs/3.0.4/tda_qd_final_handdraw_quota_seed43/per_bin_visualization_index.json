@@ -1,0 +1,1356 @@
+{
+  "multi_loop|long|high_choice|high_endpoint": {
+    "quota": 446,
+    "confirmed_count": 446,
+    "saved_png_count": 10,
+    "paths": [
+      "sample_visualizations\\by_bin\\multi_loop_long_high_choice_high_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\multi_loop_long_high_choice_high_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\multi_loop_long_high_choice_high_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\multi_loop_long_high_choice_high_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\multi_loop_long_high_choice_high_endpoint\\accepted_004.png",
+      "sample_visualizations\\by_bin\\multi_loop_long_high_choice_high_endpoint\\accepted_005.png",
+      "sample_visualizations\\by_bin\\multi_loop_long_high_choice_high_endpoint\\accepted_006.png",
+      "sample_visualizations\\by_bin\\multi_loop_long_high_choice_high_endpoint\\accepted_007.png",
+      "sample_visualizations\\by_bin\\multi_loop_long_high_choice_high_endpoint\\accepted_008.png",
+      "sample_visualizations\\by_bin\\multi_loop_long_high_choice_high_endpoint\\accepted_009.png"
+    ],
+    "sample_ids": [
+      "item_001663_trial_001678_00_spb",
+      "item_004746_trial_004746_02_pure_tbi",
+      "item_005080_trial_005080_05_stage_clo",
+      "item_003370_trial_005828_03_spb",
+      "item_005555_trial_005871_00_stage_clo",
+      "item_005876_trial_006454_03_pure_tbi",
+      "item_008416_trial_008416_01_spb",
+      "item_008416_trial_008416_03_spb",
+      "item_008565_trial_008565_04_spb",
+      "item_006724_trial_009435_02_spb"
+    ],
+    "reason": null
+  },
+  "multi_loop|long|high_choice|low_endpoint": {
+    "quota": 74,
+    "confirmed_count": 74,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\multi_loop_long_high_choice_low_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\multi_loop_long_high_choice_low_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\multi_loop_long_high_choice_low_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\multi_loop_long_high_choice_low_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\multi_loop_long_high_choice_low_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_002157_trial_002157_00_spb",
+      "seed003767_step0",
+      "item_003767_trial_003767_00_pure_tbi",
+      "item_007984_trial_007984_02_spb",
+      "item_008149_trial_008149_00_spb"
+    ],
+    "reason": null
+  },
+  "multi_loop|long|high_choice|mid_endpoint": {
+    "quota": 297,
+    "confirmed_count": 297,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\multi_loop_long_high_choice_mid_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\multi_loop_long_high_choice_mid_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\multi_loop_long_high_choice_mid_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\multi_loop_long_high_choice_mid_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\multi_loop_long_high_choice_mid_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_000146_trial_000169_02_stage_clo",
+      "item_000180_trial_000180_04_spb",
+      "item_000390_trial_000431_02_stage_clo",
+      "item_000439_trial_000439_03_random",
+      "item_000436_trial_000498_01_stage_clo"
+    ],
+    "reason": null
+  },
+  "multi_loop|long|low_choice|high_endpoint": {
+    "quota": 6,
+    "confirmed_count": 0,
+    "saved_png_count": 0,
+    "paths": [],
+    "sample_ids": [],
+    "reason": null
+  },
+  "multi_loop|long|low_choice|low_endpoint": {
+    "quota": 6,
+    "confirmed_count": 6,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\multi_loop_long_low_choice_low_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\multi_loop_long_low_choice_low_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\multi_loop_long_low_choice_low_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\multi_loop_long_low_choice_low_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\multi_loop_long_low_choice_low_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "seed000439_step0",
+      "seed000640_step0",
+      "seed002124_step0",
+      "item_002124_trial_002124_00_pure_tbi",
+      "seed002719_step0"
+    ],
+    "reason": null
+  },
+  "multi_loop|long|low_choice|mid_endpoint": {
+    "quota": 6,
+    "confirmed_count": 6,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\multi_loop_long_low_choice_mid_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\multi_loop_long_low_choice_mid_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\multi_loop_long_low_choice_mid_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\multi_loop_long_low_choice_mid_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\multi_loop_long_low_choice_mid_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_022611_trial_022611_00_pure_tbi",
+      "item_023736_trial_023736_00_pure_tbi",
+      "item_024139_trial_024139_01_pure_tbi",
+      "item_041584_trial_041584_03_pure_tbi",
+      "seed047089_step0"
+    ],
+    "reason": null
+  },
+  "multi_loop|long|mid_choice|high_endpoint": {
+    "quota": 6,
+    "confirmed_count": 6,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\multi_loop_long_mid_choice_high_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\multi_loop_long_mid_choice_high_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\multi_loop_long_mid_choice_high_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\multi_loop_long_mid_choice_high_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\multi_loop_long_mid_choice_high_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_025199_trial_025199_04_spb",
+      "item_044327_trial_044327_03_stage_clo",
+      "item_003577_trial_048580_02_stage_clo",
+      "item_045659_trial_055291_01_spb",
+      "item_055710_trial_056781_03_stage_clo"
+    ],
+    "reason": null
+  },
+  "multi_loop|long|mid_choice|low_endpoint": {
+    "quota": 6,
+    "confirmed_count": 6,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\multi_loop_long_mid_choice_low_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\multi_loop_long_mid_choice_low_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\multi_loop_long_mid_choice_low_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\multi_loop_long_mid_choice_low_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\multi_loop_long_mid_choice_low_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "seed000349_step0",
+      "item_000349_trial_000349_01_pure_tbi",
+      "item_000439_trial_000439_00_pure_tbi",
+      "seed000529_step0",
+      "item_000541_trial_000541_05_spb"
+    ],
+    "reason": null
+  },
+  "multi_loop|long|mid_choice|mid_endpoint": {
+    "quota": 74,
+    "confirmed_count": 74,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\multi_loop_long_mid_choice_mid_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\multi_loop_long_mid_choice_mid_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\multi_loop_long_mid_choice_mid_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\multi_loop_long_mid_choice_mid_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\multi_loop_long_mid_choice_mid_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_000083_trial_000083_03_stage_clo",
+      "seed000174_step0",
+      "seed000218_step0",
+      "item_000218_trial_000218_01_pure_tbi",
+      "item_000349_trial_000349_02_pure_tbi"
+    ],
+    "reason": null
+  },
+  "multi_loop|medium|high_choice|high_endpoint": {
+    "quota": 446,
+    "confirmed_count": 446,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\multi_loop_medium_high_choice_high_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\multi_loop_medium_high_choice_high_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\multi_loop_medium_high_choice_high_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\multi_loop_medium_high_choice_high_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\multi_loop_medium_high_choice_high_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_000177_trial_000188_05_pure_tbi",
+      "item_000208_trial_000237_03_spb",
+      "item_000272_trial_000272_05_pure_tbi",
+      "item_000287_trial_000287_02_spb",
+      "item_000287_trial_000287_03_spb"
+    ],
+    "reason": null
+  },
+  "multi_loop|medium|high_choice|low_endpoint": {
+    "quota": 74,
+    "confirmed_count": 74,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\multi_loop_medium_high_choice_low_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\multi_loop_medium_high_choice_low_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\multi_loop_medium_high_choice_low_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\multi_loop_medium_high_choice_low_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\multi_loop_medium_high_choice_low_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_000026_trial_000026_00_pure_tbi",
+      "item_000026_trial_000026_01_pure_tbi",
+      "item_000079_trial_000079_00_spb",
+      "item_000079_trial_000079_01_pure_tbi",
+      "item_000095_trial_000095_02_spb"
+    ],
+    "reason": null
+  },
+  "multi_loop|medium|high_choice|mid_endpoint": {
+    "quota": 594,
+    "confirmed_count": 594,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\multi_loop_medium_high_choice_mid_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\multi_loop_medium_high_choice_mid_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\multi_loop_medium_high_choice_mid_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\multi_loop_medium_high_choice_mid_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\multi_loop_medium_high_choice_mid_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "seed000009_step0",
+      "seed000014_step0",
+      "item_000047_trial_000047_01_pure_tbi",
+      "item_000047_trial_000047_02_pure_tbi",
+      "item_000067_trial_000067_04_spb"
+    ],
+    "reason": null
+  },
+  "multi_loop|medium|low_choice|high_endpoint": {
+    "quota": 6,
+    "confirmed_count": 0,
+    "saved_png_count": 0,
+    "paths": [],
+    "sample_ids": [],
+    "reason": null
+  },
+  "multi_loop|medium|low_choice|low_endpoint": {
+    "quota": 6,
+    "confirmed_count": 6,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\multi_loop_medium_low_choice_low_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\multi_loop_medium_low_choice_low_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\multi_loop_medium_low_choice_low_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\multi_loop_medium_low_choice_low_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\multi_loop_medium_low_choice_low_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_000012_trial_000012_03_spb",
+      "seed000038_step0",
+      "seed000079_step0",
+      "seed000114_step0",
+      "seed000141_step0"
+    ],
+    "reason": null
+  },
+  "multi_loop|medium|low_choice|mid_endpoint": {
+    "quota": 6,
+    "confirmed_count": 6,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\multi_loop_medium_low_choice_mid_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\multi_loop_medium_low_choice_mid_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\multi_loop_medium_low_choice_mid_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\multi_loop_medium_low_choice_mid_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\multi_loop_medium_low_choice_mid_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_000141_trial_000629_01_spb",
+      "item_000630_trial_000630_00_spb",
+      "item_000714_trial_000714_00_spb",
+      "item_000714_trial_000714_01_pure_tbi",
+      "seed002486_step0"
+    ],
+    "reason": null
+  },
+  "multi_loop|medium|mid_choice|high_endpoint": {
+    "quota": 6,
+    "confirmed_count": 6,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\multi_loop_medium_mid_choice_high_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\multi_loop_medium_mid_choice_high_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\multi_loop_medium_mid_choice_high_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\multi_loop_medium_mid_choice_high_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\multi_loop_medium_mid_choice_high_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_000130_trial_000187_05_spb",
+      "item_001128_trial_001128_00_spb",
+      "item_001919_trial_002136_05_spb",
+      "item_002966_trial_002966_03_spb",
+      "item_003237_trial_003237_02_spb"
+    ],
+    "reason": null
+  },
+  "multi_loop|medium|mid_choice|low_endpoint": {
+    "quota": 6,
+    "confirmed_count": 6,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\multi_loop_medium_mid_choice_low_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\multi_loop_medium_mid_choice_low_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\multi_loop_medium_mid_choice_low_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\multi_loop_medium_mid_choice_low_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\multi_loop_medium_mid_choice_low_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "seed000012_step0",
+      "item_000012_trial_000012_00_spb",
+      "seed000026_step0",
+      "item_000038_trial_000038_00_pure_tbi",
+      "seed000047_step0"
+    ],
+    "reason": null
+  },
+  "multi_loop|medium|mid_choice|mid_endpoint": {
+    "quota": 74,
+    "confirmed_count": 74,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\multi_loop_medium_mid_choice_mid_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\multi_loop_medium_mid_choice_mid_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\multi_loop_medium_mid_choice_mid_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\multi_loop_medium_mid_choice_mid_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\multi_loop_medium_mid_choice_mid_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_000013_trial_000013_01_stage_clo",
+      "item_000013_trial_000013_02_pure_tbi",
+      "item_000014_trial_000014_01_spb",
+      "item_000014_trial_000014_02_stage_clo",
+      "item_000026_trial_000026_02_random"
+    ],
+    "reason": null
+  },
+  "multi_loop|short|high_choice|high_endpoint": {
+    "quota": 74,
+    "confirmed_count": 74,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\multi_loop_short_high_choice_high_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\multi_loop_short_high_choice_high_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\multi_loop_short_high_choice_high_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\multi_loop_short_high_choice_high_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\multi_loop_short_high_choice_high_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_000184_trial_000185_01_spb",
+      "item_000184_trial_000185_03_spb",
+      "item_000208_trial_000237_00_spb",
+      "item_000208_trial_000237_02_spb",
+      "seed000269_step0"
+    ],
+    "reason": null
+  },
+  "multi_loop|short|high_choice|low_endpoint": {
+    "quota": 6,
+    "confirmed_count": 6,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\multi_loop_short_high_choice_low_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\multi_loop_short_high_choice_low_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\multi_loop_short_high_choice_low_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\multi_loop_short_high_choice_low_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\multi_loop_short_high_choice_low_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_000003_trial_000003_00_spb",
+      "item_000030_trial_000030_00_pure_tbi",
+      "item_000055_trial_000055_00_spb",
+      "seed000064_step0",
+      "item_000064_trial_000064_00_spb"
+    ],
+    "reason": null
+  },
+  "multi_loop|short|high_choice|mid_endpoint": {
+    "quota": 6,
+    "confirmed_count": 6,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\multi_loop_short_high_choice_mid_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\multi_loop_short_high_choice_mid_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\multi_loop_short_high_choice_mid_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\multi_loop_short_high_choice_mid_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\multi_loop_short_high_choice_mid_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_000030_trial_000030_01_pure_tbi",
+      "item_000030_trial_000030_02_spb",
+      "item_000064_trial_000064_05_random",
+      "seed000067_step0",
+      "item_000067_trial_000067_00_spb"
+    ],
+    "reason": null
+  },
+  "multi_loop|short|low_choice|high_endpoint": {
+    "quota": 6,
+    "confirmed_count": 0,
+    "saved_png_count": 0,
+    "paths": [],
+    "sample_ids": [],
+    "reason": null
+  },
+  "multi_loop|short|low_choice|low_endpoint": {
+    "quota": 6,
+    "confirmed_count": 6,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\multi_loop_short_low_choice_low_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\multi_loop_short_low_choice_low_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\multi_loop_short_low_choice_low_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\multi_loop_short_low_choice_low_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\multi_loop_short_low_choice_low_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_000003_trial_000003_03_spb",
+      "item_000122_trial_000122_00_spb",
+      "item_000176_trial_000176_01_spb",
+      "item_000271_trial_000271_01_spb",
+      "item_000290_trial_000290_00_spb"
+    ],
+    "reason": null
+  },
+  "multi_loop|short|low_choice|mid_endpoint": {
+    "quota": 6,
+    "confirmed_count": 6,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\multi_loop_short_low_choice_mid_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\multi_loop_short_low_choice_mid_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\multi_loop_short_low_choice_mid_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\multi_loop_short_low_choice_mid_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\multi_loop_short_low_choice_mid_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_000464_trial_000464_05_spb",
+      "item_000696_trial_000696_01_pure_tbi",
+      "item_000464_trial_000748_01_pure_tbi",
+      "item_001310_trial_001310_04_pure_tbi",
+      "item_001900_trial_001900_01_spb"
+    ],
+    "reason": null
+  },
+  "multi_loop|short|mid_choice|high_endpoint": {
+    "quota": 6,
+    "confirmed_count": 6,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\multi_loop_short_mid_choice_high_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\multi_loop_short_mid_choice_high_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\multi_loop_short_mid_choice_high_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\multi_loop_short_mid_choice_high_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\multi_loop_short_mid_choice_high_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_001036_trial_001036_04_spb",
+      "item_001419_trial_001419_04_spb",
+      "item_001450_trial_001450_02_spb",
+      "item_002795_trial_002795_02_pure_tbi",
+      "item_003114_trial_003114_02_pure_tbi"
+    ],
+    "reason": null
+  },
+  "multi_loop|short|mid_choice|low_endpoint": {
+    "quota": 6,
+    "confirmed_count": 6,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\multi_loop_short_mid_choice_low_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\multi_loop_short_mid_choice_low_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\multi_loop_short_mid_choice_low_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\multi_loop_short_mid_choice_low_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\multi_loop_short_mid_choice_low_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "seed000003_step0",
+      "item_000003_trial_000003_02_spb",
+      "seed000018_step0",
+      "seed000030_step0",
+      "seed000055_step0"
+    ],
+    "reason": null
+  },
+  "multi_loop|short|mid_choice|mid_endpoint": {
+    "quota": 6,
+    "confirmed_count": 6,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\multi_loop_short_mid_choice_mid_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\multi_loop_short_mid_choice_mid_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\multi_loop_short_mid_choice_mid_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\multi_loop_short_mid_choice_mid_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\multi_loop_short_mid_choice_mid_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_000085_trial_000085_00_pure_tbi",
+      "item_000085_trial_000085_01_pure_tbi",
+      "item_000113_trial_000113_03_spb",
+      "item_000113_trial_000113_04_spb",
+      "item_000124_trial_000124_00_spb"
+    ],
+    "reason": null
+  },
+  "single_loop|long|high_choice|high_endpoint": {
+    "quota": 446,
+    "confirmed_count": 446,
+    "saved_png_count": 10,
+    "paths": [
+      "sample_visualizations\\by_bin\\single_loop_long_high_choice_high_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\single_loop_long_high_choice_high_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\single_loop_long_high_choice_high_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\single_loop_long_high_choice_high_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\single_loop_long_high_choice_high_endpoint\\accepted_004.png",
+      "sample_visualizations\\by_bin\\single_loop_long_high_choice_high_endpoint\\accepted_005.png",
+      "sample_visualizations\\by_bin\\single_loop_long_high_choice_high_endpoint\\accepted_006.png",
+      "sample_visualizations\\by_bin\\single_loop_long_high_choice_high_endpoint\\accepted_007.png",
+      "sample_visualizations\\by_bin\\single_loop_long_high_choice_high_endpoint\\accepted_008.png",
+      "sample_visualizations\\by_bin\\single_loop_long_high_choice_high_endpoint\\accepted_009.png"
+    ],
+    "sample_ids": [
+      "item_000269_trial_000269_01_spb",
+      "item_000894_trial_000894_02_spb",
+      "item_001218_trial_001707_05_spb",
+      "item_002480_trial_002480_03_pure_tbi",
+      "item_002420_trial_002807_00_spb",
+      "item_002009_trial_002944_01_random",
+      "item_002768_trial_004094_02_spb",
+      "item_004221_trial_004221_00_spb",
+      "item_003299_trial_004745_02_pure_tbi",
+      "item_004047_trial_005216_03_spb"
+    ],
+    "reason": null
+  },
+  "single_loop|long|high_choice|low_endpoint": {
+    "quota": 0,
+    "confirmed_count": 0,
+    "saved_png_count": 0,
+    "paths": [],
+    "sample_ids": [],
+    "reason": null
+  },
+  "single_loop|long|high_choice|mid_endpoint": {
+    "quota": 0,
+    "confirmed_count": 0,
+    "saved_png_count": 0,
+    "paths": [],
+    "sample_ids": [],
+    "reason": null
+  },
+  "single_loop|long|low_choice|high_endpoint": {
+    "quota": 6,
+    "confirmed_count": 0,
+    "saved_png_count": 0,
+    "paths": [],
+    "sample_ids": [],
+    "reason": null
+  },
+  "single_loop|long|low_choice|low_endpoint": {
+    "quota": 6,
+    "confirmed_count": 6,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\single_loop_long_low_choice_low_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\single_loop_long_low_choice_low_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\single_loop_long_low_choice_low_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\single_loop_long_low_choice_low_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\single_loop_long_low_choice_low_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "seed000011_step0",
+      "seed000017_step0",
+      "seed000029_step0",
+      "item_000029_trial_000029_00_pure_tbi",
+      "seed000058_step0"
+    ],
+    "reason": null
+  },
+  "single_loop|long|low_choice|mid_endpoint": {
+    "quota": 6,
+    "confirmed_count": 6,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\single_loop_long_low_choice_mid_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\single_loop_long_low_choice_mid_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\single_loop_long_low_choice_mid_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\single_loop_long_low_choice_mid_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\single_loop_long_low_choice_mid_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_000306_trial_000306_00_pure_tbi",
+      "item_000491_trial_000491_00_pure_tbi",
+      "item_000606_trial_000606_02_pure_tbi",
+      "item_000657_trial_000657_00_pure_tbi",
+      "seed000971_step0"
+    ],
+    "reason": null
+  },
+  "single_loop|long|mid_choice|high_endpoint": {
+    "quota": 74,
+    "confirmed_count": 74,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\single_loop_long_mid_choice_high_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\single_loop_long_mid_choice_high_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\single_loop_long_mid_choice_high_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\single_loop_long_mid_choice_high_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\single_loop_long_mid_choice_high_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_000269_trial_000269_02_stage_clo",
+      "item_004377_trial_004377_03_pure_tbi",
+      "item_004047_trial_004473_05_spb",
+      "item_009901_trial_009901_05_spb",
+      "item_015646_trial_015646_00_spb"
+    ],
+    "reason": null
+  },
+  "single_loop|long|mid_choice|low_endpoint": {
+    "quota": 0,
+    "confirmed_count": 0,
+    "saved_png_count": 0,
+    "paths": [],
+    "sample_ids": [],
+    "reason": null
+  },
+  "single_loop|long|mid_choice|mid_endpoint": {
+    "quota": 297,
+    "confirmed_count": 297,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\single_loop_long_mid_choice_mid_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\single_loop_long_mid_choice_mid_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\single_loop_long_mid_choice_mid_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\single_loop_long_mid_choice_mid_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\single_loop_long_mid_choice_mid_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_000011_trial_000011_01_pure_tbi",
+      "item_000011_trial_000011_02_pure_tbi",
+      "seed000015_step0",
+      "item_000015_trial_000015_00_pure_tbi",
+      "item_000017_trial_000017_00_pure_tbi"
+    ],
+    "reason": null
+  },
+  "single_loop|medium|high_choice|high_endpoint": {
+    "quota": 371,
+    "confirmed_count": 371,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\single_loop_medium_high_choice_high_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\single_loop_medium_high_choice_high_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\single_loop_medium_high_choice_high_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\single_loop_medium_high_choice_high_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\single_loop_medium_high_choice_high_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_000333_trial_000389_00_spb",
+      "item_000694_trial_000694_03_spb",
+      "item_000694_trial_000694_04_pure_tbi",
+      "item_000740_trial_000740_03_stage_clo",
+      "item_000751_trial_000751_03_spb"
+    ],
+    "reason": null
+  },
+  "single_loop|medium|high_choice|low_endpoint": {
+    "quota": 0,
+    "confirmed_count": 0,
+    "saved_png_count": 0,
+    "paths": [],
+    "sample_ids": [],
+    "reason": null
+  },
+  "single_loop|medium|high_choice|mid_endpoint": {
+    "quota": 0,
+    "confirmed_count": 0,
+    "saved_png_count": 0,
+    "paths": [],
+    "sample_ids": [],
+    "reason": null
+  },
+  "single_loop|medium|low_choice|high_endpoint": {
+    "quota": 6,
+    "confirmed_count": 3,
+    "saved_png_count": 3,
+    "paths": [
+      "sample_visualizations\\by_bin\\single_loop_medium_low_choice_high_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\single_loop_medium_low_choice_high_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\single_loop_medium_low_choice_high_endpoint\\accepted_002.png"
+    ],
+    "sample_ids": [
+      "item_006672_trial_006672_03_stage_clo",
+      "item_046621_trial_046621_00_spb",
+      "item_088478_trial_111133_04_pure_tbi"
+    ],
+    "reason": null
+  },
+  "single_loop|medium|low_choice|low_endpoint": {
+    "quota": 6,
+    "confirmed_count": 6,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\single_loop_medium_low_choice_low_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\single_loop_medium_low_choice_low_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\single_loop_medium_low_choice_low_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\single_loop_medium_low_choice_low_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\single_loop_medium_low_choice_low_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "seed000020_step0",
+      "item_000020_trial_000020_00_pure_tbi",
+      "seed000048_step0",
+      "item_000048_trial_000048_00_pure_tbi",
+      "item_000055_trial_000055_03_spb"
+    ],
+    "reason": null
+  },
+  "single_loop|medium|low_choice|mid_endpoint": {
+    "quota": 6,
+    "confirmed_count": 6,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\single_loop_medium_low_choice_mid_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\single_loop_medium_low_choice_mid_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\single_loop_medium_low_choice_mid_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\single_loop_medium_low_choice_mid_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\single_loop_medium_low_choice_mid_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_000012_trial_000012_04_spb",
+      "item_000252_trial_000252_04_spb",
+      "item_000409_trial_000409_00_pure_tbi",
+      "item_000458_trial_000458_01_spb",
+      "item_000458_trial_000458_02_pure_tbi"
+    ],
+    "reason": null
+  },
+  "single_loop|medium|mid_choice|high_endpoint": {
+    "quota": 75,
+    "confirmed_count": 75,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\single_loop_medium_mid_choice_high_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\single_loop_medium_mid_choice_high_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\single_loop_medium_mid_choice_high_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\single_loop_medium_mid_choice_high_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\single_loop_medium_mid_choice_high_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_000130_trial_000204_01_random",
+      "item_000615_trial_000615_01_spb",
+      "item_000722_trial_000750_03_spb",
+      "item_000956_trial_000956_00_spb",
+      "item_001100_trial_001255_01_spb"
+    ],
+    "reason": null
+  },
+  "single_loop|medium|mid_choice|low_endpoint": {
+    "quota": 0,
+    "confirmed_count": 0,
+    "saved_png_count": 0,
+    "paths": [],
+    "sample_ids": [],
+    "reason": null
+  },
+  "single_loop|medium|mid_choice|mid_endpoint": {
+    "quota": 6,
+    "confirmed_count": 6,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\single_loop_medium_mid_choice_mid_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\single_loop_medium_mid_choice_mid_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\single_loop_medium_mid_choice_mid_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\single_loop_medium_mid_choice_mid_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\single_loop_medium_mid_choice_mid_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_000009_trial_000009_00_spb",
+      "item_000009_trial_000009_01_spb",
+      "item_000018_trial_000018_00_spb",
+      "item_000018_trial_000022_01_spb",
+      "item_000065_trial_000065_01_pure_tbi"
+    ],
+    "reason": null
+  },
+  "single_loop|short|high_choice|high_endpoint": {
+    "quota": 6,
+    "confirmed_count": 6,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\single_loop_short_high_choice_high_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\single_loop_short_high_choice_high_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\single_loop_short_high_choice_high_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\single_loop_short_high_choice_high_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\single_loop_short_high_choice_high_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_000032_trial_000032_01_spb",
+      "item_000032_trial_000032_02_spb",
+      "item_000379_trial_000444_03_pure_tbi",
+      "item_000379_trial_000444_05_pure_tbi",
+      "seed000586_step0"
+    ],
+    "reason": null
+  },
+  "single_loop|short|high_choice|low_endpoint": {
+    "quota": 0,
+    "confirmed_count": 0,
+    "saved_png_count": 0,
+    "paths": [],
+    "sample_ids": [],
+    "reason": null
+  },
+  "single_loop|short|high_choice|mid_endpoint": {
+    "quota": 0,
+    "confirmed_count": 0,
+    "saved_png_count": 0,
+    "paths": [],
+    "sample_ids": [],
+    "reason": null
+  },
+  "single_loop|short|low_choice|high_endpoint": {
+    "quota": 6,
+    "confirmed_count": 6,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\single_loop_short_low_choice_high_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\single_loop_short_low_choice_high_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\single_loop_short_low_choice_high_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\single_loop_short_low_choice_high_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\single_loop_short_low_choice_high_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_008340_trial_008340_02_pure_tbi",
+      "item_004781_trial_011316_04_spb",
+      "item_000142_trial_014283_01_random",
+      "item_045363_trial_045363_05_pure_tbi",
+      "item_000142_trial_089404_00_pure_tbi"
+    ],
+    "reason": null
+  },
+  "single_loop|short|low_choice|low_endpoint": {
+    "quota": 6,
+    "confirmed_count": 6,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\single_loop_short_low_choice_low_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\single_loop_short_low_choice_low_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\single_loop_short_low_choice_low_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\single_loop_short_low_choice_low_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\single_loop_short_low_choice_low_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "seed000007_step0",
+      "seed000049_step0",
+      "seed000101_step0",
+      "item_000122_trial_000122_02_spb",
+      "item_000122_trial_000122_03_spb"
+    ],
+    "reason": null
+  },
+  "single_loop|short|low_choice|mid_endpoint": {
+    "quota": 6,
+    "confirmed_count": 6,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\single_loop_short_low_choice_mid_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\single_loop_short_low_choice_mid_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\single_loop_short_low_choice_mid_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\single_loop_short_low_choice_mid_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\single_loop_short_low_choice_mid_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_000101_trial_000119_00_pure_tbi",
+      "seed000124_step0",
+      "item_000148_trial_000148_01_spb",
+      "item_000101_trial_000186_00_pure_tbi",
+      "seed000203_step0"
+    ],
+    "reason": null
+  },
+  "single_loop|short|mid_choice|high_endpoint": {
+    "quota": 6,
+    "confirmed_count": 6,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\single_loop_short_mid_choice_high_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\single_loop_short_mid_choice_high_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\single_loop_short_mid_choice_high_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\single_loop_short_mid_choice_high_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\single_loop_short_mid_choice_high_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_000007_trial_000008_05_pure_tbi",
+      "item_000402_trial_000402_00_spb",
+      "item_000781_trial_000781_03_pure_tbi",
+      "item_000909_trial_000909_00_spb",
+      "item_000909_trial_000909_01_spb"
+    ],
+    "reason": null
+  },
+  "single_loop|short|mid_choice|low_endpoint": {
+    "quota": 0,
+    "confirmed_count": 0,
+    "saved_png_count": 0,
+    "paths": [],
+    "sample_ids": [],
+    "reason": null
+  },
+  "single_loop|short|mid_choice|mid_endpoint": {
+    "quota": 6,
+    "confirmed_count": 6,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\single_loop_short_mid_choice_mid_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\single_loop_short_mid_choice_mid_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\single_loop_short_mid_choice_mid_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\single_loop_short_mid_choice_mid_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\single_loop_short_mid_choice_mid_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_000007_trial_000007_00_pure_tbi",
+      "item_000007_trial_000007_01_pure_tbi",
+      "item_000031_trial_000031_02_random",
+      "item_000031_trial_000040_00_pure_tbi",
+      "seed000061_step0"
+    ],
+    "reason": null
+  },
+  "tree|long|high_choice|high_endpoint": {
+    "quota": 371,
+    "confirmed_count": 371,
+    "saved_png_count": 10,
+    "paths": [
+      "sample_visualizations\\by_bin\\tree_long_high_choice_high_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\tree_long_high_choice_high_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\tree_long_high_choice_high_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\tree_long_high_choice_high_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\tree_long_high_choice_high_endpoint\\accepted_004.png",
+      "sample_visualizations\\by_bin\\tree_long_high_choice_high_endpoint\\accepted_005.png",
+      "sample_visualizations\\by_bin\\tree_long_high_choice_high_endpoint\\accepted_006.png",
+      "sample_visualizations\\by_bin\\tree_long_high_choice_high_endpoint\\accepted_007.png",
+      "sample_visualizations\\by_bin\\tree_long_high_choice_high_endpoint\\accepted_008.png",
+      "sample_visualizations\\by_bin\\tree_long_high_choice_high_endpoint\\accepted_009.png"
+    ],
+    "sample_ids": [
+      "item_002583_trial_002731_04_pure_tbi",
+      "item_002509_trial_003031_00_pure_tbi",
+      "item_002509_trial_003031_02_pure_tbi",
+      "item_002814_trial_003192_01_pure_tbi",
+      "item_002882_trial_003266_05_pure_tbi",
+      "item_003008_trial_003390_04_pure_tbi",
+      "item_003586_trial_003586_03_spb",
+      "item_002583_trial_003637_01_random",
+      "item_003134_trial_003706_01_pure_tbi",
+      "item_001843_trial_003863_01_spb"
+    ],
+    "reason": null
+  },
+  "tree|long|high_choice|low_endpoint": {
+    "quota": 0,
+    "confirmed_count": 0,
+    "saved_png_count": 0,
+    "paths": [],
+    "sample_ids": [],
+    "reason": null
+  },
+  "tree|long|high_choice|mid_endpoint": {
+    "quota": 0,
+    "confirmed_count": 0,
+    "saved_png_count": 0,
+    "paths": [],
+    "sample_ids": [],
+    "reason": null
+  },
+  "tree|long|low_choice|high_endpoint": {
+    "quota": 6,
+    "confirmed_count": 0,
+    "saved_png_count": 0,
+    "paths": [],
+    "sample_ids": [],
+    "reason": null
+  },
+  "tree|long|low_choice|low_endpoint": {
+    "quota": 0,
+    "confirmed_count": 0,
+    "saved_png_count": 0,
+    "paths": [],
+    "sample_ids": [],
+    "reason": null
+  },
+  "tree|long|low_choice|mid_endpoint": {
+    "quota": 297,
+    "confirmed_count": 297,
+    "saved_png_count": 10,
+    "paths": [
+      "sample_visualizations\\by_bin\\tree_long_low_choice_mid_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\tree_long_low_choice_mid_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\tree_long_low_choice_mid_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\tree_long_low_choice_mid_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\tree_long_low_choice_mid_endpoint\\accepted_004.png",
+      "sample_visualizations\\by_bin\\tree_long_low_choice_mid_endpoint\\accepted_005.png",
+      "sample_visualizations\\by_bin\\tree_long_low_choice_mid_endpoint\\accepted_006.png",
+      "sample_visualizations\\by_bin\\tree_long_low_choice_mid_endpoint\\accepted_007.png",
+      "sample_visualizations\\by_bin\\tree_long_low_choice_mid_endpoint\\accepted_008.png",
+      "sample_visualizations\\by_bin\\tree_long_low_choice_mid_endpoint\\accepted_009.png"
+    ],
+    "sample_ids": [
+      "item_000002_trial_000002_00_pure_tbi",
+      "item_000002_trial_000002_01_pure_tbi",
+      "item_000013_trial_000013_00_pure_tbi",
+      "item_000017_trial_000017_04_spb",
+      "item_000018_trial_000022_04_spb",
+      "item_000034_trial_000034_02_pure_tbi",
+      "item_000034_trial_000034_03_pure_tbi",
+      "item_000039_trial_000039_00_pure_tbi",
+      "item_000039_trial_000039_01_pure_tbi",
+      "seed000046_step0"
+    ],
+    "reason": null
+  },
+  "tree|long|mid_choice|high_endpoint": {
+    "quota": 446,
+    "confirmed_count": 446,
+    "saved_png_count": 10,
+    "paths": [
+      "sample_visualizations\\by_bin\\tree_long_mid_choice_high_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\tree_long_mid_choice_high_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\tree_long_mid_choice_high_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\tree_long_mid_choice_high_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\tree_long_mid_choice_high_endpoint\\accepted_004.png",
+      "sample_visualizations\\by_bin\\tree_long_mid_choice_high_endpoint\\accepted_005.png",
+      "sample_visualizations\\by_bin\\tree_long_mid_choice_high_endpoint\\accepted_006.png",
+      "sample_visualizations\\by_bin\\tree_long_mid_choice_high_endpoint\\accepted_007.png",
+      "sample_visualizations\\by_bin\\tree_long_mid_choice_high_endpoint\\accepted_008.png",
+      "sample_visualizations\\by_bin\\tree_long_mid_choice_high_endpoint\\accepted_009.png"
+    ],
+    "sample_ids": [
+      "item_000165_trial_000165_02_pure_tbi",
+      "item_000146_trial_000169_01_spb",
+      "item_000452_trial_000452_03_pure_tbi",
+      "item_001203_trial_001203_02_pure_tbi",
+      "item_001476_trial_001476_05_spb",
+      "item_001663_trial_001663_02_pure_tbi",
+      "item_001822_trial_001822_04_pure_tbi",
+      "item_001822_trial_001822_05_spb",
+      "item_001843_trial_001843_03_pure_tbi",
+      "item_001843_trial_001843_05_spb"
+    ],
+    "reason": null
+  },
+  "tree|long|mid_choice|low_endpoint": {
+    "quota": 0,
+    "confirmed_count": 0,
+    "saved_png_count": 0,
+    "paths": [],
+    "sample_ids": [],
+    "reason": null
+  },
+  "tree|long|mid_choice|mid_endpoint": {
+    "quota": 149,
+    "confirmed_count": 149,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\tree_long_mid_choice_mid_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\tree_long_mid_choice_mid_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\tree_long_mid_choice_mid_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\tree_long_mid_choice_mid_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\tree_long_mid_choice_mid_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_000002_trial_000002_02_pure_tbi",
+      "item_000011_trial_000011_04_spb",
+      "item_000046_trial_000046_01_pure_tbi",
+      "item_000046_trial_000046_02_pure_tbi",
+      "item_000066_trial_000066_02_pure_tbi"
+    ],
+    "reason": null
+  },
+  "tree|medium|high_choice|high_endpoint": {
+    "quota": 6,
+    "confirmed_count": 6,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\tree_medium_high_choice_high_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\tree_medium_high_choice_high_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\tree_medium_high_choice_high_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\tree_medium_high_choice_high_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\tree_medium_high_choice_high_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_000694_trial_000694_05_spb",
+      "item_001164_trial_001164_04_pure_tbi",
+      "item_001118_trial_001172_01_pure_tbi",
+      "item_000590_trial_001475_02_pure_tbi",
+      "item_001770_trial_001770_03_spb"
+    ],
+    "reason": null
+  },
+  "tree|medium|high_choice|low_endpoint": {
+    "quota": 0,
+    "confirmed_count": 0,
+    "saved_png_count": 0,
+    "paths": [],
+    "sample_ids": [],
+    "reason": null
+  },
+  "tree|medium|high_choice|mid_endpoint": {
+    "quota": 0,
+    "confirmed_count": 0,
+    "saved_png_count": 0,
+    "paths": [],
+    "sample_ids": [],
+    "reason": null
+  },
+  "tree|medium|low_choice|high_endpoint": {
+    "quota": 6,
+    "confirmed_count": 6,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\tree_medium_low_choice_high_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\tree_medium_low_choice_high_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\tree_medium_low_choice_high_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\tree_medium_low_choice_high_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\tree_medium_low_choice_high_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_011189_trial_012339_00_spb",
+      "item_014387_trial_029671_04_spb",
+      "item_040484_trial_040484_02_spb",
+      "item_060585_trial_060585_04_pure_tbi",
+      "item_081405_trial_081405_05_spb"
+    ],
+    "reason": null
+  },
+  "tree|medium|low_choice|low_endpoint": {
+    "quota": 0,
+    "confirmed_count": 0,
+    "saved_png_count": 0,
+    "paths": [],
+    "sample_ids": [],
+    "reason": null
+  },
+  "tree|medium|low_choice|mid_endpoint": {
+    "quota": 6,
+    "confirmed_count": 6,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\tree_medium_low_choice_mid_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\tree_medium_low_choice_mid_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\tree_medium_low_choice_mid_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\tree_medium_low_choice_mid_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\tree_medium_low_choice_mid_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_000020_trial_000020_04_spb",
+      "item_000020_trial_000035_03_spb",
+      "item_000052_trial_000052_00_spb",
+      "item_000052_trial_000052_01_pure_tbi",
+      "item_000059_trial_000059_00_spb"
+    ],
+    "reason": null
+  },
+  "tree|medium|mid_choice|high_endpoint": {
+    "quota": 75,
+    "confirmed_count": 75,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\tree_medium_mid_choice_high_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\tree_medium_mid_choice_high_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\tree_medium_mid_choice_high_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\tree_medium_mid_choice_high_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\tree_medium_mid_choice_high_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_000130_trial_000193_05_spb",
+      "item_000203_trial_000295_01_spb",
+      "item_000203_trial_000295_03_spb",
+      "item_000252_trial_000412_04_pure_tbi",
+      "item_000379_trial_000474_00_spb"
+    ],
+    "reason": null
+  },
+  "tree|medium|mid_choice|low_endpoint": {
+    "quota": 0,
+    "confirmed_count": 0,
+    "saved_png_count": 0,
+    "paths": [],
+    "sample_ids": [],
+    "reason": null
+  },
+  "tree|medium|mid_choice|mid_endpoint": {
+    "quota": 6,
+    "confirmed_count": 6,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\tree_medium_mid_choice_mid_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\tree_medium_mid_choice_mid_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\tree_medium_mid_choice_mid_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\tree_medium_mid_choice_mid_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\tree_medium_mid_choice_mid_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_000009_trial_000009_02_spb",
+      "item_000048_trial_000048_04_random",
+      "item_000052_trial_000052_02_pure_tbi",
+      "item_000063_trial_000063_03_pure_tbi",
+      "item_000065_trial_000097_00_spb"
+    ],
+    "reason": null
+  },
+  "tree|short|high_choice|high_endpoint": {
+    "quota": 6,
+    "confirmed_count": 6,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\tree_short_high_choice_high_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\tree_short_high_choice_high_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\tree_short_high_choice_high_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\tree_short_high_choice_high_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\tree_short_high_choice_high_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_000195_trial_000226_02_pure_tbi",
+      "item_000247_trial_000256_02_pure_tbi",
+      "item_000247_trial_000256_03_spb",
+      "item_000261_trial_000261_03_spb",
+      "item_000236_trial_000283_03_pure_tbi"
+    ],
+    "reason": null
+  },
+  "tree|short|high_choice|low_endpoint": {
+    "quota": 0,
+    "confirmed_count": 0,
+    "saved_png_count": 0,
+    "paths": [],
+    "sample_ids": [],
+    "reason": null
+  },
+  "tree|short|high_choice|mid_endpoint": {
+    "quota": 0,
+    "confirmed_count": 0,
+    "saved_png_count": 0,
+    "paths": [],
+    "sample_ids": [],
+    "reason": null
+  },
+  "tree|short|low_choice|high_endpoint": {
+    "quota": 6,
+    "confirmed_count": 6,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\tree_short_low_choice_high_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\tree_short_low_choice_high_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\tree_short_low_choice_high_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\tree_short_low_choice_high_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\tree_short_low_choice_high_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_000625_trial_000625_03_pure_tbi",
+      "item_000665_trial_000665_05_pure_tbi",
+      "item_000965_trial_000965_05_pure_tbi",
+      "item_000965_trial_001323_00_spb",
+      "item_000355_trial_002214_00_pure_tbi"
+    ],
+    "reason": null
+  },
+  "tree|short|low_choice|low_endpoint": {
+    "quota": 0,
+    "confirmed_count": 0,
+    "saved_png_count": 0,
+    "paths": [],
+    "sample_ids": [],
+    "reason": null
+  },
+  "tree|short|low_choice|mid_endpoint": {
+    "quota": 6,
+    "confirmed_count": 6,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\tree_short_low_choice_mid_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\tree_short_low_choice_mid_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\tree_short_low_choice_mid_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\tree_short_low_choice_mid_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\tree_short_low_choice_mid_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_000010_trial_000010_01_spb",
+      "item_000010_trial_000010_02_spb",
+      "seed000031_step0",
+      "item_000031_trial_000031_00_pure_tbi",
+      "seed000041_step0"
+    ],
+    "reason": null
+  },
+  "tree|short|mid_choice|high_endpoint": {
+    "quota": 6,
+    "confirmed_count": 6,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\tree_short_mid_choice_high_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\tree_short_mid_choice_high_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\tree_short_mid_choice_high_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\tree_short_mid_choice_high_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\tree_short_mid_choice_high_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_000041_trial_000041_05_pure_tbi",
+      "item_000061_trial_000061_04_spb",
+      "item_000181_trial_000181_04_spb",
+      "item_000181_trial_000181_05_spb",
+      "item_000195_trial_000195_01_spb"
+    ],
+    "reason": null
+  },
+  "tree|short|mid_choice|low_endpoint": {
+    "quota": 0,
+    "confirmed_count": 0,
+    "saved_png_count": 0,
+    "paths": [],
+    "sample_ids": [],
+    "reason": null
+  },
+  "tree|short|mid_choice|mid_endpoint": {
+    "quota": 6,
+    "confirmed_count": 6,
+    "saved_png_count": 5,
+    "paths": [
+      "sample_visualizations\\by_bin\\tree_short_mid_choice_mid_endpoint\\accepted_000.png",
+      "sample_visualizations\\by_bin\\tree_short_mid_choice_mid_endpoint\\accepted_001.png",
+      "sample_visualizations\\by_bin\\tree_short_mid_choice_mid_endpoint\\accepted_002.png",
+      "sample_visualizations\\by_bin\\tree_short_mid_choice_mid_endpoint\\accepted_003.png",
+      "sample_visualizations\\by_bin\\tree_short_mid_choice_mid_endpoint\\accepted_004.png"
+    ],
+    "sample_ids": [
+      "item_000010_trial_000010_04_pure_tbi",
+      "item_000041_trial_000041_00_pure_tbi",
+      "item_000041_trial_000041_02_spb",
+      "item_000049_trial_000049_04_pure_tbi",
+      "item_000049_trial_000057_02_spb"
+    ],
+    "reason": null
+  }
+}

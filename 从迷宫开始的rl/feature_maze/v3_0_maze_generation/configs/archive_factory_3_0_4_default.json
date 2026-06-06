@@ -1,0 +1,237 @@
+{
+  "grid": {
+    "size": 8,
+    "start": [
+      0,
+      0
+    ],
+    "goal": [
+      7,
+      7
+    ],
+    "start_goal_policy": "sample_by_bfs_bin"
+  },
+  "start_goal": {
+    "pair_sampling_mode": "all_pairs",
+    "max_pair_count": 4096,
+    "pair_sample_count": 64,
+    "target_bfs_bin_policy": "prefer_sparse_bins",
+    "fallback_policy": "random_free_pair",
+    "min_bfs_len": 3
+  },
+  "seed_generators": {
+    "weights": {
+      "random_wall_generator": 1.0,
+      "dfs_tree_generator": 1.0,
+      "loose_path_first_generator": 1.0,
+      "room_biased_generator": 1.0,
+      "template_mutation_generator": 0.25
+    },
+    "random_wall_generator": {
+      "wall_prob_min": 0.18,
+      "wall_prob_max": 0.48
+    },
+    "dfs_tree_generator": {
+      "branch_open_prob": 0.25,
+      "extra_open_prob": 0.08
+    },
+    "loose_path_first_generator": {
+      "max_path_attempts": 160,
+      "extra_open_prob": 0.16
+    },
+    "room_biased_generator": {
+      "room_count_min": 1,
+      "room_count_max": 3,
+      "room_size_min": 2,
+      "room_size_max": 4,
+      "connector_open_prob": 0.08
+    },
+    "template_mutation_generator": {
+      "base": "loose_path_first_generator",
+      "initial_mutations": 4
+    }
+  },
+  "transform": {
+    "max_transform_steps": 6,
+    "max_consecutive_transform_failures": 3,
+    "continue_after_reject": true,
+    "operator_weights": {
+      "loop_flip": 1.0,
+      "branch_grow": 1.0,
+      "shortcut_block": 1.0,
+      "cell_flip_random": 0.35
+    },
+    "adaptive_weights": {
+      "cycle_low_loop_flip_multiplier": 2.0,
+      "endpoint_low_branch_grow_multiplier": 2.0,
+      "bfs_short_shortcut_block_multiplier": 2.0,
+      "failure_cell_flip_multiplier": 2.0
+    },
+    "branch_grow": {
+      "max_new_cells": 3
+    },
+    "cell_flip_random": {
+      "max_flips": 2
+    }
+  },
+  "archive": {
+    "cycle_rank_bins": [
+      {
+        "name": "tree",
+        "range": [
+          0,
+          0
+        ]
+      },
+      {
+        "name": "single_loop",
+        "range": [
+          1,
+          1
+        ]
+      },
+      {
+        "name": "multi_loop",
+        "range": [
+          2,
+          999
+        ]
+      }
+    ],
+    "bfs_len_bins": [
+      {
+        "name": "short",
+        "range": [
+          1,
+          10
+        ]
+      },
+      {
+        "name": "medium",
+        "range": [
+          11,
+          20
+        ]
+      },
+      {
+        "name": "long",
+        "range": [
+          21,
+          999
+        ]
+      }
+    ],
+    "macro_choice_bins": [
+      {
+        "name": "low_choice",
+        "range": [
+          0,
+          2
+        ]
+      },
+      {
+        "name": "mid_choice",
+        "range": [
+          3,
+          5
+        ]
+      },
+      {
+        "name": "high_choice",
+        "range": [
+          6,
+          999
+        ]
+      }
+    ],
+    "macro_endpoint_bins": [
+      {
+        "name": "low_endpoint",
+        "range": [
+          0,
+          2
+        ]
+      },
+      {
+        "name": "mid_endpoint",
+        "range": [
+          3,
+          6
+        ]
+      },
+      {
+        "name": "high_endpoint",
+        "range": [
+          7,
+          999
+        ]
+      }
+    ],
+    "bin_quota_default": 30,
+    "bin_quotas": {}
+  },
+  "acceptance": {
+    "epsilon": 1.0,
+    "alpha": 1.0,
+    "hard_bin_cap_ratio": 2.0
+  },
+  "quality_gate": {
+    "min_reachable_free_ratio": 0.9,
+    "min_bfs_len": 3,
+    "min_start_free_degree": 1,
+    "min_free_ratio": 0.2,
+    "max_free_ratio": 0.85
+  },
+  "diversity": {
+    "reject_exact_duplicate": true,
+    "max_same_origin_seed_per_bin": 2,
+    "enable_near_duplicate_hamming_check": false,
+    "near_duplicate_hamming_threshold": 2
+  },
+  "room_detection": {
+    "room_min_component_size": 3,
+    "room_high_degree_threshold": 3
+  },
+  "macro_extraction": {
+    "enable_room_aware_compression": true,
+    "open_area_by_2x2": true,
+    "open_area_by_degree_density": true,
+    "degree_density_min_degree": 3,
+    "degree_density_min_local_free_count": 4,
+    "degree_density_neighborhood": "8"
+  },
+  "rect_room_extraction": {
+    "enabled": true,
+    "min_w": 2,
+    "min_h": 2,
+    "selection": "max_non_overlapping_greedy",
+    "bbox_convention": "inclusive",
+    "elongated_aspect_ratio": 3.0,
+    "fast_metrics_only": true
+  },
+  "debug": {
+    "cycle_rank_close_threshold": 2.0,
+    "overcompression_residual_threshold": 2.0,
+    "high_choice_sparse_threshold": 0.05,
+    "generator_dominance_threshold": 0.6,
+    "parallel_edge_loss_raw_cycle_threshold": 5.0
+  },
+  "visualization": {
+    "enabled": false,
+    "sampling_policy": "stratified_by_bin",
+    "max_samples": 48,
+    "max_per_bin": 2,
+    "max_per_origin_seed": 1,
+    "include_sparse_bins": true,
+    "include_overfull_bins": true
+  },
+  "runtime": {
+    "visual_sample_count": 48,
+    "candidate_debug_limit": 5000,
+    "decision_debug_limit": 500,
+    "rejected_example_limit": 200,
+    "target_total_accepted": null,
+    "stop_when_all_bins_reach_quota": false,
+    "skip_expensive_extractors_on_quality_fail": true
+  }
+}

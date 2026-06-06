@@ -1,0 +1,38 @@
+{
+  "selected_samples": [
+    {
+      "rank": 1,
+      "category": "loop_substitute",
+      "maze_id": "maze_00028",
+      "status": "PASS",
+      "why_selected": "representative success/failure category",
+      "files": {
+        "maze_overlay": "feature_maze\\v3_0_maze_generation\\outputs\\3.0.3\\diag_3_0_3_2_C_mrb_guard_only_single_loop_n100_seed42\\visualization_samples\\01_loop_substitute__maze_00028_maze_overlay.png",
+        "decision_graph": "feature_maze\\v3_0_maze_generation\\outputs\\3.0.3\\diag_3_0_3_2_C_mrb_guard_only_single_loop_n100_seed42\\visualization_samples\\01_loop_substitute__maze_00028_decision_graph.png"
+      },
+      "failure_code": null
+    },
+    {
+      "rank": 2,
+      "category": "failure_edge_routing_failed",
+      "maze_id": "maze_00000",
+      "status": "FAILED",
+      "why_selected": "representative success/failure category",
+      "files": {},
+      "failure_code": "edge_routing_failed"
+    }
+  ],
+  "success_sample_shortage": true,
+  "available_success_categories": [
+    "loop_substitute"
+  ],
+  "missing_success_categories": [
+    "pure_topology",
+    "loop_substitute",
+    "terminal_choice",
+    "D-range binding",
+    "island",
+    "room_neutral",
+    "full_mvp"
+  ]
+}

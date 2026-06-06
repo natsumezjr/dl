@@ -1,0 +1,42 @@
+[
+  {
+    "maze_id": "maze_00033",
+    "hard_failure_reason": "alternative_coplanned_no_valid_route",
+    "debug": {
+      "main_path_attempt_count": 100,
+      "edge_attempt_count": 9966,
+      "edge_path_search_steps": 100036,
+      "extract_graph_call_count": 181,
+      "bfs_call_count": 1140,
+      "main_path_fail_reason_counts": {},
+      "edge_reject_reason_counts": {
+        "alternative_coplanned_hits_unrelated_free_cell": 7632,
+        "alternative_coplanned_edge_self_intersection": 1375,
+        "alternative_coplanned_shortest_path_changed_goal": 878
+      },
+      "anchor_reject_reason_counts": {},
+      "anchor_candidate_count": 0
+    }
+  },
+  {
+    "maze_id": "maze_00054",
+    "hard_failure_reason": "alternative_coplanned_no_valid_route",
+    "debug": {
+      "main_path_attempt_count": 172,
+      "edge_attempt_count": 10718,
+      "edge_path_search_steps": 105448,
+      "extract_graph_call_count": 212,
+      "bfs_call_count": 1457,
+      "main_path_fail_reason_counts": {
+        "main_path_no_goal_candidate": 72
+      },
+      "edge_reject_reason_counts": {
+        "alternative_coplanned_hits_unrelated_free_cell": 8163,
+        "alternative_coplanned_edge_self_intersection": 1310,
+        "alternative_coplanned_shortest_path_changed_goal": 1133
+      },
+      "anchor_reject_reason_counts": {},
+      "anchor_candidate_count": 0
+    }
+  }
+]

@@ -1,0 +1,3408 @@
+[
+  {
+    "maze_id": "maze_00000",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e3"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e3"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          2
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.3296385798312595,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e3"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00001",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e2",
+        "e3"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e2",
+        "e3"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          14
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 8.47906054976411,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e2",
+        "e3"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00002",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e3"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e3"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          4
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 6.519088017338062,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e3"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00003",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e4"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e4"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          8
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 6.589611112257308,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e4"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00004",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e2",
+        "e3"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e2",
+        "e3"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          13
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.752174782398843,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e2",
+        "e3"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00005",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e4"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e4"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          8
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.708537454844863,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e4"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00006",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e2",
+        "e4"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e2",
+        "e4"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          11
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.0521747823988425,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e2",
+        "e4"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00007",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          4
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 8.014900127290883,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00008",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e1",
+        "e4"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e1",
+        "e4"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          14
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 8.47906054976411,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e1",
+        "e4"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00009",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e4"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e4"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          8
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.693799002304487,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e4"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00010",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e3"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e3"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          8
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.708537454844863,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e3"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00011",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e2"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e2"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          9
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.331235332162953,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e2"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00012",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e2"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e2"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          6
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 6.672859552068596,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e2"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00013",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e1",
+        "e3"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e1",
+        "e3"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          13
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.024872659716932,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e1",
+        "e3"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00014",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          3
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.483826469878438,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00015",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e1",
+        "e2"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e1",
+        "e2"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          9
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 8.239611112257307,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e1",
+        "e2"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00016",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e3",
+        "e4"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e3",
+        "e4"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          8
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 8.100161674750506,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e3",
+        "e4"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00017",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e4"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e4"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          3
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 6.756524347196526,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e4"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00018",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e1",
+        "e2"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e1",
+        "e2"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          5
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 6.869088017338061,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e1",
+        "e2"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00019",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e2",
+        "e3"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e2",
+        "e3"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          10
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 6.702174782398842,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e2",
+        "e3"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00020",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e2",
+        "e4"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e2",
+        "e4"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          14
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.17906054976411,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e2",
+        "e4"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00021",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e2",
+        "e4"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e2",
+        "e4"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          14
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.17906054976411,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e2",
+        "e4"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00022",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e4"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e4"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          8
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.708537454844863,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e4"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00023",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e2"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e2"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          8
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.512725344892041,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e2"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00024",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e3",
+        "e4"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e3",
+        "e4"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          9
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.135423222210131,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e3",
+        "e4"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00025",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e4"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e4"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          8
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 6.981235332162953,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e4"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00026",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e4"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e4"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          9
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 6.9396111122573085,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e4"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00027",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e1"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e1"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          4
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 6.714900127290884,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e1"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00028",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e1",
+        "e3"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e1",
+        "e3"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          11
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.247986892351664,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e1",
+        "e3"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00029",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e2",
+        "e3"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e2",
+        "e3"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          14
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.17906054976411,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e2",
+        "e3"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00030",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e2",
+        "e3"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e2",
+        "e3"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          14
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 6.9832484398112875,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e2",
+        "e3"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00031",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e1",
+        "e2"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e1",
+        "e2"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          6
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.023275907385239,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e1",
+        "e2"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00032",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e1"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e1"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          9
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.331235332162953,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e1"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00033",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e2"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e2"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          4
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 6.910712237243706,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e2"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00034",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e1",
+        "e3"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e1",
+        "e3"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          12
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 6.674872659716932,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e1",
+        "e3"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00035",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e2",
+        "e3"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e2",
+        "e3"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          14
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 8.47906054976411,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e2",
+        "e3"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00036",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e1"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e1"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          7
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 8.322859552068596,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e1"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00037",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e1"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e1"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          9
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 6.924872659716932,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e1"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00038",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e4"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e4"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          6
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 6.672859552068596,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e4"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00039",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e2",
+        "e4"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e2",
+        "e4"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          14
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 6.9832484398112875,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e2",
+        "e4"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00040",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e1",
+        "e3"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e1",
+        "e3"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          11
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.443799002304486,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e1",
+        "e3"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00041",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          5
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.44178589465615,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00042",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e1",
+        "e4"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e1",
+        "e4"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          11
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.443799002304486,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e1",
+        "e4"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00043",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e2",
+        "e3"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e2",
+        "e3"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          11
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.052174782398842,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e2",
+        "e3"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00044",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e1",
+        "e2"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e1",
+        "e2"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          8
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 6.589611112257309,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e1",
+        "e2"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00045",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e3",
+        "e4"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e3",
+        "e4"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          11
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.624872659716932,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e3",
+        "e4"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00046",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e3"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e3"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          8
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 8.477047442115776,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e3"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00047",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          4
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 6.714900127290884,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00048",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e1",
+        "e2"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e1",
+        "e2"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          7
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 6.981651687479595,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e1",
+        "e2"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00049",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e2"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e2"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          10
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.666496879622576,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e2"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00050",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e3",
+        "e4"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e3",
+        "e4"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          6
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.400161674750507,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e3",
+        "e4"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00051",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e1",
+        "e4"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e1",
+        "e4"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          12
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 6.674872659716932,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e1",
+        "e4"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00052",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e3",
+        "e4"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e3",
+        "e4"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          10
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.666496879622576,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e3",
+        "e4"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00053",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e4"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e4"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          6
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 6.672859552068596,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e4"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00054",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e1"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e1"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          6
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 6.672859552068596,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e1"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00055",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e2",
+        "e3"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e2",
+        "e3"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          9
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 6.562725344892041,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e2",
+        "e3"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00056",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e3"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e3"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          9
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.120684769669754,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e3"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00057",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e4"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e4"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          3
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.288014359925615,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e4"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00058",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e2"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e2"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          6
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.400161674750507,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e2"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00059",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e2"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e2"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          9
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 8.254349564797685,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e2"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00060",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e3"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e3"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          8
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 6.770684769669754,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e3"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00061",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e3"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e3"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          7
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.2039332094810415,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e3"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00062",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e1"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e1"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          8
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.512725344892041,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e1"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00063",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e2",
+        "e3"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e2",
+        "e3"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          13
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 6.82906054976411,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e2",
+        "e3"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00064",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          3
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 6.560712237243704,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00065",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e4"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e4"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          10
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.862308989575398,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e4"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00066",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e2"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e2"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          9
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 8.058537454844863,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e2"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00067",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e3"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e3"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          8
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.708537454844863,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e3"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00068",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e1",
+        "e3"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e1",
+        "e3"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          13
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 8.324872659716931,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e1",
+        "e3"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00069",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e2",
+        "e3"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e2",
+        "e3"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          13
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.933248439811288,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e2",
+        "e3"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00070",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e1",
+        "e2"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e1",
+        "e2"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          10
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.666496879622576,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e1",
+        "e2"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00071",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e4"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e4"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          10
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.470684769669754,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e4"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00072",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e2",
+        "e3"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e2",
+        "e3"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          10
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 6.897986892351664,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e2",
+        "e3"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00073",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e2",
+        "e4"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e2",
+        "e4"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          11
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.052174782398842,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e2",
+        "e4"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00074",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e1",
+        "e4"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e1",
+        "e4"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          11
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.052174782398842,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e1",
+        "e4"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00075",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e4"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e4"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          7
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.0081210995282195,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e4"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00076",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e1"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e1"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          3
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 6.560712237243704,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e1"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00077",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e4"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e4"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          3
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 6.560712237243704,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e4"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00078",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          3
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 6.756524347196526,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00079",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          4
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 6.519088017338062,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00080",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e3",
+        "e4"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e3",
+        "e4"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          10
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.666496879622576,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e3",
+        "e4"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00081",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e2",
+        "e3"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e2",
+        "e3"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          12
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 6.674872659716932,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e2",
+        "e3"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00082",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          4
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 6.519088017338062,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00083",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e2"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e2"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          7
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 6.631235332162952,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e2"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00084",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e3"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e3"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          12
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 8.170684769669753,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e3"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00085",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e1",
+        "e4"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e1",
+        "e4"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          12
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.597986892351665,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e1",
+        "e4"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00086",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e3",
+        "e4"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e3",
+        "e4"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          7
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.554349564797684,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e3",
+        "e4"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00087",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e1",
+        "e4"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e1",
+        "e4"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          10
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 6.716913234939219,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e1",
+        "e4"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00088",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e1",
+        "e4"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e1",
+        "e4"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          13
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 8.129060549764109,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e1",
+        "e4"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00089",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e1",
+        "e2"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e1",
+        "e2"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          10
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 8.393799002304487,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e1",
+        "e2"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00090",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e4"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e4"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          2
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.1338264698784375,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e4"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00091",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e2"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e2"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          4
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 6.714900127290884,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e2"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00092",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          4
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 6.895973784703329,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00093",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e3",
+        "e4"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e3",
+        "e4"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          10
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.48542322221013,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e3",
+        "e4"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00094",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e2",
+        "e3"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e2",
+        "e3"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          12
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.402174782398841,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e2",
+        "e3"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00095",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e2",
+        "e4"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e2",
+        "e4"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          8
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.331651687479594,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e2",
+        "e4"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00096",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e1"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e1"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          10
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.48542322221013,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e1"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00097",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e0",
+        "e2",
+        "e3"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e0",
+        "e2",
+        "e3"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          11
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.443799002304486,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e0",
+        "e2",
+        "e3"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00098",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e2"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e2"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          3
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.483826469878437,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e2"
+      ]
+    }
+  },
+  {
+    "maze_id": "maze_00099",
+    "mrb_guard_debug": {
+      "mrb_guard_enabled": false,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "preliminary_main_bundle_edges": [
+        "e1"
+      ],
+      "weighted_main_bundle_edges_before_guard": [
+        "e1"
+      ],
+      "weighted_MRB_edges_added": [],
+      "weighted_MRB_edges_removed": [],
+      "change_reasons": [],
+      "guard_adjustments": [],
+      "main_path_length_imbalance": {
+        "weighted_lengths": [
+          6
+        ],
+        "gap": 0,
+        "warning": false
+      },
+      "C_path_before_guard": 7.204349564797685,
+      "target_C_path": 7.0,
+      "guard_invoked": false,
+      "guard_failed": false,
+      "weighted_main_bundle_edges_after_guard": [
+        "e1"
+      ]
+    }
+  }
+]

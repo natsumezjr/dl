@@ -1,0 +1,78 @@
+[
+  {
+    "hint": "anchor geometry mismatch detected.",
+    "likely_direction": [
+      "Room representative anchor differs from actual edge exit cell.",
+      "This is acceptable only if core metrics use D_path."
+    ],
+    "suggested_next_json": [
+      "edge_geometry_debug.json",
+      "debug_extraction_report.json"
+    ],
+    "suggested_config_fields": [
+      "room_detection.use_2x2_free_block",
+      "room_detection.room_min_component_size"
+    ]
+  },
+  {
+    "hint": "Effective plan does not match extracted graph.",
+    "likely_direction": [
+      "Accepted edges are not being extracted as intended.",
+      "Graph delta validation is incomplete."
+    ],
+    "suggested_next_json": [
+      "planned_edge_paths.json",
+      "graph_delta_debug.json",
+      "plan_vs_extracted_pairs.json",
+      "maze_overlay_samples/"
+    ],
+    "suggested_config_fields": [
+      "add_edge expected graph delta check",
+      "edge classification rules"
+    ]
+  },
+  {
+    "hint": "Extracted main edge sum differs, but final BFS and hinted main path are correct.",
+    "likely_direction": [
+      "This is an Extract/Compare representation issue, not a shortest-path failure.",
+      "Check main_path_hint handling and main/alternative edge classification."
+    ],
+    "suggested_next_json": [
+      "extracted_decision_graphs.json",
+      "planned_edge_paths.json",
+      "graph_delta_debug.json"
+    ],
+    "suggested_config_fields": [
+      "extract_decision_graph.main_path_hint",
+      "edge_classification.alternative_edge_rule"
+    ]
+  },
+  {
+    "hint": "Fewer than 5 success categories were selected.",
+    "likely_direction": [
+      "Some profiles do not yet produce enough successful cases."
+    ],
+    "suggested_next_json": [
+      "sample_selection_report.json"
+    ],
+    "suggested_config_fields": [
+      "diagnostic_profiles",
+      "sample_selection.categories"
+    ]
+  },
+  {
+    "hint": "Island candidate generation is weak.",
+    "likely_direction": [
+      "Current island placement fails before extraction."
+    ],
+    "suggested_next_json": [
+      "planned_edge_paths.json",
+      "graph_delta_debug.json"
+    ],
+    "suggested_config_fields": [
+      "island.max_island_attempts",
+      "island.candidate_strategy",
+      "island.free_budget_max"
+    ]
+  }
+]

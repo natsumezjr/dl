@@ -1,0 +1,8555 @@
+[
+  {
+    "maze_id": "n7d_00000",
+    "maze": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "start": [
+      5,
+      0
+    ],
+    "goal": [
+      0,
+      3
+    ],
+    "generator_name": "pf_mcg",
+    "generation_success": false,
+    "generation_failed_target": true,
+    "hard_failure": false,
+    "hard_failure_reason": null,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.935167090229932,
+        0.9851670902299321
+      ],
+      "wall_ratio": [
+        0.18548142364122108,
+        0.24798142364122108
+      ],
+      "bfs_len_norm": [
+        0.2698412698412698,
+        0.30158730158730157
+      ],
+      "detour_ratio": [
+        2.004682489381228,
+        2.404682489381228
+      ],
+      "dead_end_ratio": [
+        0.041238792593485195,
+        0.09123879259348519
+      ],
+      "dead_end_depth_mean": [
+        1.1246881788729377,
+        1.8246881788729379
+      ],
+      "junction_ratio": [
+        0.6197215901586297,
+        0.7197215901586298
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.014832909770067883,
+        0.06483290977006789
+      ]
+    },
+    "sampled_targets": {
+      "L_BFS": 18.0,
+      "detour_ratio": 2.204682489381228,
+      "wall_ratio": 0.21673142364122108,
+      "dead_end_ratio": 0.0662387925934852,
+      "dead_end_depth_mean": 1.4746881788729378,
+      "junction_ratio": 0.6697215901586298,
+      "island_free_ratio": 0.039832909770067884,
+      "derived_D": 8
+    },
+    "derived_D": 8,
+    "main_path": [
+      [
+        5,
+        0
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        7,
+        3
+      ],
+      [
+        7,
+        4
+      ],
+      [
+        7,
+        5
+      ],
+      [
+        7,
+        6
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "main_path_len": 18,
+    "main_path_detour_ratio": 2.25,
+    "generation_metadata": {
+      "restart_count": 91,
+      "edit_steps": 80,
+      "final_range_error": 0.029665819540135786,
+      "final_sampled_target_error": 0.3859568536778787,
+      "failed_metrics": [
+        "reachable_free_ratio",
+        "island_free_ratio"
+      ],
+      "operation_stats": {
+        "dead_end_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "branch_inject": {
+          "selected_count": 4,
+          "attempt_count": 4,
+          "success_count": 4,
+          "accept_count": 2,
+          "reject_count": 2,
+          "reject_reason_counts": {
+            "metric_not_improved": 2
+          }
+        },
+        "island_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_add": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_remove": {
+          "selected_count": 71,
+          "attempt_count": 71,
+          "success_count": 71,
+          "accept_count": 27,
+          "reject_count": 44,
+          "reject_reason_counts": {
+            "metric_not_improved": 44
+          }
+        },
+        "path_block_optional": {
+          "selected_count": 5,
+          "attempt_count": 5,
+          "success_count": 5,
+          "accept_count": 1,
+          "reject_count": 4,
+          "reject_reason_counts": {
+            "metric_not_improved": 4
+          }
+        }
+      },
+      "primitive_test_name": null
+    },
+    "target_value": null
+  },
+  {
+    "maze_id": "n7d_00001",
+    "maze": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "start": [
+      2,
+      1
+    ],
+    "goal": [
+      5,
+      4
+    ],
+    "generator_name": "pf_mcg",
+    "generation_success": false,
+    "generation_failed_target": true,
+    "hard_failure": false,
+    "hard_failure_reason": null,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9267707967927736,
+        0.9767707967927736
+      ],
+      "wall_ratio": [
+        0.3479808229788006,
+        0.4104808229788006
+      ],
+      "bfs_len_norm": [
+        0.20634920634920634,
+        0.23809523809523808
+      ],
+      "detour_ratio": [
+        1.9099815619262708,
+        2.309981561926271
+      ],
+      "dead_end_ratio": [
+        0.05744631042152953,
+        0.10744631042152952
+      ],
+      "dead_end_depth_mean": [
+        2.2643599761275066,
+        2.964359976127507
+      ],
+      "junction_ratio": [
+        0.46397553727707247,
+        0.5639755372770725
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.023229203207226427,
+        0.07322920320722642
+      ]
+    },
+    "sampled_targets": {
+      "L_BFS": 14.0,
+      "detour_ratio": 2.1099815619262707,
+      "wall_ratio": 0.3792308229788006,
+      "dead_end_ratio": 0.08244631042152953,
+      "dead_end_depth_mean": 2.6143599761275067,
+      "junction_ratio": 0.5139755372770725,
+      "island_free_ratio": 0.04822920320722643,
+      "derived_D": 6
+    },
+    "derived_D": 6,
+    "main_path": [
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        4
+      ]
+    ],
+    "main_path_len": 14,
+    "main_path_detour_ratio": 2.3333333333333335,
+    "generation_metadata": {
+      "restart_count": 53,
+      "edit_steps": 80,
+      "final_range_error": 0.15185059930866812,
+      "final_sampled_target_error": 1.392542221991022,
+      "failed_metrics": [
+        "reachable_free_ratio",
+        "wall_ratio",
+        "bfs_len_norm",
+        "island_free_ratio"
+      ],
+      "operation_stats": {
+        "dead_end_inject": {
+          "selected_count": 7,
+          "attempt_count": 7,
+          "success_count": 5,
+          "accept_count": 4,
+          "reject_count": 3,
+          "reject_reason_counts": {
+            "metric_not_improved": 1,
+            "no_candidate": 2
+          }
+        },
+        "branch_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "island_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_add": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_remove": {
+          "selected_count": 70,
+          "attempt_count": 70,
+          "success_count": 70,
+          "accept_count": 7,
+          "reject_count": 63,
+          "reject_reason_counts": {
+            "metric_not_improved": 63
+          }
+        },
+        "path_block_optional": {
+          "selected_count": 3,
+          "attempt_count": 3,
+          "success_count": 3,
+          "accept_count": 2,
+          "reject_count": 1,
+          "reject_reason_counts": {
+            "metric_not_improved": 1
+          }
+        }
+      },
+      "primitive_test_name": null
+    },
+    "target_value": null
+  },
+  {
+    "maze_id": "n7d_00002",
+    "maze": [
+      [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "start": [
+      7,
+      3
+    ],
+    "goal": [
+      4,
+      1
+    ],
+    "generator_name": "pf_mcg",
+    "generation_success": false,
+    "generation_failed_target": true,
+    "hard_failure": false,
+    "hard_failure_reason": null,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9610433845461357,
+        1.0
+      ],
+      "wall_ratio": [
+        0.24453914970067042,
+        0.3070391497006704
+      ],
+      "bfs_len_norm": [
+        0.25396825396825395,
+        0.2857142857142857
+      ],
+      "detour_ratio": [
+        2.4336063930499816,
+        2.833606393049982
+      ],
+      "dead_end_ratio": [
+        0.054541974873004336,
+        0.10454197487300435
+      ],
+      "dead_end_depth_mean": [
+        3.586084004991377,
+        4.286084004991377
+      ],
+      "junction_ratio": [
+        0.5079223192723415,
+        0.6079223192723416
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.0,
+        0.03895661545386428
+      ]
+    },
+    "sampled_targets": {
+      "L_BFS": 17.0,
+      "detour_ratio": 2.633606393049982,
+      "wall_ratio": 0.2757891497006704,
+      "dead_end_ratio": 0.07954197487300434,
+      "dead_end_depth_mean": 3.9360840049913772,
+      "junction_ratio": 0.5579223192723416,
+      "island_free_ratio": 0.013956615453864275,
+      "derived_D": 5
+    },
+    "derived_D": 5,
+    "main_path": [
+      [
+        7,
+        3
+      ],
+      [
+        7,
+        4
+      ],
+      [
+        7,
+        5
+      ],
+      [
+        7,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "main_path_len": 17,
+    "main_path_detour_ratio": 3.4,
+    "generation_metadata": {
+      "restart_count": 57,
+      "edit_steps": 80,
+      "final_range_error": 1.8050614781137406,
+      "final_sampled_target_error": 1.8563740437001555,
+      "failed_metrics": [
+        "wall_ratio",
+        "bfs_len_norm",
+        "detour_ratio",
+        "dead_end_depth_mean"
+      ],
+      "operation_stats": {
+        "dead_end_inject": {
+          "selected_count": 80,
+          "attempt_count": 80,
+          "success_count": 25,
+          "accept_count": 6,
+          "reject_count": 74,
+          "reject_reason_counts": {
+            "metric_not_improved": 19,
+            "no_candidate": 55
+          }
+        },
+        "branch_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "island_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_add": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_remove": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "path_block_optional": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        }
+      },
+      "primitive_test_name": null
+    },
+    "target_value": null
+  },
+  {
+    "maze_id": "n7d_00003",
+    "maze": [
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "start": [
+      6,
+      1
+    ],
+    "goal": [
+      2,
+      1
+    ],
+    "generator_name": "pf_mcg",
+    "generation_success": false,
+    "generation_failed_target": true,
+    "hard_failure": false,
+    "hard_failure_reason": null,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9191855183920674,
+        0.9691855183920675
+      ],
+      "wall_ratio": [
+        0.2580213853675615,
+        0.3205213853675615
+      ],
+      "bfs_len_norm": [
+        0.14285714285714285,
+        0.1746031746031746
+      ],
+      "detour_ratio": [
+        1.6237085701385225,
+        2.0237085701385227
+      ],
+      "dead_end_ratio": [
+        0.10768870557491902,
+        0.157688705574919
+      ],
+      "dead_end_depth_mean": [
+        3.403750966728228,
+        4.103750966728228
+      ],
+      "junction_ratio": [
+        0.4604213889651669,
+        0.5604213889651669
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.03081448160793252,
+        0.08081448160793253
+      ]
+    },
+    "sampled_targets": {
+      "L_BFS": 10.0,
+      "detour_ratio": 1.8237085701385225,
+      "wall_ratio": 0.2892713853675615,
+      "dead_end_ratio": 0.13268870557491902,
+      "dead_end_depth_mean": 3.7537509667282283,
+      "junction_ratio": 0.5104213889651669,
+      "island_free_ratio": 0.05581448160793252,
+      "derived_D": 4
+    },
+    "derived_D": 4,
+    "main_path": [
+      [
+        6,
+        1
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "main_path_len": 10,
+    "main_path_detour_ratio": 2.5,
+    "generation_metadata": {
+      "restart_count": 16,
+      "edit_steps": 80,
+      "final_range_error": 1.3513565604495474,
+      "final_sampled_target_error": 1.9338266632783072,
+      "failed_metrics": [
+        "reachable_free_ratio",
+        "wall_ratio",
+        "bfs_len_norm",
+        "dead_end_depth_mean",
+        "island_free_ratio"
+      ],
+      "operation_stats": {
+        "dead_end_inject": {
+          "selected_count": 80,
+          "attempt_count": 80,
+          "success_count": 8,
+          "accept_count": 7,
+          "reject_count": 73,
+          "reject_reason_counts": {
+            "metric_not_improved": 1,
+            "no_candidate": 72
+          }
+        },
+        "branch_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "island_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_add": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_remove": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "path_block_optional": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        }
+      },
+      "primitive_test_name": null
+    },
+    "target_value": null
+  },
+  {
+    "maze_id": "n7d_00004",
+    "maze": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "start": [
+      5,
+      0
+    ],
+    "goal": [
+      3,
+      4
+    ],
+    "generator_name": "pf_mcg",
+    "generation_success": false,
+    "generation_failed_target": true,
+    "hard_failure": false,
+    "hard_failure_reason": null,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9627273047879749,
+        1.0
+      ],
+      "wall_ratio": [
+        0.20877187563078975,
+        0.27127187563078975
+      ],
+      "bfs_len_norm": [
+        0.1746031746031746,
+        0.20634920634920634
+      ],
+      "detour_ratio": [
+        1.7766036798180525,
+        2.1766036798180526
+      ],
+      "dead_end_ratio": [
+        0.07721725714222161,
+        0.12721725714222162
+      ],
+      "dead_end_depth_mean": [
+        2.4580052033311075,
+        3.1580052033311077
+      ],
+      "junction_ratio": [
+        0.5472023116288715,
+        0.6472023116288715
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.0,
+        0.03727269521202518
+      ]
+    },
+    "sampled_targets": {
+      "L_BFS": 12.0,
+      "detour_ratio": 1.9766036798180524,
+      "wall_ratio": 0.24002187563078975,
+      "dead_end_ratio": 0.10221725714222162,
+      "dead_end_depth_mean": 2.8080052033311076,
+      "junction_ratio": 0.5972023116288715,
+      "island_free_ratio": 0.012272695212025175,
+      "derived_D": 6
+    },
+    "derived_D": 6,
+    "main_path": [
+      [
+        5,
+        0
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        7,
+        3
+      ],
+      [
+        7,
+        4
+      ],
+      [
+        7,
+        5
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "main_path_len": 12,
+    "main_path_detour_ratio": 2.0,
+    "generation_metadata": {
+      "restart_count": 65,
+      "edit_steps": 80,
+      "final_range_error": 0.5000433567247193,
+      "final_sampled_target_error": 1.8775546736029405,
+      "failed_metrics": [
+        "wall_ratio",
+        "bfs_len_norm",
+        "detour_ratio",
+        "dead_end_depth_mean"
+      ],
+      "operation_stats": {
+        "dead_end_inject": {
+          "selected_count": 66,
+          "attempt_count": 66,
+          "success_count": 5,
+          "accept_count": 5,
+          "reject_count": 61,
+          "reject_reason_counts": {
+            "no_candidate": 61
+          }
+        },
+        "branch_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "island_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_add": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_remove": {
+          "selected_count": 14,
+          "attempt_count": 14,
+          "success_count": 14,
+          "accept_count": 8,
+          "reject_count": 6,
+          "reject_reason_counts": {
+            "metric_not_improved": 6
+          }
+        },
+        "path_block_optional": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        }
+      },
+      "primitive_test_name": null
+    },
+    "target_value": null
+  },
+  {
+    "maze_id": "n7d_00005",
+    "maze": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "start": [
+      2,
+      7
+    ],
+    "goal": [
+      4,
+      0
+    ],
+    "generator_name": "pf_mcg",
+    "generation_success": false,
+    "generation_failed_target": true,
+    "hard_failure": false,
+    "hard_failure_reason": null,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9508143795259937,
+        1.0
+      ],
+      "wall_ratio": [
+        0.2348882125093809,
+        0.2973882125093809
+      ],
+      "bfs_len_norm": [
+        0.2222222222222222,
+        0.25396825396825395
+      ],
+      "detour_ratio": [
+        1.5101810450362225,
+        1.9101810450362224
+      ],
+      "dead_end_ratio": [
+        0.0753417802951403,
+        0.12534178029514031
+      ],
+      "dead_end_depth_mean": [
+        2.149444318605157,
+        2.849444318605157
+      ],
+      "junction_ratio": [
+        0.4196745123822006,
+        0.5196745123822006
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.0,
+        0.049185620474006334
+      ]
+    },
+    "sampled_targets": {
+      "L_BFS": 15.0,
+      "detour_ratio": 1.7101810450362225,
+      "wall_ratio": 0.2661382125093809,
+      "dead_end_ratio": 0.1003417802951403,
+      "dead_end_depth_mean": 2.499444318605157,
+      "junction_ratio": 0.4696745123822006,
+      "island_free_ratio": 0.02418562047400633,
+      "derived_D": 9
+    },
+    "derived_D": 9,
+    "main_path": [
+      [
+        2,
+        7
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        0
+      ]
+    ],
+    "main_path_len": 15,
+    "main_path_detour_ratio": 1.6666666666666667,
+    "generation_metadata": {
+      "restart_count": 0,
+      "edit_steps": 80,
+      "final_range_error": 1.4870937835352707,
+      "final_sampled_target_error": 4.108727285643404,
+      "failed_metrics": [
+        "wall_ratio",
+        "bfs_len_norm",
+        "detour_ratio",
+        "dead_end_ratio",
+        "dead_end_depth_mean"
+      ],
+      "operation_stats": {
+        "dead_end_inject": {
+          "selected_count": 2,
+          "attempt_count": 2,
+          "success_count": 2,
+          "accept_count": 2,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "branch_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "island_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_add": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_remove": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "path_block_optional": {
+          "selected_count": 78,
+          "attempt_count": 78,
+          "success_count": 78,
+          "accept_count": 0,
+          "reject_count": 78,
+          "reject_reason_counts": {
+            "metric_not_improved": 78
+          }
+        }
+      },
+      "primitive_test_name": null
+    },
+    "target_value": null
+  },
+  {
+    "maze_id": "n7d_00006",
+    "maze": [
+      [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "start": [
+      4,
+      3
+    ],
+    "goal": [
+      0,
+      7
+    ],
+    "generator_name": "pf_mcg",
+    "generation_success": false,
+    "generation_failed_target": true,
+    "hard_failure": false,
+    "hard_failure_reason": null,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9357551835819347,
+        0.9857551835819347
+      ],
+      "wall_ratio": [
+        0.2107420187169417,
+        0.2732420187169417
+      ],
+      "bfs_len_norm": [
+        0.23809523809523808,
+        0.2698412698412698
+      ],
+      "detour_ratio": [
+        1.4838831125713905,
+        1.8838831125713904
+      ],
+      "dead_end_ratio": [
+        0.09181776293411043,
+        0.14181776293411041
+      ],
+      "dead_end_depth_mean": [
+        1.5186605304835101,
+        2.2186605304835103
+      ],
+      "junction_ratio": [
+        0.27934103198063776,
+        0.37934103198063773
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.014244816418065319,
+        0.06424481641806531
+      ]
+    },
+    "sampled_targets": {
+      "L_BFS": 16.0,
+      "detour_ratio": 1.6838831125713905,
+      "wall_ratio": 0.2419920187169417,
+      "dead_end_ratio": 0.11681776293411042,
+      "dead_end_depth_mean": 1.8686605304835102,
+      "junction_ratio": 0.32934103198063774,
+      "island_free_ratio": 0.03924481641806532,
+      "derived_D": 10
+    },
+    "derived_D": 10,
+    "main_path": [
+      [
+        4,
+        3
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        7,
+        3
+      ],
+      [
+        7,
+        4
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        0,
+        7
+      ]
+    ],
+    "main_path_len": 16,
+    "main_path_detour_ratio": 2.0,
+    "generation_metadata": {
+      "restart_count": 56,
+      "edit_steps": 80,
+      "final_range_error": 0.08362062999220479,
+      "final_sampled_target_error": 1.1309256140809227,
+      "failed_metrics": [
+        "reachable_free_ratio",
+        "wall_ratio",
+        "bfs_len_norm",
+        "island_free_ratio"
+      ],
+      "operation_stats": {
+        "dead_end_inject": {
+          "selected_count": 4,
+          "attempt_count": 4,
+          "success_count": 4,
+          "accept_count": 1,
+          "reject_count": 3,
+          "reject_reason_counts": {
+            "metric_not_improved": 3
+          }
+        },
+        "branch_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "island_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_add": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_remove": {
+          "selected_count": 71,
+          "attempt_count": 71,
+          "success_count": 71,
+          "accept_count": 28,
+          "reject_count": 43,
+          "reject_reason_counts": {
+            "metric_not_improved": 43
+          }
+        },
+        "path_block_optional": {
+          "selected_count": 5,
+          "attempt_count": 5,
+          "success_count": 5,
+          "accept_count": 3,
+          "reject_count": 2,
+          "reject_reason_counts": {
+            "metric_not_improved": 2
+          }
+        }
+      },
+      "primitive_test_name": null
+    },
+    "target_value": null
+  },
+  {
+    "maze_id": "n7d_00007",
+    "maze": [
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "start": [
+      6,
+      3
+    ],
+    "goal": [
+      2,
+      3
+    ],
+    "generator_name": "pf_mcg",
+    "generation_success": false,
+    "generation_failed_target": true,
+    "hard_failure": false,
+    "hard_failure_reason": null,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9633369712211749,
+        1.0
+      ],
+      "wall_ratio": [
+        0.22179432607233673,
+        0.28429432607233673
+      ],
+      "bfs_len_norm": [
+        0.14285714285714285,
+        0.1746031746031746
+      ],
+      "detour_ratio": [
+        1.7505066624479604,
+        2.1505066624479605
+      ],
+      "dead_end_ratio": [
+        0.1688517970638132,
+        0.2188517970638132
+      ],
+      "dead_end_depth_mean": [
+        1.7356736641043788,
+        2.435673664104379
+      ],
+      "junction_ratio": [
+        0.563983492130505,
+        0.6639834921305051
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.0,
+        0.0366630287788251
+      ]
+    },
+    "sampled_targets": {
+      "L_BFS": 10.0,
+      "detour_ratio": 1.9505066624479603,
+      "wall_ratio": 0.25304432607233673,
+      "dead_end_ratio": 0.1938517970638132,
+      "dead_end_depth_mean": 2.085673664104379,
+      "junction_ratio": 0.6139834921305051,
+      "island_free_ratio": 0.011663028778825104,
+      "derived_D": 4
+    },
+    "derived_D": 4,
+    "main_path": [
+      [
+        6,
+        3
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        7,
+        4
+      ],
+      [
+        7,
+        5
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "main_path_len": 10,
+    "main_path_detour_ratio": 2.5,
+    "generation_metadata": {
+      "restart_count": 51,
+      "edit_steps": 80,
+      "final_range_error": 0.1489423916263971,
+      "final_sampled_target_error": 1.5224282555867004,
+      "failed_metrics": [
+        "wall_ratio",
+        "bfs_len_norm",
+        "dead_end_ratio"
+      ],
+      "operation_stats": {
+        "dead_end_inject": {
+          "selected_count": 44,
+          "attempt_count": 44,
+          "success_count": 4,
+          "accept_count": 3,
+          "reject_count": 41,
+          "reject_reason_counts": {
+            "no_candidate": 40,
+            "metric_not_improved": 1
+          }
+        },
+        "branch_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "island_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_add": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_remove": {
+          "selected_count": 36,
+          "attempt_count": 36,
+          "success_count": 36,
+          "accept_count": 25,
+          "reject_count": 11,
+          "reject_reason_counts": {
+            "metric_not_improved": 11
+          }
+        },
+        "path_block_optional": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        }
+      },
+      "primitive_test_name": null
+    },
+    "target_value": null
+  },
+  {
+    "maze_id": "n7d_00008",
+    "maze": [
+      [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    ],
+    "start": [
+      7,
+      6
+    ],
+    "goal": [
+      6,
+      1
+    ],
+    "generator_name": "pf_mcg",
+    "generation_success": true,
+    "generation_failed_target": false,
+    "hard_failure": false,
+    "hard_failure_reason": null,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9175404306766883,
+        0.9675404306766884
+      ],
+      "wall_ratio": [
+        0.30350106863853993,
+        0.36600106863853993
+      ],
+      "bfs_len_norm": [
+        0.1746031746031746,
+        0.20634920634920634
+      ],
+      "detour_ratio": [
+        1.815188952549249,
+        2.215188952549249
+      ],
+      "dead_end_ratio": [
+        0.08937815831244678,
+        0.13937815831244676
+      ],
+      "dead_end_depth_mean": [
+        1.0333010572325803,
+        1.7333010572325804
+      ],
+      "junction_ratio": [
+        0.49114193229815034,
+        0.5911419322981504
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.03245956932331163,
+        0.08245956932331164
+      ]
+    },
+    "sampled_targets": {
+      "L_BFS": 12.0,
+      "detour_ratio": 2.015188952549249,
+      "wall_ratio": 0.33475106863853993,
+      "dead_end_ratio": 0.11437815831244677,
+      "dead_end_depth_mean": 1.3833010572325803,
+      "junction_ratio": 0.5411419322981503,
+      "island_free_ratio": 0.05745956932331163,
+      "derived_D": 6
+    },
+    "derived_D": 6,
+    "main_path": [
+      [
+        7,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        6,
+        1
+      ]
+    ],
+    "main_path_len": 12,
+    "main_path_detour_ratio": 2.0,
+    "generation_metadata": {
+      "restart_count": 0,
+      "edit_steps": 80,
+      "final_range_error": 0.0,
+      "final_sampled_target_error": 0.4270135366652746,
+      "failed_metrics": [],
+      "operation_stats": {
+        "dead_end_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "branch_inject": {
+          "selected_count": 29,
+          "attempt_count": 29,
+          "success_count": 29,
+          "accept_count": 0,
+          "reject_count": 29,
+          "reject_reason_counts": {
+            "metric_not_improved": 29
+          }
+        },
+        "island_inject": {
+          "selected_count": 1,
+          "attempt_count": 1,
+          "success_count": 1,
+          "accept_count": 1,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_add": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_remove": {
+          "selected_count": 48,
+          "attempt_count": 48,
+          "success_count": 48,
+          "accept_count": 27,
+          "reject_count": 21,
+          "reject_reason_counts": {
+            "metric_not_improved": 21
+          }
+        },
+        "path_block_optional": {
+          "selected_count": 2,
+          "attempt_count": 2,
+          "success_count": 2,
+          "accept_count": 1,
+          "reject_count": 1,
+          "reject_reason_counts": {
+            "metric_not_improved": 1
+          }
+        }
+      },
+      "primitive_test_name": null
+    },
+    "target_value": null
+  },
+  {
+    "maze_id": "n7d_00009",
+    "maze": [
+      [
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "start": [
+      5,
+      0
+    ],
+    "goal": [
+      7,
+      4
+    ],
+    "generator_name": "pf_mcg",
+    "generation_success": false,
+    "generation_failed_target": true,
+    "hard_failure": false,
+    "hard_failure_reason": null,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9511808741195207,
+        1.0
+      ],
+      "wall_ratio": [
+        0.2476785399104719,
+        0.3101785399104719
+      ],
+      "bfs_len_norm": [
+        0.14285714285714285,
+        0.1746031746031746
+      ],
+      "detour_ratio": [
+        1.608442340293789,
+        2.008442340293789
+      ],
+      "dead_end_ratio": [
+        0.062197037368324555,
+        0.11219703736832456
+      ],
+      "dead_end_depth_mean": [
+        3.3763614415794607,
+        4.0763614415794605
+      ],
+      "junction_ratio": [
+        0.557432739282542,
+        0.6574327392825421
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.0,
+        0.04881912588047931
+      ]
+    },
+    "sampled_targets": {
+      "L_BFS": 10.0,
+      "detour_ratio": 1.808442340293789,
+      "wall_ratio": 0.2789285399104719,
+      "dead_end_ratio": 0.08719703736832456,
+      "dead_end_depth_mean": 3.726361441579461,
+      "junction_ratio": 0.607432739282542,
+      "island_free_ratio": 0.02381912588047931,
+      "derived_D": 6
+    },
+    "derived_D": 6,
+    "main_path": [
+      [
+        5,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        7,
+        3
+      ],
+      [
+        7,
+        4
+      ]
+    ],
+    "main_path_len": 10,
+    "main_path_detour_ratio": 1.6666666666666667,
+    "generation_metadata": {
+      "restart_count": 96,
+      "edit_steps": 80,
+      "final_range_error": 1.4728159925057924,
+      "final_sampled_target_error": 1.7096789347698427,
+      "failed_metrics": [
+        "wall_ratio",
+        "dead_end_ratio",
+        "dead_end_depth_mean"
+      ],
+      "operation_stats": {
+        "dead_end_inject": {
+          "selected_count": 80,
+          "attempt_count": 80,
+          "success_count": 27,
+          "accept_count": 7,
+          "reject_count": 73,
+          "reject_reason_counts": {
+            "no_candidate": 53,
+            "metric_not_improved": 20
+          }
+        },
+        "branch_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "island_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_add": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_remove": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "path_block_optional": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        }
+      },
+      "primitive_test_name": null
+    },
+    "target_value": null
+  },
+  {
+    "maze_id": "n7d_00010",
+    "maze": [
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "start": [
+      6,
+      6
+    ],
+    "goal": [
+      0,
+      5
+    ],
+    "generator_name": "pf_mcg",
+    "generation_success": false,
+    "generation_failed_target": true,
+    "hard_failure": false,
+    "hard_failure_reason": null,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9705266548985,
+        1.0
+      ],
+      "wall_ratio": [
+        0.2756236202059289,
+        0.3381236202059289
+      ],
+      "bfs_len_norm": [
+        0.25396825396825395,
+        0.2857142857142857
+      ],
+      "detour_ratio": [
+        1.9858059529573933,
+        2.3858059529573934
+      ],
+      "dead_end_ratio": [
+        0.1163589068439479,
+        0.16635890684394788
+      ],
+      "dead_end_depth_mean": [
+        1.115032778239808,
+        1.8150327782398081
+      ],
+      "junction_ratio": [
+        0.3901820505889167,
+        0.4901820505889167
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.0,
+        0.02947334510150002
+      ]
+    },
+    "sampled_targets": {
+      "L_BFS": 17.0,
+      "detour_ratio": 2.185805952957393,
+      "wall_ratio": 0.3068736202059289,
+      "dead_end_ratio": 0.1413589068439479,
+      "dead_end_depth_mean": 1.465032778239808,
+      "junction_ratio": 0.4401820505889167,
+      "island_free_ratio": 0.00447334510150002,
+      "derived_D": 7
+    },
+    "derived_D": 7,
+    "main_path": [
+      [
+        6,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        7,
+        6
+      ],
+      [
+        7,
+        5
+      ],
+      [
+        7,
+        4
+      ],
+      [
+        7,
+        3
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        0,
+        5
+      ]
+    ],
+    "main_path_len": 17,
+    "main_path_detour_ratio": 2.4285714285714284,
+    "generation_metadata": {
+      "restart_count": 11,
+      "edit_steps": 80,
+      "final_range_error": 0.021499395667086973,
+      "final_sampled_target_error": 0.5682194046037575,
+      "failed_metrics": [
+        "wall_ratio",
+        "bfs_len_norm"
+      ],
+      "operation_stats": {
+        "dead_end_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "branch_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "island_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_add": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_remove": {
+          "selected_count": 43,
+          "attempt_count": 43,
+          "success_count": 43,
+          "accept_count": 27,
+          "reject_count": 16,
+          "reject_reason_counts": {
+            "metric_not_improved": 16
+          }
+        },
+        "path_block_optional": {
+          "selected_count": 37,
+          "attempt_count": 37,
+          "success_count": 37,
+          "accept_count": 3,
+          "reject_count": 34,
+          "reject_reason_counts": {
+            "metric_not_improved": 34
+          }
+        }
+      },
+      "primitive_test_name": null
+    },
+    "target_value": null
+  },
+  {
+    "maze_id": "n7d_00011",
+    "maze": [
+      [
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "start": [
+      6,
+      2
+    ],
+    "goal": [
+      2,
+      4
+    ],
+    "generator_name": "pf_mcg",
+    "generation_success": true,
+    "generation_failed_target": false,
+    "hard_failure": false,
+    "hard_failure_reason": null,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9611858605827027,
+        1.0
+      ],
+      "wall_ratio": [
+        0.2602232578508602,
+        0.3227232578508602
+      ],
+      "bfs_len_norm": [
+        0.20634920634920634,
+        0.23809523809523808
+      ],
+      "detour_ratio": [
+        2.201988887802661,
+        2.6019888878026616
+      ],
+      "dead_end_ratio": [
+        0.08779546073103664,
+        0.13779546073103663
+      ],
+      "dead_end_depth_mean": [
+        1.6889693865667499,
+        2.38896938656675
+      ],
+      "junction_ratio": [
+        0.3424162067943712,
+        0.44241620679437116
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.0,
+        0.0388141394172973
+      ]
+    },
+    "sampled_targets": {
+      "L_BFS": 14.0,
+      "detour_ratio": 2.4019888878026614,
+      "wall_ratio": 0.2914732578508602,
+      "dead_end_ratio": 0.11279546073103663,
+      "dead_end_depth_mean": 2.03896938656675,
+      "junction_ratio": 0.39241620679437117,
+      "island_free_ratio": 0.013814139417297297,
+      "derived_D": 6
+    },
+    "derived_D": 6,
+    "main_path": [
+      [
+        6,
+        2
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "main_path_len": 14,
+    "main_path_detour_ratio": 2.3333333333333335,
+    "generation_metadata": {
+      "restart_count": 11,
+      "edit_steps": 80,
+      "final_range_error": 0.0,
+      "final_sampled_target_error": 0.3573879741395324,
+      "failed_metrics": [],
+      "operation_stats": {
+        "dead_end_inject": {
+          "selected_count": 3,
+          "attempt_count": 3,
+          "success_count": 3,
+          "accept_count": 3,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "branch_inject": {
+          "selected_count": 3,
+          "attempt_count": 3,
+          "success_count": 3,
+          "accept_count": 0,
+          "reject_count": 3,
+          "reject_reason_counts": {
+            "metric_not_improved": 3
+          }
+        },
+        "island_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_add": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_remove": {
+          "selected_count": 69,
+          "attempt_count": 69,
+          "success_count": 69,
+          "accept_count": 27,
+          "reject_count": 42,
+          "reject_reason_counts": {
+            "metric_not_improved": 42
+          }
+        },
+        "path_block_optional": {
+          "selected_count": 5,
+          "attempt_count": 5,
+          "success_count": 5,
+          "accept_count": 4,
+          "reject_count": 1,
+          "reject_reason_counts": {
+            "metric_not_improved": 1
+          }
+        }
+      },
+      "primitive_test_name": null
+    },
+    "target_value": null
+  },
+  {
+    "maze_id": "n7d_00012",
+    "maze": [
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "start": [
+      6,
+      7
+    ],
+    "goal": [
+      7,
+      1
+    ],
+    "generator_name": "pf_mcg",
+    "generation_success": false,
+    "generation_failed_target": true,
+    "hard_failure": false,
+    "hard_failure_reason": null,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9616683312872522,
+        1.0
+      ],
+      "wall_ratio": [
+        0.25897604258535883,
+        0.32147604258535883
+      ],
+      "bfs_len_norm": [
+        0.25396825396825395,
+        0.2857142857142857
+      ],
+      "detour_ratio": [
+        2.3575728252782735,
+        2.757572825278274
+      ],
+      "dead_end_ratio": [
+        0.11012423440316563,
+        0.16012423440316562
+      ],
+      "dead_end_depth_mean": [
+        1.7417507316600687,
+        2.441750731660069
+      ],
+      "junction_ratio": [
+        0.3497403394753538,
+        0.4497403394753538
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.0,
+        0.038331668712747846
+      ]
+    },
+    "sampled_targets": {
+      "L_BFS": 17.0,
+      "detour_ratio": 2.5575728252782737,
+      "wall_ratio": 0.29022604258535883,
+      "dead_end_ratio": 0.13512423440316562,
+      "dead_end_depth_mean": 2.0917507316600688,
+      "junction_ratio": 0.3997403394753538,
+      "island_free_ratio": 0.013331668712747848,
+      "derived_D": 7
+    },
+    "derived_D": 7,
+    "main_path": [
+      [
+        6,
+        7
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        7,
+        5
+      ],
+      [
+        7,
+        4
+      ],
+      [
+        7,
+        3
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        7,
+        1
+      ]
+    ],
+    "main_path_len": 17,
+    "main_path_detour_ratio": 2.4285714285714284,
+    "generation_metadata": {
+      "restart_count": 66,
+      "edit_steps": 80,
+      "final_range_error": 0.0220248970090548,
+      "final_sampled_target_error": 0.6590457939574553,
+      "failed_metrics": [
+        "wall_ratio",
+        "junction_ratio"
+      ],
+      "operation_stats": {
+        "dead_end_inject": {
+          "selected_count": 3,
+          "attempt_count": 3,
+          "success_count": 2,
+          "accept_count": 2,
+          "reject_count": 1,
+          "reject_reason_counts": {
+            "no_candidate": 1
+          }
+        },
+        "branch_inject": {
+          "selected_count": 2,
+          "attempt_count": 2,
+          "success_count": 2,
+          "accept_count": 0,
+          "reject_count": 2,
+          "reject_reason_counts": {
+            "metric_not_improved": 2
+          }
+        },
+        "island_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_add": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_remove": {
+          "selected_count": 73,
+          "attempt_count": 73,
+          "success_count": 73,
+          "accept_count": 23,
+          "reject_count": 50,
+          "reject_reason_counts": {
+            "metric_not_improved": 50
+          }
+        },
+        "path_block_optional": {
+          "selected_count": 2,
+          "attempt_count": 2,
+          "success_count": 2,
+          "accept_count": 2,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        }
+      },
+      "primitive_test_name": null
+    },
+    "target_value": null
+  },
+  {
+    "maze_id": "n7d_00013",
+    "maze": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "start": [
+      1,
+      1
+    ],
+    "goal": [
+      7,
+      3
+    ],
+    "generator_name": "pf_mcg",
+    "generation_success": false,
+    "generation_failed_target": true,
+    "hard_failure": false,
+    "hard_failure_reason": null,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.905389379400831,
+        0.955389379400831
+      ],
+      "wall_ratio": [
+        0.355536577889237,
+        0.418036577889237
+      ],
+      "bfs_len_norm": [
+        0.23809523809523808,
+        0.2698412698412698
+      ],
+      "detour_ratio": [
+        1.714334371207222,
+        2.1143343712072222
+      ],
+      "dead_end_ratio": [
+        0.07988557039154048,
+        0.1298855703915405
+      ],
+      "dead_end_depth_mean": [
+        1.8742156626089717,
+        2.574215662608972
+      ],
+      "junction_ratio": [
+        0.5187403381635846,
+        0.6187403381635846
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.044610620599169,
+        0.094610620599169
+      ]
+    },
+    "sampled_targets": {
+      "L_BFS": 16.0,
+      "detour_ratio": 1.914334371207222,
+      "wall_ratio": 0.386786577889237,
+      "dead_end_ratio": 0.10488557039154049,
+      "dead_end_depth_mean": 2.2242156626089717,
+      "junction_ratio": 0.5687403381635846,
+      "island_free_ratio": 0.069610620599169,
+      "derived_D": 8
+    },
+    "derived_D": 8,
+    "main_path": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        7,
+        3
+      ]
+    ],
+    "main_path_len": 16,
+    "main_path_detour_ratio": 2.0,
+    "generation_metadata": {
+      "restart_count": 5,
+      "edit_steps": 80,
+      "final_range_error": 0.5154021934681866,
+      "final_sampled_target_error": 1.5102989053151656,
+      "failed_metrics": [
+        "reachable_free_ratio",
+        "wall_ratio",
+        "bfs_len_norm",
+        "junction_ratio",
+        "dead_end_depth_mean",
+        "island_free_ratio"
+      ],
+      "operation_stats": {
+        "dead_end_inject": {
+          "selected_count": 73,
+          "attempt_count": 73,
+          "success_count": 4,
+          "accept_count": 4,
+          "reject_count": 69,
+          "reject_reason_counts": {
+            "no_candidate": 69
+          }
+        },
+        "branch_inject": {
+          "selected_count": 6,
+          "attempt_count": 6,
+          "success_count": 6,
+          "accept_count": 4,
+          "reject_count": 2,
+          "reject_reason_counts": {
+            "metric_not_improved": 2
+          }
+        },
+        "island_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_add": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_remove": {
+          "selected_count": 1,
+          "attempt_count": 1,
+          "success_count": 1,
+          "accept_count": 1,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "path_block_optional": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        }
+      },
+      "primitive_test_name": null
+    },
+    "target_value": null
+  },
+  {
+    "maze_id": "n7d_00014",
+    "maze": [
+      [
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    ],
+    "start": [
+      2,
+      7
+    ],
+    "goal": [
+      2,
+      2
+    ],
+    "generator_name": "pf_mcg",
+    "generation_success": false,
+    "generation_failed_target": true,
+    "hard_failure": false,
+    "hard_failure_reason": null,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.966900146465945,
+        1.0
+      ],
+      "wall_ratio": [
+        0.22081781265119843,
+        0.28331781265119843
+      ],
+      "bfs_len_norm": [
+        0.2222222222222222,
+        0.25396825396825395
+      ],
+      "detour_ratio": [
+        2.173104431728237,
+        2.5731044317282374
+      ],
+      "dead_end_ratio": [
+        0.08374268956479552,
+        0.13374268956479554
+      ],
+      "dead_end_depth_mean": [
+        1.935523936037359,
+        2.6355239360373592
+      ],
+      "junction_ratio": [
+        0.3416152168528176,
+        0.44161521685281757
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.0,
+        0.03309985353405494
+      ]
+    },
+    "sampled_targets": {
+      "L_BFS": 15.0,
+      "detour_ratio": 2.3731044317282373,
+      "wall_ratio": 0.25206781265119843,
+      "dead_end_ratio": 0.10874268956479553,
+      "dead_end_depth_mean": 2.285523936037359,
+      "junction_ratio": 0.3916152168528176,
+      "island_free_ratio": 0.00809985353405494,
+      "derived_D": 5
+    },
+    "derived_D": 5,
+    "main_path": [
+      [
+        2,
+        7
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "main_path_len": 15,
+    "main_path_detour_ratio": 3.0,
+    "generation_metadata": {
+      "restart_count": 30,
+      "edit_steps": 80,
+      "final_range_error": 0.09267148323131069,
+      "final_sampled_target_error": 1.322397276714972,
+      "failed_metrics": [
+        "wall_ratio",
+        "bfs_len_norm",
+        "junction_ratio"
+      ],
+      "operation_stats": {
+        "dead_end_inject": {
+          "selected_count": 5,
+          "attempt_count": 5,
+          "success_count": 5,
+          "accept_count": 4,
+          "reject_count": 1,
+          "reject_reason_counts": {
+            "metric_not_improved": 1
+          }
+        },
+        "branch_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "island_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_add": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_remove": {
+          "selected_count": 44,
+          "attempt_count": 44,
+          "success_count": 44,
+          "accept_count": 19,
+          "reject_count": 25,
+          "reject_reason_counts": {
+            "metric_not_improved": 25
+          }
+        },
+        "path_block_optional": {
+          "selected_count": 31,
+          "attempt_count": 31,
+          "success_count": 31,
+          "accept_count": 0,
+          "reject_count": 31,
+          "reject_reason_counts": {
+            "metric_not_improved": 31
+          }
+        }
+      },
+      "primitive_test_name": null
+    },
+    "target_value": null
+  },
+  {
+    "maze_id": "n7d_00015",
+    "maze": [
+      [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    ],
+    "start": [
+      6,
+      3
+    ],
+    "goal": [
+      0,
+      7
+    ],
+    "generator_name": "pf_mcg",
+    "generation_success": false,
+    "generation_failed_target": true,
+    "hard_failure": false,
+    "hard_failure_reason": null,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9646262520518076,
+        1.0
+      ],
+      "wall_ratio": [
+        0.21079550351108484,
+        0.27329550351108484
+      ],
+      "bfs_len_norm": [
+        0.30158730158730157,
+        0.3333333333333333
+      ],
+      "detour_ratio": [
+        1.367121498361651,
+        1.767121498361651
+      ],
+      "dead_end_ratio": [
+        0.0808040726560521,
+        0.1308040726560521
+      ],
+      "dead_end_depth_mean": [
+        1.218343700449966,
+        1.9183437004499657
+      ],
+      "junction_ratio": [
+        0.39207111745820705,
+        0.49207111745820703
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.0,
+        0.035373747948192334
+      ]
+    },
+    "sampled_targets": {
+      "L_BFS": 20.0,
+      "detour_ratio": 1.567121498361651,
+      "wall_ratio": 0.24204550351108484,
+      "dead_end_ratio": 0.1058040726560521,
+      "dead_end_depth_mean": 1.5683437004499658,
+      "junction_ratio": 0.44207111745820704,
+      "island_free_ratio": 0.010373747948192333,
+      "derived_D": 12
+    },
+    "derived_D": 12,
+    "main_path": [
+      [
+        6,
+        3
+      ],
+      [
+        7,
+        3
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ]
+    ],
+    "main_path_len": 20,
+    "main_path_detour_ratio": 2.0,
+    "generation_metadata": {
+      "restart_count": 0,
+      "edit_steps": 80,
+      "final_range_error": 0.11359322987540638,
+      "final_sampled_target_error": 1.121770595822175,
+      "failed_metrics": [
+        "wall_ratio",
+        "bfs_len_norm",
+        "detour_ratio",
+        "junction_ratio"
+      ],
+      "operation_stats": {
+        "dead_end_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "branch_inject": {
+          "selected_count": 36,
+          "attempt_count": 36,
+          "success_count": 36,
+          "accept_count": 0,
+          "reject_count": 36,
+          "reject_reason_counts": {
+            "metric_not_improved": 36
+          }
+        },
+        "island_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_add": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_remove": {
+          "selected_count": 44,
+          "attempt_count": 44,
+          "success_count": 44,
+          "accept_count": 24,
+          "reject_count": 20,
+          "reject_reason_counts": {
+            "metric_not_improved": 20
+          }
+        },
+        "path_block_optional": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        }
+      },
+      "primitive_test_name": null
+    },
+    "target_value": null
+  },
+  {
+    "maze_id": "n7d_00016",
+    "maze": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    ],
+    "start": [
+      1,
+      4
+    ],
+    "goal": [
+      7,
+      0
+    ],
+    "generator_name": "pf_mcg",
+    "generation_success": false,
+    "generation_failed_target": true,
+    "hard_failure": false,
+    "hard_failure_reason": null,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9300236893146512,
+        0.9800236893146511
+      ],
+      "wall_ratio": [
+        0.17988362808618175,
+        0.24238362808618175
+      ],
+      "bfs_len_norm": [
+        0.30158730158730157,
+        0.3333333333333333
+      ],
+      "detour_ratio": [
+        1.4945604978005298,
+        1.8945604978005297
+      ],
+      "dead_end_ratio": [
+        0.10203236413232264,
+        0.15203236413232263
+      ],
+      "dead_end_depth_mean": [
+        1.8017762859778435,
+        2.5017762859778436
+      ],
+      "junction_ratio": [
+        0.3382843883926377,
+        0.43828438839263767
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.01997631068534888,
+        0.06997631068534887
+      ]
+    },
+    "sampled_targets": {
+      "L_BFS": 20.0,
+      "detour_ratio": 1.6945604978005298,
+      "wall_ratio": 0.21113362808618175,
+      "dead_end_ratio": 0.12703236413232263,
+      "dead_end_depth_mean": 2.1517762859778435,
+      "junction_ratio": 0.3882843883926377,
+      "island_free_ratio": 0.04497631068534888,
+      "derived_D": 12
+    },
+    "derived_D": 12,
+    "main_path": [
+      [
+        1,
+        4
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        7,
+        0
+      ]
+    ],
+    "main_path_len": 20,
+    "main_path_detour_ratio": 2.0,
+    "generation_metadata": {
+      "restart_count": 11,
+      "edit_steps": 80,
+      "final_range_error": 0.08692900395311681,
+      "final_sampled_target_error": 1.1607642310626431,
+      "failed_metrics": [
+        "reachable_free_ratio",
+        "bfs_len_norm",
+        "junction_ratio",
+        "island_free_ratio"
+      ],
+      "operation_stats": {
+        "dead_end_inject": {
+          "selected_count": 3,
+          "attempt_count": 3,
+          "success_count": 3,
+          "accept_count": 3,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "branch_inject": {
+          "selected_count": 22,
+          "attempt_count": 22,
+          "success_count": 22,
+          "accept_count": 0,
+          "reject_count": 22,
+          "reject_reason_counts": {
+            "metric_not_improved": 22
+          }
+        },
+        "island_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_add": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_remove": {
+          "selected_count": 54,
+          "attempt_count": 54,
+          "success_count": 54,
+          "accept_count": 23,
+          "reject_count": 31,
+          "reject_reason_counts": {
+            "metric_not_improved": 31
+          }
+        },
+        "path_block_optional": {
+          "selected_count": 1,
+          "attempt_count": 1,
+          "success_count": 1,
+          "accept_count": 1,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        }
+      },
+      "primitive_test_name": null
+    },
+    "target_value": null
+  },
+  {
+    "maze_id": "n7d_00017",
+    "maze": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
+    ],
+    "start": [
+      2,
+      1
+    ],
+    "goal": [
+      7,
+      7
+    ],
+    "generator_name": "pf_mcg",
+    "generation_success": false,
+    "generation_failed_target": true,
+    "hard_failure": false,
+    "hard_failure_reason": null,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9731110315149317,
+        1.0
+      ],
+      "wall_ratio": [
+        0.28984428989512767,
+        0.35234428989512767
+      ],
+      "bfs_len_norm": [
+        0.38095238095238093,
+        0.4126984126984127
+      ],
+      "detour_ratio": [
+        1.9959377347261544,
+        2.3959377347261546
+      ],
+      "dead_end_ratio": [
+        0.05350890898345614,
+        0.10350890898345613
+      ],
+      "dead_end_depth_mean": [
+        2.5260949893885285,
+        3.2260949893885287
+      ],
+      "junction_ratio": [
+        0.654891192577455,
+        0.7548911925774551
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.0,
+        0.02688896848506825
+      ]
+    },
+    "sampled_targets": {
+      "L_BFS": 25.0,
+      "detour_ratio": 2.1959377347261544,
+      "wall_ratio": 0.32109428989512767,
+      "dead_end_ratio": 0.07850890898345614,
+      "dead_end_depth_mean": 2.8760949893885286,
+      "junction_ratio": 0.704891192577455,
+      "island_free_ratio": 0.0018889684850682473,
+      "derived_D": 11
+    },
+    "derived_D": 11,
+    "main_path": [
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        7
+      ]
+    ],
+    "main_path_len": 25,
+    "main_path_detour_ratio": 2.272727272727273,
+    "generation_metadata": {
+      "restart_count": 0,
+      "edit_steps": 80,
+      "final_range_error": 2.42676216647955,
+      "final_sampled_target_error": 5.027601017441616,
+      "failed_metrics": [
+        "wall_ratio",
+        "bfs_len_norm",
+        "detour_ratio",
+        "junction_ratio",
+        "dead_end_depth_mean"
+      ],
+      "operation_stats": {
+        "dead_end_inject": {
+          "selected_count": 2,
+          "attempt_count": 2,
+          "success_count": 2,
+          "accept_count": 2,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "branch_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "island_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_add": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_remove": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "path_block_optional": {
+          "selected_count": 78,
+          "attempt_count": 78,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 78,
+          "reject_reason_counts": {
+            "no_candidate": 78
+          }
+        }
+      },
+      "primitive_test_name": null
+    },
+    "target_value": null
+  },
+  {
+    "maze_id": "n7d_00018",
+    "maze": [
+      [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "start": [
+      2,
+      6
+    ],
+    "goal": [
+      2,
+      2
+    ],
+    "generator_name": "pf_mcg",
+    "generation_success": false,
+    "generation_failed_target": true,
+    "hard_failure": false,
+    "hard_failure_reason": null,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9356568522988479,
+        0.9856568522988479
+      ],
+      "wall_ratio": [
+        0.1517508451154343,
+        0.2142508451154343
+      ],
+      "bfs_len_norm": [
+        0.1746031746031746,
+        0.20634920634920634
+      ],
+      "detour_ratio": [
+        2.4103560100765913,
+        2.8103560100765916
+      ],
+      "dead_end_ratio": [
+        0.012482079168530162,
+        0.062482079168530165
+      ],
+      "dead_end_depth_mean": [
+        2.287686038404892,
+        2.987686038404892
+      ],
+      "junction_ratio": [
+        0.4010542464639904,
+        0.5010542464639904
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.014343147701152095,
+        0.0643431477011521
+      ]
+    },
+    "sampled_targets": {
+      "L_BFS": 12.0,
+      "detour_ratio": 2.6103560100765915,
+      "wall_ratio": 0.1830008451154343,
+      "dead_end_ratio": 0.037482079168530164,
+      "dead_end_depth_mean": 2.637686038404892,
+      "junction_ratio": 0.4510542464639904,
+      "island_free_ratio": 0.0393431477011521,
+      "derived_D": 4
+    },
+    "derived_D": 4,
+    "main_path": [
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "main_path_len": 12,
+    "main_path_detour_ratio": 3.0,
+    "generation_metadata": {
+      "restart_count": 31,
+      "edit_steps": 80,
+      "final_range_error": 0.5086195045647778,
+      "final_sampled_target_error": 1.9808489604734554,
+      "failed_metrics": [
+        "reachable_free_ratio",
+        "wall_ratio",
+        "bfs_len_norm",
+        "dead_end_depth_mean",
+        "island_free_ratio"
+      ],
+      "operation_stats": {
+        "dead_end_inject": {
+          "selected_count": 48,
+          "attempt_count": 48,
+          "success_count": 5,
+          "accept_count": 5,
+          "reject_count": 43,
+          "reject_reason_counts": {
+            "no_candidate": 43
+          }
+        },
+        "branch_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "island_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_add": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_remove": {
+          "selected_count": 32,
+          "attempt_count": 32,
+          "success_count": 32,
+          "accept_count": 11,
+          "reject_count": 21,
+          "reject_reason_counts": {
+            "metric_not_improved": 21
+          }
+        },
+        "path_block_optional": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        }
+      },
+      "primitive_test_name": null
+    },
+    "target_value": null
+  },
+  {
+    "maze_id": "n7d_00019",
+    "maze": [
+      [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    ],
+    "start": [
+      4,
+      5
+    ],
+    "goal": [
+      0,
+      5
+    ],
+    "generator_name": "pf_mcg",
+    "generation_success": false,
+    "generation_failed_target": true,
+    "hard_failure": false,
+    "hard_failure_reason": null,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9179904434934872,
+        0.9679904434934872
+      ],
+      "wall_ratio": [
+        0.29068829173164495,
+        0.35318829173164495
+      ],
+      "bfs_len_norm": [
+        0.14285714285714285,
+        0.1746031746031746
+      ],
+      "detour_ratio": [
+        2.2739339223664103,
+        2.6739339223664107
+      ],
+      "dead_end_ratio": [
+        0.06978901817939884,
+        0.11978901817939885
+      ],
+      "dead_end_depth_mean": [
+        2.061199340172737,
+        2.761199340172737
+      ],
+      "junction_ratio": [
+        0.53175384108113,
+        0.6317538410811301
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.03200955650651278,
+        0.08200955650651279
+      ]
+    },
+    "sampled_targets": {
+      "L_BFS": 10.0,
+      "detour_ratio": 2.4739339223664105,
+      "wall_ratio": 0.32193829173164495,
+      "dead_end_ratio": 0.09478901817939885,
+      "dead_end_depth_mean": 2.411199340172737,
+      "junction_ratio": 0.58175384108113,
+      "island_free_ratio": 0.05700955650651278,
+      "derived_D": 4
+    },
+    "derived_D": 4,
+    "main_path": [
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        0,
+        5
+      ]
+    ],
+    "main_path_len": 10,
+    "main_path_detour_ratio": 2.5,
+    "generation_metadata": {
+      "restart_count": 80,
+      "edit_steps": 80,
+      "final_range_error": 0.6412627595208069,
+      "final_sampled_target_error": 2.535110222965906,
+      "failed_metrics": [
+        "reachable_free_ratio",
+        "wall_ratio",
+        "bfs_len_norm",
+        "detour_ratio",
+        "island_free_ratio"
+      ],
+      "operation_stats": {
+        "dead_end_inject": {
+          "selected_count": 6,
+          "attempt_count": 6,
+          "success_count": 2,
+          "accept_count": 2,
+          "reject_count": 4,
+          "reject_reason_counts": {
+            "no_candidate": 4
+          }
+        },
+        "branch_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "island_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_add": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_remove": {
+          "selected_count": 74,
+          "attempt_count": 74,
+          "success_count": 74,
+          "accept_count": 8,
+          "reject_count": 66,
+          "reject_reason_counts": {
+            "metric_not_improved": 66
+          }
+        },
+        "path_block_optional": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        }
+      },
+      "primitive_test_name": null
+    },
+    "target_value": null
+  },
+  {
+    "maze_id": "n7d_00020",
+    "maze": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "start": [
+      4,
+      7
+    ],
+    "goal": [
+      4,
+      1
+    ],
+    "generator_name": "pf_mcg",
+    "generation_success": false,
+    "generation_failed_target": true,
+    "hard_failure": false,
+    "hard_failure_reason": null,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9321871102003153,
+        0.9821871102003153
+      ],
+      "wall_ratio": [
+        0.2536969850706762,
+        0.3161969850706762
+      ],
+      "bfs_len_norm": [
+        0.20634920634920634,
+        0.23809523809523808
+      ],
+      "detour_ratio": [
+        2.0862786756759637,
+        2.486278675675964
+      ],
+      "dead_end_ratio": [
+        0.09278197525535062,
+        0.1427819752553506
+      ],
+      "dead_end_depth_mean": [
+        1.2822669332544647,
+        1.9822669332544645
+      ],
+      "junction_ratio": [
+        0.7146899111163957,
+        0.8146899111163958
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.017812889799684657,
+        0.06781288979968467
+      ]
+    },
+    "sampled_targets": {
+      "L_BFS": 14.0,
+      "detour_ratio": 2.286278675675964,
+      "wall_ratio": 0.2849469850706762,
+      "dead_end_ratio": 0.11778197525535061,
+      "dead_end_depth_mean": 1.6322669332544646,
+      "junction_ratio": 0.7646899111163957,
+      "island_free_ratio": 0.04281288979968466,
+      "derived_D": 6
+    },
+    "derived_D": 6,
+    "main_path": [
+      [
+        4,
+        7
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "main_path_len": 14,
+    "main_path_detour_ratio": 2.3333333333333335,
+    "generation_metadata": {
+      "restart_count": 3,
+      "edit_steps": 80,
+      "final_range_error": 0.08782510099392604,
+      "final_sampled_target_error": 0.7553169921005007,
+      "failed_metrics": [
+        "reachable_free_ratio",
+        "wall_ratio",
+        "junction_ratio",
+        "island_free_ratio"
+      ],
+      "operation_stats": {
+        "dead_end_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "branch_inject": {
+          "selected_count": 50,
+          "attempt_count": 50,
+          "success_count": 35,
+          "accept_count": 5,
+          "reject_count": 45,
+          "reject_reason_counts": {
+            "metric_not_improved": 30,
+            "no_candidate": 15
+          }
+        },
+        "island_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_add": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_remove": {
+          "selected_count": 22,
+          "attempt_count": 22,
+          "success_count": 22,
+          "accept_count": 17,
+          "reject_count": 5,
+          "reject_reason_counts": {
+            "metric_not_improved": 5
+          }
+        },
+        "path_block_optional": {
+          "selected_count": 8,
+          "attempt_count": 8,
+          "success_count": 8,
+          "accept_count": 2,
+          "reject_count": 6,
+          "reject_reason_counts": {
+            "metric_not_improved": 6
+          }
+        }
+      },
+      "primitive_test_name": null
+    },
+    "target_value": null
+  },
+  {
+    "maze_id": "n7d_00021",
+    "maze": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "start": [
+      5,
+      7
+    ],
+    "goal": [
+      3,
+      4
+    ],
+    "generator_name": "pf_mcg",
+    "generation_success": false,
+    "generation_failed_target": true,
+    "hard_failure": false,
+    "hard_failure_reason": null,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9664447576944722,
+        1.0
+      ],
+      "wall_ratio": [
+        0.22016132407785022,
+        0.2826613240778502
+      ],
+      "bfs_len_norm": [
+        0.19047619047619047,
+        0.2222222222222222
+      ],
+      "detour_ratio": [
+        2.096034334047668,
+        2.4960343340476685
+      ],
+      "dead_end_ratio": [
+        0.10685812991186977,
+        0.15685812991186976
+      ],
+      "dead_end_depth_mean": [
+        1.773970612918978,
+        2.4739706129189782
+      ],
+      "junction_ratio": [
+        0.43796991462731294,
+        0.5379699146273129
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.0,
+        0.033555242305527797
+      ]
+    },
+    "sampled_targets": {
+      "L_BFS": 13.0,
+      "detour_ratio": 2.2960343340476683,
+      "wall_ratio": 0.2514113240778502,
+      "dead_end_ratio": 0.13185812991186976,
+      "dead_end_depth_mean": 2.123970612918978,
+      "junction_ratio": 0.48796991462731293,
+      "island_free_ratio": 0.008555242305527792,
+      "derived_D": 5
+    },
+    "derived_D": 5,
+    "main_path": [
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        7,
+        6
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        7,
+        5
+      ],
+      [
+        7,
+        4
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "main_path_len": 13,
+    "main_path_detour_ratio": 2.6,
+    "generation_metadata": {
+      "restart_count": 13,
+      "edit_steps": 80,
+      "final_range_error": 0.13380434187448137,
+      "final_sampled_target_error": 0.8121886246041675,
+      "failed_metrics": [
+        "wall_ratio",
+        "detour_ratio"
+      ],
+      "operation_stats": {
+        "dead_end_inject": {
+          "selected_count": 5,
+          "attempt_count": 5,
+          "success_count": 4,
+          "accept_count": 3,
+          "reject_count": 2,
+          "reject_reason_counts": {
+            "metric_not_improved": 1,
+            "no_candidate": 1
+          }
+        },
+        "branch_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "island_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_add": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_remove": {
+          "selected_count": 55,
+          "attempt_count": 55,
+          "success_count": 55,
+          "accept_count": 28,
+          "reject_count": 27,
+          "reject_reason_counts": {
+            "metric_not_improved": 27
+          }
+        },
+        "path_block_optional": {
+          "selected_count": 20,
+          "attempt_count": 20,
+          "success_count": 20,
+          "accept_count": 4,
+          "reject_count": 16,
+          "reject_reason_counts": {
+            "metric_not_improved": 16
+          }
+        }
+      },
+      "primitive_test_name": null
+    },
+    "target_value": null
+  },
+  {
+    "maze_id": "n7d_00022",
+    "maze": [
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    ],
+    "start": [
+      2,
+      0
+    ],
+    "goal": [
+      1,
+      6
+    ],
+    "generator_name": "pf_mcg",
+    "generation_success": false,
+    "generation_failed_target": true,
+    "hard_failure": false,
+    "hard_failure_reason": null,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9676394463443663,
+        1.0
+      ],
+      "wall_ratio": [
+        0.22416489742678336,
+        0.28666489742678336
+      ],
+      "bfs_len_norm": [
+        0.19047619047619047,
+        0.2222222222222222
+      ],
+      "detour_ratio": [
+        1.5089548579622956,
+        1.9089548579622955
+      ],
+      "dead_end_ratio": [
+        0.058768889992035396,
+        0.1087688899920354
+      ],
+      "dead_end_depth_mean": [
+        1.392450209113464,
+        2.092450209113464
+      ],
+      "junction_ratio": [
+        0.43275685383927837,
+        0.5327568538392784
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.0,
+        0.032360553655633714
+      ]
+    },
+    "sampled_targets": {
+      "L_BFS": 13.0,
+      "detour_ratio": 1.7089548579622955,
+      "wall_ratio": 0.25541489742678336,
+      "dead_end_ratio": 0.0837688899920354,
+      "dead_end_depth_mean": 1.742450209113464,
+      "junction_ratio": 0.48275685383927835,
+      "island_free_ratio": 0.007360553655633716,
+      "derived_D": 7
+    },
+    "derived_D": 7,
+    "main_path": [
+      [
+        2,
+        0
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        1,
+        6
+      ]
+    ],
+    "main_path_len": 13,
+    "main_path_detour_ratio": 1.8571428571428572,
+    "generation_metadata": {
+      "restart_count": 74,
+      "edit_steps": 80,
+      "final_range_error": 0.04171123126710463,
+      "final_sampled_target_error": 0.6014855095891065,
+      "failed_metrics": [
+        "junction_ratio"
+      ],
+      "operation_stats": {
+        "dead_end_inject": {
+          "selected_count": 2,
+          "attempt_count": 2,
+          "success_count": 2,
+          "accept_count": 2,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "branch_inject": {
+          "selected_count": 31,
+          "attempt_count": 31,
+          "success_count": 31,
+          "accept_count": 1,
+          "reject_count": 30,
+          "reject_reason_counts": {
+            "metric_not_improved": 30
+          }
+        },
+        "island_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_add": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_remove": {
+          "selected_count": 47,
+          "attempt_count": 47,
+          "success_count": 47,
+          "accept_count": 27,
+          "reject_count": 20,
+          "reject_reason_counts": {
+            "metric_not_improved": 20
+          }
+        },
+        "path_block_optional": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        }
+      },
+      "primitive_test_name": null
+    },
+    "target_value": null
+  },
+  {
+    "maze_id": "n7d_00023",
+    "maze": [
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ]
+    ],
+    "start": [
+      7,
+      1
+    ],
+    "goal": [
+      6,
+      7
+    ],
+    "generator_name": "pf_mcg",
+    "generation_success": false,
+    "generation_failed_target": true,
+    "hard_failure": false,
+    "hard_failure_reason": null,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9276834533543811,
+        0.977683453354381
+      ],
+      "wall_ratio": [
+        0.1686938209205219,
+        0.2311938209205219
+      ],
+      "bfs_len_norm": [
+        0.25396825396825395,
+        0.2857142857142857
+      ],
+      "detour_ratio": [
+        2.098729863163253,
+        2.4987298631632533
+      ],
+      "dead_end_ratio": [
+        0.07177885223329233,
+        0.12177885223329232
+      ],
+      "dead_end_depth_mean": [
+        1.3506014799992379,
+        2.0506014799992376
+      ],
+      "junction_ratio": [
+        0.43668467746800305,
+        0.5366846774680031
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.022316546645618947,
+        0.07231654664561896
+      ]
+    },
+    "sampled_targets": {
+      "L_BFS": 17.0,
+      "detour_ratio": 2.298729863163253,
+      "wall_ratio": 0.1999438209205219,
+      "dead_end_ratio": 0.09677885223329233,
+      "dead_end_depth_mean": 1.7006014799992377,
+      "junction_ratio": 0.48668467746800304,
+      "island_free_ratio": 0.04731654664561895,
+      "derived_D": 7
+    },
+    "derived_D": 7,
+    "main_path": [
+      [
+        7,
+        1
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "main_path_len": 17,
+    "main_path_detour_ratio": 2.4285714285714284,
+    "generation_metadata": {
+      "restart_count": 97,
+      "edit_steps": 80,
+      "final_range_error": 0.11579155307813677,
+      "final_sampled_target_error": 0.8488392050130609,
+      "failed_metrics": [
+        "reachable_free_ratio",
+        "junction_ratio",
+        "island_free_ratio"
+      ],
+      "operation_stats": {
+        "dead_end_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "branch_inject": {
+          "selected_count": 21,
+          "attempt_count": 21,
+          "success_count": 21,
+          "accept_count": 1,
+          "reject_count": 20,
+          "reject_reason_counts": {
+            "metric_not_improved": 20
+          }
+        },
+        "island_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_add": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_remove": {
+          "selected_count": 59,
+          "attempt_count": 59,
+          "success_count": 59,
+          "accept_count": 30,
+          "reject_count": 29,
+          "reject_reason_counts": {
+            "metric_not_improved": 29
+          }
+        },
+        "path_block_optional": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        }
+      },
+      "primitive_test_name": null
+    },
+    "target_value": null
+  },
+  {
+    "maze_id": "n7d_00024",
+    "maze": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "start": [
+      2,
+      7
+    ],
+    "goal": [
+      4,
+      3
+    ],
+    "generator_name": "pf_mcg",
+    "generation_success": false,
+    "generation_failed_target": true,
+    "hard_failure": false,
+    "hard_failure_reason": null,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9199436004171447,
+        0.9699436004171447
+      ],
+      "wall_ratio": [
+        0.34290707143235205,
+        0.40540707143235205
+      ],
+      "bfs_len_norm": [
+        0.2698412698412698,
+        0.30158730158730157
+      ],
+      "detour_ratio": [
+        2.5607471282464633,
+        2.9607471282464637
+      ],
+      "dead_end_ratio": [
+        0.1143701936367453,
+        0.1643701936367453
+      ],
+      "dead_end_depth_mean": [
+        1.6658110554267935,
+        2.3658110554267937
+      ],
+      "junction_ratio": [
+        0.35334179262239246,
+        0.45334179262239244
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.030056399582855303,
+        0.0800563995828553
+      ]
+    },
+    "sampled_targets": {
+      "L_BFS": 18.0,
+      "detour_ratio": 2.7607471282464635,
+      "wall_ratio": 0.37415707143235205,
+      "dead_end_ratio": 0.1393701936367453,
+      "dead_end_depth_mean": 2.0158110554267936,
+      "junction_ratio": 0.40334179262239245,
+      "island_free_ratio": 0.055056399582855305,
+      "derived_D": 6
+    },
+    "derived_D": 6,
+    "main_path": [
+      [
+        2,
+        7
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        3
+      ]
+    ],
+    "main_path_len": 18,
+    "main_path_detour_ratio": 3.0,
+    "generation_metadata": {
+      "restart_count": 80,
+      "edit_steps": 80,
+      "final_range_error": 0.0759858150387265,
+      "final_sampled_target_error": 0.9235992736806671,
+      "failed_metrics": [
+        "reachable_free_ratio",
+        "bfs_len_norm",
+        "island_free_ratio"
+      ],
+      "operation_stats": {
+        "dead_end_inject": {
+          "selected_count": 5,
+          "attempt_count": 5,
+          "success_count": 4,
+          "accept_count": 4,
+          "reject_count": 1,
+          "reject_reason_counts": {
+            "no_candidate": 1
+          }
+        },
+        "branch_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "island_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_add": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_remove": {
+          "selected_count": 75,
+          "attempt_count": 75,
+          "success_count": 75,
+          "accept_count": 13,
+          "reject_count": 62,
+          "reject_reason_counts": {
+            "metric_not_improved": 62
+          }
+        },
+        "path_block_optional": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        }
+      },
+      "primitive_test_name": null
+    },
+    "target_value": null
+  },
+  {
+    "maze_id": "n7d_00025",
+    "maze": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "start": [
+      4,
+      5
+    ],
+    "goal": [
+      0,
+      2
+    ],
+    "generator_name": "pf_mcg",
+    "generation_success": false,
+    "generation_failed_target": true,
+    "hard_failure": false,
+    "hard_failure_reason": null,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9309303496543844,
+        0.9809303496543844
+      ],
+      "wall_ratio": [
+        0.1582613139270763,
+        0.2207613139270763
+      ],
+      "bfs_len_norm": [
+        0.31746031746031744,
+        0.3492063492063492
+      ],
+      "detour_ratio": [
+        2.4070260074178234,
+        2.8070260074178237
+      ],
+      "dead_end_ratio": [
+        0.01410298016536013,
+        0.06410298016536013
+      ],
+      "dead_end_depth_mean": [
+        1.2993340143895917,
+        1.9993340143895915
+      ],
+      "junction_ratio": [
+        0.631386979832034,
+        0.731386979832034
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.01906965034561558,
+        0.06906965034561557
+      ]
+    },
+    "sampled_targets": {
+      "L_BFS": 21.0,
+      "detour_ratio": 2.6070260074178235,
+      "wall_ratio": 0.1895113139270763,
+      "dead_end_ratio": 0.03910298016536013,
+      "dead_end_depth_mean": 1.6493340143895916,
+      "junction_ratio": 0.681386979832034,
+      "island_free_ratio": 0.04406965034561558,
+      "derived_D": 7
+    },
+    "derived_D": 7,
+    "main_path": [
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        7,
+        6
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        7,
+        5
+      ],
+      [
+        7,
+        4
+      ],
+      [
+        7,
+        3
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "main_path_len": 21,
+    "main_path_detour_ratio": 3.0,
+    "generation_metadata": {
+      "restart_count": 3,
+      "edit_steps": 80,
+      "final_range_error": 0.054012316564247036,
+      "final_sampled_target_error": 0.8360660693511084,
+      "failed_metrics": [
+        "reachable_free_ratio",
+        "bfs_len_norm",
+        "island_free_ratio"
+      ],
+      "operation_stats": {
+        "dead_end_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "branch_inject": {
+          "selected_count": 11,
+          "attempt_count": 11,
+          "success_count": 11,
+          "accept_count": 4,
+          "reject_count": 7,
+          "reject_reason_counts": {
+            "metric_not_improved": 7
+          }
+        },
+        "island_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_add": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_remove": {
+          "selected_count": 60,
+          "attempt_count": 60,
+          "success_count": 60,
+          "accept_count": 27,
+          "reject_count": 33,
+          "reject_reason_counts": {
+            "metric_not_improved": 33
+          }
+        },
+        "path_block_optional": {
+          "selected_count": 9,
+          "attempt_count": 9,
+          "success_count": 9,
+          "accept_count": 4,
+          "reject_count": 5,
+          "reject_reason_counts": {
+            "metric_not_improved": 5
+          }
+        }
+      },
+      "primitive_test_name": null
+    },
+    "target_value": null
+  },
+  {
+    "maze_id": "n7d_00026",
+    "maze": [
+      [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "start": [
+      1,
+      0
+    ],
+    "goal": [
+      3,
+      2
+    ],
+    "generator_name": "pf_mcg",
+    "generation_success": false,
+    "generation_failed_target": true,
+    "hard_failure": false,
+    "hard_failure_reason": null,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9293287210584263,
+        0.9793287210584264
+      ],
+      "wall_ratio": [
+        0.33513716108247,
+        0.39763716108247
+      ],
+      "bfs_len_norm": [
+        0.20634920634920634,
+        0.23809523809523808
+      ],
+      "detour_ratio": [
+        2.6702458198478567,
+        3.070245819847857
+      ],
+      "dead_end_ratio": [
+        0.07221993966361373,
+        0.12221993966361375
+      ],
+      "dead_end_depth_mean": [
+        0.689377910748633,
+        1.389377910748633
+      ],
+      "junction_ratio": [
+        0.21054399267841262,
+        0.3105439926784126
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.02067127894157366,
+        0.07067127894157366
+      ]
+    },
+    "sampled_targets": {
+      "L_BFS": 14.0,
+      "detour_ratio": 2.870245819847857,
+      "wall_ratio": 0.36638716108247,
+      "dead_end_ratio": 0.09721993966361374,
+      "dead_end_depth_mean": 1.039377910748633,
+      "junction_ratio": 0.2605439926784126,
+      "island_free_ratio": 0.04567127894157366,
+      "derived_D": 4
+    },
+    "derived_D": 4,
+    "main_path": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "main_path_len": 14,
+    "main_path_detour_ratio": 3.5,
+    "generation_metadata": {
+      "restart_count": 46,
+      "edit_steps": 80,
+      "final_range_error": 0.17072559646586882,
+      "final_sampled_target_error": 1.5041099517784897,
+      "failed_metrics": [
+        "reachable_free_ratio",
+        "wall_ratio",
+        "bfs_len_norm",
+        "junction_ratio",
+        "island_free_ratio"
+      ],
+      "operation_stats": {
+        "dead_end_inject": {
+          "selected_count": 1,
+          "attempt_count": 1,
+          "success_count": 1,
+          "accept_count": 1,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "branch_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "island_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_add": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_remove": {
+          "selected_count": 79,
+          "attempt_count": 79,
+          "success_count": 79,
+          "accept_count": 18,
+          "reject_count": 61,
+          "reject_reason_counts": {
+            "metric_not_improved": 61
+          }
+        },
+        "path_block_optional": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        }
+      },
+      "primitive_test_name": null
+    },
+    "target_value": null
+  },
+  {
+    "maze_id": "n7d_00027",
+    "maze": [
+      [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "start": [
+      6,
+      1
+    ],
+    "goal": [
+      1,
+      2
+    ],
+    "generator_name": "pf_mcg",
+    "generation_success": false,
+    "generation_failed_target": true,
+    "hard_failure": false,
+    "hard_failure_reason": null,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.944117335327334,
+        0.994117335327334
+      ],
+      "wall_ratio": [
+        0.27679337992489234,
+        0.33929337992489234
+      ],
+      "bfs_len_norm": [
+        0.20634920634920634,
+        0.23809523809523808
+      ],
+      "detour_ratio": [
+        2.141189545709242,
+        2.5411895457092424
+      ],
+      "dead_end_ratio": [
+        0.09680661813254018,
+        0.1468066181325402
+      ],
+      "dead_end_depth_mean": [
+        2.8144297732023733,
+        3.5144297732023735
+      ],
+      "junction_ratio": [
+        0.370479444966994,
+        0.47047944496699395
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.0058826646726660055,
+        0.055882664672666005
+      ]
+    },
+    "sampled_targets": {
+      "L_BFS": 14.0,
+      "detour_ratio": 2.341189545709242,
+      "wall_ratio": 0.30804337992489234,
+      "dead_end_ratio": 0.12180661813254019,
+      "dead_end_depth_mean": 3.1644297732023734,
+      "junction_ratio": 0.42047944496699396,
+      "island_free_ratio": 0.030882664672666007,
+      "derived_D": 6
+    },
+    "derived_D": 6,
+    "main_path": [
+      [
+        6,
+        1
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        7,
+        3
+      ],
+      [
+        7,
+        4
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "main_path_len": 14,
+    "main_path_detour_ratio": 2.3333333333333335,
+    "generation_metadata": {
+      "restart_count": 7,
+      "edit_steps": 80,
+      "final_range_error": 0.6717353958387315,
+      "final_sampled_target_error": 1.6809734085322179,
+      "failed_metrics": [
+        "reachable_free_ratio",
+        "wall_ratio",
+        "bfs_len_norm",
+        "detour_ratio",
+        "junction_ratio",
+        "dead_end_depth_mean",
+        "island_free_ratio"
+      ],
+      "operation_stats": {
+        "dead_end_inject": {
+          "selected_count": 80,
+          "attempt_count": 80,
+          "success_count": 8,
+          "accept_count": 8,
+          "reject_count": 72,
+          "reject_reason_counts": {
+            "no_candidate": 72
+          }
+        },
+        "branch_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "island_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_add": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_remove": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "path_block_optional": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        }
+      },
+      "primitive_test_name": null
+    },
+    "target_value": null
+  },
+  {
+    "maze_id": "n7d_00028",
+    "maze": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    ],
+    "start": [
+      7,
+      6
+    ],
+    "goal": [
+      6,
+      0
+    ],
+    "generator_name": "pf_mcg",
+    "generation_success": false,
+    "generation_failed_target": true,
+    "hard_failure": false,
+    "hard_failure_reason": null,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9233536121022654,
+        0.9733536121022655
+      ],
+      "wall_ratio": [
+        0.3043272131602696,
+        0.3668272131602696
+      ],
+      "bfs_len_norm": [
+        0.31746031746031744,
+        0.3492063492063492
+      ],
+      "detour_ratio": [
+        2.8099685196910738,
+        3.209968519691074
+      ],
+      "dead_end_ratio": [
+        0.08298520583338811,
+        0.13298520583338813
+      ],
+      "dead_end_depth_mean": [
+        1.8036073046128878,
+        2.503607304612888
+      ],
+      "junction_ratio": [
+        0.35446527571564296,
+        0.45446527571564294
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.026646387897734554,
+        0.07664638789773456
+      ]
+    },
+    "sampled_targets": {
+      "L_BFS": 21.0,
+      "detour_ratio": 3.009968519691074,
+      "wall_ratio": 0.3355772131602696,
+      "dead_end_ratio": 0.10798520583338812,
+      "dead_end_depth_mean": 2.153607304612888,
+      "junction_ratio": 0.40446527571564295,
+      "island_free_ratio": 0.051646387897734555,
+      "derived_D": 7
+    },
+    "derived_D": 7,
+    "main_path": [
+      [
+        7,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        6,
+        0
+      ]
+    ],
+    "main_path_len": 21,
+    "main_path_detour_ratio": 3.0,
+    "generation_metadata": {
+      "restart_count": 87,
+      "edit_steps": 80,
+      "final_range_error": 0.6237543280813659,
+      "final_sampled_target_error": 1.4986806417364347,
+      "failed_metrics": [
+        "reachable_free_ratio",
+        "wall_ratio",
+        "dead_end_ratio",
+        "dead_end_depth_mean",
+        "island_free_ratio"
+      ],
+      "operation_stats": {
+        "dead_end_inject": {
+          "selected_count": 80,
+          "attempt_count": 80,
+          "success_count": 9,
+          "accept_count": 9,
+          "reject_count": 71,
+          "reject_reason_counts": {
+            "no_candidate": 71
+          }
+        },
+        "branch_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "island_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_add": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_remove": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "path_block_optional": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        }
+      },
+      "primitive_test_name": null
+    },
+    "target_value": null
+  },
+  {
+    "maze_id": "n7d_00029",
+    "maze": [
+      [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "start": [
+      7,
+      4
+    ],
+    "goal": [
+      1,
+      7
+    ],
+    "generator_name": "pf_mcg",
+    "generation_success": false,
+    "generation_failed_target": true,
+    "hard_failure": false,
+    "hard_failure_reason": null,
+    "target_ranges": {
+      "reachable_free_ratio": [
+        0.9222828693508813,
+        0.9722828693508813
+      ],
+      "wall_ratio": [
+        0.31662820863432317,
+        0.37912820863432317
+      ],
+      "bfs_len_norm": [
+        0.31746031746031744,
+        0.3492063492063492
+      ],
+      "detour_ratio": [
+        2.0431232512250044,
+        2.4431232512250047
+      ],
+      "dead_end_ratio": [
+        0.0770820194608213,
+        0.1270820194608213
+      ],
+      "dead_end_depth_mean": [
+        1.29406096255854,
+        1.9940609625585402
+      ],
+      "junction_ratio": [
+        0.6515156522503489,
+        0.751515652250349
+      ],
+      "junction_on_solution_ratio": [
+        0.0,
+        1.0
+      ],
+      "island_free_ratio": [
+        0.027717130649118703,
+        0.0777171306491187
+      ]
+    },
+    "sampled_targets": {
+      "L_BFS": 21.0,
+      "detour_ratio": 2.2431232512250046,
+      "wall_ratio": 0.34787820863432317,
+      "dead_end_ratio": 0.1020820194608213,
+      "dead_end_depth_mean": 1.64406096255854,
+      "junction_ratio": 0.701515652250349,
+      "island_free_ratio": 0.052717130649118704,
+      "derived_D": 9
+    },
+    "derived_D": 9,
+    "main_path": [
+      [
+        7,
+        4
+      ],
+      [
+        7,
+        3
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        7
+      ]
+    ],
+    "main_path_len": 21,
+    "main_path_detour_ratio": 2.3333333333333335,
+    "generation_metadata": {
+      "restart_count": 0,
+      "edit_steps": 80,
+      "final_range_error": 0.5737360774279664,
+      "final_sampled_target_error": 2.688667870339155,
+      "failed_metrics": [
+        "reachable_free_ratio",
+        "wall_ratio",
+        "bfs_len_norm",
+        "detour_ratio",
+        "junction_ratio",
+        "dead_end_depth_mean",
+        "island_free_ratio"
+      ],
+      "operation_stats": {
+        "dead_end_inject": {
+          "selected_count": 1,
+          "attempt_count": 1,
+          "success_count": 1,
+          "accept_count": 1,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "branch_inject": {
+          "selected_count": 6,
+          "attempt_count": 6,
+          "success_count": 6,
+          "accept_count": 5,
+          "reject_count": 1,
+          "reject_reason_counts": {
+            "metric_not_improved": 1
+          }
+        },
+        "island_inject": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_add": {
+          "selected_count": 0,
+          "attempt_count": 0,
+          "success_count": 0,
+          "accept_count": 0,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "safe_wall_remove": {
+          "selected_count": 1,
+          "attempt_count": 1,
+          "success_count": 1,
+          "accept_count": 1,
+          "reject_count": 0,
+          "reject_reason_counts": {}
+        },
+        "path_block_optional": {
+          "selected_count": 72,
+          "attempt_count": 72,
+          "success_count": 72,
+          "accept_count": 4,
+          "reject_count": 68,
+          "reject_reason_counts": {
+            "metric_not_improved": 68
+          }
+        }
+      },
+      "primitive_test_name": null
+    },
+    "target_value": null
+  }
+]

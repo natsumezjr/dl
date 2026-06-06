@@ -1,0 +1,364 @@
+{
+  "summary": {
+    "n_requested": 100,
+    "n_success": 100,
+    "hard_generation_success_rate": 1.0,
+    "edge_embedding_success_rate": 1.0,
+    "strict_consistency_success_rate": 0.88,
+    "hard_failure_count": 0,
+    "success_rate": 1.0,
+    "canonical_consistency_rate": 0.88
+  },
+  "graph_plan_sampling": {
+    "main_L": {
+      "mean": 20.16,
+      "p50": 20.0,
+      "p95": 27.049999999999997,
+      "min": 12.0,
+      "max": 30.0
+    },
+    "main_D": {
+      "mean": 8.94,
+      "p50": 9.0,
+      "p95": 12.0,
+      "min": 6.0,
+      "max": 12.0
+    },
+    "graph_budget": {
+      "mean": 1.0,
+      "p50": 1.0,
+      "p95": 1.0,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "sampled_dead_edge_count": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "sampled_alternative_edge_count": {
+      "mean": 1.0,
+      "p50": 1.0,
+      "p95": 1.0,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "sampled_island_component_count": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    }
+  },
+  "plan_embedding": {
+    "sampled_dead_edge_count": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "accepted_dead_edge_count": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "sampled_alternative_edge_count": {
+      "mean": 1.0,
+      "p50": 1.0,
+      "p95": 1.0,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "accepted_alternative_edge_count": {
+      "mean": 1.0,
+      "p50": 1.0,
+      "p95": 1.0,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "sampled_island_count": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "accepted_island_count": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    }
+  },
+  "main_route_lengths": {
+    "planned_main_L": {
+      "mean": 20.16,
+      "p50": 20.0,
+      "p95": 27.049999999999997,
+      "min": 12.0,
+      "max": 30.0
+    },
+    "generated_main_L_error": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "final_bfs_L_error": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "hinted_main_route_L_error": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "extracted_main_edge_sum_L_error": {
+      "mean": 4.03,
+      "p50": 4.0,
+      "p95": 8.0,
+      "min": 0.0,
+      "max": 9.0
+    }
+  },
+  "extraction_summary": {
+    "choice_node_count": {
+      "mean": 1.71,
+      "p50": 2.0,
+      "p95": 4.0,
+      "min": 0.0,
+      "max": 4.0
+    },
+    "endpoint_node_count": {
+      "mean": 1.94,
+      "p50": 2.0,
+      "p95": 2.0,
+      "min": 1.0,
+      "max": 2.0
+    },
+    "island_node_count": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "main_edge_count": {
+      "mean": 1.89,
+      "p50": 2.0,
+      "p95": 3.0,
+      "min": 1.0,
+      "max": 3.0
+    },
+    "dead_edge_count": {
+      "mean": 0.03,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "alternative_edge_count": {
+      "mean": 1.1,
+      "p50": 1.0,
+      "p95": 2.0,
+      "min": 1.0,
+      "max": 2.0
+    },
+    "extracted_main_edge_sum_L_error": {
+      "mean": 4.03,
+      "p50": 4.0,
+      "p95": 8.0,
+      "min": 0.0,
+      "max": 9.0
+    },
+    "geometry_bug_count": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "detour_path_lt_1_count": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "detour_anchor_lt_1_count": {
+      "mean": 0.1,
+      "p50": 0.0,
+      "p95": 1.0,
+      "min": 0.0,
+      "max": 2.0
+    }
+  },
+  "consistency_summary": {
+    "sampled_plan_match_rate": 0.88,
+    "effective_plan_match_rate": 0.88,
+    "strict_consistency_success_rate": 0.88,
+    "generated_main_L_error_mean": 0.0,
+    "final_bfs_L_error_mean": 0.0,
+    "hinted_main_route_L_error_mean": 0.0,
+    "extracted_main_edge_sum_L_error_mean": 4.03,
+    "dead_edge_count_effective_match_rate": 0.97,
+    "alternative_edge_count_effective_match_rate": 0.9,
+    "island_component_match_rate": 1.0,
+    "geometry_bug_count": 0,
+    "detour_path_lt_1_count": 0,
+    "detour_anchor_lt_1_count": 10,
+    "extra_node_mean": 0.0,
+    "extra_edge_mean": 0.0,
+    "missing_edge_mean": 0.0,
+    "edge_type_mismatch_count": 0
+  },
+  "alternative_planning": {
+    "sampled_alternative_count": 100,
+    "accepted_alternative_count": 100,
+    "extracted_alternative_count": 110,
+    "alternative_equal_length_count": 100,
+    "alternative_shortcut_violation_count": 0,
+    "alternative_extracted_match_rate": 0.97,
+    "alternative_reject_top_reasons": [
+      [
+        "accepted",
+        100
+      ]
+    ]
+  },
+  "island_planning": {
+    "sampled_island_component_count": 0,
+    "accepted_island_component_count": 0,
+    "extracted_island_component_count": 0,
+    "island_component_match_rate": 1.0,
+    "island_node_count_mean": 0.0,
+    "island_edge_count_mean": 0.0,
+    "island_no_cells_generated_count": 0,
+    "island_reject_top_reasons": [],
+    "island_cells_connected_to_main_component_count": 0,
+    "island_cells_touch_main_component_count": 0,
+    "island_attempt_count": {
+      "mean": null,
+      "p50": null,
+      "p95": null,
+      "min": null,
+      "max": null
+    }
+  },
+  "performance": {
+    "runtime_ms": {
+      "mean": 89.10255699593108,
+      "p50": 24.8427499900572,
+      "p95": 259.9427850043866,
+      "min": 1.028600032441318,
+      "max": 3776.499599975068
+    },
+    "main_path_attempt_count": {
+      "mean": 2.04,
+      "p50": 1.0,
+      "p95": 6.0,
+      "min": 1.0,
+      "max": 10.0
+    },
+    "edge_attempt_count": {
+      "mean": 76.53,
+      "p50": 39.0,
+      "p95": 243.05,
+      "min": 1.0,
+      "max": 740.0
+    },
+    "extract_graph_call_count": {
+      "mean": 3.66,
+      "p50": 3.0,
+      "p95": 6.0,
+      "min": 3.0,
+      "max": 12.0
+    },
+    "bfs_call_count": {
+      "mean": 24.43,
+      "p50": 13.5,
+      "p95": 77.05,
+      "min": 4.0,
+      "max": 183.0
+    }
+  },
+  "alternative_planned_edge_matching": {
+    "accepted_alternative_count": 100,
+    "alternative_planned_edge_match_rate": 1.0,
+    "alternative_cell_coverage_mean": 0.9907142857142859,
+    "alternative_anchor_match_rate": 1.0,
+    "alternative_type_match_rate": 1.0,
+    "alternative_multi_edge_match_rate": 0.12,
+    "matched_extracted_edge_type_mismatch_count": 0
+  },
+  "room_detection": {
+    "room_detection_enabled": true,
+    "room_component_count": {
+      "mean": 0.99,
+      "p50": 1.0,
+      "p95": 2.0,
+      "min": 0.0,
+      "max": 2.0
+    },
+    "room_projected_node_count": {
+      "mean": 0.99,
+      "p50": 1.0,
+      "p95": 2.0,
+      "min": 0.0,
+      "max": 2.0
+    },
+    "pass_through_room_count": {
+      "mean": 0.66,
+      "p50": 1.0,
+      "p95": 1.0499999999999972,
+      "min": 0.0,
+      "max": 2.0
+    },
+    "choice_room_count": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 99,
+    "large_open_area_detected_by_free_blocks": 9
+  },
+  "success_sample_coverage": {
+    "success_sample_count": 1,
+    "success_category_count": 1,
+    "success_categories_available": [
+      "success_alt_equal_length",
+      "success_mixed_effective_match",
+      "success_room_pass_through"
+    ],
+    "success_categories_selected": [
+      "success_alt_equal_length"
+    ],
+    "success_sample_shortage": true,
+    "missing_success_categories": [
+      "success_main_only",
+      "success_main_dead",
+      "success_alt_longer",
+      "success_island_component",
+      "success_main_dead_alt",
+      "success_main_alt_island",
+      "success_room_choice_node"
+    ]
+  }
+}

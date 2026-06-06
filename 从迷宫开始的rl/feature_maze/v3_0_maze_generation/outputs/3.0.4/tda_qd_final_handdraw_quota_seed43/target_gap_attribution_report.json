@@ -1,0 +1,6015 @@
+{
+  "bins": [
+    {
+      "bin_key": "multi_loop|long|high_choice|high_endpoint",
+      "status": "handdraw_observed",
+      "target_quota": 446,
+      "confirmed_count": 446,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 551,
+      "accepted_count": 446,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "sfg_generator",
+          326
+        ],
+        [
+          "random_wall_generator",
+          166
+        ],
+        [
+          "dfs_tree_generator",
+          59
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "sfg_generator",
+          267
+        ],
+        [
+          "random_wall_generator",
+          136
+        ],
+        [
+          "dfs_tree_generator",
+          43
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "stage_clo",
+          232
+        ],
+        [
+          "spb",
+          207
+        ],
+        [
+          "pure_tbi",
+          92
+        ],
+        [
+          "random",
+          20
+        ],
+        [
+          "seed_step",
+          0
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "stage_clo",
+          195
+        ],
+        [
+          "spb",
+          156
+        ],
+        [
+          "pure_tbi",
+          80
+        ],
+        [
+          "random",
+          15
+        ],
+        [
+          "seed_step",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "multi_loop|long|high_choice|low_endpoint",
+      "status": "handdraw_observed",
+      "target_quota": 74,
+      "confirmed_count": 74,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 100,
+      "accepted_count": 74,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "sfg_generator",
+          79
+        ],
+        [
+          "dfs_tree_generator",
+          15
+        ],
+        [
+          "random_wall_generator",
+          5
+        ],
+        [
+          "room_biased_generator",
+          1
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "sfg_generator",
+          55
+        ],
+        [
+          "dfs_tree_generator",
+          13
+        ],
+        [
+          "random_wall_generator",
+          5
+        ],
+        [
+          "room_biased_generator",
+          1
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "pure_tbi",
+          40
+        ],
+        [
+          "spb",
+          26
+        ],
+        [
+          "seed_step",
+          20
+        ],
+        [
+          "stage_clo",
+          10
+        ],
+        [
+          "random",
+          4
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "pure_tbi",
+          32
+        ],
+        [
+          "spb",
+          19
+        ],
+        [
+          "seed_step",
+          15
+        ],
+        [
+          "stage_clo",
+          5
+        ],
+        [
+          "random",
+          3
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "multi_loop|long|high_choice|mid_endpoint",
+      "status": "handdraw_observed",
+      "target_quota": 297,
+      "confirmed_count": 297,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 2612,
+      "accepted_count": 297,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "sfg_generator",
+          2165
+        ],
+        [
+          "random_wall_generator",
+          285
+        ],
+        [
+          "dfs_tree_generator",
+          162
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "sfg_generator",
+          223
+        ],
+        [
+          "random_wall_generator",
+          45
+        ],
+        [
+          "dfs_tree_generator",
+          29
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "stage_clo",
+          1437
+        ],
+        [
+          "pure_tbi",
+          659
+        ],
+        [
+          "spb",
+          453
+        ],
+        [
+          "random",
+          53
+        ],
+        [
+          "seed_step",
+          10
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "stage_clo",
+          145
+        ],
+        [
+          "spb",
+          73
+        ],
+        [
+          "pure_tbi",
+          69
+        ],
+        [
+          "random",
+          10
+        ],
+        [
+          "seed_step",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "multi_loop|long|low_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 0,
+      "quota_gap": 6,
+      "fill_ratio": 0.0,
+      "full_evaluated_count": 0,
+      "accepted_count": 0,
+      "generation_status": "never_full_evaluated",
+      "top_generators_by_full_evaluated": [
+        [
+          "sfg_generator",
+          0
+        ],
+        [
+          "dfs_tree_generator",
+          0
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "random_wall_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "sfg_generator",
+          0
+        ],
+        [
+          "dfs_tree_generator",
+          0
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "random_wall_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "seed_step",
+          0
+        ],
+        [
+          "pure_tbi",
+          0
+        ],
+        [
+          "spb",
+          0
+        ],
+        [
+          "random",
+          0
+        ],
+        [
+          "stage_clo",
+          0
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "pure_tbi",
+          0
+        ],
+        [
+          "seed_step",
+          0
+        ],
+        [
+          "spb",
+          0
+        ],
+        [
+          "stage_clo",
+          0
+        ],
+        [
+          "random",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "multi_loop|long|low_choice|low_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 6,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 476,
+      "accepted_count": 6,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "sfg_generator",
+          466
+        ],
+        [
+          "dfs_tree_generator",
+          10
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "random_wall_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "sfg_generator",
+          6
+        ],
+        [
+          "dfs_tree_generator",
+          0
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "random_wall_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "seed_step",
+          308
+        ],
+        [
+          "pure_tbi",
+          89
+        ],
+        [
+          "spb",
+          55
+        ],
+        [
+          "stage_clo",
+          15
+        ],
+        [
+          "random",
+          9
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "seed_step",
+          4
+        ],
+        [
+          "pure_tbi",
+          2
+        ],
+        [
+          "spb",
+          0
+        ],
+        [
+          "stage_clo",
+          0
+        ],
+        [
+          "random",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "multi_loop|long|low_choice|mid_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 6,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 17,
+      "accepted_count": 6,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "sfg_generator",
+          14
+        ],
+        [
+          "dfs_tree_generator",
+          3
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "random_wall_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "sfg_generator",
+          6
+        ],
+        [
+          "dfs_tree_generator",
+          0
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "random_wall_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "pure_tbi",
+          12
+        ],
+        [
+          "spb",
+          3
+        ],
+        [
+          "seed_step",
+          2
+        ],
+        [
+          "random",
+          0
+        ],
+        [
+          "stage_clo",
+          0
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "pure_tbi",
+          5
+        ],
+        [
+          "seed_step",
+          1
+        ],
+        [
+          "spb",
+          0
+        ],
+        [
+          "stage_clo",
+          0
+        ],
+        [
+          "random",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "multi_loop|long|mid_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 6,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 18,
+      "accepted_count": 6,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "sfg_generator",
+          13
+        ],
+        [
+          "random_wall_generator",
+          4
+        ],
+        [
+          "dfs_tree_generator",
+          1
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "sfg_generator",
+          4
+        ],
+        [
+          "random_wall_generator",
+          2
+        ],
+        [
+          "dfs_tree_generator",
+          0
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "stage_clo",
+          11
+        ],
+        [
+          "spb",
+          6
+        ],
+        [
+          "pure_tbi",
+          1
+        ],
+        [
+          "seed_step",
+          0
+        ],
+        [
+          "random",
+          0
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "spb",
+          3
+        ],
+        [
+          "stage_clo",
+          3
+        ],
+        [
+          "pure_tbi",
+          0
+        ],
+        [
+          "seed_step",
+          0
+        ],
+        [
+          "random",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "multi_loop|long|mid_choice|low_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 6,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 2902,
+      "accepted_count": 6,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "sfg_generator",
+          2824
+        ],
+        [
+          "dfs_tree_generator",
+          71
+        ],
+        [
+          "random_wall_generator",
+          6
+        ],
+        [
+          "room_biased_generator",
+          1
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "sfg_generator",
+          5
+        ],
+        [
+          "dfs_tree_generator",
+          1
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "random_wall_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "pure_tbi",
+          1356
+        ],
+        [
+          "seed_step",
+          1085
+        ],
+        [
+          "spb",
+          267
+        ],
+        [
+          "stage_clo",
+          156
+        ],
+        [
+          "random",
+          38
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "seed_step",
+          3
+        ],
+        [
+          "pure_tbi",
+          2
+        ],
+        [
+          "spb",
+          1
+        ],
+        [
+          "stage_clo",
+          0
+        ],
+        [
+          "random",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "multi_loop|long|mid_choice|mid_endpoint",
+      "status": "handdraw_observed",
+      "target_quota": 74,
+      "confirmed_count": 74,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 3566,
+      "accepted_count": 74,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "sfg_generator",
+          3351
+        ],
+        [
+          "random_wall_generator",
+          109
+        ],
+        [
+          "dfs_tree_generator",
+          106
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "sfg_generator",
+          61
+        ],
+        [
+          "random_wall_generator",
+          9
+        ],
+        [
+          "dfs_tree_generator",
+          4
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "pure_tbi",
+          2344
+        ],
+        [
+          "stage_clo",
+          632
+        ],
+        [
+          "spb",
+          385
+        ],
+        [
+          "seed_step",
+          137
+        ],
+        [
+          "random",
+          68
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "pure_tbi",
+          41
+        ],
+        [
+          "stage_clo",
+          15
+        ],
+        [
+          "spb",
+          9
+        ],
+        [
+          "seed_step",
+          5
+        ],
+        [
+          "random",
+          4
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "multi_loop|medium|high_choice|high_endpoint",
+      "status": "handdraw_observed",
+      "target_quota": 446,
+      "confirmed_count": 446,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 5406,
+      "accepted_count": 446,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "random_wall_generator",
+          2846
+        ],
+        [
+          "sfg_generator",
+          1093
+        ],
+        [
+          "dfs_tree_generator",
+          1061
+        ],
+        [
+          "room_biased_generator",
+          398
+        ],
+        [
+          "loose_path_first_generator",
+          8
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "random_wall_generator",
+          261
+        ],
+        [
+          "dfs_tree_generator",
+          89
+        ],
+        [
+          "sfg_generator",
+          77
+        ],
+        [
+          "room_biased_generator",
+          19
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "spb",
+          2635
+        ],
+        [
+          "stage_clo",
+          2171
+        ],
+        [
+          "pure_tbi",
+          490
+        ],
+        [
+          "random",
+          110
+        ],
+        [
+          "seed_step",
+          0
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "spb",
+          285
+        ],
+        [
+          "stage_clo",
+          94
+        ],
+        [
+          "pure_tbi",
+          59
+        ],
+        [
+          "random",
+          8
+        ],
+        [
+          "seed_step",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "multi_loop|medium|high_choice|low_endpoint",
+      "status": "handdraw_observed",
+      "target_quota": 74,
+      "confirmed_count": 74,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 4354,
+      "accepted_count": 74,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "sfg_generator",
+          2038
+        ],
+        [
+          "dfs_tree_generator",
+          1699
+        ],
+        [
+          "random_wall_generator",
+          538
+        ],
+        [
+          "room_biased_generator",
+          77
+        ],
+        [
+          "loose_path_first_generator",
+          2
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "dfs_tree_generator",
+          34
+        ],
+        [
+          "sfg_generator",
+          33
+        ],
+        [
+          "random_wall_generator",
+          5
+        ],
+        [
+          "room_biased_generator",
+          2
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "spb",
+          2229
+        ],
+        [
+          "pure_tbi",
+          1175
+        ],
+        [
+          "seed_step",
+          591
+        ],
+        [
+          "stage_clo",
+          290
+        ],
+        [
+          "random",
+          69
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "spb",
+          37
+        ],
+        [
+          "pure_tbi",
+          16
+        ],
+        [
+          "seed_step",
+          11
+        ],
+        [
+          "stage_clo",
+          9
+        ],
+        [
+          "random",
+          1
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "multi_loop|medium|high_choice|mid_endpoint",
+      "status": "handdraw_observed",
+      "target_quota": 594,
+      "confirmed_count": 594,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 20666,
+      "accepted_count": 594,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "sfg_generator",
+          8103
+        ],
+        [
+          "random_wall_generator",
+          7093
+        ],
+        [
+          "dfs_tree_generator",
+          4908
+        ],
+        [
+          "room_biased_generator",
+          510
+        ],
+        [
+          "loose_path_first_generator",
+          50
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "sfg_generator",
+          220
+        ],
+        [
+          "random_wall_generator",
+          216
+        ],
+        [
+          "dfs_tree_generator",
+          143
+        ],
+        [
+          "room_biased_generator",
+          13
+        ],
+        [
+          "loose_path_first_generator",
+          2
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "spb",
+          9391
+        ],
+        [
+          "stage_clo",
+          6994
+        ],
+        [
+          "pure_tbi",
+          3764
+        ],
+        [
+          "random",
+          407
+        ],
+        [
+          "seed_step",
+          110
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "spb",
+          310
+        ],
+        [
+          "stage_clo",
+          136
+        ],
+        [
+          "pure_tbi",
+          130
+        ],
+        [
+          "random",
+          10
+        ],
+        [
+          "seed_step",
+          8
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "multi_loop|medium|low_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 0,
+      "quota_gap": 6,
+      "fill_ratio": 0.0,
+      "full_evaluated_count": 0,
+      "accepted_count": 0,
+      "generation_status": "never_full_evaluated",
+      "top_generators_by_full_evaluated": [
+        [
+          "sfg_generator",
+          0
+        ],
+        [
+          "dfs_tree_generator",
+          0
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "random_wall_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "sfg_generator",
+          0
+        ],
+        [
+          "dfs_tree_generator",
+          0
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "random_wall_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "seed_step",
+          0
+        ],
+        [
+          "pure_tbi",
+          0
+        ],
+        [
+          "spb",
+          0
+        ],
+        [
+          "random",
+          0
+        ],
+        [
+          "stage_clo",
+          0
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "pure_tbi",
+          0
+        ],
+        [
+          "seed_step",
+          0
+        ],
+        [
+          "spb",
+          0
+        ],
+        [
+          "stage_clo",
+          0
+        ],
+        [
+          "random",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "multi_loop|medium|low_choice|low_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 6,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 4417,
+      "accepted_count": 6,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "sfg_generator",
+          4091
+        ],
+        [
+          "dfs_tree_generator",
+          264
+        ],
+        [
+          "room_biased_generator",
+          45
+        ],
+        [
+          "random_wall_generator",
+          11
+        ],
+        [
+          "loose_path_first_generator",
+          6
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "sfg_generator",
+          3
+        ],
+        [
+          "dfs_tree_generator",
+          3
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "random_wall_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "seed_step",
+          2498
+        ],
+        [
+          "pure_tbi",
+          958
+        ],
+        [
+          "spb",
+          771
+        ],
+        [
+          "random",
+          98
+        ],
+        [
+          "stage_clo",
+          92
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "seed_step",
+          4
+        ],
+        [
+          "spb",
+          2
+        ],
+        [
+          "pure_tbi",
+          0
+        ],
+        [
+          "stage_clo",
+          0
+        ],
+        [
+          "random",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "multi_loop|medium|low_choice|mid_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 6,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 267,
+      "accepted_count": 6,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "sfg_generator",
+          202
+        ],
+        [
+          "room_biased_generator",
+          29
+        ],
+        [
+          "dfs_tree_generator",
+          24
+        ],
+        [
+          "random_wall_generator",
+          9
+        ],
+        [
+          "loose_path_first_generator",
+          3
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "sfg_generator",
+          6
+        ],
+        [
+          "dfs_tree_generator",
+          0
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "random_wall_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "pure_tbi",
+          131
+        ],
+        [
+          "spb",
+          116
+        ],
+        [
+          "seed_step",
+          9
+        ],
+        [
+          "stage_clo",
+          8
+        ],
+        [
+          "random",
+          3
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "spb",
+          3
+        ],
+        [
+          "pure_tbi",
+          2
+        ],
+        [
+          "seed_step",
+          1
+        ],
+        [
+          "stage_clo",
+          0
+        ],
+        [
+          "random",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "multi_loop|medium|mid_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 6,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 362,
+      "accepted_count": 6,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "random_wall_generator",
+          191
+        ],
+        [
+          "room_biased_generator",
+          73
+        ],
+        [
+          "dfs_tree_generator",
+          54
+        ],
+        [
+          "sfg_generator",
+          42
+        ],
+        [
+          "loose_path_first_generator",
+          2
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "random_wall_generator",
+          5
+        ],
+        [
+          "dfs_tree_generator",
+          1
+        ],
+        [
+          "sfg_generator",
+          0
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "spb",
+          212
+        ],
+        [
+          "stage_clo",
+          112
+        ],
+        [
+          "pure_tbi",
+          33
+        ],
+        [
+          "random",
+          5
+        ],
+        [
+          "seed_step",
+          0
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "spb",
+          6
+        ],
+        [
+          "pure_tbi",
+          0
+        ],
+        [
+          "seed_step",
+          0
+        ],
+        [
+          "stage_clo",
+          0
+        ],
+        [
+          "random",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "multi_loop|medium|mid_choice|low_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 6,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 22184,
+      "accepted_count": 6,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "sfg_generator",
+          18986
+        ],
+        [
+          "dfs_tree_generator",
+          2702
+        ],
+        [
+          "random_wall_generator",
+          252
+        ],
+        [
+          "room_biased_generator",
+          238
+        ],
+        [
+          "loose_path_first_generator",
+          6
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "sfg_generator",
+          3
+        ],
+        [
+          "dfs_tree_generator",
+          2
+        ],
+        [
+          "loose_path_first_generator",
+          1
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "random_wall_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "pure_tbi",
+          9303
+        ],
+        [
+          "seed_step",
+          6772
+        ],
+        [
+          "spb",
+          4822
+        ],
+        [
+          "stage_clo",
+          846
+        ],
+        [
+          "random",
+          441
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "seed_step",
+          4
+        ],
+        [
+          "pure_tbi",
+          1
+        ],
+        [
+          "spb",
+          1
+        ],
+        [
+          "stage_clo",
+          0
+        ],
+        [
+          "random",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "multi_loop|medium|mid_choice|mid_endpoint",
+      "status": "handdraw_observed",
+      "target_quota": 74,
+      "confirmed_count": 74,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 18001,
+      "accepted_count": 74,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "sfg_generator",
+          12256
+        ],
+        [
+          "dfs_tree_generator",
+          2892
+        ],
+        [
+          "random_wall_generator",
+          2089
+        ],
+        [
+          "room_biased_generator",
+          738
+        ],
+        [
+          "loose_path_first_generator",
+          19
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "sfg_generator",
+          46
+        ],
+        [
+          "dfs_tree_generator",
+          18
+        ],
+        [
+          "random_wall_generator",
+          8
+        ],
+        [
+          "room_biased_generator",
+          1
+        ],
+        [
+          "loose_path_first_generator",
+          1
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "pure_tbi",
+          8006
+        ],
+        [
+          "spb",
+          6305
+        ],
+        [
+          "stage_clo",
+          2643
+        ],
+        [
+          "seed_step",
+          684
+        ],
+        [
+          "random",
+          363
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "pure_tbi",
+          33
+        ],
+        [
+          "spb",
+          30
+        ],
+        [
+          "stage_clo",
+          5
+        ],
+        [
+          "random",
+          5
+        ],
+        [
+          "seed_step",
+          1
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "multi_loop|short|high_choice|high_endpoint",
+      "status": "handdraw_observed",
+      "target_quota": 74,
+      "confirmed_count": 74,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 7397,
+      "accepted_count": 74,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "random_wall_generator",
+          4966
+        ],
+        [
+          "room_biased_generator",
+          1193
+        ],
+        [
+          "dfs_tree_generator",
+          926
+        ],
+        [
+          "sfg_generator",
+          200
+        ],
+        [
+          "loose_path_first_generator",
+          104
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "random_wall_generator",
+          63
+        ],
+        [
+          "dfs_tree_generator",
+          8
+        ],
+        [
+          "sfg_generator",
+          1
+        ],
+        [
+          "room_biased_generator",
+          1
+        ],
+        [
+          "loose_path_first_generator",
+          1
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "spb",
+          4864
+        ],
+        [
+          "stage_clo",
+          891
+        ],
+        [
+          "pure_tbi",
+          773
+        ],
+        [
+          "seed_step",
+          647
+        ],
+        [
+          "random",
+          222
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "spb",
+          42
+        ],
+        [
+          "seed_step",
+          16
+        ],
+        [
+          "pure_tbi",
+          12
+        ],
+        [
+          "stage_clo",
+          2
+        ],
+        [
+          "random",
+          2
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "multi_loop|short|high_choice|low_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 6,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 39447,
+      "accepted_count": 6,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "dfs_tree_generator",
+          30569
+        ],
+        [
+          "random_wall_generator",
+          6289
+        ],
+        [
+          "room_biased_generator",
+          2224
+        ],
+        [
+          "sfg_generator",
+          241
+        ],
+        [
+          "loose_path_first_generator",
+          121
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "dfs_tree_generator",
+          6
+        ],
+        [
+          "sfg_generator",
+          0
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "random_wall_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "spb",
+          25831
+        ],
+        [
+          "seed_step",
+          7989
+        ],
+        [
+          "pure_tbi",
+          4425
+        ],
+        [
+          "random",
+          894
+        ],
+        [
+          "stage_clo",
+          308
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "spb",
+          3
+        ],
+        [
+          "seed_step",
+          2
+        ],
+        [
+          "pure_tbi",
+          1
+        ],
+        [
+          "stage_clo",
+          0
+        ],
+        [
+          "random",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "multi_loop|short|high_choice|mid_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 6,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 42299,
+      "accepted_count": 6,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "random_wall_generator",
+          26313
+        ],
+        [
+          "dfs_tree_generator",
+          10324
+        ],
+        [
+          "room_biased_generator",
+          3357
+        ],
+        [
+          "sfg_generator",
+          2031
+        ],
+        [
+          "loose_path_first_generator",
+          225
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "dfs_tree_generator",
+          4
+        ],
+        [
+          "random_wall_generator",
+          2
+        ],
+        [
+          "sfg_generator",
+          0
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "spb",
+          26607
+        ],
+        [
+          "seed_step",
+          5993
+        ],
+        [
+          "pure_tbi",
+          4825
+        ],
+        [
+          "stage_clo",
+          3753
+        ],
+        [
+          "random",
+          1121
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "pure_tbi",
+          2
+        ],
+        [
+          "spb",
+          2
+        ],
+        [
+          "seed_step",
+          1
+        ],
+        [
+          "random",
+          1
+        ],
+        [
+          "stage_clo",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "multi_loop|short|low_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 0,
+      "quota_gap": 6,
+      "fill_ratio": 0.0,
+      "full_evaluated_count": 0,
+      "accepted_count": 0,
+      "generation_status": "never_full_evaluated",
+      "top_generators_by_full_evaluated": [
+        [
+          "sfg_generator",
+          0
+        ],
+        [
+          "dfs_tree_generator",
+          0
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "random_wall_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "sfg_generator",
+          0
+        ],
+        [
+          "dfs_tree_generator",
+          0
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "random_wall_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "seed_step",
+          0
+        ],
+        [
+          "pure_tbi",
+          0
+        ],
+        [
+          "spb",
+          0
+        ],
+        [
+          "random",
+          0
+        ],
+        [
+          "stage_clo",
+          0
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "pure_tbi",
+          0
+        ],
+        [
+          "seed_step",
+          0
+        ],
+        [
+          "spb",
+          0
+        ],
+        [
+          "stage_clo",
+          0
+        ],
+        [
+          "random",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "multi_loop|short|low_choice|low_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 6,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 8835,
+      "accepted_count": 6,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "dfs_tree_generator",
+          5300
+        ],
+        [
+          "room_biased_generator",
+          3077
+        ],
+        [
+          "loose_path_first_generator",
+          278
+        ],
+        [
+          "sfg_generator",
+          118
+        ],
+        [
+          "random_wall_generator",
+          59
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "dfs_tree_generator",
+          5
+        ],
+        [
+          "random_wall_generator",
+          1
+        ],
+        [
+          "sfg_generator",
+          0
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "spb",
+          4703
+        ],
+        [
+          "seed_step",
+          3110
+        ],
+        [
+          "pure_tbi",
+          835
+        ],
+        [
+          "random",
+          144
+        ],
+        [
+          "stage_clo",
+          43
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "spb",
+          6
+        ],
+        [
+          "pure_tbi",
+          0
+        ],
+        [
+          "seed_step",
+          0
+        ],
+        [
+          "stage_clo",
+          0
+        ],
+        [
+          "random",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "multi_loop|short|low_choice|mid_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 6,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 1004,
+      "accepted_count": 6,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "room_biased_generator",
+          634
+        ],
+        [
+          "dfs_tree_generator",
+          272
+        ],
+        [
+          "loose_path_first_generator",
+          61
+        ],
+        [
+          "random_wall_generator",
+          28
+        ],
+        [
+          "template_mutation_generator",
+          7
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "room_biased_generator",
+          4
+        ],
+        [
+          "dfs_tree_generator",
+          2
+        ],
+        [
+          "sfg_generator",
+          0
+        ],
+        [
+          "random_wall_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "spb",
+          594
+        ],
+        [
+          "pure_tbi",
+          243
+        ],
+        [
+          "seed_step",
+          145
+        ],
+        [
+          "random",
+          20
+        ],
+        [
+          "stage_clo",
+          2
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "pure_tbi",
+          3
+        ],
+        [
+          "spb",
+          3
+        ],
+        [
+          "seed_step",
+          0
+        ],
+        [
+          "stage_clo",
+          0
+        ],
+        [
+          "random",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "multi_loop|short|mid_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 6,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 901,
+      "accepted_count": 6,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "random_wall_generator",
+          427
+        ],
+        [
+          "room_biased_generator",
+          337
+        ],
+        [
+          "dfs_tree_generator",
+          67
+        ],
+        [
+          "loose_path_first_generator",
+          52
+        ],
+        [
+          "sfg_generator",
+          15
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "random_wall_generator",
+          5
+        ],
+        [
+          "room_biased_generator",
+          1
+        ],
+        [
+          "sfg_generator",
+          0
+        ],
+        [
+          "dfs_tree_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "spb",
+          620
+        ],
+        [
+          "pure_tbi",
+          139
+        ],
+        [
+          "seed_step",
+          74
+        ],
+        [
+          "stage_clo",
+          53
+        ],
+        [
+          "random",
+          15
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "pure_tbi",
+          3
+        ],
+        [
+          "spb",
+          3
+        ],
+        [
+          "seed_step",
+          0
+        ],
+        [
+          "stage_clo",
+          0
+        ],
+        [
+          "random",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "multi_loop|short|mid_choice|low_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 6,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 51576,
+      "accepted_count": 6,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "dfs_tree_generator",
+          37100
+        ],
+        [
+          "room_biased_generator",
+          11136
+        ],
+        [
+          "random_wall_generator",
+          1823
+        ],
+        [
+          "sfg_generator",
+          741
+        ],
+        [
+          "loose_path_first_generator",
+          737
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "dfs_tree_generator",
+          6
+        ],
+        [
+          "sfg_generator",
+          0
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "random_wall_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "spb",
+          31357
+        ],
+        [
+          "seed_step",
+          13048
+        ],
+        [
+          "pure_tbi",
+          5782
+        ],
+        [
+          "random",
+          932
+        ],
+        [
+          "stage_clo",
+          457
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "seed_step",
+          4
+        ],
+        [
+          "spb",
+          2
+        ],
+        [
+          "pure_tbi",
+          0
+        ],
+        [
+          "stage_clo",
+          0
+        ],
+        [
+          "random",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "multi_loop|short|mid_choice|mid_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 6,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 26750,
+      "accepted_count": 6,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "room_biased_generator",
+          9805
+        ],
+        [
+          "dfs_tree_generator",
+          7580
+        ],
+        [
+          "random_wall_generator",
+          7219
+        ],
+        [
+          "loose_path_first_generator",
+          1148
+        ],
+        [
+          "sfg_generator",
+          839
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "random_wall_generator",
+          4
+        ],
+        [
+          "dfs_tree_generator",
+          2
+        ],
+        [
+          "sfg_generator",
+          0
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "spb",
+          17558
+        ],
+        [
+          "pure_tbi",
+          4440
+        ],
+        [
+          "seed_step",
+          3092
+        ],
+        [
+          "stage_clo",
+          1007
+        ],
+        [
+          "random",
+          653
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "pure_tbi",
+          3
+        ],
+        [
+          "spb",
+          3
+        ],
+        [
+          "seed_step",
+          0
+        ],
+        [
+          "stage_clo",
+          0
+        ],
+        [
+          "random",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "single_loop|long|high_choice|high_endpoint",
+      "status": "handdraw_observed",
+      "target_quota": 446,
+      "confirmed_count": 446,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 756,
+      "accepted_count": 446,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "sfg_generator",
+          576
+        ],
+        [
+          "random_wall_generator",
+          134
+        ],
+        [
+          "dfs_tree_generator",
+          45
+        ],
+        [
+          "room_biased_generator",
+          1
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "sfg_generator",
+          324
+        ],
+        [
+          "random_wall_generator",
+          94
+        ],
+        [
+          "dfs_tree_generator",
+          27
+        ],
+        [
+          "room_biased_generator",
+          1
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "spb",
+          314
+        ],
+        [
+          "stage_clo",
+          297
+        ],
+        [
+          "pure_tbi",
+          121
+        ],
+        [
+          "random",
+          24
+        ],
+        [
+          "seed_step",
+          0
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "stage_clo",
+          181
+        ],
+        [
+          "spb",
+          170
+        ],
+        [
+          "pure_tbi",
+          83
+        ],
+        [
+          "random",
+          12
+        ],
+        [
+          "seed_step",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "single_loop|long|low_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 0,
+      "quota_gap": 6,
+      "fill_ratio": 0.0,
+      "full_evaluated_count": 0,
+      "accepted_count": 0,
+      "generation_status": "never_full_evaluated",
+      "top_generators_by_full_evaluated": [
+        [
+          "sfg_generator",
+          0
+        ],
+        [
+          "dfs_tree_generator",
+          0
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "random_wall_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "sfg_generator",
+          0
+        ],
+        [
+          "dfs_tree_generator",
+          0
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "random_wall_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "seed_step",
+          0
+        ],
+        [
+          "pure_tbi",
+          0
+        ],
+        [
+          "spb",
+          0
+        ],
+        [
+          "random",
+          0
+        ],
+        [
+          "stage_clo",
+          0
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "pure_tbi",
+          0
+        ],
+        [
+          "seed_step",
+          0
+        ],
+        [
+          "spb",
+          0
+        ],
+        [
+          "stage_clo",
+          0
+        ],
+        [
+          "random",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "single_loop|long|low_choice|low_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 6,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 8529,
+      "accepted_count": 6,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "sfg_generator",
+          8484
+        ],
+        [
+          "dfs_tree_generator",
+          42
+        ],
+        [
+          "random_wall_generator",
+          3
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "sfg_generator",
+          6
+        ],
+        [
+          "dfs_tree_generator",
+          0
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "random_wall_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "seed_step",
+          5005
+        ],
+        [
+          "pure_tbi",
+          2178
+        ],
+        [
+          "spb",
+          1011
+        ],
+        [
+          "random",
+          168
+        ],
+        [
+          "stage_clo",
+          167
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "seed_step",
+          5
+        ],
+        [
+          "pure_tbi",
+          1
+        ],
+        [
+          "spb",
+          0
+        ],
+        [
+          "stage_clo",
+          0
+        ],
+        [
+          "random",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "single_loop|long|low_choice|mid_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 6,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 1383,
+      "accepted_count": 6,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "sfg_generator",
+          1369
+        ],
+        [
+          "dfs_tree_generator",
+          10
+        ],
+        [
+          "random_wall_generator",
+          4
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "sfg_generator",
+          6
+        ],
+        [
+          "dfs_tree_generator",
+          0
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "random_wall_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "pure_tbi",
+          985
+        ],
+        [
+          "seed_step",
+          188
+        ],
+        [
+          "spb",
+          140
+        ],
+        [
+          "random",
+          36
+        ],
+        [
+          "stage_clo",
+          34
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "pure_tbi",
+          5
+        ],
+        [
+          "seed_step",
+          1
+        ],
+        [
+          "spb",
+          0
+        ],
+        [
+          "stage_clo",
+          0
+        ],
+        [
+          "random",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "single_loop|long|mid_choice|high_endpoint",
+      "status": "handdraw_observed",
+      "target_quota": 74,
+      "confirmed_count": 74,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 170,
+      "accepted_count": 74,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "sfg_generator",
+          119
+        ],
+        [
+          "random_wall_generator",
+          42
+        ],
+        [
+          "dfs_tree_generator",
+          9
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "sfg_generator",
+          53
+        ],
+        [
+          "random_wall_generator",
+          19
+        ],
+        [
+          "dfs_tree_generator",
+          2
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "stage_clo",
+          65
+        ],
+        [
+          "spb",
+          60
+        ],
+        [
+          "pure_tbi",
+          37
+        ],
+        [
+          "random",
+          8
+        ],
+        [
+          "seed_step",
+          0
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "stage_clo",
+          25
+        ],
+        [
+          "pure_tbi",
+          23
+        ],
+        [
+          "spb",
+          23
+        ],
+        [
+          "random",
+          3
+        ],
+        [
+          "seed_step",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "single_loop|long|mid_choice|mid_endpoint",
+      "status": "handdraw_observed",
+      "target_quota": 297,
+      "confirmed_count": 297,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 16601,
+      "accepted_count": 297,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "sfg_generator",
+          16370
+        ],
+        [
+          "random_wall_generator",
+          142
+        ],
+        [
+          "dfs_tree_generator",
+          87
+        ],
+        [
+          "room_biased_generator",
+          2
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "sfg_generator",
+          293
+        ],
+        [
+          "random_wall_generator",
+          4
+        ],
+        [
+          "dfs_tree_generator",
+          0
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "pure_tbi",
+          12385
+        ],
+        [
+          "spb",
+          1800
+        ],
+        [
+          "stage_clo",
+          1324
+        ],
+        [
+          "seed_step",
+          764
+        ],
+        [
+          "random",
+          328
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "pure_tbi",
+          215
+        ],
+        [
+          "spb",
+          29
+        ],
+        [
+          "seed_step",
+          26
+        ],
+        [
+          "stage_clo",
+          23
+        ],
+        [
+          "random",
+          4
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "single_loop|medium|high_choice|high_endpoint",
+      "status": "handdraw_observed",
+      "target_quota": 371,
+      "confirmed_count": 371,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 2810,
+      "accepted_count": 371,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "random_wall_generator",
+          1291
+        ],
+        [
+          "sfg_generator",
+          805
+        ],
+        [
+          "room_biased_generator",
+          463
+        ],
+        [
+          "dfs_tree_generator",
+          239
+        ],
+        [
+          "loose_path_first_generator",
+          11
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "random_wall_generator",
+          185
+        ],
+        [
+          "sfg_generator",
+          114
+        ],
+        [
+          "dfs_tree_generator",
+          37
+        ],
+        [
+          "room_biased_generator",
+          34
+        ],
+        [
+          "loose_path_first_generator",
+          1
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "spb",
+          1502
+        ],
+        [
+          "stage_clo",
+          966
+        ],
+        [
+          "pure_tbi",
+          266
+        ],
+        [
+          "random",
+          75
+        ],
+        [
+          "seed_step",
+          1
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "spb",
+          208
+        ],
+        [
+          "stage_clo",
+          80
+        ],
+        [
+          "pure_tbi",
+          67
+        ],
+        [
+          "random",
+          15
+        ],
+        [
+          "seed_step",
+          1
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "single_loop|medium|low_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 3,
+      "quota_gap": 3,
+      "fill_ratio": 0.5,
+      "full_evaluated_count": 3,
+      "accepted_count": 3,
+      "generation_status": "generated_but_underfilled",
+      "top_generators_by_full_evaluated": [
+        [
+          "random_wall_generator",
+          2
+        ],
+        [
+          "room_biased_generator",
+          1
+        ],
+        [
+          "sfg_generator",
+          0
+        ],
+        [
+          "dfs_tree_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "random_wall_generator",
+          2
+        ],
+        [
+          "room_biased_generator",
+          1
+        ],
+        [
+          "sfg_generator",
+          0
+        ],
+        [
+          "dfs_tree_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "pure_tbi",
+          1
+        ],
+        [
+          "spb",
+          1
+        ],
+        [
+          "stage_clo",
+          1
+        ],
+        [
+          "seed_step",
+          0
+        ],
+        [
+          "random",
+          0
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "pure_tbi",
+          1
+        ],
+        [
+          "spb",
+          1
+        ],
+        [
+          "stage_clo",
+          1
+        ],
+        [
+          "seed_step",
+          0
+        ],
+        [
+          "random",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "single_loop|medium|low_choice|low_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 6,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 18335,
+      "accepted_count": 6,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "sfg_generator",
+          17708
+        ],
+        [
+          "dfs_tree_generator",
+          447
+        ],
+        [
+          "room_biased_generator",
+          158
+        ],
+        [
+          "random_wall_generator",
+          13
+        ],
+        [
+          "loose_path_first_generator",
+          9
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "sfg_generator",
+          5
+        ],
+        [
+          "dfs_tree_generator",
+          1
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "random_wall_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "seed_step",
+          8492
+        ],
+        [
+          "pure_tbi",
+          6572
+        ],
+        [
+          "spb",
+          2709
+        ],
+        [
+          "random",
+          372
+        ],
+        [
+          "stage_clo",
+          190
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "seed_step",
+          3
+        ],
+        [
+          "pure_tbi",
+          2
+        ],
+        [
+          "spb",
+          1
+        ],
+        [
+          "stage_clo",
+          0
+        ],
+        [
+          "random",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "single_loop|medium|low_choice|mid_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 6,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 2938,
+      "accepted_count": 6,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "sfg_generator",
+          2504
+        ],
+        [
+          "dfs_tree_generator",
+          282
+        ],
+        [
+          "room_biased_generator",
+          115
+        ],
+        [
+          "random_wall_generator",
+          23
+        ],
+        [
+          "loose_path_first_generator",
+          10
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "room_biased_generator",
+          3
+        ],
+        [
+          "sfg_generator",
+          2
+        ],
+        [
+          "dfs_tree_generator",
+          1
+        ],
+        [
+          "random_wall_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "pure_tbi",
+          1491
+        ],
+        [
+          "spb",
+          1022
+        ],
+        [
+          "seed_step",
+          254
+        ],
+        [
+          "stage_clo",
+          91
+        ],
+        [
+          "random",
+          80
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "pure_tbi",
+          3
+        ],
+        [
+          "spb",
+          3
+        ],
+        [
+          "seed_step",
+          0
+        ],
+        [
+          "stage_clo",
+          0
+        ],
+        [
+          "random",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "single_loop|medium|mid_choice|high_endpoint",
+      "status": "handdraw_observed",
+      "target_quota": 75,
+      "confirmed_count": 75,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 1107,
+      "accepted_count": 75,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "random_wall_generator",
+          444
+        ],
+        [
+          "sfg_generator",
+          325
+        ],
+        [
+          "room_biased_generator",
+          217
+        ],
+        [
+          "dfs_tree_generator",
+          106
+        ],
+        [
+          "loose_path_first_generator",
+          8
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "random_wall_generator",
+          34
+        ],
+        [
+          "sfg_generator",
+          17
+        ],
+        [
+          "dfs_tree_generator",
+          12
+        ],
+        [
+          "room_biased_generator",
+          12
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "spb",
+          551
+        ],
+        [
+          "stage_clo",
+          384
+        ],
+        [
+          "pure_tbi",
+          151
+        ],
+        [
+          "random",
+          21
+        ],
+        [
+          "seed_step",
+          0
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "spb",
+          42
+        ],
+        [
+          "stage_clo",
+          19
+        ],
+        [
+          "pure_tbi",
+          11
+        ],
+        [
+          "random",
+          3
+        ],
+        [
+          "seed_step",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "single_loop|medium|mid_choice|mid_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 6,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 22593,
+      "accepted_count": 6,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "sfg_generator",
+          18816
+        ],
+        [
+          "random_wall_generator",
+          1434
+        ],
+        [
+          "dfs_tree_generator",
+          1140
+        ],
+        [
+          "room_biased_generator",
+          1104
+        ],
+        [
+          "loose_path_first_generator",
+          96
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "sfg_generator",
+          2
+        ],
+        [
+          "dfs_tree_generator",
+          2
+        ],
+        [
+          "random_wall_generator",
+          2
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "pure_tbi",
+          12883
+        ],
+        [
+          "spb",
+          6176
+        ],
+        [
+          "stage_clo",
+          2025
+        ],
+        [
+          "seed_step",
+          918
+        ],
+        [
+          "random",
+          591
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "spb",
+          4
+        ],
+        [
+          "pure_tbi",
+          2
+        ],
+        [
+          "seed_step",
+          0
+        ],
+        [
+          "stage_clo",
+          0
+        ],
+        [
+          "random",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "single_loop|short|high_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 6,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 3650,
+      "accepted_count": 6,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "random_wall_generator",
+          2316
+        ],
+        [
+          "room_biased_generator",
+          846
+        ],
+        [
+          "dfs_tree_generator",
+          216
+        ],
+        [
+          "loose_path_first_generator",
+          185
+        ],
+        [
+          "sfg_generator",
+          76
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "random_wall_generator",
+          4
+        ],
+        [
+          "loose_path_first_generator",
+          2
+        ],
+        [
+          "sfg_generator",
+          0
+        ],
+        [
+          "dfs_tree_generator",
+          0
+        ],
+        [
+          "room_biased_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "spb",
+          2708
+        ],
+        [
+          "pure_tbi",
+          446
+        ],
+        [
+          "seed_step",
+          221
+        ],
+        [
+          "stage_clo",
+          188
+        ],
+        [
+          "random",
+          87
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "pure_tbi",
+          3
+        ],
+        [
+          "spb",
+          2
+        ],
+        [
+          "seed_step",
+          1
+        ],
+        [
+          "stage_clo",
+          0
+        ],
+        [
+          "random",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "single_loop|short|low_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 6,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 12,
+      "accepted_count": 6,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "room_biased_generator",
+          6
+        ],
+        [
+          "random_wall_generator",
+          5
+        ],
+        [
+          "loose_path_first_generator",
+          1
+        ],
+        [
+          "sfg_generator",
+          0
+        ],
+        [
+          "dfs_tree_generator",
+          0
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "room_biased_generator",
+          5
+        ],
+        [
+          "loose_path_first_generator",
+          1
+        ],
+        [
+          "sfg_generator",
+          0
+        ],
+        [
+          "dfs_tree_generator",
+          0
+        ],
+        [
+          "random_wall_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "spb",
+          7
+        ],
+        [
+          "pure_tbi",
+          4
+        ],
+        [
+          "random",
+          1
+        ],
+        [
+          "seed_step",
+          0
+        ],
+        [
+          "stage_clo",
+          0
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "pure_tbi",
+          3
+        ],
+        [
+          "spb",
+          2
+        ],
+        [
+          "random",
+          1
+        ],
+        [
+          "seed_step",
+          0
+        ],
+        [
+          "stage_clo",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "single_loop|short|low_choice|low_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 6,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 9444,
+      "accepted_count": 6,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "room_biased_generator",
+          4397
+        ],
+        [
+          "dfs_tree_generator",
+          3680
+        ],
+        [
+          "loose_path_first_generator",
+          1056
+        ],
+        [
+          "sfg_generator",
+          221
+        ],
+        [
+          "random_wall_generator",
+          59
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "dfs_tree_generator",
+          4
+        ],
+        [
+          "room_biased_generator",
+          1
+        ],
+        [
+          "loose_path_first_generator",
+          1
+        ],
+        [
+          "sfg_generator",
+          0
+        ],
+        [
+          "random_wall_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "spb",
+          4864
+        ],
+        [
+          "seed_step",
+          3453
+        ],
+        [
+          "pure_tbi",
+          848
+        ],
+        [
+          "random",
+          161
+        ],
+        [
+          "stage_clo",
+          118
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "seed_step",
+          3
+        ],
+        [
+          "spb",
+          3
+        ],
+        [
+          "pure_tbi",
+          0
+        ],
+        [
+          "stage_clo",
+          0
+        ],
+        [
+          "random",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "single_loop|short|low_choice|mid_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 6,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 4219,
+      "accepted_count": 6,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "room_biased_generator",
+          2513
+        ],
+        [
+          "dfs_tree_generator",
+          784
+        ],
+        [
+          "loose_path_first_generator",
+          719
+        ],
+        [
+          "random_wall_generator",
+          105
+        ],
+        [
+          "template_mutation_generator",
+          58
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "room_biased_generator",
+          3
+        ],
+        [
+          "dfs_tree_generator",
+          2
+        ],
+        [
+          "random_wall_generator",
+          1
+        ],
+        [
+          "sfg_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "spb",
+          2629
+        ],
+        [
+          "pure_tbi",
+          832
+        ],
+        [
+          "seed_step",
+          647
+        ],
+        [
+          "random",
+          91
+        ],
+        [
+          "stage_clo",
+          20
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "pure_tbi",
+          2
+        ],
+        [
+          "seed_step",
+          2
+        ],
+        [
+          "spb",
+          2
+        ],
+        [
+          "stage_clo",
+          0
+        ],
+        [
+          "random",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "single_loop|short|mid_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 6,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 1789,
+      "accepted_count": 6,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "random_wall_generator",
+          972
+        ],
+        [
+          "room_biased_generator",
+          622
+        ],
+        [
+          "loose_path_first_generator",
+          101
+        ],
+        [
+          "dfs_tree_generator",
+          71
+        ],
+        [
+          "sfg_generator",
+          17
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "random_wall_generator",
+          3
+        ],
+        [
+          "room_biased_generator",
+          2
+        ],
+        [
+          "dfs_tree_generator",
+          1
+        ],
+        [
+          "sfg_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "spb",
+          1291
+        ],
+        [
+          "pure_tbi",
+          260
+        ],
+        [
+          "seed_step",
+          122
+        ],
+        [
+          "stage_clo",
+          79
+        ],
+        [
+          "random",
+          37
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "pure_tbi",
+          3
+        ],
+        [
+          "spb",
+          3
+        ],
+        [
+          "seed_step",
+          0
+        ],
+        [
+          "stage_clo",
+          0
+        ],
+        [
+          "random",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "single_loop|short|mid_choice|mid_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 6,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 13025,
+      "accepted_count": 6,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "room_biased_generator",
+          5637
+        ],
+        [
+          "random_wall_generator",
+          3572
+        ],
+        [
+          "loose_path_first_generator",
+          1832
+        ],
+        [
+          "dfs_tree_generator",
+          1309
+        ],
+        [
+          "sfg_generator",
+          507
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "room_biased_generator",
+          4
+        ],
+        [
+          "loose_path_first_generator",
+          2
+        ],
+        [
+          "sfg_generator",
+          0
+        ],
+        [
+          "dfs_tree_generator",
+          0
+        ],
+        [
+          "random_wall_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "spb",
+          8744
+        ],
+        [
+          "pure_tbi",
+          2001
+        ],
+        [
+          "seed_step",
+          1487
+        ],
+        [
+          "stage_clo",
+          487
+        ],
+        [
+          "random",
+          306
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "pure_tbi",
+          3
+        ],
+        [
+          "seed_step",
+          1
+        ],
+        [
+          "spb",
+          1
+        ],
+        [
+          "random",
+          1
+        ],
+        [
+          "stage_clo",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "tree|long|high_choice|high_endpoint",
+      "status": "handdraw_observed",
+      "target_quota": 371,
+      "confirmed_count": 371,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 457,
+      "accepted_count": 371,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "sfg_generator",
+          395
+        ],
+        [
+          "random_wall_generator",
+          48
+        ],
+        [
+          "dfs_tree_generator",
+          11
+        ],
+        [
+          "room_biased_generator",
+          3
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "sfg_generator",
+          318
+        ],
+        [
+          "random_wall_generator",
+          40
+        ],
+        [
+          "dfs_tree_generator",
+          10
+        ],
+        [
+          "room_biased_generator",
+          3
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "spb",
+          218
+        ],
+        [
+          "pure_tbi",
+          209
+        ],
+        [
+          "stage_clo",
+          17
+        ],
+        [
+          "random",
+          13
+        ],
+        [
+          "seed_step",
+          0
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "pure_tbi",
+          190
+        ],
+        [
+          "spb",
+          163
+        ],
+        [
+          "random",
+          10
+        ],
+        [
+          "stage_clo",
+          8
+        ],
+        [
+          "seed_step",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "tree|long|low_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 0,
+      "quota_gap": 6,
+      "fill_ratio": 0.0,
+      "full_evaluated_count": 0,
+      "accepted_count": 0,
+      "generation_status": "never_full_evaluated",
+      "top_generators_by_full_evaluated": [
+        [
+          "sfg_generator",
+          0
+        ],
+        [
+          "dfs_tree_generator",
+          0
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "random_wall_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "sfg_generator",
+          0
+        ],
+        [
+          "dfs_tree_generator",
+          0
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "random_wall_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "seed_step",
+          0
+        ],
+        [
+          "pure_tbi",
+          0
+        ],
+        [
+          "spb",
+          0
+        ],
+        [
+          "random",
+          0
+        ],
+        [
+          "stage_clo",
+          0
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "pure_tbi",
+          0
+        ],
+        [
+          "seed_step",
+          0
+        ],
+        [
+          "spb",
+          0
+        ],
+        [
+          "stage_clo",
+          0
+        ],
+        [
+          "random",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "tree|long|low_choice|mid_endpoint",
+      "status": "handdraw_observed",
+      "target_quota": 297,
+      "confirmed_count": 297,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 50445,
+      "accepted_count": 297,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "sfg_generator",
+          50381
+        ],
+        [
+          "dfs_tree_generator",
+          54
+        ],
+        [
+          "random_wall_generator",
+          8
+        ],
+        [
+          "room_biased_generator",
+          2
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "sfg_generator",
+          294
+        ],
+        [
+          "dfs_tree_generator",
+          3
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "random_wall_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "pure_tbi",
+          34250
+        ],
+        [
+          "spb",
+          11204
+        ],
+        [
+          "seed_step",
+          3991
+        ],
+        [
+          "random",
+          825
+        ],
+        [
+          "stage_clo",
+          175
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "pure_tbi",
+          201
+        ],
+        [
+          "spb",
+          60
+        ],
+        [
+          "seed_step",
+          30
+        ],
+        [
+          "random",
+          6
+        ],
+        [
+          "stage_clo",
+          0
+        ]
+      ],
+      "example_candidate_ids": [
+        "seed000046_step0",
+        "seed000096_step0",
+        "seed000165_step0",
+        "seed000168_step0",
+        "seed000171_step0",
+        "seed000230_step0",
+        "seed000352_step0",
+        "seed000404_step0",
+        "seed000421_step0",
+        "seed000443_step0"
+      ]
+    },
+    {
+      "bin_key": "tree|long|mid_choice|high_endpoint",
+      "status": "handdraw_observed",
+      "target_quota": 446,
+      "confirmed_count": 446,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 3619,
+      "accepted_count": 446,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "sfg_generator",
+          3525
+        ],
+        [
+          "random_wall_generator",
+          72
+        ],
+        [
+          "dfs_tree_generator",
+          20
+        ],
+        [
+          "room_biased_generator",
+          2
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "sfg_generator",
+          434
+        ],
+        [
+          "random_wall_generator",
+          12
+        ],
+        [
+          "dfs_tree_generator",
+          0
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "pure_tbi",
+          2450
+        ],
+        [
+          "spb",
+          902
+        ],
+        [
+          "stage_clo",
+          198
+        ],
+        [
+          "random",
+          69
+        ],
+        [
+          "seed_step",
+          0
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "pure_tbi",
+          337
+        ],
+        [
+          "spb",
+          91
+        ],
+        [
+          "stage_clo",
+          9
+        ],
+        [
+          "random",
+          9
+        ],
+        [
+          "seed_step",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "tree|long|mid_choice|mid_endpoint",
+      "status": "handdraw_observed",
+      "target_quota": 149,
+      "confirmed_count": 149,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 23450,
+      "accepted_count": 149,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "sfg_generator",
+          23330
+        ],
+        [
+          "random_wall_generator",
+          60
+        ],
+        [
+          "dfs_tree_generator",
+          59
+        ],
+        [
+          "room_biased_generator",
+          1
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "sfg_generator",
+          145
+        ],
+        [
+          "dfs_tree_generator",
+          2
+        ],
+        [
+          "random_wall_generator",
+          2
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "pure_tbi",
+          17220
+        ],
+        [
+          "spb",
+          5535
+        ],
+        [
+          "random",
+          400
+        ],
+        [
+          "stage_clo",
+          247
+        ],
+        [
+          "seed_step",
+          48
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "pure_tbi",
+          130
+        ],
+        [
+          "spb",
+          17
+        ],
+        [
+          "random",
+          2
+        ],
+        [
+          "seed_step",
+          0
+        ],
+        [
+          "stage_clo",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "tree|medium|high_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 6,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 2445,
+      "accepted_count": 6,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "room_biased_generator",
+          956
+        ],
+        [
+          "random_wall_generator",
+          746
+        ],
+        [
+          "sfg_generator",
+          519
+        ],
+        [
+          "dfs_tree_generator",
+          118
+        ],
+        [
+          "loose_path_first_generator",
+          106
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "sfg_generator",
+          2
+        ],
+        [
+          "random_wall_generator",
+          2
+        ],
+        [
+          "room_biased_generator",
+          1
+        ],
+        [
+          "loose_path_first_generator",
+          1
+        ],
+        [
+          "dfs_tree_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "spb",
+          1874
+        ],
+        [
+          "pure_tbi",
+          326
+        ],
+        [
+          "stage_clo",
+          191
+        ],
+        [
+          "random",
+          54
+        ],
+        [
+          "seed_step",
+          0
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "pure_tbi",
+          4
+        ],
+        [
+          "spb",
+          2
+        ],
+        [
+          "seed_step",
+          0
+        ],
+        [
+          "stage_clo",
+          0
+        ],
+        [
+          "random",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "tree|medium|low_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 6,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 10,
+      "accepted_count": 6,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "random_wall_generator",
+          6
+        ],
+        [
+          "room_biased_generator",
+          2
+        ],
+        [
+          "sfg_generator",
+          1
+        ],
+        [
+          "dfs_tree_generator",
+          1
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "random_wall_generator",
+          3
+        ],
+        [
+          "room_biased_generator",
+          2
+        ],
+        [
+          "dfs_tree_generator",
+          1
+        ],
+        [
+          "sfg_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "spb",
+          8
+        ],
+        [
+          "pure_tbi",
+          2
+        ],
+        [
+          "seed_step",
+          0
+        ],
+        [
+          "random",
+          0
+        ],
+        [
+          "stage_clo",
+          0
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "spb",
+          4
+        ],
+        [
+          "pure_tbi",
+          2
+        ],
+        [
+          "seed_step",
+          0
+        ],
+        [
+          "stage_clo",
+          0
+        ],
+        [
+          "random",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "tree|medium|low_choice|mid_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 6,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 15370,
+      "accepted_count": 6,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "sfg_generator",
+          13518
+        ],
+        [
+          "room_biased_generator",
+          1050
+        ],
+        [
+          "dfs_tree_generator",
+          437
+        ],
+        [
+          "loose_path_first_generator",
+          223
+        ],
+        [
+          "random_wall_generator",
+          129
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "sfg_generator",
+          6
+        ],
+        [
+          "dfs_tree_generator",
+          0
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "random_wall_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "spb",
+          7443
+        ],
+        [
+          "pure_tbi",
+          6463
+        ],
+        [
+          "seed_step",
+          930
+        ],
+        [
+          "random",
+          428
+        ],
+        [
+          "stage_clo",
+          106
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "spb",
+          4
+        ],
+        [
+          "pure_tbi",
+          2
+        ],
+        [
+          "seed_step",
+          0
+        ],
+        [
+          "stage_clo",
+          0
+        ],
+        [
+          "random",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "tree|medium|mid_choice|high_endpoint",
+      "status": "handdraw_observed",
+      "target_quota": 75,
+      "confirmed_count": 75,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 3992,
+      "accepted_count": 75,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "sfg_generator",
+          1724
+        ],
+        [
+          "room_biased_generator",
+          1127
+        ],
+        [
+          "random_wall_generator",
+          807
+        ],
+        [
+          "loose_path_first_generator",
+          173
+        ],
+        [
+          "dfs_tree_generator",
+          159
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "sfg_generator",
+          25
+        ],
+        [
+          "random_wall_generator",
+          24
+        ],
+        [
+          "room_biased_generator",
+          19
+        ],
+        [
+          "loose_path_first_generator",
+          5
+        ],
+        [
+          "dfs_tree_generator",
+          2
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "spb",
+          2318
+        ],
+        [
+          "pure_tbi",
+          1184
+        ],
+        [
+          "stage_clo",
+          395
+        ],
+        [
+          "random",
+          95
+        ],
+        [
+          "seed_step",
+          0
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "spb",
+          37
+        ],
+        [
+          "pure_tbi",
+          33
+        ],
+        [
+          "stage_clo",
+          3
+        ],
+        [
+          "random",
+          2
+        ],
+        [
+          "seed_step",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "tree|medium|mid_choice|mid_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 6,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 9199,
+      "accepted_count": 6,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "sfg_generator",
+          6883
+        ],
+        [
+          "room_biased_generator",
+          1161
+        ],
+        [
+          "random_wall_generator",
+          523
+        ],
+        [
+          "dfs_tree_generator",
+          334
+        ],
+        [
+          "loose_path_first_generator",
+          286
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "sfg_generator",
+          5
+        ],
+        [
+          "random_wall_generator",
+          1
+        ],
+        [
+          "dfs_tree_generator",
+          0
+        ],
+        [
+          "room_biased_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "spb",
+          4623
+        ],
+        [
+          "pure_tbi",
+          4059
+        ],
+        [
+          "stage_clo",
+          250
+        ],
+        [
+          "random",
+          245
+        ],
+        [
+          "seed_step",
+          22
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "pure_tbi",
+          3
+        ],
+        [
+          "spb",
+          2
+        ],
+        [
+          "random",
+          1
+        ],
+        [
+          "seed_step",
+          0
+        ],
+        [
+          "stage_clo",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "tree|short|high_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 6,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 5159,
+      "accepted_count": 6,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "room_biased_generator",
+          2137
+        ],
+        [
+          "random_wall_generator",
+          1748
+        ],
+        [
+          "loose_path_first_generator",
+          1005
+        ],
+        [
+          "dfs_tree_generator",
+          157
+        ],
+        [
+          "template_mutation_generator",
+          68
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "random_wall_generator",
+          3
+        ],
+        [
+          "loose_path_first_generator",
+          2
+        ],
+        [
+          "sfg_generator",
+          1
+        ],
+        [
+          "dfs_tree_generator",
+          0
+        ],
+        [
+          "room_biased_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "spb",
+          4186
+        ],
+        [
+          "pure_tbi",
+          820
+        ],
+        [
+          "random",
+          91
+        ],
+        [
+          "seed_step",
+          59
+        ],
+        [
+          "stage_clo",
+          3
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "pure_tbi",
+          3
+        ],
+        [
+          "spb",
+          3
+        ],
+        [
+          "seed_step",
+          0
+        ],
+        [
+          "stage_clo",
+          0
+        ],
+        [
+          "random",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "tree|short|low_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 6,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 159,
+      "accepted_count": 6,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "room_biased_generator",
+          120
+        ],
+        [
+          "random_wall_generator",
+          19
+        ],
+        [
+          "loose_path_first_generator",
+          16
+        ],
+        [
+          "template_mutation_generator",
+          4
+        ],
+        [
+          "sfg_generator",
+          0
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "room_biased_generator",
+          4
+        ],
+        [
+          "loose_path_first_generator",
+          2
+        ],
+        [
+          "sfg_generator",
+          0
+        ],
+        [
+          "dfs_tree_generator",
+          0
+        ],
+        [
+          "random_wall_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "spb",
+          91
+        ],
+        [
+          "pure_tbi",
+          61
+        ],
+        [
+          "random",
+          4
+        ],
+        [
+          "seed_step",
+          3
+        ],
+        [
+          "stage_clo",
+          0
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "pure_tbi",
+          4
+        ],
+        [
+          "spb",
+          1
+        ],
+        [
+          "random",
+          1
+        ],
+        [
+          "seed_step",
+          0
+        ],
+        [
+          "stage_clo",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "tree|short|low_choice|mid_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 6,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 20580,
+      "accepted_count": 6,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "room_biased_generator",
+          9679
+        ],
+        [
+          "loose_path_first_generator",
+          9181
+        ],
+        [
+          "dfs_tree_generator",
+          882
+        ],
+        [
+          "random_wall_generator",
+          409
+        ],
+        [
+          "template_mutation_generator",
+          354
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "room_biased_generator",
+          3
+        ],
+        [
+          "loose_path_first_generator",
+          3
+        ],
+        [
+          "sfg_generator",
+          0
+        ],
+        [
+          "dfs_tree_generator",
+          0
+        ],
+        [
+          "random_wall_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "spb",
+          13515
+        ],
+        [
+          "seed_step",
+          3745
+        ],
+        [
+          "pure_tbi",
+          2987
+        ],
+        [
+          "random",
+          330
+        ],
+        [
+          "stage_clo",
+          3
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "spb",
+          3
+        ],
+        [
+          "seed_step",
+          2
+        ],
+        [
+          "pure_tbi",
+          1
+        ],
+        [
+          "stage_clo",
+          0
+        ],
+        [
+          "random",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "tree|short|mid_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 6,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 6889,
+      "accepted_count": 6,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "room_biased_generator",
+          2662
+        ],
+        [
+          "loose_path_first_generator",
+          2250
+        ],
+        [
+          "random_wall_generator",
+          1730
+        ],
+        [
+          "template_mutation_generator",
+          110
+        ],
+        [
+          "dfs_tree_generator",
+          105
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "room_biased_generator",
+          4
+        ],
+        [
+          "sfg_generator",
+          2
+        ],
+        [
+          "dfs_tree_generator",
+          0
+        ],
+        [
+          "random_wall_generator",
+          0
+        ],
+        [
+          "loose_path_first_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "spb",
+          5230
+        ],
+        [
+          "pure_tbi",
+          1357
+        ],
+        [
+          "seed_step",
+          167
+        ],
+        [
+          "random",
+          119
+        ],
+        [
+          "stage_clo",
+          16
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "spb",
+          5
+        ],
+        [
+          "pure_tbi",
+          1
+        ],
+        [
+          "seed_step",
+          0
+        ],
+        [
+          "stage_clo",
+          0
+        ],
+        [
+          "random",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    },
+    {
+      "bin_key": "tree|short|mid_choice|mid_endpoint",
+      "status": "unobserved_possible",
+      "target_quota": 6,
+      "confirmed_count": 6,
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 9782,
+      "accepted_count": 6,
+      "generation_status": "filled",
+      "top_generators_by_full_evaluated": [
+        [
+          "loose_path_first_generator",
+          4588
+        ],
+        [
+          "room_biased_generator",
+          3606
+        ],
+        [
+          "random_wall_generator",
+          1059
+        ],
+        [
+          "template_mutation_generator",
+          263
+        ],
+        [
+          "dfs_tree_generator",
+          206
+        ]
+      ],
+      "top_generators_by_accepted": [
+        [
+          "room_biased_generator",
+          4
+        ],
+        [
+          "loose_path_first_generator",
+          2
+        ],
+        [
+          "sfg_generator",
+          0
+        ],
+        [
+          "dfs_tree_generator",
+          0
+        ],
+        [
+          "random_wall_generator",
+          0
+        ]
+      ],
+      "top_transforms_by_full_evaluated": [
+        [
+          "spb",
+          6952
+        ],
+        [
+          "pure_tbi",
+          2220
+        ],
+        [
+          "seed_step",
+          439
+        ],
+        [
+          "random",
+          168
+        ],
+        [
+          "stage_clo",
+          3
+        ]
+      ],
+      "top_transforms_by_accepted": [
+        [
+          "pure_tbi",
+          3
+        ],
+        [
+          "spb",
+          3
+        ],
+        [
+          "seed_step",
+          0
+        ],
+        [
+          "stage_clo",
+          0
+        ],
+        [
+          "random",
+          0
+        ]
+      ],
+      "example_candidate_ids": []
+    }
+  ]
+}

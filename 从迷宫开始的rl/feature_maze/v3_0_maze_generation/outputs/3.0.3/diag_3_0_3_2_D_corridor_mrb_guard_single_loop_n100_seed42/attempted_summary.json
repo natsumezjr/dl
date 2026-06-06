@@ -1,0 +1,12 @@
+{
+  "attempted_plan_contract_count": 100,
+  "attempted_topology_generated_count": 100,
+  "attempted_D_range_bound_count": 100,
+  "attempted_layout_count": 100,
+  "attempted_routing_count": 100,
+  "attempted_extraction_count": 12,
+  "choice_node_count_mean": 3.0,
+  "endpoint_node_count_mean": 3.0,
+  "cycle_rank_mean": 1.0,
+  "derived_E_mean": 6.0
+}

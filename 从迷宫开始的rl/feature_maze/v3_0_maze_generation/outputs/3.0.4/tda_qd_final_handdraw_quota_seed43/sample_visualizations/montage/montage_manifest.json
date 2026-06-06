@@ -1,0 +1,6 @@
+{
+  "all_bins_montage": "not_implemented_yet",
+  "critical_bins_montage": "not_implemented_yet",
+  "sparse_bins_montage": "not_implemented_yet",
+  "note": "per-bin PNGs are generated; montage composition is deferred."
+}

@@ -1,0 +1,1788 @@
+[
+  {
+    "runtime_ms": 12.454600015189499,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 14,
+    "extract_graph_call_count": 5,
+    "bfs_call_count": 13,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 8,
+        "alternative_coplanned_hits_unrelated_free_cell": 3,
+        "alternative_coplanned_edge_self_intersection": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 16494.80929999845,
+    "main_path_attempt_count": 70,
+    "edge_attempt_count": 7250,
+    "extract_graph_call_count": 169,
+    "bfs_call_count": 1239,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_edge_self_intersection": 894,
+        "alternative_coplanned_hits_unrelated_free_cell": 5121,
+        "alternative_coplanned_shortest_path_changed_goal": 980,
+        "dead_edge_hits_unrelated_free_cell": 127,
+        "dead_edge_touches_unrelated_free_cell": 33,
+        "dead_edge_no_candidate": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 336.16649999748915,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 147,
+    "extract_graph_call_count": 8,
+    "bfs_call_count": 9,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 41,
+        "alternative_coplanned_edge_self_intersection": 10,
+        "alternative_coplanned_shortest_path_changed_goal": 4,
+        "dead_edge_touches_unrelated_free_cell": 32,
+        "dead_edge_hits_unrelated_free_cell": 57,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 3315.24799996987,
+    "main_path_attempt_count": 18,
+    "edge_attempt_count": 1672,
+    "extract_graph_call_count": 33,
+    "bfs_call_count": 144,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 1
+      },
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 1246,
+        "alternative_coplanned_edge_self_intersection": 231,
+        "alternative_coplanned_shortest_path_changed_goal": 102,
+        "dead_edge_touches_unrelated_free_cell": 20,
+        "dead_edge_hits_unrelated_free_cell": 60,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 54.08470000838861,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 159,
+    "extract_graph_call_count": 10,
+    "bfs_call_count": 21,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 32,
+        "alternative_coplanned_shortest_path_changed_goal": 15,
+        "alternative_coplanned_edge_self_intersection": 12,
+        "dead_edge_hits_unrelated_free_cell": 57,
+        "dead_edge_touches_unrelated_free_cell": 38,
+        "dead_edge_no_candidate": 1,
+        "dead_edge_edge_self_intersection": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 92.33439998934045,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 71,
+    "extract_graph_call_count": 8,
+    "bfs_call_count": 20,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 39,
+        "alternative_coplanned_shortest_path_changed_goal": 13,
+        "alternative_coplanned_edge_self_intersection": 13,
+        "dead_edge_touches_unrelated_free_cell": 1,
+        "dead_edge_hits_unrelated_free_cell": 2,
+        "skipped_zero_budget_island": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 9.827699977904558,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 84,
+    "extract_graph_call_count": 8,
+    "bfs_call_count": 5,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 1,
+        "dead_edge_hits_unrelated_free_cell": 60,
+        "dead_edge_touches_unrelated_free_cell": 20,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 12.3862000182271,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 111,
+    "extract_graph_call_count": 8,
+    "bfs_call_count": 11,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_edge_self_intersection": 1,
+        "alternative_coplanned_shortest_path_changed_goal": 5,
+        "alternative_coplanned_hits_unrelated_free_cell": 2,
+        "dead_edge_touches_unrelated_free_cell": 33,
+        "dead_edge_tip_not_endpoint": 1,
+        "dead_edge_hits_unrelated_free_cell": 62,
+        "dead_edge_edge_self_intersection": 4,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 568.4534999891184,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 96,
+    "extract_graph_call_count": 8,
+    "bfs_call_count": 21,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 61,
+        "alternative_coplanned_edge_self_intersection": 8,
+        "alternative_coplanned_shortest_path_changed_goal": 14,
+        "dead_edge_touches_unrelated_free_cell": 2,
+        "dead_edge_hits_unrelated_free_cell": 5,
+        "dead_edge_tip_not_endpoint": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 26.84520004549995,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 51,
+    "extract_graph_call_count": 11,
+    "bfs_call_count": 10,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_edge_self_intersection": 3,
+        "alternative_coplanned_hits_unrelated_free_cell": 7,
+        "alternative_coplanned_shortest_path_changed_goal": 2,
+        "dead_edge_touches_unrelated_free_cell": 10,
+        "dead_edge_hits_unrelated_free_cell": 24
+      }
+    }
+  },
+  {
+    "runtime_ms": 6.36790000135079,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 15,
+    "extract_graph_call_count": 5,
+    "bfs_call_count": 5,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 6,
+        "dead_edge_hits_unrelated_free_cell": 7
+      }
+    }
+  },
+  {
+    "runtime_ms": 13.227200019173324,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 22,
+    "extract_graph_call_count": 7,
+    "bfs_call_count": 10,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 1
+      },
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 8,
+        "alternative_coplanned_edge_self_intersection": 2,
+        "alternative_coplanned_shortest_path_changed_goal": 5,
+        "dead_edge_tip_not_endpoint": 1,
+        "dead_edge_hits_unrelated_free_cell": 3
+      }
+    }
+  },
+  {
+    "runtime_ms": 392.56109995767474,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 227,
+    "extract_graph_call_count": 7,
+    "bfs_call_count": 13,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 54,
+        "alternative_coplanned_shortest_path_changed_goal": 5,
+        "alternative_coplanned_edge_self_intersection": 5,
+        "dead_edge_hits_unrelated_free_cell": 114,
+        "dead_edge_touches_unrelated_free_cell": 46,
+        "dead_edge_no_candidate": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 15.87679999647662,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 116,
+    "extract_graph_call_count": 8,
+    "bfs_call_count": 6,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 1,
+        "alternative_coplanned_edge_self_intersection": 1,
+        "dead_edge_hits_unrelated_free_cell": 75,
+        "dead_edge_tip_not_endpoint": 1,
+        "dead_edge_touches_unrelated_free_cell": 33,
+        "dead_edge_edge_self_intersection": 2,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 79.4278999674134,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 262,
+    "extract_graph_call_count": 8,
+    "bfs_call_count": 6,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 17,
+        "alternative_coplanned_edge_self_intersection": 1,
+        "alternative_coplanned_shortest_path_changed_goal": 1,
+        "dead_edge_touches_unrelated_free_cell": 108,
+        "dead_edge_hits_unrelated_free_cell": 133,
+        "dead_edge_no_candidate": 3
+      }
+    }
+  },
+  {
+    "runtime_ms": 359.22240000218153,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 250,
+    "extract_graph_call_count": 9,
+    "bfs_call_count": 55,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 70,
+        "alternative_coplanned_shortest_path_changed_goal": 48,
+        "alternative_coplanned_edge_self_intersection": 9,
+        "dead_edge_hits_unrelated_free_cell": 83,
+        "dead_edge_touches_unrelated_free_cell": 37,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 27.354399964679033,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 180,
+    "extract_graph_call_count": 8,
+    "bfs_call_count": 10,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 14,
+        "alternative_coplanned_edge_self_intersection": 4,
+        "alternative_coplanned_shortest_path_changed_goal": 4,
+        "dead_edge_touches_unrelated_free_cell": 44,
+        "dead_edge_hits_unrelated_free_cell": 111,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 168.70559996459633,
+    "main_path_attempt_count": 3,
+    "edge_attempt_count": 303,
+    "extract_graph_call_count": 12,
+    "bfs_call_count": 47,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 156,
+        "alternative_coplanned_edge_self_intersection": 19,
+        "alternative_coplanned_shortest_path_changed_goal": 32,
+        "dead_edge_touches_unrelated_free_cell": 12,
+        "dead_edge_hits_unrelated_free_cell": 78,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 71.04599999729544,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 135,
+    "extract_graph_call_count": 10,
+    "bfs_call_count": 14,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 8,
+        "alternative_coplanned_edge_self_intersection": 10,
+        "alternative_coplanned_hits_unrelated_free_cell": 10,
+        "dead_edge_touches_unrelated_free_cell": 28,
+        "dead_edge_hits_unrelated_free_cell": 73,
+        "dead_edge_edge_self_intersection": 2,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 356.78039997583255,
+    "main_path_attempt_count": 3,
+    "edge_attempt_count": 386,
+    "extract_graph_call_count": 14,
+    "bfs_call_count": 33,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 21,
+        "alternative_coplanned_hits_unrelated_free_cell": 169,
+        "alternative_coplanned_edge_self_intersection": 30,
+        "dead_edge_touches_unrelated_free_cell": 51,
+        "dead_edge_hits_unrelated_free_cell": 105,
+        "dead_edge_edge_self_intersection": 4,
+        "dead_edge_no_candidate": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 114.84460002975538,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 120,
+    "extract_graph_call_count": 9,
+    "bfs_call_count": 36,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 28,
+        "alternative_coplanned_edge_self_intersection": 11,
+        "alternative_coplanned_hits_unrelated_free_cell": 75,
+        "dead_edge_hits_unrelated_free_cell": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 1107.47430002084,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 221,
+    "extract_graph_call_count": 11,
+    "bfs_call_count": 31,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_edge_self_intersection": 8,
+        "alternative_coplanned_hits_unrelated_free_cell": 57,
+        "alternative_coplanned_shortest_path_changed_goal": 24,
+        "dead_edge_touches_unrelated_free_cell": 46,
+        "dead_edge_hits_unrelated_free_cell": 83,
+        "dead_edge_no_candidate": 1,
+        "skipped_zero_budget_island": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 11.150300037115812,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 21,
+    "extract_graph_call_count": 7,
+    "bfs_call_count": 13,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_edge_self_intersection": 5,
+        "alternative_coplanned_hits_unrelated_free_cell": 5,
+        "alternative_coplanned_shortest_path_changed_goal": 8
+      }
+    }
+  },
+  {
+    "runtime_ms": 160.11100000469014,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 109,
+    "extract_graph_call_count": 6,
+    "bfs_call_count": 16,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 13,
+        "alternative_coplanned_shortest_path_changed_goal": 11,
+        "alternative_coplanned_edge_self_intersection": 3,
+        "dead_edge_hits_unrelated_free_cell": 55,
+        "dead_edge_touches_unrelated_free_cell": 25,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 48.13780001131818,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 178,
+    "extract_graph_call_count": 9,
+    "bfs_call_count": 10,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_edge_self_intersection": 1,
+        "alternative_coplanned_shortest_path_changed_goal": 5,
+        "alternative_coplanned_hits_unrelated_free_cell": 2,
+        "dead_edge_hits_unrelated_free_cell": 107,
+        "dead_edge_touches_unrelated_free_cell": 55,
+        "dead_edge_edge_self_intersection": 5,
+        "dead_edge_no_candidate": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 15.218299988191575,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 27,
+    "extract_graph_call_count": 9,
+    "bfs_call_count": 8,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_edge_self_intersection": 5,
+        "alternative_coplanned_hits_unrelated_free_cell": 3,
+        "alternative_coplanned_shortest_path_changed_goal": 2,
+        "dead_edge_hits_unrelated_free_cell": 10,
+        "dead_edge_touches_unrelated_free_cell": 3
+      }
+    }
+  },
+  {
+    "runtime_ms": 12.688199989497662,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 113,
+    "extract_graph_call_count": 8,
+    "bfs_call_count": 11,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 7,
+        "alternative_coplanned_edge_self_intersection": 4,
+        "alternative_coplanned_shortest_path_changed_goal": 5,
+        "dead_edge_touches_unrelated_free_cell": 31,
+        "dead_edge_hits_unrelated_free_cell": 56,
+        "dead_edge_edge_self_intersection": 3,
+        "dead_edge_tip_not_endpoint": 4,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 195.75240003177896,
+    "main_path_attempt_count": 3,
+    "edge_attempt_count": 336,
+    "extract_graph_call_count": 11,
+    "bfs_call_count": 27,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 130,
+        "alternative_coplanned_shortest_path_changed_goal": 20,
+        "alternative_coplanned_edge_self_intersection": 14,
+        "dead_edge_hits_unrelated_free_cell": 97,
+        "dead_edge_touches_unrelated_free_cell": 72,
+        "dead_edge_no_candidate": 2,
+        "dead_edge_edge_self_intersection": 1,
+        "skipped_zero_budget_island": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 275.96970001468435,
+    "main_path_attempt_count": 3,
+    "edge_attempt_count": 248,
+    "extract_graph_call_count": 7,
+    "bfs_call_count": 30,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 138,
+        "alternative_coplanned_shortest_path_changed_goal": 23,
+        "alternative_coplanned_edge_self_intersection": 31,
+        "dead_edge_hits_unrelated_free_cell": 30,
+        "dead_edge_touches_unrelated_free_cell": 24
+      }
+    }
+  },
+  {
+    "runtime_ms": 192.58620002074167,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 257,
+    "extract_graph_call_count": 8,
+    "bfs_call_count": 4,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 12,
+        "alternative_coplanned_edge_self_intersection": 3,
+        "dead_edge_hits_unrelated_free_cell": 141,
+        "dead_edge_touches_unrelated_free_cell": 91,
+        "dead_edge_edge_self_intersection": 8,
+        "dead_edge_no_candidate": 3
+      }
+    }
+  },
+  {
+    "runtime_ms": 285.3700999985449,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 30,
+    "extract_graph_call_count": 5,
+    "bfs_call_count": 6,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 22,
+        "alternative_coplanned_edge_self_intersection": 5,
+        "alternative_coplanned_shortest_path_changed_goal": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 154.55119998659939,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 85,
+    "extract_graph_call_count": 6,
+    "bfs_call_count": 34,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 43,
+        "alternative_coplanned_shortest_path_changed_goal": 28,
+        "alternative_coplanned_edge_self_intersection": 11,
+        "dead_edge_hits_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 91.76799998385832,
+    "main_path_attempt_count": 4,
+    "edge_attempt_count": 272,
+    "extract_graph_call_count": 13,
+    "bfs_call_count": 38,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 2
+      },
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 110,
+        "alternative_coplanned_shortest_path_changed_goal": 28,
+        "alternative_coplanned_edge_self_intersection": 17,
+        "dead_edge_hits_unrelated_free_cell": 84,
+        "dead_edge_touches_unrelated_free_cell": 27,
+        "dead_edge_edge_self_intersection": 1,
+        "dead_edge_no_candidate": 1,
+        "skipped_zero_budget_island": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 24877.65879998915,
+    "main_path_attempt_count": 100,
+    "edge_attempt_count": 9966,
+    "extract_graph_call_count": 181,
+    "bfs_call_count": 1140,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 7632,
+        "alternative_coplanned_edge_self_intersection": 1375,
+        "alternative_coplanned_shortest_path_changed_goal": 878
+      }
+    }
+  },
+  {
+    "runtime_ms": 33.59539998928085,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 128,
+    "extract_graph_call_count": 6,
+    "bfs_call_count": 9,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_edge_self_intersection": 8,
+        "alternative_coplanned_hits_unrelated_free_cell": 34,
+        "alternative_coplanned_shortest_path_changed_goal": 5,
+        "dead_edge_hits_unrelated_free_cell": 51,
+        "dead_edge_touches_unrelated_free_cell": 29,
+        "dead_edge_no_candidate": 1,
+        "skipped_zero_budget_island": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 476.4484000043012,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 136,
+    "extract_graph_call_count": 8,
+    "bfs_call_count": 26,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 80,
+        "alternative_coplanned_edge_self_intersection": 23,
+        "alternative_coplanned_shortest_path_changed_goal": 16,
+        "dead_edge_hits_unrelated_free_cell": 8,
+        "dead_edge_touches_unrelated_free_cell": 5
+      }
+    }
+  },
+  {
+    "runtime_ms": 200.45140001457185,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 216,
+    "extract_graph_call_count": 9,
+    "bfs_call_count": 33,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 75,
+        "alternative_coplanned_shortest_path_changed_goal": 27,
+        "alternative_coplanned_edge_self_intersection": 23,
+        "dead_edge_hits_unrelated_free_cell": 64,
+        "dead_edge_touches_unrelated_free_cell": 24,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 254.71890001790598,
+    "main_path_attempt_count": 4,
+    "edge_attempt_count": 225,
+    "extract_graph_call_count": 7,
+    "bfs_call_count": 26,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 1
+      },
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 113,
+        "alternative_coplanned_edge_self_intersection": 35,
+        "alternative_coplanned_shortest_path_changed_goal": 19,
+        "dead_edge_hits_unrelated_free_cell": 38,
+        "dead_edge_touches_unrelated_free_cell": 18
+      }
+    }
+  },
+  {
+    "runtime_ms": 51.53119994793087,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 163,
+    "extract_graph_call_count": 5,
+    "bfs_call_count": 4,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 1,
+        "alternative_coplanned_edge_self_intersection": 1,
+        "dead_edge_hits_unrelated_free_cell": 98,
+        "dead_edge_touches_unrelated_free_cell": 51,
+        "dead_edge_edge_self_intersection": 8,
+        "dead_edge_no_candidate": 2,
+        "dead_edge_tip_not_endpoint": 3
+      }
+    }
+  },
+  {
+    "runtime_ms": 66.4272999856621,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 192,
+    "extract_graph_call_count": 11,
+    "bfs_call_count": 41,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 27,
+        "alternative_coplanned_edge_self_intersection": 5,
+        "alternative_coplanned_hits_unrelated_free_cell": 72,
+        "dead_edge_hits_unrelated_free_cell": 74,
+        "dead_edge_touches_unrelated_free_cell": 8,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 64.87489998107776,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 242,
+    "extract_graph_call_count": 10,
+    "bfs_call_count": 19,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_edge_self_intersection": 7,
+        "alternative_coplanned_hits_unrelated_free_cell": 60,
+        "alternative_coplanned_shortest_path_changed_goal": 13,
+        "dead_edge_hits_unrelated_free_cell": 106,
+        "dead_edge_touches_unrelated_free_cell": 45,
+        "dead_edge_edge_self_intersection": 9,
+        "dead_edge_no_candidate": 2,
+        "skipped_zero_budget_island": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 14.630499994382262,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 23,
+    "extract_graph_call_count": 7,
+    "bfs_call_count": 7,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_edge_self_intersection": 4,
+        "alternative_coplanned_hits_unrelated_free_cell": 2,
+        "alternative_coplanned_shortest_path_changed_goal": 1,
+        "dead_edge_hits_unrelated_free_cell": 8,
+        "dead_edge_touches_unrelated_free_cell": 5
+      }
+    }
+  },
+  {
+    "runtime_ms": 7.056800008285791,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 86,
+    "extract_graph_call_count": 12,
+    "bfs_call_count": 7,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_hits_unrelated_free_cell": 56,
+        "dead_edge_touches_unrelated_free_cell": 25,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 28.59040000475943,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 138,
+    "extract_graph_call_count": 4,
+    "bfs_call_count": 31,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 22,
+        "alternative_coplanned_shortest_path_changed_goal": 27,
+        "alternative_coplanned_edge_self_intersection": 8,
+        "dead_edge_hits_unrelated_free_cell": 50,
+        "dead_edge_touches_unrelated_free_cell": 21,
+        "dead_edge_edge_self_intersection": 9,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 117.91900004027411,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 26,
+    "extract_graph_call_count": 6,
+    "bfs_call_count": 9,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 12,
+        "alternative_coplanned_shortest_path_changed_goal": 2,
+        "alternative_coplanned_edge_self_intersection": 2,
+        "dead_edge_hits_unrelated_free_cell": 6,
+        "dead_edge_touches_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 30.40849999524653,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 42,
+    "extract_graph_call_count": 5,
+    "bfs_call_count": 9,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 20,
+        "alternative_coplanned_shortest_path_changed_goal": 4,
+        "alternative_coplanned_edge_self_intersection": 4,
+        "dead_edge_touches_unrelated_free_cell": 3,
+        "dead_edge_hits_unrelated_free_cell": 9
+      }
+    }
+  },
+  {
+    "runtime_ms": 319.2297999630682,
+    "main_path_attempt_count": 6,
+    "edge_attempt_count": 423,
+    "extract_graph_call_count": 15,
+    "bfs_call_count": 50,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 2
+      },
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 250,
+        "alternative_coplanned_edge_self_intersection": 39,
+        "alternative_coplanned_shortest_path_changed_goal": 34,
+        "dead_edge_hits_unrelated_free_cell": 68,
+        "dead_edge_touches_unrelated_free_cell": 25,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 132.30359996668994,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 197,
+    "extract_graph_call_count": 11,
+    "bfs_call_count": 9,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 1
+      },
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 21,
+        "alternative_coplanned_shortest_path_changed_goal": 3,
+        "alternative_coplanned_edge_self_intersection": 7,
+        "dead_edge_touches_unrelated_free_cell": 55,
+        "dead_edge_hits_unrelated_free_cell": 106,
+        "dead_edge_edge_self_intersection": 1,
+        "dead_edge_no_candidate": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 509.2268000007607,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 273,
+    "extract_graph_call_count": 11,
+    "bfs_call_count": 31,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 24,
+        "alternative_coplanned_edge_self_intersection": 24,
+        "alternative_coplanned_hits_unrelated_free_cell": 62,
+        "dead_edge_hits_unrelated_free_cell": 103,
+        "dead_edge_touches_unrelated_free_cell": 53,
+        "dead_edge_edge_self_intersection": 4,
+        "dead_edge_no_candidate": 2,
+        "skipped_zero_budget_island": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 10.562000039499253,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 40,
+    "extract_graph_call_count": 5,
+    "bfs_call_count": 20,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 20,
+        "alternative_coplanned_shortest_path_changed_goal": 15,
+        "alternative_coplanned_edge_self_intersection": 3
+      }
+    }
+  },
+  {
+    "runtime_ms": 2.3532999912276864,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 4,
+    "extract_graph_call_count": 5,
+    "bfs_call_count": 5,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_hits_unrelated_free_cell": 1,
+        "dead_edge_touches_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 240.9849999821745,
+    "main_path_attempt_count": 18,
+    "edge_attempt_count": 292,
+    "extract_graph_call_count": 15,
+    "bfs_call_count": 65,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 15
+      },
+      "edge": {
+        "alternative_coplanned_edge_self_intersection": 34,
+        "alternative_coplanned_shortest_path_changed_goal": 52,
+        "alternative_coplanned_hits_unrelated_free_cell": 119,
+        "dead_edge_touches_unrelated_free_cell": 20,
+        "dead_edge_hits_unrelated_free_cell": 61,
+        "dead_edge_no_candidate": 1,
+        "skipped_zero_budget_island": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 1356.5099999541417,
+    "main_path_attempt_count": 7,
+    "edge_attempt_count": 749,
+    "extract_graph_call_count": 16,
+    "bfs_call_count": 55,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 37,
+        "alternative_coplanned_hits_unrelated_free_cell": 538,
+        "alternative_coplanned_edge_self_intersection": 88,
+        "dead_edge_hits_unrelated_free_cell": 58,
+        "dead_edge_touches_unrelated_free_cell": 22,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 4653.2423999742605,
+    "main_path_attempt_count": 19,
+    "edge_attempt_count": 1451,
+    "extract_graph_call_count": 31,
+    "bfs_call_count": 280,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 9
+      },
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 859,
+        "alternative_coplanned_shortest_path_changed_goal": 237,
+        "alternative_coplanned_edge_self_intersection": 178,
+        "dead_edge_hits_unrelated_free_cell": 116,
+        "dead_edge_touches_unrelated_free_cell": 44,
+        "dead_edge_no_candidate": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 8913.12400001334,
+    "main_path_attempt_count": 172,
+    "edge_attempt_count": 10718,
+    "extract_graph_call_count": 212,
+    "bfs_call_count": 1457,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 72
+      },
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 8163,
+        "alternative_coplanned_edge_self_intersection": 1310,
+        "alternative_coplanned_shortest_path_changed_goal": 1133
+      }
+    }
+  },
+  {
+    "runtime_ms": 84.66910000424832,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 112,
+    "extract_graph_call_count": 7,
+    "bfs_call_count": 9,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_edge_self_intersection": 6,
+        "alternative_coplanned_hits_unrelated_free_cell": 20,
+        "alternative_coplanned_shortest_path_changed_goal": 3,
+        "dead_edge_touches_unrelated_free_cell": 19,
+        "dead_edge_edge_self_intersection": 3,
+        "dead_edge_hits_unrelated_free_cell": 58,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 2.280100015923381,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 4,
+    "extract_graph_call_count": 7,
+    "bfs_call_count": 6,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_hits_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 96.74930002074689,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 283,
+    "extract_graph_call_count": 10,
+    "bfs_call_count": 16,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_edge_self_intersection": 6,
+        "alternative_coplanned_hits_unrelated_free_cell": 23,
+        "alternative_coplanned_shortest_path_changed_goal": 11,
+        "dead_edge_hits_unrelated_free_cell": 165,
+        "dead_edge_touches_unrelated_free_cell": 73,
+        "dead_edge_no_candidate": 3,
+        "dead_edge_edge_self_intersection": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 20.584299985785037,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 147,
+    "extract_graph_call_count": 10,
+    "bfs_call_count": 13,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 29,
+        "alternative_coplanned_edge_self_intersection": 7,
+        "alternative_coplanned_shortest_path_changed_goal": 7,
+        "dead_edge_hits_unrelated_free_cell": 62,
+        "dead_edge_touches_unrelated_free_cell": 36,
+        "dead_edge_tip_not_endpoint": 1,
+        "dead_edge_edge_self_intersection": 1,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 3.078899986576289,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 7,
+    "extract_graph_call_count": 7,
+    "bfs_call_count": 6,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_touches_unrelated_free_cell": 1,
+        "dead_edge_hits_unrelated_free_cell": 3
+      }
+    }
+  },
+  {
+    "runtime_ms": 140.11580002261326,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 180,
+    "extract_graph_call_count": 5,
+    "bfs_call_count": 7,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 13,
+        "alternative_coplanned_edge_self_intersection": 3,
+        "alternative_coplanned_shortest_path_changed_goal": 3,
+        "dead_edge_touches_unrelated_free_cell": 72,
+        "dead_edge_hits_unrelated_free_cell": 87,
+        "dead_edge_no_candidate": 2,
+        "dead_edge_edge_self_intersection": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 73.51109996670857,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 288,
+    "extract_graph_call_count": 12,
+    "bfs_call_count": 39,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 65,
+        "alternative_coplanned_edge_self_intersection": 21,
+        "alternative_coplanned_shortest_path_changed_goal": 32,
+        "dead_edge_touches_unrelated_free_cell": 70,
+        "dead_edge_hits_unrelated_free_cell": 93,
+        "dead_edge_edge_self_intersection": 3,
+        "dead_edge_no_candidate": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 319.6756000397727,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 365,
+    "extract_graph_call_count": 9,
+    "bfs_call_count": 33,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 72,
+        "alternative_coplanned_edge_self_intersection": 18,
+        "alternative_coplanned_shortest_path_changed_goal": 27,
+        "dead_edge_touches_unrelated_free_cell": 89,
+        "dead_edge_hits_unrelated_free_cell": 154,
+        "dead_edge_edge_self_intersection": 3,
+        "dead_edge_no_candidate": 3
+      }
+    }
+  },
+  {
+    "runtime_ms": 57.57210002047941,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 29,
+    "extract_graph_call_count": 5,
+    "bfs_call_count": 9,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 4,
+        "alternative_coplanned_hits_unrelated_free_cell": 13,
+        "alternative_coplanned_edge_self_intersection": 4,
+        "dead_edge_hits_unrelated_free_cell": 6
+      }
+    }
+  },
+  {
+    "runtime_ms": 11.354200018104166,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 21,
+    "extract_graph_call_count": 5,
+    "bfs_call_count": 8,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 10,
+        "alternative_coplanned_edge_self_intersection": 6,
+        "alternative_coplanned_shortest_path_changed_goal": 3
+      }
+    }
+  },
+  {
+    "runtime_ms": 274.0073000313714,
+    "main_path_attempt_count": 3,
+    "edge_attempt_count": 474,
+    "extract_graph_call_count": 10,
+    "bfs_call_count": 84,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 77,
+        "alternative_coplanned_hits_unrelated_free_cell": 121,
+        "alternative_coplanned_edge_self_intersection": 27,
+        "dead_edge_touches_unrelated_free_cell": 87,
+        "dead_edge_hits_unrelated_free_cell": 155,
+        "dead_edge_tip_not_endpoint": 1,
+        "dead_edge_edge_self_intersection": 4,
+        "dead_edge_no_candidate": 3
+      }
+    }
+  },
+  {
+    "runtime_ms": 71.87079999130219,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 347,
+    "extract_graph_call_count": 9,
+    "bfs_call_count": 6,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 2,
+        "alternative_coplanned_hits_unrelated_free_cell": 22,
+        "alternative_coplanned_edge_self_intersection": 1,
+        "dead_edge_hits_unrelated_free_cell": 193,
+        "dead_edge_touches_unrelated_free_cell": 120,
+        "dead_edge_edge_self_intersection": 7,
+        "dead_edge_no_candidate": 4
+      }
+    }
+  },
+  {
+    "runtime_ms": 5.533199990168214,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 59,
+    "extract_graph_call_count": 9,
+    "bfs_call_count": 6,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_hits_unrelated_free_cell": 38,
+        "dead_edge_tip_not_endpoint": 8,
+        "dead_edge_touches_unrelated_free_cell": 9
+      }
+    }
+  },
+  {
+    "runtime_ms": 32.85919997142628,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 85,
+    "extract_graph_call_count": 4,
+    "bfs_call_count": 5,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 3,
+        "alternative_coplanned_shortest_path_changed_goal": 1,
+        "dead_edge_hits_unrelated_free_cell": 51,
+        "dead_edge_touches_unrelated_free_cell": 27,
+        "dead_edge_edge_self_intersection": 2,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 6953.187000006437,
+    "main_path_attempt_count": 59,
+    "edge_attempt_count": 4158,
+    "extract_graph_call_count": 95,
+    "bfs_call_count": 886,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 22
+      },
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 738,
+        "alternative_coplanned_hits_unrelated_free_cell": 2703,
+        "alternative_coplanned_edge_self_intersection": 502,
+        "dead_edge_hits_unrelated_free_cell": 119,
+        "dead_edge_touches_unrelated_free_cell": 36,
+        "dead_edge_edge_self_intersection": 5,
+        "dead_edge_no_candidate": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 42.53129998687655,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 285,
+    "extract_graph_call_count": 10,
+    "bfs_call_count": 9,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 13,
+        "alternative_coplanned_edge_self_intersection": 4,
+        "alternative_coplanned_shortest_path_changed_goal": 4,
+        "dead_edge_hits_unrelated_free_cell": 166,
+        "dead_edge_touches_unrelated_free_cell": 93,
+        "dead_edge_no_candidate": 3,
+        "dead_edge_edge_self_intersection": 3,
+        "skipped_zero_budget_island": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 10.794300003908575,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 42,
+    "extract_graph_call_count": 11,
+    "bfs_call_count": 16,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 9,
+        "alternative_coplanned_edge_self_intersection": 3,
+        "alternative_coplanned_hits_unrelated_free_cell": 3,
+        "dead_edge_hits_unrelated_free_cell": 17,
+        "dead_edge_touches_unrelated_free_cell": 5
+      }
+    }
+  },
+  {
+    "runtime_ms": 1186.902099987492,
+    "main_path_attempt_count": 20,
+    "edge_attempt_count": 724,
+    "extract_graph_call_count": 21,
+    "bfs_call_count": 119,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 14
+      },
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 412,
+        "alternative_coplanned_shortest_path_changed_goal": 92,
+        "alternative_coplanned_edge_self_intersection": 49,
+        "dead_edge_hits_unrelated_free_cell": 131,
+        "dead_edge_touches_unrelated_free_cell": 27,
+        "dead_edge_edge_self_intersection": 2,
+        "dead_edge_no_candidate": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 1343.5552000300959,
+    "main_path_attempt_count": 12,
+    "edge_attempt_count": 1414,
+    "extract_graph_call_count": 29,
+    "bfs_call_count": 295,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 1
+      },
+      "edge": {
+        "alternative_coplanned_edge_self_intersection": 156,
+        "alternative_coplanned_hits_unrelated_free_cell": 830,
+        "alternative_coplanned_shortest_path_changed_goal": 253,
+        "dead_edge_hits_unrelated_free_cell": 130,
+        "dead_edge_touches_unrelated_free_cell": 30,
+        "dead_edge_no_candidate": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 115.4581000446342,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 16,
+    "extract_graph_call_count": 7,
+    "bfs_call_count": 6,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 10,
+        "alternative_coplanned_edge_self_intersection": 1,
+        "alternative_coplanned_shortest_path_changed_goal": 1,
+        "dead_edge_hits_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 245.49000000115484,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 176,
+    "extract_graph_call_count": 10,
+    "bfs_call_count": 8,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 7,
+        "alternative_coplanned_shortest_path_changed_goal": 2,
+        "alternative_coplanned_edge_self_intersection": 3,
+        "dead_edge_hits_unrelated_free_cell": 124,
+        "dead_edge_touches_unrelated_free_cell": 36,
+        "dead_edge_no_candidate": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 65.48769999062642,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 9,
+    "extract_graph_call_count": 5,
+    "bfs_call_count": 9,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 1,
+        "alternative_coplanned_shortest_path_changed_goal": 4,
+        "alternative_coplanned_edge_self_intersection": 1,
+        "dead_edge_touches_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 29.374899982940406,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 19,
+    "extract_graph_call_count": 5,
+    "bfs_call_count": 8,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 9,
+        "alternative_coplanned_shortest_path_changed_goal": 3,
+        "alternative_coplanned_edge_self_intersection": 4,
+        "dead_edge_hits_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 68.81749996682629,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 128,
+    "extract_graph_call_count": 6,
+    "bfs_call_count": 21,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 20,
+        "alternative_coplanned_shortest_path_changed_goal": 16,
+        "alternative_coplanned_edge_self_intersection": 8,
+        "dead_edge_hits_unrelated_free_cell": 50,
+        "dead_edge_touches_unrelated_free_cell": 32,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 325.67410002229735,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 238,
+    "extract_graph_call_count": 8,
+    "bfs_call_count": 48,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 92,
+        "alternative_coplanned_shortest_path_changed_goal": 41,
+        "alternative_coplanned_edge_self_intersection": 22,
+        "dead_edge_hits_unrelated_free_cell": 57,
+        "dead_edge_touches_unrelated_free_cell": 23,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 10.593199986033142,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 167,
+    "extract_graph_call_count": 9,
+    "bfs_call_count": 5,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 2,
+        "dead_edge_hits_unrelated_free_cell": 117,
+        "dead_edge_touches_unrelated_free_cell": 46,
+        "dead_edge_no_candidate": 2,
+        "skipped_zero_budget_island": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 149.75739998044446,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 312,
+    "extract_graph_call_count": 10,
+    "bfs_call_count": 64,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 57,
+        "alternative_coplanned_hits_unrelated_free_cell": 63,
+        "alternative_coplanned_edge_self_intersection": 10,
+        "dead_edge_hits_unrelated_free_cell": 112,
+        "dead_edge_touches_unrelated_free_cell": 66,
+        "dead_edge_edge_self_intersection": 1,
+        "dead_edge_no_candidate": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 22.742000001017004,
+    "main_path_attempt_count": 4,
+    "edge_attempt_count": 102,
+    "extract_graph_call_count": 5,
+    "bfs_call_count": 11,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 3
+      },
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 14,
+        "alternative_coplanned_shortest_path_changed_goal": 5,
+        "alternative_coplanned_edge_self_intersection": 1,
+        "dead_edge_touches_unrelated_free_cell": 23,
+        "dead_edge_hits_unrelated_free_cell": 57,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 12.120600033085793,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 79,
+    "extract_graph_call_count": 11,
+    "bfs_call_count": 8,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 4,
+        "alternative_coplanned_shortest_path_changed_goal": 1,
+        "dead_edge_touches_unrelated_free_cell": 19,
+        "dead_edge_hits_unrelated_free_cell": 47,
+        "dead_edge_tip_not_endpoint": 3
+      }
+    }
+  },
+  {
+    "runtime_ms": 13.313299976289272,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 104,
+    "extract_graph_call_count": 8,
+    "bfs_call_count": 9,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 4,
+        "alternative_coplanned_hits_unrelated_free_cell": 4,
+        "alternative_coplanned_edge_self_intersection": 1,
+        "dead_edge_touches_unrelated_free_cell": 28,
+        "dead_edge_hits_unrelated_free_cell": 61,
+        "dead_edge_tip_not_endpoint": 1,
+        "dead_edge_edge_self_intersection": 2,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 6.010400014929473,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 18,
+    "extract_graph_call_count": 5,
+    "bfs_call_count": 7,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 2,
+        "alternative_coplanned_hits_unrelated_free_cell": 1,
+        "alternative_coplanned_edge_self_intersection": 1,
+        "dead_edge_touches_unrelated_free_cell": 4,
+        "dead_edge_hits_unrelated_free_cell": 8
+      }
+    }
+  },
+  {
+    "runtime_ms": 39.72940001403913,
+    "main_path_attempt_count": 3,
+    "edge_attempt_count": 37,
+    "extract_graph_call_count": 8,
+    "bfs_call_count": 17,
+    "failed_reason_counts": {
+      "main_path": {
+        "main_path_no_goal_candidate": 2
+      },
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 17,
+        "alternative_coplanned_shortest_path_changed_goal": 10,
+        "alternative_coplanned_edge_self_intersection": 5,
+        "dead_edge_hits_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 545.0306999846362,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 178,
+    "extract_graph_call_count": 5,
+    "bfs_call_count": 15,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 67,
+        "alternative_coplanned_edge_self_intersection": 20,
+        "alternative_coplanned_shortest_path_changed_goal": 10,
+        "dead_edge_touches_unrelated_free_cell": 39,
+        "dead_edge_hits_unrelated_free_cell": 40,
+        "dead_edge_edge_self_intersection": 1,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 22.457199986092746,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 175,
+    "extract_graph_call_count": 9,
+    "bfs_call_count": 5,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 2,
+        "alternative_coplanned_edge_self_intersection": 1,
+        "dead_edge_touches_unrelated_free_cell": 61,
+        "dead_edge_hits_unrelated_free_cell": 105,
+        "dead_edge_edge_self_intersection": 4,
+        "dead_edge_no_candidate": 2,
+        "skipped_zero_budget_island": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 18.747499969322234,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 184,
+    "extract_graph_call_count": 7,
+    "bfs_call_count": 9,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 8,
+        "alternative_coplanned_shortest_path_changed_goal": 4,
+        "alternative_coplanned_edge_self_intersection": 1,
+        "dead_edge_hits_unrelated_free_cell": 113,
+        "dead_edge_touches_unrelated_free_cell": 56,
+        "dead_edge_no_candidate": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 149.08499998273328,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 325,
+    "extract_graph_call_count": 10,
+    "bfs_call_count": 16,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 118,
+        "alternative_coplanned_shortest_path_changed_goal": 9,
+        "alternative_coplanned_edge_self_intersection": 18,
+        "dead_edge_touches_unrelated_free_cell": 73,
+        "dead_edge_hits_unrelated_free_cell": 103,
+        "dead_edge_edge_self_intersection": 1,
+        "dead_edge_no_candidate": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 157.54370001377538,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 219,
+    "extract_graph_call_count": 10,
+    "bfs_call_count": 9,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 50,
+        "alternative_coplanned_shortest_path_changed_goal": 3,
+        "alternative_coplanned_edge_self_intersection": 2,
+        "dead_edge_touches_unrelated_free_cell": 46,
+        "dead_edge_hits_unrelated_free_cell": 114,
+        "dead_edge_no_candidate": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 45.98480003187433,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 42,
+    "extract_graph_call_count": 5,
+    "bfs_call_count": 21,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_edge_self_intersection": 9,
+        "alternative_coplanned_hits_unrelated_free_cell": 14,
+        "alternative_coplanned_shortest_path_changed_goal": 16,
+        "dead_edge_hits_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 78.82190000964329,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 271,
+    "extract_graph_call_count": 10,
+    "bfs_call_count": 15,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 66,
+        "alternative_coplanned_edge_self_intersection": 16,
+        "alternative_coplanned_shortest_path_changed_goal": 8,
+        "dead_edge_hits_unrelated_free_cell": 113,
+        "dead_edge_touches_unrelated_free_cell": 65,
+        "dead_edge_no_candidate": 2
+      }
+    }
+  },
+  {
+    "runtime_ms": 9.722099988721311,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 14,
+    "extract_graph_call_count": 5,
+    "bfs_call_count": 7,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 2,
+        "alternative_coplanned_hits_unrelated_free_cell": 1,
+        "dead_edge_touches_unrelated_free_cell": 3,
+        "dead_edge_hits_unrelated_free_cell": 6
+      }
+    }
+  },
+  {
+    "runtime_ms": 2.6475999620743096,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 5,
+    "extract_graph_call_count": 7,
+    "bfs_call_count": 6,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 1,
+        "dead_edge_hits_unrelated_free_cell": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 250.32800005283207,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 141,
+    "extract_graph_call_count": 8,
+    "bfs_call_count": 14,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 8,
+        "alternative_coplanned_hits_unrelated_free_cell": 8,
+        "alternative_coplanned_edge_self_intersection": 1,
+        "dead_edge_touches_unrelated_free_cell": 32,
+        "dead_edge_hits_unrelated_free_cell": 89,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 35.0159999798052,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 204,
+    "extract_graph_call_count": 11,
+    "bfs_call_count": 57,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_shortest_path_changed_goal": 49,
+        "alternative_coplanned_hits_unrelated_free_cell": 53,
+        "alternative_coplanned_edge_self_intersection": 7,
+        "dead_edge_hits_unrelated_free_cell": 60,
+        "dead_edge_tip_not_endpoint": 1,
+        "dead_edge_touches_unrelated_free_cell": 30,
+        "dead_edge_no_candidate": 1
+      }
+    }
+  },
+  {
+    "runtime_ms": 385.9334000153467,
+    "main_path_attempt_count": 2,
+    "edge_attempt_count": 96,
+    "extract_graph_call_count": 6,
+    "bfs_call_count": 37,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "alternative_coplanned_hits_unrelated_free_cell": 43,
+        "alternative_coplanned_shortest_path_changed_goal": 31,
+        "alternative_coplanned_edge_self_intersection": 13,
+        "dead_edge_touches_unrelated_free_cell": 1,
+        "dead_edge_tip_not_endpoint": 1,
+        "dead_edge_hits_unrelated_free_cell": 5
+      }
+    }
+  },
+  {
+    "runtime_ms": 1.7828999552875757,
+    "main_path_attempt_count": 1,
+    "edge_attempt_count": 3,
+    "extract_graph_call_count": 5,
+    "bfs_call_count": 5,
+    "failed_reason_counts": {
+      "main_path": {},
+      "edge": {
+        "dead_edge_hits_unrelated_free_cell": 1
+      }
+    }
+  }
+]

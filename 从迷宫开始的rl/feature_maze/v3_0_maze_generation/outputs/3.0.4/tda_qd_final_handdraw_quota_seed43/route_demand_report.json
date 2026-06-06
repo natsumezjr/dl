@@ -1,0 +1,334 @@
+{
+  "routes": {
+    "multi_loop_long_high_choice_high_endpoint": {
+      "route_id": "multi_loop_long_high_choice_high_endpoint",
+      "target_bins": [
+        "multi_loop|long|high_choice|high_endpoint"
+      ],
+      "primary_bin": "multi_loop|long|high_choice|high_endpoint",
+      "cycle_target": "multi_loop",
+      "bfs_target": "long",
+      "choice_target": "high_choice",
+      "endpoint_target": "high_endpoint",
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 551,
+      "accepted_count": 446,
+      "scarcity_score": 1.0,
+      "priority_score": 0.0
+    },
+    "generic_multi_loop_long": {
+      "route_id": "generic_multi_loop_long",
+      "target_bins": [
+        "multi_loop|long|high_choice|low_endpoint",
+        "multi_loop|long|high_choice|mid_endpoint",
+        "multi_loop|long|low_choice|high_endpoint",
+        "multi_loop|long|low_choice|low_endpoint",
+        "multi_loop|long|low_choice|mid_endpoint",
+        "multi_loop|long|mid_choice|high_endpoint",
+        "multi_loop|long|mid_choice|low_endpoint",
+        "multi_loop|long|mid_choice|mid_endpoint"
+      ],
+      "primary_bin": "multi_loop|long|high_choice|mid_endpoint",
+      "cycle_target": "multi_loop",
+      "bfs_target": "long",
+      "choice_target": "high_choice",
+      "endpoint_target": "mid_endpoint",
+      "quota_gap": 6,
+      "fill_ratio": 0.9873684210526316,
+      "full_evaluated_count": 9691,
+      "accepted_count": 469,
+      "scarcity_score": 1.0,
+      "priority_score": 0.0012020218228498076
+    },
+    "generic_multi_loop_medium": {
+      "route_id": "generic_multi_loop_medium",
+      "target_bins": [
+        "multi_loop|medium|high_choice|high_endpoint",
+        "multi_loop|medium|high_choice|low_endpoint",
+        "multi_loop|medium|high_choice|mid_endpoint",
+        "multi_loop|medium|low_choice|high_endpoint",
+        "multi_loop|medium|low_choice|low_endpoint",
+        "multi_loop|medium|low_choice|mid_endpoint",
+        "multi_loop|medium|mid_choice|high_endpoint",
+        "multi_loop|medium|mid_choice|low_endpoint",
+        "multi_loop|medium|mid_choice|mid_endpoint"
+      ],
+      "primary_bin": "multi_loop|medium|high_choice|mid_endpoint",
+      "cycle_target": "multi_loop",
+      "bfs_target": "medium",
+      "choice_target": "high_choice",
+      "endpoint_target": "mid_endpoint",
+      "quota_gap": 6,
+      "fill_ratio": 0.9950738916256158,
+      "full_evaluated_count": 75657,
+      "accepted_count": 1212,
+      "scarcity_score": 1.0,
+      "priority_score": 0.001199987985101526
+    },
+    "generic_multi_loop_short": {
+      "route_id": "generic_multi_loop_short",
+      "target_bins": [
+        "multi_loop|short|high_choice|high_endpoint",
+        "multi_loop|short|high_choice|low_endpoint",
+        "multi_loop|short|high_choice|mid_endpoint",
+        "multi_loop|short|low_choice|high_endpoint",
+        "multi_loop|short|low_choice|low_endpoint",
+        "multi_loop|short|low_choice|mid_endpoint",
+        "multi_loop|short|mid_choice|high_endpoint",
+        "multi_loop|short|mid_choice|low_endpoint",
+        "multi_loop|short|mid_choice|mid_endpoint"
+      ],
+      "primary_bin": "multi_loop|short|high_choice|high_endpoint",
+      "cycle_target": "multi_loop",
+      "bfs_target": "short",
+      "choice_target": "high_choice",
+      "endpoint_target": "high_endpoint",
+      "quota_gap": 6,
+      "fill_ratio": 0.9508196721311475,
+      "full_evaluated_count": 178209,
+      "accepted_count": 116,
+      "scarcity_score": 1.0,
+      "priority_score": 0.0012098285685725714
+    },
+    "single_loop_long_high_choice_high_endpoint": {
+      "route_id": "single_loop_long_high_choice_high_endpoint",
+      "target_bins": [
+        "single_loop|long|high_choice|high_endpoint"
+      ],
+      "primary_bin": "single_loop|long|high_choice|high_endpoint",
+      "cycle_target": "single_loop",
+      "bfs_target": "long",
+      "choice_target": "high_choice",
+      "endpoint_target": "high_endpoint",
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 756,
+      "accepted_count": 446,
+      "scarcity_score": 1.0,
+      "priority_score": 0.0
+    },
+    "generic_single_loop_long": {
+      "route_id": "generic_single_loop_long",
+      "target_bins": [
+        "single_loop|long|low_choice|high_endpoint",
+        "single_loop|long|low_choice|low_endpoint",
+        "single_loop|long|low_choice|mid_endpoint",
+        "single_loop|long|mid_choice|high_endpoint",
+        "single_loop|long|mid_choice|mid_endpoint"
+      ],
+      "primary_bin": "single_loop|long|mid_choice|mid_endpoint",
+      "cycle_target": "single_loop",
+      "bfs_target": "long",
+      "choice_target": "mid_choice",
+      "endpoint_target": "mid_endpoint",
+      "quota_gap": 6,
+      "fill_ratio": 0.9845758354755784,
+      "full_evaluated_count": 26683,
+      "accepted_count": 383,
+      "scarcity_score": 1.0,
+      "priority_score": 0.0012011920810082136
+    },
+    "generic_single_loop_medium": {
+      "route_id": "generic_single_loop_medium",
+      "target_bins": [
+        "single_loop|medium|high_choice|high_endpoint",
+        "single_loop|medium|low_choice|high_endpoint",
+        "single_loop|medium|low_choice|low_endpoint",
+        "single_loop|medium|low_choice|mid_endpoint",
+        "single_loop|medium|mid_choice|high_endpoint",
+        "single_loop|medium|mid_choice|mid_endpoint"
+      ],
+      "primary_bin": "single_loop|medium|high_choice|high_endpoint",
+      "cycle_target": "single_loop",
+      "bfs_target": "medium",
+      "choice_target": "high_choice",
+      "endpoint_target": "high_endpoint",
+      "quota_gap": 3,
+      "fill_ratio": 0.9936170212765958,
+      "full_evaluated_count": 47786,
+      "accepted_count": 467,
+      "scarcity_score": 1.0,
+      "priority_score": 0.0005996205241307732
+    },
+    "generic_single_loop_short": {
+      "route_id": "generic_single_loop_short",
+      "target_bins": [
+        "single_loop|short|high_choice|high_endpoint",
+        "single_loop|short|low_choice|high_endpoint",
+        "single_loop|short|low_choice|low_endpoint",
+        "single_loop|short|low_choice|mid_endpoint",
+        "single_loop|short|mid_choice|high_endpoint",
+        "single_loop|short|mid_choice|mid_endpoint"
+      ],
+      "primary_bin": "single_loop|short|high_choice|high_endpoint",
+      "cycle_target": "single_loop",
+      "bfs_target": "short",
+      "choice_target": "high_choice",
+      "endpoint_target": "high_endpoint",
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 32139,
+      "accepted_count": 36,
+      "scarcity_score": 1.0,
+      "priority_score": 0.0
+    },
+    "tree_long_high_choice_high_endpoint": {
+      "route_id": "tree_long_high_choice_high_endpoint",
+      "target_bins": [
+        "tree|long|high_choice|high_endpoint"
+      ],
+      "primary_bin": "tree|long|high_choice|high_endpoint",
+      "cycle_target": "tree",
+      "bfs_target": "long",
+      "choice_target": "high_choice",
+      "endpoint_target": "high_endpoint",
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 457,
+      "accepted_count": 371,
+      "scarcity_score": 1.0,
+      "priority_score": 0.0
+    },
+    "generic_tree_long": {
+      "route_id": "generic_tree_long",
+      "target_bins": [
+        "tree|long|low_choice|high_endpoint",
+        "tree|long|mid_choice|mid_endpoint"
+      ],
+      "primary_bin": "tree|long|mid_choice|mid_endpoint",
+      "cycle_target": "tree",
+      "bfs_target": "long",
+      "choice_target": "mid_choice",
+      "endpoint_target": "mid_endpoint",
+      "quota_gap": 6,
+      "fill_ratio": 0.9612903225806452,
+      "full_evaluated_count": 23450,
+      "accepted_count": 149,
+      "scarcity_score": 1.0,
+      "priority_score": 0.0011964004720692368
+    },
+    "tree_long_low_choice_mid_endpoint": {
+      "route_id": "tree_long_low_choice_mid_endpoint",
+      "target_bins": [
+        "tree|long|low_choice|mid_endpoint"
+      ],
+      "primary_bin": "tree|long|low_choice|mid_endpoint",
+      "cycle_target": "tree",
+      "bfs_target": "long",
+      "choice_target": "low_choice",
+      "endpoint_target": "mid_endpoint",
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 50445,
+      "accepted_count": 297,
+      "scarcity_score": 1.0,
+      "priority_score": 0.0
+    },
+    "tree_long_mid_choice_high_endpoint": {
+      "route_id": "tree_long_mid_choice_high_endpoint",
+      "target_bins": [
+        "tree|long|mid_choice|high_endpoint"
+      ],
+      "primary_bin": "tree|long|mid_choice|high_endpoint",
+      "cycle_target": "tree",
+      "bfs_target": "long",
+      "choice_target": "mid_choice",
+      "endpoint_target": "high_endpoint",
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 3619,
+      "accepted_count": 446,
+      "scarcity_score": 1.0,
+      "priority_score": 0.0
+    },
+    "generic_tree_medium": {
+      "route_id": "generic_tree_medium",
+      "target_bins": [
+        "tree|medium|high_choice|high_endpoint",
+        "tree|medium|low_choice|high_endpoint",
+        "tree|medium|low_choice|mid_endpoint",
+        "tree|medium|mid_choice|high_endpoint",
+        "tree|medium|mid_choice|mid_endpoint"
+      ],
+      "primary_bin": "tree|medium|mid_choice|high_endpoint",
+      "cycle_target": "tree",
+      "bfs_target": "medium",
+      "choice_target": "mid_choice",
+      "endpoint_target": "high_endpoint",
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 31016,
+      "accepted_count": 99,
+      "scarcity_score": 1.0,
+      "priority_score": 0.0
+    },
+    "generic_tree_short": {
+      "route_id": "generic_tree_short",
+      "target_bins": [
+        "tree|short|high_choice|high_endpoint",
+        "tree|short|low_choice|high_endpoint",
+        "tree|short|low_choice|mid_endpoint",
+        "tree|short|mid_choice|high_endpoint",
+        "tree|short|mid_choice|mid_endpoint"
+      ],
+      "primary_bin": "tree|short|high_choice|high_endpoint",
+      "cycle_target": "tree",
+      "bfs_target": "short",
+      "choice_target": "high_choice",
+      "endpoint_target": "high_endpoint",
+      "quota_gap": 0,
+      "fill_ratio": 1.0,
+      "full_evaluated_count": 42569,
+      "accepted_count": 30,
+      "scarcity_score": 1.0,
+      "priority_score": 0.0
+    }
+  },
+  "route_sampling_probabilities": {
+    "multi_loop_long_high_choice_high_endpoint": 0.0,
+    "generic_multi_loop_long": 0.18187508922646176,
+    "generic_multi_loop_medium": 0.18156735402988783,
+    "generic_multi_loop_short": 0.1830563095237187,
+    "single_loop_long_high_choice_high_endpoint": 0.0,
+    "generic_single_loop_long": 0.18174954294385182,
+    "generic_single_loop_medium": 0.09072716838846334,
+    "generic_single_loop_short": 0.0,
+    "tree_long_high_choice_high_endpoint": 0.0,
+    "generic_tree_long": 0.1810245358876167,
+    "tree_long_low_choice_mid_endpoint": 0.0,
+    "tree_long_mid_choice_high_endpoint": 0.0,
+    "generic_tree_medium": 0.0,
+    "generic_tree_short": 0.0
+  },
+  "route_full_evaluated_count": {
+    "tree_long_high_choice_high_endpoint": 118885,
+    "generic_multi_loop_long": 24054,
+    "multi_loop_long_high_choice_high_endpoint": 246154,
+    "single_loop_long_high_choice_high_endpoint": 102618,
+    "generic_tree_long": 6463,
+    "tree_long_low_choice_mid_endpoint": 317,
+    "generic_multi_loop_medium": 16906,
+    "tree_long_mid_choice_high_endpoint": 9037,
+    "generic_single_loop_short": 132,
+    "generic_single_loop_medium": 10680,
+    "generic_single_loop_long": 13787,
+    "generic_multi_loop_short": 6020,
+    "generic_tree_medium": 722
+  },
+  "route_accepted_count": {
+    "tree_long_high_choice_high_endpoint": 559,
+    "generic_multi_loop_long": 369,
+    "multi_loop_long_high_choice_high_endpoint": 1987,
+    "single_loop_long_high_choice_high_endpoint": 823,
+    "generic_tree_long": 16,
+    "tree_long_low_choice_mid_endpoint": 24,
+    "generic_multi_loop_medium": 495,
+    "tree_long_mid_choice_high_endpoint": 319,
+    "generic_single_loop_short": 2,
+    "generic_single_loop_medium": 178,
+    "generic_single_loop_long": 152,
+    "generic_multi_loop_short": 35,
+    "generic_tree_medium": 8
+  }
+}

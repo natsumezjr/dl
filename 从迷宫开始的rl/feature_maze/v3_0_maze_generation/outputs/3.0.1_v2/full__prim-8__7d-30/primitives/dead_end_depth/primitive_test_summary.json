@@ -1,0 +1,109 @@
+[
+  {
+    "primitive_test_name": "dead_end_depth",
+    "primitive_role": "primary_structure",
+    "primary_metrics": [
+      "dead_end_depth_mean"
+    ],
+    "target_value": 1.0,
+    "n": 2,
+    "success_rate": 0.0,
+    "primary_hit_rate": 1.0,
+    "all_7d_hit_rate": 0.0,
+    "target_hit_rate": 1.0,
+    "mean_primary_abs_error": 0.22499999999999998,
+    "p50_primary_abs_error": 0.22499999999999998,
+    "hard_failure_count": 0,
+    "side_effect_failed_metric_counts": {
+      "reachable_free_ratio": 2,
+      "wall_ratio": 2,
+      "dead_end_ratio": 2,
+      "island_free_ratio": 2,
+      "junction_ratio": 1
+    },
+    "main_failure_reason": [
+      "reachable_free_ratio",
+      "wall_ratio",
+      "dead_end_ratio",
+      "island_free_ratio"
+    ]
+  },
+  {
+    "primitive_test_name": "dead_end_depth",
+    "primitive_role": "primary_structure",
+    "primary_metrics": [
+      "dead_end_depth_mean"
+    ],
+    "target_value": 2.0,
+    "n": 2,
+    "success_rate": 0.0,
+    "primary_hit_rate": 1.0,
+    "all_7d_hit_rate": 0.0,
+    "target_hit_rate": 1.0,
+    "mean_primary_abs_error": 0.125,
+    "p50_primary_abs_error": 0.125,
+    "hard_failure_count": 0,
+    "side_effect_failed_metric_counts": {
+      "wall_ratio": 2,
+      "junction_ratio": 2
+    },
+    "main_failure_reason": [
+      "wall_ratio",
+      "junction_ratio"
+    ]
+  },
+  {
+    "primitive_test_name": "dead_end_depth",
+    "primitive_role": "primary_structure",
+    "primary_metrics": [
+      "dead_end_depth_mean"
+    ],
+    "target_value": 3.0,
+    "n": 2,
+    "success_rate": 0.0,
+    "primary_hit_rate": 1.0,
+    "all_7d_hit_rate": 0.0,
+    "target_hit_rate": 1.0,
+    "mean_primary_abs_error": 0.125,
+    "p50_primary_abs_error": 0.125,
+    "hard_failure_count": 0,
+    "side_effect_failed_metric_counts": {
+      "wall_ratio": 2,
+      "junction_ratio": 2
+    },
+    "main_failure_reason": [
+      "wall_ratio",
+      "junction_ratio"
+    ]
+  },
+  {
+    "primitive_test_name": "dead_end_depth",
+    "primitive_role": "primary_structure",
+    "primary_metrics": [
+      "dead_end_depth_mean"
+    ],
+    "target_value": 4.0,
+    "n": 2,
+    "success_rate": 0.0,
+    "primary_hit_rate": 0.5,
+    "all_7d_hit_rate": 0.0,
+    "target_hit_rate": 0.5,
+    "mean_primary_abs_error": 0.6666666666666667,
+    "p50_primary_abs_error": 0.6666666666666667,
+    "hard_failure_count": 0,
+    "side_effect_failed_metric_counts": {
+      "reachable_free_ratio": 1,
+      "wall_ratio": 1,
+      "dead_end_ratio": 2,
+      "island_free_ratio": 1,
+      "junction_ratio": 1
+    },
+    "main_failure_reason": [
+      "reachable_free_ratio",
+      "wall_ratio",
+      "dead_end_ratio",
+      "dead_end_depth_mean",
+      "island_free_ratio"
+    ]
+  }
+]

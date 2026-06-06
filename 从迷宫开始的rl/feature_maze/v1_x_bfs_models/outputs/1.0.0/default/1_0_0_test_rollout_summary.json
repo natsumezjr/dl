@@ -1,0 +1,38 @@
+{
+  "argmax": {
+    "metrics": {
+      "strategy": "argmax",
+      "success": false,
+      "steps": 64,
+      "wall_hits": 64,
+      "bfs_len": 26,
+      "bfs_gap": null,
+      "final_pos": [
+        3,
+        2
+      ],
+      "final_bfs_dist": 26,
+      "shortest_path_success": false
+    },
+    "json": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v1_x_bfs_models\\outputs\\1.0.0\\default\\1_0_0_test_rollout_argmax_debug.json",
+    "gif": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v1_x_bfs_models\\outputs\\1.0.0\\default\\1_0_0_test_rollout_argmax.gif"
+  },
+  "bfs_tiebreak": {
+    "metrics": {
+      "strategy": "bfs_tiebreak",
+      "success": false,
+      "steps": 64,
+      "wall_hits": 64,
+      "bfs_len": 26,
+      "bfs_gap": null,
+      "final_pos": [
+        3,
+        2
+      ],
+      "final_bfs_dist": 26,
+      "shortest_path_success": false
+    },
+    "json": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v1_x_bfs_models\\outputs\\1.0.0\\default\\1_0_0_test_rollout_bfs_tiebreak_debug.json",
+    "gif": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v1_x_bfs_models\\outputs\\1.0.0\\default\\1_0_0_test_rollout_bfs_tiebreak.gif"
+  }
+}

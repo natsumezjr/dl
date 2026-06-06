@@ -9,3 +9,7 @@ venv/
 *.swp
 .DS_Store
 Thumbs.db
+
+# Large experiment outputs (exceed GitHub 100MB limit)
+**/full_evaluated_samples.jsonl
+**/injection_attempt_report.jsonl

@@ -1,0 +1,349 @@
+{
+  "hard_action_accuracy": 0.8505446623093682,
+  "best_action_accuracy": 0.865359477124183,
+  "valid_action_rate": 0.9742919389978214,
+  "wall_action_rate": 0.02570806100217865,
+  "rollout_success_rate": 0.42,
+  "shortest_path_success_rate": 0.41,
+  "avg_bfs_gap": 7.64,
+  "difficulty_breakdown": {
+    "easy": {
+      "n": 16,
+      "success_rate": 0.4375,
+      "shortest_path_success_rate": 0.4375,
+      "avg_bfs_gap": 3.625
+    },
+    "hard": {
+      "n": 46,
+      "success_rate": 0.6304347826086957,
+      "shortest_path_success_rate": 0.6304347826086957,
+      "avg_bfs_gap": 7.304347826086956
+    },
+    "medium": {
+      "n": 38,
+      "success_rate": 0.15789473684210525,
+      "shortest_path_success_rate": 0.13157894736842105,
+      "avg_bfs_gap": 9.736842105263158
+    }
+  },
+  "bfs_len_breakdown": {
+    "6": {
+      "n": 3,
+      "success_rate": 1.0,
+      "avg_bfs_gap": 0.0
+    },
+    "7": {
+      "n": 6,
+      "success_rate": 0.3333333333333333,
+      "avg_bfs_gap": 3.3333333333333335
+    },
+    "9": {
+      "n": 6,
+      "success_rate": 0.3333333333333333,
+      "avg_bfs_gap": 5.0
+    },
+    "10": {
+      "n": 1,
+      "success_rate": 0.0,
+      "avg_bfs_gap": 8.0
+    },
+    "11": {
+      "n": 18,
+      "success_rate": 0.2222222222222222,
+      "avg_bfs_gap": 8.38888888888889
+    },
+    "12": {
+      "n": 10,
+      "success_rate": 0.2,
+      "avg_bfs_gap": 7.9
+    },
+    "13": {
+      "n": 2,
+      "success_rate": 0.0,
+      "avg_bfs_gap": 12.5
+    },
+    "14": {
+      "n": 7,
+      "success_rate": 0.0,
+      "avg_bfs_gap": 14.0
+    },
+    "15": {
+      "n": 1,
+      "success_rate": 0.0,
+      "avg_bfs_gap": 17.0
+    },
+    "19": {
+      "n": 10,
+      "success_rate": 0.4,
+      "avg_bfs_gap": 11.0
+    },
+    "20": {
+      "n": 6,
+      "success_rate": 0.16666666666666666,
+      "avg_bfs_gap": 16.5
+    },
+    "21": {
+      "n": 10,
+      "success_rate": 0.5,
+      "avg_bfs_gap": 10.5
+    },
+    "22": {
+      "n": 2,
+      "success_rate": 0.5,
+      "avg_bfs_gap": 11.0
+    },
+    "23": {
+      "n": 3,
+      "success_rate": 1.0,
+      "avg_bfs_gap": 0.0
+    },
+    "24": {
+      "n": 1,
+      "success_rate": 1.0,
+      "avg_bfs_gap": 0.0
+    },
+    "25": {
+      "n": 3,
+      "success_rate": 1.0,
+      "avg_bfs_gap": 0.0
+    },
+    "26": {
+      "n": 2,
+      "success_rate": 1.0,
+      "avg_bfs_gap": 0.0
+    },
+    "27": {
+      "n": 5,
+      "success_rate": 1.0,
+      "avg_bfs_gap": 0.0
+    },
+    "29": {
+      "n": 2,
+      "success_rate": 1.0,
+      "avg_bfs_gap": 0.0
+    },
+    "31": {
+      "n": 1,
+      "success_rate": 1.0,
+      "avg_bfs_gap": 0.0
+    },
+    "32": {
+      "n": 1,
+      "success_rate": 1.0,
+      "avg_bfs_gap": 0.0
+    }
+  },
+  "failure_type_breakdown": {
+    "success": 42,
+    "wall_timeout": 30,
+    "loop_timeout": 18,
+    "away_timeout": 10
+  },
+  "dataset_val": {
+    "hard_action_accuracy": 0.8505446623093682,
+    "best_action_accuracy": 0.865359477124183,
+    "valid_action_rate": 0.9742919389978214,
+    "wall_action_rate": 0.02570806100217865,
+    "n_samples": 2295
+  },
+  "rollout": {
+    "rollout_success_rate": 0.42,
+    "shortest_path_success_rate": 0.41,
+    "avg_bfs_gap": 7.64,
+    "avg_wall_hits": 24.86,
+    "avg_steps": 45.31,
+    "difficulty_breakdown": {
+      "easy": {
+        "n": 16,
+        "success_rate": 0.4375,
+        "shortest_path_success_rate": 0.4375,
+        "avg_bfs_gap": 3.625
+      },
+      "hard": {
+        "n": 46,
+        "success_rate": 0.6304347826086957,
+        "shortest_path_success_rate": 0.6304347826086957,
+        "avg_bfs_gap": 7.304347826086956
+      },
+      "medium": {
+        "n": 38,
+        "success_rate": 0.15789473684210525,
+        "shortest_path_success_rate": 0.13157894736842105,
+        "avg_bfs_gap": 9.736842105263158
+      }
+    },
+    "bfs_len_breakdown": {
+      "6": {
+        "n": 3,
+        "success_rate": 1.0,
+        "avg_bfs_gap": 0.0
+      },
+      "7": {
+        "n": 6,
+        "success_rate": 0.3333333333333333,
+        "avg_bfs_gap": 3.3333333333333335
+      },
+      "9": {
+        "n": 6,
+        "success_rate": 0.3333333333333333,
+        "avg_bfs_gap": 5.0
+      },
+      "10": {
+        "n": 1,
+        "success_rate": 0.0,
+        "avg_bfs_gap": 8.0
+      },
+      "11": {
+        "n": 18,
+        "success_rate": 0.2222222222222222,
+        "avg_bfs_gap": 8.38888888888889
+      },
+      "12": {
+        "n": 10,
+        "success_rate": 0.2,
+        "avg_bfs_gap": 7.9
+      },
+      "13": {
+        "n": 2,
+        "success_rate": 0.0,
+        "avg_bfs_gap": 12.5
+      },
+      "14": {
+        "n": 7,
+        "success_rate": 0.0,
+        "avg_bfs_gap": 14.0
+      },
+      "15": {
+        "n": 1,
+        "success_rate": 0.0,
+        "avg_bfs_gap": 17.0
+      },
+      "19": {
+        "n": 10,
+        "success_rate": 0.4,
+        "avg_bfs_gap": 11.0
+      },
+      "20": {
+        "n": 6,
+        "success_rate": 0.16666666666666666,
+        "avg_bfs_gap": 16.5
+      },
+      "21": {
+        "n": 10,
+        "success_rate": 0.5,
+        "avg_bfs_gap": 10.5
+      },
+      "22": {
+        "n": 2,
+        "success_rate": 0.5,
+        "avg_bfs_gap": 11.0
+      },
+      "23": {
+        "n": 3,
+        "success_rate": 1.0,
+        "avg_bfs_gap": 0.0
+      },
+      "24": {
+        "n": 1,
+        "success_rate": 1.0,
+        "avg_bfs_gap": 0.0
+      },
+      "25": {
+        "n": 3,
+        "success_rate": 1.0,
+        "avg_bfs_gap": 0.0
+      },
+      "26": {
+        "n": 2,
+        "success_rate": 1.0,
+        "avg_bfs_gap": 0.0
+      },
+      "27": {
+        "n": 5,
+        "success_rate": 1.0,
+        "avg_bfs_gap": 0.0
+      },
+      "29": {
+        "n": 2,
+        "success_rate": 1.0,
+        "avg_bfs_gap": 0.0
+      },
+      "31": {
+        "n": 1,
+        "success_rate": 1.0,
+        "avg_bfs_gap": 0.0
+      },
+      "32": {
+        "n": 1,
+        "success_rate": 1.0,
+        "avg_bfs_gap": 0.0
+      }
+    },
+    "failure_type_breakdown": {
+      "success": 42,
+      "wall_timeout": 30,
+      "loop_timeout": 18,
+      "away_timeout": 10
+    }
+  },
+  "maze_generation": {
+    "easy": {
+      "difficulty": "easy",
+      "target_ratio": 0.2,
+      "actual_ratio": 0.218,
+      "n": 218,
+      "bfs_len_min": 6,
+      "bfs_len_p50": 7.0,
+      "bfs_len_max": 10,
+      "bfs_len_mean": 7.495412844036697,
+      "retry_mean": 2.4403669724770642,
+      "retry_min": 1,
+      "retry_p50": 2.0,
+      "retry_max": 18
+    },
+    "medium": {
+      "difficulty": "medium",
+      "target_ratio": 0.4,
+      "actual_ratio": 0.388,
+      "n": 388,
+      "bfs_len_min": 11,
+      "bfs_len_p50": 12.0,
+      "bfs_len_max": 18,
+      "bfs_len_mean": 12.255154639175258,
+      "retry_mean": 14.765463917525773,
+      "retry_min": 1,
+      "retry_p50": 10.0,
+      "retry_max": 114
+    },
+    "hard": {
+      "difficulty": "hard",
+      "target_ratio": 0.4,
+      "actual_ratio": 0.394,
+      "n": 394,
+      "bfs_len_min": 19,
+      "bfs_len_p50": 21.0,
+      "bfs_len_max": 35,
+      "bfs_len_mean": 22.626903553299492,
+      "retry_mean": 386.8578680203046,
+      "retry_min": 1,
+      "retry_p50": 500.0,
+      "retry_max": 500
+    },
+    "overall": {
+      "difficulty": "overall",
+      "target_ratio": 1.0,
+      "actual_ratio": 1.0,
+      "n": 1000,
+      "bfs_len_min": 6,
+      "bfs_len_p50": 13.0,
+      "bfs_len_max": 35,
+      "bfs_len_mean": 15.304,
+      "retry_mean": 158.683,
+      "retry_min": 1,
+      "retry_p50": 19.0,
+      "retry_max": 500,
+      "target_actual_mismatch": 0,
+      "target_actual_mismatch_rate": 0.0
+    }
+  }
+}

@@ -1,0 +1,433 @@
+{
+  "stop_reason": "handdraw_quota_met",
+  "seed_count_to_target": 158791,
+  "elapsed_seconds_to_target": 2085.6298537254333,
+  "target_fill_ratio": 0.9934,
+  "coverage_nonzero_target_bins": 0.9166666666666666,
+  "observed_handdraw_bin_fill_rate": 1.0,
+  "l1_distance_to_target_distribution": 0.014233944030602031,
+  "critical_bin_counts": {
+    "tree|long|high_choice|high_endpoint": 371,
+    "tree|long|mid_choice|high_endpoint": 446,
+    "single_loop|long|high_choice|high_endpoint": 446,
+    "multi_loop|long|high_choice|high_endpoint": 446,
+    "tree|long|low_choice|mid_endpoint": 297
+  },
+  "critical_bins_nonzero": true,
+  "full_extraction_error_count": 0,
+  "quality_threshold_status": {
+    "quality_threshold_met": true,
+    "target_fill_ratio": 0.9934,
+    "coverage_nonzero_target_bins": 0.9166666666666666,
+    "observed_handdraw_bin_fill_rate": 1.0,
+    "l1_distance_to_target_distribution": 0.014233944030602031,
+    "critical_bins_nonzero": true,
+    "full_extraction_error_count": 0
+  },
+  "hard_quota_status": {
+    "quota_scope": "handdraw_observed",
+    "requested_quota_scope": "handdraw_observed",
+    "quota_sum_required": 4754,
+    "confirmed_in_scope": 4754,
+    "hard_quota_fill_ratio": 1.0,
+    "remaining_quota_total": 0,
+    "remaining_bin_count": 0,
+    "hard_quota_met": true,
+    "quota_met": true,
+    "remaining_bins": []
+  },
+  "worst5_bins": [],
+  "candidate_count_to_target": null,
+  "hard_quality_pass_count_to_target": null,
+  "full_evaluated_count_to_target": 555775,
+  "confirmed_count_to_target": 4967,
+  "critical_bin_full_eval_at_stop": {
+    "tree|long|high_choice|high_endpoint": 457,
+    "tree|long|mid_choice|high_endpoint": 3619,
+    "single_loop|long|high_choice|high_endpoint": 756,
+    "multi_loop|long|high_choice|high_endpoint": 551,
+    "tree|long|low_choice|mid_endpoint": 50445
+  },
+  "critical_bin_fill_at_stop": {
+    "tree|long|high_choice|high_endpoint": 1.0,
+    "tree|long|mid_choice|high_endpoint": 1.0,
+    "single_loop|long|high_choice|high_endpoint": 1.0,
+    "multi_loop|long|high_choice|high_endpoint": 1.0,
+    "tree|long|low_choice|mid_endpoint": 1.0
+  },
+  "thresholds": {
+    "target_fill_ratio_threshold": 0.85,
+    "coverage_nonzero_target_bins_threshold": 0.9,
+    "observed_handdraw_bin_fill_rate_threshold": 1.0,
+    "l1_distance_threshold": 0.3,
+    "require_critical_bins_nonzero": true,
+    "require_full_extraction_error_zero": true
+  },
+  "handdraw_quota_status": {
+    "quota_scope": "handdraw_observed",
+    "requested_quota_scope": "handdraw_observed",
+    "quota_sum_required": 4754,
+    "confirmed_in_scope": 4754,
+    "hard_quota_fill_ratio": 1.0,
+    "remaining_quota_total": 0,
+    "remaining_bin_count": 0,
+    "hard_quota_met": true,
+    "quota_met": true,
+    "remaining_bins": []
+  },
+  "exploration_quota_status": {
+    "quota_scope": "unobserved_possible",
+    "requested_quota_scope": "unobserved_possible",
+    "quota_sum_required": 246,
+    "confirmed_in_scope": 213,
+    "hard_quota_fill_ratio": 0.8658536585365854,
+    "remaining_quota_total": 33,
+    "remaining_bin_count": 6,
+    "hard_quota_met": false,
+    "quota_met": false,
+    "remaining_bins": [
+      {
+        "bin_key": "multi_loop|long|low_choice|high_endpoint",
+        "status": "unobserved_possible",
+        "quota": 6,
+        "count": 0,
+        "remaining": 6,
+        "fill_ratio": 0.0,
+        "full_evaluated_count": 0,
+        "is_critical": false
+      },
+      {
+        "bin_key": "multi_loop|medium|low_choice|high_endpoint",
+        "status": "unobserved_possible",
+        "quota": 6,
+        "count": 0,
+        "remaining": 6,
+        "fill_ratio": 0.0,
+        "full_evaluated_count": 0,
+        "is_critical": false
+      },
+      {
+        "bin_key": "multi_loop|short|low_choice|high_endpoint",
+        "status": "unobserved_possible",
+        "quota": 6,
+        "count": 0,
+        "remaining": 6,
+        "fill_ratio": 0.0,
+        "full_evaluated_count": 0,
+        "is_critical": false
+      },
+      {
+        "bin_key": "single_loop|long|low_choice|high_endpoint",
+        "status": "unobserved_possible",
+        "quota": 6,
+        "count": 0,
+        "remaining": 6,
+        "fill_ratio": 0.0,
+        "full_evaluated_count": 0,
+        "is_critical": false
+      },
+      {
+        "bin_key": "tree|long|low_choice|high_endpoint",
+        "status": "unobserved_possible",
+        "quota": 6,
+        "count": 0,
+        "remaining": 6,
+        "fill_ratio": 0.0,
+        "full_evaluated_count": 0,
+        "is_critical": false
+      },
+      {
+        "bin_key": "single_loop|medium|low_choice|high_endpoint",
+        "status": "unobserved_possible",
+        "quota": 6,
+        "count": 3,
+        "remaining": 3,
+        "fill_ratio": 0.5,
+        "full_evaluated_count": 3,
+        "is_critical": false
+      }
+    ]
+  },
+  "all_nonzero_quota_status": {
+    "quota_scope": "all_nonzero",
+    "requested_quota_scope": "all_nonzero",
+    "quota_sum_required": 5000,
+    "confirmed_in_scope": 4967,
+    "hard_quota_fill_ratio": 0.9934,
+    "remaining_quota_total": 33,
+    "remaining_bin_count": 6,
+    "hard_quota_met": false,
+    "quota_met": false,
+    "remaining_bins": [
+      {
+        "bin_key": "multi_loop|long|low_choice|high_endpoint",
+        "status": "unobserved_possible",
+        "quota": 6,
+        "count": 0,
+        "remaining": 6,
+        "fill_ratio": 0.0,
+        "full_evaluated_count": 0,
+        "is_critical": false
+      },
+      {
+        "bin_key": "multi_loop|medium|low_choice|high_endpoint",
+        "status": "unobserved_possible",
+        "quota": 6,
+        "count": 0,
+        "remaining": 6,
+        "fill_ratio": 0.0,
+        "full_evaluated_count": 0,
+        "is_critical": false
+      },
+      {
+        "bin_key": "multi_loop|short|low_choice|high_endpoint",
+        "status": "unobserved_possible",
+        "quota": 6,
+        "count": 0,
+        "remaining": 6,
+        "fill_ratio": 0.0,
+        "full_evaluated_count": 0,
+        "is_critical": false
+      },
+      {
+        "bin_key": "single_loop|long|low_choice|high_endpoint",
+        "status": "unobserved_possible",
+        "quota": 6,
+        "count": 0,
+        "remaining": 6,
+        "fill_ratio": 0.0,
+        "full_evaluated_count": 0,
+        "is_critical": false
+      },
+      {
+        "bin_key": "tree|long|low_choice|high_endpoint",
+        "status": "unobserved_possible",
+        "quota": 6,
+        "count": 0,
+        "remaining": 6,
+        "fill_ratio": 0.0,
+        "full_evaluated_count": 0,
+        "is_critical": false
+      },
+      {
+        "bin_key": "single_loop|medium|low_choice|high_endpoint",
+        "status": "unobserved_possible",
+        "quota": 6,
+        "count": 3,
+        "remaining": 3,
+        "fill_ratio": 0.5,
+        "full_evaluated_count": 3,
+        "is_critical": false
+      }
+    ]
+  },
+  "closure_status": {
+    "ready_for_3_0_4_closure": true,
+    "conditions": {
+      "handdraw_quota_met": true,
+      "observed_handdraw_bin_fill_rate_full": true,
+      "critical_long_bins_full": true,
+      "l1_distance_within_threshold": true,
+      "full_extraction_error_zero": true,
+      "structural_confirmed_zero": true,
+      "topology_style_concentration_zero": true
+    },
+    "unmet_conditions": [],
+    "closure_l1_threshold": 0.05,
+    "observed_handdraw_bin_fill_rate": 1.0,
+    "l1_distance_to_target_distribution": 0.014233944030602031,
+    "critical_long_bins": {
+      "tree|long|high_choice|high_endpoint": {
+        "target_quota": 371,
+        "confirmed_count": 371,
+        "full": true
+      },
+      "tree|long|mid_choice|high_endpoint": {
+        "target_quota": 446,
+        "confirmed_count": 446,
+        "full": true
+      },
+      "single_loop|long|high_choice|high_endpoint": {
+        "target_quota": 446,
+        "confirmed_count": 446,
+        "full": true
+      },
+      "multi_loop|long|high_choice|high_endpoint": {
+        "target_quota": 446,
+        "confirmed_count": 446,
+        "full": true
+      },
+      "tree|long|low_choice|mid_endpoint": {
+        "target_quota": 297,
+        "confirmed_count": 297,
+        "full": true
+      }
+    },
+    "critical_long_bins_full": true,
+    "topology_style_concentration_count": 0,
+    "full_extraction_error_count": 0,
+    "structural_confirmed_count": 0,
+    "handdraw_quota_status": {
+      "quota_scope": "handdraw_observed",
+      "requested_quota_scope": "handdraw_observed",
+      "quota_sum_required": 4754,
+      "confirmed_in_scope": 4754,
+      "hard_quota_fill_ratio": 1.0,
+      "remaining_quota_total": 0,
+      "remaining_bin_count": 0,
+      "hard_quota_met": true,
+      "quota_met": true,
+      "remaining_bins": []
+    },
+    "exploration_quota_status": {
+      "quota_scope": "unobserved_possible",
+      "requested_quota_scope": "unobserved_possible",
+      "quota_sum_required": 246,
+      "confirmed_in_scope": 213,
+      "hard_quota_fill_ratio": 0.8658536585365854,
+      "remaining_quota_total": 33,
+      "remaining_bin_count": 6,
+      "hard_quota_met": false,
+      "quota_met": false,
+      "remaining_bins": [
+        {
+          "bin_key": "multi_loop|long|low_choice|high_endpoint",
+          "status": "unobserved_possible",
+          "quota": 6,
+          "count": 0,
+          "remaining": 6,
+          "fill_ratio": 0.0,
+          "full_evaluated_count": 0,
+          "is_critical": false
+        },
+        {
+          "bin_key": "multi_loop|medium|low_choice|high_endpoint",
+          "status": "unobserved_possible",
+          "quota": 6,
+          "count": 0,
+          "remaining": 6,
+          "fill_ratio": 0.0,
+          "full_evaluated_count": 0,
+          "is_critical": false
+        },
+        {
+          "bin_key": "multi_loop|short|low_choice|high_endpoint",
+          "status": "unobserved_possible",
+          "quota": 6,
+          "count": 0,
+          "remaining": 6,
+          "fill_ratio": 0.0,
+          "full_evaluated_count": 0,
+          "is_critical": false
+        },
+        {
+          "bin_key": "single_loop|long|low_choice|high_endpoint",
+          "status": "unobserved_possible",
+          "quota": 6,
+          "count": 0,
+          "remaining": 6,
+          "fill_ratio": 0.0,
+          "full_evaluated_count": 0,
+          "is_critical": false
+        },
+        {
+          "bin_key": "tree|long|low_choice|high_endpoint",
+          "status": "unobserved_possible",
+          "quota": 6,
+          "count": 0,
+          "remaining": 6,
+          "fill_ratio": 0.0,
+          "full_evaluated_count": 0,
+          "is_critical": false
+        },
+        {
+          "bin_key": "single_loop|medium|low_choice|high_endpoint",
+          "status": "unobserved_possible",
+          "quota": 6,
+          "count": 3,
+          "remaining": 3,
+          "fill_ratio": 0.5,
+          "full_evaluated_count": 3,
+          "is_critical": false
+        }
+      ]
+    },
+    "all_nonzero_quota_status": {
+      "quota_scope": "all_nonzero",
+      "requested_quota_scope": "all_nonzero",
+      "quota_sum_required": 5000,
+      "confirmed_in_scope": 4967,
+      "hard_quota_fill_ratio": 0.9934,
+      "remaining_quota_total": 33,
+      "remaining_bin_count": 6,
+      "hard_quota_met": false,
+      "quota_met": false,
+      "remaining_bins": [
+        {
+          "bin_key": "multi_loop|long|low_choice|high_endpoint",
+          "status": "unobserved_possible",
+          "quota": 6,
+          "count": 0,
+          "remaining": 6,
+          "fill_ratio": 0.0,
+          "full_evaluated_count": 0,
+          "is_critical": false
+        },
+        {
+          "bin_key": "multi_loop|medium|low_choice|high_endpoint",
+          "status": "unobserved_possible",
+          "quota": 6,
+          "count": 0,
+          "remaining": 6,
+          "fill_ratio": 0.0,
+          "full_evaluated_count": 0,
+          "is_critical": false
+        },
+        {
+          "bin_key": "multi_loop|short|low_choice|high_endpoint",
+          "status": "unobserved_possible",
+          "quota": 6,
+          "count": 0,
+          "remaining": 6,
+          "fill_ratio": 0.0,
+          "full_evaluated_count": 0,
+          "is_critical": false
+        },
+        {
+          "bin_key": "single_loop|long|low_choice|high_endpoint",
+          "status": "unobserved_possible",
+          "quota": 6,
+          "count": 0,
+          "remaining": 6,
+          "fill_ratio": 0.0,
+          "full_evaluated_count": 0,
+          "is_critical": false
+        },
+        {
+          "bin_key": "tree|long|low_choice|high_endpoint",
+          "status": "unobserved_possible",
+          "quota": 6,
+          "count": 0,
+          "remaining": 6,
+          "fill_ratio": 0.0,
+          "full_evaluated_count": 0,
+          "is_critical": false
+        },
+        {
+          "bin_key": "single_loop|medium|low_choice|high_endpoint",
+          "status": "unobserved_possible",
+          "quota": 6,
+          "count": 3,
+          "remaining": 3,
+          "fill_ratio": 0.5,
+          "full_evaluated_count": 3,
+          "is_critical": false
+        }
+      ]
+    },
+    "info": [
+      "handdraw distribution completed; remaining bins are exploration-only"
+    ]
+  },
+  "ready_for_3_0_4_closure": true
+}

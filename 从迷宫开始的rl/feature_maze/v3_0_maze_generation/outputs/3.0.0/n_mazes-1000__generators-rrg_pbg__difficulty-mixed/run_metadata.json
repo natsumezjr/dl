@@ -1,0 +1,17 @@
+{
+  "version": "3.0.0",
+  "experiment_name": "maze_distribution_test",
+  "started_at_utc": "2026-06-01T11:49:57.378887+00:00",
+  "script_path": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v3_0_maze_generation\\experiments\\run_3_0_0_maze_distribution_test.py",
+  "output_dir": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v3_0_maze_generation\\outputs\\3.0.0\\n_mazes-1000__generators-rrg_pbg__difficulty-mixed",
+  "assumptions": [
+    "MazeQuantizer degree stats use reachable free cells from start.",
+    "reachable_free_ratio denominator is all free cells in grid.",
+    "solution_path_selection uses one deterministic BFS shortest path.",
+    "RRG fallback types: corridor, corridor_closest.",
+    "PBG blocks cells on current shortest path; reverts on unreachable or too-long.",
+    "mixed difficulty uses difficulty_easy/medium/hard proportions."
+  ],
+  "finished_at_utc": "2026-06-01T11:50:07.038632+00:00",
+  "n_maze_records": 2000
+}

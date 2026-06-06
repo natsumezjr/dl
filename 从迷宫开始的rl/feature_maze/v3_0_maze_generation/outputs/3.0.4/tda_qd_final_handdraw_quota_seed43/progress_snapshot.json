@@ -1,0 +1,57 @@
+{
+  "seed_count": 158700,
+  "confirmed_total": 4966,
+  "quota_sum": 5000,
+  "hard_quota_status": {
+    "quota_scope": "handdraw_observed",
+    "requested_quota_scope": "handdraw_observed",
+    "quota_sum_required": 4754,
+    "confirmed_in_scope": 4753,
+    "hard_quota_fill_ratio": 0.9997896508203618,
+    "remaining_quota_total": 1,
+    "remaining_bin_count": 1,
+    "hard_quota_met": false,
+    "quota_met": false,
+    "remaining_bins": [
+      {
+        "bin_key": "multi_loop|long|high_choice|high_endpoint",
+        "status": "handdraw_observed",
+        "quota": 446,
+        "count": 445,
+        "remaining": 1,
+        "fill_ratio": 0.9977578475336323,
+        "full_evaluated_count": 548,
+        "is_critical": true
+      }
+    ]
+  },
+  "quality_threshold_status": {
+    "quality_threshold_met": true,
+    "target_fill_ratio": 0.9932,
+    "coverage_nonzero_target_bins": 0.9166666666666666,
+    "observed_handdraw_bin_fill_rate": 1.0,
+    "l1_distance_to_target_distribution": 0.014216673378977076,
+    "critical_bins_nonzero": true,
+    "full_extraction_error_count": 0
+  },
+  "critical_bins": {
+    "tree|long|high_choice|high_endpoint": 371,
+    "tree|long|mid_choice|high_endpoint": 446,
+    "single_loop|long|high_choice|high_endpoint": 446,
+    "multi_loop|long|high_choice|high_endpoint": 445,
+    "tree|long|low_choice|mid_endpoint": 297
+  },
+  "worst5_bins": [
+    {
+      "bin_key": "multi_loop|long|high_choice|high_endpoint",
+      "status": "handdraw_observed",
+      "quota": 446,
+      "count": 445,
+      "remaining": 1,
+      "fill_ratio": 0.9977578475336323,
+      "full_evaluated_count": 548,
+      "score": 0.9984304932735426
+    }
+  ],
+  "elapsed_seconds": 2084.6080646514893
+}

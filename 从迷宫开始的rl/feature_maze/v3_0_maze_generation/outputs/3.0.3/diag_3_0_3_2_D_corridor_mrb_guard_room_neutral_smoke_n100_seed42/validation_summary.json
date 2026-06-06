@@ -1,0 +1,152 @@
+{
+  "version": "3.0.3_2_corridor_reservation_mrb_guard",
+  "profile": "room_neutral",
+  "n_requested": 100,
+  "n_success": 4,
+  "success_rate": 0.04,
+  "hard_failure_count": 96,
+  "top_failure_codes": [
+    [
+      "corridor_reservation_failed",
+      54
+    ],
+    [
+      "restricted_dfs_failed",
+      32
+    ],
+    [
+      "room_changed_structural_topology",
+      10
+    ]
+  ],
+  "failure_by_layer": {
+    "Grid Embedding": 86,
+    "Strict Validation": 10
+  },
+  "failure_by_code": {
+    "corridor_reservation_failed": 54,
+    "restricted_dfs_failed": 32,
+    "room_changed_structural_topology": 10
+  },
+  "layered_success": {
+    "generation_success_count": 100,
+    "embedding_success_count": 14,
+    "extraction_success_count": 14,
+    "strict_plan_match_success_count": 4,
+    "strict_plan_match_success_rate": 0.04
+  },
+  "attempted_summary": {
+    "attempted_plan_contract_count": 100,
+    "attempted_topology_generated_count": 100,
+    "attempted_D_range_bound_count": 100,
+    "attempted_layout_count": 100,
+    "attempted_routing_count": 100,
+    "attempted_extraction_count": 14,
+    "choice_node_count_mean": 3.0,
+    "endpoint_node_count_mean": 3.0,
+    "cycle_rank_mean": 1.0,
+    "derived_E_mean": 6.0
+  },
+  "success_summary": {
+    "strict_success_count": 4,
+    "choice_node_count_mean": 3.0,
+    "endpoint_node_count_mean": 3.0,
+    "cycle_rank_mean": 1.0,
+    "derived_E_mean": 6.0
+  },
+  "topology": {
+    "choice_node_count_mean": 3.0,
+    "choice_node_count_p50": 3.0,
+    "endpoint_node_count_mean": 3.0,
+    "endpoint_node_count_p50": 3.0,
+    "cycle_rank_mean": 1.0,
+    "cycle_rank_p50": 1.0,
+    "derived_E_mean": 6.0,
+    "parallel_edge_count_mean": 0.0
+  },
+  "terminal_semantics": {
+    "terminal_choice_count": 0.0,
+    "terminal_endpoint_count": 8.0,
+    "effective_choice_count_mean": 3.0
+  },
+  "main_route_bundle": {
+    "preliminary_main_bundle_edge_count_mean": 3.0,
+    "weighted_main_bundle_edge_count_mean": 3.0,
+    "main_bundle_changed_after_L_assignment_count": 0
+  },
+  "edge_roles": {
+    "main_edge_count_mean": 3.0,
+    "substitute_level1_count_mean": 2.0,
+    "substitute_level2plus_count_mean": 0.0,
+    "endpoint_branch_count_mean": 1.0
+  },
+  "D_range_binding": {
+    "queue_insufficient_count": 0,
+    "unused_warning_count": 4,
+    "D_actual_out_of_range_count": 0
+  },
+  "path_complexity": {
+    "C_length_mean": 5.349808989575398,
+    "C_length_p50": 5.80812109952822,
+    "C_excess_mean": 1.8391947569406657,
+    "C_excess_p50": 2.0,
+    "C_path_mean": 7.1890037465160646,
+    "C_path_p50": 7.304349564797684,
+    "target_hit_rate": 1.0,
+    "base_exceeds_target_count": 0,
+    "target_unreachable_count": 0
+  },
+  "embedding": {
+    "relative_layout_success_rate": 1.0,
+    "routing_success_rate": 1.0,
+    "non_planned_intersection_count": 0,
+    "non_edge_touch_count": 0
+  },
+  "room": {
+    "room_policy": "room_neutral",
+    "room_component_count_mean": 0.25,
+    "room_component_count_p50": 0.0,
+    "room_policy_failure_count": 10
+  },
+  "island": {
+    "target_k_mean": 0.0,
+    "target_k_p50": 0.0,
+    "actual_k_mean": 0.0,
+    "actual_k_p50": 0.0,
+    "island_match_rate": 1.0
+  },
+  "strict_validation": {
+    "strict_topology_mismatch_count": 10,
+    "choice_count_mismatch_count": 10,
+    "endpoint_count_mismatch_count": 9,
+    "edge_count_mismatch_count": 10,
+    "cycle_rank_mismatch_count": 10,
+    "room_changed_structural_topology_count": 10
+  },
+  "corridor_reservation": {
+    "attempted": 68,
+    "success": 14,
+    "failed": 54,
+    "avg_candidate_count": 14.785714285714286,
+    "avg_global_conflict_score": 0.14285714285714285
+  },
+  "routing": {
+    "skeleton_exact_success": 83,
+    "restricted_dfs_attempted": 33,
+    "restricted_dfs_success": 1,
+    "restricted_dfs_failed": 32
+  },
+  "mrb_guard": {
+    "enabled": true,
+    "mode": "strict_mrb_preserve",
+    "guard_invoked": 14,
+    "guard_adjusted_edges": 28,
+    "guard_failed": 0,
+    "weighted_MRB_added_edges": 28,
+    "weighted_MRB_removed_edges": 2,
+    "forced_above_target": 13
+  },
+  "profile_adjustments": {
+    "pure_topology": "Spec example c=3,t=3,mu=0 is infeasible under 2*mu+t>=c+2; MVP smoke uses smaller feasible c=2,t=4,mu=0 to test plan-preserving embedding."
+  }
+}

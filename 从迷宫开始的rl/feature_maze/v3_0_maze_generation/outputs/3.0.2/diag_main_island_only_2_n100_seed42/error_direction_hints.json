@@ -1,0 +1,34 @@
+[
+  {
+    "hint": "Effective plan does not match extracted graph.",
+    "likely_direction": [
+      "Accepted edges are not being extracted as intended.",
+      "Graph delta validation is incomplete."
+    ],
+    "suggested_next_json": [
+      "planned_edge_paths.json",
+      "graph_delta_debug.json",
+      "plan_vs_extracted_pairs.json",
+      "maze_overlay_samples/"
+    ],
+    "suggested_config_fields": [
+      "add_edge expected graph delta check",
+      "edge classification rules"
+    ]
+  },
+  {
+    "hint": "Island accepted but not extracted as island.",
+    "likely_direction": [
+      "Accepted island condition is too weak or island touches main structure."
+    ],
+    "suggested_next_json": [
+      "planned_edge_paths.json",
+      "graph_delta_debug.json",
+      "extracted_decision_graphs.json"
+    ],
+    "suggested_config_fields": [
+      "island accepted condition",
+      "island extraction component logic"
+    ]
+  }
+]

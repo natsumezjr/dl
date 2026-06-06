@@ -1,0 +1,18 @@
+{
+  "main_path_fail_reason_counts": {
+    "main_path_no_goal_candidate": 27
+  },
+  "edge_reject_reason_counts": {
+    "alternative_coplanned_shortest_path_changed_goal": 974,
+    "alternative_coplanned_hits_unrelated_free_cell": 2531,
+    "alternative_coplanned_edge_self_intersection": 660,
+    "dead_edge_hits_unrelated_free_cell": 1127,
+    "dead_edge_touches_unrelated_free_cell": 544,
+    "dead_edge_edge_self_intersection": 51,
+    "dead_edge_no_candidate": 15,
+    "dead_edge_tip_not_endpoint": 9
+  },
+  "anchor_reject_reason_counts": {},
+  "dead_edge_attempt_count": 1846,
+  "alternative_edge_attempt_count": 100
+}

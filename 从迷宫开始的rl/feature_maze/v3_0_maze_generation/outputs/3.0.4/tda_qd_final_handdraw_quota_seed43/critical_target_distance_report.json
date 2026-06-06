@@ -1,0 +1,27 @@
+{
+  "tree|long|high_choice|high_endpoint": {
+    "best_distance_seen": null,
+    "full_evaluated_count": 457,
+    "accepted_count": 371
+  },
+  "tree|long|mid_choice|high_endpoint": {
+    "best_distance_seen": null,
+    "full_evaluated_count": 3619,
+    "accepted_count": 446
+  },
+  "single_loop|long|high_choice|high_endpoint": {
+    "best_distance_seen": null,
+    "full_evaluated_count": 756,
+    "accepted_count": 446
+  },
+  "multi_loop|long|high_choice|high_endpoint": {
+    "best_distance_seen": null,
+    "full_evaluated_count": 551,
+    "accepted_count": 446
+  },
+  "tree|long|low_choice|mid_endpoint": {
+    "best_distance_seen": null,
+    "full_evaluated_count": 50445,
+    "accepted_count": 297
+  }
+}

@@ -1,0 +1,63 @@
+[
+  {
+    "hint": "anchor geometry mismatch detected.",
+    "likely_direction": [
+      "Room representative anchor differs from actual edge exit cell.",
+      "This is acceptable only if core metrics use D_path."
+    ],
+    "suggested_next_json": [
+      "edge_geometry_debug.json",
+      "debug_extraction_report.json"
+    ],
+    "suggested_config_fields": [
+      "room_detection.use_2x2_free_block",
+      "room_detection.room_min_component_size"
+    ]
+  },
+  {
+    "hint": "Effective plan matches, but sampled plan does not.",
+    "likely_direction": [
+      "Generation is best-effort.",
+      "Planned edges are too hard to embed, especially alternative edges."
+    ],
+    "suggested_next_json": [
+      "planned_edge_paths.json",
+      "edge_embedding_debug.json"
+    ],
+    "suggested_config_fields": [
+      "graph_plan_distribution.graph_budget.max",
+      "alternative_edge.extra_L.min/max",
+      "alternative_edge.anchor_main_interval_min/max"
+    ]
+  },
+  {
+    "hint": "main_route_total_L does not match planned main_L.",
+    "likely_direction": [
+      "Main route extraction is wrong, or later edges changed the shortest path."
+    ],
+    "suggested_next_json": [
+      "extracted_decision_graphs.json",
+      "planned_edge_paths.json",
+      "graph_delta_debug.json"
+    ],
+    "suggested_config_fields": [
+      "canonical path extraction",
+      "shortest path constraint after adding edge"
+    ]
+  },
+  {
+    "hint": "Island accepted but not extracted as island.",
+    "likely_direction": [
+      "Accepted island condition is too weak or island touches main structure."
+    ],
+    "suggested_next_json": [
+      "planned_edge_paths.json",
+      "graph_delta_debug.json",
+      "extracted_decision_graphs.json"
+    ],
+    "suggested_config_fields": [
+      "island accepted condition",
+      "island extraction component logic"
+    ]
+  }
+]

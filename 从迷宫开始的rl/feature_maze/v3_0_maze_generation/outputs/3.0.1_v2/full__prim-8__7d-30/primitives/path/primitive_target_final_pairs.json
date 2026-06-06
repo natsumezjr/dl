@@ -1,0 +1,813 @@
+[
+  {
+    "maze_id": "prim_path_00000",
+    "target": {
+      "L_BFS": 10.0,
+      "detour_ratio": 1.3,
+      "wall_ratio": 0.3,
+      "dead_end_ratio": 0.1,
+      "dead_end_depth_mean": 2.0,
+      "junction_ratio": 0.55,
+      "island_free_ratio": 0.03
+    },
+    "final": {
+      "L_BFS": 10,
+      "detour_ratio": 1.25,
+      "wall_ratio": 0.546875,
+      "dead_end_ratio": 0.10344827586206896,
+      "dead_end_depth_mean": 1.6666666666666667,
+      "junction_ratio": 0.5172413793103449,
+      "island_free_ratio": 0.0
+    },
+    "abs_errors": {
+      "L_BFS": 0.0,
+      "detour_ratio": 0.050000000000000044,
+      "wall_ratio": 0.246875,
+      "dead_end_ratio": 0.0034482758620689585,
+      "dead_end_depth_mean": 0.33333333333333326,
+      "junction_ratio": 0.03275862068965518,
+      "island_free_ratio": 0.03
+    },
+    "normalized_errors": {
+      "L_BFS": 0.0,
+      "detour_ratio": 0.2500000000000002,
+      "wall_ratio": 7.9,
+      "dead_end_ratio": 0.13793103448275834,
+      "dead_end_depth_mean": 0.9523809523809522,
+      "junction_ratio": 0.6551724137931036,
+      "island_free_ratio": 1.2
+    },
+    "range_hit_flags": {
+      "reachable_free_ratio": false,
+      "wall_ratio": false,
+      "bfs_len_norm": true,
+      "detour_ratio": true,
+      "dead_end_ratio": true,
+      "junction_ratio": true,
+      "dead_end_depth_mean": true,
+      "junction_on_solution_ratio": true,
+      "island_free_ratio": false
+    },
+    "range_hit_all": false,
+    "range_error": 0.22562500000000002,
+    "sampled_target_error": 1.5850692000938305,
+    "target_final": {
+      "L_BFS": {
+        "target": 10.0,
+        "final": 10,
+        "abs_error": 0.0
+      },
+      "detour_ratio": {
+        "target": 1.3,
+        "final": 1.25,
+        "abs_error": 0.050000000000000044
+      },
+      "wall_ratio": {
+        "target": 0.3,
+        "final": 0.546875,
+        "abs_error": 0.246875
+      },
+      "dead_end_ratio": {
+        "target": 0.1,
+        "final": 0.10344827586206896,
+        "abs_error": 0.0034482758620689585
+      },
+      "dead_end_depth_mean": {
+        "target": 2.0,
+        "final": 1.6666666666666667,
+        "abs_error": 0.33333333333333326
+      },
+      "junction_ratio": {
+        "target": 0.55,
+        "final": 0.5172413793103449,
+        "abs_error": 0.03275862068965518
+      },
+      "island_free_ratio": {
+        "target": 0.03,
+        "final": 0.0,
+        "abs_error": 0.03
+      }
+    },
+    "primary_metrics": [
+      "L_BFS",
+      "detour_ratio"
+    ],
+    "primary_hit": true,
+    "side_effect_failed_metrics": [
+      "reachable_free_ratio",
+      "wall_ratio",
+      "island_free_ratio"
+    ],
+    "primitive_role": "primary_structure"
+  },
+  {
+    "maze_id": "prim_path_00001",
+    "target": {
+      "L_BFS": 14.0,
+      "detour_ratio": 1.8,
+      "wall_ratio": 0.3,
+      "dead_end_ratio": 0.1,
+      "dead_end_depth_mean": 2.0,
+      "junction_ratio": 0.55,
+      "island_free_ratio": 0.03
+    },
+    "final": {
+      "L_BFS": 14,
+      "detour_ratio": 1.75,
+      "wall_ratio": 0.484375,
+      "dead_end_ratio": 0.09090909090909091,
+      "dead_end_depth_mean": 1.6666666666666667,
+      "junction_ratio": 0.5757575757575758,
+      "island_free_ratio": 0.0
+    },
+    "abs_errors": {
+      "L_BFS": 0.0,
+      "detour_ratio": 0.050000000000000044,
+      "wall_ratio": 0.184375,
+      "dead_end_ratio": 0.009090909090909094,
+      "dead_end_depth_mean": 0.33333333333333326,
+      "junction_ratio": 0.025757575757575757,
+      "island_free_ratio": 0.03
+    },
+    "normalized_errors": {
+      "L_BFS": 0.0,
+      "detour_ratio": 0.2500000000000002,
+      "wall_ratio": 5.9,
+      "dead_end_ratio": 0.36363636363636376,
+      "dead_end_depth_mean": 0.9523809523809522,
+      "junction_ratio": 0.5151515151515151,
+      "island_free_ratio": 1.2
+    },
+    "range_hit_flags": {
+      "reachable_free_ratio": false,
+      "wall_ratio": false,
+      "bfs_len_norm": true,
+      "detour_ratio": true,
+      "dead_end_ratio": true,
+      "junction_ratio": true,
+      "dead_end_depth_mean": true,
+      "junction_on_solution_ratio": true,
+      "island_free_ratio": false
+    },
+    "range_hit_all": false,
+    "range_error": 0.16312500000000002,
+    "sampled_target_error": 1.311595547309833,
+    "target_final": {
+      "L_BFS": {
+        "target": 14.0,
+        "final": 14,
+        "abs_error": 0.0
+      },
+      "detour_ratio": {
+        "target": 1.8,
+        "final": 1.75,
+        "abs_error": 0.050000000000000044
+      },
+      "wall_ratio": {
+        "target": 0.3,
+        "final": 0.484375,
+        "abs_error": 0.184375
+      },
+      "dead_end_ratio": {
+        "target": 0.1,
+        "final": 0.09090909090909091,
+        "abs_error": 0.009090909090909094
+      },
+      "dead_end_depth_mean": {
+        "target": 2.0,
+        "final": 1.6666666666666667,
+        "abs_error": 0.33333333333333326
+      },
+      "junction_ratio": {
+        "target": 0.55,
+        "final": 0.5757575757575758,
+        "abs_error": 0.025757575757575757
+      },
+      "island_free_ratio": {
+        "target": 0.03,
+        "final": 0.0,
+        "abs_error": 0.03
+      }
+    },
+    "primary_metrics": [
+      "L_BFS",
+      "detour_ratio"
+    ],
+    "primary_hit": true,
+    "side_effect_failed_metrics": [
+      "reachable_free_ratio",
+      "wall_ratio",
+      "island_free_ratio"
+    ],
+    "primitive_role": "primary_structure"
+  },
+  {
+    "maze_id": "prim_path_00002",
+    "target": {
+      "L_BFS": 18.0,
+      "detour_ratio": 2.4,
+      "wall_ratio": 0.3,
+      "dead_end_ratio": 0.1,
+      "dead_end_depth_mean": 2.0,
+      "junction_ratio": 0.55,
+      "island_free_ratio": 0.03
+    },
+    "final": {
+      "L_BFS": 18,
+      "detour_ratio": 2.25,
+      "wall_ratio": 0.421875,
+      "dead_end_ratio": 0.10810810810810811,
+      "dead_end_depth_mean": 1.75,
+      "junction_ratio": 0.4594594594594595,
+      "island_free_ratio": 0.0
+    },
+    "abs_errors": {
+      "L_BFS": 0.0,
+      "detour_ratio": 0.1499999999999999,
+      "wall_ratio": 0.12187500000000001,
+      "dead_end_ratio": 0.008108108108108109,
+      "dead_end_depth_mean": 0.25,
+      "junction_ratio": 0.09054054054054056,
+      "island_free_ratio": 0.03
+    },
+    "normalized_errors": {
+      "L_BFS": 0.0,
+      "detour_ratio": 0.7499999999999996,
+      "wall_ratio": 3.9000000000000004,
+      "dead_end_ratio": 0.32432432432432434,
+      "dead_end_depth_mean": 0.7142857142857143,
+      "junction_ratio": 1.8108108108108112,
+      "island_free_ratio": 1.2
+    },
+    "range_hit_flags": {
+      "reachable_free_ratio": false,
+      "wall_ratio": false,
+      "bfs_len_norm": true,
+      "detour_ratio": true,
+      "dead_end_ratio": true,
+      "junction_ratio": false,
+      "dead_end_depth_mean": true,
+      "junction_on_solution_ratio": true,
+      "island_free_ratio": false
+    },
+    "range_hit_all": false,
+    "range_error": 0.14116554054054054,
+    "sampled_target_error": 1.2427744070601214,
+    "target_final": {
+      "L_BFS": {
+        "target": 18.0,
+        "final": 18,
+        "abs_error": 0.0
+      },
+      "detour_ratio": {
+        "target": 2.4,
+        "final": 2.25,
+        "abs_error": 0.1499999999999999
+      },
+      "wall_ratio": {
+        "target": 0.3,
+        "final": 0.421875,
+        "abs_error": 0.12187500000000001
+      },
+      "dead_end_ratio": {
+        "target": 0.1,
+        "final": 0.10810810810810811,
+        "abs_error": 0.008108108108108109
+      },
+      "dead_end_depth_mean": {
+        "target": 2.0,
+        "final": 1.75,
+        "abs_error": 0.25
+      },
+      "junction_ratio": {
+        "target": 0.55,
+        "final": 0.4594594594594595,
+        "abs_error": 0.09054054054054056
+      },
+      "island_free_ratio": {
+        "target": 0.03,
+        "final": 0.0,
+        "abs_error": 0.03
+      }
+    },
+    "primary_metrics": [
+      "L_BFS",
+      "detour_ratio"
+    ],
+    "primary_hit": true,
+    "side_effect_failed_metrics": [
+      "reachable_free_ratio",
+      "wall_ratio",
+      "junction_ratio",
+      "island_free_ratio"
+    ],
+    "primitive_role": "primary_structure"
+  },
+  {
+    "maze_id": "prim_path_00003",
+    "target": {
+      "L_BFS": 22.0,
+      "detour_ratio": 3.0,
+      "wall_ratio": 0.3,
+      "dead_end_ratio": 0.1,
+      "dead_end_depth_mean": 2.0,
+      "junction_ratio": 0.55,
+      "island_free_ratio": 0.03
+    },
+    "final": {
+      "L_BFS": 18,
+      "detour_ratio": 3.0,
+      "wall_ratio": 0.34375,
+      "dead_end_ratio": 0.07142857142857142,
+      "dead_end_depth_mean": 2.0,
+      "junction_ratio": 0.5714285714285714,
+      "island_free_ratio": 0.0
+    },
+    "abs_errors": {
+      "L_BFS": 4.0,
+      "detour_ratio": 0.0,
+      "wall_ratio": 0.04375000000000001,
+      "dead_end_ratio": 0.02857142857142858,
+      "dead_end_depth_mean": 0.0,
+      "junction_ratio": 0.021428571428571352,
+      "island_free_ratio": 0.03
+    },
+    "normalized_errors": {
+      "L_BFS": 4.0,
+      "detour_ratio": 0.0,
+      "wall_ratio": 1.4000000000000004,
+      "dead_end_ratio": 1.1428571428571432,
+      "dead_end_depth_mean": 0.0,
+      "junction_ratio": 0.42857142857142705,
+      "island_free_ratio": 1.2
+    },
+    "range_hit_flags": {
+      "reachable_free_ratio": false,
+      "wall_ratio": false,
+      "bfs_len_norm": false,
+      "detour_ratio": true,
+      "dead_end_ratio": false,
+      "junction_ratio": true,
+      "dead_end_depth_mean": true,
+      "junction_on_solution_ratio": true,
+      "island_free_ratio": false
+    },
+    "range_hit_all": false,
+    "range_error": 0.07369047619047622,
+    "sampled_target_error": 1.1673469387755102,
+    "target_final": {
+      "L_BFS": {
+        "target": 22.0,
+        "final": 18,
+        "abs_error": 4.0
+      },
+      "detour_ratio": {
+        "target": 3.0,
+        "final": 3.0,
+        "abs_error": 0.0
+      },
+      "wall_ratio": {
+        "target": 0.3,
+        "final": 0.34375,
+        "abs_error": 0.04375000000000001
+      },
+      "dead_end_ratio": {
+        "target": 0.1,
+        "final": 0.07142857142857142,
+        "abs_error": 0.02857142857142858
+      },
+      "dead_end_depth_mean": {
+        "target": 2.0,
+        "final": 2.0,
+        "abs_error": 0.0
+      },
+      "junction_ratio": {
+        "target": 0.55,
+        "final": 0.5714285714285714,
+        "abs_error": 0.021428571428571352
+      },
+      "island_free_ratio": {
+        "target": 0.03,
+        "final": 0.0,
+        "abs_error": 0.03
+      }
+    },
+    "primary_metrics": [
+      "L_BFS",
+      "detour_ratio"
+    ],
+    "primary_hit": false,
+    "side_effect_failed_metrics": [
+      "reachable_free_ratio",
+      "wall_ratio",
+      "bfs_len_norm",
+      "dead_end_ratio",
+      "island_free_ratio"
+    ],
+    "primitive_role": "primary_structure"
+  },
+  {
+    "maze_id": "prim_path_00004",
+    "target": {
+      "L_BFS": 26.0,
+      "detour_ratio": 2.0,
+      "wall_ratio": 0.3,
+      "dead_end_ratio": 0.1,
+      "dead_end_depth_mean": 2.0,
+      "junction_ratio": 0.55,
+      "island_free_ratio": 0.03
+    },
+    "final": {
+      "L_BFS": 18,
+      "detour_ratio": 2.25,
+      "wall_ratio": 0.296875,
+      "dead_end_ratio": 0.08888888888888889,
+      "dead_end_depth_mean": 1.75,
+      "junction_ratio": 0.5777777777777777,
+      "island_free_ratio": 0.0
+    },
+    "abs_errors": {
+      "L_BFS": 8.0,
+      "detour_ratio": 0.25,
+      "wall_ratio": 0.003124999999999989,
+      "dead_end_ratio": 0.011111111111111113,
+      "dead_end_depth_mean": 0.25,
+      "junction_ratio": 0.02777777777777768,
+      "island_free_ratio": 0.03
+    },
+    "normalized_errors": {
+      "L_BFS": 8.0,
+      "detour_ratio": 1.25,
+      "wall_ratio": 0.09999999999999964,
+      "dead_end_ratio": 0.44444444444444453,
+      "dead_end_depth_mean": 0.7142857142857143,
+      "junction_ratio": 0.5555555555555536,
+      "island_free_ratio": 1.2
+    },
+    "range_hit_flags": {
+      "reachable_free_ratio": false,
+      "wall_ratio": true,
+      "bfs_len_norm": false,
+      "detour_ratio": false,
+      "dead_end_ratio": true,
+      "junction_ratio": true,
+      "dead_end_depth_mean": true,
+      "junction_on_solution_ratio": true,
+      "island_free_ratio": false
+    },
+    "range_hit_all": false,
+    "range_error": 0.17111111111111094,
+    "sampled_target_error": 1.7520408163265302,
+    "target_final": {
+      "L_BFS": {
+        "target": 26.0,
+        "final": 18,
+        "abs_error": 8.0
+      },
+      "detour_ratio": {
+        "target": 2.0,
+        "final": 2.25,
+        "abs_error": 0.25
+      },
+      "wall_ratio": {
+        "target": 0.3,
+        "final": 0.296875,
+        "abs_error": 0.003124999999999989
+      },
+      "dead_end_ratio": {
+        "target": 0.1,
+        "final": 0.08888888888888889,
+        "abs_error": 0.011111111111111113
+      },
+      "dead_end_depth_mean": {
+        "target": 2.0,
+        "final": 1.75,
+        "abs_error": 0.25
+      },
+      "junction_ratio": {
+        "target": 0.55,
+        "final": 0.5777777777777777,
+        "abs_error": 0.02777777777777768
+      },
+      "island_free_ratio": {
+        "target": 0.03,
+        "final": 0.0,
+        "abs_error": 0.03
+      }
+    },
+    "primary_metrics": [
+      "L_BFS",
+      "detour_ratio"
+    ],
+    "primary_hit": false,
+    "side_effect_failed_metrics": [
+      "reachable_free_ratio",
+      "bfs_len_norm",
+      "island_free_ratio"
+    ],
+    "primitive_role": "primary_structure"
+  },
+  {
+    "maze_id": "prim_path_00005",
+    "target": {
+      "L_BFS": 10.0,
+      "detour_ratio": 1.3,
+      "wall_ratio": 0.3,
+      "dead_end_ratio": 0.1,
+      "dead_end_depth_mean": 2.0,
+      "junction_ratio": 0.55,
+      "island_free_ratio": 0.03
+    },
+    "final": {
+      "L_BFS": 10,
+      "detour_ratio": 1.25,
+      "wall_ratio": 0.546875,
+      "dead_end_ratio": 0.10344827586206896,
+      "dead_end_depth_mean": 1.6666666666666667,
+      "junction_ratio": 0.5172413793103449,
+      "island_free_ratio": 0.0
+    },
+    "abs_errors": {
+      "L_BFS": 0.0,
+      "detour_ratio": 0.050000000000000044,
+      "wall_ratio": 0.246875,
+      "dead_end_ratio": 0.0034482758620689585,
+      "dead_end_depth_mean": 0.33333333333333326,
+      "junction_ratio": 0.03275862068965518,
+      "island_free_ratio": 0.03
+    },
+    "normalized_errors": {
+      "L_BFS": 0.0,
+      "detour_ratio": 0.2500000000000002,
+      "wall_ratio": 7.9,
+      "dead_end_ratio": 0.13793103448275834,
+      "dead_end_depth_mean": 0.9523809523809522,
+      "junction_ratio": 0.6551724137931036,
+      "island_free_ratio": 1.2
+    },
+    "range_hit_flags": {
+      "reachable_free_ratio": false,
+      "wall_ratio": false,
+      "bfs_len_norm": true,
+      "detour_ratio": true,
+      "dead_end_ratio": true,
+      "junction_ratio": true,
+      "dead_end_depth_mean": true,
+      "junction_on_solution_ratio": true,
+      "island_free_ratio": false
+    },
+    "range_hit_all": false,
+    "range_error": 0.22562500000000002,
+    "sampled_target_error": 1.5850692000938305,
+    "target_final": {
+      "L_BFS": {
+        "target": 10.0,
+        "final": 10,
+        "abs_error": 0.0
+      },
+      "detour_ratio": {
+        "target": 1.3,
+        "final": 1.25,
+        "abs_error": 0.050000000000000044
+      },
+      "wall_ratio": {
+        "target": 0.3,
+        "final": 0.546875,
+        "abs_error": 0.246875
+      },
+      "dead_end_ratio": {
+        "target": 0.1,
+        "final": 0.10344827586206896,
+        "abs_error": 0.0034482758620689585
+      },
+      "dead_end_depth_mean": {
+        "target": 2.0,
+        "final": 1.6666666666666667,
+        "abs_error": 0.33333333333333326
+      },
+      "junction_ratio": {
+        "target": 0.55,
+        "final": 0.5172413793103449,
+        "abs_error": 0.03275862068965518
+      },
+      "island_free_ratio": {
+        "target": 0.03,
+        "final": 0.0,
+        "abs_error": 0.03
+      }
+    },
+    "primary_metrics": [
+      "L_BFS",
+      "detour_ratio"
+    ],
+    "primary_hit": true,
+    "side_effect_failed_metrics": [
+      "reachable_free_ratio",
+      "wall_ratio",
+      "island_free_ratio"
+    ],
+    "primitive_role": "primary_structure"
+  },
+  {
+    "maze_id": "prim_path_00006",
+    "target": {
+      "L_BFS": 14.0,
+      "detour_ratio": 1.8,
+      "wall_ratio": 0.3,
+      "dead_end_ratio": 0.1,
+      "dead_end_depth_mean": 2.0,
+      "junction_ratio": 0.55,
+      "island_free_ratio": 0.03
+    },
+    "final": {
+      "L_BFS": 14,
+      "detour_ratio": 1.75,
+      "wall_ratio": 0.4375,
+      "dead_end_ratio": 0.1111111111111111,
+      "dead_end_depth_mean": 1.75,
+      "junction_ratio": 0.5555555555555556,
+      "island_free_ratio": 0.0
+    },
+    "abs_errors": {
+      "L_BFS": 0.0,
+      "detour_ratio": 0.050000000000000044,
+      "wall_ratio": 0.1375,
+      "dead_end_ratio": 0.0111111111111111,
+      "dead_end_depth_mean": 0.25,
+      "junction_ratio": 0.005555555555555536,
+      "island_free_ratio": 0.03
+    },
+    "normalized_errors": {
+      "L_BFS": 0.0,
+      "detour_ratio": 0.2500000000000002,
+      "wall_ratio": 4.4,
+      "dead_end_ratio": 0.444444444444444,
+      "dead_end_depth_mean": 0.7142857142857143,
+      "junction_ratio": 0.11111111111111072,
+      "island_free_ratio": 1.2
+    },
+    "range_hit_flags": {
+      "reachable_free_ratio": false,
+      "wall_ratio": false,
+      "bfs_len_norm": true,
+      "detour_ratio": true,
+      "dead_end_ratio": true,
+      "junction_ratio": true,
+      "dead_end_depth_mean": true,
+      "junction_on_solution_ratio": true,
+      "island_free_ratio": false
+    },
+    "range_hit_all": false,
+    "range_error": 0.11625000000000002,
+    "sampled_target_error": 1.0171201814058957,
+    "target_final": {
+      "L_BFS": {
+        "target": 14.0,
+        "final": 14,
+        "abs_error": 0.0
+      },
+      "detour_ratio": {
+        "target": 1.8,
+        "final": 1.75,
+        "abs_error": 0.050000000000000044
+      },
+      "wall_ratio": {
+        "target": 0.3,
+        "final": 0.4375,
+        "abs_error": 0.1375
+      },
+      "dead_end_ratio": {
+        "target": 0.1,
+        "final": 0.1111111111111111,
+        "abs_error": 0.0111111111111111
+      },
+      "dead_end_depth_mean": {
+        "target": 2.0,
+        "final": 1.75,
+        "abs_error": 0.25
+      },
+      "junction_ratio": {
+        "target": 0.55,
+        "final": 0.5555555555555556,
+        "abs_error": 0.005555555555555536
+      },
+      "island_free_ratio": {
+        "target": 0.03,
+        "final": 0.0,
+        "abs_error": 0.03
+      }
+    },
+    "primary_metrics": [
+      "L_BFS",
+      "detour_ratio"
+    ],
+    "primary_hit": true,
+    "side_effect_failed_metrics": [
+      "reachable_free_ratio",
+      "wall_ratio",
+      "island_free_ratio"
+    ],
+    "primitive_role": "primary_structure"
+  },
+  {
+    "maze_id": "prim_path_00007",
+    "target": {
+      "L_BFS": 18.0,
+      "detour_ratio": 2.4,
+      "wall_ratio": 0.3,
+      "dead_end_ratio": 0.1,
+      "dead_end_depth_mean": 2.0,
+      "junction_ratio": 0.55,
+      "island_free_ratio": 0.03
+    },
+    "final": {
+      "L_BFS": 18,
+      "detour_ratio": 2.25,
+      "wall_ratio": 0.46875,
+      "dead_end_ratio": 0.08823529411764706,
+      "dead_end_depth_mean": 2.0,
+      "junction_ratio": 0.5294117647058824,
+      "island_free_ratio": 0.0
+    },
+    "abs_errors": {
+      "L_BFS": 0.0,
+      "detour_ratio": 0.1499999999999999,
+      "wall_ratio": 0.16875,
+      "dead_end_ratio": 0.011764705882352941,
+      "dead_end_depth_mean": 0.0,
+      "junction_ratio": 0.020588235294117685,
+      "island_free_ratio": 0.03
+    },
+    "normalized_errors": {
+      "L_BFS": 0.0,
+      "detour_ratio": 0.7499999999999996,
+      "wall_ratio": 5.4,
+      "dead_end_ratio": 0.47058823529411764,
+      "dead_end_depth_mean": 0.0,
+      "junction_ratio": 0.4117647058823537,
+      "island_free_ratio": 1.2
+    },
+    "range_hit_flags": {
+      "reachable_free_ratio": false,
+      "wall_ratio": false,
+      "bfs_len_norm": true,
+      "detour_ratio": true,
+      "dead_end_ratio": true,
+      "junction_ratio": true,
+      "dead_end_depth_mean": true,
+      "junction_on_solution_ratio": true,
+      "island_free_ratio": false
+    },
+    "range_hit_all": false,
+    "range_error": 0.14750000000000002,
+    "sampled_target_error": 1.1760504201680673,
+    "target_final": {
+      "L_BFS": {
+        "target": 18.0,
+        "final": 18,
+        "abs_error": 0.0
+      },
+      "detour_ratio": {
+        "target": 2.4,
+        "final": 2.25,
+        "abs_error": 0.1499999999999999
+      },
+      "wall_ratio": {
+        "target": 0.3,
+        "final": 0.46875,
+        "abs_error": 0.16875
+      },
+      "dead_end_ratio": {
+        "target": 0.1,
+        "final": 0.08823529411764706,
+        "abs_error": 0.011764705882352941
+      },
+      "dead_end_depth_mean": {
+        "target": 2.0,
+        "final": 2.0,
+        "abs_error": 0.0
+      },
+      "junction_ratio": {
+        "target": 0.55,
+        "final": 0.5294117647058824,
+        "abs_error": 0.020588235294117685
+      },
+      "island_free_ratio": {
+        "target": 0.03,
+        "final": 0.0,
+        "abs_error": 0.03
+      }
+    },
+    "primary_metrics": [
+      "L_BFS",
+      "detour_ratio"
+    ],
+    "primary_hit": true,
+    "side_effect_failed_metrics": [
+      "reachable_free_ratio",
+      "wall_ratio",
+      "island_free_ratio"
+    ],
+    "primitive_role": "primary_structure"
+  }
+]

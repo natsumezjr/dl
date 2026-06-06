@@ -1,0 +1,380 @@
+{
+  "summary": {
+    "n_requested": 100,
+    "n_success": 99,
+    "hard_generation_success_rate": 0.99,
+    "edge_embedding_success_rate": 0.4,
+    "strict_consistency_success_rate": 0.26,
+    "hard_failure_count": 1,
+    "success_rate": 0.99,
+    "canonical_consistency_rate": 0.26
+  },
+  "graph_plan_sampling": {
+    "main_L": {
+      "mean": 19.545454545454547,
+      "p50": 19.0,
+      "p95": 26.0,
+      "min": 12.0,
+      "max": 30.0
+    },
+    "main_D": {
+      "mean": 8.97979797979798,
+      "p50": 9.0,
+      "p95": 12.0,
+      "min": 6.0,
+      "max": 12.0
+    },
+    "graph_budget": {
+      "mean": 4.070707070707071,
+      "p50": 4.0,
+      "p95": 6.0,
+      "min": 2.0,
+      "max": 6.0
+    },
+    "sampled_dead_edge_count": {
+      "mean": 2.01010101010101,
+      "p50": 2.0,
+      "p95": 4.0,
+      "min": 1.0,
+      "max": 4.0
+    },
+    "sampled_alternative_edge_count": {
+      "mean": 1.5858585858585859,
+      "p50": 1.0,
+      "p95": 3.0,
+      "min": 1.0,
+      "max": 3.0
+    },
+    "sampled_island_component_count": {
+      "mean": 0.47474747474747475,
+      "p50": 0.0,
+      "p95": 1.0,
+      "min": 0.0,
+      "max": 2.0
+    }
+  },
+  "plan_embedding": {
+    "sampled_dead_edge_count": {
+      "mean": 2.01010101010101,
+      "p50": 2.0,
+      "p95": 4.0,
+      "min": 1.0,
+      "max": 4.0
+    },
+    "accepted_dead_edge_count": {
+      "mean": 1.0,
+      "p50": 1.0,
+      "p95": 2.0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "sampled_alternative_edge_count": {
+      "mean": 1.5858585858585859,
+      "p50": 1.0,
+      "p95": 3.0,
+      "min": 1.0,
+      "max": 3.0
+    },
+    "accepted_alternative_edge_count": {
+      "mean": 1.5858585858585859,
+      "p50": 1.0,
+      "p95": 3.0,
+      "min": 1.0,
+      "max": 3.0
+    },
+    "sampled_island_count": {
+      "mean": 0.47474747474747475,
+      "p50": 0.0,
+      "p95": 1.0,
+      "min": 0.0,
+      "max": 2.0
+    },
+    "accepted_island_count": {
+      "mean": 0.3939393939393939,
+      "p50": 0.0,
+      "p95": 1.0,
+      "min": 0.0,
+      "max": 2.0
+    }
+  },
+  "main_route_lengths": {
+    "planned_main_L": {
+      "mean": 19.545454545454547,
+      "p50": 19.0,
+      "p95": 26.0,
+      "min": 12.0,
+      "max": 30.0
+    },
+    "generated_main_L_error": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "final_bfs_L_error": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "hinted_main_route_L_error": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "extracted_main_edge_sum_L_error": {
+      "mean": 6.848484848484849,
+      "p50": 6.0,
+      "p95": 12.099999999999994,
+      "min": 0.0,
+      "max": 22.0
+    }
+  },
+  "extraction_summary": {
+    "choice_node_count": {
+      "mean": 2.878787878787879,
+      "p50": 3.0,
+      "p95": 6.0,
+      "min": 0.0,
+      "max": 10.0
+    },
+    "endpoint_node_count": {
+      "mean": 2.8282828282828283,
+      "p50": 3.0,
+      "p95": 4.0,
+      "min": 1.0,
+      "max": 5.0
+    },
+    "island_node_count": {
+      "mean": 0.6565656565656566,
+      "p50": 0.0,
+      "p95": 2.0,
+      "min": 0.0,
+      "max": 4.0
+    },
+    "main_edge_count": {
+      "mean": 2.6262626262626263,
+      "p50": 3.0,
+      "p95": 4.0,
+      "min": 1.0,
+      "max": 5.0
+    },
+    "dead_edge_count": {
+      "mean": 1.0,
+      "p50": 1.0,
+      "p95": 2.0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "alternative_edge_count": {
+      "mean": 1.9393939393939394,
+      "p50": 2.0,
+      "p95": 4.0,
+      "min": 1.0,
+      "max": 6.0
+    },
+    "extracted_main_edge_sum_L_error": {
+      "mean": 6.848484848484849,
+      "p50": 6.0,
+      "p95": 12.099999999999994,
+      "min": 0.0,
+      "max": 22.0
+    },
+    "geometry_bug_count": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "detour_path_lt_1_count": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "detour_anchor_lt_1_count": {
+      "mean": 0.7373737373737373,
+      "p50": 0.0,
+      "p95": 3.0,
+      "min": 0.0,
+      "max": 5.0
+    }
+  },
+  "consistency_summary": {
+    "sampled_plan_match_rate": 0.26262626262626265,
+    "effective_plan_match_rate": 0.6767676767676768,
+    "strict_consistency_success_rate": 0.26262626262626265,
+    "generated_main_L_error_mean": 0.0,
+    "final_bfs_L_error_mean": 0.0,
+    "hinted_main_route_L_error_mean": 0.0,
+    "extracted_main_edge_sum_L_error_mean": 6.848484848484849,
+    "dead_edge_count_effective_match_rate": 0.9090909090909091,
+    "alternative_edge_count_effective_match_rate": 0.7272727272727273,
+    "island_component_match_rate": 1.0,
+    "geometry_bug_count": 0,
+    "detour_path_lt_1_count": 0,
+    "detour_anchor_lt_1_count": 73,
+    "extra_node_mean": 0.0,
+    "extra_edge_mean": 0.0,
+    "missing_edge_mean": 0.0,
+    "edge_type_mismatch_count": 4
+  },
+  "alternative_planning": {
+    "sampled_alternative_count": 157,
+    "accepted_alternative_count": 157,
+    "extracted_alternative_count": 192,
+    "alternative_equal_length_count": 27,
+    "alternative_shortcut_violation_count": 0,
+    "alternative_extracted_match_rate": 1.0,
+    "alternative_reject_top_reasons": [
+      [
+        "accepted",
+        157
+      ]
+    ]
+  },
+  "island_planning": {
+    "sampled_island_component_count": 47,
+    "accepted_island_component_count": 39,
+    "extracted_island_component_count": 39,
+    "island_component_match_rate": 1.0,
+    "island_node_count_mean": 0.6565656565656566,
+    "island_edge_count_mean": 0.30303030303030304,
+    "island_no_cells_generated_count": 2,
+    "island_reject_top_reasons": [
+      [
+        "accepted",
+        39
+      ],
+      [
+        "skipped_zero_budget_island",
+        6
+      ],
+      [
+        "island_no_cells_generated",
+        2
+      ]
+    ],
+    "island_cells_connected_to_main_component_count": 0,
+    "island_cells_touch_main_component_count": 0,
+    "island_attempt_count": {
+      "mean": 2.9574468085106385,
+      "p50": 1.0,
+      "p95": 1.0,
+      "min": 0.0,
+      "max": 50.0
+    }
+  },
+  "performance": {
+    "runtime_ms": {
+      "mean": 1018.7847789988155,
+      "p50": 83.7784500035923,
+      "p95": 6107.72042996541,
+      "min": 2.8055000002495944,
+      "max": 18493.04829997709
+    },
+    "main_path_attempt_count": {
+      "mean": 8.72,
+      "p50": 2.0,
+      "p95": 57.19999999999999,
+      "min": 1.0,
+      "max": 109.0
+    },
+    "edge_attempt_count": {
+      "mean": 731.08,
+      "p50": 174.0,
+      "p95": 4241.099999999998,
+      "min": 2.0,
+      "max": 9727.0
+    },
+    "extract_graph_call_count": {
+      "mean": 19.22,
+      "p50": 9.0,
+      "p95": 84.79999999999995,
+      "min": 4.0,
+      "max": 169.0
+    },
+    "bfs_call_count": {
+      "mean": 133.59,
+      "p50": 15.5,
+      "p95": 754.6999999999994,
+      "min": 4.0,
+      "max": 1248.0
+    }
+  },
+  "alternative_planned_edge_matching": {
+    "accepted_alternative_count": 157,
+    "alternative_planned_edge_match_rate": 1.0,
+    "alternative_cell_coverage_mean": 0.9987261146496816,
+    "alternative_anchor_match_rate": 1.0,
+    "alternative_type_match_rate": 1.0,
+    "alternative_multi_edge_match_rate": 0.29936305732484075,
+    "matched_extracted_edge_type_mismatch_count": 0
+  },
+  "room_detection": {
+    "room_detection_enabled": true,
+    "room_component_count": {
+      "mean": 1.3636363636363635,
+      "p50": 1.0,
+      "p95": 2.0999999999999943,
+      "min": 0.0,
+      "max": 4.0
+    },
+    "room_projected_node_count": {
+      "mean": 1.3535353535353536,
+      "p50": 1.0,
+      "p95": 2.0999999999999943,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "pass_through_room_count": {
+      "mean": 0.7474747474747475,
+      "p50": 1.0,
+      "p95": 2.0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "choice_room_count": {
+      "mean": 0.21212121212121213,
+      "p50": 0.0,
+      "p95": 1.0,
+      "min": 0.0,
+      "max": 2.0
+    },
+    "room_suppressed_by_hint_count": 0,
+    "room_suppressed_by_alternative_count": 0,
+    "room_visualized_count": 135,
+    "large_open_area_detected_by_free_blocks": 1
+  },
+  "success_sample_coverage": {
+    "success_sample_count": 4,
+    "success_category_count": 4,
+    "success_categories_available": [
+      "success_alt_equal_length",
+      "success_alt_longer",
+      "success_island_component",
+      "success_main_alt_island",
+      "success_main_dead",
+      "success_main_dead_alt",
+      "success_mixed_effective_match",
+      "success_room_choice_node",
+      "success_room_pass_through"
+    ],
+    "success_categories_selected": [
+      "success_main_dead",
+      "success_alt_equal_length",
+      "success_island_component",
+      "success_room_choice_node"
+    ],
+    "success_sample_shortage": true,
+    "missing_success_categories": [
+      "success_main_only"
+    ]
+  }
+}

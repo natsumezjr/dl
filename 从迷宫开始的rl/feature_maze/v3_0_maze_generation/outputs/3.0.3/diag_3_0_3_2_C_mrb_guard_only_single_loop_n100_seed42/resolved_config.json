@@ -1,0 +1,275 @@
+{
+  "plan_contract": {
+    "profile": "single_loop",
+    "topology": {
+      "endpoint_contract_mode": "direct_t_derive_E",
+      "choice_node_count": 3,
+      "endpoint_node_count": 3,
+      "cycle_rank": 1
+    },
+    "terminal": {
+      "allow_terminal_choice": true,
+      "terminal_bucket_weights": {
+        "endpoint": 0.35,
+        "choice": 0.45,
+        "edge_internal": 0.2
+      }
+    },
+    "path_complexity": {
+      "target_C_path": 7.0,
+      "tolerance": 2.0,
+      "alpha": 0.35,
+      "beta": 1.0
+    },
+    "room_policy": "room_suppressed",
+    "island": {
+      "island_component_count": 0
+    },
+    "D_range_sample_pack_profile": "balanced_main_substitute_endpoint",
+    "profile_adjustment_note": null
+  },
+  "D_range_sample_pack": {
+    "main": [
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "endpoint_branch": [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "substitute_level1": [
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "substitute_level2plus": [
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ]
+  },
+  "config": {
+    "grid_size": 8,
+    "parallel_multiplicity_max": 2,
+    "self_loop_enabled": false,
+    "max_generation_attempts": 25,
+    "max_topology_attempts": 50,
+    "max_layout_attempts": 250,
+    "max_route_attempts_per_edge": 500,
+    "max_island_attempts": 80,
+    "endpoint_softmax_temperature": 0.8,
+    "path_complexity": {
+      "alpha": 0.35,
+      "beta": 1.0,
+      "w_min": 0.2,
+      "w_max": 1.0,
+      "lambda": 0.8,
+      "tolerance": 2.0,
+      "enable_mrb_guard": true,
+      "mrb_guard_mode": "strict_mrb_preserve",
+      "max_mrb_guard_iterations": 10,
+      "main_path_imbalance_warning": 2,
+      "C_path_soft_tolerance": 2.0,
+      "C_path_hard_tolerance": 5.0,
+      "allow_pass_when_forced_above_target_by_mrb_guard": true,
+      "forced_above_target_warning_ratio": 0.3
+    },
+    "embedding": {
+      "enable_corridor_reservation": false,
+      "enable_restricted_routing": false
+    },
+    "corridor": {
+      "dogleg_offsets": [
+        1,
+        2
+      ],
+      "max_candidates_per_edge": {
+        "main": 8,
+        "substitute": 8,
+        "endpoint_branch": 6
+      }
+    },
+    "routing": {
+      "forbid_non_edge_touch": true,
+      "forbid_2x2_when_room_suppressed": true,
+      "restricted_detour_radius": 1
+    },
+    "room_detection": {
+      "use_2x2_free_block": true,
+      "room_min_component_size": 3,
+      "room_high_degree_threshold": 3
+    },
+    "visualization": {
+      "enabled": true,
+      "max_success_samples": 5,
+      "max_failure_samples": 5
+    }
+  },
+  "experiment": "mrb_guard_only"
+}

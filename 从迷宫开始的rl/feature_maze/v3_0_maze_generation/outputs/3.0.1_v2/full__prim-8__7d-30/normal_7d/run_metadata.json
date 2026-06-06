@@ -1,0 +1,12 @@
+{
+  "version": "3.0.1_v2",
+  "experiment_name": "primitive_control_7d_v2",
+  "mode": "normal_7d",
+  "primitive_test_name": null,
+  "n_mazes": 30,
+  "started_at_utc": "2026-06-02T04:05:07.604440+00:00",
+  "script_path": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v3_0_maze_generation\\experiments\\run_3_0_1_primitive_control_7d.py",
+  "output_dir": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v3_0_maze_generation\\outputs\\3.0.1_v2\\full__prim-8__7d-30\\normal_7d",
+  "finished_at_utc": "2026-06-02T04:06:57.319986+00:00",
+  "n_generated": 30
+}

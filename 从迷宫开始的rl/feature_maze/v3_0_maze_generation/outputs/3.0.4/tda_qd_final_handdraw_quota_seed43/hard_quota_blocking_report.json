@@ -1,0 +1,131 @@
+{
+  "selected_quota_scope": "handdraw_observed",
+  "selected_scope_blocking_bins": [],
+  "handdraw_remaining_bins": [],
+  "exploration_remaining_bins": [
+    {
+      "bin_key": "multi_loop|long|low_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "quota": 6,
+      "count": 0,
+      "remaining": 6,
+      "fill_ratio": 0.0,
+      "full_evaluated_count": 0,
+      "is_critical": false
+    },
+    {
+      "bin_key": "multi_loop|medium|low_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "quota": 6,
+      "count": 0,
+      "remaining": 6,
+      "fill_ratio": 0.0,
+      "full_evaluated_count": 0,
+      "is_critical": false
+    },
+    {
+      "bin_key": "multi_loop|short|low_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "quota": 6,
+      "count": 0,
+      "remaining": 6,
+      "fill_ratio": 0.0,
+      "full_evaluated_count": 0,
+      "is_critical": false
+    },
+    {
+      "bin_key": "single_loop|long|low_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "quota": 6,
+      "count": 0,
+      "remaining": 6,
+      "fill_ratio": 0.0,
+      "full_evaluated_count": 0,
+      "is_critical": false
+    },
+    {
+      "bin_key": "tree|long|low_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "quota": 6,
+      "count": 0,
+      "remaining": 6,
+      "fill_ratio": 0.0,
+      "full_evaluated_count": 0,
+      "is_critical": false
+    },
+    {
+      "bin_key": "single_loop|medium|low_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "quota": 6,
+      "count": 3,
+      "remaining": 3,
+      "fill_ratio": 0.5,
+      "full_evaluated_count": 3,
+      "is_critical": false
+    }
+  ],
+  "all_nonzero_remaining_bins": [
+    {
+      "bin_key": "multi_loop|long|low_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "quota": 6,
+      "count": 0,
+      "remaining": 6,
+      "fill_ratio": 0.0,
+      "full_evaluated_count": 0,
+      "is_critical": false
+    },
+    {
+      "bin_key": "multi_loop|medium|low_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "quota": 6,
+      "count": 0,
+      "remaining": 6,
+      "fill_ratio": 0.0,
+      "full_evaluated_count": 0,
+      "is_critical": false
+    },
+    {
+      "bin_key": "multi_loop|short|low_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "quota": 6,
+      "count": 0,
+      "remaining": 6,
+      "fill_ratio": 0.0,
+      "full_evaluated_count": 0,
+      "is_critical": false
+    },
+    {
+      "bin_key": "single_loop|long|low_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "quota": 6,
+      "count": 0,
+      "remaining": 6,
+      "fill_ratio": 0.0,
+      "full_evaluated_count": 0,
+      "is_critical": false
+    },
+    {
+      "bin_key": "tree|long|low_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "quota": 6,
+      "count": 0,
+      "remaining": 6,
+      "fill_ratio": 0.0,
+      "full_evaluated_count": 0,
+      "is_critical": false
+    },
+    {
+      "bin_key": "single_loop|medium|low_choice|high_endpoint",
+      "status": "unobserved_possible",
+      "quota": 6,
+      "count": 3,
+      "remaining": 3,
+      "fill_ratio": 0.5,
+      "full_evaluated_count": 3,
+      "is_critical": false
+    }
+  ],
+  "interpretation": "handdraw distribution completed; remaining bins are exploration-only",
+  "blocking_reasons": []
+}

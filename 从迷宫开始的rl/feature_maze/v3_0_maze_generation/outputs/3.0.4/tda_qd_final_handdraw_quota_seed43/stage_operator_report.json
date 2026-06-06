@@ -1,0 +1,33 @@
+{
+  "operator_selected_counts": {
+    "pure_tbi": 358310,
+    "spb": 268179,
+    "random": 15290,
+    "stage_clo": 31186
+  },
+  "operator_by_stage": {
+    "build_branch_rich_skeleton": {
+      "pure_tbi": 282662,
+      "spb": 35606,
+      "stage_clo": 3478,
+      "random": 7032
+    },
+    "make_long": {
+      "spb": 221915,
+      "pure_tbi": 55787,
+      "random": 6792
+    },
+    "overlay_loop_if_needed": {
+      "spb": 1689,
+      "stage_clo": 20965,
+      "pure_tbi": 3401,
+      "random": 370
+    },
+    "refine": {
+      "stage_clo": 6743,
+      "pure_tbi": 16460,
+      "spb": 8969,
+      "random": 1096
+    }
+  }
+}

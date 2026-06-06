@@ -1,0 +1,18 @@
+[
+  {
+    "maze_id": "maze_00028",
+    "corridor_reservation": {
+      "status": "DISABLED",
+      "edge_corridor_plan": {},
+      "global_conflict_score": 0
+    }
+  },
+  {
+    "maze_id": "maze_00046",
+    "corridor_reservation": {
+      "status": "DISABLED",
+      "edge_corridor_plan": {},
+      "global_conflict_score": 0
+    }
+  }
+]

@@ -1,0 +1,302 @@
+{
+  "summary": {
+    "n_requested": 100,
+    "n_success": 98,
+    "hard_generation_success_rate": 0.98,
+    "edge_embedding_success_rate": 0.27,
+    "strict_consistency_success_rate": 0.02,
+    "hard_failure_count": 2,
+    "success_rate": 0.98,
+    "canonical_consistency_rate": 0.02
+  },
+  "graph_plan_sampling": {
+    "main_L": {
+      "mean": 19.836734693877553,
+      "p50": 19.0,
+      "p95": 28.0,
+      "min": 12.0,
+      "max": 30.0
+    },
+    "main_D": {
+      "mean": 8.938775510204081,
+      "p50": 9.0,
+      "p95": 11.149999999999991,
+      "min": 6.0,
+      "max": 12.0
+    },
+    "graph_budget": {
+      "mean": 4.010204081632653,
+      "p50": 4.0,
+      "p95": 6.0,
+      "min": 2.0,
+      "max": 6.0
+    },
+    "sampled_dead_edge_count": {
+      "mean": 2.0918367346938775,
+      "p50": 2.0,
+      "p95": 4.0,
+      "min": 1.0,
+      "max": 4.0
+    },
+    "sampled_alternative_edge_count": {
+      "mean": 1.3673469387755102,
+      "p50": 1.0,
+      "p95": 3.0,
+      "min": 1.0,
+      "max": 3.0
+    },
+    "sampled_island_component_count": {
+      "mean": 0.5510204081632653,
+      "p50": 0.0,
+      "p95": 2.0,
+      "min": 0.0,
+      "max": 2.0
+    }
+  },
+  "plan_embedding": {
+    "sampled_dead_edge_count": {
+      "mean": 2.0918367346938775,
+      "p50": 2.0,
+      "p95": 4.0,
+      "min": 1.0,
+      "max": 4.0
+    },
+    "accepted_dead_edge_count": {
+      "mean": 1.0714285714285714,
+      "p50": 1.0,
+      "p95": 2.1499999999999915,
+      "min": 0.0,
+      "max": 4.0
+    },
+    "sampled_alternative_edge_count": {
+      "mean": 1.3673469387755102,
+      "p50": 1.0,
+      "p95": 3.0,
+      "min": 1.0,
+      "max": 3.0
+    },
+    "accepted_alternative_edge_count": {
+      "mean": 1.3673469387755102,
+      "p50": 1.0,
+      "p95": 3.0,
+      "min": 1.0,
+      "max": 3.0
+    },
+    "sampled_island_count": {
+      "mean": 0.5510204081632653,
+      "p50": 0.0,
+      "p95": 2.0,
+      "min": 0.0,
+      "max": 2.0
+    },
+    "accepted_island_count": {
+      "mean": 0.08163265306122448,
+      "p50": 0.0,
+      "p95": 1.0,
+      "min": 0.0,
+      "max": 1.0
+    }
+  },
+  "main_route_lengths": {
+    "planned_main_L": {
+      "mean": 19.836734693877553,
+      "p50": 19.0,
+      "p95": 28.0,
+      "min": 12.0,
+      "max": 30.0
+    },
+    "generated_main_L_error": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "final_bfs_L_error": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "hinted_main_route_L_error": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "extracted_main_edge_sum_L_error": {
+      "mean": 5.591836734693878,
+      "p50": 5.0,
+      "p95": 11.149999999999991,
+      "min": 0.0,
+      "max": 16.0
+    }
+  },
+  "extraction_summary": {
+    "choice_node_count": {
+      "mean": 2.795918367346939,
+      "p50": 3.0,
+      "p95": 5.1499999999999915,
+      "min": 0.0,
+      "max": 9.0
+    },
+    "endpoint_node_count": {
+      "mean": 2.9591836734693877,
+      "p50": 3.0,
+      "p95": 4.0,
+      "min": 1.0,
+      "max": 6.0
+    },
+    "island_node_count": {
+      "mean": 0.1326530612244898,
+      "p50": 0.0,
+      "p95": 1.1499999999999915,
+      "min": 0.0,
+      "max": 2.0
+    },
+    "main_edge_count": {
+      "mean": 2.7448979591836733,
+      "p50": 3.0,
+      "p95": 5.0,
+      "min": 1.0,
+      "max": 5.0
+    },
+    "dead_edge_count": {
+      "mean": 1.2142857142857142,
+      "p50": 1.0,
+      "p95": 3.0,
+      "min": 0.0,
+      "max": 4.0
+    },
+    "alternative_edge_count": {
+      "mean": 0.21428571428571427,
+      "p50": 0.0,
+      "p95": 1.0,
+      "min": 0.0,
+      "max": 2.0
+    },
+    "extracted_main_edge_sum_L_error": {
+      "mean": 5.591836734693878,
+      "p50": 5.0,
+      "p95": 11.149999999999991,
+      "min": 0.0,
+      "max": 16.0
+    },
+    "geometry_bug_count": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "detour_path_lt_1_count": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "detour_anchor_lt_1_count": {
+      "mean": 0.7448979591836735,
+      "p50": 0.0,
+      "p95": 2.1499999999999915,
+      "min": 0.0,
+      "max": 4.0
+    }
+  },
+  "consistency_summary": {
+    "sampled_plan_match_rate": 0.02040816326530612,
+    "effective_plan_match_rate": 0.14285714285714285,
+    "strict_consistency_success_rate": 0.02040816326530612,
+    "generated_main_L_error_mean": 0.0,
+    "final_bfs_L_error_mean": 0.0,
+    "hinted_main_route_L_error_mean": 0.0,
+    "extracted_main_edge_sum_L_error_mean": 5.591836734693878,
+    "dead_edge_count_effective_match_rate": 0.8775510204081632,
+    "alternative_edge_count_effective_match_rate": 0.14285714285714285,
+    "island_component_match_rate": 1.0,
+    "geometry_bug_count": 0,
+    "detour_path_lt_1_count": 0,
+    "detour_anchor_lt_1_count": 73,
+    "extra_node_mean": 0.0,
+    "extra_edge_mean": 0.0,
+    "missing_edge_mean": 0.0,
+    "edge_type_mismatch_count": 88
+  },
+  "alternative_planning": {
+    "sampled_alternative_count": 134,
+    "accepted_alternative_count": 134,
+    "extracted_alternative_count": 21,
+    "alternative_equal_length_count": 16,
+    "alternative_shortcut_violation_count": 0,
+    "alternative_extracted_match_rate": 0.15671641791044777,
+    "alternative_reject_top_reasons": [
+      [
+        "accepted",
+        134
+      ]
+    ]
+  },
+  "island_planning": {
+    "sampled_island_component_count": 54,
+    "accepted_island_component_count": 8,
+    "extracted_island_component_count": 8,
+    "island_component_match_rate": 1.0,
+    "island_node_count_mean": 0.1326530612244898,
+    "island_edge_count_mean": 0.061224489795918366,
+    "island_no_cells_generated_count": 0,
+    "island_reject_top_reasons": [
+      [
+        "island_component_not_extracted",
+        34
+      ],
+      [
+        "skipped_zero_budget_island",
+        12
+      ],
+      [
+        "accepted",
+        8
+      ]
+    ]
+  },
+  "performance": {
+    "runtime_ms": {
+      "mean": 809.7915059985826,
+      "p50": 72.69094997900538,
+      "p95": 3382.1477199700857,
+      "min": 1.7828999552875757,
+      "max": 24877.65879998915
+    },
+    "main_path_attempt_count": {
+      "mean": 6.3,
+      "p50": 1.0,
+      "p95": 19.049999999999997,
+      "min": 1.0,
+      "max": 172.0
+    },
+    "edge_attempt_count": {
+      "mean": 515.84,
+      "p50": 147.0,
+      "p95": 1462.0499999999993,
+      "min": 3.0,
+      "max": 10718.0
+    },
+    "extract_graph_call_count": {
+      "mean": 15.27,
+      "p50": 8.0,
+      "p95": 31.099999999999994,
+      "min": 4.0,
+      "max": 212.0
+    },
+    "bfs_call_count": {
+      "mean": 72.98,
+      "p50": 13.0,
+      "p95": 280.74999999999994,
+      "min": 4.0,
+      "max": 1457.0
+    }
+  }
+}

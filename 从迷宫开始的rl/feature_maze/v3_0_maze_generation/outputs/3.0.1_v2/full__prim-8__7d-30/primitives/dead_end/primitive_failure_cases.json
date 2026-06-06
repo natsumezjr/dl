@@ -1,0 +1,104 @@
+[
+  {
+    "maze_id": "prim_dead_end_00004",
+    "target_value": 0.05,
+    "sampled_target_error": 1.6321995464852606,
+    "range_error": 0.23569444444444443,
+    "failed_metrics": [
+      "reachable_free_ratio",
+      "wall_ratio",
+      "dead_end_ratio",
+      "junction_ratio",
+      "island_free_ratio"
+    ],
+    "generation_failed_target": true
+  },
+  {
+    "maze_id": "prim_dead_end_00000",
+    "target_value": 0.05,
+    "sampled_target_error": 1.4266352694924127,
+    "range_error": 0.1610416666666667,
+    "failed_metrics": [
+      "reachable_free_ratio",
+      "wall_ratio",
+      "dead_end_ratio",
+      "junction_ratio",
+      "island_free_ratio"
+    ],
+    "generation_failed_target": true
+  },
+  {
+    "maze_id": "prim_dead_end_00003",
+    "target_value": 0.2,
+    "sampled_target_error": 1.3120029113047378,
+    "range_error": 0.21944444444444444,
+    "failed_metrics": [
+      "wall_ratio",
+      "bfs_len_norm",
+      "detour_ratio",
+      "dead_end_depth_mean"
+    ],
+    "generation_failed_target": true
+  },
+  {
+    "maze_id": "prim_dead_end_00007",
+    "target_value": 0.2,
+    "sampled_target_error": 1.1635875402792697,
+    "range_error": 0.16263157894736835,
+    "failed_metrics": [
+      "reachable_free_ratio",
+      "wall_ratio",
+      "junction_ratio",
+      "dead_end_depth_mean",
+      "island_free_ratio"
+    ],
+    "generation_failed_target": true
+  },
+  {
+    "maze_id": "prim_dead_end_00001",
+    "target_value": 0.1,
+    "sampled_target_error": 1.116849816849817,
+    "range_error": 0.15911858974358978,
+    "failed_metrics": [
+      "reachable_free_ratio",
+      "wall_ratio",
+      "junction_ratio",
+      "island_free_ratio"
+    ],
+    "generation_failed_target": true
+  },
+  {
+    "maze_id": "prim_dead_end_00005",
+    "target_value": 0.1,
+    "sampled_target_error": 1.0994652406417114,
+    "range_error": 0.18295454545454548,
+    "failed_metrics": [
+      "wall_ratio",
+      "junction_ratio"
+    ],
+    "generation_failed_target": true
+  },
+  {
+    "maze_id": "prim_dead_end_00002",
+    "target_value": 0.15,
+    "sampled_target_error": 1.0074003690545046,
+    "range_error": 0.33569078947368425,
+    "failed_metrics": [
+      "wall_ratio",
+      "junction_ratio",
+      "dead_end_depth_mean"
+    ],
+    "generation_failed_target": true
+  },
+  {
+    "maze_id": "prim_dead_end_00006",
+    "target_value": 0.15,
+    "sampled_target_error": 0.9276163381426541,
+    "range_error": 0.14256756756756755,
+    "failed_metrics": [
+      "wall_ratio",
+      "junction_ratio"
+    ],
+    "generation_failed_target": true
+  }
+]

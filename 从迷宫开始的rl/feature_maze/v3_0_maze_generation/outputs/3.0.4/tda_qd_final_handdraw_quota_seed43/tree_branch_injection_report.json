@@ -1,0 +1,10 @@
+{
+  "TBI_attempts": 358310,
+  "TBI_commit_count": 108781,
+  "TBI_rollback_count": 248897,
+  "avg_delta_endpoint": 0.8925827079116588,
+  "avg_delta_choice": 0.7390842274325768,
+  "avg_delta_cycle": 0.006788586576868653,
+  "cycle_violation_count": 74074,
+  "hard_collapse_count": 190478
+}

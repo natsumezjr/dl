@@ -1,0 +1,29 @@
+[
+  {
+    "hint": "No dominant error direction crossed configured thresholds.",
+    "likely_direction": [
+      "Inspect planned_edge_paths.json, edge_geometry_debug.json and graph_delta_debug.json for local mismatches."
+    ],
+    "suggested_next_json": [
+      "planned_edge_paths.json",
+      "edge_geometry_debug.json",
+      "graph_delta_debug.json"
+    ],
+    "suggested_config_fields": [
+      "debug.hint_thresholds"
+    ]
+  },
+  {
+    "hint": "Fewer than 5 success categories were selected.",
+    "likely_direction": [
+      "Some profiles do not yet produce enough successful cases."
+    ],
+    "suggested_next_json": [
+      "sample_selection_report.json"
+    ],
+    "suggested_config_fields": [
+      "diagnostic_profiles",
+      "sample_selection.categories"
+    ]
+  }
+]
