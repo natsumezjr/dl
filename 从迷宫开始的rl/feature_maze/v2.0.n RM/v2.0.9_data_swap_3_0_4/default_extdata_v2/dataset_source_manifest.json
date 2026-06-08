@@ -1,0 +1,25 @@
+{
+  "dataset_path": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\samples.csv",
+  "external_dataset_format": "csv",
+  "loaded_records": 4967,
+  "field_count": 34,
+  "selected_fields": {
+    "maze": "json_grid",
+    "start_pair": [
+      "start_r",
+      "start_c"
+    ],
+    "start_single": null,
+    "goal_pair": [
+      "goal_r",
+      "goal_c"
+    ],
+    "goal_single": null,
+    "bucket": "bin_key",
+    "source": "origin_generator",
+    "split": null,
+    "id": "sample_id"
+  },
+  "read_only_policy": "input files are never modified",
+  "code_dependency_policy": "no v3 code import; file input only"
+}

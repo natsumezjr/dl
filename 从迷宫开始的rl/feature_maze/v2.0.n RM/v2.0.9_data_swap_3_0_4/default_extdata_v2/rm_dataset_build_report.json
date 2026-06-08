@@ -1,0 +1,181 @@
+{
+  "external_unique_records_loaded": 4967,
+  "generate_maze_calls_served_from_external": 1000,
+  "external_dataset_reuse_cycles": 0,
+  "unsolvable_records": 0,
+  "unsolvable_examples": [],
+  "served_difficulty_counts": {
+    "hard": 627,
+    "medium": 335,
+    "easy": 27,
+    "short": 11
+  },
+  "old_generator_called": false,
+  "no_maze_repair": true,
+  "no_default_start_goal": true,
+  "no_fallback_corridor": true,
+  "served_examples": [
+    {
+      "sample_id": "item_005080_trial_005080_04_spb",
+      "bfs_len": 25,
+      "actual": "hard",
+      "target_bucket": "tree|long|mid_choice|high_endpoint",
+      "source": "sfg_generator",
+      "split": "validation"
+    },
+    {
+      "sample_id": "item_148169_trial_156974_03_stage_clo",
+      "bfs_len": 23,
+      "actual": "hard",
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "sfg_generator",
+      "split": "test"
+    },
+    {
+      "sample_id": "item_000352_trial_000352_00_pure_tbi",
+      "bfs_len": 24,
+      "actual": "hard",
+      "target_bucket": "tree|long|low_choice|mid_endpoint",
+      "source": "sfg_generator",
+      "split": "train"
+    },
+    {
+      "sample_id": "item_005578_trial_005578_03_stage_clo",
+      "bfs_len": 11,
+      "actual": "medium",
+      "target_bucket": "multi_loop|medium|high_choice|mid_endpoint",
+      "source": "sfg_generator",
+      "split": "train"
+    },
+    {
+      "sample_id": "item_001272_trial_001339_01_stage_clo",
+      "bfs_len": 14,
+      "actual": "medium",
+      "target_bucket": "multi_loop|medium|high_choice|mid_endpoint",
+      "source": "dfs_tree_generator",
+      "split": "train"
+    },
+    {
+      "sample_id": "item_001838_trial_001838_03_spb",
+      "bfs_len": 14,
+      "actual": "medium",
+      "target_bucket": "multi_loop|medium|high_choice|mid_endpoint",
+      "source": "random_wall_generator",
+      "split": "validation"
+    },
+    {
+      "sample_id": "item_145203_trial_145203_05_stage_clo",
+      "bfs_len": 21,
+      "actual": "hard",
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "random_wall_generator",
+      "split": "train"
+    },
+    {
+      "sample_id": "item_019205_trial_019205_02_stage_clo",
+      "bfs_len": 15,
+      "actual": "medium",
+      "target_bucket": "multi_loop|medium|high_choice|high_endpoint",
+      "source": "random_wall_generator",
+      "split": "train"
+    },
+    {
+      "sample_id": "item_002509_trial_002509_03_pure_tbi",
+      "bfs_len": 26,
+      "actual": "hard",
+      "target_bucket": "tree|long|mid_choice|high_endpoint",
+      "source": "sfg_generator",
+      "split": "train"
+    },
+    {
+      "sample_id": "item_147387_trial_147387_05_stage_clo",
+      "bfs_len": 26,
+      "actual": "hard",
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "sfg_generator",
+      "split": "train"
+    },
+    {
+      "sample_id": "item_031613_trial_072511_05_spb",
+      "bfs_len": 25,
+      "actual": "hard",
+      "target_bucket": "tree|long|high_choice|high_endpoint",
+      "source": "sfg_generator",
+      "split": "train"
+    },
+    {
+      "sample_id": "seed000868_step0",
+      "bfs_len": 28,
+      "actual": "hard",
+      "target_bucket": "tree|long|low_choice|mid_endpoint",
+      "source": "sfg_generator",
+      "split": "train"
+    },
+    {
+      "sample_id": "seed001203_step0",
+      "bfs_len": 25,
+      "actual": "hard",
+      "target_bucket": "tree|long|low_choice|mid_endpoint",
+      "source": "sfg_generator",
+      "split": "train"
+    },
+    {
+      "sample_id": "item_017453_trial_025056_01_pure_tbi",
+      "bfs_len": 21,
+      "actual": "hard",
+      "target_bucket": "tree|long|high_choice|high_endpoint",
+      "source": "sfg_generator",
+      "split": "train"
+    },
+    {
+      "sample_id": "item_000698_trial_000698_02_pure_tbi",
+      "bfs_len": 25,
+      "actual": "hard",
+      "target_bucket": "tree|long|low_choice|mid_endpoint",
+      "source": "sfg_generator",
+      "split": "validation"
+    },
+    {
+      "sample_id": "item_019916_trial_019916_02_stage_clo",
+      "bfs_len": 24,
+      "actual": "hard",
+      "target_bucket": "multi_loop|long|high_choice|mid_endpoint",
+      "source": "sfg_generator",
+      "split": "test"
+    },
+    {
+      "sample_id": "item_001177_trial_001177_00_pure_tbi",
+      "bfs_len": 25,
+      "actual": "hard",
+      "target_bucket": "tree|long|low_choice|mid_endpoint",
+      "source": "sfg_generator",
+      "split": "test"
+    },
+    {
+      "sample_id": "item_004964_trial_007695_00_stage_clo",
+      "bfs_len": 18,
+      "actual": "medium",
+      "target_bucket": "multi_loop|medium|high_choice|high_endpoint",
+      "source": "sfg_generator",
+      "split": "train"
+    },
+    {
+      "sample_id": "seed000174_step0",
+      "bfs_len": 24,
+      "actual": "hard",
+      "target_bucket": "multi_loop|long|mid_choice|mid_endpoint",
+      "source": "sfg_generator",
+      "split": "train"
+    },
+    {
+      "sample_id": "item_093678_trial_094565_01_spb",
+      "bfs_len": 21,
+      "actual": "hard",
+      "target_bucket": "tree|long|high_choice|high_endpoint",
+      "source": "sfg_generator",
+      "split": "test"
+    }
+  ],
+  "pairs": 94387,
+  "status": "BUILT"
+}

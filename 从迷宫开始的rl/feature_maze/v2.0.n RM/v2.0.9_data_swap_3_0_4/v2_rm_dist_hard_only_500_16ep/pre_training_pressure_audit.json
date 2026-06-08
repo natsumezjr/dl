@@ -1,0 +1,29 @@
+{
+  "status": "WARN_RED",
+  "timing": "after_rm_dataset_build_before_rm_training",
+  "pressure_values": {
+    "toward": 0.011616334309013352,
+    "away": -0.004811806226988354,
+    "wall": -0.006804528082024999,
+    "visit": -0.016168908374729275,
+    "toward-away": 0.35776601911661726,
+    "away-wall": -0.09902529050922951,
+    "absWall-absVisit": 0.027052006496871898
+  },
+  "issues": [
+    {
+      "metric": "away-wall",
+      "found": -0.09902529050922951,
+      "expected": "> 0; away should stay above wall",
+      "severity": "RED"
+    },
+    {
+      "metric": "absWall-absVisit",
+      "found": 0.027052006496871898,
+      "expected": "> 0.05; wall pressure should separate from visit pressure",
+      "severity": "RED"
+    }
+  ],
+  "action": "training_continues_but_terminal_warning_is_intentional",
+  "note": "Pressure audit is diagnostic. It does not change RM labels, model structure, or training data."
+}

@@ -1,0 +1,28 @@
+{
+  "n_stuck": 1,
+  "avg_loop_length": 8.0,
+  "avg_unique_tail": 5.0,
+  "avg_tail_visit_severity": 1.625,
+  "avg_tail_away_chosen_rate": 0.75,
+  "avg_tail_toward_available_rate": 1.0,
+  "avg_tail_escape_available_rate": 1.0,
+  "avg_tail_escape_chosen_rate": 0.25,
+  "avg_tail_all_actions_saturated_rate": 0.5,
+  "rows": [
+    {
+      "loop_length": 8,
+      "unique_tail": 5,
+      "tail_visit_severity": 1.625,
+      "tail_away_chosen_rate": 0.75,
+      "tail_toward_available_rate": 1.0,
+      "tail_escape_available_rate": 1.0,
+      "tail_escape_chosen_rate": 0.25,
+      "tail_all_actions_saturated_rate": 0.5
+    }
+  ],
+  "interpretation": [
+    "tail_toward_available_rate is high but escape_chosen_rate is low: RM still does not lift escape/toward enough.",
+    "tail_all_actions_saturated_rate is high: high-visit action separation is insufficient.",
+    "tail_away_chosen_rate is high: away reward is likely overestimated."
+  ]
+}

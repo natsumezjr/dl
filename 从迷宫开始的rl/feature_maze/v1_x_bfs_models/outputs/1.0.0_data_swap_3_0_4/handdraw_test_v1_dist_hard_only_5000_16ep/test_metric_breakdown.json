@@ -1,0 +1,138 @@
+{
+  "recomputed_difficulty": {
+    "hard": {
+      "num_tested_records": 18,
+      "rollout_success_rate": 0.0,
+      "shortest_path_success_rate": 0.0,
+      "avg_bfs_gap": 22.833333333333332,
+      "median_bfs_gap": 23.0,
+      "wall_action_rate": 0.21354166666666666,
+      "avg_wall_hits": 13.666666666666666,
+      "avg_steps": 64.0,
+      "loop_timeout_count": 14,
+      "failure_type_breakdown": {
+        "loop_timeout": 14,
+        "wall_timeout": 3,
+        "away_timeout": 1
+      }
+    },
+    "easy": {
+      "num_tested_records": 11,
+      "rollout_success_rate": 0.18181818181818182,
+      "shortest_path_success_rate": 0.0,
+      "avg_bfs_gap": 7.090909090909091,
+      "median_bfs_gap": 7.0,
+      "wall_action_rate": 0.21227197346600332,
+      "avg_wall_hits": 11.636363636363637,
+      "avg_steps": 54.81818181818182,
+      "loop_timeout_count": 7,
+      "failure_type_breakdown": {
+        "loop_timeout": 7,
+        "wall_timeout": 2,
+        "success": 2
+      }
+    },
+    "medium": {
+      "num_tested_records": 34,
+      "rollout_success_rate": 0.23529411764705882,
+      "shortest_path_success_rate": 0.11764705882352941,
+      "avg_bfs_gap": 10.058823529411764,
+      "median_bfs_gap": 11.5,
+      "wall_action_rate": 0.17498597868760515,
+      "avg_wall_hits": 9.176470588235293,
+      "avg_steps": 52.44117647058823,
+      "loop_timeout_count": 21,
+      "failure_type_breakdown": {
+        "loop_timeout": 21,
+        "away_timeout": 2,
+        "success": 8,
+        "wall_timeout": 3
+      }
+    },
+    "out_of_range": {
+      "num_tested_records": 1,
+      "rollout_success_rate": 1.0,
+      "shortest_path_success_rate": 1.0,
+      "avg_bfs_gap": 0.0,
+      "median_bfs_gap": 0.0,
+      "wall_action_rate": 0.0,
+      "avg_wall_hits": 0.0,
+      "avg_steps": 4.0,
+      "loop_timeout_count": 0,
+      "failure_type_breakdown": {
+        "success": 1
+      }
+    }
+  },
+  "split": {
+    "train": {
+      "num_tested_records": 45,
+      "rollout_success_rate": 0.2,
+      "shortest_path_success_rate": 0.06666666666666667,
+      "avg_bfs_gap": 13.666666666666666,
+      "median_bfs_gap": 12.0,
+      "wall_action_rate": 0.20617283950617285,
+      "avg_wall_hits": 11.133333333333333,
+      "avg_steps": 54.0,
+      "loop_timeout_count": 28,
+      "failure_type_breakdown": {
+        "loop_timeout": 28,
+        "wall_timeout": 6,
+        "success": 9,
+        "away_timeout": 2
+      }
+    },
+    "validation": {
+      "num_tested_records": 12,
+      "rollout_success_rate": 0.08333333333333333,
+      "shortest_path_success_rate": 0.08333333333333333,
+      "avg_bfs_gap": 10.583333333333334,
+      "median_bfs_gap": 10.0,
+      "wall_action_rate": 0.16899441340782123,
+      "avg_wall_hits": 10.083333333333334,
+      "avg_steps": 59.666666666666664,
+      "loop_timeout_count": 9,
+      "failure_type_breakdown": {
+        "loop_timeout": 9,
+        "wall_timeout": 1,
+        "away_timeout": 1,
+        "success": 1
+      }
+    },
+    "test": {
+      "num_tested_records": 7,
+      "rollout_success_rate": 0.14285714285714285,
+      "shortest_path_success_rate": 0.14285714285714285,
+      "avg_bfs_gap": 12.714285714285714,
+      "median_bfs_gap": 13.0,
+      "wall_action_rate": 0.16161616161616163,
+      "avg_wall_hits": 9.142857142857142,
+      "avg_steps": 56.57142857142857,
+      "loop_timeout_count": 5,
+      "failure_type_breakdown": {
+        "loop_timeout": 5,
+        "success": 1,
+        "wall_timeout": 1
+      }
+    }
+  },
+  "target_bucket": {
+    "unavailable": {
+      "num_tested_records": 64,
+      "rollout_success_rate": 0.171875,
+      "shortest_path_success_rate": 0.078125,
+      "avg_bfs_gap": 12.984375,
+      "median_bfs_gap": 12.0,
+      "wall_action_rate": 0.19367588932806323,
+      "avg_wall_hits": 10.71875,
+      "avg_steps": 55.34375,
+      "loop_timeout_count": 42,
+      "failure_type_breakdown": {
+        "loop_timeout": 42,
+        "wall_timeout": 8,
+        "away_timeout": 3,
+        "success": 11
+      }
+    }
+  }
+}

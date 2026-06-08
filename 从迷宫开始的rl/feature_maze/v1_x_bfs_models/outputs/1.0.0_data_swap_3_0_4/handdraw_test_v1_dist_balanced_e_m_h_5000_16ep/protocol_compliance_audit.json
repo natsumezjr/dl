@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "required_reports": [
+    "dataset_schema_report.json",
+    "dataset_source_manifest.json",
+    "conversion_report.json",
+    "split_manifest.json",
+    "bfs_label_generation_report.json",
+    "training_history.json",
+    "evaluation_summary.json",
+    "rollout_summary.json",
+    "rollout_debug.json",
+    "failure_examples.jsonl",
+    "baseline_comparison.json",
+    "protocol_compliance_audit.json"
+  ]
+}

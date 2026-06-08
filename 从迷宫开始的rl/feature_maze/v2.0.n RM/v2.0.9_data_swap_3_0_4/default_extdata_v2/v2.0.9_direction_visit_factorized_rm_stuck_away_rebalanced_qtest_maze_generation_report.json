@@ -1,0 +1,35 @@
+{
+  "easy": {
+    "difficulty": "easy",
+    "target_ratio": 0.2,
+    "actual_ratio": 0.027,
+    "n": 27,
+    "bfs_len_mean": 7.888888888888889,
+    "bfs_len_min": 6,
+    "bfs_len_p50": 8.0,
+    "bfs_len_max": 10,
+    "retry_mean": 0.0
+  },
+  "medium": {
+    "difficulty": "medium",
+    "target_ratio": 0.4,
+    "actual_ratio": 0.335,
+    "n": 335,
+    "bfs_len_mean": 13.683582089552239,
+    "bfs_len_min": 11,
+    "bfs_len_p50": 14.0,
+    "bfs_len_max": 18,
+    "retry_mean": 0.0
+  },
+  "hard": {
+    "difficulty": "hard",
+    "target_ratio": 0.4,
+    "actual_ratio": 0.627,
+    "n": 627,
+    "bfs_len_mean": 23.38755980861244,
+    "bfs_len_min": 19,
+    "bfs_len_p50": 23.0,
+    "bfs_len_max": 32,
+    "retry_mean": 0.0
+  }
+}

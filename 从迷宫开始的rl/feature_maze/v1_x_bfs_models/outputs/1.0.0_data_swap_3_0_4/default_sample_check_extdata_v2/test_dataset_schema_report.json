@@ -1,0 +1,76 @@
+{
+  "fields": [
+    "__row_index",
+    "acceptance",
+    "ascii_grid",
+    "from_rbr",
+    "from_sfg",
+    "full_bin",
+    "goal",
+    "grid",
+    "maze_id",
+    "metrics",
+    "operator",
+    "origin_generator",
+    "origin_seed_id",
+    "route",
+    "sample_id",
+    "start",
+    "target_bin",
+    "transform_history"
+  ],
+  "candidate_maze_fields": [
+    "grid",
+    "ascii_grid"
+  ],
+  "selected_maze_field": "grid",
+  "candidate_start_fields": {
+    "pairs": [],
+    "single": [
+      "start"
+    ]
+  },
+  "selected_start_pair": null,
+  "selected_start_single": "start",
+  "candidate_goal_fields": {
+    "pairs": [],
+    "single": [
+      "goal"
+    ]
+  },
+  "selected_goal_pair": null,
+  "selected_goal_single": "goal",
+  "candidate_bucket_fields": [
+    "target_bin",
+    "full_bin"
+  ],
+  "selected_bucket_field": "target_bin",
+  "candidate_source_fields": [
+    "origin_generator"
+  ],
+  "selected_source_field": "origin_generator",
+  "candidate_split_fields": [],
+  "selected_split_field": null,
+  "candidate_id_fields": [
+    "sample_id"
+  ],
+  "selected_id_field": "sample_id",
+  "candidate_metadata_fields": [
+    "from_rbr",
+    "from_sfg",
+    "origin_generator",
+    "origin_seed_id",
+    "route",
+    "target_bin"
+  ],
+  "unrecognized_fields": [
+    "__row_index",
+    "acceptance",
+    "maze_id",
+    "metrics",
+    "operator",
+    "transform_history"
+  ],
+  "blocking_reasons": [],
+  "status": "READY"
+}

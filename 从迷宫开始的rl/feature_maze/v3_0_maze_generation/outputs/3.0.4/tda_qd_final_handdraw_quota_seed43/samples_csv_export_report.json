@@ -1,6 +1,6 @@
 {
-  "csv_path": "feature_maze\\v3_0_maze_generation\\outputs\\3.0.4\\tda_qd_final_handdraw_quota_seed43(1)\\samples.csv",
-  "samples_by_bin_csv_path": "feature_maze\\v3_0_maze_generation\\outputs\\3.0.4\\tda_qd_final_handdraw_quota_seed43(1)\\samples_by_bin.csv",
+  "csv_path": "从迷宫开始的rl\\samples.csv",
+  "samples_by_bin_csv_path": "从迷宫开始的rl\\samples_by_bin.csv",
   "n_rows": 4967,
   "confirmed_samples_count": 4967,
   "row_count_matches_confirmed": true,

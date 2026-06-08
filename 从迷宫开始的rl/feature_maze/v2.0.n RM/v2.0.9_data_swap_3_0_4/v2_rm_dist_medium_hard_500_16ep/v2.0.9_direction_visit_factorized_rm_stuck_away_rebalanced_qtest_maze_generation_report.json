@@ -1,0 +1,35 @@
+{
+  "easy": {
+    "difficulty": "easy",
+    "target_ratio": 0.2,
+    "actual_ratio": 0.0,
+    "n": 0,
+    "bfs_len_mean": NaN,
+    "bfs_len_min": null,
+    "bfs_len_p50": NaN,
+    "bfs_len_max": null,
+    "retry_mean": NaN
+  },
+  "medium": {
+    "difficulty": "medium",
+    "target_ratio": 0.4,
+    "actual_ratio": 0.5,
+    "n": 500,
+    "bfs_len_mean": 13.564,
+    "bfs_len_min": 11,
+    "bfs_len_p50": 13.0,
+    "bfs_len_max": 18,
+    "retry_mean": 0.0
+  },
+  "hard": {
+    "difficulty": "hard",
+    "target_ratio": 0.4,
+    "actual_ratio": 0.5,
+    "n": 500,
+    "bfs_len_mean": 23.892,
+    "bfs_len_min": 19,
+    "bfs_len_p50": 24.0,
+    "bfs_len_max": 31,
+    "retry_mean": 0.0
+  }
+}

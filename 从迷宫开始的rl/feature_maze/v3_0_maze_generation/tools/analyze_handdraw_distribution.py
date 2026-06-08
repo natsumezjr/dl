@@ -30,6 +30,9 @@ GridChars = List[str]
 ACTIONS: List[Cell] = [(-1, 0), (1, 0), (0, -1), (0, 1)]
 PASSABLE = {".", "S", "G"}
 
+SCRIPT_PATH = Path(__file__).resolve()
+LEARNING_ROOT = SCRIPT_PATH.parent.parent.parent.parent.parent  # .../tools -> .../learning
+
 
 # -----------------------------------------------------------------------------
 # Generic helpers
@@ -1227,14 +1230,14 @@ def print_summary(input_path: Path, summary: Dict[str, Any], feasibility: Dict[s
 # -----------------------------------------------------------------------------
 def parse_args() -> argparse.Namespace:
     ap = argparse.ArgumentParser(description="Analyze hand-drawn maze distribution with full rect-room macro extraction.")
-    ap.add_argument("--input-jsonl", default="feature_maze/handdraw_mazes_ascii.jsonl")
+    ap.add_argument("--input-jsonl", default=str(LEARNING_ROOT / "从迷宫开始的rl/feature_maze/handdraw_mazes_ascii.jsonl"))
     ap.add_argument("--input-json", default=None)
     ap.add_argument("--input-txt", default=None)
-    ap.add_argument("--output-dir", default="feature_maze/v3_0_maze_generation/outputs/handdraw_distribution")
+    ap.add_argument("--output-dir", default=str(LEARNING_ROOT / "从迷宫开始的rl/feature_maze/v3_0_maze_generation/outputs/handdraw_distribution"))
     ap.add_argument("--bucket-config-json", default=None)
     ap.add_argument("--save-visualizations", action="store_true")
     ap.add_argument("--max-visualizations", type=int, default=100)
-    ap.add_argument("--target-json", default="feature_maze/v3_0_maze_generation/configs/handdraw_target_distribution_3_0_4.json")
+    ap.add_argument("--target-json", default=str(LEARNING_ROOT / "从迷宫开始的rl/feature_maze/v3_0_maze_generation/configs/handdraw_target_distribution_3_0_4.json"))
     ap.add_argument("--target-total", type=int, default=1000)
     ap.add_argument("--observed-mass", type=float, default=0.95)
     ap.add_argument("--explore-mass", type=float, default=0.05)

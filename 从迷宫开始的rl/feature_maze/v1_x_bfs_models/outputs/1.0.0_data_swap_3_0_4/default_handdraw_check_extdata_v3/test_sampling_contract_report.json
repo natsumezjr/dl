@@ -1,0 +1,77 @@
+{
+  "report_name": "sampling_contract_report",
+  "diagnostic_only": true,
+  "mode": "external",
+  "data_source_contract": {
+    "dataset_path": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\handdraw_mazes_ascii.jsonl",
+    "external_dataset_format": "jsonl",
+    "actual_format": "jsonl",
+    "maze_field": "grid",
+    "start_fields": "start",
+    "goal_fields": "goal",
+    "bfs_len_read": true,
+    "bucket_field": null,
+    "candidate_bucket_fields": [],
+    "split_field": null,
+    "source_field": null,
+    "original_data_modified": false,
+    "maze_repair": false,
+    "default_start_goal": false,
+    "fallback_corridor": false,
+    "v3_code_imported": false
+  },
+  "split_contract": {
+    "mode": "deterministic_hash_split",
+    "hash_key": "sample_id",
+    "seed": 42,
+    "ratios": {
+      "train": 0.7,
+      "validation": 0.15,
+      "test": 0.15
+    },
+    "split_counts": {
+      "train": 2,
+      "validation": 0,
+      "test": 2
+    },
+    "requested_split": "all",
+    "train_split_test_is_diagnostic_only": false
+  },
+  "difficulty_contract": {
+    "primary_fact_source": "recomputed_bfs_shortest_path_length_after_import",
+    "external_bfs_len_is_auxiliary_only": true,
+    "difficulty_filter": "all",
+    "thresholds": {
+      "easy": [
+        6,
+        10
+      ],
+      "medium": [
+        11,
+        18
+      ],
+      "hard": [
+        19,
+        48
+      ]
+    },
+    "easy_medium_hard_not_3_0_4_bucket": true
+  },
+  "sample_policy_contract": {
+    "sample_policy": "sequential",
+    "seed": 42,
+    "bucket_filter": "all",
+    "max_test_samples": 10000,
+    "selected_sample_ids": [
+      "f32256e053af0044",
+      "a706137fa2aae981",
+      "8c40f94080d8e60d",
+      "4332d911fe7481d4"
+    ]
+  },
+  "v2_previous_adapter_note": "not applicable to v1; v2 extdata_v1 shuffled records then cycled provider calls. This v1 test selects records explicitly by split/filter.",
+  "counts": {
+    "candidate_records": 4,
+    "selected_records": 4
+  }
+}

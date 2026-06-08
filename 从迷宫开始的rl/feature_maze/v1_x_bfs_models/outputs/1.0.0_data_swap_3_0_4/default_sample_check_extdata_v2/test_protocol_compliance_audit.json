@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "mode": "test",
+  "version": "1.0.0_data_swap_3_0_4_extdata_v2",
+  "script": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v1_x_bfs_models\\experiments\\train_1_0_0_cnn_bfs_action_extdata_v2.py",
+  "old_generator_called": false,
+  "model_structure_changed": false
+}

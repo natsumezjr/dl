@@ -1,0 +1,23 @@
+{
+  "input_records": 4967,
+  "converted_records": 4967,
+  "skipped_records": 0,
+  "skip_reasons": {},
+  "skipped_examples": [],
+  "mutation_policy": "read_only_no_repair_no_default_start_goal_no_fallback_corridor",
+  "split_report": {
+    "mode": "deterministic_hash_split",
+    "seed": 42,
+    "ratios": {
+      "train": 0.7,
+      "validation": 0.15,
+      "test": 0.15
+    },
+    "split_counts": {
+      "train": 3516,
+      "validation": 758,
+      "test": 693
+    },
+    "hash_key": "sample_id"
+  }
+}

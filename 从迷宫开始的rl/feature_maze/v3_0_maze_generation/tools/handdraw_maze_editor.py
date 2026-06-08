@@ -45,9 +45,9 @@ else:
 Coord = Tuple[int, int]
 Grid = List[List[str]]
 
-DEFAULT_OUTPUT_FILE = (
-    "feature_maze/v3_0_maze_generation/handdraw_samples/handdraw_mazes_ascii.txt"
-)
+SCRIPT_PATH = Path(__file__).resolve()
+LEARNING_ROOT = SCRIPT_PATH.parent.parent.parent.parent.parent  # .../tools -> .../learning
+DEFAULT_OUTPUT_FILE = str(LEARNING_ROOT / "从迷宫开始的rl/feature_maze/handdraw_mazes_ascii.txt")
 
 PASSABLE = {".", "S", "G"}
 VALID_CHARS = {"#", ".", "S", "G"}

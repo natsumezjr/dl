@@ -1,0 +1,52 @@
+{
+  "fields": [
+    "__row_index",
+    "bfs_len",
+    "cols",
+    "connected",
+    "goal",
+    "grid",
+    "maze_id",
+    "rows",
+    "start"
+  ],
+  "candidate_maze_fields": [
+    "grid"
+  ],
+  "selected_maze_field": "grid",
+  "candidate_start_fields": {
+    "pairs": [],
+    "single": [
+      "start"
+    ]
+  },
+  "selected_start_pair": null,
+  "selected_start_single": "start",
+  "candidate_goal_fields": {
+    "pairs": [],
+    "single": [
+      "goal"
+    ]
+  },
+  "selected_goal_pair": null,
+  "selected_goal_single": "goal",
+  "candidate_bucket_fields": [],
+  "selected_bucket_field": null,
+  "candidate_source_fields": [],
+  "selected_source_field": null,
+  "candidate_split_fields": [],
+  "selected_split_field": null,
+  "candidate_id_fields": [],
+  "selected_id_field": null,
+  "candidate_metadata_fields": [],
+  "unrecognized_fields": [
+    "__row_index",
+    "bfs_len",
+    "cols",
+    "connected",
+    "maze_id",
+    "rows"
+  ],
+  "blocking_reasons": [],
+  "status": "READY"
+}

@@ -1,0 +1,15 @@
+{
+  "version": "v2.0.9_data_swap_3_0_4_extdata_v3",
+  "script": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v2.0.n RM\\maze_dqn_v2_0_9_direction_visit_factorized_rm_extdata_v3.py",
+  "original_script": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v2.0.n RM\\maze_dqn_v2_0_9_direction_visit_factorized_rm.py",
+  "output_dir": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v2.0.n RM\\v2.0.9_data_swap_3_0_4\\v2_rm_dist_hard_only_500_16ep",
+  "external_dataset_path": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v3_0_maze_generation\\outputs\\3.0.4\\tda_qd_final_handdraw_quota_seed43\\samples.csv",
+  "mode": "all-rm",
+  "device": "cpu",
+  "started_at": "2026-06-08T04:53:26.738965+00:00",
+  "rm_semantics_preserved": "toward > away > wall",
+  "adapter_mvp": true,
+  "train_distribution_policy": "hard_only",
+  "train_distribution_report_path": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v2.0.n RM\\v2.0.9_data_swap_3_0_4\\v2_rm_dist_hard_only_500_16ep\\train_distribution_report.json",
+  "default_auto_final_evaluation": true
+}

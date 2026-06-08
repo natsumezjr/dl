@@ -1,0 +1,14 @@
+{
+  "input_external_mazes": 4967,
+  "labelable_mazes": 4967,
+  "generated_action_samples": 97223,
+  "unsolvable_mazes": 0,
+  "skipped_mazes": 0,
+  "unsolvable_examples": [],
+  "skipped_examples": [],
+  "label_source": "v1_common.bfs_distances + v1_common.shortest_path + v1_common.bfs_best_actions",
+  "no_maze_repair": true,
+  "no_default_start_goal": true,
+  "train_distribution_policy": "random",
+  "input_external_mazes_after_distribution_selection": 4967
+}

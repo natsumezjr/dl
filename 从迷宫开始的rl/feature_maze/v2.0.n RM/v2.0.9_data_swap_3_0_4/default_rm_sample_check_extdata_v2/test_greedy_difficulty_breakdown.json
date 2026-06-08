@@ -1,0 +1,78 @@
+{
+  "bfs_tiebreak": {
+    "easy": {
+      "difficulty": "easy",
+      "n": 0,
+      "success": NaN,
+      "wall_timeout": NaN,
+      "stuck_timeout": NaN,
+      "explore_timeout": NaN,
+      "avg_bfs_gap": NaN,
+      "wall_rate": 0.0,
+      "away_rate": 0.0,
+      "saturated_rate": 0.0
+    },
+    "medium": {
+      "difficulty": "medium",
+      "n": 0,
+      "success": NaN,
+      "wall_timeout": NaN,
+      "stuck_timeout": NaN,
+      "explore_timeout": NaN,
+      "avg_bfs_gap": NaN,
+      "wall_rate": 0.0,
+      "away_rate": 0.0,
+      "saturated_rate": 0.0
+    },
+    "hard": {
+      "difficulty": "hard",
+      "n": 100,
+      "success": 0.78,
+      "wall_timeout": 0.12,
+      "stuck_timeout": 0.1,
+      "explore_timeout": 0.0,
+      "avg_bfs_gap": 22.04,
+      "wall_rate": 0.0554305008441193,
+      "away_rate": 0.2096229600450197,
+      "saturated_rate": 0.05289814293753517
+    }
+  },
+  "pure_argmax": {
+    "easy": {
+      "difficulty": "easy",
+      "n": 0,
+      "success": NaN,
+      "wall_timeout": NaN,
+      "stuck_timeout": NaN,
+      "explore_timeout": NaN,
+      "avg_bfs_gap": NaN,
+      "wall_rate": 0.0,
+      "away_rate": 0.0,
+      "saturated_rate": 0.0
+    },
+    "medium": {
+      "difficulty": "medium",
+      "n": 0,
+      "success": NaN,
+      "wall_timeout": NaN,
+      "stuck_timeout": NaN,
+      "explore_timeout": NaN,
+      "avg_bfs_gap": NaN,
+      "wall_rate": 0.0,
+      "away_rate": 0.0,
+      "saturated_rate": 0.0
+    },
+    "hard": {
+      "difficulty": "hard",
+      "n": 100,
+      "success": 0.63,
+      "wall_timeout": 0.17,
+      "stuck_timeout": 0.2,
+      "explore_timeout": 0.0,
+      "avg_bfs_gap": 34.83,
+      "wall_rate": 0.08449046834549306,
+      "away_rate": 0.2685337726523888,
+      "saturated_rate": 0.1343845610731937
+    }
+  }
+}

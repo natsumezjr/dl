@@ -1,0 +1,522 @@
+{
+  "num_candidate_records": 64,
+  "num_filter_pass_records": 64,
+  "num_selected_records": 64,
+  "num_skipped_records": 0,
+  "skip_reasons": {},
+  "skipped_examples": [],
+  "selected_records": [
+    {
+      "sample_id": "c68476446a5166b5",
+      "split": "train",
+      "difficulty": "hard",
+      "bfs_len": 28,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "38973e4903313f76",
+      "split": "validation",
+      "difficulty": "easy",
+      "bfs_len": 10,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "6e8b0b1883e28b1d",
+      "split": "train",
+      "difficulty": "easy",
+      "bfs_len": 10,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "210149a17c977c3e",
+      "split": "train",
+      "difficulty": "medium",
+      "bfs_len": 17,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "f33b23a7749b69d7",
+      "split": "validation",
+      "difficulty": "medium",
+      "bfs_len": 17,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "426da21a5f23cf00",
+      "split": "train",
+      "difficulty": "hard",
+      "bfs_len": 30,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "0a9afd8858b9e55f",
+      "split": "validation",
+      "difficulty": "medium",
+      "bfs_len": 12,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "f655ced97cd4b87f",
+      "split": "train",
+      "difficulty": "medium",
+      "bfs_len": 17,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "7647ac3cb3fc0de2",
+      "split": "train",
+      "difficulty": "hard",
+      "bfs_len": 29,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "35c97f64668a6c77",
+      "split": "train",
+      "difficulty": "hard",
+      "bfs_len": 20,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "f7b850066d77a0c7",
+      "split": "train",
+      "difficulty": "hard",
+      "bfs_len": 23,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "605c8ccc40c2ba4a",
+      "split": "train",
+      "difficulty": "hard",
+      "bfs_len": 24,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "9820f44e20accd0a",
+      "split": "train",
+      "difficulty": "easy",
+      "bfs_len": 8,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "a335e50125df7459",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 13,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "5a787bdb2f67d2e7",
+      "split": "validation",
+      "difficulty": "hard",
+      "bfs_len": 28,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "ff3693049b9bd8ec",
+      "split": "validation",
+      "difficulty": "medium",
+      "bfs_len": 16,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "c7bfa182dbd8cbbd",
+      "split": "train",
+      "difficulty": "medium",
+      "bfs_len": 12,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "2bdabcb1f8db4ef8",
+      "split": "train",
+      "difficulty": "hard",
+      "bfs_len": 24,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "9a1e22124e52e375",
+      "split": "train",
+      "difficulty": "medium",
+      "bfs_len": 14,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "1426916b2571a858",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 21,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "c49e201d8b15d665",
+      "split": "train",
+      "difficulty": "hard",
+      "bfs_len": 23,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "f483c2b5b16c4478",
+      "split": "train",
+      "difficulty": "medium",
+      "bfs_len": 18,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "c7dd36eebe3b7ae4",
+      "split": "validation",
+      "difficulty": "medium",
+      "bfs_len": 12,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "c961270760a0c700",
+      "split": "train",
+      "difficulty": "easy",
+      "bfs_len": 10,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "e849fc9c41fa3146",
+      "split": "train",
+      "difficulty": "medium",
+      "bfs_len": 14,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "e24995cdb72a0467",
+      "split": "train",
+      "difficulty": "medium",
+      "bfs_len": 14,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "9c0976ac17a4ce09",
+      "split": "train",
+      "difficulty": "hard",
+      "bfs_len": 20,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "21070eaaa9e0a452",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 15,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "5eede0347a2e825b",
+      "split": "train",
+      "difficulty": "medium",
+      "bfs_len": 13,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "ea5b0a04a4cf3684",
+      "split": "train",
+      "difficulty": "medium",
+      "bfs_len": 13,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "1baa548be218354e",
+      "split": "train",
+      "difficulty": "hard",
+      "bfs_len": 28,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "129ea3c3a5205311",
+      "split": "train",
+      "difficulty": "medium",
+      "bfs_len": 12,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "fba94b4d9cbbd11d",
+      "split": "train",
+      "difficulty": "medium",
+      "bfs_len": 15,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "82a785d66c6e47c2",
+      "split": "train",
+      "difficulty": "easy",
+      "bfs_len": 10,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "aaae78c0a7860a5b",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 12,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "5af97404f058b480",
+      "split": "validation",
+      "difficulty": "medium",
+      "bfs_len": 14,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "a189ceedc93231d5",
+      "split": "train",
+      "difficulty": "medium",
+      "bfs_len": 14,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "25a47db61fced664",
+      "split": "validation",
+      "difficulty": "hard",
+      "bfs_len": 30,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "16d394d2613b83e1",
+      "split": "validation",
+      "difficulty": "easy",
+      "bfs_len": 8,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "964b1af8bbfa5028",
+      "split": "train",
+      "difficulty": "medium",
+      "bfs_len": 12,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "fb8af3ef1658588c",
+      "split": "train",
+      "difficulty": "hard",
+      "bfs_len": 37,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "5ae51e7b9ab52cec",
+      "split": "train",
+      "difficulty": "hard",
+      "bfs_len": 32,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "a6113b16a48f892e",
+      "split": "train",
+      "difficulty": "medium",
+      "bfs_len": 16,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "0e58f6419a0aff3d",
+      "split": "train",
+      "difficulty": "medium",
+      "bfs_len": 14,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "ddd6067e438573fe",
+      "split": "train",
+      "difficulty": "medium",
+      "bfs_len": 13,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "340ac1a0a4ad4fb7",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 13,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "759192935247f850",
+      "split": "train",
+      "difficulty": "easy",
+      "bfs_len": 9,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "ecdfe3a3e7639674",
+      "split": "train",
+      "difficulty": "medium",
+      "bfs_len": 18,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "d51468027a3e8a59",
+      "split": "train",
+      "difficulty": "out_of_range",
+      "bfs_len": 4,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "a363dad05cd33849",
+      "split": "train",
+      "difficulty": "easy",
+      "bfs_len": 7,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "4cb282afd136086c",
+      "split": "train",
+      "difficulty": "hard",
+      "bfs_len": 35,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "f3c3d30a7679dbae",
+      "split": "train",
+      "difficulty": "medium",
+      "bfs_len": 15,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "514fddb2e358ebc7",
+      "split": "train",
+      "difficulty": "easy",
+      "bfs_len": 9,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "2ad9dbc77cf4dfff",
+      "split": "train",
+      "difficulty": "medium",
+      "bfs_len": 12,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "e112b0f9691aeaca",
+      "split": "train",
+      "difficulty": "hard",
+      "bfs_len": 24,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "b66f994d6f789a71",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 11,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "c25e750c9540a936",
+      "split": "validation",
+      "difficulty": "medium",
+      "bfs_len": 12,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "1c5c1ed256a41423",
+      "split": "train",
+      "difficulty": "medium",
+      "bfs_len": 12,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "6021f7c576e0466f",
+      "split": "validation",
+      "difficulty": "medium",
+      "bfs_len": 15,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "2bf3cc4d418ccb4b",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 12,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "893d6b68f84e286d",
+      "split": "train",
+      "difficulty": "hard",
+      "bfs_len": 25,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "712672f4a66be80a",
+      "split": "train",
+      "difficulty": "medium",
+      "bfs_len": 12,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "d69502dcf23e2d65",
+      "split": "validation",
+      "difficulty": "easy",
+      "bfs_len": 8,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "a6d0c983e649eb47",
+      "split": "train",
+      "difficulty": "easy",
+      "bfs_len": 10,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    }
+  ]
+}

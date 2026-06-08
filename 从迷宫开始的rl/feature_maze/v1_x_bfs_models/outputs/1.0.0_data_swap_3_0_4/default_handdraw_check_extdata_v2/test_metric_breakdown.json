@@ -1,0 +1,67 @@
+{
+  "recomputed_difficulty": {
+    "medium": {
+      "num_tested_records": 6,
+      "rollout_success_rate": 0.0,
+      "shortest_path_success_rate": 0.0,
+      "avg_bfs_gap": 11.166666666666666,
+      "median_bfs_gap": 11.0,
+      "wall_action_rate": 0.15364583333333334,
+      "avg_wall_hits": 9.833333333333334,
+      "avg_steps": 64.0,
+      "loop_timeout_count": 5,
+      "failure_type_breakdown": {
+        "loop_timeout": 5,
+        "wall_timeout": 1
+      }
+    },
+    "hard": {
+      "num_tested_records": 1,
+      "rollout_success_rate": 0.0,
+      "shortest_path_success_rate": 0.0,
+      "avg_bfs_gap": 23.0,
+      "median_bfs_gap": 23.0,
+      "wall_action_rate": 0.0,
+      "avg_wall_hits": 0.0,
+      "avg_steps": 64.0,
+      "loop_timeout_count": 1,
+      "failure_type_breakdown": {
+        "loop_timeout": 1
+      }
+    }
+  },
+  "split": {
+    "test": {
+      "num_tested_records": 7,
+      "rollout_success_rate": 0.0,
+      "shortest_path_success_rate": 0.0,
+      "avg_bfs_gap": 12.857142857142858,
+      "median_bfs_gap": 11.0,
+      "wall_action_rate": 0.13169642857142858,
+      "avg_wall_hits": 8.428571428571429,
+      "avg_steps": 64.0,
+      "loop_timeout_count": 6,
+      "failure_type_breakdown": {
+        "loop_timeout": 6,
+        "wall_timeout": 1
+      }
+    }
+  },
+  "target_bucket": {
+    "unavailable": {
+      "num_tested_records": 7,
+      "rollout_success_rate": 0.0,
+      "shortest_path_success_rate": 0.0,
+      "avg_bfs_gap": 12.857142857142858,
+      "median_bfs_gap": 11.0,
+      "wall_action_rate": 0.13169642857142858,
+      "avg_wall_hits": 8.428571428571429,
+      "avg_steps": 64.0,
+      "loop_timeout_count": 6,
+      "failure_type_breakdown": {
+        "loop_timeout": 6,
+        "wall_timeout": 1
+      }
+    }
+  }
+}

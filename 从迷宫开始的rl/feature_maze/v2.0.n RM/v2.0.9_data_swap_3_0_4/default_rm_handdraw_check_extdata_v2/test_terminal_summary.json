@@ -1,0 +1,31 @@
+{
+  "selected": 7,
+  "provider_calls": 252,
+  "reward_model_path": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v2.0.n RM\\v2.0.9_data_swap_3_0_4\\default_extdata_v2\\v2.0.9_direction_visit_factorized_rm_stuck_away_rebalanced_qtest_reward_model_best_pure_argmax.pt",
+  "output_dir": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v2.0.n RM\\v2.0.9_data_swap_3_0_4\\default_rm_handdraw_check_extdata_v2",
+  "strategies": {
+    "bfs_tiebreak": {
+      "success": 0.7142857142857143,
+      "wall_timeout": 0.14285714285714285,
+      "stuck_timeout": 0.14285714285714285,
+      "explore_timeout": 0.0,
+      "avg_bfs_gap": 27.428571428571427,
+      "wall_chosen_rate": null,
+      "toward_chosen_rate": null,
+      "away_chosen_rate": null,
+      "all_actions_saturated_rate": null
+    },
+    "pure_argmax": {
+      "success": 0.42857142857142855,
+      "wall_timeout": 0.42857142857142855,
+      "stuck_timeout": 0.14285714285714285,
+      "explore_timeout": 0.0,
+      "avg_bfs_gap": 47.285714285714285,
+      "wall_chosen_rate": null,
+      "toward_chosen_rate": null,
+      "away_chosen_rate": null,
+      "all_actions_saturated_rate": null
+    }
+  },
+  "note": "Diagnostic test-only summary. Success here is rollout success on the selected external test subset, not a formal generalization claim."
+}

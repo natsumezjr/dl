@@ -1,0 +1,12 @@
+{
+  "status": "DONE",
+  "checkpoint_path": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v1_x_bfs_models\\outputs\\1.0.0_data_swap_3_0_4\\v1_dist_hard_only_5000_16ep\\1_0_0_extdata_v3_cnn_bfs_action_best.pt",
+  "sample_check": {
+    "status": "DONE",
+    "output_dir": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v1_x_bfs_models\\outputs\\1.0.0_data_swap_3_0_4\\default_sample_check_extdata_v3"
+  },
+  "handdraw_check": {
+    "status": "DONE",
+    "output_dir": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v1_x_bfs_models\\outputs\\1.0.0_data_swap_3_0_4\\default_handdraw_check_extdata_v3"
+  }
+}

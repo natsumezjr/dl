@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "required_reports": [
+    "rm_dataset_build_report.json",
+    "sample_profile_distribution.json",
+    "pair_bucket_report.json",
+    "primitive_pressure_report.json",
+    "rm_training_history.json",
+    "primitive_reward_score_report.json",
+    "contextual_probe.json",
+    "greedy_rollout_summary.json",
+    "greedy_difficulty_breakdown.json",
+    "stuck_timeout_analysis.json",
+    "failure_tail_action_rank_report.json",
+    "baseline_comparison.json",
+    "protocol_compliance_audit.json"
+  ],
+  "adapter_scope": "MVP external dataset adapter; original RM primitive semantics preserved"
+}

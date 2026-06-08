@@ -1,0 +1,121 @@
+{
+  "fields": [
+    "sample_id",
+    "bin_key",
+    "cycle_bin",
+    "bfs_bin",
+    "choice_bin",
+    "endpoint_bin",
+    "target_status",
+    "target_quota",
+    "target_count_final",
+    "quota_scope_member_handdraw",
+    "quota_scope_member_exploration",
+    "is_critical_long_bin",
+    "bfs_len",
+    "rect_room_compressed_cycle_rank",
+    "rect_room_macro_choice_count",
+    "rect_room_macro_endpoint_count",
+    "free_ratio",
+    "reachable_free_ratio",
+    "origin_generator",
+    "origin_seed_id",
+    "route_id",
+    "from_sfg",
+    "from_rbr",
+    "accepted_as_commit",
+    "lineage_id",
+    "grid_hash",
+    "grid_start_goal_hash",
+    "start_r",
+    "start_c",
+    "goal_r",
+    "goal_c",
+    "ascii_grid",
+    "json_grid",
+    "visualization_path"
+  ],
+  "candidate_maze_fields": [
+    "json_grid",
+    "ascii_grid"
+  ],
+  "selected_maze_field": "json_grid",
+  "candidate_start_fields": {
+    "pairs": [
+      [
+        "start_r",
+        "start_c"
+      ]
+    ],
+    "single": []
+  },
+  "selected_start_pair": [
+    "start_r",
+    "start_c"
+  ],
+  "selected_start_single": null,
+  "candidate_goal_fields": {
+    "pairs": [
+      [
+        "goal_r",
+        "goal_c"
+      ]
+    ],
+    "single": []
+  },
+  "selected_goal_pair": [
+    "goal_r",
+    "goal_c"
+  ],
+  "selected_goal_single": null,
+  "candidate_bucket_fields": [
+    "bin_key"
+  ],
+  "selected_bucket_field": "bin_key",
+  "candidate_source_fields": [
+    "origin_generator",
+    "route_id"
+  ],
+  "selected_source_field": "origin_generator",
+  "candidate_split_fields": [],
+  "selected_split_field": null,
+  "candidate_id_fields": [
+    "sample_id",
+    "lineage_id",
+    "grid_start_goal_hash",
+    "grid_hash"
+  ],
+  "selected_id_field": "sample_id",
+  "candidate_metadata_fields": [
+    "target_status",
+    "target_quota",
+    "target_count_final",
+    "quota_scope_member_handdraw",
+    "quota_scope_member_exploration",
+    "rect_room_compressed_cycle_rank",
+    "rect_room_macro_choice_count",
+    "rect_room_macro_endpoint_count",
+    "origin_generator",
+    "origin_seed_id",
+    "route_id",
+    "from_sfg",
+    "from_rbr",
+    "lineage_id",
+    "grid_hash",
+    "grid_start_goal_hash",
+    "visualization_path"
+  ],
+  "unrecognized_fields": [
+    "cycle_bin",
+    "bfs_bin",
+    "choice_bin",
+    "endpoint_bin",
+    "is_critical_long_bin",
+    "bfs_len",
+    "free_ratio",
+    "reachable_free_ratio",
+    "accepted_as_commit"
+  ],
+  "blocking_reasons": [],
+  "status": "READY"
+}

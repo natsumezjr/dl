@@ -1,0 +1,17 @@
+{
+  "old_baseline_path": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v2.0.n RM\\v2.0.9\\default",
+  "new_data_run_path": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v2.0.n RM\\v2.0.9_data_swap_3_0_4\\v2_rm_dist_medium_hard_500_16ep",
+  "comparable_metrics": [
+    "pair_bucket_report",
+    "primitive_pressure_report",
+    "primitive_reward_score_report",
+    "contextual_probe",
+    "greedy_rollout_summary",
+    "greedy_difficulty_breakdown",
+    "stuck_timeout_analysis",
+    "failure_tail_action_rank_report"
+  ],
+  "non_comparable_metrics": [],
+  "non_comparable_reasons": {},
+  "note": "Diagnostic path comparison only; not an improvement claim."
+}

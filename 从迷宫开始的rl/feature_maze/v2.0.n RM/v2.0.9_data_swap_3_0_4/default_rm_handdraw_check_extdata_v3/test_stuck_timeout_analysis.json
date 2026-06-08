@@ -1,0 +1,37 @@
+{
+  "n_stuck": 2,
+  "avg_loop_length": 8.0,
+  "avg_unique_tail": 2.0,
+  "avg_tail_visit_severity": 13.0,
+  "avg_tail_away_chosen_rate": 0.5,
+  "avg_tail_toward_available_rate": 1.0,
+  "avg_tail_escape_available_rate": 1.0,
+  "avg_tail_escape_chosen_rate": 0.5,
+  "avg_tail_all_actions_saturated_rate": 0.5,
+  "rows": [
+    {
+      "loop_length": 8,
+      "unique_tail": 2,
+      "tail_visit_severity": 10.5,
+      "tail_away_chosen_rate": 0.5,
+      "tail_toward_available_rate": 1.0,
+      "tail_escape_available_rate": 1.0,
+      "tail_escape_chosen_rate": 0.5,
+      "tail_all_actions_saturated_rate": 0.0
+    },
+    {
+      "loop_length": 8,
+      "unique_tail": 2,
+      "tail_visit_severity": 15.5,
+      "tail_away_chosen_rate": 0.5,
+      "tail_toward_available_rate": 1.0,
+      "tail_escape_available_rate": 1.0,
+      "tail_escape_chosen_rate": 0.5,
+      "tail_all_actions_saturated_rate": 1.0
+    }
+  ],
+  "interpretation": [
+    "tail_all_actions_saturated_rate is high: high-visit action separation is insufficient.",
+    "tail_away_chosen_rate is high: away reward is likely overestimated."
+  ]
+}

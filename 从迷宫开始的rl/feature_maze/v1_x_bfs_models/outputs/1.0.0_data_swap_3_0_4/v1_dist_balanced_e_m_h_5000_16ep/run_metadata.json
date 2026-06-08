@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0_data_swap_3_0_4_extdata_v3",
+  "script": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v1_x_bfs_models\\experiments\\train_1_0_0_cnn_bfs_action_extdata_v3.py",
+  "model_summary": {
+    "model_name": "CNNBFSActionPolicy",
+    "grid_size": 8,
+    "in_channels": 2,
+    "conv_channels": [
+      32,
+      64
+    ],
+    "hidden_dim": 128,
+    "dropout": 0.0,
+    "out_dim": 4,
+    "n_params": 544036
+  },
+  "started_at": "2026-06-08T02:20:01.783654+00:00",
+  "external_dataset_path": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v3_0_maze_generation\\outputs\\3.0.4\\tda_qd_final_handdraw_quota_seed43\\confirmed_samples.jsonl",
+  "output_dir": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v1_x_bfs_models\\outputs\\1.0.0_data_swap_3_0_4\\v1_dist_balanced_e_m_h_5000_16ep",
+  "n_train_samples": 68561,
+  "n_val_samples": 15088,
+  "n_test_samples": 13292,
+  "train_distribution_policy": "balanced_e_m_h",
+  "train_distribution_report_path": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v1_x_bfs_models\\outputs\\1.0.0_data_swap_3_0_4\\v1_dist_balanced_e_m_h_5000_16ep\\train_distribution_report.json",
+  "default_auto_final_evaluation": true
+}

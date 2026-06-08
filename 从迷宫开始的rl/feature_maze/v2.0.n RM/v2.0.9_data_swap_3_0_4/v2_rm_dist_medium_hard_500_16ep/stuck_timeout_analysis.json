@@ -1,0 +1,13 @@
+{
+  "n_stuck": 0,
+  "avg_loop_length": NaN,
+  "avg_unique_tail": NaN,
+  "avg_tail_visit_severity": NaN,
+  "avg_tail_away_chosen_rate": NaN,
+  "avg_tail_toward_available_rate": NaN,
+  "avg_tail_escape_available_rate": NaN,
+  "avg_tail_escape_chosen_rate": NaN,
+  "avg_tail_all_actions_saturated_rate": NaN,
+  "rows": [],
+  "interpretation": []
+}

@@ -1,0 +1,94 @@
+{
+  "rollout_success_rate": 0.775,
+  "shortest_path_success_rate": 0.73,
+  "avg_bfs_gap": 2.065,
+  "avg_wall_hits": 1.24,
+  "avg_steps": 22.555,
+  "difficulty_breakdown": {
+    "easy": {
+      "n": 109,
+      "success_rate": 0.7981651376146789,
+      "shortest_path_success_rate": 0.7522935779816514,
+      "avg_bfs_gap": 1.4220183486238531
+    },
+    "medium": {
+      "n": 91,
+      "success_rate": 0.7472527472527473,
+      "shortest_path_success_rate": 0.7032967032967034,
+      "avg_bfs_gap": 2.8351648351648353
+    }
+  },
+  "bfs_len_breakdown": {
+    "6": {
+      "n": 30,
+      "success_rate": 0.8333333333333334,
+      "avg_bfs_gap": 0.8666666666666667
+    },
+    "7": {
+      "n": 21,
+      "success_rate": 0.8571428571428571,
+      "avg_bfs_gap": 0.8095238095238095
+    },
+    "8": {
+      "n": 23,
+      "success_rate": 0.6956521739130435,
+      "avg_bfs_gap": 2.260869565217391
+    },
+    "9": {
+      "n": 24,
+      "success_rate": 0.8333333333333334,
+      "avg_bfs_gap": 1.3333333333333333
+    },
+    "10": {
+      "n": 11,
+      "success_rate": 0.7272727272727273,
+      "avg_bfs_gap": 2.5454545454545454
+    },
+    "11": {
+      "n": 13,
+      "success_rate": 0.6153846153846154,
+      "avg_bfs_gap": 3.4615384615384617
+    },
+    "12": {
+      "n": 13,
+      "success_rate": 0.7692307692307693,
+      "avg_bfs_gap": 2.0
+    },
+    "13": {
+      "n": 13,
+      "success_rate": 0.5384615384615384,
+      "avg_bfs_gap": 6.0
+    },
+    "14": {
+      "n": 19,
+      "success_rate": 0.8421052631578947,
+      "avg_bfs_gap": 1.368421052631579
+    },
+    "15": {
+      "n": 19,
+      "success_rate": 0.9473684210526315,
+      "avg_bfs_gap": 0.47368421052631576
+    },
+    "16": {
+      "n": 5,
+      "success_rate": 0.6,
+      "avg_bfs_gap": 6.0
+    },
+    "17": {
+      "n": 8,
+      "success_rate": 0.75,
+      "avg_bfs_gap": 3.25
+    },
+    "18": {
+      "n": 1,
+      "success_rate": 0.0,
+      "avg_bfs_gap": 18.0
+    }
+  },
+  "failure_type_breakdown": {
+    "success": 155,
+    "loop_timeout": 41,
+    "wall_timeout": 2,
+    "away_timeout": 2
+  }
+}

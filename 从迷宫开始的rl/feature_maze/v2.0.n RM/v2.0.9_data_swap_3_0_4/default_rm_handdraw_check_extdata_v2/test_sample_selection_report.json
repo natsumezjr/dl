@@ -1,0 +1,66 @@
+{
+  "num_candidate_records": 64,
+  "num_filter_pass_records": 7,
+  "num_selected_records": 7,
+  "num_skipped_records": 0,
+  "skip_reasons": {},
+  "skipped_examples": [],
+  "selected_records": [
+    {
+      "sample_id": "a335e50125df7459",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 13,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "1426916b2571a858",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 21,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "21070eaaa9e0a452",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 15,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "aaae78c0a7860a5b",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 12,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "340ac1a0a4ad4fb7",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 13,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "b66f994d6f789a71",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 11,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "2bf3cc4d418ccb4b",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 12,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    }
+  ]
+}

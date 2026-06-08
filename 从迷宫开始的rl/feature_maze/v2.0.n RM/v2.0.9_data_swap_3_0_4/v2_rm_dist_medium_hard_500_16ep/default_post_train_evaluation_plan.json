@@ -1,0 +1,12 @@
+{
+  "status": "DONE",
+  "checkpoint_path": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v2.0.n RM\\v2.0.9_data_swap_3_0_4\\v2_rm_dist_medium_hard_500_16ep\\v2.0.9_direction_visit_factorized_rm_stuck_away_rebalanced_qtest_reward_model_best_pure_argmax.pt",
+  "sample_check": {
+    "status": "DONE",
+    "output_dir": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v2.0.n RM\\v2.0.9_data_swap_3_0_4\\default_rm_sample_check_extdata_v3"
+  },
+  "handdraw_check": {
+    "status": "DONE",
+    "output_dir": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v2.0.n RM\\v2.0.9_data_swap_3_0_4\\default_rm_handdraw_check_extdata_v3"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "version": "v2.0.9_data_swap_3_0_4_extdata_v2",
+  "script": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v2.0.n RM\\maze_dqn_v2_0_9_direction_visit_factorized_rm_extdata_v2.py",
+  "original_script": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v2.0.n RM\\maze_dqn_v2_0_9_direction_visit_factorized_rm.py",
+  "output_dir": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v2.0.n RM\\v2.0.9_data_swap_3_0_4\\default_extdata_v2",
+  "external_dataset_path": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\samples.csv",
+  "mode": "all-rm",
+  "device": "cpu",
+  "started_at": "2026-06-07T17:21:31.412895+00:00",
+  "rm_semantics_preserved": "toward > away > wall",
+  "adapter_mvp": true,
+  "default_auto_final_evaluation": true
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "mode": "test",
+  "version": "v2.0.9_data_swap_3_0_4_extdata_v3",
+  "script": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v2.0.n RM\\maze_dqn_v2_0_9_direction_visit_factorized_rm_extdata_v3.py",
+  "old_generator_called": false,
+  "q_model_enabled": false,
+  "rm_semantics_preserved": "toward > away > wall"
+}

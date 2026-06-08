@@ -1,0 +1,58 @@
+{
+  "success_timeout": {
+    "bucket": "success_timeout",
+    "min": 0.28,
+    "max": 0.52,
+    "scale": 1.2,
+    "pair_count": 8
+  },
+  "explore_timeout": {
+    "bucket": "explore_timeout",
+    "min": 0.08,
+    "max": 0.2,
+    "scale": 0.9,
+    "pair_count": 3
+  },
+  "global_quant": {
+    "bucket": "global_quant",
+    "min": 0.0,
+    "max": 0.04,
+    "scale": 0.8,
+    "pair_count": 7
+  },
+  "timeout_quant": {
+    "bucket": "timeout_quant",
+    "min": 0.0,
+    "max": 0.03,
+    "scale": 0.8,
+    "pair_count": 1
+  },
+  "progress": {
+    "bucket": "progress",
+    "min": 0.14,
+    "max": 0.38,
+    "scale": 0.9,
+    "pair_count": 28
+  },
+  "visit": {
+    "bucket": "visit",
+    "min": 0.08,
+    "max": 0.24,
+    "scale": 0.55,
+    "pair_count": 24
+  },
+  "wall": {
+    "bucket": "wall",
+    "min": 0.22,
+    "max": 0.4,
+    "scale": 1.05,
+    "pair_count": 12
+  },
+  "stuck_escape": {
+    "bucket": "stuck_escape",
+    "min": 0.12,
+    "max": 0.3,
+    "scale": 0.8,
+    "pair_count": 16
+  }
+}

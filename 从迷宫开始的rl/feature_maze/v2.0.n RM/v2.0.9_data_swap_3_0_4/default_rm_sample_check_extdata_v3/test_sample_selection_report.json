@@ -1,0 +1,810 @@
+{
+  "num_candidate_records": 4967,
+  "num_filter_pass_records": 693,
+  "num_selected_records": 100,
+  "num_skipped_records": 0,
+  "skip_reasons": {},
+  "skipped_examples": [],
+  "selected_records": [
+    {
+      "sample_id": "item_002472_trial_047890_03_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "dfs_tree_generator"
+    },
+    {
+      "sample_id": "item_002472_trial_136746_02_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "dfs_tree_generator"
+    },
+    {
+      "sample_id": "item_003964_trial_012281_05_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 21,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "dfs_tree_generator"
+    },
+    {
+      "sample_id": "item_004977_trial_087502_01_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_005634_trial_013132_04_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 24,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_008416_trial_008416_03_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 23,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_013564_trial_035364_00_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 25,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_026356_trial_060116_03_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 25,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_026356_trial_077087_00_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 25,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_030002_trial_030967_01_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 24,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_031209_trial_031449_04_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 21,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_035544_trial_060770_00_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 21,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_038482_trial_040830_03_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 24,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_039301_trial_041121_02_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 23,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_043167_trial_068953_02_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 23,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "dfs_tree_generator"
+    },
+    {
+      "sample_id": "item_043490_trial_047576_05_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 27,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_044627_trial_044807_03_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 21,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_046578_trial_046578_05_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 28,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_047298_trial_052288_01_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_049482_trial_049482_02_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 21,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_049851_trial_053374_00_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_050405_trial_050405_04_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 21,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "dfs_tree_generator"
+    },
+    {
+      "sample_id": "item_058292_trial_102467_02_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_058496_trial_058496_03_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 21,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_071394_trial_071394_05_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 21,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_074364_trial_085044_01_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 21,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_076422_trial_080675_05_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 21,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "dfs_tree_generator"
+    },
+    {
+      "sample_id": "item_078868_trial_078868_01_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 21,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_080227_trial_080801_01_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_086105_trial_103857_01_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 24,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_086345_trial_091775_02_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 26,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_086750_trial_092553_00_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_090945_trial_094640_03_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 21,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_091947_trial_091947_01_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 21,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_092306_trial_100358_00_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 26,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_093008_trial_108581_02_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_093817_trial_097360_02_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_094614_trial_094614_02_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_096225_trial_096225_05_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 23,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_098416_trial_106688_01_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 24,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_099905_trial_099905_00_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_099905_trial_099905_04_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_101352_trial_106915_02_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 21,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_107876_trial_152979_02_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 23,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "dfs_tree_generator"
+    },
+    {
+      "sample_id": "item_109033_trial_109033_05_random",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 21,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_110674_trial_138068_03_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 23,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_113269_trial_136826_02_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 24,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_113755_trial_120399_05_random",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "dfs_tree_generator"
+    },
+    {
+      "sample_id": "item_114609_trial_121986_00_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 23,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_118024_trial_118434_02_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 24,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_118024_trial_118434_05_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 24,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_120218_trial_128911_04_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 23,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_121815_trial_126413_05_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 23,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_123324_trial_123324_01_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_123462_trial_140872_05_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 25,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_123539_trial_158790_00_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 24,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_124426_trial_127484_05_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 21,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "dfs_tree_generator"
+    },
+    {
+      "sample_id": "item_129825_trial_129825_00_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 26,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_130519_trial_130519_00_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 21,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_132573_trial_149946_03_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_133627_trial_133627_01_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 25,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_133740_trial_133740_04_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_135732_trial_135732_04_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 23,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_139192_trial_139192_05_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 28,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_141340_trial_143632_02_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_145203_trial_145203_03_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 21,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_146369_trial_155356_03_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_148169_trial_156974_03_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 23,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_148270_trial_148270_03_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_154169_trial_155709_03_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 21,
+      "target_bucket": "multi_loop|long|high_choice|high_endpoint",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_050885_trial_050885_00_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 25,
+      "target_bucket": "multi_loop|long|high_choice|low_endpoint",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_056055_trial_056055_00_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 21,
+      "target_bucket": "multi_loop|long|high_choice|low_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_067439_trial_067439_02_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 21,
+      "target_bucket": "multi_loop|long|high_choice|low_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_069722_trial_069722_00_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 21,
+      "target_bucket": "multi_loop|long|high_choice|low_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_109170_trial_109170_00_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 23,
+      "target_bucket": "multi_loop|long|high_choice|low_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_122938_trial_122938_05_random",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 23,
+      "target_bucket": "multi_loop|long|high_choice|low_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000436_trial_000498_01_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "multi_loop|long|high_choice|mid_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_001889_trial_001944_04_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 23,
+      "target_bucket": "multi_loop|long|high_choice|mid_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_002093_trial_010877_01_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 24,
+      "target_bucket": "multi_loop|long|high_choice|mid_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_002454_trial_011203_05_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 28,
+      "target_bucket": "multi_loop|long|high_choice|mid_endpoint",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_002821_trial_022124_02_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 21,
+      "target_bucket": "multi_loop|long|high_choice|mid_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_003608_trial_003608_04_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 25,
+      "target_bucket": "multi_loop|long|high_choice|mid_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_004547_trial_004547_03_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 23,
+      "target_bucket": "multi_loop|long|high_choice|mid_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_004934_trial_006600_04_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "multi_loop|long|high_choice|mid_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_005114_trial_022007_01_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "multi_loop|long|high_choice|mid_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_005259_trial_010327_00_random",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "multi_loop|long|high_choice|mid_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_005259_trial_011217_02_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "multi_loop|long|high_choice|mid_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_005290_trial_020931_00_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "multi_loop|long|high_choice|mid_endpoint",
+      "source": "dfs_tree_generator"
+    },
+    {
+      "sample_id": "item_005791_trial_006893_03_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "multi_loop|long|high_choice|mid_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_005970_trial_015080_05_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 21,
+      "target_bucket": "multi_loop|long|high_choice|mid_endpoint",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_005970_trial_017433_01_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 21,
+      "target_bucket": "multi_loop|long|high_choice|mid_endpoint",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_006283_trial_006283_00_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 23,
+      "target_bucket": "multi_loop|long|high_choice|mid_endpoint",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_006448_trial_006980_01_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 21,
+      "target_bucket": "multi_loop|long|high_choice|mid_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_007163_trial_007163_03_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 25,
+      "target_bucket": "multi_loop|long|high_choice|mid_endpoint",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_007396_trial_007396_04_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 24,
+      "target_bucket": "multi_loop|long|high_choice|mid_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_008548_trial_008548_04_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 23,
+      "target_bucket": "multi_loop|long|high_choice|mid_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_009568_trial_009568_05_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "multi_loop|long|high_choice|mid_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_011421_trial_011421_02_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "multi_loop|long|high_choice|mid_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_011685_trial_011685_01_random",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 23,
+      "target_bucket": "multi_loop|long|high_choice|mid_endpoint",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_012392_trial_012392_04_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 21,
+      "target_bucket": "multi_loop|long|high_choice|mid_endpoint",
+      "source": "dfs_tree_generator"
+    }
+  ]
+}

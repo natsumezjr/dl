@@ -1,0 +1,137 @@
+{
+  "report_name": "sampling_contract_report",
+  "diagnostic_only": true,
+  "mode": "external",
+  "data_source_contract": {
+    "dataset_path": "从迷宫开始的rl/feature_maze/handdraw_mazes_ascii.jsonl",
+    "external_dataset_format": "jsonl",
+    "actual_format": "jsonl",
+    "maze_field": "grid",
+    "start_fields": "start",
+    "goal_fields": "goal",
+    "bfs_len_read": true,
+    "bucket_field": null,
+    "candidate_bucket_fields": [],
+    "split_field": null,
+    "source_field": null,
+    "original_data_modified": false,
+    "maze_repair": false,
+    "default_start_goal": false,
+    "fallback_corridor": false,
+    "v3_code_imported": false
+  },
+  "split_contract": {
+    "mode": "deterministic_hash_split",
+    "hash_key": "sample_id",
+    "seed": 42,
+    "ratios": {
+      "train": 0.7,
+      "validation": 0.15,
+      "test": 0.15
+    },
+    "split_counts": {
+      "train": 45,
+      "validation": 12,
+      "test": 7
+    },
+    "requested_split": "all",
+    "train_split_test_is_diagnostic_only": false
+  },
+  "difficulty_contract": {
+    "primary_fact_source": "recomputed_bfs_shortest_path_length_after_import",
+    "external_bfs_len_is_auxiliary_only": true,
+    "difficulty_filter": "all",
+    "thresholds": {
+      "easy": [
+        6,
+        10
+      ],
+      "medium": [
+        11,
+        18
+      ],
+      "hard": [
+        19,
+        48
+      ]
+    },
+    "easy_medium_hard_not_3_0_4_bucket": true
+  },
+  "sample_policy_contract": {
+    "sample_policy": "sequential",
+    "seed": 42,
+    "bucket_filter": "all",
+    "max_test_samples": 10000,
+    "selected_sample_ids": [
+      "c68476446a5166b5",
+      "38973e4903313f76",
+      "6e8b0b1883e28b1d",
+      "210149a17c977c3e",
+      "f33b23a7749b69d7",
+      "426da21a5f23cf00",
+      "0a9afd8858b9e55f",
+      "f655ced97cd4b87f",
+      "7647ac3cb3fc0de2",
+      "35c97f64668a6c77",
+      "f7b850066d77a0c7",
+      "605c8ccc40c2ba4a",
+      "9820f44e20accd0a",
+      "a335e50125df7459",
+      "5a787bdb2f67d2e7",
+      "ff3693049b9bd8ec",
+      "c7bfa182dbd8cbbd",
+      "2bdabcb1f8db4ef8",
+      "9a1e22124e52e375",
+      "1426916b2571a858",
+      "c49e201d8b15d665",
+      "f483c2b5b16c4478",
+      "c7dd36eebe3b7ae4",
+      "c961270760a0c700",
+      "e849fc9c41fa3146",
+      "e24995cdb72a0467",
+      "9c0976ac17a4ce09",
+      "21070eaaa9e0a452",
+      "5eede0347a2e825b",
+      "ea5b0a04a4cf3684",
+      "1baa548be218354e",
+      "129ea3c3a5205311",
+      "fba94b4d9cbbd11d",
+      "82a785d66c6e47c2",
+      "aaae78c0a7860a5b",
+      "5af97404f058b480",
+      "a189ceedc93231d5",
+      "25a47db61fced664",
+      "16d394d2613b83e1",
+      "964b1af8bbfa5028",
+      "fb8af3ef1658588c",
+      "5ae51e7b9ab52cec",
+      "a6113b16a48f892e",
+      "0e58f6419a0aff3d",
+      "ddd6067e438573fe",
+      "340ac1a0a4ad4fb7",
+      "759192935247f850",
+      "ecdfe3a3e7639674",
+      "d51468027a3e8a59",
+      "a363dad05cd33849",
+      "4cb282afd136086c",
+      "f3c3d30a7679dbae",
+      "514fddb2e358ebc7",
+      "2ad9dbc77cf4dfff",
+      "e112b0f9691aeaca",
+      "b66f994d6f789a71",
+      "c25e750c9540a936",
+      "1c5c1ed256a41423",
+      "6021f7c576e0466f",
+      "2bf3cc4d418ccb4b",
+      "893d6b68f84e286d",
+      "712672f4a66be80a",
+      "d69502dcf23e2d65",
+      "a6d0c983e649eb47"
+    ]
+  },
+  "v2_previous_adapter_note": "not applicable to v1; v2 extdata_v1 shuffled records then cycled provider calls. This v1 test selects records explicitly by split/filter.",
+  "counts": {
+    "candidate_records": 64,
+    "selected_records": 64
+  }
+}

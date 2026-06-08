@@ -1,0 +1,810 @@
+{
+  "num_candidate_records": 4967,
+  "num_filter_pass_records": 693,
+  "num_selected_records": 100,
+  "num_skipped_records": 0,
+  "skip_reasons": {},
+  "skipped_examples": [],
+  "selected_records": [
+    {
+      "sample_id": "item_000002_trial_000002_00_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 23,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 297, 'target_prob': 0.059375, 'handdraw_count': 4, 'count_before': 0, 'count_after': 1}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000007_trial_000008_05_pure_tbi",
+      "split": "test",
+      "difficulty": "out_of_range",
+      "bfs_len": 3,
+      "target_bucket": "{'status': 'unobserved_possible', 'target_quota': 6, 'target_prob': 0.0012195121951219512, 'handdraw_count': 0, 'count_before': 0, 'count_after': 1}",
+      "source": "room_biased_generator"
+    },
+    {
+      "sample_id": "item_000010_trial_000010_01_spb",
+      "split": "test",
+      "difficulty": "easy",
+      "bfs_len": 6,
+      "target_bucket": "{'status': 'unobserved_possible', 'target_quota': 6, 'target_prob': 0.0012195121951219512, 'handdraw_count': 0, 'count_before': 0, 'count_after': 1}",
+      "source": "room_biased_generator"
+    },
+    {
+      "sample_id": "seed000011_step0",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 23,
+      "target_bucket": "{'status': 'unobserved_possible', 'target_quota': 6, 'target_prob': 0.0012195121951219512, 'handdraw_count': 0, 'count_before': 0, 'count_after': 1}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000011_trial_000011_02_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 23,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 297, 'target_prob': 0.059375, 'handdraw_count': 4, 'count_before': 1, 'count_after': 2}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000014_trial_000014_02_stage_clo",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 13,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 74, 'target_prob': 0.01484375, 'handdraw_count': 1, 'count_before': 3, 'count_after': 4}",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_000015_trial_000015_00_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 27,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 297, 'target_prob': 0.059375, 'handdraw_count': 4, 'count_before': 3, 'count_after': 4}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000017_trial_000017_04_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 26,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 297, 'target_prob': 0.059375, 'handdraw_count': 4, 'count_before': 3, 'count_after': 4}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000018_trial_000022_01_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 20,
+      "target_bucket": "{'status': 'unobserved_possible', 'target_quota': 6, 'target_prob': 0.0012195121951219512, 'handdraw_count': 0, 'count_before': 3, 'count_after': 4}",
+      "source": "dfs_tree_generator"
+    },
+    {
+      "sample_id": "item_000032_trial_000032_01_spb",
+      "split": "test",
+      "difficulty": "easy",
+      "bfs_len": 6,
+      "target_bucket": "{'status': 'unobserved_possible', 'target_quota': 6, 'target_prob': 0.0012195121951219512, 'handdraw_count': 0, 'count_before': 0, 'count_after': 1}",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_000041_trial_000041_02_spb",
+      "split": "test",
+      "difficulty": "easy",
+      "bfs_len": 7,
+      "target_bucket": "{'status': 'unobserved_possible', 'target_quota': 6, 'target_prob': 0.0012195121951219512, 'handdraw_count': 0, 'count_before': 2, 'count_after': 3}",
+      "source": "room_biased_generator"
+    },
+    {
+      "sample_id": "item_000051_trial_000051_00_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 297, 'target_prob': 0.059375, 'handdraw_count': 4, 'count_before': 11, 'count_after': 12}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000063_trial_000063_03_pure_tbi",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 16,
+      "target_bucket": "{'status': 'unobserved_possible', 'target_quota': 6, 'target_prob': 0.0012195121951219512, 'handdraw_count': 0, 'count_before': 3, 'count_after': 4}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000064_trial_000064_00_spb",
+      "split": "test",
+      "difficulty": "easy",
+      "bfs_len": 6,
+      "target_bucket": "{'status': 'unobserved_possible', 'target_quota': 6, 'target_prob': 0.0012195121951219512, 'handdraw_count': 0, 'count_before': 4, 'count_after': 5}",
+      "source": "dfs_tree_generator"
+    },
+    {
+      "sample_id": "item_000064_trial_000069_00_pure_tbi",
+      "split": "test",
+      "difficulty": "easy",
+      "bfs_len": 6,
+      "target_bucket": "{'status': 'unobserved_possible', 'target_quota': 6, 'target_prob': 0.0012195121951219512, 'handdraw_count': 0, 'count_before': 5, 'count_after': 6}",
+      "source": "dfs_tree_generator"
+    },
+    {
+      "sample_id": "item_000081_trial_000081_04_spb",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 15,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 74, 'target_prob': 0.01484375, 'handdraw_count': 1, 'count_before': 6, 'count_after': 7}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000080_trial_000088_02_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 21,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 149, 'target_prob': 0.0296875, 'handdraw_count': 2, 'count_before': 5, 'count_after': 6}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000056_trial_000093_01_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 28,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 149, 'target_prob': 0.0296875, 'handdraw_count': 2, 'count_before': 6, 'count_after': 7}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "seed000096_step0",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 26,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 297, 'target_prob': 0.059375, 'handdraw_count': 4, 'count_before': 22, 'count_after': 23}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000100_trial_000100_01_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 21,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 297, 'target_prob': 0.059375, 'handdraw_count': 4, 'count_before': 26, 'count_after': 27}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "seed000114_step0",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 17,
+      "target_bucket": "{'status': 'unobserved_possible', 'target_quota': 6, 'target_prob': 0.0012195121951219512, 'handdraw_count': 0, 'count_before': 3, 'count_after': 4}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000081_trial_000118_04_spb",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 15,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 74, 'target_prob': 0.01484375, 'handdraw_count': 1, 'count_before': 10, 'count_after': 11}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000166_trial_000166_04_spb",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 13,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 594, 'target_prob': 0.11875, 'handdraw_count': 8, 'count_before': 11, 'count_after': 12}",
+      "source": "dfs_tree_generator"
+    },
+    {
+      "sample_id": "item_000166_trial_000166_05_pure_tbi",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 13,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 594, 'target_prob': 0.11875, 'handdraw_count': 8, 'count_before': 12, 'count_after': 13}",
+      "source": "dfs_tree_generator"
+    },
+    {
+      "sample_id": "item_000171_trial_000171_01_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 297, 'target_prob': 0.059375, 'handdraw_count': 4, 'count_before': 34, 'count_after': 35}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000174_trial_000174_02_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 26,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 149, 'target_prob': 0.0296875, 'handdraw_count': 2, 'count_before': 17, 'count_after': 18}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000177_trial_000188_05_pure_tbi",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 11,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 446, 'target_prob': 0.08906249999999999, 'handdraw_count': 6, 'count_before': 0, 'count_after': 1}",
+      "source": "dfs_tree_generator"
+    },
+    {
+      "sample_id": "item_000130_trial_000193_05_spb",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 17,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 75, 'target_prob': 0.01484375, 'handdraw_count': 1, 'count_before': 0, 'count_after': 1}",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_000200_trial_000200_01_spb",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 12,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 74, 'target_prob': 0.01484375, 'handdraw_count': 1, 'count_before': 14, 'count_after': 15}",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_000200_trial_000200_02_spb",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 14,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 74, 'target_prob': 0.01484375, 'handdraw_count': 1, 'count_before': 15, 'count_after': 16}",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_000130_trial_000204_01_random",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 17,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 75, 'target_prob': 0.01484375, 'handdraw_count': 1, 'count_before': 0, 'count_after': 1}",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_000182_trial_000219_00_spb",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 11,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 594, 'target_prob': 0.11875, 'handdraw_count': 8, 'count_before': 22, 'count_after': 23}",
+      "source": "dfs_tree_generator"
+    },
+    {
+      "sample_id": "item_000208_trial_000237_00_spb",
+      "split": "test",
+      "difficulty": "easy",
+      "bfs_len": 9,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 74, 'target_prob': 0.01484375, 'handdraw_count': 1, 'count_before': 2, 'count_after': 3}",
+      "source": "dfs_tree_generator"
+    },
+    {
+      "sample_id": "item_000241_trial_000241_03_pure_tbi",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 14,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 74, 'target_prob': 0.01484375, 'handdraw_count': 1, 'count_before': 22, 'count_after': 23}",
+      "source": "dfs_tree_generator"
+    },
+    {
+      "sample_id": "item_000125_trial_000243_02_stage_clo",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 14,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 74, 'target_prob': 0.01484375, 'handdraw_count': 1, 'count_before': 23, 'count_after': 24}",
+      "source": "dfs_tree_generator"
+    },
+    {
+      "sample_id": "item_000269_trial_000269_03_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 19,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 594, 'target_prob': 0.11875, 'handdraw_count': 8, 'count_before': 25, 'count_after': 26}",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_000280_trial_000280_00_pure_tbi",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 15,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 74, 'target_prob': 0.01484375, 'handdraw_count': 1, 'count_before': 29, 'count_after': 30}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000281_trial_000281_00_spb",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 11,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 594, 'target_prob': 0.11875, 'handdraw_count': 8, 'count_before': 28, 'count_after': 29}",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_000282_trial_000282_03_pure_tbi",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 13,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 594, 'target_prob': 0.11875, 'handdraw_count': 8, 'count_before': 31, 'count_after': 32}",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_000205_trial_000284_00_stage_clo",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 16,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 594, 'target_prob': 0.11875, 'handdraw_count': 8, 'count_before': 32, 'count_after': 33}",
+      "source": "dfs_tree_generator"
+    },
+    {
+      "sample_id": "item_000310_trial_000310_02_spb",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 14,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 594, 'target_prob': 0.11875, 'handdraw_count': 8, 'count_before': 36, 'count_after': 37}",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_000312_trial_000315_00_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 24,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 149, 'target_prob': 0.0296875, 'handdraw_count': 2, 'count_before': 28, 'count_after': 29}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000316_trial_000316_02_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 28,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 297, 'target_prob': 0.059375, 'handdraw_count': 4, 'count_before': 62, 'count_after': 63}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000321_trial_000321_01_spb",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 18,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 74, 'target_prob': 0.01484375, 'handdraw_count': 1, 'count_before': 35, 'count_after': 36}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000326_trial_000326_00_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 297, 'target_prob': 0.059375, 'handdraw_count': 4, 'count_before': 11, 'count_after': 12}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000336_trial_000336_00_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 23,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 297, 'target_prob': 0.059375, 'handdraw_count': 4, 'count_before': 65, 'count_after': 66}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000336_trial_000336_02_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 23,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 297, 'target_prob': 0.059375, 'handdraw_count': 4, 'count_before': 66, 'count_after': 67}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "seed000349_step0",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 23,
+      "target_bucket": "{'status': 'unobserved_possible', 'target_quota': 6, 'target_prob': 0.0012195121951219512, 'handdraw_count': 0, 'count_before': 0, 'count_after': 1}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000350_trial_000350_00_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 297, 'target_prob': 0.059375, 'handdraw_count': 4, 'count_before': 14, 'count_after': 15}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000350_trial_000350_02_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 297, 'target_prob': 0.059375, 'handdraw_count': 4, 'count_before': 73, 'count_after': 74}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000360_trial_000360_02_spb",
+      "split": "test",
+      "difficulty": "easy",
+      "bfs_len": 8,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 74, 'target_prob': 0.01484375, 'handdraw_count': 1, 'count_before': 6, 'count_after': 7}",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_000360_trial_000360_04_spb",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 16,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 446, 'target_prob': 0.08906249999999999, 'handdraw_count': 6, 'count_before': 5, 'count_after': 6}",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_000399_trial_000399_01_spb",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 12,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 74, 'target_prob': 0.01484375, 'handdraw_count': 1, 'count_before': 41, 'count_after': 42}",
+      "source": "dfs_tree_generator"
+    },
+    {
+      "sample_id": "item_000405_trial_000405_05_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 21,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 297, 'target_prob': 0.059375, 'handdraw_count': 4, 'count_before': 94, 'count_after': 95}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000410_trial_000410_00_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 23,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 297, 'target_prob': 0.059375, 'handdraw_count': 4, 'count_before': 99, 'count_after': 100}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000425_trial_000425_01_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 24,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 297, 'target_prob': 0.059375, 'handdraw_count': 4, 'count_before': 107, 'count_after': 108}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000436_trial_000436_01_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 297, 'target_prob': 0.059375, 'handdraw_count': 4, 'count_before': 20, 'count_after': 21}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000379_trial_000444_05_pure_tbi",
+      "split": "test",
+      "difficulty": "easy",
+      "bfs_len": 8,
+      "target_bucket": "{'status': 'unobserved_possible', 'target_quota': 6, 'target_prob': 0.0012195121951219512, 'handdraw_count': 0, 'count_before': 3, 'count_after': 4}",
+      "source": "loose_path_first_generator"
+    },
+    {
+      "sample_id": "seed000452_step0",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 24,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 297, 'target_prob': 0.059375, 'handdraw_count': 4, 'count_before': 110, 'count_after': 111}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000452_trial_000452_00_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 24,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 297, 'target_prob': 0.059375, 'handdraw_count': 4, 'count_before': 111, 'count_after': 112}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000478_trial_000478_04_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 21,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 149, 'target_prob': 0.0296875, 'handdraw_count': 2, 'count_before': 49, 'count_after': 50}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000494_trial_000494_00_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 26,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 297, 'target_prob': 0.059375, 'handdraw_count': 4, 'count_before': 27, 'count_after': 28}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000436_trial_000498_01_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 297, 'target_prob': 0.059375, 'handdraw_count': 4, 'count_before': 4, 'count_after': 5}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000502_trial_000502_00_spb",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 12,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 594, 'target_prob': 0.11875, 'handdraw_count': 8, 'count_before': 44, 'count_after': 45}",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_000518_trial_000518_01_spb",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 14,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 594, 'target_prob': 0.11875, 'handdraw_count': 8, 'count_before': 46, 'count_after': 47}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000483_trial_000530_00_stage_clo",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 21,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 74, 'target_prob': 0.01484375, 'handdraw_count': 1, 'count_before': 9, 'count_after': 10}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000535_trial_000535_00_pure_tbi",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 13,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 74, 'target_prob': 0.01484375, 'handdraw_count': 1, 'count_before': 50, 'count_after': 51}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "seed000562_step0",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 21,
+      "target_bucket": "{'status': 'unobserved_possible', 'target_quota': 6, 'target_prob': 0.0012195121951219512, 'handdraw_count': 0, 'count_before': 5, 'count_after': 6}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000068_trial_000564_02_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 21,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 149, 'target_prob': 0.0296875, 'handdraw_count': 2, 'count_before': 52, 'count_after': 53}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000566_trial_000566_02_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 25,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 297, 'target_prob': 0.059375, 'handdraw_count': 4, 'count_before': 130, 'count_after': 131}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000574_trial_000574_01_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 26,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 297, 'target_prob': 0.059375, 'handdraw_count': 4, 'count_before': 132, 'count_after': 133}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "seed000586_step0",
+      "split": "test",
+      "difficulty": "out_of_range",
+      "bfs_len": 5,
+      "target_bucket": "{'status': 'unobserved_possible', 'target_quota': 6, 'target_prob': 0.0012195121951219512, 'handdraw_count': 0, 'count_before': 4, 'count_after': 5}",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_000608_trial_000608_01_spb",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 11,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 74, 'target_prob': 0.01484375, 'handdraw_count': 1, 'count_before': 64, 'count_after': 65}",
+      "source": "dfs_tree_generator"
+    },
+    {
+      "sample_id": "item_000614_trial_000614_04_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 23,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 149, 'target_prob': 0.0296875, 'handdraw_count': 2, 'count_before': 55, 'count_after': 56}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000627_trial_000627_00_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 24,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 297, 'target_prob': 0.059375, 'handdraw_count': 4, 'count_before': 143, 'count_after': 144}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000630_trial_000630_01_pure_tbi",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 16,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 74, 'target_prob': 0.01484375, 'handdraw_count': 1, 'count_before': 68, 'count_after': 69}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000649_trial_000649_00_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 297, 'target_prob': 0.059375, 'handdraw_count': 4, 'count_before': 146, 'count_after': 147}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000649_trial_000649_02_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 149, 'target_prob': 0.0296875, 'handdraw_count': 2, 'count_before': 60, 'count_after': 61}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000664_trial_000664_02_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 21,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 297, 'target_prob': 0.059375, 'handdraw_count': 4, 'count_before': 152, 'count_after': 153}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000665_trial_000665_05_pure_tbi",
+      "split": "test",
+      "difficulty": "out_of_range",
+      "bfs_len": 4,
+      "target_bucket": "{'status': 'unobserved_possible', 'target_quota': 6, 'target_prob': 0.0012195121951219512, 'handdraw_count': 0, 'count_before': 1, 'count_after': 2}",
+      "source": "loose_path_first_generator"
+    },
+    {
+      "sample_id": "item_000667_trial_000667_03_pure_tbi",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 13,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 74, 'target_prob': 0.01484375, 'handdraw_count': 1, 'count_before': 72, 'count_after': 73}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000667_trial_000667_04_pure_tbi",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 13,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 594, 'target_prob': 0.11875, 'handdraw_count': 8, 'count_before': 58, 'count_after': 59}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000694_trial_000694_03_spb",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 12,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 371, 'target_prob': 0.07421875, 'handdraw_count': 5, 'count_before': 1, 'count_after': 2}",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_000694_trial_000694_04_pure_tbi",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 12,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 371, 'target_prob': 0.07421875, 'handdraw_count': 5, 'count_before': 2, 'count_after': 3}",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_000714_trial_000714_00_spb",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 12,
+      "target_bucket": "{'status': 'unobserved_possible', 'target_quota': 6, 'target_prob': 0.0012195121951219512, 'handdraw_count': 0, 'count_before': 2, 'count_after': 3}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000716_trial_000716_02_stage_clo",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 11,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 594, 'target_prob': 0.11875, 'handdraw_count': 8, 'count_before': 67, 'count_after': 68}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000731_trial_000731_01_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 28,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 149, 'target_prob': 0.0296875, 'handdraw_count': 2, 'count_before': 64, 'count_after': 65}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000731_trial_000731_05_random",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 24,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 297, 'target_prob': 0.059375, 'handdraw_count': 4, 'count_before': 35, 'count_after': 36}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000740_trial_000740_00_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 19,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 75, 'target_prob': 0.01484375, 'handdraw_count': 1, 'count_before': 7, 'count_after': 8}",
+      "source": "random_wall_generator"
+    },
+    {
+      "sample_id": "item_000742_trial_000742_03_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 26,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 149, 'target_prob': 0.0296875, 'handdraw_count': 2, 'count_before': 66, 'count_after': 67}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000722_trial_000750_03_spb",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 12,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 75, 'target_prob': 0.01484375, 'handdraw_count': 1, 'count_before': 2, 'count_after': 3}",
+      "source": "dfs_tree_generator"
+    },
+    {
+      "sample_id": "item_000781_trial_000781_04_spb",
+      "split": "test",
+      "difficulty": "medium",
+      "bfs_len": 14,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 75, 'target_prob': 0.01484375, 'handdraw_count': 1, 'count_before': 11, 'count_after': 12}",
+      "source": "room_biased_generator"
+    },
+    {
+      "sample_id": "item_000783_trial_000783_00_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 24,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 297, 'target_prob': 0.059375, 'handdraw_count': 4, 'count_before': 175, 'count_after': 176}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000645_trial_000793_05_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 24,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 297, 'target_prob': 0.059375, 'handdraw_count': 4, 'count_before': 36, 'count_after': 37}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "seed000798_step0",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 297, 'target_prob': 0.059375, 'handdraw_count': 4, 'count_before': 177, 'count_after': 178}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000798_trial_000798_01_spb",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 22,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 297, 'target_prob': 0.059375, 'handdraw_count': 4, 'count_before': 178, 'count_after': 179}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000822_trial_000822_02_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 23,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 297, 'target_prob': 0.059375, 'handdraw_count': 4, 'count_before': 184, 'count_after': 185}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "seed000824_step0",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 28,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 297, 'target_prob': 0.059375, 'handdraw_count': 4, 'count_before': 185, 'count_after': 186}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000824_trial_000824_03_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 28,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 149, 'target_prob': 0.0296875, 'handdraw_count': 2, 'count_before': 72, 'count_after': 73}",
+      "source": "sfg_generator"
+    },
+    {
+      "sample_id": "item_000826_trial_000826_00_pure_tbi",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 25,
+      "target_bucket": "{'status': 'handdraw_observed', 'target_quota': 297, 'target_prob': 0.059375, 'handdraw_count': 4, 'count_before': 187, 'count_after': 188}",
+      "source": "sfg_generator"
+    }
+  ]
+}

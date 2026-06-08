@@ -1,0 +1,8 @@
+{"maze_id": 0, "difficulty": "hard", "bfs_len": 25, "success": true, "outcome": "success", "steps": 60, "wall_hits": 1, "bfs_gap": 35}
+{"maze_id": 1, "difficulty": "medium", "bfs_len": 12, "success": true, "outcome": "success", "steps": 28, "wall_hits": 0, "bfs_gap": 16}
+{"maze_id": 2, "difficulty": "hard", "bfs_len": 27, "success": false, "outcome": "wall_timeout", "steps": 64, "wall_hits": 1, "bfs_gap": 92}
+{"maze_id": 3, "difficulty": "hard", "bfs_len": 19, "success": false, "outcome": "stuck_timeout", "steps": 64, "wall_hits": 0, "bfs_gap": 77}
+{"maze_id": 0, "difficulty": "hard", "bfs_len": 25, "success": false, "outcome": "stuck_timeout", "steps": 64, "wall_hits": 0, "bfs_gap": 75}
+{"maze_id": 1, "difficulty": "medium", "bfs_len": 12, "success": true, "outcome": "success", "steps": 28, "wall_hits": 0, "bfs_gap": 16}
+{"maze_id": 2, "difficulty": "hard", "bfs_len": 27, "success": false, "outcome": "stuck_timeout", "steps": 64, "wall_hits": 0, "bfs_gap": 93}
+{"maze_id": 3, "difficulty": "hard", "bfs_len": 19, "success": false, "outcome": "wall_timeout", "steps": 64, "wall_hits": 33, "bfs_gap": 78}

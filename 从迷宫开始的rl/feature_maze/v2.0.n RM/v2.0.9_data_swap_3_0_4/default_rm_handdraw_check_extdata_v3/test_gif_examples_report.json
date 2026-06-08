@@ -1,0 +1,77 @@
+{
+  "output_dir": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v2.0.n RM\\v2.0.9_data_swap_3_0_4\\default_rm_handdraw_check_extdata_v3\\test_gif_examples",
+  "saved": [
+    {
+      "status": "SAVED",
+      "path": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v2.0.n RM\\v2.0.9_data_swap_3_0_4\\default_rm_handdraw_check_extdata_v3\\test_gif_examples\\001_bfs_tiebreak_hard_success_f32256e053af0044_success.gif",
+      "n_frames": 61,
+      "success": true,
+      "failure_type": "success",
+      "sample_id": "f32256e053af0044"
+    },
+    {
+      "status": "SAVED",
+      "path": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v2.0.n RM\\v2.0.9_data_swap_3_0_4\\default_rm_handdraw_check_extdata_v3\\test_gif_examples\\002_bfs_tiebreak_medium_success_a706137fa2aae981_success.gif",
+      "n_frames": 29,
+      "success": true,
+      "failure_type": "success",
+      "sample_id": "a706137fa2aae981"
+    },
+    {
+      "status": "SAVED",
+      "path": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v2.0.n RM\\v2.0.9_data_swap_3_0_4\\default_rm_handdraw_check_extdata_v3\\test_gif_examples\\003_bfs_tiebreak_hard_failure_8c40f94080d8e60d_wall_timeout.gif",
+      "n_frames": 65,
+      "success": false,
+      "failure_type": "wall_timeout",
+      "sample_id": "8c40f94080d8e60d"
+    },
+    {
+      "status": "SAVED",
+      "path": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v2.0.n RM\\v2.0.9_data_swap_3_0_4\\default_rm_handdraw_check_extdata_v3\\test_gif_examples\\004_bfs_tiebreak_hard_failure_4332d911fe7481d4_stuck_timeout.gif",
+      "n_frames": 65,
+      "success": false,
+      "failure_type": "stuck_timeout",
+      "sample_id": "4332d911fe7481d4"
+    },
+    {
+      "status": "SAVED",
+      "path": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v2.0.n RM\\v2.0.9_data_swap_3_0_4\\default_rm_handdraw_check_extdata_v3\\test_gif_examples\\005_pure_argmax_hard_failure_f32256e053af0044_stuck_timeout.gif",
+      "n_frames": 65,
+      "success": false,
+      "failure_type": "stuck_timeout",
+      "sample_id": "f32256e053af0044"
+    },
+    {
+      "status": "SAVED",
+      "path": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v2.0.n RM\\v2.0.9_data_swap_3_0_4\\default_rm_handdraw_check_extdata_v3\\test_gif_examples\\006_pure_argmax_medium_success_a706137fa2aae981_success.gif",
+      "n_frames": 29,
+      "success": true,
+      "failure_type": "success",
+      "sample_id": "a706137fa2aae981"
+    },
+    {
+      "status": "SAVED",
+      "path": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v2.0.n RM\\v2.0.9_data_swap_3_0_4\\default_rm_handdraw_check_extdata_v3\\test_gif_examples\\007_pure_argmax_hard_failure_8c40f94080d8e60d_stuck_timeout.gif",
+      "n_frames": 65,
+      "success": false,
+      "failure_type": "stuck_timeout",
+      "sample_id": "8c40f94080d8e60d"
+    },
+    {
+      "status": "SAVED",
+      "path": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v2.0.n RM\\v2.0.9_data_swap_3_0_4\\default_rm_handdraw_check_extdata_v3\\test_gif_examples\\008_pure_argmax_hard_failure_4332d911fe7481d4_wall_timeout.gif",
+      "n_frames": 65,
+      "success": false,
+      "failure_type": "wall_timeout",
+      "sample_id": "4332d911fe7481d4"
+    }
+  ],
+  "n_saved": 8,
+  "selection_report": {
+    "policy": "all_examples",
+    "reason": "handdraw test outputs every rollout GIF",
+    "selected_total": 8,
+    "available_total": 8
+  },
+  "note": "GIFs are diagnostic visualization artifacts only; they do not change metrics or labels."
+}

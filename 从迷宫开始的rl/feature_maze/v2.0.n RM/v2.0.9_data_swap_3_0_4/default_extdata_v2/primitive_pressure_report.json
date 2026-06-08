@@ -1,0 +1,77 @@
+{
+  "by_scope": {
+    "global": {
+      "toward": 0.012688976614767668,
+      "away": -0.0054065326196587335,
+      "wall": -0.0072824439951089314,
+      "visit": -0.016435372288737767
+    },
+    "local": {
+      "toward": 0.1880168136588046,
+      "away": -0.14309266559440117,
+      "wall": -0.04492414806440343,
+      "visit": -0.00969184267435483
+    },
+    "total": {
+      "toward": 0.20070579027357227,
+      "away": -0.1484991982140599,
+      "wall": -0.05220659205951236,
+      "visit": -0.026127214963092595
+    }
+  },
+  "rows": {
+    "toward": {
+      "primitive": "toward",
+      "global_value": 0.012688976614767668,
+      "local_value": 0.1880168136588046,
+      "total": 0.20070579027357227,
+      "target_note": "desired positive"
+    },
+    "away": {
+      "primitive": "away",
+      "global_value": -0.0054065326196587335,
+      "local_value": -0.14309266559440117,
+      "total": -0.1484991982140599,
+      "target_note": "desired near-neutral or mildly negative"
+    },
+    "wall": {
+      "primitive": "wall",
+      "global_value": -0.0072824439951089314,
+      "local_value": -0.04492414806440343,
+      "total": -0.05220659205951236,
+      "target_note": "desired negative"
+    },
+    "visit": {
+      "primitive": "visit",
+      "global_value": -0.016435372288737767,
+      "local_value": -0.00969184267435483,
+      "total": -0.026127214963092595,
+      "target_note": "desired mildly negative"
+    },
+    "toward-away": {
+      "primitive": "toward-away",
+      "global_value": null,
+      "local_value": null,
+      "total": 0.34920498848763215,
+      "target_note": "desired positive"
+    },
+    "away-wall": {
+      "primitive": "away-wall",
+      "global_value": null,
+      "local_value": null,
+      "total": -0.09629260615454754,
+      "target_note": "desired positive"
+    },
+    "absWall-absVisit": {
+      "primitive": "absWall-absVisit",
+      "global_value": null,
+      "local_value": null,
+      "total": 0.02607937709641977,
+      "target_note": "desired positive"
+    }
+  },
+  "notes": [
+    "away-wall is below desired margin-like separation in semantic pressure; check reward probe before tuning.",
+    "absWall-absVisit is small; visit and wall pressures may be close."
+  ]
+}

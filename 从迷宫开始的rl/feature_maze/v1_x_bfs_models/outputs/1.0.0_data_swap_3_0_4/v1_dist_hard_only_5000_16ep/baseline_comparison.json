@@ -1,0 +1,18 @@
+{
+  "old_baseline_path": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v1_x_bfs_models\\outputs\\1.0.0\\default",
+  "new_data_run_path": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v1_x_bfs_models\\outputs\\1.0.0_data_swap_3_0_4\\v1_dist_hard_only_5000_16ep",
+  "comparable_metrics": [
+    "action_accuracy_hard_label",
+    "action_accuracy_best_action_set",
+    "valid_action_rate",
+    "wall_action_rate",
+    "rollout_success_rate",
+    "shortest_path_success_rate",
+    "avg_bfs_gap",
+    "avg_wall_hits",
+    "avg_steps"
+  ],
+  "non_comparable_metrics": [],
+  "non_comparable_reasons": {},
+  "note": "This file records paths and metric names only. It does not claim improvement without an independent review."
+}

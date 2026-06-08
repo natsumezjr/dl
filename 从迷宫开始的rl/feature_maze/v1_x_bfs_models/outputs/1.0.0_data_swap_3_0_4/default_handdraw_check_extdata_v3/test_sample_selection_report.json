@@ -1,0 +1,42 @@
+{
+  "num_candidate_records": 4,
+  "num_filter_pass_records": 4,
+  "num_selected_records": 4,
+  "num_skipped_records": 0,
+  "skip_reasons": {},
+  "skipped_examples": [],
+  "selected_records": [
+    {
+      "sample_id": "f32256e053af0044",
+      "split": "train",
+      "difficulty": "hard",
+      "bfs_len": 25,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "a706137fa2aae981",
+      "split": "train",
+      "difficulty": "medium",
+      "bfs_len": 12,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "8c40f94080d8e60d",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 27,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    },
+    {
+      "sample_id": "4332d911fe7481d4",
+      "split": "test",
+      "difficulty": "hard",
+      "bfs_len": 19,
+      "target_bucket": "unavailable",
+      "source": "unavailable"
+    }
+  ]
+}

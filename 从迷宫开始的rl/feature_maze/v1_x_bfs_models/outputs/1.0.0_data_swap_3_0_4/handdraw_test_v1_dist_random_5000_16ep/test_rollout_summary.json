@@ -1,0 +1,17 @@
+{
+  "num_tested_records": 64,
+  "rollout_success_rate": 0.171875,
+  "shortest_path_success_rate": 0.109375,
+  "avg_bfs_gap": 13.015625,
+  "median_bfs_gap": 12.0,
+  "wall_action_rate": 0.12022630834512023,
+  "avg_wall_hits": 6.640625,
+  "avg_steps": 55.234375,
+  "loop_timeout_count": 46,
+  "failure_type_breakdown": {
+    "loop_timeout": 46,
+    "success": 11,
+    "wall_timeout": 6,
+    "away_timeout": 1
+  }
+}

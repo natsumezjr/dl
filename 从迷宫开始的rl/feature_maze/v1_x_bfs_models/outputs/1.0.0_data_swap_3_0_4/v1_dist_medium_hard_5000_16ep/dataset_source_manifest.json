@@ -1,0 +1,19 @@
+{
+  "dataset_path": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v3_0_maze_generation\\outputs\\3.0.4\\tda_qd_final_handdraw_quota_seed43\\confirmed_samples.jsonl",
+  "external_dataset_format": "jsonl",
+  "loaded_records": 4967,
+  "field_count": 18,
+  "selected_fields": {
+    "maze": "grid",
+    "start_pair": null,
+    "start_single": "start",
+    "goal_pair": null,
+    "goal_single": "goal",
+    "bucket": "target_bin",
+    "source": "origin_generator",
+    "split": null,
+    "id": "sample_id"
+  },
+  "read_only_policy": "input files are never modified",
+  "code_dependency_policy": "no v3 code import; file input only"
+}

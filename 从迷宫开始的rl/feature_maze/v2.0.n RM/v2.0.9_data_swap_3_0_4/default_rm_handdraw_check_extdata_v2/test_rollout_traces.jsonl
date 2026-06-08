@@ -1,0 +1,14 @@
+{"maze_id": 0, "difficulty": "medium", "bfs_len": 13, "success": true, "outcome": "success", "steps": 21, "wall_hits": 0, "bfs_gap": 8}
+{"maze_id": 1, "difficulty": "hard", "bfs_len": 21, "success": false, "outcome": "wall_timeout", "steps": 64, "wall_hits": 3, "bfs_gap": 80}
+{"maze_id": 2, "difficulty": "medium", "bfs_len": 15, "success": true, "outcome": "success", "steps": 15, "wall_hits": 0, "bfs_gap": 0}
+{"maze_id": 3, "difficulty": "medium", "bfs_len": 12, "success": true, "outcome": "success", "steps": 12, "wall_hits": 0, "bfs_gap": 0}
+{"maze_id": 4, "difficulty": "medium", "bfs_len": 13, "success": true, "outcome": "success", "steps": 31, "wall_hits": 2, "bfs_gap": 18}
+{"maze_id": 5, "difficulty": "medium", "bfs_len": 11, "success": true, "outcome": "success", "steps": 23, "wall_hits": 0, "bfs_gap": 12}
+{"maze_id": 6, "difficulty": "medium", "bfs_len": 12, "success": false, "outcome": "stuck_timeout", "steps": 64, "wall_hits": 0, "bfs_gap": 74}
+{"maze_id": 0, "difficulty": "medium", "bfs_len": 13, "success": true, "outcome": "success", "steps": 23, "wall_hits": 0, "bfs_gap": 10}
+{"maze_id": 1, "difficulty": "hard", "bfs_len": 21, "success": false, "outcome": "wall_timeout", "steps": 64, "wall_hits": 41, "bfs_gap": 88}
+{"maze_id": 2, "difficulty": "medium", "bfs_len": 15, "success": true, "outcome": "success", "steps": 15, "wall_hits": 0, "bfs_gap": 0}
+{"maze_id": 3, "difficulty": "medium", "bfs_len": 12, "success": true, "outcome": "success", "steps": 12, "wall_hits": 0, "bfs_gap": 0}
+{"maze_id": 4, "difficulty": "medium", "bfs_len": 13, "success": false, "outcome": "wall_timeout", "steps": 64, "wall_hits": 46, "bfs_gap": 77}
+{"maze_id": 5, "difficulty": "medium", "bfs_len": 11, "success": false, "outcome": "wall_timeout", "steps": 64, "wall_hits": 1, "bfs_gap": 78}
+{"maze_id": 6, "difficulty": "medium", "bfs_len": 12, "success": false, "outcome": "stuck_timeout", "steps": 64, "wall_hits": 0, "bfs_gap": 78}

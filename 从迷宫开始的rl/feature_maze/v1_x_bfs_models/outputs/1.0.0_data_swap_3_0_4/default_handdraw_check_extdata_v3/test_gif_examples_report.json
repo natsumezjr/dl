@@ -1,0 +1,45 @@
+{
+  "output_dir": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v1_x_bfs_models\\outputs\\1.0.0_data_swap_3_0_4\\default_handdraw_check_extdata_v3\\gif_examples",
+  "saved": [
+    {
+      "status": "SAVED",
+      "path": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v1_x_bfs_models\\outputs\\1.0.0_data_swap_3_0_4\\default_handdraw_check_extdata_v3\\gif_examples\\001_hard_failure_f32256e053af0044_loop_timeout.gif",
+      "n_frames": 65,
+      "success": false,
+      "failure_type": "loop_timeout",
+      "sample_id": "f32256e053af0044"
+    },
+    {
+      "status": "SAVED",
+      "path": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v1_x_bfs_models\\outputs\\1.0.0_data_swap_3_0_4\\default_handdraw_check_extdata_v3\\gif_examples\\002_medium_failure_a706137fa2aae981_loop_timeout.gif",
+      "n_frames": 65,
+      "success": false,
+      "failure_type": "loop_timeout",
+      "sample_id": "a706137fa2aae981"
+    },
+    {
+      "status": "SAVED",
+      "path": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v1_x_bfs_models\\outputs\\1.0.0_data_swap_3_0_4\\default_handdraw_check_extdata_v3\\gif_examples\\003_hard_failure_8c40f94080d8e60d_loop_timeout.gif",
+      "n_frames": 65,
+      "success": false,
+      "failure_type": "loop_timeout",
+      "sample_id": "8c40f94080d8e60d"
+    },
+    {
+      "status": "SAVED",
+      "path": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v1_x_bfs_models\\outputs\\1.0.0_data_swap_3_0_4\\default_handdraw_check_extdata_v3\\gif_examples\\004_hard_failure_4332d911fe7481d4_loop_timeout.gif",
+      "n_frames": 65,
+      "success": false,
+      "failure_type": "loop_timeout",
+      "sample_id": "4332d911fe7481d4"
+    }
+  ],
+  "n_saved": 4,
+  "selection_report": {
+    "policy": "all_examples",
+    "reason": "handdraw test outputs every rollout GIF",
+    "selected_total": 4,
+    "available_total": 4
+  },
+  "note": "GIFs are diagnostic visualization artifacts only; they do not change metrics or labels."
+}

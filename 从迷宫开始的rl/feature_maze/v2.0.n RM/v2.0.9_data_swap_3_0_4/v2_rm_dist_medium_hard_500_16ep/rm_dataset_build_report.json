@@ -1,0 +1,182 @@
+{
+  "external_unique_records_loaded": 500,
+  "generate_maze_calls_served_from_external": 1000,
+  "external_dataset_reuse_cycles": 1,
+  "unsolvable_records": 0,
+  "unsolvable_examples": [],
+  "served_difficulty_counts": {
+    "hard": 500,
+    "medium": 500
+  },
+  "old_generator_called": false,
+  "no_maze_repair": true,
+  "no_default_start_goal": true,
+  "no_fallback_corridor": true,
+  "served_examples": [
+    {
+      "sample_id": "item_000483_trial_000483_01_pure_tbi",
+      "bfs_len": 25,
+      "actual": "hard",
+      "target_bucket": "single_loop|long|mid_choice|mid_endpoint",
+      "source": "sfg_generator",
+      "split": "train"
+    },
+    {
+      "sample_id": "item_000130_trial_000204_01_random",
+      "bfs_len": 17,
+      "actual": "medium",
+      "target_bucket": "single_loop|medium|mid_choice|high_endpoint",
+      "source": "random_wall_generator",
+      "split": "test"
+    },
+    {
+      "sample_id": "item_000458_trial_000499_00_pure_tbi",
+      "bfs_len": 13,
+      "actual": "medium",
+      "target_bucket": "tree|medium|mid_choice|high_endpoint",
+      "source": "room_biased_generator",
+      "split": "validation"
+    },
+    {
+      "sample_id": "item_000582_trial_000582_03_pure_tbi",
+      "bfs_len": 14,
+      "actual": "medium",
+      "target_bucket": "multi_loop|medium|mid_choice|mid_endpoint",
+      "source": "dfs_tree_generator",
+      "split": "validation"
+    },
+    {
+      "sample_id": "item_000538_trial_000538_00_pure_tbi",
+      "bfs_len": 26,
+      "actual": "hard",
+      "target_bucket": "tree|long|low_choice|mid_endpoint",
+      "source": "sfg_generator",
+      "split": "train"
+    },
+    {
+      "sample_id": "item_000011_trial_000011_01_pure_tbi",
+      "bfs_len": 23,
+      "actual": "hard",
+      "target_bucket": "single_loop|long|mid_choice|mid_endpoint",
+      "source": "sfg_generator",
+      "split": "train"
+    },
+    {
+      "sample_id": "item_000282_trial_000282_01_spb",
+      "bfs_len": 13,
+      "actual": "medium",
+      "target_bucket": "multi_loop|medium|high_choice|mid_endpoint",
+      "source": "random_wall_generator",
+      "split": "train"
+    },
+    {
+      "sample_id": "item_000052_trial_000052_02_pure_tbi",
+      "bfs_len": 14,
+      "actual": "medium",
+      "target_bucket": "tree|medium|mid_choice|mid_endpoint",
+      "source": "sfg_generator",
+      "split": "train"
+    },
+    {
+      "sample_id": "item_000307_trial_000307_01_pure_tbi",
+      "bfs_len": 17,
+      "actual": "medium",
+      "target_bucket": "multi_loop|medium|mid_choice|mid_endpoint",
+      "source": "sfg_generator",
+      "split": "train"
+    },
+    {
+      "sample_id": "item_000415_trial_000415_02_pure_tbi",
+      "bfs_len": 17,
+      "actual": "medium",
+      "target_bucket": "multi_loop|medium|mid_choice|mid_endpoint",
+      "source": "sfg_generator",
+      "split": "train"
+    },
+    {
+      "sample_id": "item_000590_trial_000590_02_pure_tbi",
+      "bfs_len": 14,
+      "actual": "medium",
+      "target_bucket": "tree|medium|mid_choice|high_endpoint",
+      "source": "room_biased_generator",
+      "split": "train"
+    },
+    {
+      "sample_id": "item_000643_trial_004282_00_pure_tbi",
+      "bfs_len": 11,
+      "actual": "medium",
+      "target_bucket": "tree|medium|mid_choice|high_endpoint",
+      "source": "sfg_generator",
+      "split": "test"
+    },
+    {
+      "sample_id": "item_000558_trial_000558_01_pure_tbi",
+      "bfs_len": 26,
+      "actual": "hard",
+      "target_bucket": "tree|long|low_choice|mid_endpoint",
+      "source": "sfg_generator",
+      "split": "train"
+    },
+    {
+      "sample_id": "item_000349_trial_000349_05_spb",
+      "bfs_len": 23,
+      "actual": "hard",
+      "target_bucket": "single_loop|long|mid_choice|mid_endpoint",
+      "source": "sfg_generator",
+      "split": "train"
+    },
+    {
+      "sample_id": "item_000364_trial_000364_04_spb",
+      "bfs_len": 22,
+      "actual": "hard",
+      "target_bucket": "tree|long|low_choice|mid_endpoint",
+      "source": "sfg_generator",
+      "split": "train"
+    },
+    {
+      "sample_id": "item_000052_trial_000052_00_spb",
+      "bfs_len": 14,
+      "actual": "medium",
+      "target_bucket": "tree|medium|low_choice|mid_endpoint",
+      "source": "sfg_generator",
+      "split": "train"
+    },
+    {
+      "sample_id": "item_000512_trial_000512_01_pure_tbi",
+      "bfs_len": 19,
+      "actual": "hard",
+      "target_bucket": "multi_loop|medium|high_choice|mid_endpoint",
+      "source": "sfg_generator",
+      "split": "train"
+    },
+    {
+      "sample_id": "item_000606_trial_000606_02_pure_tbi",
+      "bfs_len": 21,
+      "actual": "hard",
+      "target_bucket": "single_loop|long|low_choice|mid_endpoint",
+      "source": "sfg_generator",
+      "split": "train"
+    },
+    {
+      "sample_id": "item_000439_trial_000439_00_pure_tbi",
+      "bfs_len": 21,
+      "actual": "hard",
+      "target_bucket": "multi_loop|long|mid_choice|low_endpoint",
+      "source": "sfg_generator",
+      "split": "train"
+    },
+    {
+      "sample_id": "item_000684_trial_000684_05_spb",
+      "bfs_len": 16,
+      "actual": "medium",
+      "target_bucket": "multi_loop|medium|high_choice|high_endpoint",
+      "source": "sfg_generator",
+      "split": "train"
+    }
+  ],
+  "pre_training_pressure_audit_status": "WARN_RED",
+  "train_distribution_policy": "medium_hard",
+  "train_distribution_report_path": "D:\\my_projects\\Abin\\learning\\从迷宫开始的rl\\feature_maze\\v2.0.n RM\\v2.0.9_data_swap_3_0_4\\v2_rm_dist_medium_hard_500_16ep\\train_distribution_report.json",
+  "pairs": 94623,
+  "status": "BUILT"
+}
